@@ -1,0 +1,52 @@
+﻿; AmbushEdge
+{AmbushEdge
+	label:<<ambush??待ち伏せ>>
+	description:待ち伏せ。
+	descriptionDialogue:敵勢力が近づく者を襲撃しようと待ち構えている
+}
+
+; AmbushHidden
+{AmbushHidden
+	label:<<ambush??待ち伏せ>>
+	description:待ち伏せ。
+	descriptionDialogue:敵勢力が近づく者を襲撃しようと待ち構えている
+}
+
+; Manhunters
+{Manhunters
+	label:_<manhunter pack>_
+	description:人を狩っている動物の群れ。
+	descriptionDialogue:彷徨いながら人を狩っている{1}の群れが{0}匹いる
+	arrivedLetter:ここには人狩り動物がいる。
+	arrivedLetterLabel:<<Manhunters??人狩り>>
+}
+
+; Outpost
+{Outpost
+	label:<<outpost??前哨基地>>
+	description:小規模な、護られている前哨基地。
+	descriptionDialogue:敵の前哨基地があり、{0}体の敵に守られている
+	approachOrderString:<<Attack {0}??{0} を攻撃>>
+	approachingReportString:<<Attacking {0}??{0} を攻撃している>>
+	arrivedLetter:ここには敵の前哨基地がある。
+	arrivedLetterLabel:<<Enemy outpost??敵の前哨基地>>
+}
+
+; SleepingMechanoids
+{SleepingMechanoids
+	label:<<sleeping mechanoids??休止状態の_[Mechanoid]_>>
+	description:休止状態の_[Mechanoid]_の一団。
+	descriptionDialogue:ここには休止状態の_[Mechanoid]_が{0}体いる
+	arrivedLetter:ここには敵対する休止状態の_[Mechanoid]_が何体かいる。\n\n_[Mechanoid]_に近づくと起きるかもしれないので、気を付けろ。
+	arrivedLetterLabel:<<Sleeping mechanoids??休止状態の_[Mechanoid]_>>
+}
+
+; Turrets
+{Turrets
+	label:_<turrets>_
+	description:いくつかの_<Turret>_。
+	; {0}には"A, B, and C"のような文字が入ってくる
+	descriptionDialogue:{0} に守られている
+	arrivedLetter:ここには敵の_<Turret>_がある。
+	arrivedLetterLabel:<<Enemy turrets??敵の_<Turret>_>>
+}

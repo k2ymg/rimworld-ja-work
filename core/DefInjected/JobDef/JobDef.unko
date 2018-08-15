@@ -1,0 +1,144 @@
+; Jobs_Animal
+Nuzzle.reportString:<<nuzzling TargetA.??TargetA に擦り寄っている。>>
+Mate.reportString:<<mating with TargetA.??TargetA と交尾している。>>
+LayEgg.reportString:<<laying egg.??産卵している。>>
+PredatorHunt.reportString:<<hunting TargetA.??TargetA を狩っている。>>
+;CompProperties_Maintainable 虫の巣の手入れ
+Maintain.reportString:<<maintaining TargetA.??TargetA を手入れしている。>>
+
+; Jobs_Caravan
+PrepareCaravan_GatherItems.reportString:<<gathering supplies.??荷物を集めている。>>
+PrepareCaravan_GatherPawns.reportString:<<preparing to leave.??出発準備をしている。>>
+
+; Jobs_Gatherings
+MarryAdjacentPawn.reportString:<<marrying TargetA.??TargetA と結婚式を挙げている。>>
+SpectateCeremony.reportString:<<spectating.??参加している。>>
+StandAndBeSociallyActive.reportString:<<relaxing socially.??くつろいでいる。>>
+
+; Jobs_Joy
+Skygaze.reportString:<<skygazing.??空を眺めている。>>
+Meditate.reportString:<<meditating.??瞑想している。>>
+Pray.reportString:<<praying.??祈っている。>>
+GoForWalk.reportString:<<going for a walk.??散歩している。>>
+BuildSnowman.reportString:<<building snowman.??雪ダルマを作っている。>>
+VisitGrave.reportString:<<visiting grave.??墓参りをしている。>>
+ViewArt.reportString:<<viewing art.??芸術を鑑賞している。>>
+SocialRelax.reportString:<<relaxing socially.??くつろいでいる。>>
+VisitSickPawn.reportString:<<cheering up patient TargetA.??TargetA を励ましている。>>
+Play_Horseshoes.reportString:<<playing horseshoes.??_[horseshoes]_で遊んでいる。>>
+Play_Hoopstone.reportString:<<playing hoopstone.??_[hoopstone]_で遊んでいる。>>
+Play_GameOfUr.reportString:<<playing the game of Ur.??_[the game of Ur]_で遊んでいる。>>
+Play_Chess.reportString:<<playing chess.??_[chess]_で遊んでいる。>>
+Play_Billiards.reportString:<<playing billiards.??_[billiards]_で遊んでいる。>>
+Play_Poker.reportString:<<playing poker.??_[poker]_で遊んでいる。>>
+WatchTelevision.reportString:<<watching television.??_[television]_を見ている。>>
+UseTelescope.reportString:<<using telescope.??_[telescope]_を覗いている。>>
+
+; Jobs_Misc
+Goto.reportString:<<moving.??移動している。>>
+Follow.reportString:<<following TargetA.??TargetA についていっている。>>
+FollowClose.reportString:<<following TargetA.??TargetA についていっている。>>
+GotoSafeTemperature.reportString:<<seeking safe temperature.??適温な場所を探している。>>
+GotoWander.reportString:<<wandering.??うろうろしている。>>
+Wait.reportString:<<standing.??ぼんやりしている。>>
+Wait_MaintainPosture.reportString:<<standing.??立っている。>>
+Wait_Downed.reportString:<<downed.??倒れている。>>
+Wait_SafeTemperature.reportString:<<waiting in safe temperature.??適温な場所でぼんやりしている。>>
+Wait_Wander.reportString:<<wandering.??うろうろしている。>>
+Wait_Combat.reportString:<<watching for targets.??対象を観察している。>>
+AttackStatic.reportString:<<attacking TargetA.??TargetA を攻撃している。>>
+AttackMelee.reportString:<<melee attacking TargetA.??TargetA と格闘している。>>
+SocialFight.reportString:<<fighting with TargetA.??TargetA とケンカしている。>>
+;UseVerbOnThing
+Equip.reportString:<<equipping TargetA.??TargetA を装備している。>>
+TakeInventory.reportString:<<taking TargetA.??TargetA を拾っている。>>
+;物を動物へ
+GiveToPackAnimal.reportString:<<taking TargetA.??TargetA を運んでいる。>>
+Wear.reportString:<<wearing TargetA.??TargetA を着ている。>>
+RemoveApparel.reportString:<<removing TargetA.??TargetA を脱いでいる。>>
+DropEquipment.reportString:<<dropping TargetA.??TargetA を捨てている。>>
+Strip.reportString:<<stripping TargetA.??TargetA を脱がしている。>>
+Open.reportString:<<opening TargetA.??TargetA を開けている。>>
+;RearmTrap.reportString:TargetA を再装填している。
+RearmTurret.reportString:<<rearming TargetA.??TargetA を再装填している。>>
+RearmTurretAtomic.reportString:<<rearming TargetA.??TargetA を再装填している。>>
+Refuel.reportString:<<refueling TargetA.??TargetA を補給している。>>
+RefuelAtomic.reportString:<<refueling TargetA.??TargetA を補給している。>>
+FillFermentingBarrel.reportString:<<filling TargetA.??TargetA に注いでいる。>>
+TakeBeerOutOfFermentingBarrel.reportString:<<taking beer out of TargetA.??TargetA から_[beer]_を汲み出している。>>
+UnloadInventory.reportString:<<unloading TargetA.??TargetA から荷下ろししている。>>
+UnloadYourInventory.reportString:<<unloading inventory.??荷物を下ろしている。>>
+ManTurret.reportString:<<operating turret.??_<Turret>_を操作している。>>
+EnterCryptosleepCasket.reportString:<<entering cryptosleep casket.??_[cryptosleep casket]_に入っている。>>
+UseNeurotrainer.reportString:<<using neurotrainer.??_[neurotrainer]_を使っている。>>
+UseArtifact.reportString:<<activating artifact.??アーティファクトを起動している。>>
+UseItem.reportString:<<using TargetA.??TargetA を使用している。>>
+TriggerFirefoamPopper.reportString:<<triggering firefoam popper.??_[firefoam popper]_を起動している。>>
+ClearSnow.reportString:<<clearing snow.??除雪している。>>
+Vomit.reportString:<<vomiting.??吐いている。>>
+Flick.reportString:<<flicking switch.??スイッチを操作している。>>
+TradeWithPawn.reportString:<<trading with TargetA.??TargetA と取引している。>>
+Flee.reportString:<<fleeing.??逃げている。>>
+FleeAndCower.reportString:<<fleeing.??逃げている。>>
+EnterTransporter.reportString:<<entering TargetA.??TargetA に乗り込んでいる。>>
+Resurrect.reportString:<<resurrecting TargetA.??TargetA を蘇生している。>>
+Insult.reportString:<<insulting TargetA.??TargetA を侮辱している。>>
+HaulCorpseToPublicPlace.reportString:<<hauling TargetA.??TargetA を運んでいる。>>
+InducePrisonerToEscape.reportString:<<inducing TargetA to escape.??TargetA に脱走をそそのかしている。>>
+Ignite.reportString:<<igniting TargetA.??TargetA に火を点けている。>>
+BeatFire.reportString:<<beating fire out.??火を消している。>>
+ExtinguishSelf.reportString:<<extinguishing self.??自分の火を消している。>>
+Ingest.reportString:<<consuming TargetA.??TargetA を食べている。>>
+LayDown.reportString:<<lying down.??横たわっている。>>
+Lovin.reportString:<<lovin'.??ウフフ、アハハ>>
+
+; Jobs_Work
+HaulToCell.reportString:<<hauling TargetA.??TargetA を運んでいる。>>
+HaulToContainer.reportString:<<hauling TargetA.??TargetA を運んでいる。>>
+Steal.reportString:<<stealing TargetA.??TargetA を盗んでいる。>>
+Kidnap.reportString:<<kidnapping TargetA.??TargetA を誘拐している。>>
+CarryDownedPawnToExit.reportString:<<carrying TargetA.??TargetA を担ぎ出している。>>
+Rescue.reportString:<<rescuing TargetA.??TargetA を救助している。>>
+CarryToCryptosleepCasket.reportString:<<carrying TargetA to cryptosleep casket.??TargetA を_[cryptosleep casket]_に担ぎ込んでいる。>>
+Capture.reportString:<<capturing TargetA.??TargetA を_{capturing}_している。>>
+Arrest.reportString:<<arresting TargetA.??TargetA を_{arresting}_している。>>
+ReleasePrisoner.reportString:<<releasing TargetA.??TargetA を解放している。>>
+EscortPrisonerToBed.reportString:<<escorting prisoner TargetA.??_<prisoner>_ TargetA を護送している。>>
+TakeWoundedPrisonerToBed.reportString:<<taking wounded prisoner TargetA.??_<prisoner>_ TargetA をベッドへ搬送している。>>
+TakeToBedToOperate.reportString:<<taking TargetA to bed.??TargetA をベッドへ搬送している。>>
+Slaughter.reportString:<<slaughtering TargetA.??TargetA を屠殺している。>>
+Milk.reportString:<<milking TargetA.??TargetA の乳を搾っている。>>
+Shear.reportString:<<shearing TargetA.??TargetA の毛を刈っている。>>
+Tame.reportString:<<taming TargetA.??TargetA を手懐けている。>>
+Train.reportString:<<training TargetA.??TargetA を訓練している。>>
+PlaceNoCostFrame.reportString:<<building TargetA.??TargetA を作っている。>>
+FinishFrame.reportString:<<building TargetA.??TargetA を作っている。>>
+Deconstruct.reportString:<<deconstructing TargetA.??TargetA を解体している。>>
+Uninstall.reportString:<<uninstalling TargetA.??TargetA を撤去している。>>
+Repair.reportString:<<repairing TargetA.??TargetA を補修している。>>
+FixBrokenDownBuilding.reportString:<<replacing broken components in TargetA.??TargetA の壊れた_[component]_を交換している。>>
+BuildRoof.reportString:<<building roof.??屋根を付けている>>
+RemoveRoof.reportString:<<removing roof.??屋根を外している。>>
+FeedPatient.reportString:<<feeding TargetA to TargetB.??TargetA を TargetB に与えている。>>
+TendPatient.reportString:<<tending to TargetA.??TargetA を看護している。>>
+DeliverFood.reportString:<<feeding TargetA to TargetB.??TargetA を TargetB に運んでいる。>>
+DoBill.reportString:<<doing bill at TargetA.??TargetA で作業している。>>
+OperateDeepDrill.reportString:<<drilling at TargetA.??TargetA で採掘している。>>
+OperateScanner.reportString:<<scanning at TargetA.??TargetA で探査している。>>
+Clean.reportString:<<cleaning TargetA.??TargetA を掃除している。>>
+Research.reportString:<<researching.??研究している。>>
+Hunt.reportString:<<hunting TargetA.??TargetA を狩っている。>>
+UseCommsConsole.reportString:<<using comms console.??通信している。>>
+Mine.reportString:<<digging at TargetA.??TargetA を採掘している。>>
+SmoothFloor.reportString:<<smoothing floor.??床をならしている。>>
+RemoveFloor.reportString:<<removing floor.??床を剥がしている。>>
+SmoothWall.reportString:<<smoothing wall.??壁をならしている。>>
+;「エリア を植えている」という意味不明なものが出る場合があるが、本体がクソなせい
+Sow.reportString:<<sowing TargetA.??TargetA を植えている。>>
+Harvest.reportString:<<harvesting TargetA.??TargetA を収穫している。>>
+HarvestDesignated.reportString:<<harvesting TargetA.??TargetA を収穫している。>>
+CutPlant.reportString:<<cutting TargetA.??TargetA を伐採している。>>
+CutPlantDesignated.reportString:<<cutting TargetA.??TargetA を伐採している。>>
+;PrisonerFriendlyChat.reportString:TargetA と話している。
+PrisonerAttemptRecruit.reportString:<<attempting to recruit TargetA.??TargetA を勧誘している。>>
+PrisonerExecution.reportString:<<executing TargetA.??TargetA を処刑している。>>

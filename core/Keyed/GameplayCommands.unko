@@ -1,0 +1,235 @@
+﻿CommandForbid:_<Forbid>_
+CommandForbiddenDesc:禁止 - _{colonists}_はこれと関わらない。
+CommandNotForbiddenDesc:許可 - _{colonists}_はこれと関われる。
+
+CommandTogglePowerLabel:<<Toggle power??電源>>
+CommandTogglePowerDesc:電源スイッチの切り替え。
+
+CommandDesignateTogglePowerLabel:<<Designate toggle power??電源>>
+CommandDesignateTogglePowerDesc:これの電源スイッチを操作するように指示する。しばらくすると_{colonists}_がスイッチを切り替える。
+
+CommandTryReconnectLabel:<<Reconnect??配線替え>>
+CommandTryReconnectDesc:接続範囲内にある別の電力網に切り替える。これは、停電している電力網に接続されているときに、近くに通電している電力網がある場合に便利。
+
+CommandGatherSpotToggleLabel:<<Gather spot??集合ポイント>>
+CommandGatherSpotToggleDescActive:有効 - _{colonists}_はこの周りに集まる。
+CommandGatherSpotToggleDescInactive:無効 - _{colonists}_はこの周りに集まらない。
+
+CommandDraftLabel:_<Draft>_
+; 未使用
+CommandUndraftLabel:_<Undraft>_
+CommandToggleDraftDesc:徴兵を切り替える。\n\n徴兵された人は命令を受けて戦う。作業、食事、休憩はしない。
+IsIncapped:{0} は歩けない。
+
+CommandFireAtWillLabel:<<Fire at will??発砲許可>>
+CommandFireAtWillDesc:発砲許可を切り替える。\n\n無効にすると、遠距離の敵へ自動的に射撃しなくなる。近接戦には影響しない。
+
+CommandClearPrioritizedWork:<<Clear prioritized work??優先作業をクリア>>
+CommandClearPrioritizedWorkDesc:指定された優先作業を止め、通常の自立行動へ戻る。
+
+CommandCancelConstructionLabel:<<Cancel??キャンセル>>
+CommandCancelConstructionDesc:建設を止める。
+
+CommandGetOutOfBedLabel:<<Get out of bed??起床>>
+CommandGetOutOfBedDesc:ベッドから起きる。
+
+CommandBedSetOwnerLabel:<<Set owner??所有>>
+CommandBedSetOwnerDesc:ベッドの所有者を指定する。
+CommandGraveAssignColonistLabel:<<Assign colonist??割り当て>>
+CommandGraveAssignColonistDesc:この墓に入る_{colonist}_を指定する。
+BuildingAssign:<<Assign??指定>>
+BuildingReassign:<<Reassign??再指定>>
+BuildingUnassign:<<Unassign??解除>>
+CommandBedSetForPrisonersLabel:<<For prisoners??_{prisoners}_用ベッドに設定>>
+CommandBedSetForPrisonersDesc:この部屋にあるベッドは全て_{prisoners}_が使う。
+CommandBedSetForPrisonersFailOutdoors:閉ざされた空間にあるベッドだけ_{prisoners}_用にできる。
+CommandBedSetAsMedicalLabel:<<Medical??医療用ベッドに設定>>
+CommandBedSetAsMedicalDesc:医療用ベッドとして割り当てる。
+TurningOnPrisonerBedWarning:_{prisoner}_用への切り替えは部屋全体に影響する。(_{prisoners}_と_{colonists}_は同じ部屋で寝られないので。)\n\nこれらの人々はベッドの所有権を失う:
+TurningOffPrisonerBedWarning:_{prisoner}_用からの切り替えは部屋全体に影響する。(_{prisoners}_と_{colonists}_は同じ部屋で寝られないので。)\n\nこれらの人々はベッドの所有権を失う:
+AreYouSure:本当に実行してよいですか？
+
+CommandDetonateLabel:<<Detonate??起爆>>
+CommandDetonateDesc:起爆カウントダウンを開始する。
+
+CommandRenameZoneLabel:<<Rename??名前の変更>>
+CommandRenameZoneDesc:ゾーンの名前を変える。
+
+CommandHideZoneLabel:<<Hide??非表示>>
+CommandUnhideZoneLabel:<<Unhide??表示>>
+CommandHideZoneDesc:ゾーンの非表示、再表示。
+
+CommandDeleteZoneLabel:<<Delete??削除>>
+CommandDeleteZoneDesc:ゾーンを削除する。
+
+CommandCopyZoneSettingsLabel:<<Copy settings??設定のコピー>>
+CommandCopyZoneSettingsDesc:このゾーンの設定をクリップボードにコピーし、別のゾーンにペーストできる。
+
+CommandPasteZoneSettingsLabel:<<Paste settings??設定のペースト>>
+CommandPasteZoneSettingsDesc:クリップボードにコピーしてある設定でこのゾーンの設定を上書きする。
+
+CommandAllowSow:<<Allow sowing??種蒔きの許可>>
+CommandAllowSowDesc:不許可なら、_{colonists}_はこのゾーンに植物を植えない。作物の収穫は行う。
+
+CommandSetForceAttackTarget:<<Set forced target??集中攻撃の指定>>
+CommandSetForceAttackTargetDesc:可能な限り攻撃させ続ける対象を設定する。
+CommandStopForceAttack:<<Stop forced attack??集中攻撃の解除>>
+CommandStopForceAttackDesc:集中攻撃を解除し、_<Turret>_に発砲を任せる。
+CommandStopAttackFailNotForceAttacking:集中攻撃できない。
+CommandExtractShell:<<Extract shell??弾を取り出す>>
+CommandExtractShellDesc:装填中の弾を取り出せば弾の種類を変えられる。
+MessageTargetBeyondMaximumRange:目標が遠すぎる。
+MessageTargetBelowMinimumRange:目標が近すぎる。
+MessageTurretWontFireBecauseHoldFire:警告: "発砲禁止"なっているので撃てない。
+
+CommandShipLaunch:<<Launch ship??船を発射する>>
+CommandShipLaunchDesc:現在の設定で船の発進シーケンスを始める。
+CommandShipLaunchReport:<<Show launch report??発射レポートを表示>>
+CommandShipLaunchReportDesc:船の発射能力に関する準備状況を表示する。
+CommandShipStartup:<<Start ship??船を起動>>
+CommandShipStartupDesc:休止状態の船体のコンポーネントを起動する。
+
+CommandPodEject:<<Eject sleeper??仮死状態者を出す>>
+CommandPodEjectDesc:仮死状態者を起こして出す。
+CommandPodEjectFailEmpty:誰もいない。
+
+CommandToggleDoorForbid:<<Passage forbidden??通行禁止>>
+CommandToggleDoorForbidDesc:禁止にすると、_{colonists}_と仲間は通れなくなる。敵や動物には影響しない。
+CommandToggleDoorHoldOpen:<<Hold open??開放>>
+CommandToggleDoorHoldOpenDesc:有効にすると、_{colonists}_は通った後にドアを閉めない。
+
+CommandResetTemp:_<Reset>_
+CommandResetTempDesc:設定温度を部屋温度へリセットする。
+CommandRaiseTempDesc:設定温度を上げる。
+CommandLowerTempDesc:設定温度を下げる。
+
+CommandInstall:<<Install??配置>>
+CommandInstallDesc:現在このアイテムは保管と移動のために梱包されている。このコマンドで配置できる。
+CommandReinstall:<<Reinstall at...??再配置>>
+CommandReinstallDesc:このアイテムを梱包し、別の場所へ配置する。
+
+CommandMakeBeaconStockpileLabel:<<Create stockpile??_{stockpile}_を作る>>
+CommandMakeBeaconStockpileDesc:ビーコンの範囲と全く同じ形状の_{stockpile}_を作る。
+
+CommandSunLampMakeGrowingZoneLabel:<<Create growing zone??栽培ゾーンを作る>>
+CommandSunLampMakeGrowingZoneDesc:照明範囲と全く同じ形状の栽培ゾーンを作る。
+
+CommandAutoRearm:<<Auto Rearm??自動再装填>>
+CommandAutoRearmDesc:有効にすると、トラップが発動した後、自動で再配置される。
+
+CommandReleaseAnimalsLabel:<<Release animals??獲物を指示>>
+CommandReleaseAnimalsDesc:有効にすると、主人がいる動物を放ち、離れた獲物を攻撃させる。無効の場合、近くで主人を守る。
+CommandReleaseAnimalsFail_NoAnimals:リリースできる動物がいない。
+
+CommandSquadAttack:<<Attack??攻撃>>
+CommandSquadAttackDesc:選択されている_{colonists}_に指定した目標を攻撃させる。
+
+CommandMeleeAttack:<<Melee attack??近接攻撃>>
+CommandMeleeAttackDesc:選択されている_{colonists}_に指定した目標を拳や近接武器で攻撃させる。
+
+CommandHoldFire:<<Hold fire??射撃禁止>>
+CommandHoldFireDesc:攻撃を中止する。
+
+CommandSelectPlantToGrowMulti:<<Select plant to grow??栽培する植物を選択>>
+CommandSelectPlantToGrow:<<Plant: {0}??植物: {0}>>
+CommandSelectPlantToGrowDesc:ここに植える植物を決める。
+
+CommandSelectMineralToScanFor:<<Tuned to??探査対象>>
+
+CommandBuildCopy:<<Build copy??複製>>
+CommandBuildCopyDesc:同じものを作る。
+
+CommandFormCaravan:<<Form caravan??キャラバンを編成>>
+CommandFormCaravanDesc:新しい場所へ旅に行ける_{colonists}_のグループを編成する。_{colonists}_は指定された荷物と動物を集め、この地を離れ、次の命令を待つ。
+
+CommandReformCaravan:_<Reform caravan>_
+CommandReformCaravanDesc:_{colonists}_のグループを再編して、現在地を出て、次の命令を待つ。
+CommandReformCaravanFailHostilePawns:このエリアにはまだ敵がいる。
+
+CommandSplitCaravan:<<Split??分割>>
+CommandSplitCaravanDesc:キャラバンを二つに分ける。十分に近ければ、後で一つに合流することもできる。
+
+CommandMergeCaravans:<<Merge??合流>>
+CommandMergeCaravansDesc:選択しているキャラバンを合流させる。
+CommandMergeCaravansFailCaravansNotSelected:合流させるキャラバンを選択する。キャラバンはお互いに十分近くなければならない。
+
+CommandSettle:<<Settle??入植>>
+CommandSettleDesc:この地に入植する。_{colonists}_はこの地に入り、新しい建物を建てられるようになる。
+CommandSettleFailAlreadyHaveBase:あなたの派閥は一つだけしか本拠地を持てない。
+CommandSettleFailReachedMaximumNumberOfBases:_{colonies}_が最大に達した。
+CommandSettleFailNoColonists:ここを占有している人は誰もいない。
+CommandSettleFailEnemies:ここには敵がいる。
+
+
+CommandAbandonHome:<<Abandon??放棄>>
+CommandAbandonHomeDesc:このエリアを放棄する。このエリアはアクセス不能になり、二度と戻れない。_{home}_を捨てた後、キャラバンは新しいエリアに入植できる。
+CommandAbandonHomeFailAllColonistsThere:_{colonists}_全員が集合している。
+
+CommandCancelFormingCaravan:<<Cancel forming caravan??キャラバン編成のキャンセル>>
+CommandCancelFormingCaravanDesc:編成作業を終了させる。
+
+CommandRemoveFromCaravan:<<Remove from caravan??キャラバンから外す>>
+CommandRemoveFromCaravanDesc:この人や動物をキャラバンから外す。
+
+CommandAddToCaravan:<<Add to caravan??キャラバンに加える>>
+CommandAddToCaravanDesc:この人や動物を編成中のキャラバンに加える。
+
+CommandShowMap:<<Zoom in??ズームイン>>
+CommandShowMapDesc:このエリアを表示する。
+
+CommandTrade:<<Trade??取引>>
+CommandTradeDesc:この派閥と取引する。
+CommandTradeFailNoNegotiator:意識のしっかりした、まともな交渉人がいない。
+
+CommandOfferGifts:<<Offer gifts??贈り物を申し出る>>
+CommandOfferGiftsDesc:この派閥に贈り物を申し出る。
+
+CommandFulfillTradeOffer:<<Fulfill trade offer??取引提案に応える>>
+CommandFulfillTradeOfferDesc:この_{settlement}_が要求している物を渡して、報酬を受け取る。
+CommandFulfillTradeOfferFailInsufficient:この取引提案に応えるにはキャラバンが{0}を持っていなければならない。
+CommandFulfillTradeOfferConfirm:{0}を渡して{1}を受け取りますか？
+
+CommandTakeOff:<<Take off??離陸>>
+CommandTakeOffDesc:船に乗り込み、この星から離脱する。
+CommandTakeOffConfirmation:本当に船を発進させますか？\n\nこのエリアの全員が星から脱出し、それ以外は置き去りにされます。
+
+CommandSetTargetFuelLevel:<<Set target fuel level??燃料搭載量の設定>>
+CommandSetTargetFuelLevelDesc:燃料搭載量を設定する。_{colonists}_は燃料搭載量まで補給しようとする。
+
+CommandCancelLoad:<<Cancel load??荷積みをキャンセル>>
+CommandCancelLoadDesc:人やアイテムの荷積みをキャンセルして、既に積んであるものを下ろす。
+
+CommandLaunchGroup:<<Launch group??グループを発射>>
+CommandLaunchGroupDesc:_[Transport pod]_のグループを発射するために目標設定処理を開始する。次に目標を選ぶ。_[Pod]_は発射され一緒に着陸する。
+CommandLaunchGroupFailNotConnectedToFuelingPort:一部の_[Transport pod]_が給油口に接続されていない。
+CommandLaunchGroupFailNoFuel:一部の_[Pod launcher]_に燃料がない。
+CommandLaunchGroupFailUnderRoof:一部の_[Pod launcher]_が屋根の下にある。
+
+CommandLoadTransporter:<<Load launch group of {0}??発射グループ({0}個)の荷積み>>
+CommandLoadTransporterDesc:選択されている_[Transport pod]_(群)を発射グループに設定する。「荷積み」ダイアログを開いて誰と何を運ぶのか決められる。
+CommandLoadTransporterFailNotConnectedToFuelingPort:_[Transport pod]_は給油口に接続されていない。
+CommandLoadTransporterFailNoFuel:_[Pod launcher]_に燃料がない。
+
+CommandSelectPreviousTransporter:<<Select previous in launch group??発射グループの前を選択>>
+CommandSelectPreviousTransporterDesc:発射グループ内の前の_[Transport pod]_を選択する。
+
+CommandSelectAllTransporters:<<Select launch group??発射グループを選択>>
+CommandSelectAllTransportersDesc:発射グループ内の全ての_[Transport pod]_を選択する。
+
+CommandSelectNextTransporter:<<Select next in launch group??発射グループの次を選択>>
+CommandSelectNextTransporterDesc:発射グループ内の次の_[Transport pod]_を選択する。
+
+CommandDesignateOpenCloseVentLabel:<<Designate open/close??開/閉を指示>>
+CommandDesignateOpenCloseVentDesc:換気口の開閉を指示する。_{colonists}_が直ぐに行う。
+
+CommandRemoveWaypointLabel:<<Remove??削除>>
+CommandRemoveWaypointDesc:ウェイポイントを削除。
+
+CommandPauseCaravan:<<Rest??休憩>>
+CommandToggleCaravanPauseDesc:休憩する。これは以下の利点がある:\n\n  - 人々が社交を行える\n  - 採餌が {0} 倍速くなる\n  - 視認性に {1} 掛けられる
+
+CommandShowSellableItems:<<Show what will buy??買う物を表示>>
+CommandShowSellableItemsDesc:この交易商が買いたい物を全て表示する。
+
+CommandAttackSettlement:<<Attack??攻撃>>
+CommandAttackSettlementDesc:この_{settlement}_を攻撃する。

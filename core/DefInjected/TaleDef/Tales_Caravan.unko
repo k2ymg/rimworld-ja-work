@@ -1,0 +1,133 @@
+﻿{CaravanFormed
+	label:caravan formed
+	{?rulePack.rulesStrings
+		:tale_noun->[PAWN_nameDef]が冒険へ旅だった事
+		:tale_noun->[PAWN_nameDef]がキャラバンを編成した事
+
+		:image->[circumstance_group][PAWN_nameFull]が意識的に大きく踏み出している様子
+		:image->[circumstance_group][PAWN_nameFull]が水平線の向こうを見つめている様子
+		:image->[circumstance_group][PAWN_nameFull]が旅の荷造りをしている様子
+		:image->[circumstance_group][PAWN_nameFull]が旅の計画を練っている様子
+
+		:circumstance_phrase->戦いの装備を身につけた
+		:circumstance_phrase->サバイバルの装備を身につけた
+		:circumstance_phrase->探検の装備を身につけた
+		:circumstance_phrase->真剣な目つきの
+		:circumstance_phrase->[AdjectiveAny]目つきの
+
+		:desc_sentence->[Quantity_adjphrase]の[ally]が支度を見ている。
+		:desc_sentence->[Quantity_adjphrase]の[ally]が支度を手伝っている。
+		:desc_sentence->[Quantity_adjphrase]の[Enemy]がこの場面から遠ざかっている。
+		:desc_sentence->遠くに[TerrainFeature]が見えている。
+		:desc_sentence->[Quantity_adjphrase]の[PersonJob]が遠くから見ている。
+		:desc_sentence->[Quantity_adjphrase]の[Animal]が穏やかに歩いている。
+	}
+}
+{CaravanFled
+	label:caravan fled
+	{?rulePack.rulesStrings
+		:tale_noun->[PAWN_nameDef]のキャラバンが危険から逃げた事
+		:tale_noun->[PAWN_nameDef]のキャラバンが危険から逃れた事
+		:tale_noun->[PAWN_nameDef]のキャラバンがなんとか危険から逃れた事
+		:tale_noun->[PAWN_nameDef]のキャラバンが敵に追い払われた事
+
+		:image->[PAWN_nameFull]が[circumstance_group]必死に逃げている様子
+		:image->[PAWN_nameFull]が[circumstance_group]全速力で逃げている様子
+		:image->[PAWN_nameFull]が[circumstance_group]逃げようと[TerrainFeature]の影に身体を滑りこませて隠れている様子
+		:image->[PAWN_nameFull]が[circumstance_group]逃げ隠れせずに抵抗している様子
+		:image->[PAWN_nameFull]が[circumstance_group]ぶらぶらと歩き去っている様子
+
+		:circumstance_phrase->[quantity_adjphrase]の[Enemy]に追われながら
+		:circumstance_phrase->[quantity_adjphrase]の[Enemy]に行方を探されてる中で、
+		:circumstance_phrase->[quantity_adjphrase]の[Enemy]から
+		:circumstance_phrase->[quantity_adjphrase]の敵の[Animal]から
+		:circumstance_phrase->[huge][Enemy]から
+
+		:desc_sentence->[PAWN_nameDef]を追う者が[Weapon]を振りかざしている。
+		:desc_sentence->[PAWN_nameDef]を追う者に[Color]の煙が絡みついている。
+		:desc_sentence->[PAWN_nameDef]を追う者の顔に[AdjectiveAngsty]表情が浮かんでいる。
+		:desc_sentence->[PAWN_nameDef]を追う者達が[Weapon]を振りかざしている。
+		:desc_sentence->[PAWN_nameDef]は汗をかいている。
+		:desc_sentence->[PAWN_nameDef]の息が上がっている。
+	}
+}
+{CaravanAmbushDefeated
+	label:caravan ambush defeated
+	{?rulePack.rulesStrings
+		:tale_noun->[PAWN_nameDef]のキャラバンを守った事
+		:tale_noun->[PAWN_nameDef]のキャラバンが待ち伏せを返り討ちにした事
+
+		:image->[PAWN_nameFull]が[circumstance_group]反撃隊を編成している様子
+		:image->[PAWN_nameFull]が[circumstance_group]防御態勢で[Weapon]を扱っている様子
+		:image->[PAWN_nameFull]が[circumstance_group][Weapon]で反撃している様子
+		:image->[PAWN_nameFull]が[circumstance_group]仁王立ちしている様子
+		:image->[PAWN_nameFull]が[circumstance_group][AdjectiveBadass]表情を浮かべている様子
+		:image->[PAWN_nameFull]が[circumstance_group][AdjectiveBadass]表情を浮かべている様子
+
+		:circumstance_phrase->前進してくる群れに備えながら
+		:circumstance_phrase->回りを囲まれながら
+		:circumstance_phrase->勝利への雄叫びをあげながら
+		:circumstance_phrase->[Weapon]を振りかざしながら
+		:circumstance_phrase->[Gore]にまみれながら
+
+		:desc_sentence->[Quantity_adjphrase]の[Enemy]が[Weapon]を振りかざしながら向かってきている。
+		:desc_sentence->巨大な[Enemy]が[Weapon]を振りかざしながら向かってきている。
+		:desc_sentence->目に[AdjectiveBadass]光をたぎらせた[Quantity_adjphrase]の[Enemy]が向かってきている。
+		:desc_sentence->目に[AdjectiveAngsty]光をたぎらせた[Quantity_adjphrase]の[Enemy]が向かってきている。
+		:desc_sentence->目に[Color]の光をたぎらせた[Quantity_adjphrase]の[Animal]が向かってきている。
+		:desc_sentence->[Gore]にまみれた[Quantity_adjphrase]の[Animal]が向かってきている。
+		:desc_sentence->辺り一面が[Gore]まみれになっている。
+		:desc_sentence->[Quantity_adjphrase]の[PersonJob]が逃げている。
+		:desc_sentence->[Quantity_adjphrase]の[Animal]が逃げている。
+	}
+}
+{CaravanRemoteMining
+	label:caravan remote mining
+	{?rulePack.rulesStrings
+		:tale_noun->[PAWN_nameDef]のキャラバンが他の場所で豊富な[MATERIAL_label]鉱脈を掘った事
+
+		:image->[PAWN_nameFull]が[circumstance_group]掘削道具を使い[MATERIAL_label]岩肌で作業している様子
+		:image->[PAWN_nameFull]が[circumstance_group][MATERIAL_label]鉱石を持ち上げている様子
+		:image->[PAWN_nameFull]が[circumstance_group][MATERIAL_label]岩肌の前で休んでいる様子
+		:image->[PAWN_nameFull]が[circumstance_group]豊富な[MATERIAL_label]鉱脈の前で掘削チームをまとめている様子
+		:image->[pawn_nameFull]が[circumstance_group]豊富な[MATERIAL_label]鉱脈を注意深く調べている様子
+
+		:circumstance_phrase->汗だくになりながら
+		:circumstance_phrase->[AdjectiveFriendly]表情を浮かべながら
+		:circumstance_phrase->誇らしげに微笑みながら
+		:circumstance_phrase->顔に満足げな笑みを浮かべながら
+		:circumstance_phrase->危険に用心しながら
+
+		:desc_sentence->[Quantity_adjphrase]の[ally]が協力している。
+		:desc_sentence->[Quantity_adjphrase]の[Animal]が辺りをうろついている。
+		:desc_sentence->背景に間に合わせの隠れ家がある。
+		:desc_sentence->[Quantity_adjphrase]の、さらなる鉱脈も遠くに見えている。
+		:desc_sentence->遠くに[TerrainFeature]が見えている。
+		:desc_sentence->[PAWN_nameDef]は仕事で汗まみれになっている。
+	}
+}
+{CaravanAssaultSuccessful
+	label:caravan assault successful
+	{?rulePack.rulesStrings
+		:tale_noun->[PAWN_nameDef]のキャラバンが敵の拠点を攻略した事
+
+		:image->[PAWN_nameFull]が[circumstance_group][Enemy]へ突撃している様子
+		:image->[PAWN_nameFull]が[circumstance_group][Weapon]を扱っている様子
+		:image->[PAWN_nameFull]が[circumstance_group][Weapon]を振り回している様子
+		:image->[PAWN_nameFull]が[circumstance_group]仁王立ちしている様子
+
+		:circumstance_phrase->目に[AdjectiveBadass]表情を浮かべながら
+		:circumstance_phrase->目に[AdjectiveAngsty]表情を浮かべながら
+		:circumstance_phrase->勝利への雄叫びをあげながら
+		:circumstance_phrase->[Gore]にまみれながら
+
+		:desc_sentence->[Quantity_adjphrase]の[Enemy]が襲撃ですくんでいる。
+		:desc_sentence->[Quantity_adjphrase]の[Enemy]がここから逃げ出している。
+		:desc_sentence->[Quantity_adjphrase]の[Enemy]が明らかに怪我を負っている。
+		:desc_sentence->向こうの[Community]が燃えている。
+		:desc_sentence->向こうの[Community]が煙に包まれている。
+		:desc_sentence->辺り一面が[Gore]にまみれている。
+		:desc_sentence->[Quantity_adjphrase]の[PersonJob]がその場から逃げている。
+		:desc_sentence->[Quantity_adjphrase]の[Animal]がその場から逃げている。
+	}
+}

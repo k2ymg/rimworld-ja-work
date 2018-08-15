@@ -1,0 +1,86 @@
+﻿{?Damage_Bomb.rulePack.rulesStrings
+	:damaged_past(p=2)->blasted
+	:damaged_past(p=2)->exploded
+	:damaged_past->怪我させた
+	:damaged_past->ダメージを負わせた
+	:damaged_past->傷つけた
+	:damaged_past->痛めつけた
+
+	:destroyed_past->砕けた
+	:destroyed_past->潰れた
+	:destroyed_past->消し飛んだ
+	:destroyed_past->全壊した
+	:destroyed_past->吹き飛ばした
+}
+
+{?Damage_Flame.rulePack.rulesStrings
+	:damaged_past(p=2)->吹き飛ばした
+	:damaged_past(p=2)->焦がした
+	:damaged_past(p=2)->燃やした
+	:damaged_past(p=2)->ただれさせた
+	:damaged_past(p=2)->火を付けた
+	:damaged_past(p=2)->火傷させた
+	:damaged_past->怪我させた
+	:damaged_past->ダメージを負わせた
+	:damaged_past->傷つけた
+	:damaged_past->痛めつけた
+
+	:damaged_present(p=2)->吹き飛ばしている
+	:damaged_present(p=2)->焦がしている
+	:damaged_present(p=2)->燃やしている
+	:damaged_present(p=2)->ただれさせている
+	:damaged_present(p=2)->火を付けている
+	:damaged_present(p=2)->火傷させている
+	:damaged_present->怪我させている
+	:damaged_present->ダメージを負わせている
+	:damaged_present->傷つけている
+	:damaged_present->痛めつけている
+
+	:destroyed_past->焼いた
+	:destroyed_past->灰にした
+	:destroyed_past->黒焦げにした
+	:destroyed_past->蒸発させた
+	:destroyed_past->燃やし尽くした
+	:destroyed_past->吹き飛ばした
+
+	:destroyed_present->焼いている焼き尽くしている
+	:destroyed_present->灰にしている
+	:destroyed_present->黒焦げにしている
+	:destroyed_present->蒸発させている
+	:destroyed_present->燃やし尽くしている
+	:destroyed_present->吹き飛ばしている
+}
+
+{?Damage_Extinguish.rulePack.rulesStrings
+	:damaged_past->消した
+	:damaged_past->水浸しにした
+	:damaged_past->泡で消した
+	:damaged_past->冷やした
+
+	:destroyed_past->[damaged_past]
+}
+
+{?Damage_Stun.rulePack.rulesStrings
+	:damaged_past->気絶させた
+	:damaged_past->混乱させた
+	:damaged_past->停止させた
+	:damaged_past->目をくらませた
+
+	:destroyed_past->[damaged_past]
+}
+
+{?Damage_EMP.rulePack.rulesStrings
+	:damaged_past->感電させた
+	:damaged_past->麻痺させた
+	:damaged_past->痺れさせた
+
+	:destroyed_past->[damaged_past]
+}
+
+{?Damage_Smoke.rulePack.rulesStrings
+	:damaged_past->煙に巻いた
+	:damaged_past->霧に包んだ
+	:damaged_past->雲で覆った
+
+	:destroyed_past->[damaged_past]
+}

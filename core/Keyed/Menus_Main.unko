@@ -1,0 +1,194 @@
+﻿Tutorial:<<Tutorial??チュートリアル>>
+NewColony:<<New colony??新しくはじめる>>
+BackToGame:<<Back to game??ゲーム再開>>
+ReviewScenario:<<Review scenario??シナリオ表示>>
+Save:<<Save??セーブ>>
+LoadGame:<<Load game??ロード>>
+Options:_<Options>_
+Mods:<<Mods??MOD>>
+SaveTranslationReport:<<Save translation report??翻訳リポートを保存>>
+GeneratingTranslationReport:<<Generating translation report??翻訳リポートを生成しています>>
+CleanupTranslationFiles:<<Cleanup translation files??翻訳ファイルの整理>>
+CleaningTranslationFiles:<<Cleaning translation files??翻訳ファイルを整理しています>>
+Credits:<<Credits??クレジット>>
+QuitToMainMenu:<<Quit to main menu??タイトルに戻る>>
+SaveAndQuitToMainMenu:<<Save and quit to menu??セーブしてタイトルに戻る>>
+QuitToOS:<<Quit to OS??終了>>
+SaveAndQuitToOS:<<Save and quit to OS??セーブして終了>>
+FictionPrimer:<<Fiction primer??世界観の解説>>
+LudeonBlog:<<Ludeon blog??Ludeonのブログ>>
+Forums:<<Forums??フォーラム>>
+OfficialWiki:<<Official wiki??公式 wiki>>
+TynansTwitter:<<Tynan's twitter??Tynan の twitter>>
+TynansDesignBook:<<Tynan's design book??Tynan の 書籍>>
+HelpTranslate:<<Help translate RimWorld??RimWorld の翻訳を手伝う>>
+BuySoundtrack:<<Buy soundtrack??サウンドトラックの購入>>
+CreateWorld:<<Create world??ワールドを作る>>
+
+TranslationThanks:RimWorldの翻訳は全ファンによって作られています。これらの翻訳は以下の素晴らしいボランティア達によって作られました:\n\n{0}
+TranslationHowToContribute:あなたも協力できます。詳細は以下をクリックしてください。(ブラウザが開きます。)
+LearnMore:<<Learn more??詳細>>
+
+;開発用なので訳す必要なし。
+DevBuildWarning:警告:これは不安定な開発ビルドです。 This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version.
+
+ReviewWorld:<<Review world??ワールドを確認>>
+WorldGenerate:_<Generate>_
+WorldSaveAndFinish:<<Save and finish??保存して終了>>
+Reset:_<Reset>_
+PlanetCoverage:<<Globe coverage??球範囲率>>
+PlanetRainfall:<<Overall rainfall??平均降水量>>
+PlanetTemperature:<<Overall temperature??平均気温>>
+PlanetRainfall_Low:<<Low??少>>
+PlanetRainfall_Normal:<<Normal??普通>>
+PlanetRainfall_High:<<High??多>>
+PlanetTemperature_Low:<<Low??低>>
+PlanetTemperature_Normal:<<Normal??普通>>
+PlanetTemperature_High:<<High??高>>
+WorldSeed:<<Seed??シード値>>
+RandomizeSeed:<<Randomize seed??シード値をランダム生成>>
+PlanetCoverageTip:惑星は常に同じ直径だが、プレイに必要な面積よりかなり大きい。このため、生成にとても時間がかかるので、表面全体を生成しない。この値は生成したい表面の割合を示している。
+WorldFactionsTab:_<Factions>_
+
+SelectWorld:<<Select world??ワールドを選択>>
+WorldChooseButton:<<Select??選択>>
+NoWorldsFilesFound:ワールドのファイルがありません。先にワールドを作ってください。
+
+BuildNowAvailable:新しいバージョン {0} があります。ludeon.com で情報を確認してください。
+BuildUpToDate:最新バージョン です。
+ErrorGettingVersionInfo:バージョン情報取得中にエラーが発生した: {0}
+LoadingVersionInfo:バージョン情報を読み込んでいます...
+
+GenerateWorld:<<Generate world??ワールドを生成>>
+
+OpenSteamWorkshop:<<Open Steam Workshop??Steam Workshop を開く>>
+GetModsFromForum:<<Get mods from forum??MOD用のフォーラムを見る>>
+OpenModsDataFolder:<<Open mods data folder??MODデータのフォルダを開く>>
+ShowModsDataLocation:<<Show mods data location??MODデータの位置を表示>>
+ConfirmDisableCoreMod:本当に基本MODを無効にしますか？基本機能を全て置き換えるMODを用意しない限りゲームは全く動かなくなります。\n\n基本MODの「def」は「defName」を同じにした他のMODで上書き出来ます。
+ConfirmDeleteMod:{0} コンテンツの全てを削除しようとしています。よろしいですか？
+Unsubscribe:<<Unsubscribe??サブスクライブを解除>>
+ConfirmUnsubscribe:{0} のサブスクライブを解除します。よろしいですか？
+Author:<<Author??作者>>
+WorkshopPage:<<Workshop page??Workshop のページ>>
+UploadToSteamWorkshop:<<Upload to Steam Workshop??Steam Workshop へアップロード>>
+UpdateOnSteamWorkshop:<<Update on Steam Workshop??Steam Workshop で更新>>
+UploadAlreadyInProgress:既にアップロード中です。
+WorkshopSubmissionFailed:Workshop への提出失敗。\n\n理由: {0}
+WorkshopUploadSucceeded:アップロード成功 {0}。
+Downloading:<<Downloading??ダウンロード中>>
+Source:<<Source??入手元>>
+ModTargetVersion:<<For version: {0}??対応バージョン: {0}>>
+ModNotMadeForThisVersion:このMODは起動中のRimWorldのバージョン向けに作られていないので、正しく動かないかもしれません。
+MessageModNeedsWellFormattedTargetVersion:MODのAbout.xmlに次のような形式のターゲット・バージョンが必要です: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;
+DragToReorder:順を変えるにはドラッグする
+
+ChooseScenario:<<Choose scenario??シナリオを選択>>
+ScenariosCustom:<<Custom??カスタム>>
+ScenariosSteamWorkshop:Steam Workshop
+ScenarioEditor:<<Scenario editor??シナリオ・エディター>>
+Delete:<<Delete??削除>>
+
+Seed:<<seed??シード>>
+Load:<<Load??ロード>>
+EditMode:<<edit mode??エディット・モード>>
+Summary:<<Summary??概略>>
+AddPart:<<Add part??パーツを追加>>
+TextFieldsMustBeFilled:全てのテキストフィールドに入力してください。
+ConfirmSteamWorkshopUpload:これを本当に Steam Workshop にアップロードしますか？\n\nSteam Workshop の利用規約に同意しなければなりません。全文はここにあります。\n\n http://steamcommunity.com/sharedfiles/workshoplegalagreement
+ConfirmContentAuthor:必ず自分自身で作成したコンテンツだけをアップロードしてください。このコンテンツはあなた自身が作成したものですか？
+Incompatible:適合しません
+TooMany:多すぎます(最大 {0}):
+CanBeUpdatedOnWorkshop:あなたが作者なので Workshop で更新することができます。
+
+ChooseAIStoryteller:<<Choose AI Storyteller??AI_{Storyteller}_の選択>>
+HowStorytellersWork:AI_{Storyteller}_は賊の襲撃、資材の落下、動物の攻撃などのイベントを作り出す。彼らの選択があなたの_{colony}_の物語に影響を与える。これらの設定はいつでも変えられます。
+MustChooseDifficulty:難易度を選択してください。
+Difficulty:<<Difficulty??難易度>>
+CommitmentMode:_<Commitment mode>_
+ReloadAnytimeMode:_<Reload anytime mode>_
+MustChoosePermadeath:'_<Commitment mode>_'か'_<Reload anytime mode>_'のどちらかを選んで下さい。
+ReloadAnytimeModeInfo:いつでもセーブとロードが出来ます。\n\nこれは、まだこのゲームに慣れていない、個人的な遊び方に合っている、不安定なMODを使っている、自分自身で制限を付けながら遊ぶ、などには合っています。
+PermadeathModeInfo:ゲームを終えるときにだけセーブ出来ます。\n\nRimWorldはストーリージェネレーターなので、例え全てを失って一人きりになっても、ゲームは終わりではありません。それも物語の一部なのです。このゲームは損失の後には回復できるように促します。\n\n困難な状況を乗り切ることで、悲劇と勝利の両方の物語が完成します。RimWorldはそのように遊ぶように作られています。\n\nLuke Skywalkerは家族が殺されても逃げ出してリロードしなかったのには理由があります。損失と回復はドラマチックだからです。
+
+CanChangeStorytellerSettingsDuringPlay:_{storyteller}_と難易度はいつでも変えられます。
+
+UnlockExtremeDifficulty:_<Merciless mode>_
+ConfirmUnlockExtremeDifficulty:_<Merciless mode>_はあらゆる挑戦が極端に難しくなる特別なモードです。\n\n_<Merciless mode>_はある段階に達すると自動で解除されます。ですが、今すぐ解除できます。\n\nこのオプションは、高難易度を何度か遊んだことがあり、さらに、絶体絶命な状況でも最後まで諦めない人にのみ向いています。
+
+SelectLandingSite:<<Select landing site??開始地点を選択>>
+SelectRandomSite:<<Select random site??ランダムに選択>>
+SelectSite:<<Select site??決定>>
+MustSelectLandingSite:開始地点を設定してください
+CannotLandBiome:このバイオームでは開始できない: {0}
+BiomeNotImplemented:このバイオームは未実装
+CannotLandImpassableMountains:通り抜けられない山には降りられない。
+BaseAlreadyThere:すでに {0} の本拠地になっている。
+YourBaseAlreadyThere:すでに本拠地です。
+TileOccupied:このタイルは占領されている。
+FactionBaseAdjacent:_{Settlements}_はお互いに接することはできない。
+Biome:<<Biome??バイオーム>>
+Terrain:_<Terrain>_
+Road:<<Road??道>>
+River:<<River??川>>
+Elevation:<<Elevation??高度>>
+Fertility:<<Fertility??肥沃>>
+AvgTemp:<<Average temperature??年平均気温>>
+Rainfall:<<Rainfall??降雨量>>
+SpecialFeatures:<<Special features??特徴>>
+HasCoast0:<<northern coast??北海岸>>
+HasCoast1:<<eastern coast??東海岸>>
+HasCoast2:<<southern coast??南海岸>>
+HasCoast3:<<western coast??西海岸>>
+HasCaves:<<caves??洞窟>>
+FactionBase:<<Faction base??本拠地>>
+StoneTypesHere:<<Stone types??主な地質>>
+TimeZone:<<Time zone??タイムゾーン>>
+MovementDifficulty:<<Movement difficulty??移動のしやすや>>
+AnimalsCanGrazeNow:<<Animals can graze now??現在動物は草を食べられるか>>
+AverageDiseaseFrequency:<<Average disease frequency??疾病 平均頻度>>
+PerYear:<<per year??年毎>>
+Forageability:<<Forageability??採餌性>>
+ConfirmRequiredWorkTypeDisabledForEveryone:選ばれている人々は次の作業が出来ません:\n\n{0}\n\nこれは通常より難しいゲームになります。このまま続けますか？
+
+CreateCharacters:<<Create characters??キャラクターの作成>>
+FirstNameDesc:キャラクターの名。\n\nこれは特定のメニューだけで表示される。
+ShortIdentifierDesc:キャラクターの略称。\n\nこれは常に表示される。姓や名にもできるし、完全に別のニックネームにもできる。
+LastNameDesc:キャラクターの姓。\n\nこれは特定のメニューだけで表示される。
+Randomize:_<Randomize>_
+AgeIndicator:<<age {0}??年齢 {0}>>
+Backstory:<<Backstory??生い立ち>>
+IncapableOf:<<Incapable of??できない事>>
+Traits:<<Traits??特徴>>
+PermanentMoodEffect:<<Permanent mood effect??永続的な_{mood}_影響>>
+Skills:<<Skills??スキル>>
+NoneLower:<<none??なし>>
+Adulthood:<<Adulthood??成年期>>
+Childhood:<<Childhood??幼年期>>
+Current:<<Current??現在>>
+Male:_<male>_
+MaleAnimal:_<animal/male>_
+Female:_<female>_
+FemaleAnimal:_<animal/female>_
+Pain:<<Pain??痛み>>
+Health:<<Health??健康>>
+Relations:<<Relations??縁故関係>>
+TeamSkills:<<Team skills??チームスキル>>
+StartingPawnsSelected:<<Selected??選択済み>>
+StartingPawnsLeftBehind:<<Left behind??置き去り>>
+
+Start:_<Start>_
+Advanced:<<Advanced??高度な設定>>
+Next:_<Next>_
+Back:<<Back??戻る>>
+Gameplay:<<Gameplay??ゲームの設定>>
+ConfirmQuit:本当に終了しますか？セーブしていないデータは失われます。
+EveryoneNeedsValidName:各個人に適切な名前を付けてください。
+RequiredWorkTypeDisabledForEveryone:選ばれている人々では次の作業が出来ない
+Quit:<<Quit??終了>>
+Ignore:<<Ignore??無視>>
+
+GeneratingWorld:<<Generating world??ワールドを生成しています>>
+GeneratingPlanet:<<Generating planet??プラネットを生成しています>>
+GeneratingMap:<<Generating map??マップを生成しています>>
+GeneratingMapForNewEncounter:<<Generating map for new encounter??新しい交戦のためにマップを生成しています>>

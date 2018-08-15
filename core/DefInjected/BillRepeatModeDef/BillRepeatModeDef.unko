@@ -1,0 +1,3 @@
+﻿RepeatCount.label:<<do X times??x 回繰り返す>>
+TargetCount.label:<<do until you have X??x 個になるまで>>
+Forever.label:<<do forever??無制限>>

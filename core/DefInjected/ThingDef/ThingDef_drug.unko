@@ -1,0 +1,65 @@
+﻿{Beer
+	label:_[beer]_
+	description:_?ビール。?_水以外で初めて人類に普及した飲み物。旨さより酔うためのもの。飲み過ぎると気を失い徐々にアルコール中毒になる。
+	ingestible.ingestCommandString:{0} を飲む
+	ingestible.ingestReportString:{0} を飲んでいる。
+	tools.bottle.label:_<bottle>_
+	tools.neck.label:_<bottle/neck>_
+}
+{Wort
+	label:_[wort]_
+	description:麦汁(ばくじゅう)。発酵さていないビール。飲めるようにするには _[Fermenting barrel]_ で発酵させる。
+}
+{Ambrosia
+	label:_[ambrosia]_
+	description:_?アンブロージア。?_柔らかい、珍しい果物。味は素晴らしく、ほのかに_{mood}_を良くする科学的興奮を生じさせる。しかし、食べ過ぎると少しずつ病みつきになってしまう。
+}
+{GoJuice
+	label:_[go-juice]_
+	description:_?ゴージュース。?_惑星間戦争の初期に宇宙軍向けに開発された人工的な身体強化ドラッグ。_[Go-juice]_は痛みを抑え、動きも速くなり、近・遠距離攻撃能力を高める。\n\nこれを作った軍の化学者達は中毒症状を取り除くことができなかった。一部はこれを欠点と捉えたが、大多数は違った。
+	ingestible.ingestCommandString:{0} を注射する
+	ingestible.ingestReportString:{0} を注射している。
+}
+{Luciferium
+	label:_[luciferium]_
+	description:_?ルシフェリウム。?_体のあらゆる機能を劇的に改善する_[Mechanite]_の調合薬。失った手足は再生できないが、古傷や脳の損傷すら徐々に治す。残念なことに、5、6日毎に継続して摂取し、ある程度の効果を維持しなければ、_[Mechanite]_が統制を失い、怒りに囚われ続け、死に至る。\n\n投薬したが最後、_[Mechanite]_を取り除く方法はない。\n\n_[Urbworld]_では_[luciferium]_は'Devil's Bargain'と呼ばれている。魅惑的な赤い錠剤が切れたら、殺す以外に助ける方法はなかった。
+	ingestible.ingestCommandString:{0} を摂る
+	ingestible.ingestReportString:{0} を摂っている。
+}
+{Penoxycyline
+	label:_[penoxycyline]_
+	description:_?ペノキシリン。?_感染症予防薬。_<Malaria>_、_<Sleeping sickness>_、_<Plague>_を防ぐ。効果を持続させるには5日ごとに摂取しなければならない。注意:この薬は新たな感染を防ぐだけである。既に感染しているものを、例えまだそれに気付いていないとしても、治すわけではない、。
+	ingestible.ingestCommandString:{0} を摂る
+	ingestible.ingestReportString:{0} を摂っている。
+}
+{Flake
+	label:_[flake]_
+	description:_?フレーク。?__[Psychite]_から作られる白い薄片状の物。短時間だが強い多幸感を感じられる。手軽に作れてかなり楽しめるが、中毒性がとても強い。_[Flake]_は生活、仲間関係、社会全体を壊すことで有名。
+	ingestible.ingestCommandString:{0} を吸う
+	ingestible.ingestReportString:{0} を吸っている。
+}
+{PsychiteTea
+	label:_[psychite tea]_
+	description:_?サイカイト・ティ。?__[Psychoid]_植物の葉を煎じた香ばしいお茶。飲むと微かに精神的多幸感を生じさせる。このお茶は調理場で簡単に作れるが、飲み過ぎると_[Psychite]_中毒になる。\n\n多くの_{tribes}_は日々のエネルギー源としても、人付き合いの一環としても、そして宗教的儀式としてこのお茶を嗜んでいる。
+	ingestible.ingestCommandString:{0} を飲む
+	ingestible.ingestReportString:{0} を飲んでいる。
+}
+{Yayo
+	label:_[yayo]_
+	description:_?イェイョ。?__[Psychite]_ドラッグを精製した粉状の物。鼻から吸うと直ぐさま多幸感を得られ、劇的に眠気を覚まし、痛みを抑える。粗悪な_[Flake]_ほどではないにせよ、_[Psychite]_を使った物の多くがそうであるように、これもまた中毒性がある。コストが高く見た目が良いので、多くの文化では_[Yayo]_と退廃的な富が結びついている。王室だろうが会議室だろうが、多くの愚かな政策が_[Yayo]_お楽しみパーティーの中から生み出されてきた。
+	ingestible.ingestCommandString:{0} を鼻から吸う
+	ingestible.ingestReportString:{0} を鼻から吸っている。
+}
+{SmokeleafJoint
+	label:_[smokeleaf joint]_
+	description:_?スモークリーフ・ジョイント。?__[Smokeleaf]_の葉を小さく巻いたタバコ。このドラッグは_{mood}_を良くするが、食欲が増え、集中力がなくなり、移動が遅くなる。_[Smokeleaf]_には依存性がある。_[Joint]_は_[Crafting spot]_で簡単に作れ、仕事に怠慢な文化の多くに定着している。
+	ingestible.ingestCommandString:{0} を吸う
+	ingestible.ingestReportString:{0} を吸っている。
+	ingestible.ingestReportStringEat:{0} を食べている。
+}
+{WakeUp
+	label:_[wake-up]_
+	description:_?ウェイクアップ。?_合成興奮剤。_[Wake-up]_は眠気を覚まし、疲れることなく長時間働けるようになる。しかし、何度も使うと精神が不安定になる中毒になり、そして精神崩壊を引き起こす事もある。\n\n世界各地の競争が激しい大学や企業では、頑張り過ぎな成功者達が_[Wake-up]_中毒により時より精神異常を起こす事が知られている。
+	ingestible.ingestCommandString:{0} を摂る
+	ingestible.ingestReportString:{0} を摂っている。
+}

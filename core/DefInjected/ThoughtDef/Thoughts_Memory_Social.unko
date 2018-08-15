@@ -1,0 +1,129 @@
+﻿Chitchat.stages.chitchat.label:<<chitchat??世間話>>
+
+DeepTalk.stages.deep_talk.label:<<deep talk??込み入った会話>>
+
+Slighted.stages.slighted.label:<<slighted??ばかにされた>>
+
+Insulted.stages.insulted.label:<<insulted??侮辱された>>
+
+{InsultedMood.stages.insulted
+	label:<<insulted??侮辱された>>
+	description:面と向かって侮辱された！なんて嫌な奴！
+}
+
+KindWords.stages.kind_words.label:<<kind words??優しい言葉>>
+
+{KindWordsMood.stages.kind_words
+	label:<<kind words??優しい言葉>>
+	description:優しい言葉をかけてくれた！なんて良い人だ！
+}
+
+RapportBuilt.stages.rapport_built.label:<<rapport built??親密な関係>>
+
+HadAngeringFight.stages.angering_fight.label:<<angering fight??腹が立って喧嘩>>
+
+HadCatharticFight.stages.cathartic_fight.label:<<cathartic fight??カッとなって喧嘩>>
+
+HarmedMe.stages.harmed_me.label:<<harmed me??傷つけられた>>
+
+BotchedMySurgery.stages.botched_my_surgery.label:<<botched my surgery??手術でヘマをされた>>
+
+RescuedMe.stages.rescued_me.label:<<rescued me??救出された>>
+
+RecruitedMe.stages.recruited_me.label:<<recruited me??勧誘された>>
+
+CrashedTogether.stages.crashed_together.label:<<crashed together??一緒に不時着した>>
+
+{SoldMyLovedOne.stages.loved_one_sold
+	label:<<loved one sold??大切な人が売られた>>
+	;labelSocial:大切な人が売られた
+	description:大切な人が肉のように商人に売られた！
+}
+
+{SoldMyBondedAnimal.stages.bonded_animal_sold
+	label:<<sold my bonded animal??絆で結ばれた動物が売られた>>
+	;labelSocial:絆で結ばれた動物が売られた
+	description:絆で結ばれている特別な動物が商人に売られた！
+}
+
+{ForcedMeToTakeDrugs.stages.forced_me_to_take_drugs
+	label:<<forced me to take drugs??ドラッグをやらされた>>
+	;description:ドラッグは決してやらない主義なのに、無理矢理！汚れたように感じる。
+}
+
+{ForcedMeToTakeDrugsMood.stages.forced_to_take_drugs
+	label:<<forced to take drugs??ドラッグをやらされた>>
+	description:私は_<teetotaler>_だから、自分でドラッグを摂ったりはしない。なのに無理矢理！汚れたように感じる。 
+}
+
+ForcedMeToTakeLuciferium.stages.forced_me_to_take_luciferium.label:<<forced me to take luciferium??_<luciferium>_を摂らされた>>
+
+{ForcedMeToTakeLuciferiumMood.stages.forced_to_take_luciferium
+	label:<<forced to take luciferium??_[Luciferium]_を摂らされた>>
+	description:自然体主義者だから、_[Luciferium]_は決して摂らないのに、無理矢理！汚れたように感じる。
+}
+
+RebuffedMyRomanceAttempt.stages.rebuffed_me.label:<<rebuffed me??拒絶された>>
+
+{RebuffedMyRomanceAttemptMood.stages.rebuffed_by
+	label:<<rebuffed by {0}??{0} に拒絶された>>
+	description:いい親密な関係を築こうとしたけど無視された。ひどいやつ。
+}
+
+FailedRomanceAttemptOnMe.stages.failed_to_romance_me.label:<<failed to romance me??私への誘惑は失敗した>>
+
+{FailedRomanceAttemptOnMeLowOpinionMood.stages.had_to_rebuff
+	label:<<had to rebuff {0}??{0} を拒絶した>>
+	description:嫌いな奴が誘おうとしてきた。
+}
+
+BrokeUpWithMe.stages.broke_up_with_me.label:<<broke up with me??振られた>>
+
+{BrokeUpWithMeMood.stages.broken_up_with_by
+	label:<<broken up with by {0}??{0} に振られた>>
+	description:ゴミでも捨てるかのよう振られた。
+}
+
+CheatedOnMe.stages.cheated_on_me.label:<<cheated on me??浮気された>>
+
+{CheatedOnMeMood.stages.cheated_on_by
+	label:{<<cheated on by {0}??0} に浮気された>>
+	description:やってくれたのは誰だ！
+}
+
+DivorcedMe.stages.divorced_me.label:<<divorced me??離婚された>>
+
+{DivorcedMeMood.stages.divorced_by
+	label:<<divorced by {0}??{0} に離婚された>>
+	description:婚姻の誓いを立てたのに、破り捨てられた。
+}
+
+RejectedMyProposal.stages.rejected_my_proposal.label:<<rejected my proposal??プロポーズを断られた>>
+
+{RejectedMyProposalMood.stages.my_proposal_was_rejected_by
+	label:<<my proposal was rejected by {0}??{0} にプロポーズを断られた>>
+	description:結婚して当然だと思っていたが、このざまだ。
+}
+
+IRejectedTheirProposal.stages.I_rejected_their_proposal.label:<<I rejected their proposal??プロポーズを断った>>
+
+HoneymoonPhase.stages.honeymoon_phase.label:<<honeymoon phase??ハネムーン>>
+
+{GotSomeLovin.stages.got_some_lovin
+	label:<<got some lovin’??愛を育んだ>>
+	description:もう独りエッチしなくてすみます。
+}
+
+KilledMyFriend.stages.killed_my_friend.label:<<killed my friend??_{friend}_が殺された>>
+KilledMyRival.stages.killed_my_rival.label:<<killed my rival??_{rival}_が殺された>>
+KilledMyLover.stages.killed_my_lover.label:<<killed my lover??_{lover}_が殺された>>
+KilledMyFiance.stages.killed_my_fiance.label:<<killed my fiance??_{fiance}_が殺された>>
+KilledMySpouse.stages.killed_my_spouse.label:<<killed my spouse??_{spouse}_が殺された>>
+KilledMyFather.stages.killed_my_father.label:<<killed my father??_{father}_が殺された>>
+KilledMyMother.stages.killed_my_mother.label:<<killed my mother??_{mother}_が殺された>>
+KilledMySon.stages.killed_my_son.label:<<killed my son??_{son}_が殺された>>
+KilledMyDaughter.stages.killed_my_daughter.label:<<killed my daughter??_{daughter}_が殺された>>
+KilledMyBrother.stages.killed_my_brother.label:<<killed my brother??_{brother}_が殺された>>
+KilledMySister.stages.killed_my_sister.label:<<killed my sister??_{sister}_が殺された>>
+KilledMyKin.stages.killed_my_kin.label:<<killed my kin??_{kin}_が殺された>>
+KilledMyBondedAnimal.stages.killed_my_bonded_animal.label:<<killed my bonded animal??絆で結ばれた動物が殺された>>

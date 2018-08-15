@@ -1,0 +1,31 @@
+﻿//Intended as small-scale objects, not major terrain formations
+//Includes animal, vegetable, and mineral
+rock:岩
+stone:石
+boulder:丸石
+tree:樹木
+shrub:潅木
+bush:藪:
+pond:池
+pool:水溜り
+lake:湖
+hill:丘
+cave:洞窟
+stump:切り株
+shell:貝殻
+feather:羽
+seed:種
+trunk:幹
+fruit:果実
+needle:葉
+beetle:昆虫
+bug:虫
+hoof:蹄
+claw:爪
+tail:尾
+hide:革
+skin:皮
+horn:角
+tooth:歯
+wing:翼
+wood:木

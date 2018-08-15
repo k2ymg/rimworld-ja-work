@@ -1,0 +1,55 @@
+﻿{Frenzy_Work
+	label:_<work frenzy>_
+;	beginLetterLabel:_<Inspiration>_: _<Work frenzy>_
+	beginLetter:[PAWN_nameIndef] が閃きを感じた！\n\n今後8日間の作業が速くなる。
+	endMessage:{0} の閃きは終わった (_<work frenzy>_)。
+	baseInspectLine:_<Inspired>_: _<Work frenzy>_
+}
+
+{Frenzy_Go
+	label:_<go frenzy>_
+;	beginLetterLabel:_<Inspiration>_: _<Go frenzy>_
+	beginLetter:[PAWN_nameIndef] が閃きを感じた！\n\n今後8日間の移動が速くなる。
+	endMessage:{0} の閃きは終わった (_<go frenzy>_)。
+	baseInspectLine:_<Inspired>_: _<Go frenzy>_
+}
+
+{Frenzy_Shoot
+	label:_<shoot frenzy>_
+;	beginLetterLabel:_<Inspiration>_: _<Shoot frenzy>_
+	beginLetter:[PAWN_nameIndef] が閃きを感じた！\n\n今後8日間の射撃がより正確になる。
+	endMessage:{0} の閃きは終わった (_<shoot frenzy>_)。
+	baseInspectLine:_<Inspired>_: _<Shoot frenzy>_
+}
+
+{Inspired_Trade
+	label:_<inspired trade>_
+;	beginLetterLabel:_<Inspiration>_: _<Inspired trade>_
+	beginLetter:[PAWN_nameIndef] が閃きを感じた！\n\n次の売買交渉を行うときに大きな価格ボーナスを受け取れる。\n\n8日経過するか、取引が終わると閃きは終わる。
+	endMessage:{0} の閃きは終わった (_<inspired trade>_)。
+	baseInspectLine:_<Inspired>_: _<Inspired trade>_
+}
+
+{Inspired_Recruitment
+	label:_<inspired recruitment>_
+;	beginLetterLabel:_<Inspiration>_: _<Inspired recruitment>_
+	beginLetter:[PAWN_nameIndef] が閃きを感じた！\n\n難易度や耐性に関係なく_{prisoner}_の勧誘に成功する。\n\n8日経過するか、勧誘が終わると閃きは終わる。
+	endMessage:{0} の閃きは終わった (_<inspired recruitment>_)。
+	baseInspectLine:_<Inspired>_: _<Inspired recruitment>_
+}
+
+{Inspired_Surgery
+	label:_<inspired surgery>_
+;	beginLetterLabel:_<Inspiration>_: _<Inspired surgery>_
+	beginLetter:[PAWN_nameIndef] が閃きを感じた！\n\n手術の失敗率が10分の1になる。\n\n8日経過するか、手術が終わると閃きは終わる。
+	endMessage:{0} の閃きは終わった (_<inspired surgery>_)。
+	baseInspectLine:_<Inspired>_: _<Inspired surgery>_
+}
+
+{Inspired_Creativity
+	label:_<inspired creativity>_
+;	beginLetterLabel:_<Inspiration>_: _<Inspired creativity>_
+	beginLetter:[PAWN_nameIndef] が閃きを感じた！\n\n次に作るアイテム、家具、芸術は普段より2レベル高い品質になる。_{legendary}_品質のアイテムも作れる。\n\n8日経過するか、作成が終わると閃きは終わる。
+	endMessage:{0} の閃きは終わった (_<inspired creativity>_)。
+	baseInspectLine:_<Inspired>_: _<Inspired creativity>_
+}

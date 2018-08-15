@@ -1,0 +1,50 @@
+﻿Audiovisuals:<<Audiovisuals??画面・音声>>
+GameVolume:<<Game volume??ゲーム全体の音量>>
+MusicVolume:<<Music volume??音楽の音量>>
+AmbientVolume:<<Ambient volume??環境音の音量>>
+Antialiasing:<<Anti-aliasing??アンチ-エイリアス>>
+
+EdgeScreenScroll:<<Screen-edge mouse scroll??画面端カーソルで移動>>
+PauseOnLoad:<<Pause on load??ロード後に一時停止>>
+PauseOnUrgentLetter:<<Pause on urgent letter??緊急メッセージ時に一時停止>>
+CustomCursor:<<Custom cursor??ゲーム用カーソル>>
+HatsShownOnlyOnMap:<<Hats shown only on game map??マップでのみ帽子を表示>>
+UIScale:<<UI scale??UI 拡大率>>
+KeyboardConfig:<<Keyboard configuration??キーボード設定>>
+ChooseLanguage:<<Choose language??言語選択>>
+ResetAdaptiveTutor:<<Reset learning helper??ラーニングヘルパーをリセットする>>
+AdaptiveTutorIsReset:リセットされました。全てのレッスンを最初から受け直すようになりました。
+RunInBackground:<<Run in background??バックグラウンド実行>>
+DevelopmentMode:<<Development mode??開発者モード>>
+ResetModsConfigOnCrash:<<Auto-reset mods config on crash??クラッシュ時にMODをリセットする>>
+LogVerbose:<<Verbose logging??詳細なログを記録>>
+OpenSaveGameDataFolder:<<Open save data folder??セーブデータのフォルダを開く>>
+ShowSaveGameDataLocation:<<Show save data location??セーブデータの位置を表示>>
+NamesYouWantToSee:お気に入りのプレイヤー作成のキャラクター。これらのキャラクターはゲーム中にランダムに登場する確率が上がる:
+AddName:<<Add name??名前を追加>>
+TypeFirstNickOrLastName:姓、ニックネーム、名を入力してください。
+MessageAlreadyPreferredName:この名前は既に使われています。
+ChangeStoryteller:_<Storyteller settings>_
+AutosaveInterval:<<Autosave interval??自動保存間隔>>
+TemperatureMode:<<Temperature mode??気候モード>>
+ShowRealtimeClock:<<Show realtime clock??実時間の表示>>
+MaxNumberOfPlayerSettlements:<<Maximum number of colonies: {0}??_<colonies>_の最大数: {0}>>
+PlantWindSway:<<Plant wind sway??植物がなびく効果>>
+EnableTestMapSizes:<<Enable test map sizes??テスト用のマップサイズを有効にする>>
+MaxPermadeathAutosaveIntervalInfo:<<Maximum autosave interval in permadeath mode is {0} day.??パーマデス・モードでのオートセーブ間隔は {0} 日です。>>
+ModSettings:<<Mod Settings??MOD 設定>>
+PermanentlyDisableDevMode:<<Permanently disable development mode??開発者モードを恒久的に無効にする>>
+
+Resolution:<<Resolution??解像度>>
+Fullscreen:<<Fullscreen??フルスクリーン>>
+
+;Privacy:<<Privacy??プライバシー>>
+;UserName:<<User name??ユーザー名>>
+;ChooseHistoryUploadPref:<<Gameplay data upload pref.??プレイデータのアップロード設定>>
+;AboutHistoryUpload:ユーザーのプレイデータは開発者がゲームのバランスをとるのに役立ちます。同意してくれれば、あなたの情報を {0} ゲーム内日ごとに(ゲーム終了などのレアケースなども) RimWorld のサーバに送信し解析されます。アップロードされたプレイデータは統計とゲームに関する履歴だけ含まれています。ユーザー名以外の個人情報は送信されません、すなわち、完全に匿名です。
+
+SelectMod:<<Select mod...??MODを選択...>>
+NoConfigurableMods:設定可能なMODがロードされていない。
+
+RestoreToDefaultSettings:<<Restore to default settings??初期設定に戻す>>
+ResetAndRestart:オプションが再設定されたので、自動的に再起動します。

@@ -1,0 +1,166 @@
+﻿;名前なので訳さない
+{?NamerInitialSettlementColony.rulePack.rulesStrings
+	:r_name->Colony
+}
+
+{?NamerInitialSettlementTribe.rulePack.rulesStrings
+	:r_name->Village
+}
+
+{?NamerFactionOutlander.rulePack.rulesStrings
+	:r_name(p=3)->[nearnameinitial]
+	:r_name->[nearnameinitial] [political_union_outlander]
+	:r_name->[nearnameinitial] [political_adjective] [political_union_outlander]
+	:r_name->[political_union_outlander] of [nearnameinitial]
+	:r_name->[political_adjective] [political_union_outlander] of [nearnameinitial]
+	:nearnameinitial(p=3)->[PlaceOutlander]
+	:nearnameinitial->[Direction] [PlaceOutlander]
+}
+
+{?NamerSettlementOutlander.rulePack.rulesStrings
+	:r_name(p=12)->[townname_wordgen]
+	:r_name(p=6)->[townname_fixed]
+	:r_name(p=4)->[townname_combo]
+	:r_name->[townname_near]
+
+	:topicalnoun->[Vegetable]
+	:topicalnoun->[Game]
+	:topicalnoun->[BodyPart]
+
+	:townname_combo->[topicalnoun] [TerrainFeature_e]
+	:townname_combo->[topicalnoun] [Community_e]
+	:townname_combo->[topicalnoun]'s [TerrainFeature_e]
+	:townname_combo->[topicalnoun]'s [Community_e]
+	:townname_combo(p=2)->[concept_positive]'s [TerrainFeature_e]
+	:townname_combo(p=2)->[concept_positive] [TerrainFeature_e]
+	:townname_combo(p=2)->[concept_positive] [Community_e]
+	:townname_combo(p=3)->[Character]'s [TerrainFeature_e]
+	:townname_combo(p=3)->[Character]'s [Community_e]
+
+	:townname_near->[nearnameinitial]-at-the-[TerrainFeature_e]
+	:townname_near->[nearnameinitial]-by-the-[TerrainFeature_e]
+	:townname_near->[nearnameinitial]-on-the-[TerrainFeature_e]
+	:nearnameinitial->[townname_wordgen]
+	:nearnameinitial->[Community_e]
+
+	:townname_wordgen(p=2)->[SylE][SylE]
+	:townname_wordgen(p=2)->[SylE][SylE][SylE]
+	:townname_wordgen(p=2)->[SylE][townend]
+	:townname_wordgen(p=2)->[SylE][SylE][townend]
+	:townname_wordgen->[TerrainFeature_e][townend]
+	:townname_wordgen->[topicalnoun][townend]
+	:townend->ville
+	:townend->town
+	:townend->hurst
+	:townend->bourne
+	:townend->brad
+	:townend->dale
+	:townend->hope
+	:townend->ing
+	:townend->ness
+	:townend->mere
+	:townend->shaw
+	:townend->wick
+	:townend->ton
+	:townend->ston
+	:townend->os
+	:townend->den
+	:townend->tas
+	:townend->wood
+	:townend->land
+	:townend->worth
+	:townend->roon
+	:townend->ron
+	:townend->well
+}
+{?NamerFactionTribal.rulePack.rulesStrings
+	:r_name->[tribalworld] [political_union_tribal]
+	:r_name->The [tribalworld] [political_union_tribal]
+	:r_name->The [Color_e] [TerrainFeature] [political_union_tribal]
+	:r_name->[political_union_tribal] of [WordTribal]
+	:r_name->The [Color_e] [Animal_e] [WordTribal]
+	:r_name->The [WordTribal] of the [TerrainFeature_e]
+}
+
+{?NamerSettlementTribal.rulePack.rulesStrings
+	:r_name(p=2)->[WordTribal]
+	:r_name->[Color] [WordTribal]
+	:r_name->[Color] [TerrainFeature_e]
+	:r_name->[WordTribal] [TerrainFeature_e]
+}
+
+{?NamerFactionPirate.rulePack.rulesStrings
+	:r_name->The [AnimalBadass_e]s
+	:r_name->The [AnimalBadass_e] Men
+	:r_name->The [AnimalBadass_e]s of [ConceptBadass_e]
+	:r_name->The [PersonBadass_e]s of [ConceptBadass_e]
+	:r_name->The [PersonBadass_e]s
+	:r_name->The [Enemy_e]s
+	:r_name->The [Weapon_e] Men
+	:r_name->The [Weapon_e]s
+	:r_name->The [Weapon_e] [AnimalBadass_e]s
+	:r_name->The [Weapon_e] [Enemy_e]s
+	:r_name->The [ColorBadass_e] [Weapon_e]s
+	:r_name->The [ColorBadass_e] [AnimalBadass_e]s
+	:r_name->The [ColorBadass_e] [PersonBadass_e]s
+	:r_name->The [ColorBadass_e] [Enemy_e]s
+	:r_name->The [PersonBadass] [groupname]
+	:r_name->The [Enemy_e] [Enemy_e]s
+	:r_name->The [AdjectiveBadass_e] [groupname]
+	:r_name->The [AdjectiveBadass_e] [AnimalBadass_e]s
+	:r_name->The [AdjectiveBadass_e] [Enemy_e]s
+	:r_name->The [AdjectiveBadass_e] [PersonBadass_e]s
+	:r_name->The [PersonAlly]s of [ConceptBadass_e]
+	:r_name(p=0.4)->The Eaters of [Gore]
+	:r_name->[NamePerson]'s [Enemy_e]s
+	:r_name->[NamePerson]'s [AnimalBadass_e]s
+	:r_name->[NamePerson]'s [Weapon_e]s
+	:r_name->[Weapon_e] [groupname]
+	:r_name->[ConceptBadass_e] [groupname]
+;	:r_name->[Letter][Letter][Digit][Digit]
+}
+
+{?NamerSettlementPirate.rulePack.rulesStrings
+	:r_name(p=4)->[townname_combo]
+	:r_name->[townname_wordgen]
+
+	:townname_combo->[AnimalBadass_e] [geography]
+	:townname_combo->[AnimalBadass_e]'s [geography]
+	:townname_combo->[ConceptBadass_e] [geography]
+	:townname_combo->[ConceptBadass_e]'s' [geography]
+	:townname_combo->[PersonBadass_e] [geography]
+	:townname_combo->[PersonBadass_e]'s [geography]
+	:townname_combo->[Enemy_e]'s [geography]
+	:townname_combo->[Enemy_e] [geography]
+	:townname_combo->[Weapon_e]'s [geography]
+	:townname_combo->[Weapon_e] [geography]
+	:townname_combo->[ColorBadass_e] [geography]
+	:geography(p=2)->[TerrainFeature_e]
+	:geography->[Community]
+
+	:townname_wordgen(p=2)->[SylE][SylE]
+	:townname_wordgen(p=2)->[SylE][SylE][SylE]
+	:townname_wordgen(p=2)->[SylE][townendevil]
+	:townname_wordgen(p=2)->[SylE][SylE][townendevil]
+	:townendevil->vast
+	:townendevil->varg
+	:townendevil->vix
+	:townendevil->tor
+	:townendevil->tear
+	:townendevil->cut
+	:townendevil->lop
+	:townendevil->oze
+	:townendevil->ozzle
+	:townendevil->latch
+	:townendevil->lock
+	:townendevil->burn
+	:townendevil->sear
+	:townendevil->shank
+	:townendevil->hurt
+	:townendevil->vash
+	:townendevil->warg
+	:townendevil->wug
+	:townendevil->thot
+	:townendevil->thard
+	:townendevil->thad
+}

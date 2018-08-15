@@ -1,0 +1,64 @@
+﻿{AteLavishMeal.stages.ate_lavish_meal
+	label:<<ate lavish meal??_[lavish meal]_ を食べた>>
+	description:_[Lavish meal]_ は素晴らしかった。身も心も満たされた。
+}
+
+{AteFineMeal.stages.ate_fine_meal
+	label:<<ate fine meal??_[fine meal]_ を食べた>>
+	description:本当においしい _[Fine meal]_ を食べた。おいしかった！
+}
+
+{AteAwfulMeal.stages.ate_awful_meal
+	label:<<ate awful meal??ひどい食事だった>>
+	description:胸が悪くなるような、味気ない食事を食べなければならなかった。生きるためとはいえ、こんなドロドロした物を飲み込みたいとは誰も思わない。
+}
+
+{AteRawFood.stages.ate_raw_food
+	label:<<ate raw food??生の食材を食べた>>
+	description:生の食材を食べるしかなかった。このような食べ物は食べる前に調理するべきだ。動物ではないのだから。
+}
+
+{AteKibble.stages.ate_kibble
+	label:<<ate kibble??_[kibble]_を食べた>>
+	description:_[Kibble]_を食べるしかなかった。人間性を捨てたようなものだ。
+}
+
+{AteCorpse.stages.ate_corpse
+	label:<<ate corpse??死体を食べた>>
+	description:解体も調理もしていない死体の肉をそのまま食べるしかなかった。
+}
+
+{AteHumanlikeMeatDirect.stages.raw_cannibalism
+	label:<<raw cannibalism??生の人肉を食べた>>
+	description:人肉を食べた、生で、動物のように。これは悪夢だ。
+}
+
+{AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism
+	label:<<raw cannibalism??生の人肉を食べた>>
+	description:人肉を食べた、生で、動物のように。とても・・・ジューシーだった。
+}
+
+{AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism
+	label:<<cooked cannibalism??調理された人肉を食べた>>
+	description:調理された人肉を食べた。おぞましい。
+}
+
+{AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism
+	label:<<cooked cannibalism??調理された人肉を食べた>>
+	description:調理された人肉を食べた。とても満足している。ソラマメと良いシャンティが有れば、もっと素晴らしかっただろう。
+}
+
+{AteInsectMeatDirect.stages.ate_insect_meat
+	label:<<ate insect meat??虫の肉を食べた>>
+	description:灰色にぬめっている虫の肉を食べた。これは、恐らく、人生で最悪の味かもしれない。
+}
+
+{AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat
+	label:<<ate cooked insect meat??調理された虫の肉を食べた>>
+	description:灰色にぬめっている虫の肉を調理したものを食べた。味はある程度調味料がごまかしてくれたが、虫腺か嚢か、私には分からない物が入っていた。
+}
+
+{AteRottenFood.stages.ate_rotten_food
+	label:<<ate rotten food??腐った物を食べた>>
+	description:胸くそ悪い腐った物を食べた。それは口の中でとろけたが・・・決して良い意味ではない。
+}

@@ -1,0 +1,30 @@
+﻿{AllowCorpsesColonist
+	label:<<allow colonist corpses??_{colonist}_の死体を許可>>
+	description:_{colonists}_の死体を許可する。
+}
+{AllowCorpsesStranger
+	label:<<allow stranger corpses??部外者の死体を許可>>
+	description:部外者や敵の死体を許可する。
+}
+{AllowRotten
+	label:<<allow rotten??腐った物を許可>>
+	description:腐った有機物を許可する。
+}
+{AllowFresh
+	label:<<allow fresh??新鮮な物を許可>>
+	description:まだ腐っていない有機物を許可する。
+}
+{AllowPlantFood
+	label:<<allow plant food??飼料を許可>>
+	description:干し草のような、食物と同等な植物を許可する。
+}
+AllowSmeltable.label:<<allow smeltable??製錬可能な物を許可>>
+AllowNonSmeltableWeapons.label:<<allow non-smeltable??製錬不可能な武器を許可>>
+{AllowNonDeadmansApparel
+	label:<<allow clean apparel??清潔な衣服を許可>>
+	description:死体が着ていなかった服を許可する。殆ど人は死体で穢れた服を不気味に感じる。また、交易商はこれを受け付けない。
+}
+{AllowDeadmansApparel
+	label:<<allow tainted apparel??穢れた衣服を許可>>
+	description:死体が着ていた服を許可する。殆ど人は死体で穢れた服を不気味に感じる。また、交易商はこれを受け付けない。
+}

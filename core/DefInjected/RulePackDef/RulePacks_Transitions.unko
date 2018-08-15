@@ -1,0 +1,107 @@
+﻿{?Transition_Include.rulePack.rulesStrings
+	:duetoa->により
+	:duetoa(p=0.5)->により
+	:duetoa(p=0.5)->の為に
+}
+
+{?Transition_Downed.rulePack.rulesStrings
+	:r_logentry->[CULPRITHEDIFF_labelNoun]によって[SUBJECT_definite]が[collapsemeta]。
+	:r_logentry->[CULPRITHEDIFF_labelNounPretty]によって[SUBJECT_definite]が[collapsemeta]。
+
+	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNoun][duetoa][collapsedmeta]。
+	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNounPretty][duetoa][collapsedmeta]。
+
+	:r_logentry(p=0.1)->[SUBJECT_definite]が[collapsedmeta]。
+
+	:collapse->倒れた
+	:collapse->倒れ込んだ
+	:collapse->崩れ落ちた
+	:collapse(subject_flesh!=Mechanoid)->気絶した
+	:collapse(subject_flesh==Mechanoid)->壊れた
+	:collapse(subject_flesh==Mechanoid)->再起不能になった
+	:collapse(subject_flesh==Mechanoid)->完全停止した
+
+	:collapsed->倒れた
+	:collapsed->倒れ込んだ
+	:collapsed->崩れ落ちた
+	:collapsed(subject_flesh!=Mechanoid)->気絶した
+	:collapsed(subject_flesh==Mechanoid)->壊れた
+	:collapsed(subject_flesh==Mechanoid)->再起不能になった
+	:collapsed(subject_flesh==Mechanoid)->完全停止した
+
+	:helplessly->為す術なく
+	:helplessly(subject_flesh!=Mechanoid)->気付かぬうちに
+	:helplessly(subject_flesh!=Mechanoid)->疲れ果てて
+	:helplessly(subject_flesh!=Mechanoid)->弱々しく
+	:helplessly(subject_flesh!=Mechanoid)->力なく
+	:helplessly(subject_flesh==Mechanoid)->制御不能により
+
+	:collapsemeta->[collapse]
+	:collapsemeta(p=0.5)->[helplessly][collapse]
+
+	:collapsedmeta->[collapsed]
+	:collapsedmeta(p=0.5)->[helplessly][collapsed]
+}
+
+;「～た」で統一すること。「死んだ」はだめ。
+{?Transition_DiedInclude.rulePack.rulesStrings
+	:r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun]で[SUBJECT_definite]が[die]た。
+	:r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty]で[SUBJECT_definite]が[die]た。
+
+	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNoun][duetoa][died][flavorsuffix]。
+	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNounPretty][duetoa][died][flavorsuffix]。
+
+	:r_logentry->[SUBJECT_definite]が[died]た。
+	:r_logentry->[SUBJECT_definite]が[died][flavorsuffix]。
+}
+
+{?Transition_Died.rulePack.rulesStrings
+	:die(p=2)->絶命し
+	:die->死亡し
+	:die->事切れ
+	:die(subject_flesh!=Mechanoid,p=0.5)->傷に負け
+	:die(subject_flesh==Mechanoid,p=0.5)->シャットダウンし
+	:die(subject_flesh==Mechanoid,p=0.5)->機能停止し
+
+	:died(p=2)->絶命し
+	:died->死亡し
+	:died(subject_flesh!=Mechanoid)->事切れ
+	:died(subject_flesh==Mechanoid)->シャットダウンし
+	:died(subject_flesh==Mechanoid)->機能停止し
+}
+
+{?Transition_DiedExplosive.rulePack.rulesStrings
+	:die(p=3)->[flavor]爆発し
+	:die(p=3)->[flavorsuffix]爆発し
+	:die->[flavor]爆轟し
+	:die->[flavorsuffix]爆轟し
+	:die->[flavor]はじけ
+	:die->[flavorsuffix]はじけ
+
+	:died(p=3)->[flavor]爆発し
+	:died->[flavor]爆轟し
+	:died->[flavor]はじけ
+
+	:flavor(p=0.2)->科学反応による[fireball]で
+	:flavor->[Color]色の[fireball]で
+	:flavor->[AdjectiveLarge][fireball]で
+	:flavor(p=4)->[fireball]で
+	:flavor(p=4)->
+
+	:flavorsuffix->て、[everywhere][pieces]をまき散らした
+	:flavorsuffix(subject_flesh!=Mechanoid,p=2)->て、[everywhere][Gore]をまき散らした
+	:flavorsuffix(subject_flesh!=Mechanoid)->て、小さな[Gore]の塊を残した
+	:flavorsuffix->て、小さな穴を残した
+	:flavorsuffix(p=4)->た
+
+	:fireball(p=3)->火球
+	:fireball->火炎球
+	:fireball->衝撃波
+	:fireball->業火
+
+	:pieces->破片
+	:pieces->断片
+
+	:everywhere->辺り一面に
+	:everywhere->遠くまで
+}

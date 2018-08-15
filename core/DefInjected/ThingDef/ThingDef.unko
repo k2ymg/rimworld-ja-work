@@ -1,0 +1,55 @@
+; Ethereal_OrbitalStriles
+Bombardment.label:_[bombardment]_
+PowerBeam.label:_[power beam]_
+
+; Ethereal_SignalActions
+;多分見えない
+SignalAction_Letter.label:signal action - letter
+SignalAction_Ambush.label:signal action - ambush
+
+; Ethereal_Skyfallers
+DropPodIncoming.label:_<drop pod>_ (<<incoming??入>>)
+DropPodLeaving.label:_<drop pod>_ (<<leaving??出>>)
+ShipChunkIncoming.label:<<ship chunk (incoming)??船残骸 (入)>>
+CrashedShipPartIncoming.label:<<crashed ship part (incoming)??船の破片 (入)>>
+MeteoriteIncoming.label:<<meteorite (incoming)??隕石 (入)>>
+
+; Ethereal_Various
+;見えない
+RectTrigger.label:rect trigger
+
+Explosion.label:<<explosion??爆発>>
+Blight.label:_[blight]_
+Tornado.label:_<tornado>_
+TunnelHiveSpawner.label:<<tunnel??トンネル>>
+
+; Filth_Various
+Filth_Dirt.label:_[dirt]_
+Filth_AnimalFilth.label:_[animal filth]_
+;Filth_HumanFilth.label:_[human filth]_
+Filth_Trash.label:_[trash]_
+Filth_Sand.label:_[sand]_
+Filth_RubbleRock.label:_[rock rubble]_
+Filth_RubbleBuilding.label:_[building rubble]_
+SlagRubble.label:_[scattered slag]_
+SandbagRubble.label:_[scattered sandbags]_
+Filth_Blood.label:_[blood]_
+Filth_BloodInsect.label:_[bugblood]_
+Filth_AmnioticFluid.label:_[amniotic fluid]_
+Filth_Slime.label:_[slime]_
+Filth_Vomit.label:_[vomit]_
+Filth_FireFoam.label:_[firefoam]_
+{Filth_Fuel
+	label:_[chemfuel puddle]_
+	description:可燃性の燃料溜まり
+}
+Filth_CorpseBile.label:_[corpse bile]_
+Filth_Ash.label:_[ash]_
+
+; Gas_Various
+Gas_Smoke.label:<<smoke??煙>>
+
+; Things_Special
+ActiveDropPod.label:_<drop pod>_
+Fire.label:<<fire??火事>>
+Spark.label:<<spark??火花>>

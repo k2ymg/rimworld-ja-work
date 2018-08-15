@@ -1,0 +1,10 @@
+﻿;不要だが、警告がうざうので
+Bridgeable.label:bridgeable
+Diggable.label:diggable
+GrowSoil.label:growable
+Heavy.label:heavy
+Light.label:light
+Medium.label:medium
+MovingFluid.label:moving water
+ShallowWater.label:shallow water
+SmoothableStone.label:smoothable

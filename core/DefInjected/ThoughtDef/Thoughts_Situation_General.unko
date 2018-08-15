@@ -1,0 +1,115 @@
+﻿{EnvironmentDark.stages.darkness
+	label:<<darkness??暗がり>>
+	description:しばらく暗がりに居た。気にくわない。
+}
+
+{ApparelDamaged.stages
+	{ratty_apparel
+		label:<<ratty apparel??薄汚い格好>>
+		description:苛つくほどに大きな穴が服に開いている。新しい服は着られないのか？
+	}
+	{tattered_apparel
+		label:<<tattered apparel??ボロボロな格好>>
+		description:バラバラに崩れ落ちそうだ。ゴミの山に見えないような物は着られないのか？
+	}
+}
+
+{DeadMansApparel.stages
+	{tainted
+		label:<<tainted {0}??穢れた {0}>>
+		description:死人が着ていた物を身につけている。気味が悪くて不潔な感じがする。
+	}
+	{tainted_1
+		label:<<tainted {0} (+1)??穢れた {0} (+1)>>
+		description:死人が着ていた物を二つも身につけている。気味が悪くて不潔な感じがする。
+	}
+	{tainted_2
+		label:<<tainted {0} (+2)??穢れた {0} (+2)>>
+		description:死人が着ていた物を三つも身につけている。気味が悪くて不潔な感じがする。
+	}
+	{tainted_etc
+		label:<<tainted {0} etc??穢れた {0} (etc)>>
+		description:死人が着ていた物を四つ以上身につけている。気味が悪くて不潔な感じがする。
+	}
+}
+
+{HumanLeatherApparelSad.stages
+	{human_leather
+		label:<<human leather {0}??人革の {0}>>
+		description:人皮製の服を着ていると不安になる。こんな事は誰もしない。
+	}
+	{human_leather_1
+		label:<<human leather {0} (+1)??人革の {0} (+1)>>
+		description:狂人のような格好をさせられている。
+	}
+	{human_leather_2
+		label:<<human leather {0} (+2)??人革の {0} (+2)>>
+		description:服の何処かに顔があると思う。なんてこった、顔で出来た服か。
+	}
+	{human_leather_etc
+		label:<<human leather {0} etc??人革の {0} (etc)>>
+		description:ホラー映画から飛び出してきた変人みたいで、映画の中に居るみたいだ。
+	}
+}
+
+{HumanLeatherApparelHappy.stages
+	{human_leather
+		label:<<human leather {0}??人革の {0}>>
+		description:他人の苦痛を身にまとうことを味わっている。
+	}
+	{human_leather_1
+		label:<<human leather {0} (+1)??人革の {0} (+1)>>
+		description:これで脅せる。私の力を知れ。
+	}
+	{human_leather_2
+		label:<<human leather {0} (+2)??人革の {0} (+2)>>
+		description:服にある顔は笑っていないが、私を愉快にさせてくれる。
+	}
+	{human_leather_etc
+		label:<<human leather {0} etc??人革の {0} (etc)>>
+		description:正に人肉！人肉は勝利の証だ！
+	}
+}
+
+{Sick.stages.sick
+	label:<<sick??病気>>
+	description:気分が悪い。
+}
+
+{EnvironmentCold.stages
+	{chilly
+		label:<<chilly??冷える>>
+		description:寒くて不快。
+	}
+	{cold
+		label:<<cold??寒い>>
+		description:とても寒くて震えている。
+	}
+	{numbing_cold
+		label:<<numbing cold??感覚が無くなるほどに寒い>>
+		description:震えが止まらない。歯がガチガチ鳴っている。暖を取ることしか考えられない。
+	}
+	{absolutely_freezing
+		label:<<absolutely freezing??完全に凍えている>>
+		description:歯が猛烈にガチガチ鳴っていて、殆ど話せない。つま先の感覚が無い。今すぐ暖を取らないと。
+	}
+}
+
+{EnvironmentHot.stages
+	{sweaty
+		label:<<sweaty??汗まみれ>>
+		description:暑すぎて、汗をかいている。
+	}
+	{hot
+		label:<<hot??暑い>>
+		description:あまりにも暑すぎる。とにかく冷えた空気を吸いたい・・・
+	}
+	{sweltering_hot
+		label:<<sweltering hot??蒸し暑い>>
+		description:オーブンの中にいるようだ！いつまで耐えられるかわからない。
+	}
+	{blistering_hot
+		label:<<blistering hot??焼けるほど暑い>>
+		description:焦げそうなくらい暑い。この熱で死ねる！
+	}
+}

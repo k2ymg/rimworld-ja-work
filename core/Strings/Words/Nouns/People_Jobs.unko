@@ -1,0 +1,69 @@
+﻿//Normal outlanders
+farmer:_{farmer}_
+villager:_{villager}_
+miller:_{miller}_
+smith:_{smith}_
+brewer:_{brewer}_
+weaver:_{weaver}_
+cook:_{cook}_
+beggar:_{beggar}_
+town guard:_{town guard}_
+town councilor:_{town councilor}_
+baker:_{baker}_
+tailor:_{tailor}_
+elder:_{elder}_
+gunsmith:_{gunsmith}_
+blacksmith:_{blacksmith}_
+fletcher:_{fletcher}_
+thresher:_{thresher}_
+thatcher:_{thatcher}_
+carpenter:_{carpenter}_
+trader:_{trader}_
+
+//Exotic outlanders
+surgeon:_{surgeon}_
+doctor:_{doctor}_
+explorer:_{explorer}_
+adventurer:_{adventurer}_
+drunkard:_{drunkard}_
+priest:_{priest}_
+cleric:_{cleric}_
+smuggler:_{smuggler}_
+comedian:_{comedian}_
+teacher:_{teacher}_
+acrobat:_{acrobat}_
+clown:_{clown}_
+actor:_{actor}_
+artist:_{artist}_
+boxer:_{boxer}_
+chemist:_{chemist}_
+dancer:_{dancer}_
+fortune teller:_{fortune teller}_
+gardener:_{gardener}_
+maid:_{maid}_
+hypnotist:_{hypnotist}_
+jeweler:_{jeweler}_
+poet:_{poet}_
+cowboy:_{cowboy}_
+singer:_{singer}_
+philosopher:_{philosopher}_
+gunslinger:_{gunslinger}_
+sheriff:_{sheriff}_
+
+//Tech
+archaeologist:_{archaeologist}_
+hacker:_{hacker}_
+planetologist:_{planetologist}_
+politician:_{politician}_
+historian:_{historian}_
+writer:_{writer}_
+engineer:_{engineer}_
+dentist:_{dentist}_
+lawyer:_{lawyer}_
+
+//Tribals
+chief:_{chief}_
+warrior:_{warrior}_
+archer:_{archer}_
+witch doctor:_{witch doctor}_
+shaman:_{shaman}_

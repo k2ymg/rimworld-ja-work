@@ -1,0 +1,131 @@
+{LowExpectations.stages
+	{skyhigh_expectations
+		label:<<sky-high expectations??とても高い希望>>
+		description:ここはかなり豊かだ。とても快適に出来るだろう。
+	}
+	{high_expectations
+		label:<<high expectations??高い希望>>
+		description:ここはとても豊かだ。欲しい物を手に入れてはいけない理由は無い。
+	}
+	{moderate_expectations
+		label:<<moderate expectations??僅かな希望>>
+		description:ここはとても豊だとは言い難い。楽はできないだろう。
+	}
+	{low_expectations
+		label:<<low expectations??低い希望>>
+		description:ここは贅沢できるほど豊ではない。快適な暮らしは望めそうに無い。
+	}
+	{very_low_expectations
+		label:<<very low expectations??とても低い希望>>
+		description:ここはとても貧しい。生き残るために心を強く持たねば。
+	}
+	{extremely_low_expectations
+		label:<<extremely low expectations??かなり低い希望>>
+		description:ここには余裕が全く無い。生きのびるには鋼の心でとりかからないと。
+	}
+}
+
+; Alcohol_Beer.xml
+{Inebriated.stages
+	{alcohol_warmth
+		label:<<alcohol warmth??火照り>>
+		description:飲んだ後は少し気が抜ける。気持ちいい。
+	}
+	{quite_inebriated
+		label:<<quite inebriated??酔い>>
+		description:ちょっとふらつくけれど楽しい！
+	}
+	{drunk
+		label:<<drunk??酩酊>>
+		description:なんでもできるし、怖いモノなんかないぞ！素晴らしい一時だ！
+	}
+	{hammered
+		label:<<hammered??泥酔>>
+		description:おぅ！なんだぁ？
+	}
+}
+
+{Hungover.stages
+	{mild_hangover
+		label:<<mild hangover??軽い二日酔い>>
+		description:頭痛はほとんど消えた。
+	}
+	{serious_hangover
+		label:<<serious hangover??重い二日酔い>>
+		description:酒のせいで頭痛がひどい。
+	}
+	{pounding_hangover
+		label:<<pounding hangover??酷い二日酔い>>
+		description:ガチョウの群れが頭をつついているようだ。
+	}
+	;訳す必要はないが、警告対策
+	hung_over_hidden.label:<<hung over (hidden)??二日酔い (非表示)>>
+}
+
+{AlcoholWithdrawal.stages.alcohol_withdrawal
+	label:<<alcohol withdrawal??アルコール_{withdrawal}_>>
+	description:なんか揺れている。何もかもがイラつく。飲みつづけるか。
+}
+
+; WakeUp.xml
+{WakeUpWithdrawal.stages.wakeup_withdrawal
+	label:<<wake-up withdrawal??_[wake-up]__{withdrawal}_>>
+	description:完全にぼーっとしていて、集中できない。とても疲れた。
+}
+
+; Smokeleaf.xml
+{SmokeleafHigh.stages.high_on_smokeleaf
+	label:<<high on smokeleaf??_[smokeleaf]_で高揚している>>
+	description:まるで、中毒者の、ようだ。
+}
+
+{SmokeleafWithdrawal.stages.smokeleaf_withdrawal
+	label:<<smokeleaf withdrawal??_[smokeleaf]__{withdrawal}_>>
+	description:マジで吸いたい。体が震え、常に不安ばかり感じている。
+}
+
+; Psychite_Flake.xml
+{FlakeHigh.stages.high_on_flake
+	label:<<high on flake??_[flake]_で高揚している>>
+	description:いい、いいねぇ
+}
+
+; Psychite_Tea.xml
+{PsychiteTeaHigh.stages.psychite_tea
+	label:<<psychite tea??_[psychite tea]_>>
+	description:このお茶は気分をすごく良くしてくれる。これで元気になるのが大好きだ！
+}
+
+; Psychite_Yayo.xml
+{YayoHigh.stages.high_on_yayo
+	label:<<high on yayo??_[yayo]_で高揚している>>
+	description:みなぎってきた!やってやろうぜ!
+}
+
+{PsychiteWithdrawal.stages.psychite_withdrawal
+	label:<<psychite withdrawal??_[psychite]__{withdrawal}_>>
+	description:人生に疲れました。何もかもがとてもつまらなくうんざりする。特に自分が。
+}
+
+; GoJuice.xml
+{GoJuiceHigh.stages.high_on_gojuice
+	label:<<high on go-juice??_[go-juice]_で高揚している>>
+	description:昂ぶってきたけど落ち着いている。いつでもヤれる。飛んでいる弾丸のように。
+}
+
+{GoJuiceWithdrawal.stages.gojuice_withdrawal
+	label:<<go-juice withdrawal??_[go-juice]__{withdrawal}_>>
+	description:全てがぼんやりしていて頭が回らない。手足が重い、疲れてお腹もすいた、全身が痛い。なんで目の焦点が合わないんだ？
+}
+
+; Ambrosia.xml
+{AmbrosiaHigh.stages.ambrosia_warmth
+	label:<<ambrosia warmth??_[ambrosia]_の火照り>>
+	description:_[Ambrosia]_は落ち着くのと同時に元気もみなぎってくる。
+}
+
+{AmbrosiaWithdrawal.stages.ambrosia_withdrawal
+	label:<<ambrosia withdrawal??_[ambrosia]__{withdrawal}_>>
+	description:気が重く寒気が収まらない。もうこの果物を欲しいとは思わない。
+}
+

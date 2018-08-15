@@ -1,0 +1,76 @@
+﻿ManualPriorities:_<Manual priorities>_
+HigherPriority:<<higher priority??優先度 高>>
+LowerPriority:<<lower priority??優先度 低>>
+RelevantSkills:<<Relevant skills: {0}\nAverage of relevant skills: {1} / {2}??該当スキル: {0}\n該当スキルの平均値: {1} / {2}>>
+ClickToJumpTo:<<Click to jump to:??クリックで移動:>>
+CannotDoThisWork:{0} はこの作業ができない。
+NoneBrackets:<<(none)??(なし)>>
+IncapableOfWorkTypeBecauseOfCapacities:この_{colonist}_は健康上の理由によりこのタイプの作業を行えない。
+EmergencyWorkMarker:<<E??緊急>>
+SelectedWorkTypeWithVeryBadSkill:警告: 該当スキルの平均がとても低い。
+
+ManageOutfits:_<Manage outfits>_
+ClearForcedApparel:<<Clear forced??強制を解除>>
+ApparelForcedLower:<<forced??強制>>
+ForcedApparel:<<Forced apparel??服装を強制する>>
+AssignTabEdit:<<Edit...??編集...>>
+ManageDrugPolicies:_<Manage drug policies>_
+
+Copy:<<Copy??コピー>>
+Paste:<<Paste??ペースト>>
+AllowedArea:_<Allowed area>_
+
+Master:<<Master??主人>>
+PregnantIconDesc:<<Pregnant ({0} / {1})??受胎 ({0} / {1})>>
+BondedTo:<<Bonded to??絆の相手>>
+
+IsPredator:この生物は捕食者なので腹が空くとより小型の生物、往々にして人も含まれる、を狩る。
+
+Hostile:<<Hostile??敵対>>
+Ally:<<Ally??同盟>>
+DefeatedLower:<<defeated??滅亡>>
+HostileTo:<<Enemy of {0}??{0} と 敵対>>
+CurrentGoodwillTip:この派閥との現在の友好度と関係。
+CurrentGoodwillTip_PermanentEnemy:この派閥とは常に敵対しており、あなたの_{settlements}_とキャラバンを襲撃する。派閥関係はいかなる理由でも良くならない。
+CurrentGoodwillTip_Ally:この派閥とは同盟になっており、援軍を送ることもある。もし友好度が {0} を下回ると中立に変わる。
+CurrentGoodwillTip_Neutral:この派閥とは中立なので、交易や話を自由にできる。もし友好度が {0} を下回ると敵対する。もし友好度が {1} を上回ると同盟になり、積極的に助けてくれるようになる。
+CurrentGoodwillTip_Hostile:この派閥とは敵対しており、あなたの_{settlements}_とキャラバンを襲撃する。もし友好度が {0} を上回ると中立になる。
+CurrentGoodwillTip_NaturalGoodwill:この派閥の友好度は {0} から {1} の間に収まろうとする。もし友好度が {1} を上回ると、日ごとに {3} 下がる。もし友好度が {0} を下回ると、日ごとに {2} 上がる。
+
+Friend:_<Friend>_
+Rival:_<Rival>_
+Acquaintance:_<Acquaintance>_
+
+Graph:<<Graph??グラフ>>
+Messages:<<Messages??メッセージ>>
+Statistics:<<Statistics??統計>>
+
+SelectGraph:<<Select graph??グラフを選択>>
+Last30Days:<<Last 30 days??直近の30日>>
+Last100Days:<<Last 100 days??直近の100日>>
+Last300Days:<<Last 300 days??直近の300日>>
+AllDays:<<All??すべて>>
+Value:<<Value??値>>
+External:External
+
+ShowLetters:<<Show letters??通知を表示>>
+ShowMessages:<<Show messages??メッセージを表示>>
+PinArchivableTip:このメッセージを固定する。\n\nメッセージ数が {0} 件に達すると、固定されていない一番古いメッセージはリストから自動的に削除される。
+NoMessages:<<no messages??メッセージ無し>>
+
+Playtime:<<Play time??プレイ時間>>
+Storyteller:_<Storyteller>_
+ThisMapColonyWealthTotal:<<Colony wealth (this map)??_{Colony}_の価値 (このマップ)>>
+ThisMapColonyWealthItems:<<Colony wealth (items) (this map)??_{Colony}_の価値 (アイテム) (このマップ)>>
+ThisMapColonyWealthBuildings:<<Colony wealth (buildings) (this map)??_{Colony}_の価値 (建物) (このマップ)>>
+ThisMapColonyWealthTameAnimals:<<Colony wealth (animals) (this map)??_{Colony}_の価値 (動物) (このマップ)>>
+NumThreatBigs:<<Major threats??大きな脅威>>
+NumEnemyRaids:<<Enemy raids??敵の襲撃>>
+ThisMapDamageTaken:<<Damage taken (this map)??総ダメージ量 (このマップ)>>
+ColonistsKilled:<<Colonists killed??殺された_<colonists>_数>>
+ColonistsLaunched:<<Colonists launched into space??宇宙へ飛び立った_<colonists>_数>>
+
+ProjectTechLevel:<<project tech level??プロジェクトの技術レベル>>
+YourTechLevel:<<your tech level??あなたの技術レベル>>
+ResearchCostMultiplier:<<cost multiplier??コスト倍率>>
+ResearchCostComparison:あなたの技術レベルにより、プロジェクトの基本コストは {0} から {1} になった。

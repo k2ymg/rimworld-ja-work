@@ -1,0 +1,132 @@
+﻿DesignatorCancel:<<Cancel??キャンセル>>
+DesignatorCancelDesc:建設、採掘、運搬、収穫などの指示を取り消す。
+
+DesignatorCutPlants:<<Cut plants??刈り取り>>
+DesignatorCutPlantsDesc:植物を刈り取る。印を付けられた植物は完全に取り除かれ、食材などが採れるのなら収穫される。
+
+DesignatorDeconstruct:<<Deconstruct??解体>>
+DesignatorDeconstructDesc:解体して資材を部分的に回収する。
+
+DesignatorUninstall:<<Uninstall??撤去>>
+DesignatorUninstallDesc:撤去すれば移動、売却、別の場所へ配置できる。
+
+DesignatorHarvest:<<Harvest??収穫>>
+DesignatorHarvestDesc:植物から食材などを収穫する。
+
+DesignatorHarvestWood:_<Chop wood>_
+DesignatorHarvestWoodDesc:樹木を切り倒して木材にする。
+
+DesignatorHaulThings:<<Haul things??運搬>>
+DesignatorHaulThingsDesc:石の塊や他のアイテムを廃棄ゾーンに運ばせる。食材や死体などの常に運ばれる物には必要ない。
+MustHaulHaulables:運べるが自動で運ばない物だけ指定できる(岩の塊など)。
+
+DesignatorHunt:<<Hunt??狩る>>
+DesignatorHuntDesc:狩猟者に動物を狩らせる。
+
+DesignatorMine:_<Mine>_
+DesignatorMineDesc:岩を採掘する。
+
+DesignatorSmoothSurface:<<Smooth surface??表面をならす>>
+DesignatorSmoothSurfaceDesc:荒れた岩の地面や壁を滑らかにする。
+
+DesignatorPlan:<<Plan??予定地>>
+DesignatorPlanDesc:予定地を設置する。これは将来の拡張計画を助けるだけで、何も行わない。
+
+DesignatorPlanRemove:<<Remove plans??予定地削除>>
+DesignatorPlanRemoveDesc:予定地を取り除く。
+
+DesignatorForbid:_<Forbid>_
+DesignatorForbidDesc:アイテムを禁止する。_{colonists}_は指定されたアイテムには関われなくなる。
+
+DesignatorUnforbid:_<Unforbid>_
+DesignatorUnforbidDesc:アイテムの禁止を解除する。_{colonists}_は指定されたアイテムに関われるようになる。
+
+DesignatorAreaHomeExpand:_<Expand home area>_
+DesignatorAreaHomeExpandDesc:_{colonists}_は _<Home area>_ 内でだけ建物を補修し、床を掃除し、消火する。
+
+DesignatorAreaHomeClear:<<Clear home area??_{home}_削除>>
+DesignatorAreaHomeClearDesc:_<Home area>_ を取り除く。_{colonists}_は掃除、補修、消火しなくなる。
+
+DesignatorAreaBuildRoofExpand:_<Build roof area>_
+DesignatorAreaBuildRoofExpandDesc:_{colonists}_はこのエリアに屋根を設置する。
+
+DesignatorAreaNoRoofExpand:<<Remove roof area??屋根除去>>
+DesignatorAreaNoRoofExpandDesc:_{colonists}_はこのエリアの屋根を除去する。(取り除けない山の天井を除く。)
+
+DesignatorAreaIgnoreRoofExpand:<<Ignore roof area??屋根無視>>
+DesignatorAreaIgnoreRoofExpandDesc:_{colonists}_はこのエリアの屋根を無視する。
+
+DesignatorAreaSnowClearExpand:<<Expand snow clear area??除雪拡張>>
+DesignatorAreaSnowClearExpandDesc:_{colonists}_が除雪するエリアを指定する。
+
+DesignatorAreaSnowClearClear:<<Clear snow clear Area??除雪削除>>
+DesignatorAreaSnowClearClearDesc:除雪エリアを削除する。_{colonists}_は除雪しなくなる。
+
+DesignatorExpandAreaAllowed:<<Expand allowed area??許可拡張>>
+DesignatorExpandAreaAllowedDesc:_<Allowed area>_ を広げる。\n\n_<Allowed area>_は_{colonists}_に割り当てられる。_{colonists}_は_<Allowed area>_外で作業をしたり欲求を満たしたりしない。
+
+DesignatorClearAreaAllowed:<<Clear allowed area??許可削除>>
+DesignatorClearAreaAllowedDesc:_<Allowed area>_を削除する。\n\n_<Allowed area>_は_{colonists}_に割り当てられる。_{colonists}_は_<Allowed area>_外で作業をしたり欲求を満たしたりしない。
+ManageAreas:<<Manage areas...??エリアを編集...>>
+
+DesignatorGrowingZoneDesc:_{colonists}_が特定の植物を栽培するゾーンを作る。
+
+DesignatorZoneCreateStorageResourcesDesc:_{colonists}_が資材を貯める_{stockpile}_を作る。\n既存の_{stockpile}_を広げることもできる。
+
+DesignatorZoneCreateStorageDumpingDesc:_{colonists}_がガラクタを貯める_{stockpile}_を作る。\n既存の_{stockpile}_を広げることもできる。
+
+DesignatorZoneDelete:<<Shrink zones??ゾーン縮小>>
+DesignatorZoneDeleteSingular:<<Shrink zone??ゾーンを削る>>
+DesignatorZoneDeleteDesc:_<Stockpile zone>_ や _<Growing zone>_ を削除する。
+
+DesignatorZoneExpand:<<Expand zone??ゾーン拡張>>
+
+DesignatorClaim:<<Claim??占有>>
+DesignatorClaimDesc:古代の遺跡や放棄された攻撃基地などの、中立の構造物を占有する。占有した構造物は_{colonists}_が補修し維持できるようになる。
+
+DesignatorRemoveFloor:<<Remove floor??床を除去>>
+DesignatorRemoveFloorDesc:床を剥がして地面を露出させる。
+
+DesignatorRemoveBridge:<<Remove bridge??橋を除去>>
+DesignatorRemoveBridgeDesc:橋を剥がして地面を露出させる。
+
+DesignatorStrip:<<Strip??脱がす>>
+DesignatorStripDesc:死体や怪我人から衣服を脱がす。
+
+;DesignatorRearmTrap:罠の再装填
+;DesignatorRearmTrapDesc:バネ式の罠を再装填して再び動くようにする。
+
+DesignatorOpen:<<Open??開ける>>
+DesignatorOpenDesc:箱を開ける。
+
+DesignatorSlaughter:<<Slaughter??屠殺>>
+DesignatorSlaughterDesc:動物を屠殺する。
+
+DesignatorTame:<<Tame??手懐ける>>
+DesignatorTameDesc:野生動物を手懐ける。
+
+UnchosenStuff:素材が選ばれていない
+TooCloseToMapEdge:マップの端に近すぎる。
+OutOfBounds:範囲外。
+CannotPlaceInUndiscovered:未知の場所には設置できない。
+InteractionSpotBlocked:{0} によって作用場所が塞がれている。
+InteractionSpotOutOfBounds:作用空間が範囲外。
+InteractionSpotWillBeBlocked:{0} によって作用場所が塞がれる。
+WouldBlockInteractionSpot:{0} が {1} の作用場所を塞ぐかもしれない。
+TerrainIsAlready:ここの地面は既に {0} だ。
+SurfaceBeingSmoothed:表面を滑らかにするように既に指示されている。
+IdenticalThingExists:同じ物が既にある。
+IdenticalBlueprintExists:同じ設計が既にある。
+TerrainCannotSupport:ここの地面はこれを支えられない。
+SpaceAlreadyOccupied:既に塞がっている。
+SpaceBeingSmoothed:ここは滑らかにしようとしている。
+TerrainMustBeRemovable:剥がせる床を指定する。
+MustBeOnMovingWater:水車は流れる水の上に置く。
+
+ExpandOrCreateZone:{0} を拡張するか\n新しく {1} を作る。
+CreateNewZone:新しく {0} を作る。
+
+TransmitsPower:送電
+ConstructionNeeded:必要建設スキル
+NoColonistWithConstructionSkillTip:このスキルを持っている{0}がいない。
+AllColonistsWithConstructionSkillHaveDisaledConstructingTip:このスキルを持っている{0}が{1}に割り当てられていない。

@@ -1,0 +1,89 @@
+﻿{BondedWithAnimal
+	label:bond developed
+	{?rulePack.rulesStrings
+		:tale_noun->[HUMAN_nameDef]と[ANIMAL_nameDef]間の絆
+
+		:image->[HUMAN_nameFull]が[circumstance_group][ANIMAL_nameFull]と絆を結んだ様子
+		:image->[HUMAN_nameFull]が[circumstance_group][ANIMAL_nameFull]と深い絆を作った様子
+		:image->[HUMAN_nameFull]が[circumstance_group][ANIMAL_nameFull]を本当に愛している事に気付いている様子
+
+		:circumstance_phrase->他の動物たちが見ているなかで
+		:circumstance_phrase->[ANIMAL_nameDef]の目を覗き込みながら
+		:circumstance_phrase->満足感と共に
+
+		:desc_sentence->[ANIMAL_nameDef]が[HUMAN_nameDef]に擦り寄っている。
+		:desc_sentence->[ANIMAL_nameDef]は愛情に酔いしれて眠そうにしている。
+		:desc_sentence->[ANIMAL_nameDef]は堂々としていて、気高く見える。
+		:desc_sentence->[ANIMAL_nameDef]は積極的に反応している。
+	}
+}
+
+{BecameLover
+	label:became lover
+	{?rulePack.rulesStrings
+		:tale_noun->[PURSUER_nameDef]と[ACCEPTER_nameDef]が恋人同士になった事
+
+		:image->[PURSUER_nameFull]が[circumstance_group][ACCEPTER_nameFull]の耳に甘い言葉を囁いている様子
+		:image->[PURSUER_nameFull]が[circumstance_group][ACCEPTER_nameFull]の手を取りベッドへ引き込んでいる様子
+		:image->[PURSUER_nameFull]が[circumstance_group][ACCEPTER_nameFull]とベッドの上ではしゃいでいる様子
+		:image->[PURSUER_nameFull]が[circumstance_group][ACCEPTER_nameFull]とディープキスをしている様子
+
+		:circumstance_phrase->非現実的に大きなベッドで
+		:circumstance_phrase->シーツに包まりながら
+		:circumstance_phrase->辺りに服を脱ぎ散らかした中で
+		:circumstance_phrase->二人共汗にまみれながら
+
+		:desc_sentence->[PURSUER_nameDef]が[ACCEPTER_nameDef]に擦り寄っている。
+		:desc_sentence->[PURSUER_nameDef]と[ACCEPTER_nameDef]が見つめ合っている。
+		:desc_sentence->[PURSUER_nameDef]が[ACCEPTER_nameDef]に息を吹きかけている。
+		:desc_sentence->[PURSUER_nameDef]が[ACCEPTER_nameDef]と結ばれている。
+		:desc_sentence->[PURSUER_nameDef]と[ACCEPTER_nameDef]が対称的に描かれている。
+		:desc_sentence->[PURSUER_nameDef]が[ACCEPTER_nameDef]に盛んに触れている。
+	}
+}
+
+{Breakup
+	label:breakup
+	{?rulePack.rulesStrings
+		:tale_noun->[DUMPER_nameDef]と[REJECTED_nameDef]の別れ
+
+		:image->[circumstance_group]、[DUMPER_nameFull]が嫌な話をするために[REJECTED_nameFull]を座らせている様子
+		:image->[circumstance_group]、[DUMPER_nameFull]が[REJECTED_nameFull]から距離をおいて立っている様子
+		:image->[circumstance_group]、[DUMPER_nameFull]が[REJECTED_nameFull]をベッドから追い出している様子
+		:image->[circumstance_group]、[DUMPER_nameFull]が[REJECTED_nameFull]からの抱擁を振りほどいている様子
+
+		:circumstance_phrase->大きな悲しみに包まれながら
+		:circumstance_phrase->他の者達がぎこちなく視線をそらしている中
+		:circumstance_phrase->他の者達が見ている中
+
+		:desc_sentence->[REJECTED_nameDef]が気持ちを抑えきれずにすすり泣いている。
+		:desc_sentence->[REJECTED_nameDef]が泣きながらあざ笑っている。
+		:desc_sentence->[REJECTED_nameDef]がショックのあまり無表情になっている。
+		:desc_sentence->[DUMPER_nameDef]が[REJECTED_nameDef]と別れている。
+		:desc_sentence->[REJECTED_nameDef]がわなわなと床に崩れ落ちている。
+		:desc_sentence->[REJECTED_nameDef]が[DUMPER_nameDef]に身振り手振りで怒りで伝えている。
+	}
+}
+
+{Marriage
+	label:<<marriage??結婚>>
+	{?rulePack.rulesStrings
+		:tale_noun->[SPOUSE1_nameDef]と[SPOUSE2_nameDef]の結婚
+
+		:image->[circumstance_group]、[SPOUSE1_nameFull]が[SPOUSE2_nameFull]と結婚している様子
+		:image->[circumstance_group]、[SPOUSE1_nameFull]が[SPOUSE2_nameFull]に結婚の誓いを述べている様子
+		:image->[circumstance_group]、[SPOUSE1_nameFull]が[SPOUSE2_nameFull]と一緒にバージンロードを歩いている様子
+		:image->[circumstance_group]、[SPOUSE1_nameFull]が[SPOUSE2_nameFull]と結婚式の間ずっと手をつないでいる様子
+
+		:circumstance_phrase->品位ある式の中
+		:circumstance_phrase->共に陽気に笑いながら
+		:circumstance_phrase->他の者達が式を見守る中
+
+		:desc_sentence->[SPOUSE1_nameDef]が[SPOUSE2_nameDef]に擦り寄っている。
+		:desc_sentence->[SPOUSE1_nameDef]と[SPOUSE2_nameDef]が見つめ合っている。
+		:desc_sentence->[SPOUSE1_nameDef]が[SPOUSE2_nameDef]に息を吹きかけている。
+		:desc_sentence->[SPOUSE1_nameDef]が[SPOUSE2_nameDef]と結ばれている。
+		:desc_sentence->[SPOUSE1_nameDef]と[SPOUSE2_nameDef]が対称的に描かれている。
+		:desc_sentence->[SPOUSE1_nameDef]が[SPOUSE2_nameDef]に盛んに触れている。
+	}
+}

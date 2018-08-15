@@ -1,0 +1,173 @@
+﻿{AteWithoutTable.stages.ate_without_table
+	label:<<ate without table??地べたで食べた>>
+	description:地べたで食事するしかなかった。この辺りにテーブルを置けないのか?
+}
+
+{SleepDisturbed.stages.disturbed_sleep
+	label:<<disturbed sleep??良く眠れなかった>>
+	description:人が周りをうろついて良く眠れなかった。個室が解決してくれるはず。
+}
+
+{NewColonyOptimism.stages.initial_optimism
+	label:<<initial optimism??初期の楽観>>
+	description:苦しい状況だが、新しい_{settlement}_を開拓することに興奮している。
+}
+
+{NewColonyHope.stages.initial_hope
+	label:<<initial hope??初期の希望>>
+	description:ここには慣れたが、まだ新しい状況に興奮している。上手くいきますように・・・
+}
+
+{SleptOutside.stages.slept_outside
+	label:<<slept outside??外で寝た>>
+	description:自然に対して無防備なまま外で寝るしかなかった。
+}
+
+{SleptOnGround.stages.slept_on_ground
+	label:<<slept on ground??地べたで寝た>>
+	description:動物のように地べたで寝るしかなかった。
+}
+
+{SleptInCold.stages.slept_in_the_cold
+	label:<<slept in the cold??寒い中で寝た>>
+	description:寒い中で寝るしかなかった。ヒーターが切実に欲しい。
+}
+
+{SleptInHeat.stages.slept_in_the_heat
+	label:<<slept in the heat??暑い中で寝た>>
+	description:耐えられないほどの暑さの中で寝るしかなかった。クーラーはないの？
+}
+
+{KnowPrisonerSold.stages.a_prisoner_was_sold
+	label:<<a prisoner was sold??_{prisoner}_が売られた>>
+	description:この_{colony}_では_{prisoner}_を奴隷として売っている。悪い考えだ。
+}
+
+{KnowGuestOrganHarvested.stages.someones_organ_harvested
+	label:<<someone's organ harvested??誰かの臓器が摘出された>>
+	description:_{guest}_か_{prisoner}_から臓器が摘出された。なすすべがない時に臓器のために解体するなんて、おぞましい。
+}
+
+{KnowColonistOrganHarvested.stages.colonists_organ_harvested
+	label:<<colonist's organ harvested??_{colonist}_の臓器が摘出された>>
+	description:誰かが_{colonist}_から臓器を摘出した。なすすべがない時に臓器のために解体するなんて、おぞましい。
+}
+
+{MyOrganHarvested.stages.my_organ_harvested
+	label:<<my organ harvested??私の臓器が摘出された>>
+	description:私から臓器を摘出した！まるで古いエンジンを分解するかのように!
+}
+
+{WasImprisoned.stages.was_imprisoned
+	label:<<was imprisoned??投獄された>>
+	description:私をしらばく投獄した、まるで囚われたケモノのように。
+}
+
+{Catharsis.stages.catharsis
+	label:<<catharsis??カタルシス>>
+	description:長いトンネルを抜けたように、やっと気持ちがすっきりした。
+}
+
+{Nuzzled.stages.nuzzled
+	label:<<nuzzled??擦り寄られた>>
+	description:かわいい動物が擦り寄ってきた。
+}
+
+{KnowBuriedInSarcophagus.stages.buried_in_sarcophagus
+	label:<<buried in sarcophagus??埋葬した>>
+	description:装飾付きの棺に誰かが埋葬された。魂に安らぎを。
+}
+
+{SoakingWet.stages.soaking_wet
+	label:<<soaking wet??ずぶ濡れ>>
+	description:ずぶ濡れになった。
+}
+
+{ButcheredHumanlikeCorpse.stages.I_butchered_humanlike
+	label:<<I butchered humanlike??人肉を捌いた>>
+	description:誰かの人肉を動物のように切り捌いた。
+}
+
+{KnowButcheredHumanlikeCorpse.stages.we_butchered_humanlike
+	label:<<we butchered humanlike??私達は人肉を捌いた>>
+	description:私達は誰かの人肉を動物のように切り捌いた。
+}
+
+{ObservedLayingCorpse.stages.observed_corpse
+	label:<<observed corpse??死体を見た>>
+	description:地面に転がっている死体を見て不安になった。
+}
+
+{ObservedLayingRottingCorpse.stages.observed_rotting_corpse
+	label:<<observed rotting corpse??腐乱死体を見た>>
+	description:地面に転がっている腐乱死体を見て不安になった。
+}
+
+{WitnessedDeathAlly.stages.witnessed_allys_death
+	label:<<witnessed ally's death??仲間が死ぬところを見た>>
+	description:仲間が死ぬところを見た。さっきまで生きていたのに、次の瞬間にはもう死んでいた。
+}
+
+{WitnessedDeathNonAlly.stages.witnessed_outsiders_death
+	label:<<witnessed outsider's death??よそ者が死ぬところを見た>>
+	description:誰かが死ぬところ見た。さっきまで生きていたのに、次の瞬間にはもう死んでいた。
+}
+
+{WitnessedDeathFamily.stages.witnessed_family_members_death
+	label:<<witnessed family member's death??家族が死ぬところを見た>>
+	description:家族が死ぬところをみた。自分の血肉をわけた...
+}
+
+{WitnessedDeathBloodlust.stages.witnessed_death_with_bloodlust
+	label:<<witnessed death with bloodlust??殺戮を見た>>
+	description:誰かが死んだ！燃える！
+}
+
+{KilledHumanlikeBloodlust.stages.killed_someone
+	label:<<killed someone??殺した>>
+	description:誰かを殺した！最高だ！
+}
+
+{DefeatedHostileFactionLeader.stages.defeated_hostile_leader
+	label:<<defeated hostile leader {0}??敵のリーダー {0} を打ち負かした>>
+	description:奴らは我々を滅ぼそうとしていたが、返り討ちにしてやった!
+}
+
+{DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader
+	label:<<defeated hostile leader??敵のリーダーを打ち負かした>>
+}
+
+{ColonistBanished.stages.colonist_banished
+	label:<<colonist banished??_{colonist}_を追放した>>
+	description:誰かを追放した。頑張ってほしいが、心配だ。
+}
+
+{ColonistBanishedToDie.stages.colonist_banished_to_death
+	label:<<colonist banished to death??_{colonist}_を死なせるように追放した>>
+	description:ほぼ生き残れないような状態で誰かを追放した。
+}
+
+{PrisonerBanishedToDie.stages.prisoner_banished_to_death
+	label:<<prisoner banished to death??_{prisoner}_を死なせるように追放した>>
+	description:ほぼ生き残れないような状態で_{prisoner}_を追放した。
+}
+
+{BondedAnimalBanished.stages.bonded_animal_banished
+	label:<<bonded animal {0} banished??絆で結ばれた動物 {0} が追放された>>
+	description:絆で結ばれた動物が追放された！
+}
+
+{FailedToRescueRelative.stages.failed_to_rescue
+	label:<<failed to rescue {0}??{0} の救出に失敗した>>
+	description:近しい人を救える機会があったのに、出来なかった。助けられたかもしれないのに！
+}
+
+{RescuedRelative.stages.rescued
+	label:<<rescued {0}??{0} を救出した>>
+	description:近しい人を救出した。ようやく胸をなで下ろした。
+}
+
+{Rescued.stages.rescued
+	label:<<rescued??救出された>>
+	description:助けられた！戻ってこれるとは思っていなかった。とても感謝している。
+}

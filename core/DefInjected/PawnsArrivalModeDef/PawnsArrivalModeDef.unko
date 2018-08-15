@@ -1,0 +1,17 @@
+﻿EdgeWalkIn.textEnemy:{1} から {0} の一団が近くに到着した。
+EdgeWalkIn.textFriendly:友好的な {1} から {0} の一団が近くに到着した。
+
+EdgeDrop.textEnemy:{1} から {0} の一団が _[Transport pod]_ で近くに到着した。
+EdgeDrop.textFriendly:友好的な {1} から {0} の一団が _[Transport pod]_ で近くに到着した。
+
+EdgeWalkInGroups.textEnemy:{1} から {0} の一団が近くに複数に分かれて到着した。
+EdgeWalkInGroups.textFriendly:友好的な {1} から {0} の一団が近くに複数に分かれて到着した。
+
+EdgeDropGroups.textEnemy:{1} から {0} の一団が _[Transport pod]_ で近くに複数に分かれて到着した。
+EdgeDropGroups.textFriendly:友好的な {1} から {0} の一団が _[Transport pod]_ で近くに複数に分かれて到着した。
+
+CenterDrop.textEnemy:{1} から {0} の一団が真上に落ちてきた！
+CenterDrop.textFriendly:友好的な {1} から {0} の一団が真上に落ちてきた！
+
+RandomDrop.textEnemy:{1} から {0} の一団が _[Transport pod]_ で到着した。_[Pod]_は乱れてこの地域全体に散らばって着地した！
+RandomDrop.textFriendly:友好的な {1} から {0} の一団が _[Transport pod]_ で到着した。_[Pod]_は乱れてこの地域全体に散らばって着地した！

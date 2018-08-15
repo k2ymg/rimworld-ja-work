@@ -1,0 +1,19 @@
+﻿;翻訳とは関係ないのでそのまま
+{?SeedGenerator.rulePack.rulesStrings
+	:r_seed(p=3)->[NamePerson]
+	:r_seed->[Animal_e]
+	:r_seed->[TerrainFeature_e]
+	:r_seed->[PersonJob_e]
+	:r_seed->[Enemy_e]
+	:r_seed->[Gore_e]
+	:r_seed->[Apparel_e]
+	:r_seed->[AdjectiveAny_e]
+	:r_seed->[ConceptAny_e]
+	:r_seed->[Weapon_e]
+	:r_seed->[Color_e]
+	:r_seed->[Vegetable_e]
+	:r_seed->[Game_e]
+	:r_seed->[businessname]
+	:r_seed->[businesstype]
+	:r_seed->[Community_e]
+}

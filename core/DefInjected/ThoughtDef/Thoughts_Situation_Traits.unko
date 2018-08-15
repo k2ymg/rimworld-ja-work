@@ -1,0 +1,201 @@
+﻿{MasochistPain.stages
+	{masochist_in_minor_pain
+		label:<<masochist in minor pain??マゾのわずかな痛み>>
+		description:オォ... ハハハ... 慣れてきたぞ！
+	}
+	{masochist_in_serious_pain
+		label:<<masochist in serious pain??マゾの辛い痛み>>
+		description:ウグググ... 痛む、でも、いい、もっと!
+	}
+	{masochist_in_intense_pain
+		label:<<masochist in intense pain??マゾの激しい痛み>>
+		description:イテテ... どこか悪いようだが... とても満足できる感覚だ!
+	}
+	{masochist_in_mindshattering_pain
+		label:<<masochist in mind-shattering pain??マゾの狂いそうな痛み>>
+		description:アアアア... ここは天国？
+	}
+}
+
+{ProsthophileNoProsthetic.stages.transhumanist_frustrated
+	label:<<transhumanist frustrated??強化願望>>
+	description:生身の体には限界がある。もっと人工的な身体になりたい。
+}
+
+{ProsthophileHappy.stages
+	{transhumanist_pleased
+		label:<<transhumanist pleased??_<transhumanist>_の喜び>>
+		description:この人工パーツはかっこいい。もっと欲しい。
+	}
+	{transhumanist_quite_pleased
+		label:<<transhumanist quite pleased??_<transhumanist>_の十分な喜び>>
+		description:人工パーツは一つよりも二つが良い。もっとあればいいが。
+	}
+	{transhumanist_delighted
+		label:<<transhumanist delighted??_<transhumanist>_の歓喜>>
+		description:三つの人工パーツ、弱い人肉が消えていく。でもまだ機械の力が欲しい。
+	}
+	{transhumanist_enchanted
+		label:<<transhumanist enchanted??_<transhumanist>_の恍惚>>
+		description:四つの人工パーツで人を超えようとしている。でもまだ置き換えたい肉が少し残っている。
+	}
+	{transhumanist_overjoyed
+		label:<<transhumanist overjoyed??_{transhumanist}_の狂喜>>
+		description:人工パーツが五つ！私のような強化された存在は悲しむ事など無い。
+	}
+	{machine_body_is_complete
+		label:<<machine body is complete??機械化完了>>
+		description:これぞ正に望んだもの。
+	}
+}
+
+{ProsthophobeUnhappy.stages
+	{body_purist_squeamish
+		label:<<body purist squeamish??_<body purist>_のいらつき>>
+		description:異質な物を取り付けられて不愉快だ。汚れているようだ！
+	}
+	{body_purist_disgusted
+		label:<<body purist disgusted??_<body purist>_のむかつき>>
+		description:二つの人工パーツが私の自然で純粋な体を汚している。そう考えるだけで病気になる。
+	}
+	{body_purist_violated
+		label:<<body purist violated??_<body purist>_の冒涜>>
+		description:三つの人工パーツが私の純粋な肉体を犯している。考えるだけで身震いする・・・そしてそれらが一緒に震えている。
+	}
+	{body_purist_horrified
+		label:<<body purist horrified??_<body purist>_の戦慄>>
+		description:四つもの人工パーツでロボットになっているようだ。なんて恐ろしい状況なんだ。
+	}
+	{body_purist_nightmare
+		label:<<body purist nightmare??_<body purist>_の悪夢>>
+		description:五つの人工パーツ・・・まだ自分自身は残っているのか？それとも自分は人間だと思っているロボットなのか？
+	}
+	{I_have_become_what_I_hate
+		label:<<I have become what I hate??嫌悪する物になってしまった>>
+		description:正反対のことを要求する！
+	}
+}
+
+;{NonProsthophileHasAddedBodyParts.stages
+;	{artificial_body_uneasiness
+;		label:<<artificial body uneasiness??人工身体不快>>
+;		description:二つまでの人工パーツなら良いが、三つは迷惑だ。自然で綺麗な体が懐かしい。
+;	}
+;	{artificial_body_squeamishness
+;		label:<<artificial body squeamishness??人工身体拒絶>>
+;		description:人工パーツを四つ付けている。例えそれが必要だとしても、自然な体に戻りたい事には変わらない。
+;	}
+;	{artificial_body_discomfort
+;		label:<<artificial body discomfort??不愉快な人工身体>>
+;		description:五つの人工パーツ。動くとカチャカチャ鳴っているようだ。こんな痛みを思い出させ;るような物を使わずに、ただただ健康な体に戻りたい。
+;	}
+;	{artificial_body_disgust
+;		label:<<artificial body disgust??人工身体嫌悪>>
+;		description:人工パーツが六つもなんて多過ぎだ。アンドロイドになろうとしているようだ。
+;	}
+;	{artificial_body_horror
+;		label:<<artificial body horror??人工身体恐怖>>
+;		description:こんな事は望んでいない。
+;	}
+;}
+
+{BrawlerUnhappy.stages.brawler_has_ranged_weapon
+	label:<<brawler has ranged weapon??_{brawler}_に遠距離武器>>
+	description:遠くから撃ちたくない。間近でやり合いたい！
+}
+
+{PyromaniacHappy.stages.pyromaniac_has_incendiary_weapon
+	label:<<pyromaniac has incendiary weapon??_{pyromaniac}_に火炎武器>>
+	description:炎や火について考えさせられる。とても幸せだ。
+}
+
+{ClothedNudist.stages.constraining_clothes
+	label:<<constraining clothes??着衣を強要された>>
+	description:_<Nudist>_なのに服を着せられている。耐えられなくはないが、やはり窮屈で不快な感じがする。
+}
+
+{HappyNude.stages.happily_nude
+	label:<<happily nude??あるがままの姿>>
+	description:裸が一番！とても自由で、開放的で、周りを感じられる！
+}
+
+{NightOwlDuringTheDay.stages.night_owl_in_daytime
+	label:<<night owl in daytime??昼の_{night owl}_>>
+	description:昼間に働きたくない。
+}
+
+{NightOwlDuringTheNight.stages.night_owl_at_night
+	label:<<night owl at night??夜の_{night owl}_>>
+	description:夜は気分がいい。
+}
+
+{Greedy.stages
+	{greedy_for_impressive_bedroom-0
+		label:<<greedy for impressive bedroom??豪華な寝室への渇望>>
+		description:本当に豪華な寝室が欲しい。
+	}
+	{greedy_for_impressive_bedroom-1
+		label:<<greedy for impressive bedroom??豪華な寝室への渇望>>
+		description:見窄らしい！本当に豪華な寝室が欲しい。
+	}
+	{greedy_for_impressive_bedroom-2
+		label:<<greedy for impressive bedroom??豪華な寝室への渇望>>
+		description:十分には程遠い。本当に豪華な寝室が欲しい。
+	}
+	{greedy_for_impressive_bedroom-3
+		label:<<greedy for impressive bedroom??豪華な寝室への渇望>>
+		description:十分とは言えない。本当に豪華な寝室が欲しい。
+	}
+	{greedy_for_impressive_bedroom-4
+		label:<<greedy for impressive bedroom??豪華な寝室への渇望>>
+		description:完璧とはいえない。本当に豪華な寝室が欲しい。
+	}
+}
+
+{Jealous.stages.jealous_of_s_bedroom
+	label:<<jealous of {0}'s bedroom??{0} の寝室が羨ましい>>
+	description:一番良い部屋をくれ！
+}
+
+{Ascetic.stages
+	{ascetic_has_awful_bedroom
+		label:<<ascetic has awful bedroom??_{ascetic}_の酷い寝室>>
+		description:まさに私が求めていた部屋。慎ましく質素だ。
+	}
+	{ascetic_has_repulsive_bedroom
+		label:<<ascetic has repulsive bedroom??_{ascetic}_のむかつく寝室>>
+		description:まさに私が求めていた部屋。慎ましく質素だ。
+	}
+	{ascetic_has_dull_bedroom
+		label:<<ascetic has dull bedroom??_{ascetic}_のさえない寝室>>
+		description:慎ましく質素な部屋。いいね。
+	}
+	{ascetic_has_impressive_bedroom-0
+		label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+		description:豪華な寝室は好きではない。
+	}
+	{ascetic_has_impressive_bedroom-1
+		label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+		description:豪華な寝室は好きではない。
+	}
+	{ascetic_has_impressive_bedroom-2
+		label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+		description:豪華な寝室は好きではない。
+	}
+	{ascetic_has_impressive_bedroom-3
+		label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+		description:豪華な寝室は好きではない。
+	}
+	{ascetic_has_impressive_bedroom-4
+		label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+		description:豪華な寝室は好きではない。
+	}
+	{ascetic_has_impressive_bedroom-5
+		label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+		description:豪華な寝室は好きではない。
+	}
+	{ascetic_has_impressive_bedroom-6
+		label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+		description:豪華な寝室は好きではない。
+	}
+}

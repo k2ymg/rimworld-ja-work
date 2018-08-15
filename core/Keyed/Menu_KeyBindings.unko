@@ -1,0 +1,6 @@
+﻿SaveButton:<<Save??セーブ>>
+ClearBinding:<<Clear??クリア>>
+ResetBinding:<<Reset to default??デフォルトに戻す>>
+BindingButtonToolTip:左クリックでキーを割り当て、右クリックでオプションを選択
+PressAnyKeyOrEsc:設定したいキーを押すか、またはESCキーで中止...
+KeyBindingOverwritten:キー設定を上書き: {0}

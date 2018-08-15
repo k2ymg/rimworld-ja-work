@@ -1,0 +1,318 @@
+﻿{Captured
+	label:person captured
+	{?rulePack.rulesStrings
+		:tale_noun->[CAPTURER_nameDef]が[PRISONER_nameDef]を捕まえた事
+		:tale_noun->[PRISONER_nameDef]が[CAPTURER_nameDef]に捕まった事
+		:tale_noun->[PRISONER_nameDef]が捕まった事
+
+		:image->[CAPTURER_nameFull]が[circumstance_group][PRISONER_nameFull]を捕まえている様子
+		:image->[CAPTURER_nameFull]が[circumstance_group][PRISONER_nameFull]の手を縛っている様子
+		:image->[PRISONER_objective]を捕まえている時に、[CAPTURER_nameFull]が[circumstance_group][PRISONER_nameFull]をぶっている様子
+
+		:circumstance_phrase->地面でのたうっている
+		:circumstance_phrase->痛みに身をよじっている
+		:circumstance_phrase->専門的な動きで
+		:circumstance_phrase->素人っぽい雑さで
+		:circumstance_phrase->明らかに度を超えた力で
+		:circumstance_phrase->嬉々として
+		:circumstance_phrase->優越感に浸りながら
+
+		:desc_sentence->[CAPTURER_nameDef]は優越感に浸りながら[PRISONER_nameDef]の目を覗き込んでいる。
+		:desc_sentence->[PRISONER_nameDef]は怪我をして痛がっているようだ。
+		:desc_sentence->[PRISONER_nameDef]は運命に身を委ねているようだ。
+		:desc_sentence->[PRISONER_nameDef]は打ち負かされた怒りで歯を剥いている。
+		:desc_sentence->[CAPTURER_nameDef]は[PRISONER_nameDef]をぶって服従させている。
+		:desc_sentence->[CAPTURER_nameDef]は[PRISONER_nameDef]の耳をひねりあげている。
+		:desc_sentence->[CAPTURER_nameDef]は手錠で[PRISONER_nameDef]を拘留している。
+		:desc_sentence->[CAPTURER_nameDef]は[PRISONER_nameDef]の顔に唾を吐きかけている。
+		:desc_sentence->[CAPTURER_nameDef]は[PRISONER_nameDef]の目に涙があふれるのを見て笑っている。
+		:desc_sentence->[CAPTURER_nameDef]は理由もなしに[PRISONER_nameDef]を蹴飛ばしている。
+	}
+}
+
+{Recruited
+	label:person recruited
+	{?rulePack.rulesStrings
+		:tale_noun->[RECRUITER_nameDef]が[JOINER_nameDef]を勧誘した事
+		:tale_noun->[JOINER_nameDef]が[RECRUITER_nameDef]に勧誘された事
+		:tale_noun->[JOINER_nameDef]の誘拐
+
+		:image->[RECRUITER_nameFull]が[circumstance_group][JOINER_nameFull]を勧誘している様子
+		:image->[RECRUITER_nameFull]が[circumstance_group]、[JOINER_nameFull]が_{colonist}_になることを歓迎している様子
+		:image->[RECRUITER_nameFull]が[circumstance_group]、[JOINER_nameFull]が納得のいくように話している様子
+
+		:circumstance_phrase->好意的に
+		:circumstance_phrase->心暖かい握手をしながら
+		:circumstance_phrase->皆に微笑みながら
+		:circumstance_phrase->_{colony}_全体の前で
+		:circumstance_phrase->牢獄の中で
+
+		:desc_sentence->[JOINER_nameDef]は了承してうなずいている。
+		:desc_sentence->[JOINER_nameDef]は微笑みを浮かべてアイコンタクトをしている。
+		:desc_sentence->[JOINER_nameDef]はホッとしているようだ。
+		:desc_sentence->[JOINER_nameDef]は希望に満ちているようだ。
+	}
+}
+
+{Hunted
+	label:animal hunted
+	{?rulePack.rulesStrings
+		:tale_noun->[HUNTER_nameDef]が[PREY_nameDef]を狩った事
+		:tale_noun->[PREY_nameDef]が[HUNTER_nameDef]に狩られた事
+		:tale_noun->[HUNTER_nameDef]の狩り
+
+		:image->[circumstance_group]、[PREY_nameFull]が[HUNTER_nameDef]に狩られている様子
+		:image->[circumstance_group]、[HUNTER_nameDef]が遠くから[PREY_nameFull]に忍び寄っている様子
+		:image->[circumstance_group]、[HUNTER_nameDef]が[PREY_nameFull]を狩っている様子
+
+		:circumstance_phrase->[PREY_nameDef]が気を緩めいるときに
+		:circumstance_phrase->[PREY_nameDef]が移動しているときに
+		:circumstance_phrase->[PREY_nameDef]が餌を食べているときに
+
+		:desc_sentence->[PREY_nameDef]は全く気付いていないようだ。
+		:desc_sentence->[HUNTER_nameDef]は武器をしっかりと握っている。
+		:desc_sentence->[PREY_nameDef]は変わったことがないかと辺りに気を配っている。
+	}
+}
+{DidSurgery
+	label:surgery performed
+	{?rulePack.rulesStrings
+		:tale_noun->[SURGEON_nameDef]による[PATIENT_nameDef]の手術
+		:tale_noun->[SURGEON_nameDef]が[PATIENT_nameDef]に手術した事
+		:tale_noun->[PATIENT_nameDef]の手術
+
+		:image->[circumstance_group]、[SURGEON_nameFull]が[PATIENT_nameFull]を麻酔で眠らせている様子
+		:image->[circumstance_group]、[SURGEON_nameFull]が手術中に[PATIENT_nameFull]の中に肘まで深く差し込んでいる様子
+		:image->[circumstance_group]、[SURGEON_nameFull]が手術中に[PATIENT_nameFull]を切り刻んでいる様子
+
+		:circumstance_phrase->患者が恐怖に震える中
+		:circumstance_phrase->執刀者の足元に血だまりを作りながら
+		:circumstance_phrase->見るも恐ろしい手術道具に囲まれている中で
+		:circumstance_phrase->即席だが効果的な道具を使って
+
+		:desc_sentence->[SURGEON_nameDef]はおびただしい汗をかいている。
+		:desc_sentence->[SURGEON_nameDef]は信じられないぐらい集中しているようにみえる。
+		:desc_sentence->[SURGEON_nameDef]の顔に血のりが付いている。
+		:desc_sentence->[PATIENT_nameDef]は首をふり、のたうち回っている。
+	}
+}
+
+{ExecutedPrisoner
+	label:prisoner executed
+	{?rulePack.rulesStrings
+		:tale_noun->[executioner]が[PRISONER_nameDef]を処刑した事
+		:tale_noun->[PRISONER_nameDef]が[EXECUTIONER_nameDef]に処刑された事
+		:tale_noun->[PRISONER_nameDef]の処刑
+
+		:image->[EXECUTIONER_nameFull]が[circumstance_group][PRISONER_nameFull]を処刑している様子
+		:image->[EXECUTIONER_nameFull]が[circumstance_group][PRISONER_nameFull]を死の淵においやっている様子
+		:image->[EXECUTIONER_nameFull]が[circumstance_group][PRISONER_nameFull]の処刑の準備をしている様子
+		:image->[EXECUTIONER_nameFull]が牢獄に入り、[circumstance_group][PRISONER_nameFull]を処刑するために連れ出している様子
+
+		:circumstance_phrase->地面の上でのたうちまわっている
+		:circumstance_phrase->痛みに身をよじっている
+		:circumstance_phrase->恐怖で泣き叫んでいる
+		:circumstance_phrase->プロフェッショナルな手際の良さで
+		:circumstance_phrase->素人っぽい雑さで
+		:circumstance_phrase->明らかに必要以上の力で
+		:circumstance_phrase->見るからに楽しそうに
+		:circumstance_phrase->優越感に笑みを浮かべながら
+		:circumstance_phrase->目に涙を浮かべながら
+		:circumstance_phrase->全くの無関心な表情で
+		:circumstance_phrase->必要のない苦痛を与えながら
+		:circumstance_phrase->何か別のことを考えながら
+		:circumstance_phrase->より良い事のために
+
+		:desc_sentence->[EXECUTIONER_nameDef]はおびただしい汗をかいている。
+		:desc_sentence->[EXECUTIONER_nameDef]は少しヨダレをたらしている。
+		:desc_sentence->[EXECUTIONER_nameDef]の顔に血のりが付いている。
+		:desc_sentence->[PRISONER_nameDef]は首をふり、のたうち回っている。
+		:desc_sentence->[PRISONER_nameDef]は完全にあきらめているようだ。
+		:desc_sentence->[PRISONER_nameDef]は目を閉じて、神に祈っているようにみえる。
+		:desc_sentence->[PRISONER_nameDef]は挑戦的に見える。
+	}
+}
+
+{KidnappedColonist
+	label:colonist kidnapped
+	{?rulePack.rulesStrings
+		:tale_noun->[KIDNAPPER_nameDef]が[VICTIM_nameDef]を誘拐した事
+		:tale_noun->[VICTIM_nameDef]が[KIDNAPPER_nameDef]に誘拐された事
+		:tale_noun->[VICTIM_nameDef]の誘拐
+
+		:image->[KIDNAPPER_nameFull]が[circumstance_group][VICTIM_nameFull]を[KIDNAPPER_factionName]に連れ去っている様子
+		:image->[KIDNAPPER_factionName]の[KIDNAPPER_nameFull]が[circumstance_group][VICTIM_nameFull]を誘拐している様子
+		:image->[KIDNAPPER_nameFull]が[circumstance_group][VICTIM_nameFull]を誘拐している様子
+
+		:circumstance_phrase->痛みに身をよじっている
+		:circumstance_phrase->プロフェッショナルな手際の良さで
+		:circumstance_phrase->素人っぽい雑さで
+		:circumstance_phrase->明らかに必要以上の力で
+		:circumstance_phrase->見るからに楽しそうに
+		:circumstance_phrase->優越感に浸りながら
+		:circumstance_phrase->血と泥にまみれながら
+
+		:desc_sentence->[VICTIM_nameDef]は完全に諦めているようだ。
+		:desc_sentence->[VICTIM_nameDef]は目を閉じて、神に祈っているようだ。
+		:desc_sentence->[VICTIM_nameDef]は挑戦的に見える。
+		:desc_sentence->[VICTIM_nameDef]は怒りと恐怖で叫んでいる。
+		:desc_sentence->[VICTIM_nameDef]は精魂尽き果てたかのようにみえる。
+		:desc_sentence->[VICTIM_nameDef]はひどい怪我を負っているようだ。
+	}
+}
+
+{TamedAnimal
+	label:animal tamed
+	{?rulePack.rulesStrings
+		:tale_noun->[TAMER_nameDef]による[ANIMAL_nameDef]の手懐け
+		:tale_noun->[TAMER_nameDef]が[ANIMAL_nameDef]を手懐けた事
+
+		:image->[TAMER_nameFull]が[circumstance_group][ANIMAL_nameFull]を手懐けている様子
+		:image->[TAMER_nameFull]が[circumstance_group][ANIMAL_nameFull]に餌をひとかけら与えている様子
+		:image->[TAMER_nameFull]が[circumstance_group]、驚きやすい[ANIMAL_nameFull]に小声で話しかけている様子
+		:image->[TAMER_nameFull]が[circumstance_group]、野性の[ANIMAL_nameFull]をなだめている様子
+
+		:circumstance_phrase->最大限の気配りと注意を払いながら
+		:circumstance_phrase->笑顔を浮かべながら
+		:circumstance_phrase->疲れているが、幸せに
+
+		:desc_sentence->[ANIMAL_nameDef]は攻撃的に歯を剥いている。
+		:desc_sentence->[ANIMAL_nameDef]は愛情に酔いしれて眠たそうにしている。
+		:desc_sentence->[ANIMAL_nameDef]に暗示の効果が現れている。
+		:desc_sentence->[ANIMAL_nameDef]は怖がりつつも興味を示しているように見える。
+		:desc_sentence->[ANIMAL_nameDef]の心を魅了したように見える。
+		:desc_sentence->[TAMER_nameDef]は[ANIMAL_nameDef]に力強い愛情を伝えている。
+	}
+}
+
+{KilledBy
+	label:death
+	{?rulePack.rulesStrings
+		:tale_noun->[KILLER_nameDef]が[VICTIM_nameDef]を殺した事
+		:tale_noun->[VICTIM_nameDef]が[KILLER_nameDef]に殺された事
+		:tale_noun->[KILLER_nameDef]による[VICTIM_nameDef]の殺害
+		:tale_noun->[VICTIM_nameDef]の殺害
+
+		:image->[VICTIM_nameFull]が[circumstance_group][KILLER_nameFull]に殺されている様子
+		:image->[KILLER_nameFull]が[circumstance_group][VICTIM_nameFull]を殺している様子
+		:image->[KILLER_nameFull]が[circumstance_group][VICTIM_nameFull]の人生を終わらせている様子
+		:image->[KILLER_nameFull]が[circumstance_group][VICTIM_nameFull]を残忍に殺している様子
+		:image->[VICTIM_nameFull]が[circumstance_group]殺されている様子
+
+		:circumstance_phrase->一見したところ無慈悲に
+		:circumstance_phrase->機械のように
+		:circumstance_phrase->激しい怒りと共に
+		:circumstance_phrase->無駄の無い動きで
+		:circumstance_phrase->無表情に
+		:circumstance_phrase->後ろめたい理由により
+		:circumstance_phrase->卑劣で、冷淡な方法で
+
+		:desc_sentence->この場面を象徴的に表す太陽が後ろに描かれている。
+		:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
+		:desc_sentence->[PersonJob]が[side_position]から静かに注目している。
+		:desc_sentence->[VICTIM_nameDef]の周りに血だまりができている。
+		:desc_sentence->[VICTIM_nameDef]の目は写実的に生気が失われたように描かれている。
+		:desc_sentence->[KILLER_nameDef]は歯を剥き出している。
+		:desc_sentence->[KILLER_nameDef]は満ち足りたように見える。
+		:desc_sentence->[KILLER_nameDef]は[KILLER_pronoun]がしたことを悩んでいる。
+		:desc_sentence->[KILLER_nameDef]はこの状況に満足しているようだ。
+		:desc_sentence->[KILLER_nameDef]は得意になっているようだ。
+	}
+}
+
+{SoldPrisoner
+	label:prisoner sold
+	{?rulePack.rulesStrings
+		:tale_noun->[PRISONER_nameDef]が交易商に売られた事
+		:tale_noun->[SELLER_nameDef]が[PRISONER_nameDef]を奴隷として売った事
+		:tale_noun->[PRISONER_nameDef]が[SELLER_nameDef]に奴隷として売られた事
+
+		:image->[circumstance_group]、[TRADER_nameFull]が[PRISONER_nameFull]を[SELLER_nameFull]から買っている様子
+		:image->[circumstance_group]、[SELLER_nameFull]が[PRISONER_nameFull]を[TRADER_nameFull]に売っている様子
+
+		:circumstance_phrase->他の_{colonists}_が非難しているなか
+		:circumstance_phrase->[SELLER_nameDef]が金を数えている間
+		:circumstance_phrase->[PRISONER_nameDef]が悲しげな唸り声をあげているなか
+		:circumstance_phrase->[PRISONER_nameDef]が無念そうにしているなか、
+
+		:desc_sentence->[TRADER_nameDef]は悪魔の微笑みを浮かべている。
+		:desc_sentence->[SELLER_nameDef]はマニアックに笑っている。
+		:desc_sentence->[SELLER_nameDef]は[PRISONER_nameDef]をトレーダーに渋々渡している。
+		:desc_sentence->[PRISONER_nameDef]は反抗的な目で新しい主人を見ている。
+		:desc_sentence->[TRADER_nameDef]は鎖で[PRISONER_nameDef]を引きずっている。
+		:desc_sentence->[PRISONER_nameDef]は[SELLER_nameDef]を睨み付け、復讐を計画している。
+		:desc_sentence->[PRISONER_nameDef]は泣いている。
+		:desc_sentence->[PRISONER_nameDef]は[SELLER_nameDef]の顔に唾を吐きかけている。
+		:desc_sentence->[PRISONER_nameDef]は地面に倒れ伏している。
+		:desc_sentence->[SELLER_nameDef]は[PRISONER_nameDef]の鎖を[TRADER_nameDef]の手に素早く押しつけている。
+		:desc_sentence->絶望の空気があたりに満ちている。
+	}
+}
+
+{TrainedAnimal
+	label:animal trained
+	{?rulePack.rulesStrings
+		:tale_noun->[TRAINER_nameDef]が[ANIMAL_nameDef]を訓練
+		:tale_noun->[ANIMAL_nameDef]の訓練
+		:tale_noun->[TRAINER_nameDef]による[ANIMAL_nameDef]の訓練
+
+		:image->[circumstance_group]、[TRAINER_nameFull]が[ANIMAL_nameFull]に[TRAINABLE_label]を[train_syn]様子
+		:image->[circumstance_group]、[TRAINER_nameFull]が[ANIMAL_nameFull]に[TRAINABLE_label]を教えている様子
+		:image->[circumstance_group]、[TRAINER_nameFull]が[ANIMAL_nameFull]と[TRAINABLE_label]を練習している様子
+
+		:train_syn->訓練している
+		:train_syn->訓練している
+		:train_syn->指導している
+		:train_syn->教え込んでいる
+		:train_syn->教育している
+
+		:circumstance_phrase->他の者達が見ている中
+		:circumstance_phrase->野性の[Animal]があきれて見ている中
+		:circumstance_phrase->[ANIMAL_nameDef]が野生だった頃の単純な日々のことを考えながら
+		:circumstance_phrase->[TRAINER_nameDef]が今日のランチのことに気を取られながら
+		:circumstance_phrase->他の_{colonists}_がまともな作業をしているなか
+
+		:desc_sentence->[TRAINER_nameDef]は喜びをあらわにしている。
+		:desc_sentence->[TRAINER_nameDef]は微笑んでいる。
+		:desc_sentence->[TRAINER_nameDef]は飽きている。
+		:desc_sentence->[TRAINER_nameDef]は拳を威嚇的に振り回している。
+		:desc_sentence->[TRAINER_nameDef]は集中して眉にシワを寄せている。
+		:desc_sentence->[ANIMAL_nameDef]は困惑しているようだ。
+		:desc_sentence->[ANIMAL_nameDef]は口に武器を咥えている。
+		:desc_sentence->[ANIMAL_nameDef]は何か不満そうにしている。
+		:desc_sentence->[TRAINER_nameDef]は挫折感から頭を振っている。
+		:desc_sentence->[ANIMAL_nameDef]は恐怖に震えている。
+		:desc_sentence->[ANIMAL_nameDef]は[Vegetable]に変わりつつあるように見える。
+		:desc_sentence->[ANIMAL_nameDef]は電動道具の山として表現されている。
+		:desc_sentence->[ANIMAL_nameDef]は[Color]と[Color]の2色からなっている。
+		:desc_sentence->[TRAINER_nameDef]は鱗に被われている。
+		:desc_sentence->[TRAINER_nameDef]は[quantity]の腕で表現されている。
+		:desc_sentence->[TRAINER_nameDef]は[ANIMAL_ShortDefinite]のように見える。
+	}
+}
+
+KilledColonist.label:colonist killed
+KilledColonyAnimal.label:colony animal killed
+DefeatedHostileFactionLeader.label:defeated hostile leader
+
+{TradedWith
+	label:traded with someone
+	{?rulePack.rulesStrings
+		:tale_noun->[SELLER_nameFull]と[BUYER_nameFull]による取引
+
+		:image->[circumstance_group]、[BUYER_nameFull]が[SELLER_nameFull]からアイテムを買っている様子
+		:image->[circumstance_group]、[SELLER_nameFull]が[BUYER_nameFull]へアイテムを売っている様子
+
+		:circumstance_phrase->貪欲な意図で
+		:circumstance_phrase->[SELLER_nameDef]が[BUYER_shortNameDef]を見下しながら
+
+		:desc_sentence->[SELLER_nameDef]は[BUYER_nameDef]の商品を品定めしている。
+		:desc_sentence->[SELLER_nameDef]はアイテムを検討している。
+		:desc_sentence->[SELLER_nameDef]は値切り始めている。
+		:desc_sentence->[BUYER_nameDef]は[SELLER_nameDef]と話し合っている。
+		:desc_sentence->[SELLER_nameDef]と[BUYER_possessive]は価格に同意している。
+		:desc_sentence->[BUYER_nameDef]はアイテムの代金を支払っている。
+		:desc_sentence->[SELLER_nameDef]は受け取ったお金を数えている。
+		:desc_sentence->[BUYER_nameDef]はグッズを手に取っている。
+	}
+}

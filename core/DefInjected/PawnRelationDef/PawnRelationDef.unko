@@ -1,0 +1,88 @@
+; PawnRelations_FamilyByBlood
+{Parent
+	label:_<father>_
+	labelFemale:_<mother>_
+}
+{Child
+	label:_<son>_
+	labelFemale:_<daughter>_
+}
+{Sibling
+	label:_<brother>_
+	labelFemale:_<sister>_
+}
+{HalfSibling
+	label:_<HalfSibling/brother>_
+	labelFemale:_<HalfSibling/sister>_
+}
+{Grandparent
+	label:_<grandfather>_
+	labelFemale:_<grandmother>_
+}
+{Grandchild
+	label:_<grandson>_
+	labelFemale:_<granddaughter>_
+}
+{NephewOrNiece
+	label:_<nephew>_
+	labelFemale:_<niece>_
+}
+{UncleOrAunt
+	label:_<uncle>_
+	labelFemale:_<aunt>_
+}
+Cousin.label:_<cousin>_
+{GreatGrandparent
+	label:_<great grandfather>_
+	labelFemale:_<great grandmother>_
+}
+{GreatGrandchild
+	label:_<great grandson>_
+	labelFemale:_<great granddaughter>_
+}
+{GranduncleOrGrandaunt
+	label:_<granduncle>_
+	labelFemale:_<grandaunt>_
+}
+{GrandnephewOrGrandniece
+	label:_<grandnephew>_
+	labelFemale:_<grandniece>_
+}
+CousinOnceRemoved.label:_<cousin once removed>_
+SecondCousin.label:_<second cousin>_
+Kin.label:_<kin>_
+
+; PawnRelations_FamilyByChoice
+{Spouse
+	label:_<husband>_
+	labelFemale:_<wife>_
+}
+{Fiance
+	label:_<fiance>_
+	labelFemale:_<fiancée>_
+}
+Lover.label:_<lover>_
+{Stepparent
+	label:_<stepfather>_
+	labelFemale:_<stepmother>_
+}
+{Stepchild
+	label:_<stepson>_
+	labelFemale:_<stepdaughter>_
+}
+{ParentInLaw
+	label:_<father-in-law>_
+	labelFemale:_<mother-in-law>_
+}
+{ChildInLaw
+	label:_<son-in-law>_
+	labelFemale:_<daughter-in-law>_
+}
+{ExSpouse
+	label:_<ex-husband>_
+	labelFemale:_<ex-wife>_
+}
+ExLover.label:_<ex-lover>_
+
+; PawnRelations_Misc
+Bond.label:_<bond>_

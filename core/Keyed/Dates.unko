@@ -1,0 +1,8 @@
+﻿ClockTime:<<Time??時刻>>
+ClockDate:<<Date??日付>>
+ClockYear:<<Year??星歴>>
+DateReadoutTip:到着後からの経過日数: {0}\n現在の節: {4}\n季節: {2}\n\n一年は各 {3} 日の四節に分けられる。\n節はどこでも同じだが、季節は場所によって異なる。\n\n各節における季節:\n{5}
+FullDate:<<{0} of {1}, {2}??{2} 年 {1} 節 {0} 日>>
+DateReadout:<<{0} of {1}, {2}??{2} 年 {1} 節 {0} 日>>
+SeasonFullDate:<<{0} of {1}??{1} 節 {0} 日>>
+WholeYear:<<Whole year??一年中>>

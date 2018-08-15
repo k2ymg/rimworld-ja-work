@@ -1,0 +1,544 @@
+﻿{?Combat_MeleeIncludes.rulePack.rulesStrings
+	:r_logentry->[action]。[result]。
+	:r_logentry(p=0.2)->[action]。
+
+	:implement(IMPLEMENTOWNER_type==weapon,p=2)->[WEAPON_label]の[TOOL_label]
+	:implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label]
+	:implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label]の[TOOL_label]
+	:implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_label]
+
+	:implement(IMPLEMENTOWNER_type==bodypart,p=2)->[TOOL_label]
+	:implement(IMPLEMENTOWNER_type==bodypart,p=1)->[adjective_bodypart][TOOL_label]
+
+	:implement(IMPLEMENTOWNER_type==hediff,p=2)->[WEAPON_label]の[TOOL_label]
+	:implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_label]
+	:implement(IMPLEMENTOWNER_type==hediff,p=1)->[TOOL_label]
+
+	:adjective_bodypart->硬い
+	:adjective_bodypart->強力な
+	:adjective_bodypart->力強い
+	:adjective_bodypart->力強い
+	:adjective_bodypart->強力な
+	:adjective_bodypart->無骨な
+	:adjective_bodypart->逞しい
+	:adjective_bodypart->頑丈な
+	:adjective_bodypart->堅い
+	:adjective_bodypart->丈夫な
+	:adjective_bodypart(initiator_flesh==True)->硬化した
+	:adjective_bodypart->固い
+
+	:targetlist(recipient_part_count==1)->[RECIPIENT_part0_label]
+	:targetlist(recipient_part_count==2)->[RECIPIENT_part0_label]、[RECIPIENT_part1_label]
+	:targetlist(recipient_part_count==3)->[RECIPIENT_part0_label]、[RECIPIENT_part1_label]、[RECIPIENT_part2_label]
+	:targetlist->[RECIPIENT_part0_label]、[RECIPIENT_part1_label]、[RECIPIENT_part2_label]、[RECIPIENT_part3_label]
+
+	:damaged_present(deflected!=True)->傷つけている
+	:damaged_present(deflected!=True)->怪我させている
+
+	:destroyed(p=0.5)->壊した
+	:destroyed(p=0.5)->粉砕した
+	:destroyed(p=0.5)->潰した
+	:destroyed(p=0.5)->破壊した
+
+	:wince(recipient_flesh==Normal)->怯んだ
+	:wince(recipient_flesh==Normal)->顔をゆがめた
+	:wince(recipient_flesh==Normal)->萎縮した
+	:wince(recipient_flesh==Normal)->うめいている
+	:wince(recipient_flesh!=Mechanoid)->悲鳴を上げている
+	:wince(recipient_flesh!=Mechanoid)->叫んでいる
+	:wince->後ずさっている
+	:wince->よろめいている
+
+	:painstate->に
+	:painstate->で
+	:painstate->による
+
+	:painevent(recipient_flesh!=Mechanoid)->痛み[painstate]
+	:painevent(recipient_flesh!=Mechanoid)->苦痛[painstate]
+	:painevent(recipient_flesh==Normal)->苦しみで
+	:painevent->怪我による
+	:painevent->傷による
+
+	:to->へ
+	:to->の中へ
+}
+
+{?Combat_MeleeDamageIncludes.rulePack.rulesStrings
+	:result(p=0.5)->[targetlist]を[damaged_present]
+	:result(p=0.1)->[targetlist]を[adverb_flavortext][damaged_present]
+	:result(p=0.1)->[flavortext_situation][targetlist]を[damaged_present]
+	:result(p=0.1)->[targetlist]を[damaged_present]、[flavortext_consequence]
+
+	:adverb_flavortext->痛烈に
+	:adverb_flavortext->残酷に
+	:adverb_flavortext->恐ろしく
+	:adverb_flavortext->苦しみ悶える
+	:adverb_flavortext->猛烈に
+	:adverb_flavortext->情け容赦なく
+	:adverb_flavortext->獰猛に
+	:adverb_flavortext->意地悪に
+	:adverb_flavortext->無慈悲に
+	:adverb_flavortext->薄情に
+
+	:flavortext_situation(recipient_flesh!=Mechanoid)->飛び散った血糊の中で
+	:flavortext_situation(recipient_flesh==Mechanoid)->飛び散った残骸の中で
+	:flavortext_situation->無感情に
+	:flavortext_situation(p=0.4)->うつろな表情で
+	:flavortext_situation(p=0.2,initiator_flesh==Normal)->凶暴な表情で
+	:flavortext_situation(p=0.2,initiator_flesh==Normal)->[AdjectiveBadass]表情で
+	:flavortext_situation(p=0.2,initiator_flesh==Normal)->嫌そうに
+	:flavortext_situation(p=0.2,initiator_flesh==Normal)->笑いながら
+	:flavortext_situation(p=0.2,initiator_flesh==Normal)->ニヤつきながら
+
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->嫌な傷を残している
+	:flavortext_consequence->恐ろしい傷を残している
+
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->[painevent][RECIPIENT_objective][wince]
+	:flavortext_consequence(p=0.2)->体勢が整っていない[RECIPIENT_objective]を投げ飛ばしている
+}
+
+{?Combat_WoundIncludes.rulePack.rulesStrings
+	:destroyed_targets(recipient_part_destroyed_count==1)->[RECIPIENT_part_destroyed0_label]
+	:destroyed_targets(recipient_part_destroyed_count==2)->[RECIPIENT_part_destroyed0_label]、[RECIPIENT_part_destroyed1_label]
+	:destroyed_targets(recipient_part_destroyed_count==3)->[RECIPIENT_part_destroyed0_label]、[RECIPIENT_part_destroyed1_label]、[RECIPIENT_part_destroyed2_label]
+	:destroyed_targets->[RECIPIENT_part_destroyed0_label]、[RECIPIENT_part_destroyed1_label]、[RECIPIENT_part_destroyed2_label]、[RECIPIENT_part_destroyed3_label]
+
+	:damaged_targets(recipient_part_damaged_count==1)->[RECIPIENT_part_damaged0_label]
+	:damaged_targets(recipient_part_damaged_count==2)->[RECIPIENT_part_damaged0_label]、[RECIPIENT_part_damaged1_label]
+	:damaged_targets(recipient_part_damaged_count==3)->[RECIPIENT_part_damaged0_label]、[RECIPIENT_part_damaged1_label]、[RECIPIENT_part_damaged2_label]
+	:damaged_targets->[RECIPIENT_part_damaged0_label]、[RECIPIENT_part_damaged1_label]、[RECIPIENT_part_damaged2_label]、[RECIPIENT_part_damaged3_label]
+
+	:expertly->上手に
+	:expertly->手際よく
+	:expertly->巧みに
+	:expertly->器用に
+	:expertly->巧妙に
+	:expertly->難なく
+	:expertly->慣れた手つきで
+	:expertly->的確に
+	:expertly->素早く
+	:expertly->賢く
+	:expertly->見事に
+	:expertly->華麗に
+	:expertly->技量で
+	:expertly->豊富な経験で
+	:expertly->鋭い勘で
+	:expertly->慎重に
+	:expertly->正確に
+	:expertly->無駄の無い動きで
+	:expertly->力で
+	:expertly->器用さで
+	:expertly->極めたように
+	:expertly->芸術的に
+	:expertly->プロ意識を持ちながら
+	:expertly->名人のように
+	:expertly->達人のように
+	:expertly->師範のように
+	:expertly->手練れのように
+	:expertly->玄人のように
+
+	:expert->専門的な
+	:expert->名人的な
+	:expert->機敏な
+	:expert->器用な
+	:expert->上手な
+	:expert->巧妙な
+	:expert->職業的な
+	:expert->適切な
+	:expert->巧みな
+	:expert->賢い
+	:expert->見事な
+	:expert->芸術的な
+}
+
+{?Combat_DeflectIncludes.rulePack.rulesStrings
+	:scraped_present->かすりながら
+	:scraped_present->跳ねながら
+	:scraped_present->かすりながら
+	:scraped_present->跳ね返りながら
+	:scraped_present->跳ねながら
+	:scraped_present->滑りならが
+
+	:scraped_past->かすめて
+	:scraped_past->跳ねて
+	:scraped_past->かすって
+	:scraped_past->跳ね返って
+	:scraped_past->跳ねて
+	:scraped_past->滑って
+}
+
+{?Combat_Hit.rulePack.rulesStrings
+	:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]の[RECIPIENT_part0_label]を[damaged_past]。
+	:r_logentry(p=0.1)->[INITIATOR_definite]が[RECIPIENT_definite]の[RECIPIENT_part0_label]を[adverb_flavortext][damaged_past]。
+	:r_logentry(p=0.1)->[INITIATOR_definite]が[RECIPIENT_definite]の[RECIPIENT_part0_label]を[flavortext_situation][damaged_past]。
+	:r_logentry(p=0.1)->[INITIATOR_definite]が[RECIPIENT_definite]の[RECIPIENT_part0_label]を[flavortext_consequence][damaged_past]。
+	:r_logentry(p=0.07)->[INITIATOR_definite]が[WEAPON_label]を[expertly]振り回し、[RECIPIENT_definite]の[RECIPIENT_part0_label]を[damaged_past]。
+	:r_logentry(p=0.03)->[INITIATOR_definite]が[WEAPON_label]を[expertly]振り回し、[RECIPIENT_definite]の[RECIPIENT_part0_label]を[adverb_flavortext][damaged_past]。
+
+	:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。
+	:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_suffix][destroyed_past]。
+	:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]の[destroyed_targets]を[expertly][destroyed_past]。
+	:r_logentry(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。
+
+	:result(p=1,recipient_part_damaged_count==0)->[destroyed_targets]を[destroyed_present]
+	:result(p=1,recipient_part_destroyed_count==0)->[damaged_targets]を[damaged_present]
+	:result(p=1)->[destroyed_targets]を[destroyed_present]、[damaged_targets]を[damaged_present]。
+
+	:action(p=0.3)->[INITIATOR_definite]が[implement]の[damaged_inf]を[RECIPIENT_definite]に当てた
+	:action(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf]した
+	:action->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_past]
+	:action(p=0.6)->[INITIATOR_definite]が[RECIPIENT_definite]を[damaged_past]
+}
+
+{?Combat_Deflect.rulePack.rulesStrings
+	:r_logentry(p=1)->[INITIATOR_definite]が[RECIPIENT_definite]の[RECIPIENT_part0_label]を[damaged_past][deflected_result]。
+	:r_logentry(p=0.3)->[INITIATOR_definite]が[WEAPON_label]を[expertly]に振り回し、[RECIPIENT_definite]の[RECIPIENT_part0_label]を[damaged_past][deflected_result]。
+
+	:r_logentry(p=0.3)->[INITIATOR_definite]が[implement]の[damaged_inf]を[RECIPIENT_definite]に当てた[deflected_result]。
+	:r_logentry(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf]した[deflected_result]。
+	:r_logentry(p=0.6)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_past][deflected_result]。
+	:r_logentry(p=0.6)->[INITIATOR_definite]が[RECIPIENT_definite]を[damaged_past][deflected_result]。
+
+	;格助詞は必須なので使わない
+	:at->dummy
+	:at->dummy
+
+	:deflected_result->が、[adverb_deflected]
+	:deflected_result->が、[deflected_consequence]
+
+	:adverb_deflected_opt(p=4)->た
+	:adverb_deflected_opt->、[adverb_deflected]
+
+	:adverb_deflected->無傷だった
+	:adverb_deflected->無駄だった
+
+	:deflected_consequence->[TOOL_label]は[scraped_past]外れ[adverb_deflected_opt]
+	:deflected_consequence->アーマーから[scraped_present]落ち[adverb_deflected_opt]
+
+	:scraped_present->こすれ
+	:scraped_present->滑り
+
+	:scraped_past->かすって
+	:scraped_past->滑って
+}
+
+{?Combat_FailIncludes.rulePack.rulesStrings
+	:action->[INITIATOR_definite]が[RECIPIENT_definite]を[damaged_inf][tried]
+	:action->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf][tried]
+	:action->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf][tried]
+	:action->[INITIATOR_definite]が[RECIPIENT_definite]へ[WEAPON_label]を振り下ろした
+	:action(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite][towardsat][verb_genericattack]
+	:action(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite][towardsat][verb_genericattack]
+	:action(p=0.3)->[INITIATOR_definite]が[implement]で[verb_genericattack]
+
+	:towardsat->へ
+	:towardsat->に
+
+	:verb_genericattack->振るった
+	:verb_genericattack->叩きつけた
+	:verb_genericattack->打ち付けた
+
+	:tried->しようとした
+	:tried->しようとした
+}
+
+{?Combat_Miss.rulePack.rulesStrings
+	:r_logentry(p=0.2)->[RECIPIENT_definite]が[INITIATOR_definite]の[WEAPON_label]による[damaged_inf]を避けた。
+	:r_logentry(p=0.2)->[INITIATOR_definite]が[RECIPIENT_definite]への[implement]の[damaged_inf]を外した。
+
+	:r_logentry(p=0.2)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf]しようとしたが、[failtype]。
+	:r_logentry(p=0.2)->[INITIATOR_definite]が[RECIPIENT_definite]を[damaged_inf]しようとしたが、[failtype]。
+	:r_logentry(p=0.2)->[INITIATOR_definite]が[failtype]。
+
+	:failtype->つまづいた
+	:failtype->よろめいた
+	:failtype->空振りした
+	:failtype->もたついた
+	:failtype->失敗した
+
+	:result->しかし失敗した
+	:result->しかし空を切った
+	:result->しかし一振りは外れた
+	:result->しかし最後の瞬間につまずいた
+	:result(initiator_flesh!=Mechanoid)->しかし最後の瞬間に躊躇した
+}
+
+{?Combat_Dodge.rulePack.rulesStrings
+	:r_logentry(p=0.2)->[RECIPIENT_definite]が[implement]からの[INITIATOR_definite]の[damaged_inf]をよけた。
+	:r_logentry(p=0.2)->[RECIPIENT_definite]が[INITIATOR_definite]の[damaged_inf]をよけた。
+
+	:result->しかし[RECIPIENT_definite]は飛び退いた
+	:result->しかし[RECIPIENT_definite]のフェイントにダマされた
+	:result->しかし攻撃は巧みによけられた
+}
+
+{?Combat_RangedFire.rulePack.rulesStrings
+	:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]に[WEAPON_label]を[shotat]。
+	:r_logentry->[INITIATOR_definite]が[WEAPON_label]を[RECIPIENT_definite]に[shot]。
+	:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]を[shotat]。
+	:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]に[WEAPON_projectile_label]を[burst][shot_a]。
+	:r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]が[WEAPON_projectile_label]を[shot_a]。
+	:r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]が[WEAPON_label]を[shot]。
+
+	:shot_a->[adverb_shot][verb_shot]
+	:shot_a(p=2)->[verb_shot]
+
+	:shot(p=2)->[verb_shot]
+	:shot->[adverb_shot][verb_shot]
+
+	:shotat->[aburst]撃った
+	:shotat->[adverb_shot][aburst]撃った
+	:shotat(p=0.5)->[aburst]撃ってみた
+	:shotat(p=0.3)->撃った
+	:shotat(p=0.2)->[adjective_shot]撃った
+	:shotat->[aburst]撃った
+	:shotat->[adverb_shot][aburst]撃った
+	:shotat(p=0.5)->狙って[aburst]撃った
+	:shotat(p=0.3)->撃ち始めた
+
+	:aburst->
+	:aburst(BURST==True,p=3)->連続して
+
+	:burst->
+	:burst(BURST==True,p=3)->連続して
+
+	:verb_shot->撃った
+	:verb_shot->撃った
+	:verb_shot->放った
+
+	:adverb_shot->慎重に
+	:adverb_shot->素早く
+	:adverb_shot->正確に
+	:adverb_shot->落ち着いて
+	:adverb_shot(initiator_flesh!=Mechanoid)->恐る恐る
+	:adverb_shot->正確に
+	:adverb_shot(initiator_flesh!=Mechanoid)->油断なく
+
+	:adjective_shot->慎重に
+	:adjective_shot->素早く
+	:adjective_shot->落ち着いて
+	:adjective_shot->正確に
+	:adjective_shot(initiator_flesh!=Mechanoid)->油断なく
+}
+
+{?Combat_RangedFire_Thrown.rulePack.rulesStrings
+	:r_logentry->[INITIATOR_definite]が[WEAPON_projectile_label]を[RECIPIENT_definite]へ[threw]。
+	:r_logentry->[INITIATOR_definite]が[WEAPON_projectile_label]を[RECIPIENT_definite]へ[threw_a]。
+	:r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]が[WEAPON_projectile_label]を[threw]。
+	:r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]が[WEAPON_projectile_label]を[threw_a]。
+
+	:threw_a->[adverb_threw][verb_threw]
+	:threw_a(p=2)->[verb_threw]
+
+	:threw(p=2)->[verb_threw]
+	:threw->[adverb_threw][verb_threw]
+
+	:verb_threw->投げた
+	:verb_threw->投げつけた
+	:verb_threw->投射した
+
+	:adverb_threw->慎重に
+	:adverb_threw->素早く
+	:adverb_threw->正確に
+	:adverb_threw->落ち着いて
+	:adverb_threw(initiator_flesh!=Mechanoid)->恐る恐る
+	:adverb_threw->正確にprecisely
+	:adverb_threw(initiator_flesh!=Mechanoid)->油断なく
+
+	:adjective_threw->careful
+	:adjective_threw->quick
+	:adjective_threw->deliberate
+	:adjective_threw->precise
+	:adjective_threw(initiator_flesh!=Mechanoid)->wary
+}
+
+{?Combat_RangedDamage.rulePack.rulesStrings
+	:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。
+	:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past][to][destroyed_suffix]。
+	:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[expertly][destroyed_past]。
+	:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。
+	:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、 [RECIPIENT_definite]の[destroyed_targets]を[destroyed_present]。
+	:r_logentry->[RECIPIENT_definite]の[destroyed_targets]が[INITIATOR_definite]の[WEAPON_projectile_label]で[destroyed_past]。
+	:r_logentry->[RECIPIENT_definite]の[destroyed_targets]が[INITIATOR_definite]の[expert][WEAPON_projectile_label]で[destroyed_past]。
+	:r_logentry->[RECIPIENT_definite]の[destroyed_targets]が[INITIATOR_definite]の[WEAPON_projectile_label]で[destroyed_suffix]に[destroyed_past]。
+
+	:r_logentry(recipient_partDestroyed_count==0)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
+	:r_logentry(recipient_partDestroyed_count==0)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_targets]を[expertly][damaged_past]。
+	:r_logentry(recipient_partDestroyed_count==0,p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
+	:r_logentry(recipient_partDestroyed_count==0,p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[damaged_targets]を[damaged_present]。
+	:r_logentry(recipient_partDestroyed_count==0)->[RECIPIENT_definite]の[damaged_targets]が[INITIATOR_definite]の[WEAPON_projectile_label]で[damaged_past]。
+	:r_logentry(recipient_partDestroyed_count==0)->[RECIPIENT_definite]の[damaged_targets]が[INITIATOR_definite]の[expert][WEAPON_projectile_label]で[damaged_past]。
+
+	:r_logentry(p=3)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]、[damaged_targets]を[damaged_past]。
+	:r_logentry(p=6)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_present]、[damaged_targets]を[damaged_present]。
+
+	:r_logentry(p=0.2)->[INITIATOR_definite]が[RECIPIENT_definite]に[WEAPON_projectile_label]を当てた。
+	:r_logentry(p=0.2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]に当たった。
+	; 「Aが外した」「Aの弾が外れた」となるので、「Aの弾が～」に統一する。
+	:r_logentry(p=0.4)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]に当たった。
+	:r_logentry(p=0.4)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]に当たった。
+	:r_logentry(p=0.2)->[ORIGINALTARGET_definite]を狙った[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]に当たった。
+
+	:weapon_projectile_label(p=0.05)->ショットshot
+
+	:destroyed_past->粉々にした
+	:destroyed_past->潰した
+	:destroyed_past->吹き飛ばした
+	:destroyed_past->ダメにした
+	:destroyed_past->突き刺さった
+	:destroyed_past->貫いた
+	:destroyed_past->穴を開けた
+
+	:destroyed_present->粉々にしている
+	:destroyed_present->潰している
+	:destroyed_present->吹き飛ばしている
+	:destroyed_present->ダメにしている
+	:destroyed_present->突き刺さっている
+	:destroyed_present->貫いている
+	:destroyed_present->穴を開けている
+
+	:destroyed_suffix->破片
+	:destroyed_suffix->小片
+	:destroyed_suffix->細かな霧
+	:destroyed_suffix->断片
+	:destroyed_suffix(p=0.5)->蜂の巣
+	:destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->挽肉
+
+	:damaged_past->傷つけた
+	:damaged_past->怪我させた
+	:damaged_past->突き刺した
+	:damaged_past->害した
+	:damaged_past->撃った
+
+	:damaged_present->傷つけている
+	:damaged_present->怪我させている
+	:damaged_present->突き刺している
+	:damaged_present->害している
+	:damaged_present->撃っている
+
+	:damaged_suffix->汚いやり方で
+	:damaged_suffix(recipient_flesh!=Mechanoid)->血しぶきを上げながら
+	:damaged_suffix(recipient_flesh!=Mechanoid)->生々しく
+
+	:to->へ
+	:to->の中へ
+
+	:missed->外れ
+	:missed->僅かに外れ
+}
+
+{?Combat_RangedDeflect.rulePack.rulesStrings
+	:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_target]を[damaged_past]が、[deflected_result]。
+	:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite][damaged_target_possessive_opt] [damaged_past] [deflected_result]。
+	:r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt]が[INITIATOR_definite]の[WEAPON_projectile_label]で[damaged_past]が、[deflected_result]。
+
+	:r_logentry(p=0.2)->[INITIATOR_definite]が[RECIPIENT_definite][damaged_target_possessive_opt]に[WEAPON_projectile_label]を当てたが、[deflected_result]。
+	:r_logentry(p=0.2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite][damaged_target_possessive_opt]に当たったが、[deflected_result]。
+	:r_logentry(p=0.4)->[INITIATOR_definite]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite][damaged_target_possessive_opt]に[WEAPON_projectile_label]を当てたが、[deflected_result]。
+	:r_logentry(p=0.4)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite][damaged_target_possessive_opt]に当てたが、 [deflected_result]。
+	:r_logentry(p=0.2)->[ORIGINALTARGET_definite]を狙った[INITIATOR_definite]の[WEAPON_projectile_label]は[RECIPIENT_definite][damaged_target_possessive_opt]に当たったが、[deflected_result]。
+
+	:weapon_projectile_label(p=0.05)->ショット
+
+	:damaged_target_possessive_opt->
+	:damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->の[RECIPIENT_part_damaged0_label]
+
+	:deflected_result->[adverb_deflected]
+	:deflected_result->[deflected_consequence]
+
+	:adverb_deflected_opt(p=4)->た
+	:adverb_deflected_opt->、[adverb_deflected]
+
+	:adverb_deflected->無傷だった
+	:adverb_deflected->無駄だった
+
+	:deflected_consequence->[scraped_past]外れ[adverb_deflected_opt]
+	:deflected_consequence->アーマーから[scraped_present]落ち[adverb_deflected_opt]
+
+	:scraped_past->跳ねて
+
+	:scraped_present->跳ねながら
+
+	:missed->外れ
+	:missed->僅かに外れ
+}
+
+{?Combat_RangedMiss.rulePack.rulesStrings
+	:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[missed]。
+
+	:r_logentry->[INITIATOR_definite]は[ORIGINALTARGET_definite]を逃した。
+	:r_logentry->[ORIGINALTARGET_definite]は[avoidance]、[INITIATOR_definite]の[WEAPON_projectile_label]が[missing]。
+
+	:missed(p=4)->外れた
+	:missed(p=2)->僅かに外れた
+	:missed(p=2)->大きく外れた
+	:missed->当たらなかった
+	:missed->空へ飛んでいった
+	:missed->空高く飛んでいった
+	:missed->地面を穿った
+	:missed->地面に跳ねて消えた
+	:missed->地面を削り取った
+	:missed(p=0.2)->[ORIGINALTARGET_definite]の数ミリ先をかすめた
+	:missed->[ORIGINALTARGET_definite]の数センチ先をかすめた
+	:missed->[ORIGINALTARGET_definite]の数十センチ先をかすめた
+	:missed->何処かへ飛んでいった
+
+	:missing->外れた
+	:missing->僅かに外れた
+	:missing->大きく外れた
+	:missing->当たらなかった
+	:missing->空へ飛んでいった
+	:missing->空高く飛んでいった
+	:missing->地面を穿った
+	:missing->地面に跳ねて消えた
+	:missing->地面を削り取った
+	:missing(p=0.2)->[ORIGINALTARGET_definite]の数ミリ先をかすめた
+	:missing->[ORIGINALTARGET_definite]の数センチ先をかすめた
+	:missing->[ORIGINALTARGET_definite]の数十センチ先をかすめた
+	:missing->何処かへ飛んでいった
+
+	:avoidance(ORIGINALTARGET_mobile==True)->最後の数秒で飛び退き
+	:avoidance(ORIGINALTARGET_mobile==True)->逃げようとしてつまずき
+	:avoidance(ORIGINALTARGET_mobile==True)->地面へ身を投げ出し
+	:avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[COVER_definite]の後ろへ突っ込み
+	:avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[COVER_definite]の後ろへ飛び込み
+}
+
+{?Combat_ExplosionImpact.rulePack.rulesStrings
+	:prefix->[INITIATOR_definite]の[WEAPON_projectile_label][fromof][blast]
+	:prefix->[INITIATOR_definite]の[WEAPON_label][fromof][blast]
+	:prefix->[INITIATOR_definite]の[WEAPON_projectile_label][fromof][blast]
+	:prefix->[INITIATOR_definite]の[WEAPON_label][fromof][blast]
+	:prefix->[INITIATOR_definite]の[blast]
+	:prefix->[INITIATOR_definite]の[WEAPON_projectile_label][blast]
+	:prefix->[INITIATOR_definite]の[WEAPON_label][blast]
+	:prefix->[INITIATOR_definite]の[WEAPON_projectile_label]
+	:prefix->[INITIATOR_definite]の[WEAPON_label]
+
+	:r_logentry->[prefix]が[RECIPIENT_definite]を[injured]。
+
+	:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。
+	:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[adverb_flavortext][destroyed_past]。
+	:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[adverb_flavortext][destroyed_past]。
+	:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]、[damaged_targets]を[damaged_past]。
+	:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
+	:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[adverb_flavortext][damaged_past]。
+	:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[adverb_flavortext][damaged_past]。
+
+	:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]を[damaged_past]。
+	:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]を[adverb_flavortext][damaged_past]。
+	:r_logentry->[RECIPIENT_definite]を[damaged_past]。
+
+	:r_logentry(p=0.001)->[RECIPIENT_definite]が爆発に巻き込まれた。
+	:r_logentry(p=0.001)->[RECIPIENT_definite]が爆発に打たれた。
+
+	:blast->爆発
+	:blast->爆風
+	:blast->衝撃波
+	:blast->爆轟
+	:blast->放出
+	:blast->衝撃
+
+	:fromof->からの
+	:fromof->による
+}

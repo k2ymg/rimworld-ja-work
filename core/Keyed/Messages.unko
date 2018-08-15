@@ -1,0 +1,313 @@
+﻿MessageSiegersAssaulting:包囲攻撃部隊 {1} の {0} が_{colony}_へ襲撃してきている。
+
+MessageRaidersBeginningAssault:{1} の {0} は襲撃を開始した。
+MessageRaidersDetectedEarlyAssault:{1} の {0} はこちらを発見したので攻撃を早めた。
+MessageRaidersKidnapping:{1} の {0} は誰かを誘拐して離れることにした。
+MessageRaidersStealing:{1} の {0} は何かを略奪して離れることにした。
+
+MessageRaidersLeaving:{1} の {0} は離れている。
+MessageRaidersGivenUpLeaving:{1} の {0} は諦めて離れようとしている。
+MessageRaidersSatisfiedLeaving:{1} の {0} は成果に満足して離れている。
+
+MessageFightersFleeing:{1} の {0} は逃げている。
+MessageFriendlyFightersLeaving:味方の {1} の {0} は離れている。
+
+MessageVisitorsTakingWounded:{1} の {0} は怪我をした_{guest}_を運ぼうとしている。
+MessageVisitorsTrappedLeaving:{1} の {0} は閉じ込められ脱出しようとしている。
+MessageVisitorsDangerousTemperature:{1} の {0} は危険な気温のため離れている。
+
+MessageWornApparelDeterioratedAway:{1} が身に着けていた {0} は朽ち果てた。
+
+MessageSeasonBegun:{0} が始まる。
+
+MessageShipHasLeftCommsRange:{0} は通信範囲から離れた。
+
+MessageNeedBeaconToTradeWithShip:船と取引するには通電している _[orbital trade beacon]_ が必要。
+
+MessageBillComplete:_{bill}_完了：{0}
+
+MessageFullyHealed:{0} の怪我は治った。
+
+MessagePrisonerIsEscaping:_{prisoner}_ {0} が逃げている。
+
+MessageOutOfNearbyShellsFor:{0} は {1} に使う弾薬を近くで見つけられない。
+
+MessageAnimalsGoPsychoHunted:警告: {0} は危害を加えられると {1} の確率で襲ってくる。近づくと確率は上がり、_<Hunting stealth>_が良いと下がる。
+
+MessageAnimalManhuntsOnTameFailed:警告: {0} は手懐行為が失敗すると反撃するかもしれない。(確率 {1})
+
+LetterLabelMessageRecruitSuccess:<<New recruit??新人>>
+MessageRecruitSuccess:{0} は {1} の勧誘に成功した(成功率 {2})。
+MessageTameSuccess:{0} は {1} の手懐けに成功した(成功率 {2})。
+MessageTameAndNameSuccess:{0} は {1} の手懐けに成功し(成功率 {2})、{3} と名付けた。
+
+MessageColonyCannotAfford:この取引を行える余裕がない。
+MessageColonyNotEnoughSilver:取引をするための十分な_[Silver]_がない。
+
+MessageCriticalAlert:<<Critical alert: {0}??緊急警告: {0}>>
+
+MessageMustDesignateHarvestable:十分に成長した収穫可能な植物を指定する。
+MessageMustDesignateHarvestableWood:十分に成長した木材を生み出す植物を指定する。
+MessageMustDesignatePlants:植物を指定する。
+MessageMustDesignateHaulable:運搬可能なアイテムを指定する。いくつかのアイテムは常に運ばれるので指定できない。
+MessageMustDesignateMineable:採掘可能な岩を指定する。
+MessageMustDesignateHuntable:狩猟可能な動物を指定する。
+MessageMustDesignateTameable:手懐けられる動物を指定する。
+MessageMustDesignateClaimable:放棄された人工構造物を指定する。
+MessageMustDesignateSmoothableSurface:荒れた面を指定する。
+MessageNothingCanRemoveThickRoofs:分厚い天井は取り除けない。
+MessageAlreadyInStorage:既に貯蔵所にある。必要ならより優先度の高い貯蔵所へ移動できる。
+MessageMustDesignateStrippable:脱がせられる衣服を着た、死体や倒れている人物を指定する。
+MessageMustDesignateSlaughterable:_{colony}_に属している手懐けられている動物を指定する。
+MessageMustDesignateOpenable:中身が入っている墓地や容器を指定する。
+MessageMustDesignateForbiddable:禁止されていないアイテムを指定する。
+MessageMustDesignateUnforbiddable:禁止されているアイテムを指定する。
+
+MessageRefusedArrest:{0} は逮捕されるのを拒否した。
+
+MessageNoMedicalBeds:利用可能な医療用ベッドがない。
+MessageNoAnimalBeds:利用可能な動物用ベッドがない。
+MessageTooLowMedCare:手術には {0} 以上が必要だが、{1} の現在の治療レベルは"{2}"になっている。
+
+PawnDiedBecauseOf:{0} が死んだ。原因: {1}。
+PawnDied:{0} が死んだ。
+
+MessageNoLongerDowned:{0} は自由に歩き回れるようになった。
+
+MessageInvoluntarySleep:{0} が極度の疲労によって倒れた。
+
+MessageMedicalOperationFailureMinor:{0} は {1} の手術で少し失敗した。
+MessageMedicalOperationFailureCatastrophic:{0} は {1} の手術で大失敗した。
+MessageMedicalOperationFailureRidiculous:{0} は {1} の手術で間抜けな失敗をした。
+MessageMedicalOperationFailureFatal:{0} は {1} の手術で致命的なミスを犯した。特別な挑戦のため: {2}
+
+MessageMedicalOperationWillAngerFaction:この手術は {0} を怒らせる。
+
+MessageMiscarriedStarvation:{0} が飢えにより流産した。
+MessageMiscarriedPoorHealth:{0} が体調不良により流産した。
+MessageGaveBirth:{0} が出産した。
+
+MessageNuzzledPawnGaveNameTo:{1} が懐いたので {0} は {2} と名付けた。
+
+MessageNoHandlerSkilledEnough:{0} は誰も手懐けられない。(必要レベル {1} / {2}、最も高い {3} は {4})。
+
+MessageEatenByPredator:{0} が {1} に喰われた。
+MessageAttackedByPredator:{0} が {1} に襲われた!
+
+MessageHiveReproduced:虫の巣が自己増殖した。
+
+MessageTraderCaravanLeaving:{0} からの交易キャラバンは離れている。
+
+MessageCantSelectDeadPawn:{0} は死んでいる。
+MessageCantSelectOffMapPawn:{0} はマップ外にいる。
+
+MessageSocialFight:{0} が {1} とケンカを始めた。
+
+MessageNewMarriageCeremony:_{colonists}_は {0} と {1} の 結婚式を祝うために集った。
+MessageMarriageCeremonyStarts:{0} と {1} の結婚式が始まった!
+MessageMarriageCeremonyCalledOff:{0} と {1} の結婚式は取りやめになった。
+MessageNewlyMarried:{0} と {1} は結婚した。_{colonists}_たちはこの出来事を喜んでいる。
+MessageMarriageCeremonyAfterPartyFinished:{0} と {1} の結婚式は終わった。
+
+MessageNewBondRelation:{0} と {1} は絆で結ばれた。
+MessageNewBondRelationNewName:{0} と {1} は絆で結ばれた。{0} は {2} と名付けた。
+
+MessageBondedAnimalMentalBreak:{0} は {1} の死により精神崩壊を起こした。
+MessageNamedBondedAnimalMentalBreak:{1} と名づけられた {0} は {2} の死により精神崩壊を起こした。
+MessageBondedAnimalsMentalBreak:{0} 匹の動物達は {1} の死により精神崩壊を起こした。
+
+MessageSuccessfullyRemovedHediff:{0} は {1} の {2} の除去に成功した。
+
+MessageShipChunkDrop:宇宙船の残骸が近くに衝突した。\n\n解体すれば資源を得られる。
+
+MessagePartyCalledOff:パーティは中止になった。
+MessagePartyFinished:パーティは終わった。
+
+MessageCannotSellItemsReason:いくつかのアイテムは次の理由により取引できない:
+
+MessageConstructionFailed:{1} は {0} の建造に失敗し、いくつかの資源が無駄になった。
+
+MessageScreenshotSavedAs:スクリーンショットを次の名前で保存した: {0}
+
+MessageNoLongerSocialFighting:{0} と {1} はケンカを止めた。
+
+MessageNoLongerBingingOnDrug:{0} は {1} の乱用を止めた。
+
+MessageNoLongerOnTargetedInsultingSpree:{0} は {1} に暴言を言うのを止めた。
+
+MessageRottedAwayInStorage:{0} が貯蔵所で腐った。
+
+MessageFoodPoisoning:{0} が {1} で食中毒を起こした。原因: {2}。
+
+MessagePawnLostWhileFormingCaravan:{0} がキャラバンから外された。
+MessagePawnLostWhileFormingCaravan_AllLost:キャラバンの編成は中止された。
+MessageCaravanFormationPaused:全員が精神崩壊から回復すれば、キャラバンの編成は続けられる。
+MessageCaravanFormationUnpaused:_{colonists}_はキャラバン編成を再開した。
+
+MessageCaravanMemberHasExtremeMentalBreak:キャラバンの一人が精神崩壊した。
+
+MessageMaxPlanetCoveragePerformanceWarning:警告: 惑星全体を生成するには非常に長い時間がかかる。
+
+MessagePlantDiedOfCold:{0} が凍死した。
+MessagePlantDiedOfRot_LeftUnharvested:{0} が収穫されずに腐って死んだ。
+MessagePlantDiedOfRot_ExposedToLight:{0} が光に当たって死んだ。
+MessagePlantDiedOfRot:{0} が腐って死んだ。
+MessagePlantDiedOfPoison:{0} が毒で死んだ。
+MessagePlantDiedOfBlight:{0} が疫病で死んだ。
+
+MessagePawnBeingBurned:{0} が高温の大気で火傷した。
+
+MessageAccidentalOverdose:{0} が {1} を誤って過剰摂取した!
+
+MessageCaravanArrivedAtDestination:{0} は目的地に到達した。
+
+MessageCaravanIsVisitingSettlement:{0} は {1}に到着した。
+
+MessageCaravanEnteredWorldObject:{0} は {1}に到着した。
+
+MessagePawnLeftMapAndCreatedCaravan:{0} はこのエリアを離れてキャラバンを編成した。
+MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin:動物が加わろうとしている。
+
+MessageSettledInExistingMap:新しいエリアに入植できた。
+
+MessagePermanentWoundHealed:{1} の {2} は治った。原因: {0}
+
+MessageRescueeJoined:[PAWN_objective]を救出したことで、{0} がグループに加わった！
+
+;MessageAttackedCaravanIsNowHostile,{0} のキャラバンを攻撃したので、この派閥は今から敵になる。
+;MessageFactionPawnCrushed,{0} が落盤事故により人を失った。派閥関係: {1}
+;MessageFactionPawnLost,{0} が {1} を失った。派閥関係: {2}
+
+MessageTransporterUnreachable:いくつかの _[Transport pod]_ は到達できない。
+MessageTransportersNotAdjacent:選択している _[Transport pod]_ に接続されている全ての _[Pod launcher]_ は隣接していなければならない。
+
+MessageTransportersLoadCanceled_TransporterDestroyed:_[Transport pod]_ の一つが破壊されたので、荷積み作業が中止された。
+MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned:_[Pod launcher]_ の一つが破壊されたので、荷積み作業は中止された。
+
+MessageTransportersLoadingProcessStarted:_{colonists}_が今から _[Transport pod]_ に指定された荷物を積み込む。
+
+MessageTransportPodsArrived:_[Transport pod]_ が到着した。
+MessageTransportPodsArrivedAndLost:_[Transport pod]_ が到着したが、_{colonists}_が一人も乗っていなかったので荷物が失われた。
+MessageTransportPodsArrivedAndAddedToCaravan:_[Transport pod]_ が到着した。中身は {0} に加えられた。
+
+MessageFailedToLoadTransportersBecauseColonistLost:_{colonists}_のうちの一人を失ったので、荷積み作業は中止された。
+
+MessageFinishedLoadingTransporters:_{colonists}_は _[Transport pod]_ への積み込みを終えた。
+
+MessageTransportPodsDestinationIsInvalid:選択された目的地が不正。
+MessageTransportPodsDestinationIsTooFar:_[Transport pod]_ をその距離まで飛ばすには、各 _[Pod launcher]_ に最低でも {0} の燃料が必要。
+
+MessageReformedCaravan:キャラバンは再編成した。
+
+MessageCantBanishLastColonist:最後の_{colonist}_を追放することはできない。
+
+MessageCantEquipIncapableOfViolence:装備不可: {0} は暴力をふるえない。
+MessageCantEquipIncapableOfManipulation:装備不可: できない。
+
+MessageSlaughteringBondedAnimal:絆があるので、{0} を屠殺すると {1} が不満になる。
+
+MessageCaravanRanOutOfFood:{0} の食料が尽きた({1})。
+
+MessageSelectOwnBaseToFormCaravan:キャラバンを編成するには自分の_{colony}_か人々がいる場所を選択する。
+
+MessageScreenResTooSmallForUIScale:この解像度とUIスケールではゲームインターフェースがはみ出します。UIスケールを下げるか、解像度を上げましょう。
+
+MessageYouHaveToReformCaravanNow:今すぐキャラバンを編成しなければならない。後に残された人は全て見捨てられる。
+
+MessageDefendersAttacking:{1} の {0} が {2} を攻撃している。
+
+MessageSelfTendUnsatisfied:自己治療をするには、{0} に医者の仕事も割り当てる必要がある。
+MessageCannotSelfTendEver:{0} は医者の仕事ができないので、自己治療はできない。
+
+MessageCantAddWaypointBecauseImpassable:このタイルは通れない。
+MessageCantAddWaypointBecauseUnreachable:最後のウェイポイントから、このタイルに到達できない。
+MessageCantAddWaypointBecauseLimit:{0} 以上のウェイポイントは追加できない。
+MessageCantRemoveWaypointBecauseFirst:このウェイポイントは削除できない。
+
+MessageCantDoExecutionBecauseNoWardenCapableOfViolence:暴力行為を行える_<Warden>_が一人もいないので、処刑できなかった。
+
+MessageSiteCountdownBecauseNoMoreEnemies:すべての敵を倒した。残り {0} で、キャラバンは自動的に再編成される。
+MessageSiteCountdownBecauseNoEnemiesInitially:残り {0} で、キャラバンは自動的に再編成される。ワールド画面で今すぐ再編成することもできる。
+
+MessageCantBanishDownedPawn:{0} は歩けないので追放できない。
+MessageSleepingPawnsWokenUp:{0} は目を覚ました。
+MessageCompSpawnerSpawnedItem:アイテムを生産した: {0}。
+MessageHediffCuredByItem:健康が回復した: {0}。
+MessageBodyPartCuredByItem:身体パーツを修復した: {0}。
+MessageResearchProjectFinishedByItem:テクノロジーが与えられた: {0}。
+MessagePawnResurrected:{0} は息を吹き返した!
+MessageFailedToRescueRelative:{0} を救えなかった。{1} を悲しませる。
+MessageRescuedRelative:{0} を救えた。{1} が喜ぶ。
+
+MessageTornadoLeftMap:竜巻は去った。
+MessageTornadoDissipated:竜巻は散り散りになった。
+MessagePeaceTalksNoDiplomat:意識も、外交能力も無い
+MessageWarningCavePlantsExposedToLight:警告: {0} は光に当たると生きていけない。
+
+MessageTargetedTantrumChangedTarget:{0} は {1} へ行けないので代わりに {2} へ怒りを向けた。
+MessageTargetedInsultingSpreeChangedTarget:{0} は {1} へ行けないので代わりに {2} へ怒りを向けた。
+
+MessageMurderousRageChangedTarget:{0} は怒りの矛先を {1} へ変えた。
+
+MessagePlantIncompatibleWithRoof:{0} は屋根の下では成長できない。
+MessageRoofIncompatibleWithPlant:{0} の上に屋根は作れない。
+
+MessageChoseRoute:キャラバンは最初のウェイポイントへ自動的に移動する。
+
+;MessageBlockedHediff:{0} が {1} を防いでいる: {2}。
+
+MessageCraftedMasterwork:{0} が {1} を作った。
+
+MessagePlayerTriedToLeaveMapViaExitGrid:ここから離れるには、ワールド画面の"_<Reform caravan>_"ボタンを使う。
+
+MessageGoodwillChanged:{0} との関係が {1} から {2} へ変わった。
+MessageGoodwillChangedWithReason:{0} との関係が {1} から {2} へ変わった。({3})。
+GoodwillChangedReason_AttackedPawn:{0} を攻撃したため
+GoodwillChangedReason_UsedItem:{1} に {0}を使ったため
+GoodwillChangedReason_RemovedBodyPart:{0} から臓器を抜いたため
+GoodwillChangedReason_CapturedPawn:{0} を捕まえたため
+GoodwillChangedReason_PawnCrushed:{0} が潰れたため
+GoodwillChangedReason_PawnDied:{0} が死んだため
+GoodwillChangedReason_Traded:交易により
+GoodwillChangedReason_AttackedCaravan:キャラバンを襲ったため
+GoodwillChangedReason_NaturallyOverTime:時間経過で{0}になる性質により
+GoodwillChangedReason_ExitedMapHealthy:{0} が元気に出て行ったので
+GoodwillChangedReason_Tended:{0} を看護したので
+GoodwillChangedReason_ReceivedGift:贈り物を受け取ったので
+GoodwillChangedReason_FulfilledTradeRequest:取引要請を達成したので
+
+MessageGiftGivenButNotAppreciated:{0} は贈り物を受け取ったが、満足しなかった。
+
+MessageCantGiveGiftBecauseCantCarryEncumbered:キャラバンは既に過重しており、これ以上運べない。
+MessageCantGiveGiftBecauseCantCarry:キャラバンはあまり運べない。贈り物の重さは {0} だがキャラバンはあと {1} しか運べない。
+
+MessageFormedCaravan:{0} の編成が終わりワールドマップへ移動し始めた。
+MessageFormedCaravan_Orders:命令
+
+MessageBillValidationStoreZoneDeleted:{1} の "{0}" は消された_{stockpile}_ {2} へ運べなくなった。
+MessageBillValidationStoreZoneUnavailable:{1} の "{0}" は利用不可な_{stockpile}_ {2} へ運べなくなった。
+MessageBillValidationPawnUnavailable:{0} は {2} で "{1}" の作業をしなくなった。制限は解除された。
+MessageBillValidationIncludeZoneDeleted:{1} の "{0}" は消された_{stockpile}_ {2} のアイテムを数えられなくなった。
+MessageBillValidationIncludeZoneUnavailable:{1} の "{0}" は利用不可な_{stockpile}_ {2} のアイテムを数えられなくなった。
+MessageBillValidationStoreZoneInsufficient:{1} の "{0}" は全ての生産物を_{stockpile}_ {2} へ運べなくなった。
+
+MessageAnimalReturnedWild:継続的な飼い慣らしを怠ったので、{0} は野生へ帰っていった。
+MessageAnimalLostSkill:継続的な訓練を怠ったので、{0} はスキルを失った: {1}
+
+MessageTranslationReportSaved:翻訳リポートを出力しました: {0}
+
+MessageCaravanArrivalActionNoLongerValid:{0} は目的地へたどり着けない。
+
+MessageEnterCooldownBlocksEntering:{0} 日間は再入場できない。
+
+MessagePredatorHuntingPlayerAnimal:{0} が {1} を捕食しようとしている！
+
+MessagePrisonerResistanceBroken:_{prisoner}_ {0} の抵抗は {1} により砕かれた。
+MessagePrisonerResistanceBroken_RecruitAttempsWillBegin:勧誘出来るようになった。
+
+MessageDisableModsBeforeCleaningTranslationFiles:このツールを使う前に全てのMODを無効にする。
+MessageTranslationFilesCleanupDone:完了。処理したフォルダ: {0}
+
+MessageCantCleanupTranslationFilesBeucaseOfXmlError:翻訳ファイル({0})が読み込めませんでした。先にXMLのパースエラーをを直して下さい。
+
+MessageCapturingWillAngerFaction:警告:[PAWN_nameDef]を捕まえると派閥[PAWN_factionName]が怒る。

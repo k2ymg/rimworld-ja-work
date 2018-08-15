@@ -1,0 +1,20 @@
+﻿{Obedience
+	label:<<obedience??服従>>
+	description:主人を指定できるようになる。主人に付き従い、守ろうとする。
+}
+{Release
+	label:<<release??リリース>>
+	description:主人を守るかわりに、離れた目標を攻撃できるようになる。
+}
+{Rescue
+	label:<<rescue??救助>>
+	description:怪我をした仲間を助け、安全な場所へ引きずる。
+}
+{Haul
+	label:<<haul??運搬>>
+	description:時々任意のアイテムを運ぶ。(ただし、特定のアイテムを運ぶように指示することは出来ない。)
+}
+{Tameness
+	label:<<tameness??飼い慣らし>>
+	description:仲間に加わるように説得できる。
+}

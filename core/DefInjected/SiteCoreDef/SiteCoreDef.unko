@@ -1,0 +1,29 @@
+﻿; DownedRefugee
+{DownedRefugee
+	label:<<incapacitated refugee??行き倒れの難民>>
+	description:助けを懇願している行き倒れの難民。
+}
+
+; ItemStash
+{ItemStash
+	label:<<item stash??隠し場所>>
+	description:貴重な品々の隠し場所。
+}
+
+; Nothing
+{Nothing
+	label:<<site??サイト>>
+	description:特に何も無い場所。
+}
+
+; PreciousLump
+{PreciousLump
+	label:<<lump of precious resources??希少鉱物の岩塊>>
+	description:採掘できる希少鉱物の岩塊。
+}
+
+; PrisonerWillingToJoin
+{PrisonerWillingToJoin
+	label:<<prisoner camp??_{prisoner}_キャンプ>>
+	description:敵に捕まっている_{prisoner}_。助ければ仲間に加わる。
+}

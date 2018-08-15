@@ -1,0 +1,32 @@
+﻿; ScenParts_Fixed
+PlayerFaction.label:<<Player faction??プレイヤーの_{faction}_>>
+ConfigPage_ConfigureStartingPawns.label:<<starting people??開始時の人数>>
+PlayerPawnsArriveMethod.label:<<arrival method??到着方法>>
+
+; ScenParts_Various
+GameStartDialog.label:<<game start dialog??ゲーム開始時の説明>>
+PawnFilter_Age.label:<<allowed age range??年齢の範囲制限>>
+OnPawnDeathExplode.label:<<characters explode on death??キャラクター死亡時に爆発>>
+ForcedTrait.label:<<forced trait??特徴の強制>>
+ForcedHediff.label:<<forced health condition??健康状態の強制>>
+Naked.label:<<naked??裸>>
+SetNeedLevel.label:<<set need level??欲求の満足度を設定>>
+StartingResearch.label:<<start with research??開始時に研究済み>>
+GameCondition_Planetkiller.label:<<planetkiller weapon incoming??対惑星兵器の飛来>>
+Rule_DisallowDesignator_ZoneAdd_Growing.label:<<cannot sow??栽培禁止>>
+Rule_DisallowDesignator_ZoneAdd_Growing.description:地面に植物を植えられない。
+Rule_DisallowDesignator_Mine.label:<<cannot mine??採掘禁止>>
+Rule_DisallowDesignator_Mine.description:採掘できない。
+Rule_DisallowDesignator_Hunt.label:<<cannot hunt??狩猟禁止>>
+Rule_DisallowDesignator_Hunt.description:狩猟できない。
+Rule_DisallowDesignator_Tame.label:<<cannot tame??手懐け禁止>>
+Rule_DisallowDesignator_Tame.description:動物を手懐けられない。
+StatFactor.label:<<stat multiplier??ステータス係数>>
+DisableIncident.label:<<disable incident??出来事を禁止>>
+CreateIncident.label:<<create incident??出来事を起こす>>
+Rule_DisallowBuilding.label:<<disallow building??建造禁止>>
+PermanentGameCondition.label:<<permanent game condition??永続するゲーム状態>>
+StartingAnimal.label:<<start with animal(s)??開始時の動物(達)>>
+StartingThing_Defined.label:<<start with??開始時の物>>
+ScatterThingsNearPlayerStart.label:<<start near??開始地点近くの物>>
+ScatterThingsAnywhere.label:<<scattered randomly??適当にばら撒かれる物>>

@@ -1,0 +1,219 @@
+bird:トリ
+beetle-like:虫
+beetle-like with claw:爪を持つ虫
+quadruped animal:四足動物
+turtle-like:カメ
+snake:ヘビ
+human:ヒト
+mechanical centipede:機械化ムカデ
+
+antenna:触角
+left antenna:左触角
+right antenna:右触角
+arm:腕
+arms:腕
+left arm:左腕
+right arm:右腕
+beak:くちばし
+blade:刃
+left blade:左刃
+right blade:右刃
+body:胴
+clavicle:鎖骨
+left clavicle:左鎖骨
+right clavicle:右鎖骨
+claw:爪
+front claw:前爪
+front left claws:左前爪
+front right claws:右前爪
+front left leg first claw:左前肢大爪
+front left leg second claw:左前肢次爪
+front left leg third claw:左前肢中爪
+front left leg fourth claw:左前肢四爪
+front left leg fifth claw:左前肢五爪
+front right leg first claw:右前肢大爪
+front right leg second claw:右前肢次爪
+front right leg third claw:右前肢中爪
+front right leg fourth claw:右前肢四爪
+front right leg fifth claw:右前肢五爪
+rear claw:後爪
+rear left leg first claw:左後肢大爪
+rear left leg second claw:左後肢次爪
+rear left leg third claw:左後肢中爪
+rear left leg fourth claw:左後肢四爪
+rear left leg fifth claw:左後肢五爪
+rear right leg first claw:右後肢大爪
+rear right leg second claw:右後肢次爪
+rear right leg third claw:右後肢中爪
+rear right leg fourth claw:右後肢四爪
+rear right leg fifth claw:右後肢五爪
+ear:耳
+left ear:左耳
+right ear:右耳
+elytra:上翅
+left elytra:左上翅
+right elytra:右上翅
+eye:眼
+eyes:眼
+left eye:左眼
+right eye:右眼
+femur:大腿骨
+left femur:左大腿骨
+right femur:右大腿骨
+finger:指
+left thumb:左手親指
+left index finger:左手人差し指
+left middle finger:左手中指
+left ring finger:左手薬指
+left pinky:左手小指
+right thumb:右手親指
+right index finger:右手人差し指
+right middle finger:右手中指
+right ring finger:右手薬指
+right pinky:右手小指
+foot:足
+feet:_<foot>_
+left foot:左足
+right foot:右足
+hand:手
+hands:手
+left hand:左手
+right hand:右手
+head:頭
+head claw:上顎
+upper head:_<head>_
+full head:_<head>_
+heart:心臓
+hoof:蹄
+front left hoof:左前蹄
+front right hoof:右前蹄
+rear left hoof:左後蹄
+rear right hoof:右後蹄
+horn:角
+humerus:上腕骨
+left humerus:左上腕骨
+right humerus:右上腕骨
+hump:こぶ
+front left leg:左前肢
+front right leg:右前肢
+jaw:顎
+kidney:肝臓
+left kidney:左肝臓
+right kidney:右肝臓
+leg:脚
+legs:_<leg>_
+left leg:左脚
+middle left leg:左中肢
+middle right leg:右中肢
+right leg:右脚
+rear left leg:左後肢
+rear right leg:右後肢
+lung:肺
+left lung:左肺
+right lung:右肺
+mechanoid/left thumb:左第一指
+mechanoid/left index finger:左第二指
+mechanoid/left middle finger:左第三指
+mechanoid/left pinky:左第四指
+mechanoid/right thumb:右第一指
+mechanoid/right index finger:右第二指
+mechanoid/right middle finger:右第三指
+mechanoid/right pinky:右第四指
+sound sensor:音響センサ
+;left sound sensor:左_<sound sensor>_
+;right sound sensor:右_<sound sensor>_
+visual sensor:映像センサ
+;left visual sensor:左_<visual sensor>_
+;right visual sensor:右_<visual sensor>_
+chemical analyzer:ケミカル分析器
+thorax:胸腔
+mouth:口
+neck:首
+nostril:鼻孔
+front left paw:左前掌
+front right paw:右前掌
+rear left paw:左後掌
+rear right paw:右後掌
+paw:掌
+plastron:腹甲
+pronotum:前胸
+radius:橈骨
+left radius:左橈骨
+right radius:右橈骨
+shoulder:肩
+shoulders:肩
+left shoulder:左肩
+right shoulder:右肩
+tail:尾
+teeth:歯
+tibia:脛骨
+left tibia:左脛骨
+right tibia:右脛骨
+toe:足趾
+left big toe:左第一足趾
+left second toe:左第二足趾
+left middle toe:左第三足趾
+left fourth toe:左第四足趾
+left little toe:左第五足趾
+right big toe:右第一足趾
+right second toe:右第二足趾
+right middle toe:右第三足趾
+right fourth toe:右第四足趾
+right little toe:右第五足趾
+torso:胴
+trunk:鼻
+tusk:牙
+tusks:牙
+left tusk:左牙
+right tusk:右牙
+waist:腰
+skull:頭蓋骨
+brain:脳
+nose:鼻
+ribcage:胸郭
+spine:脊椎
+sternum:胸骨
+pelvis:骨盤
+artificial brain:人工脳
+liver:肝臓
+stomach:胃
+fist:拳
+left claw:左爪
+right claw:右爪
+left hoof:左蹄
+right hoof:右蹄
+claws:_<claw>_
+right mechanical shoulder:右メカニカル・ショルダー
+jowl:あご
+body/shell:殻
+turtle/shell:甲羅
+left fist:左拳
+right fist:右拳
+fluid reprocessor:体液洗浄器
+fluid reprocessing:体液洗浄
+reactor:反応炉
+power generation:動力
+left sight sensor:左視覚センサ
+right sight sensor:右視覚センサ
+left hearing sensor:左聴覚センサ
+right hearing sensor:右聴覚センサ
+;smell sensor:嗅覚センサ
+tooth:歯
+fang:牙
+cheek:ほお
+chin:アゴ
+lip:唇
+chest:胸
+elbow:ひじ
+wrist:手首
+body/palm:手のひら
+talon:かぎ爪
+wing:羽
+hip:腰
+knee:ひざ
+ankle:足首
+heel:かかと
+cute little teeth:可愛い歯
+mandibles:下顎
+razorfangs:鋭い歯
+venom-fangs:毒の歯

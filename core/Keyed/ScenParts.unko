@@ -1,0 +1,33 @@
+﻿ScenPart_PlayerFaction:あなたの派閥は {0} になります。
+
+ScenPart_StartWithPawns:<<Start with {0} people, chosen from {1}.??{1} 人の中から {0} 人を選んで始めます。>>
+ScenPart_StartWithPawns_OutOf:<<chosen from??候補人数>>
+
+RandomPet:<<random pet??ランダムなペット>>
+
+ScenPart_StartingResearchFinished:<<Start with research: {0}??開始時で研究済み: {0}>>
+
+ScenPart_ArriveInDropPods:<<Arrive in drop pods.??_{Drop pod}_で惑星に到着する。>>
+
+ScenPart_StatFactor:<<The stat "{0}" will be universally multiplied by {1}.??"{0}" は常に {1} 倍になる。>>
+
+ScenPart_PawnsHaveHediff:<<{0} have a {1} chance to start with {2}.??{0} は {1} の確率で {2} を持って始まる。>>
+ConfigurableSeverity:<<severity: {0}??深刻度: {0}>>
+
+ScenPart_SetNeed:<<{0} have a {1} chance to have their {2} set between {3} and {4}.??{0} は {1} の確率で {2} が {3} から {4} になる。>>
+ConfigurableLevel:<<level: {0}??レベル: {0}>>
+
+ScenPart_PawnsHaveTrait:<<{0} have a {1} chance to start with trait: {2}??{0} は {1} の確率で次の特徴を持って始まる: {2}>>
+ScenPart_OnPawnDeathExplode:<<Characters and creatures explode on death ({0}, radius {1}).??キャラクターや生物が死ぬときに爆発する ({0}、半径 {1})。>>
+ScenPart_PawnsAreNaked:<<{0} start naked.??{0} は真っ裸で始まる。>>
+
+ScenPart_StartingPawnAgeMin:<<Your people will be at least {0} years old.??人々の最少年齢は {0}才 になる。>>
+ScenPart_StartingPawnAgeMax:<<Your people will be at most {0} years old.??人々の最大年齢は {0}才 になる。>>
+ScenPart_StartingPawnAgeRange:<<Your people will be between {0} and {1} years old.??人々の年齢は {0} から {1} 才になる。>>
+
+ScenPart_StartWith:<<Start with??開始時の所持品>>
+ScenPart_MapScatteredWith:<<Map is scattered with??マップ上に散らばっている物>>
+ScenPart_PermaGameCondition:<<Permanent game condition(s)??永続するゲーム状態>>
+ScenPart_DisableIncident:<<Incident(s) disabled??起きない出来事>>
+ScenPart_CreateIncident:<<Incident created??起こされた出来事>>
+ScenPart_DisallowBuilding:<<Can never build??建造できない物>>

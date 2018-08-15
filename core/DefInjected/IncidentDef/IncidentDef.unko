@@ -1,0 +1,276 @@
+; Incidents_Caravan_All.xml
+{Ambush
+	label:<<ambush??待ち伏せ>>
+	letterText:{0} が {2} の {1} に待ち伏せされた！
+	letterLabel:キャラバン待ち伏せ
+}
+
+{ManhunterAmbush
+	label:<<manhunter ambush??人狩り待ち伏せ>>
+	letterText:{0} が人狩り {1} に待ち伏せされた！
+	letterLabel:キャラバン待ち伏せ (人狩り)
+}
+
+CaravanMeeting.label:<<caravan meeting??キャラバンとの遭遇>>
+
+CaravanDemand.label:<<payment demand??カツあげ>>
+
+; Incidents_Map_Disease.xml
+{$DiseaseIncident
+	; Keyed/Letters,NewDiseaseとほぼ同じ文
+	letterText:{1} の中の {0} 人が {2} を発症した。\n\n医療用ベッドと医者が用意されているか確認する。適切な治療を受けさせ、できる限りベッドで過ごさせる。\n\n以下の {1} が病気になった:\n\n{3}
+}
+
+{Disease_Flu
+	label:_<flu>_
+	letterLabel:_<Disease>_ (_<flu>_)
+	$:DiseaseIncident
+}
+{Disease_Plague
+	label:_<plague>_
+	letterLabel:_<Disease>_ (_<plague>_)
+	$:DiseaseIncident
+}
+{Disease_Malaria
+	label:_<malaria>_
+	letterLabel:_<Disease>_ (_<malaria>_)
+	$:DiseaseIncident
+}
+{Disease_SleepingSickness
+	label:_<sleeping sickness>_
+	letterLabel:_<Disease>_ (_<sleeping sickness>_)
+	$:DiseaseIncident
+}
+{Disease_FibrousMechanites
+	label:_<fibrous mechanites>_
+	letterLabel:_<Disease>_ (_<fibrous mechanites>_)
+	$:DiseaseIncident
+}
+{Disease_SensoryMechanites
+	label:_<sensory mechanites>_
+	letterLabel:_<Disease>_ (_<sensory mechanites>_)
+	$:DiseaseIncident
+}
+{Disease_GutWorms
+	label:_<gut worms>_
+	letterLabel:_<Disease>_ (_<gut worms>_)
+	$:DiseaseIncident
+}
+{Disease_MuscleParasites
+	label:_<muscle parasites>_
+	letterLabel:_<Disease>_ (_<muscle parasites>_)
+	$:DiseaseIncident
+}
+
+{$DiseaseAnimalIncident
+	letterText:{0} 匹の動物が {2} を発症した。\n\n適切な治療を受けさせ、できる限り休ませる。\n\n以下の動物が病気になった:\n\n{3}
+}
+{Disease_AnimalFlu
+	label:_<flu>_ (_<animals>_)
+	letterLabel:_<Animal disease>_ (flu)
+	$:DiseaseAnimalIncident
+}
+{Disease_AnimalPlague
+	label:_<plague>_ (_<animals>_)
+	letterLabel:_<Animal disease>_ (_<plague>_)
+	$:DiseaseAnimalIncident
+}
+
+; Incidents_Map_Misc.xml
+ResourcePodCrash.label:_<resource pod crash>_
+
+PsychicSoothe.label:_[psychic soothe]_
+
+SelfTame.label:_<self-tame>_
+
+{AmbrosiaSprout
+	label:_<ambrosia sprout>_
+	letterLabel:_<Ambrosia sprout>_
+	letterText:近くの林で不思議な_[Ambrosia]_が発芽した！成長するまで待てば、美味しくて、大満足な、少し中毒性がある果物を収穫できる。
+}
+
+FarmAnimalsWanderIn.label:<<farm animals wander in??迷い込んだ家畜>>
+
+{WandererJoin
+	label:[[wanderer join??放浪者の加入]]
+	letterLabel:[[Wanderer joins??放浪者の加入]]
+	letterText:[PAWN_nameDef]という名の[PAWN_kind]がやってきて、_{colony}_に加わった。[PAWN_pronoun]は[PAWN_title]だ。\n\n[PAWN_pronoun]は協力的だが、自発的に出て行くことはない。邪魔なら追放する、奴隷として売る、または単に殺すなど出来る。しかし、他の_{colonists}_はその騒動に気付くだろう。
+}
+
+RefugeePodCrash.label:<<transport pod crash??_[transport pod]_ 墜落>>
+
+{StrangerInBlackJoin
+	label:[[man in black??黒服]]
+	letterLabel:[[Man in black??黒服]]
+	letterText:面倒事を探している、怪しい[PAWN_kind]がやってきた。\n\n[PAWN_pronoun]はこんなところで何をしているのだろうか？
+}
+
+RefugeeChased.label:<<chased refugee??逃走者>>
+
+ThrumboPasses.label:<<thrumbos pass??_[thrumbo]_ の通過>>
+
+{RansomDemand
+	label:<<ransom demand??身代金要求>>
+	letterLabel:身代金要求
+}
+
+{MeteoriteImpact
+	label:<<meteorite impact??隕石衝突>>
+	letterLabel:<<Meteorite??隕石>>
+	letterText:大きな隕石がこの地域に落下し、{0} の塊を残した。
+}
+
+{HerdMigration
+	label:<<herd migration??群れの移動>>
+	letterLabel:<<Animal migration: {0}??群れ移動: {0}>>
+	letterText:{0} の集団がこの地域を通過している。\n\n怒らせない限り攻撃してこない。
+}
+
+{WildManWandersIn
+	label:<<wild man wanders in??迷い込んだ野人>>
+	letterLabel:<<Wild man wanders in??迷い込んだ野人>>
+	letterText:野生動物と共に暮らしている人がここへ入り込んできた。[PAWN_pronoun]は {0} と名乗っている。\n\n[PAWN_objective]を手懐けられる。
+}
+
+PsychicDrone.label:_[psychic drone]_
+
+{ToxicFallout
+	label:_[toxic fallout]_
+	letterLabel:_[Toxic fallout]_
+	letterText:遠方で起こった化学火災から有毒な塵が立ち上り、この星全域を覆った。\n\n屋根の下にいない人や生物は大気中の有毒な塵によりゆっくりと病んでいく。\n\nこれは場所に関わらず数日から一節以上続く。
+}
+
+{VolcanicWinter
+	label:_[volcanic winter]_
+	letterLabel:_[Volcanic winter]_
+	letterText:遠方の火山が大噴火し、数百万立方キロメートルの灰を大気中に放出し始めた。\n\n大気中の灰は太陽を霞ませる。気温が下がり、植物は日光を失う。数週間で終わるか、もしくは何節も続くかもしれない。
+}
+
+{HeatWave
+	label:_[heat wave]_
+	letterLabel:_[Heat wave]_
+	letterText:異常な熱波が始まった。\n\n熱波では熱中症により簡単に殺される。クーラーを作ったり、山奥深くに隠れたりして涼しく居られるようにする。
+}
+
+{ColdSnap
+	label:_[cold snap]_
+	letterLabel:_[Cold snap]_
+	letterText:異常な寒波が始まった。\n\n寒波では低体温症で簡単に殺される。生き残るためには、暖かい場所を作り、適切な衣服を着るようにする。また、作物が凍死する前にできる限り収穫する。
+}
+
+{Flashstorm
+	label:_[flashstorm]_
+	letterLabel:_[Flashstorm]_
+	letterText:雷を伴う局所的な嵐がこの辺を襲っている。大規模な火災を引き起こす。
+}
+
+ShortCircuit.label:<<short circuit??短絡>>
+
+CropBlight.label:<<crop blight??作物の疫病>>
+
+Alphabeavers.label:_[alphabeavers]_
+
+; Incidents_Map_Special.xml
+ShipChunkDrop.label:<<ship chunk drop??船の残骸落下>>
+OrbitalTraderArrival.label:<<orbital trader arrival??軌道交易商到着>>
+TraderCaravanArrival.label:<<trader caravan arrival??交易キャラバン到着>>
+VisitorGroup.label:<<visitor group??訪問者>>
+TravelerGroup.label:<<traveler group??旅行者>>
+RaidFriendly.label:<<friendly raid??援軍到着>>
+RaidEnemyBeacon.label:<<enemy raid (special locations)??敵襲 (特定の場所)>>
+
+; Incidents_Map_Threats.xml
+RaidEnemy.label:<<enemy raid??敵襲>>
+
+{Infestation
+	label:_<infestation>_
+	letterLabel:_<Infestation>_
+	letterText:巨大な虫がトンネルを掘っている！\n\n数秒後に出てきて巣を作る。\n\nこの地域全体に蔓延させたくなければ、巣を破壊する必要がある。しかし、虫は自分達の巣を守ろうとするので注意する。
+}
+
+{DeepDrillInfestation
+	label:<<deep drill infestation??_{infestation}_ (ドリル)>>
+	letterLabel:<<Too deep: Infestation??深すぎ: _{infestation}_>>
+	letterText:地下の虫が_[deep drill]_の振動で怒ってしまい、報復するためにこちらへ穴を掘り始めた！\n\n注意 - 虫は怒っており、ここを破壊しようとしている。
+}
+
+ManhunterPack.label:_<manhunter pack>_
+
+{PsychicEmanatorShipPartCrash
+	label:<<ship part crash (psychic)??船の一部が墜落 (サイキック)>>
+	letterLabel:<<Psychic ship??サイキック船>>
+	letterText:古代の船の大きな破片が近くに落ちた。\n\nこれは入植達の頭の中で、とても他人には言えないような事をするように暗示を掛けてきている。これにはサイキック放射能力を持つ人格AIがあるに違いない。\n\nこのAIは友好的ではない。速やかに破壊するべきだ。注意 - これは自身を守るはずだ。
+}
+
+{PoisonShipPartCrash
+	label:<<ship part crash (poison)??船の一部が墜落 (汚染)>>
+	letterLabel:<<Poison ship??汚染された船>>
+	letterText:古代の船の大きな破片が近くに落ちた。\n\n周りに広がりつつある謎の影響により全ての植物を殺す。\n\n速やかに破壊するべきだ。注意 - これは自身を守るはずだ。
+}
+
+AnimalInsanityMass.label:<<mass animal insanity??動物たちが発狂>>
+
+AnimalInsanitySingle.label:<<single animal insanity??動物が発狂>>
+
+; Incidents_World_Conditions.xml
+{Eclipse
+	label:_[eclipse]_
+	letterLabel:_[Eclipse]_
+	letterText:この惑星の月の一つが太陽を遮る軌道に入り、日食が始まった。
+}
+
+{SolarFlare
+	label:_[solar flare]_
+	letterLabel:_[Solar flare]_
+	letterText:_{solar flare}_が始まった。\n\n強烈な放射線が全ての電気機器を使えなくする。約一日で過ぎ去るだろう。
+}
+
+{Aurora
+	label:_[aurora]_
+	letterLabel:_[Aurora]_
+	letterText:美しい_{aurora}_が空を照らしている。波打つ色が外で見ている人の_{mood}_を盛り上げ、夜を明るくする。
+}
+
+; Incidents_World_Quests.xml
+Quest_TradeRequest.label:<<trade request??交易要請>>
+
+{Quest_BanditCamp
+	label:<<bandit camp quest??クエスト - 賊のキャンプ>>
+	letterLabel:<<Bandit camp quest??クエスト - 賊のキャンプ>>
+	letterText:{2} の {1} である {0} がメッセージを送ってきた。\n\n彼らのキャラバンを襲っている賊が近くに陣取っているらしい。これの破壊、要するに全ての敵と_<Turret>_を排除出来ないか尋ねてきている。\n\n{0} 曰く {5}。\n\nもし成功すれば、この派閥との関係が良くなり、次の価値 {6} の報酬を送ってくる:\n\n{3}\n\nもし {4} 日以内にやらなければ、彼らは自分達で破壊する。
+}
+
+{Quest_ItemStash
+	label:<<item stash quest??クエスト - お宝>>
+	letterLabel:<<Item stash quest??クエスト - お宝>>
+	letterText:{2} の {1} である {0} が近くに価値 {6} の貴重な物が集められていると教えてくれた。\n\n集められている物:\n\n{3}\n\n残念だが、{4} 日以内に取らなければ他の誰かに奪われる。\n\n貴重な物は危険を引き寄せるので、注意すること。{0}によると{5}。
+}
+
+{Quest_ItemStashAICore
+	label:<<item stash quest (AI core)??クエスト - お宝 (AIコア)>>
+; inherit from QuestItemStash
+	letterLabel:クエスト - お宝
+	letterText:{2} の {1} である {0} が近くに貴重な物が集められていると教えてくれた。\n\n集められている物:\n\n{3}\n\n残念だが、{4} 日以内に取らなければ他の誰かに奪われる。\n\n貴重な物は危険を引き寄せるので、注意すること。{0}によると{5}。
+}
+
+{Quest_DownedRefugee
+	label:<<incapacitated refugee quest??クエスト - 行き倒れの難民>>
+	letterLabel:<<Incapacitated refugee quest??クエスト - 行き倒れの難民>>
+	letterText:[PAWN_nameDef] が助けを求めてきた。[PAWN_pronoun]は怪我をして動けない。助けなければ、{0} 日以内に死ぬ。\n\n[PAWN_nameDef] は {1} 歳で、助けてくれれば仲間に加わると約束した。\n\n[PAWN_nameDef]によると{3}。
+}
+
+{Quest_PrisonerRescue
+	label:<<prisoner rescue quest??クエスト - _{prisoner}_救出>>
+	letterLabel:<<Prisoner rescue quest??クエスト - _{prisoner}_救出>>
+	letterText:{0} に捕まっている_{prisoner}_が無線を盗んで連絡してきた！\n\n[PAWN_nameDef] は近くにある武装されたキャンプに捕まっている。[PAWN_pronoun]は {1} 歳の {2} で、助けると仲間に加わる。[PAWN_pronoun]によると{3}。
+}
+
+{Quest_PeaceTalks
+	label:<<peace talks quest??クエスト - 和平交渉>>
+	letterLabel:<<Peace talks quest??クエスト - 和平交渉>>
+	letterText:{1} の {0} である [PAWN_nameDef] がメッセージを送ってきた。[PAWN_pronoun]は近くで話をしたがっている。\n\nこの派閥との関係を良くして贈り物を受け取る絶好の機会だが、下手な交渉人は関係を良くするどころか逆に怒らせる事もある。この申し出は {2} 日後に終わる。
+}
+
+{Quest_JourneyOffer
+	label:<<escape ship quest??クエスト - 脱出船>>
+}

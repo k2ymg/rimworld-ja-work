@@ -1,0 +1,15 @@
+﻿Basics.label:<<Basics??基本>>
+BasicsPawn.label:<<Basics??基本>>
+BasicsNonPawn.label:<<Basics??基本>>
+Apparel.label:<<Apparel??衣服>>
+Weapon.label:<<Weapon??武器>>
+Building.label:<<Building??建物>>
+EquippedStatOffsets.label:<<Offsets when equipped??装備時のオフセット>>
+StuffStatFactors.label:<<Multipliers when made of this??素材係数>>
+StuffStatOffsets.label:<<Offsets when made of this??素材オフセット>>
+StuffOfEquipmentStatFactors.label:<<Multipliers when equipment made of this??設備素材係数>>
+Surgery.label:<<Surgery??手術>>
+PawnCombat.label:<<Combat??戦闘>>
+PawnSocial.label:<<Social??社交>>
+PawnMisc.label:<<Misc??その他>>
+PawnWork.label:<<Work??作業>>

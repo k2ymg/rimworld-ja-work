@@ -1,0 +1,14 @@
+﻿{GotMarried.stages.got_married_to
+	label:<<got married to {0}??{0} と結婚した>>
+	description:結婚した！一緒に新しい人生を始められるなんて最高だ！
+}
+
+{AttendedWedding.stages.attended_wedding
+	label:<<attended wedding??結婚式に参列した>>
+	description:未来を作るために二人が一緒になる場面を目に出来たことは素晴らしい。
+}
+
+{AttendedParty.stages.attended_party
+	label:<<attended party??パーティに参加した>>
+	description:パーティで良い時間を過ごした。
+}

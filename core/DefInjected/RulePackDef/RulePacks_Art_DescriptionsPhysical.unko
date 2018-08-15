@@ -1,0 +1,34 @@
+﻿{?ArtDescription_Sculpture.rulePack.rulesStrings
+	:physical_description_root->この[sculpture]は、[image][depicts]。[desc_sentence_group]
+	:physical_description_root->この[sculpture]には、[image]の[depiction]が含まれている。[desc_sentence_group]
+	:physical_description_root->これは、[image]の[depiction]を[sculpture]にしている。[desc_sentence_group]
+	:sculpture->彫像
+	:sculpture->作品
+	:sculpture->作品
+	:sculpture->彫刻
+}
+
+{?ArtDescription_WeaponMelee.rulePack.rulesStrings
+	:physical_description_root->この武器には[image]の[depiction]が彫られている。[desc_sentence_group]
+	:physical_description_root->この武器には[image]の[depiction]が含まれている。[desc_sentence_group]
+	:physical_description_root->この武器にある彫刻は[image][depicts]。[desc_sentence_group]
+}
+
+{?ArtDescription_WeaponGun.rulePack.rulesStrings
+	:physical_description_root->この銃には[image]の[depiction]が彫られている。[desc_sentence_group]
+	:physical_description_root->この銃には[image]の[depiction]が含まれている。[desc_sentence_group]
+	:physical_description_root->この銃にある彫刻は[image][depicts]。[desc_sentence_group]
+}
+
+{?ArtDescription_Furniture.rulePack.rulesStrings
+	:physical_description_root->この家具には[image]の[depiction]が彫られている。[desc_sentence_group]
+	:physical_description_root->この家具には[image]の[depiction]が含まれている。[desc_sentence_group]
+	:physical_description_root->この家具にある彫刻は[image][depicts]。[desc_sentence_group]
+}
+
+{?ArtDescription_SarcophagusPlate.rulePack.rulesStrings
+	:physical_description_root->この棺には[image]の[depiction]が彫られている。[desc_sentence_group]
+	:physical_description_root->この棺には[image]の[depiction]が含まれている。[desc_sentence_group]
+	:physical_description_root->この棺には[image]の[depiction]が彫られている。[desc_sentence_group]
+	:physical_description_root->この棺にある彫刻は[image][depicts]。[desc_sentence_group]
+}

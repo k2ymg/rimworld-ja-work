@@ -1,0 +1,26 @@
+﻿{?Event_Stun.rulePack.rulesStrings
+	:r_logentry->[SUBJECT_definite]が攻撃で[stunned]。
+	:r_logentry->[SUBJECT_definite]が[INITIATOR_definite]の攻撃で[stunned]。
+
+	:stunned(p=3)->気絶した
+	:stunned->よろめいた
+	:stunned->クラクラした
+	:stunned->混乱させた
+
+	:r_logentry->[SUBJECT_definite]が[staggered]。
+	:r_logentry->[SUBJECT_definite]が攻撃で[staggered]。
+	:r_logentry->[SUBJECT_definite]が[INITIATOR_definite]の攻撃で[staggered]。
+
+	:staggered(p=3)->よろめいた
+	:staggered->つまずいた
+	:staggered->ぐらついた
+	:staggered->ふらついた
+
+	:r_logentry->[SUBJECT_definite]がしょぼしょぼと辺りに[stumbled]。
+	:r_logentry->[SUBJECT_definite]が混乱して辺りに[stumbled]。
+
+	:stumbled(p=3)->つまずいた
+	:stumbled->ふらついた
+	:stumbled->ぐらついた
+	:stumbled->よろめいた
+}

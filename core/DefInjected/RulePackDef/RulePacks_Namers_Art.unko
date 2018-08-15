@@ -1,0 +1,66 @@
+﻿;名前なので訳さない
+{?NamerArtCommon.rulePack.rulesStrings
+	:r_art_name(p=4)->[Artwork] [Trans] [ConceptAny_e]
+	:r_art_name(p=4)->[maybe_a] [maybe_adjective] [Artwork]
+	:r_art_name->[maybe_a] [maybe_adjective] [ConceptAny_e]
+	:r_art_name->[maybe_a] [maybe_adjective] [TerrainFeature_e]
+	:r_art_name->[maybe_a] [maybe_adjective] [Vegetable_e]
+	:r_art_name->[maybe_a] [maybe_adjective] [Game_e]
+	:r_art_name->[maybe_a] [maybe_adjective] [Animal_e]
+	:r_art_name->[maybe_a] [maybe_adjective] [Gore_e]
+	:r_art_name->[maybe_a] [maybe_adjective] [NaturalObject_e]
+	:r_art_name->[maybe_a] [maybe_adjective] [PersonFamily_e]
+	:r_art_name->[maybe_a] [maybe_adjective] [Enemy_e]
+
+	:r_art_name(p=2)->[Artwork] No. [art_name_numeric]
+	:r_art_name->No. [art_name_numeric]
+	:r_art_name->[art_name_numeric]
+	:r_art_name->[Artwork] [art_name_numeric]
+	:r_art_name->[ConceptAny_e] No. [art_name_numeric]
+	:r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]
+
+	:r_art_name(p=6)->[ANYPAWN_nameIndef]'s [Artwork]
+	:r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color_e]
+	:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonalCharacteristic_e]
+	:r_art_name(p=3)->[PersonalCharacteristic_e] of [ANYPAWN_nameIndef]
+	:r_art_name(p=3)->[ConceptAny_e] [Trans] [ANYPAWN_nameIndef]
+	:r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef]
+
+	:art_name_numeric->[maybe_letter][Digit][maybe_letter]
+	:art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]
+	:art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]
+	:art_name_numeric->[maybe_letter][RomanNumeral][maybe_letter]
+	:art_name_numeric->[maybe_letter][RomanNumeral][Digit][maybe_letter]
+	:art_name_numeric->[maybe_letter][Digit][RomanNumeral][maybe_letter]
+	:art_name_numeric->[maybe_letter][Digit][RomanNumeral][Digit][maybe_letter]
+	:art_name_numeric->[maybe_letter][RomanNumeral][Digit][RomanNumeral][maybe_letter]
+	:art_name_numeric->[maybe_letter][RomanNumeral][Digit][Digit][RomanNumeral][maybe_letter]
+
+	:maybe_letter(p=8)->
+	:maybe_letter->[Letter]
+	:maybe_letter->[Letter][Letter]
+
+	:maybe_a(p=3)->
+	:maybe_a->a
+
+	:maybe_adjective(p=5)->
+	:maybe_adjective(p=2)->[AdjectiveAngsty_e]
+	:maybe_adjective->[AdjectiveBadass_e]
+	:maybe_adjective->[Color_e]
+}
+
+{?NamerArtWeapon.rulePack.rulesStrings
+	:r_art_name->[ConceptBadass_e]
+	:r_art_name->The [AnimalBadass_e]
+	:r_art_name->[AdjectiveBadass_e] [AnimalBadass_e]
+	:r_art_name->[ColorBadass_e] [AnimalBadass_e]
+	:r_art_name->[ConceptBadass_e] [ColorBadass_e]
+
+	:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [ConceptBadass_e]
+	:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [AnimalBadass_e]
+	:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonBadass]
+	:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonAlly]
+	:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonFamily_e]
+	:r_art_name(p=3)->[ConceptBadass_e] of [ANYPAWN_nameIndef]
+	:r_art_name(p=3)->[ColorBadass_e] [ANYPAWN_nameIndef]
+}

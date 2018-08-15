@@ -1,0 +1,457 @@
+; Races_Animal_Arid
+{Muffalo
+	label:_[muffalo]_
+	description:_?マッファロー。?_群れで暮らす大型の草食動物。寒い環境にも暑い環境にも適応した水牛の子孫。怒らせると怖いが、飼い慣らせば従順で、_{pack animal}_として使える。\n\nなぜ青いのか詳しいことは誰も知らないが、初期の遺伝子操作のテストがそのまま残されただけなのだろう。
+	tools.head.label:_<head>_
+	tools.left_hoof.label:_<left hoof>_
+	tools.right_hoof.label:_<right hoof>_
+}
+{Gazelle
+	label:_[gazelle]_
+	description:_?ガゼル。?_小型で素早いウシ科の動物。大きく跳ねることで有名。
+	tools.left_hoof.label:_<left hoof>_
+	tools.right_hoof.label:_<right hoof>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Iguana
+	label:_[iguana]_
+	description:_?イグアナ。?_普段は植物を食べている大型のトカゲ。しかし、怒らせると、堅い皮膚と鋭い爪が脅威になる。\n\n休んでいる時は頭を高く上げており、それが変に「得意げ」に見える。しかし、得意げになっているわけではない。敵を見張っているだけであり、だからこそ食べられないのだ。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Rhinoceros
+	label:_[rhinoceros]_
+	description:_?ライノセラス。サイ。?_草食だが、非常に怒りっぽい大型の哺乳類。一度怒り出すと、強烈な力と鋭い角で相手を無残な姿に変える。片足の筋力だけで全力を振り絞った人間よりも強い。
+	tools.horn-0.label:_<horn>_
+	tools.horn-1.label:_<horn>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Dromedary
+	label:_[dromedary]_
+	description:_?ドロメダリー。ヒトコブラクダ。?_乾燥した環境に適応した大型の陸生哺乳類。大昔から家畜化されており、毛と革は両方とも砂漠の熱に対して素晴らしい耐熱性があり、ミルクには栄養が十分含まれている。_{pack animal}_としても使える。しかし、弾むような足取りは遠出には全く向いていない。\n\n大きなコブに水を溜め、また、吐き出した息から水分を回収することで、数週間水なしで生きていける。
+	tools.left_hoof.label:_<left hoof>_
+	tools.right_hoof.label:_<right hoof>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+
+; Races_Animal_Bears
+{$BaseBear
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Bear_Grizzly
+	label:_[grizzly bear]_
+	description:_?グリズリー・ベア。?_寒い気候に適応した、大型で雑食性の哺乳類。冬場は厚い脂肪と毛が体温を保っている。\n\n普段は魚、ベリー、蜂蜜、死肉を食べているが、強烈な力と鋭い爪で生きた獲物を殺すこともできる。図体の割には驚くほど素早い。
+	race.meatLabel:_<bear meat>_
+	$:BaseBear
+}
+{Bear_Polar
+	label:_[polar bear]_
+	description:_?ポーラー・ベア。?_極寒の気候に適応した巨大な白い熊。冬場は厚い脂肪と毛が体温を保っている。\n\n普段は魚と死肉を食べているが、強烈な力と鋭い爪で生きた獲物を殺すこともできる。図体の割には驚くほど素早い。
+	$:BaseBear
+}
+
+; Races_Animal_BigCats
+{$BigCatThingBase
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Cougar
+	label:_[cougar]_
+	description:_?クーガー。ピューマ。?_最も危険な大型猫の一種。長くて鋭い牙と爪を使い単独で狩りをする。隠れた場所から獲物に忍びより襲いかかる。\n\n人間は食い物の対象ではないが、弱そうなやつなら話は別だ。
+	$:BigCatThingBase
+}
+{Panther
+	label:_[panther]_
+	description:_?パンサー。ヒョウ。?_ジャングルに生息する素早くて力強い大型猫。単独で待ち伏せする肉食獣としては右に出る者がいない。しなやかな動きに目を奪われがちだが、近寄られた瞬間に頭蓋骨を砕く力を知るはめになる。
+	$:BigCatThingBase
+}
+{Lynx
+	label:_[lynx]_
+	description:_?リンクス。オオヤマネコ。?_家猫よりは大きいが、クーガーよりは小さい野生の猫。小さい鳥や動物を食べて生きている。容赦なく寒い極寒の地域に生息しているが、とても暖かい毛が守ってくれている。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+
+; Races_Animal_Birds
+{Cassowary
+	label:_[cassowary]_
+	description:_?カソワリ。ヒクイドリ。?_色鮮やかな羽根を持つ、大きくて飛べない鳥。見た目は良いが、蹴りが凶悪。傷つけられたり、下手な手懐けをされると直ぐに怒ることで知られている。
+	race.meatLabel:_<bird meat>_
+	tools.claws.label:_<claws>_
+	tools.beak.label:_<beak>_
+	tools.head.label:_<head>_
+}
+{Emu
+	label:_[emu]_
+	description:_?エミュー。?_不細工な顔につぶらな瞳を持つ、大きくて飛べない鳥。挙動がおかしいので自然界の間抜けとされる。邪魔すると確実にやり返される。
+	tools.claws.label:_<claws>_
+	tools.beak.label:_<beak>_
+	tools.head.label:_<head>_
+}
+{Ostrich
+	label:_[ostrich]_
+	description:_?オストリッチ。ダチョウ。?_自然界で最大級の鳥類。足の速さ、デカい卵、強烈な蹴りで有名。怒りやすい。
+	tools.claws.label:_<claws>_
+	tools.beak.label:_<beak>_
+	tools.head.label:_<head>_
+}
+{Turkey
+	label:_[turkey]_
+	description:_?ターキー。シチメンチョウ。?_短躯で太った飛べない鳥。ゲラゲラ笑いのような鳴き声で知られる。昔から家畜化されているが、野生にもいる。
+	tools.claws.label:_<claws>_
+	tools.beak.label:_<beak>_
+	tools.head.label:_<head>_
+}
+
+; Races_Animal_Farm
+{Chicken
+	label:_[chicken]_
+	description:_?鶏。?_最も伝統的な家禽(かきん)。卵や肉のために育てられる。とても早く成長し、卵を頻繁に産む。
+	tools.claws.label:_<claws>_
+	tools.beak.label:_<beak>_
+	tools.head.label:_<head>_
+}
+{Pig
+	label:_[pig]_
+	description:_?ピッグ。豚。?_最初に家畜化された動物の一つ。普通は肉のために育てられる。雑食性のため飼いやすい。自己中心的気質だが、訓練すれば複雑な作業も出来るようになる。
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+	race.meatLabel:_<pork>_
+}
+{Cow
+	label:_[cow]_
+	description:_?牛。?_家畜化された大きな有蹄類。大量のミルク、肉、革を生み出すために数千年に渡って飼育されてきた。非常におとなしい生き物で、何度傷つけられようが、襲いかかってこない。家畜としての生活に慣れきっているので、自然界では生き残れない。
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+	tools.left_hoof.label:_<left hoof>_
+	tools.right_hoof.label:_<right hoof>_
+	race.meatLabel:_<beef>_
+}
+{Alpaca
+	label:_[alpaca]_
+	description:_?アルパカ。?_中型の有蹄類で、ラマの近縁。殆どの場合、抜群に柔らかくて断熱性に優れた毛糸のために育てられる。また、古代北アメリカの荒れた山道で荷物運んで以来、_{pack animal}_としても使われている。
+	tools.left_hoof.label:_<left hoof>_
+	tools.right_hoof.label:_<right hoof>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+
+; Races_Animal_Giant
+{Elephant
+	label:_[elephant]_
+	description:_?エレファント。像。?_自然界では最大の陸生動物。長い鼻で物を動かし、鋭い牙で敵を血まみれにする。死んだ象を解体すると貴重な牙が手に入る。\n\n複雑な社会関係性を持つ賢い動物であり、_{pack animal}_としても使え、訓練して複雑な作業をさせる事もできる。
+	tools.tusk.label:_<tusk>_
+	tools.left_foot.label:_<left foot>_
+	tools.right_foot.label:_<right foot>_
+	tools.head.label:_<head>_
+}
+{Megasloth
+	label:_[megasloth]_
+	description:_?メガスロス。?_単独行動を好む巨大な草食動物で、敵を追い払うための巨大な爪を二本持っている。アメリカ大陸の原住民により一掃されてから長い間絶滅していたが、先進的なクローン技術と人口妊娠器により後に復活した。厚い皮は非常に強く絶縁性があり、冬用の服に最適な革を作れる。何もしなければ大人しいが、邪魔すると巨大な爪で引き裂かれる。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Thrumbo
+	label:_[thrumbo]_
+	description:_?スランボ。?_素性がわからない超巨大で優美な生物。おとなしい気質だが、怒ると非常に危険。長い毛は並外れて美しいが、皮は非常にダメージ耐性が高い。鋭い角は高額で売れる。\n\n年老いたスランボはこの世で最も賢い生物だと言い伝えられているが・・・口をきいてはくれないようだ。
+	tools.horn.label:_<horn>_
+;	tools.teeth.label:_<teeth>_
+	tools.left_foot.label:_<left foot>_
+	tools.right_foot.label:_<right foot>_
+	tools.head.label:_<head>_
+}
+
+; Races_Animal_Hares
+{$BaseHare
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Hare
+	label:_[hare]_
+	description:_?ヘア。野兎。?_単独行動を好む小型の草食動物。危険から素早く飛び退けられる。
+	$:BaseHare
+}
+{Snowhare
+	label:_[snowhare]_
+	description:_?スノウヘア。カンジキウサギ。?_冬に強い動物。雪に穴を掘り、下にある食べられる植物を探して、生息地での厳しい冬を生き延びている。
+	$:BaseHare
+}
+
+; Races_Animal_Insect
+{Megascarab
+	label:_[megascarab]_
+	description:_?メガスカラベ。?_遺伝子操作された巨大な昆虫。_[Mechanoid]_の侵略に対抗するために作られた、_[Insectoid]_の人工生態系における労働階級だが、最も危険な_[Insectoid]_だということは良く忘れ去られている。とはいえ、その体格と堅い殻は今でも危ないことには変わりはない。真性社会性の昆虫で、個体ごとに繁殖することはない。
+	tools.mandibles.label:_<mandibles>_
+	tools.head.label:_<head>_
+}
+{Spelopede
+	label:_[spelopede]_
+	description:_?スピロピード。?_生物工学で生み出された中型の_[Insectoid]_。羊と同じくらいの大きさ。巣の中では中級階級で、ほとんどの作業を担当し、穴掘り用の爪で戦うこともある。戦闘では危険だが、開けた場所では遅い。
+	tools.head_claw.label:_<head claw>_
+	tools.head.label:_<head>_
+}
+{Megaspider
+	label:_[megaspider]_
+	description:_?メガスパイダー。?_本物の蜘蛛ではない、遺伝子操作された大型の_[Insectoid]_。熊と同じくらいの大きさ。重労働と戦闘のために作られた。分厚いキチン質の鎧、さらに、長い鋭利な刃により、狭い場所で倒すのは困難を極める。しかし、開けた場所ではけっこう遅い。
+	tools.head_claw.label:_<head claw>_
+	tools.head.label:_<head>_
+	race.meatLabel:_<insect meat>_
+}
+
+; Races_Animal_Pet
+{YorkshireTerrier
+	label:_[yorkshire terrier]_
+	description:_?ヨークシャー・テリア。?_おとなしい小型犬。元はネズミを取らせるために飼育されていたが、後に見世物やペットとして飼われるようになった。役立たずだと思われているが、すり寄りによる_{mood}_向上は、餌代より価値がある。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+	tools.cute_little_teeth.label:_<cute little teeth>_
+	tools.head.label:_<head>_
+}
+{Husky
+	label:_[husky]_
+	description:_?ハスキー。?_活発な大型犬。厚い毛皮により極寒の環境でも快適なままでいられる。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{LabradorRetriever
+	label:_[labrador retriever]_
+	description:_?ラブラドール・レトリバー。?_とても賢い中型犬。元は狩りで撃ち落とした鳥を拾わせるために飼育されていたが、番犬としても、遊び相手としても、そして家族の一員としても素晴らしい役割を果たす。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Cat
+	label:_[cat]_
+	description:_?キャット。?_人類が最初にペットにした動物の一つで、害獣を狩る小型の哺乳類。つれない態度で知られるが、それでも、気ままな性格、物静かさ、素敵な毛並みのため人気がある。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+
+; Races_Animal_Rodenlike
+{Squirrel
+	label:_[squirrel]_
+	description:_?スクイレル。リス。?_逞しく賢い齧歯類の一種。人類の拡散に合わせて何処にでもついて行く。ふさふさした尻尾で知られており、天気が悪いときはそれを傘のように使う。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Alphabeaver
+	label:_[alphabeaver]_
+	description:_?アルファビーバー。?_木材を機械並の効率で集めるめに、遺伝子操作により派生した大型のビーバー似の生き物。専用の餌がなくなると、全ての樹木を食べ尽くしたい衝動に駆られる。邪魔されると襲いかかってくる傾向がある。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Capybara
+	label:_[capybara]_
+	description:_?カピパラ。?_自然界最大の齧歯類で、熱帯雨林環境に上手く適応している。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Chinchilla
+	label:_[chinchilla]_
+	description:_?チンチラ。?_小さくて、すばしっこい齧歯類。他のどれよりも柔らかい毛を持っており、とても高値で取引される。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Boomrat
+	label:_[boomrat]_
+	description:_?ボムラット。?_遺伝子操作で意図的に兵器化されたのか、それとも珍妙な防御機構なのか、いずれにせよ、この齧歯類のような生物は死ぬと炎を伴う大爆発を起こす。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Raccoon
+	label:_[raccoon]_
+	description:_?ラクーン。アライグマ。?_逞しい小型の動物で、森林地帯から灌木地帯まで生息範囲は広い。ゴミ箱やキッチンに嬉々として侵入し、何でも食べる。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Rat
+	label:_[rat]_
+	description:_?ラット。?_台所を汚し疫病を蔓延させることで知られる、誰もが嫌っている齧歯類で、人の後を何処までもついて行く。何でも食べて、何処にでも居る。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+
+; Races_Animal_Temperate
+{Deer
+	label:_[deer]_
+	description:_?ディア。鹿。?_群れで行動する中型の草食動物で、森や平地が混在する場所を好んで住んでいる。とてもすばしっこい。
+	tools.left_hoof.label:_<left hoof>_
+	tools.right_hoof.label:_<right hoof>_
+	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+	race.meatLabel:_<venison>_
+}
+{Ibex
+	label:_[ibex]_
+	description:_?アイベックス。?_飼い慣らされた山羊の祖先にあたる野生種。殆どのアンテロープが生きていけない限られた地域に住んでおり、地衣類や乏しい高山植物を食べている。岩肌が露出した崖を巧みに跳んで渡ることで有名・・・強烈な体当たり攻撃でも有名。
+	tools.left_hoof.label:_<left hoof>_
+	tools.right_hoof.label:_<right hoof>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Elk
+	label:_[elk]_
+	description:_?エルク。ヘラジカ。?_シカ科の大きな動物。寒冷な気候での生活にうまく適応している。家畜化するとミルクを採れるが、荷物は運ばない。
+	tools.left_hoof.label:_<left hoof>_
+	tools.right_hoof.label:_<right hoof>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Caribou
+	label:_[caribou]_
+	description:_?カリブー。?_シカ科の大きな動物。寒冷な気候での生活にうまく適応している。家畜化するとミルクを採れるが、荷物は運ばない。
+	tools.left_hoof.label:_<left hoof>_
+	tools.right_hoof.label:_<right hoof>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{WildBoar
+	label:_[wild boar]_
+	description:_?ワイルド・ボア。イノシシ。?_逃げ出したブタが野生化して進化した毛深い雑食動物。\n\n牙により家畜化されたブタよりは強い。複雑な事を訓練させるのは難しい。
+	tools.tusk.label:_<tusk>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Tortoise
+	label:_[tortoise]_
+	description:_?トータス。亀。?_重々しい甲羅で覆われた陸生の爬虫類。足の遅さと、かみ癖の悪さで知られている。生まれ持った装甲により殺しにくく、近接での持久戦ではそれが強い武器になる。
+	tools.beak.label:_<beak>_
+	tools.head.label:_<head>_
+}
+
+; Races_Animal_Tropical
+{Cobra
+	label:_[cobra]_
+	description:_?コブラ。?_捕食性の大きな蛇。刺激すると非常に攻撃的になり、噛みついて毒を犠牲者に注入する。
+	tools.venomfangs.label:_<venom-fangs>_
+	tools.head.label:_<head>_
+	race.meatLabel:_<cobraflesh>_
+}
+{Monkey
+	label:_[monkey]_
+	description:_?モンキー。?_小型の霊長目。巻いた尻尾で枝を掴め、空いた両手は自由に使える。猿は利己的だが賢く、それなりの作業をさせるように訓練できる。
+	tools.left_fist.label:_<left fist>_
+	tools.right_fist.label:_<right fist>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Boomalope
+	label:_[boomalope]_
+	description:_?ボマロープ。?_化学物質を生産するために生み出され、揮発性の物質が詰まった大きなコブを背中に生やす。図体の割には弱くて脆いにもかかわらず、他の動物はこいつを避けることを覚えた。死んだら大爆発するからだ。_[Chemfuel]_を絞れるが、気を付けてね。
+	tools.head.label:_<head>_
+	tools.left_hoof.label:_<left hoof>_
+	tools.right_hoof.label:_<right hoof>_
+}
+
+; Races_Animal_WildCanines
+{Warg
+	label:_[warg]_
+	description:_?ワーグ。?_狼に似たマッチョな生物。不自然に危険な爪と馬鹿げた程に噛む力が強い。死体しか食べない。野生の個体を邪魔すると、ほぼ確実に襲われる。人口抑制のために作られた、兵器化した軍用動物の子孫だと、化学者達は言っている。迷信深い人達は怒った神の手先だと見なしている。
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+	tools.razorfangs.label:_<razorfangs>_
+	tools.head.label:_<head>_
+}
+{$ThingBaseWolf
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Wolf_Timber
+	label:_[timber wolf]_
+	description:_?ティンバー・ウフル。?_荒々しい肉食獣。長い間、多くの古代_[Earth]_文化で恐れられていた。群れをなす狩人なので、複雑な社会生活を送り、また、とても賢い。
+	race.meatLabel:_<wolfmeat>_
+	$:ThingBaseWolf
+}
+{Wolf_Arctic
+	label:_[arctic wolf]_
+	description:_?アークティック・ウルフ。?__[Earth]_の古い狼が寒冷地に適応した変種。群れをなす狩人なので、複雑な社会生活を送り、また、とても賢い。
+	$:ThingBaseWolf
+}
+{$ThingBaseFox
+	tools.left_claw.label:_<left claw>_
+	tools.right_claw.label:_<right claw>_
+;	tools.2.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+{Fox_Fennec
+	label:_[fennec fox]_
+	description:_?フェネック・フォックス。?_小型の狐。_[Earth]_のアフリカ大陸の北部が原産。小さな生物を狩り、暑さの中で自身を冷やせるとても大きな耳がある。
+	race.meatLabel:_<foxmeat>_
+	$:ThingBaseFox
+}
+{Fox_Red
+	label:_[red fox]_
+	description:_?レッド・フォックス。?_単独行動を好む小型の犬種。温帯で小型の獲物を狩るように進化した。鶏小屋を数分で壊滅できので養鶏家は狐を嫌っている。
+	$:ThingBaseFox
+}
+{Fox_Arctic
+	label:_[arctic fox]_
+	description:_?アークティック・フォックス。?_寒い気候に適応した小型の肉食獣。普段はネズミなどの小動物を狩っており、獲物を狙って雪を1メートルほど掘ることもある。
+	$:ThingBaseFox
+}
+
+; Races_Humanlike
+{Human
+	label:_[human]_
+	description:平均的な人類。遺伝子工学による改変は行われておらず、非_[Earth]_惑星における進化圧力による変化もない。
+	tools.left_fist.label:_<left fist>_
+	tools.right_fist.label:_<right fist>_
+	tools.teeth.label:_<teeth>_
+	tools.head.label:_<head>_
+}
+
+; Races_Mechanoid
+{Mech_Centipede
+	label:_[centipede]_
+	description:_?センチピード。?_多数の小さな足で滑るように動く重装備の戦闘_[Mechanoid]_。厚い甲皮と高い火力が寄り集まって動こうとしない守備隊に対して高い威力を発揮する。動き回るヒット・アンド・ラン戦法に少し弱い。
+	tools.head.label:_<head>_
+}
+{Mech_Lancer
+	label:_[lancer]_
+	description:_?ランサー。?_人間並みの大きさの戦闘_[Mechanoid]_。長射程の武器を扱うため、顔に大きな光学センサーを付けている。遠距離では強いが、近接戦には弱い。_[Mechanoid]_戦に慣れた者は、_[Lancer]_に最も効果的なのは突撃だと知っている。
+	tools.left_fist.label:_<left fist>_
+	tools.right_fist.label:_<right fist>_
+	tools.head.label:_<head>_
+}
+{Mech_Scyther
+	label:_[scyther]_
+	description:_?サイザー。?_速く、細身な、人間並みの大きさの戦闘_[Mechanoid]_。素早い接近と近接戦に特化している。体は棘と刃に覆われているが、腕のような二本の刃で犠牲者の手足や内臓を切り落とす事のほうが多い。
+	tools.left_blade.label:_<left blade>_
+	tools.right_blade.label:_<right blade>_
+	tools.head.label:_<head>_
+}

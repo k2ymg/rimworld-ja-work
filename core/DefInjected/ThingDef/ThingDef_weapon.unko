@@ -1,0 +1,240 @@
+; Weapons_MeleeMedieval
+{MeleeWeapon_Mace
+	label:_[mace]_
+	description:_?メイス。?__[Club]_を改良して、振りやすく、致命的な衝撃を与えるようにしたもの。
+	tools.handle.label:_<handle>_
+	tools.head.label:_<club/head>_
+}
+{MeleeWeapon_Gladius
+	label:_[gladius]_
+	description:_?グラディウス。?_古代様式の短剣。刺したり斬ったりするのに良い。軽くて扱いやすく、時に大型の武器を凌ぐこともある。
+	tools.handle.label:_<handle>_
+	tools.point.label:_<sword/point>_
+	tools.edge.label:_<edge>_
+}
+{MeleeWeapon_LongSword
+	label:_[longsword]_
+	description:_?ロングソード。?_古代の王達の剣。斬ったり刺したりできる。
+	tools.handle.label:_<handle>_
+	tools.point.label:_<sword/point>_
+	tools.edge.label:_<edge>_
+}
+
+; Weapons_MeleeNeolithic
+{MeleeWeapon_Club
+	label:_[club]_
+	description:_?クラブ。?_敵を殴り殺すための、先端が重い棒状の物。この武器はかなり古くから人間生物学の一部になっている。進化生物学者によると、(他の霊長類が前後にしか動かせないのに対して)人間の手首が横へ曲げられる主な理由は、棍棒を上手く振るうためだという。
+	tools.handle.label:_<handle>_
+	tools.head.label:_<club/head>_
+}
+{MeleeWeapon_Knife
+	label:_[knife]_
+	description:_?ナイフ。?_人類最古の加工品の一つ。ナイフには様々な形があるが、基本的な作りは何も変わっていない。握るための柄と、切るための鋭い刃から構成されている。
+	tools.handle.label:_<handle>_
+	tools.blade.label:_<blade>_
+	tools.point.label:_<point>_
+}
+{MeleeWeapon_Ikwa
+	label:_[ikwa]_
+	description:_?イクワ。?_長い刃のような穂に短い柄を付けた槍。素早く突き出すことで、急所を刺せるように作られている。
+	tools.handle.label:_<handle>_
+	tools.head.label:_<spear/head>_
+	tools.edge.label:_<edge>_
+}
+{MeleeWeapon_Spear
+	label:_[spear]_
+	description:_?スピア。?_尖った先端を付けた棒状の武器。近接戦で相手を突き刺すためのもの。
+	tools.shaft.label:_<spear/shaft>_
+	tools.point.label:_<point>_
+}
+
+; Weapons_RangedIndustrial
+Bullet_Revolver.label:_<revolver bullet>_
+{Gun_Revolver
+	label:_[revolver]_
+	description:_?リボルバー。?_古風なダブルアクション機構の回転式拳銃。強力ではないが、ピストルよりは射程が長く、素早く抜ける。
+	tools.grip.label:_<grip>_
+	tools.barrel.label:_<barrel>_
+}
+{Gun_Autopistol
+	label:_[autopistol]_
+	description:_?オートピストル。?_古風なブローバック式自動拳銃。ストッピングパワーも射程も良くないが、速く撃てる。
+	tools.grip.label:_<grip>_
+	tools.barrel.label:_<barrel>_
+}
+Bullet_Autopistol.label:_<autopistol bullet>_
+{Gun_MachinePistol
+	label:_[machine pistol]_
+	description:_?マシン・ピストル。?_小型のサブマシンガン。低射程だがとても扱いやすい。発射頻度の高さが低威力を補っている。
+	tools.grip.label:_<grip>_
+	tools.barrel.label:_<barrel>_
+}
+Bullet_MachinePistol.label:_<machine pistol bullet>_
+{Gun_IncendiaryLauncher
+	label:_[incendiary launcher]_
+	description:_?インセンディアリ・ランチャー。?_太い銃身の焼夷弾投射器。この筒は小さな可燃性の爆発を起こし、火事を起こす。
+	tools.stock.label:_<stock>_
+	tools.barrel.label:_<cannon/barrel>_
+}
+Bullet_IncendiaryLauncher.label:_<incendiary bolt>_
+{Gun_BoltActionRifle
+	label:_[bolt-action rifle]_
+	description:_?ボルト・アクション・ライフル。?_古風なボルトアクション式小銃。長射程、低発射頻度のため動物の反撃を受けにくい。そのため、狩りの武器として好まれている。
+	tools.stock.label:_<stock>_
+	tools.barrel.label:_<barrel>_
+}
+Bullet_BoltActionRifle.label:_<bolt-action rifle bullet>_
+{Gun_PumpShotgun
+	label:_[pump shotgun]_
+	description:_?ポンプ・ショットガン。?_小球を高密度に噴射する古風な散弾銃。強力だが、射程が短い。
+	tools.stock.label:_<stock>_
+	tools.barrel.label:_<barrel>_
+}
+Bullet_Shotgun.label:_<shotgun blast>_
+{Gun_ChainShotgun
+	label:_[chain shotgun]_
+	description:_?チェイン・ショットガン。?_弾倉式全自動散弾銃。普通の散弾銃より射程が短いが、連射により恐ろしい威力を発揮する。
+	tools.stock.label:_<stock>_
+	tools.barrel.label:_<barrel>_
+}
+{Gun_HeavySMG
+	label:_[heavy SMG]_
+	description:_?ヘビー SMG。?_大口径のスラッグ弾を発射するSMG。とても短射程だが、強力なうえ、とても扱いやすい。
+	tools.grip.label:_<grip>_
+	tools.barrel.label:_<barrel>_
+}
+Bullet_HeavySMG.label:_<heavy SMG bullet>_
+{Gun_LMG
+	label:_[LMG]_
+	description:_?ライト・マシンガン。?_ガス式の軽機関銃。少し扱いにくく命中率も悪いが、長続きする連射は敵の集団に効果的。
+	tools.stock.label:_<stock>_
+	tools.barrel.label:_<barrel>_
+}
+Bullet_LMG.label:_[LMG bullet]_
+{Gun_AssaultRifle
+	label:_[assault rifle]_
+	description:_?アサルト・ライフル。?_市街戦などで使う多目的のガス式突撃銃。優れた射程、そこそこな威力、優れた命中率。
+	tools.stock.label:_<stock>_
+	tools.barrel.label:_<barrel>_
+}
+Bullet_AssaultRifle.label:_<assault rifle bullet>_
+{Gun_SniperRifle
+	label:_[sniper rifle]_
+	description:_?スナイパー・ライフル。?_古風な精密狙撃銃。ボルトアクション式。極めて長い射程、素晴らしい命中率と優秀な威力を持つ。とても扱いにくいので、近距離では他の武器のほうが遙かに優れている。
+	tools.stock.label:_<stock>_
+	tools.barrel.label:_<barrel>_
+}
+Bullet_SniperRifle.label:_<sniper rifle bullet>_
+{Gun_Minigun
+	label:_[minigun]_
+	description:_?ミニガン。?_多銃身式機関銃。扱いにくいが、一度発射され始めれば高速に発射される。殆どの自動装填式銃は火薬を動力にしているが、この銃は電動モーターで銃の中を通すように高速に実包を入れ替えている。
+	tools.barrels.label:_<barrels>_
+}
+Bullet_Minigun.label:_<minigun bullet>_
+
+; Weapons_RangedIndustrialConsumable
+{Gun_TripleRocket
+	label:_[triple rocket launcher]_
+	description:_?トリプル・ロケット・ランチャー。?_大型の爆破ロケットを3発同時に発射する使い捨てのロケットランチャー。硬い目標の小さな集団に対して効果的。\n\n取り回しが悪く、一度しか使えない上に、大破壊を引き起こすので、こんな武器を使うヤツはちょっとやばいヤツだと言われる。
+	tools.barrel.label:_<cannon/barrel>_
+}
+Bullet_Rocket.label:_<rocket>_
+
+{Gun_DoomsdayRocket
+	label:_[doomsday rocket launcher]_
+	description:_?ドゥームズデイ・ロケット・ランチャー。?_巨大な爆発を起こす弾を発射する使い捨てのロケットランチャー。柔らかい目標の大きな一団に対して効果的。火を放つ。\n\n取り回しが悪く、一度しか使えない上に、大破壊を引き起こすので、こんな武器を使うヤツはちょっとやばいヤツだと言われる。
+	tools.barrel.label:_<cannon/barrel>_
+}
+Bullet_DoomsdayRocket.label:_<doomsday rocket>_
+
+; Weapons_RangedIndustrialGrenades
+{Weapon_GrenadeFrag
+	label:_[frag grenade]_
+	description:_?フラッグ・グレネード。?_昔ながらの破片手榴弾。近くに投げられ、何処かで爆発し、近くの物や人はもれなくダメージを受ける。
+	verbs.throw_frag_grenade.label:_[frag grenade]_ を投げる
+}
+Proj_GrenadeFrag.label:_<frag grenade>_
+{Weapon_GrenadeMolotov
+	label:_[molotov cocktail]_
+	description:_?モロトフ・カクテル。?_細口のガラス瓶に可燃性の液体を入れ、燃えやすい布を瓶首に詰めたもの。暴徒や辺境を渡り歩く命知らずの戦士達に愛されている武器。
+	verbs.throw_molotov.label:_[molotov]_ を投げる
+}
+Proj_GrenadeMolotov.label:_<molotov cocktail>_
+{Weapon_GrenadeEMP
+	label:_[EMP grenades]_
+	description:_?EMP グレネード。?_電子機器を損傷させる電磁パルス手榴弾。
+	verbs.throw_EMP_grenade.label:_[EMP grenade]_ を投げる
+}
+Proj_GrenadeEMP.label:_<EMP grenade>_
+
+; Weapons_RangedMechanoid
+Bullet_InfernoCannon.label:_<inferno cannon shell>_
+{Gun_InfernoCannon
+	label:_[inferno cannon]_
+	description:_?インフェルノ・キャノン。?_焼夷弾を放つ小型の野戦砲。大型の焼夷弾頭を発射する。
+	tools.barrel.label:_<cannon/barrel>_
+}
+
+Bullet_ChargeBlasterHeavy.label:_<charge blaster shot>_
+{Gun_ChargeBlasterHeavy
+	label:_[heavy charge blaster]_
+	description:_?ヘビー・チャージ・ブラスター。?_エリア制圧射撃に使われるパルスチャージ高速連射ブラスター。
+	tools.barrel.label:_<barrel>_
+}
+
+; Weapons_RangedNeolithic
+{Bow_Short
+	label:_[short bow]_
+	description:_?ショート・ボウ。?_一本の木材から作られた簡素な短弓。
+	tools.limb.label:_<limb>_
+}
+Arrow_Short.label:_<shortbow arrow>_
+{Pila
+	label:_[pila]_
+	description:_?ピラ。?_投げやり。投げるのが遅いが、一発で大打撃を与えられる。この武器は_[Pila]_の束になっており、何度も投げられる。pilaの単数形はpilum。
+	tools.shaft.label:_<spear/shaft>_
+	tools.point.label:_<spear/point>_
+}
+Pilum_Thrown.label:_<pilum>_
+{Bow_Recurve
+	label:_[recurve bow]_
+	description:_?リカーブ・ボウ。?_バネのように働く構造により、より効率的に力を蓄え、より速い矢を撃ち出す。
+	tools.limb.label:_<limb>_
+}
+Arrow_Recurve.label:_<recurve bow arrow>_
+{Bow_Great
+	label:_[greatbow]_
+	description:_?グレートボウ。?_強力な弓。重い矢を遠くまで撃てる。
+	tools.limb.label:_<limb>_
+}
+Arrow_Great.label:_<greatbow arrow>_
+
+; Weapons_RangedSpacer
+{Gun_ChargeRifle
+	label:_[charge rifle]_
+	description:_?チャージ・ライフル。?_チャージ・ショットを撃てる突撃銃。パルス・チャージ技術により、銃身から放たれる各ショットに不安定なエネルギーをチャージする。チャージされたエネルギーが衝突時に解放され、大きなダメージを与える。
+	tools.stock.label:_<stock>_
+	tools.barrel.label:_<barrel>_
+}
+Bullet_ChargeRifle.label:_<charge shot>_
+
+{Gun_ChargeLance
+	label:_[charge lance]_
+	description:_?チャージ・ランス。?_パルス・チャージで槍を発射する武器。単発のショットを高速で発射し、加速レールから放たれる時に不安定なエネルギーをチャージする。
+	tools.barrel.label:_<barrel>_
+}
+Bullet_ChargeLance.label:_<charge lance shot>_
+
+; Weapons_RangedSpecial
+{OrbitalTargeterBombardment
+	label:_[orbital bombardment targeter]_
+	description:_?オービタル・ボンバードメント・ターゲッター。?_衛星軌道爆撃システム用の古代の照準器。目標を定めると、そこの座標を衛星ネットワークへ送り、運動エネルギー弾で目標の領域を爆撃する。非認証ユーザーでも使えるように再プログラムされているが、一度でも使うと、ネットワークは侵入を検知し、二度とリンクできないようにする。
+}
+{OrbitalTargeterPowerBeam
+	label:_[orbital power beam targeter]_
+	description:_?オービタル・パワー・ビーム・ターゲッター。?_パワー収集衛星ネットワーク用の古代の照準器。いったん照準を定めると、古代の衛星群に対して電磁エネルギーの巨大な円柱内へ収束したパワーを送り始めるように命令する。このパワーは巨大な吸収アンテナで回収できる。このアンテナはないので、代わりに照準を敵へ合わせれば、パワー円柱は内部を一千度の地獄に変える。これは衛星群が危険な照準行為を検知するまで続き、その場合、自身を停止させ、照準器を二度と使えなくする。
+}
+{TornadoGenerator
+	label:_[tornado generator]_
+	description:天候制御衛星ネットワーク用の古代の制御端末。この端末は特定の安全機構が無効にされ、巨大な乱気流を引き起こせるようになっている。これにより、指定した場所に竜巻を作り出すことが出来る。使った後は気候衛星が不正な侵入を検知して端末は締め出される。しかし、竜巻はエネルギーを消化するために残されたままになる。
+}

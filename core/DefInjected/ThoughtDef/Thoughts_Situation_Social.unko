@@ -1,0 +1,111 @@
+﻿{Affair.stages.affair
+	label:<<affair??不倫>>
+}
+
+{Incestuous.stages.incestuous
+	label:<<incestuous??近親相姦>>
+}
+
+{Disfigured.stages.disfigured
+	label:<<disfigured??容姿>>
+}
+
+{HardWorkerVsLazy.stages.hard_worker_vs_lazy
+	label:<<hard worker vs lazy??勤勉 vs ぐうたら>>
+}
+
+{TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest
+	label:<<teetotaler vs chemical interest??薬物拒絶 vs 薬物乱用>>
+}
+
+{TeetotalerVsAddict.stages.teetotaler_vs_addict
+	label:<<teetotaler vs addict??_{teetotaler}_ vs 中毒者>>
+}
+
+{ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler
+	label:<<chemical interest vs teetotaler??薬物乱用 vs _{teetotaler}_>>
+}
+
+Drunk.stages.drunk.label:<<drunk??のんだくれ>>
+
+{Pretty.stages
+	pretty.label:<<pretty??かわいい>>
+	beautiful.label:<<beautiful??美しい>>
+}
+
+{Ugly.stages
+	ugly.label:<<ugly??醜い>>
+	staggeringly_ugly.label:<<staggeringly ugly??ひどく醜い>>
+}
+
+{AnnoyingVoice.stages.annoying_voice
+	label:<<annoying voice??気に障る声>>
+}
+
+{CreepyBreathing.stages.creepy_breathing
+	label:<<creepy breathing??気持ち悪い息づかい>>
+}
+
+Man.stages.man.label:<<man??男>>
+
+Woman.stages.woman.label:<<woman??女>>
+
+{TranshumanistAppreciation.stages
+	transhumanist_appreciation-0.label:<<transhumanist appreciation??_<transhumanist>_の歓喜>>
+	transhumanist_appreciation-1.label:<<transhumanist appreciation??_<transhumanist>_の歓喜>>
+	transhumanist_appreciation-2.label:<<transhumanist appreciation??_<transhumanist>_の歓喜>>
+	transhumanist_appreciation-3.label:<<transhumanist appreciation??_<transhumanist>_の歓喜>>
+	transhumanist_appreciation-4.label:<<transhumanist appreciation??_<transhumanist>_の歓喜>>
+}
+
+{BodyPuristDisgust.stages
+	body_purist_disgust-0.label:<<body purist disgust??_<body purist>_の嫌悪感>>
+	body_purist_disgust-1.label:<<body purist disgust??_<body purist>_の嫌悪感>>
+	body_purist_disgust-2.label:<<body purist disgust??_<body purist>_の嫌悪感>>
+	body_purist_disgust-3.label:<<body purist disgust??_<body purist>_の嫌悪感>>
+	body_purist_disgust-4.label:<<body purist disgust??_<body purist>_の嫌悪感>>
+}
+
+{ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse
+	label:<<butchered humanlike corpse??人の死体を解体>>
+}
+
+{AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat
+	label:<<ate raw humanlike meat??人の生肉を食べた>>
+}
+
+{SoldPrisoner.stages.sold_prisoner_to_slavery
+	label:<<sold prisoner to slavery??_{prisoner}_を奴隷として売った>>
+}
+
+{ExecutedPrisoner.stages.executed_prisoner
+	label:<<executed prisoner??_{prisoner}_を処刑した>>
+}
+
+{KilledColonist.stages.killed_colonist
+	label:<<killed colonist??_{colonist}_を殺した>>
+}
+
+{KilledColonyAnimal.stages.killed_colony_animal
+	label:<<killed colony animal??手懐けた動物を殺した>>
+}
+
+{OpinionOfMyLover.stages.opinion_of_my
+	label:<<opinion of my {0} {1}??{0}の評価 {1}>>
+	description:恋人がいる事で、こんな気にさせる。
+}
+
+{BondedAnimalMaster.stages.s_master
+	label:<<{0}'s master??{0} の主人>>
+	description:絆で結ばれた動物がいることで、私の気分を良くしてくれる。
+}
+
+{NotBondedAnimalMaster.stages.not_s_master
+	label:<<not {0}'s master??{0} の主人でない>>
+	description:絆で結ばれている私が主人になるべきだ。
+}
+
+{WantToSleepWithSpouseOrLover.stages.want_to_sleep_with
+	label:<<want to sleep with {0}??{0} と一緒に寝たい>>
+	description:パートナーと分かれて寝るのは嫌だ。
+}

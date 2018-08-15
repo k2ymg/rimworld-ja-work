@@ -1,0 +1,85 @@
+﻿{?DamageEvent_Include.rulePack.rulesStrings
+	:r_logentry->[RECIPIENT_nameDef][damage_source]。[destroyed_targets]を[destroyed_present]。
+	:r_logentry->[RECIPIENT_nameDef][damage_source]。[destroyed_targets][destroyed_present]、[damaged_targets][damaged_present]。
+	:r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_nameDef][damage_source]。[damaged_targets]を[damaged_present]。
+	:r_logentry(p=0.1)->[RECIPIENT_nameDef][damage_source]。
+}
+
+{?DamageEvent_Ceiling.rulePack.rulesStrings
+	:damage_source->の上に[roof]が[collapsed]
+
+	:roof->屋根
+	:roof->屋根
+	:roof->天井
+
+	:collapsed->崩れ落ちた
+	:collapsed->落ちた
+	:collapsed->崩れ落ちた
+
+	:damaged_present->打ち付けた
+	:damaged_present->叩きつけた
+	:damaged_present->叩きのめした
+	:damaged_present->痛めつけている
+	:damaged_present->切り裂いた
+
+	:destroyed_present->粉々にした
+	:destroyed_present->潰した
+	:destroyed_present->磨りつぶされた
+	:destroyed_present->全壊した
+	:destroyed_present->引きちぎれた
+}
+
+{?DamageEvent_Fire.rulePack.rulesStrings
+	:damage_source->が[fire]に焼かれた
+
+	:fire(p=3)->火
+	:fire(p=3)->火
+	:fire(p=3)->火
+	:fire->熱
+	:fire->大火
+	:fire->劫火
+
+	:damaged_present->焦がしている
+	:damaged_present->炙っている
+	:damaged_present->焼いている
+	:damaged_present->焦がしている
+
+	:destroyed_present->黒焦げにしている
+	:destroyed_present->炙っている
+	:destroyed_present->焼いている
+	:destroyed_present->燃やしている
+}
+
+{?DamageEvent_PowerBeam.rulePack.rulesStrings
+	:damage_source->の上の[sky]が切り開かれた
+	:damage_source->が凄まじい[power]のビームで[damaged_past]
+	:damage_source->[light]の柱が[damaged_past]
+
+	:sky->空
+	:sky->雲
+	:sky->天国
+
+	:power->パワー
+	:power->エネルギー
+	:power->熱
+
+	:light->光
+	:light->熱
+	:light->炎
+	:light(p=0.2)->白熱光
+}
+
+{?DamageEvent_Tornado.rulePack.rulesStrings
+	:damage_source->を[spiraling]竜巻が[enveloped]
+
+	:destroyed_present(p=3)->引きちぎっている
+
+	:spiraling->螺旋状の
+	:spiraling->渦巻いている
+	:spiraling->グルグルと回る
+	:spiraling(p=10)->
+
+	:enveloped(p=8)->包み込んだ
+	:enveloped->飲み込んだ
+	:enveloped->取り囲んだ
+}

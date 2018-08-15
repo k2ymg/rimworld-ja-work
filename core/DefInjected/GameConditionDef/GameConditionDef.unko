@@ -1,0 +1,69 @@
+﻿{SolarFlare
+	label:_[solar flare]_
+	description:_?ソーラー・フレア。?__{solar flare}_がこの星へ吹き付けている。電磁干渉により殆どの電気機器が動かなくなる。
+	endMessage:_{solar flare}_は終わった。
+}
+
+{Eclipse
+	label:_[eclipse]_
+	description:_?エクリプス。?__{eclipse}_が地表に影を落としている。昼間でも暗くなる。
+	endMessage:_{eclipse}_は終わった。
+}
+
+{PsychicDrone
+	label:_[psychic drone]_
+	description:_?サイクック・ドローン。?_離れた所から強力なAIが人々を狂気へと駆り立てる精神波を放射している。
+	endMessage:_{psychic drone}_は終わった。
+}
+
+{PsychicSoothe
+	label:_[psychic soothe]_
+	description:_?サイキック・スーズ。?_離れた所から強力なAIが人々を落ち着かせて安心させる精神波を放射している。
+	endMessage:_{psychic soothe}_は終わった。
+}
+
+{ToxicFallout
+	label:_[toxic fallout]_
+	description:_?トキシック・フォールアウト。?_遠くない所から噴き上がった有毒な塵が、この地域全体をゆっくりと覆っている。屋根の下にいない生物はゆっくりと毒され、外に放置されているアイテムは腐食する。
+	endMessage:_{toxic fallout}_の最悪な部分は落ち着いた。
+}
+
+{VolcanicWinter
+	label:_[volcanic winter]_
+	description:_?ボルカニック・ウィンター。?_離れた所にある火山から吹き出た灰が大気を覆い尽くし、地表へ届く光が著しく減少している。気温はより寒くなり、植物の成長はより遅くなる
+	endMessage:火山灰の最悪な部分は落ち着いた。
+}
+
+{HeatWave
+	label:_[heat wave]_
+	description:_?ヒート・ウェーブ。?_強烈な熱波がこの地域を焼いている。
+	endMessage:_{heat wave}_は過ぎ去った。
+}
+
+{ColdSnap
+	label:_[cold snap]_
+	description:_?コールド・スナップ。?_異常な寒波がこの地域を凍えさせている。
+	endMessage:_{cold snap}_は過ぎ去った。
+}
+
+{Flashstorm
+	label:_[flashstorm]_
+	description:_?フラッシュストーム。?_落雷を伴う局所的な嵐が狭いエリに吹き荒れている。
+	endMessage:_{flashstorm}_は過ぎ去った。
+}
+
+{ClimateCycle
+	label:_[climate cycle]_
+	description:_?クライメイト・サイクル。?_楕円軌道に起因する複数年気候周期。
+}
+
+{Planetkiller
+	label:_[planetkiller]_
+	description:_?プラネットキラー。?_対惑星破壊兵器がこの星へ近づいている。ライフル弾が当たった卵のようにこの星を吹き飛ばし、全ての生命を消し去る。
+}
+
+{Aurora
+	label:_[aurora]_
+	description:_{aurora}_が空を照らしている。息をのむような光景が見ている人の_{mood}_を盛り上げる。
+	endMessage:_{aurora}_は終わった。
+}

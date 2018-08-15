@@ -1,0 +1,46 @@
+﻿{?TalelessImages.rulePack.rulesStrings
+	; imageは名詞文にすること。また、desc_pawnは空の場合もある。
+	:image->[desc_pawn]一人の[Character]
+	:image->[desc_pawn][TerrainFeature]の近くにいる一人の[Character]
+	:image->[desc_pawn][Community]の近くにいる一人の[Character]
+	;順番の問題。元がクソなのでどうしようもない。
+	:image->[desc_pawn][Character]達に囲まれている[Character]
+	:image->[Game]をしている[Character]達
+	;順番の問題。元がクソなのでどうしようもない。
+	:image->[desc_pawn][Quantity_adjphrase]の[Character]と[Game]をしている[Character]
+	:image->[desc_pawn][Weapon]を携えた[Character]
+	:image->[desc_pawn][Vegetable]を食べている[Character]
+	:image->[Vegetable]を一緒に食べている[Quantity_adjphrase]の[PersonJob]と[PersonJob]
+	:image->[desc_pawn]少し有名な[NamePerson]
+	; 「帽子を着ている」とは言わないので、代わりに「身につけている」を使う
+	:image->[desc_pawn][Apparel]を身につけている[Character]
+
+	:image->[Community]
+	:image->[TerrainFeature]
+
+	:image->[Weapon]
+	:image->[TreeType]の樹木
+	:image->[NaturalObject]
+	:image->[Quantity_adjphrase]の[Weapon]
+	:image->[Quantity_adjphrase]の[Vegetable]
+	:image->[Apparel]
+
+	:image->[Shape]
+	;順番の問題。元がクソなのでどうしようもない。
+	:image->[Shape]に囲まれている[Shape]
+	:image->[ConceptAny]の抽象的な描写
+	; 原文と違うが「～な」という形容詞になっているので、何か付けないといけない
+	:image->[AdjectiveAny]感情を抽象化した形状
+
+	:desc_pawn(p=12)->
+	:desc_pawn->空を飛んでいる、
+	:desc_pawn->宙に浮いている、
+	:desc_pawn->左へ移動している、
+	:desc_pawn->右へ移動している、
+	:desc_pawn->テーブルに着いている、
+	:desc_pawn->鏡越しに見えている、
+	:desc_pawn->シルエットとして描かれている、
+	:desc_pawn->[Apparel]を身につけた[Animal]に乗っている、
+	:desc_pawn->[AdjectiveAny]表情をしている、
+	:desc_pawn->[Gore]にまみれている、
+}

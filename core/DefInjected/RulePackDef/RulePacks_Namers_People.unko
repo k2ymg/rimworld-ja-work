@@ -1,0 +1,9 @@
+﻿;名前なので訳さない
+{?NamerPersonTribal.rulePack.rulesStrings
+	:r_name(p=2)->[WordTribal] [WordTribal]
+	:r_name->[WordTribal] '[AnimalBadass_e]' [WordTribal]
+	:r_name->[Color_e] [WordTribal]
+	:r_name->[WordTribal] [Animal_e]
+	:r_name->[Animal_e] [WordTribal]
+	:r_name->[Color_e] [Animal_e]
+}

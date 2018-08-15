@@ -1,0 +1,87 @@
+peg leg:簡易義足
+wooden foot:簡易中足義足
+denture:義歯
+cochlear implant:人工内耳
+bionic eye:バイオニック・アイ
+bionic arm:バイオニック・アーム
+bionic leg:バイオニック・レッグ
+bionic spine:バイオニック・スパイン
+bionic heart:バイオニック・ハート
+bionic stomach:バイオニック・ストマック
+bionic ear:バイオニック・イアー
+power claw:パワー・クロウ
+archotech eye:アーコテック・アイ
+archotech arm:アーコテック・アーム
+archotech leg:アーコテック・レッグ
+prosthetic leg:義足
+prosthetic arm:義手
+prosthetic heart:人工心臓
+
+herbal medicine:薬草
+medicine:メディシン
+glitterworld medicine:_{glitterworld}_・_{medicine}_
+penoxycyline:ペノキシリン
+
+alcohol:アルコール
+wort:麦汁
+beer:ビール
+ambrosia:アンブロージア
+luciferium:ルシフェリウム
+flake:フレーク
+psychite:サイカイト
+psychoid:サイコイド
+psychite tea:_{psychite}_・ティー
+yayo:イェイョ
+smokeleaf:スモークリーフ
+joint:ジョイント
+smokeleaf joint:_{smokeleaf}_・_{joint}_
+wake-up:ウェイクアップ
+joywire:ジョイワイヤー
+painstopper:ペインストッパー
+go-juice:ゴージュース
+smokeleaf leaves:_{smokeleaf}_の葉
+psychoid leaves:_{psychoid}_の葉
+withdrawal:離脱
+withdrawal symptoms:離脱症状
+alcohol addiction:_{alcohol}_中毒
+wake-up addiction:_<wake-up>_中毒
+smokeleaf dependence:_<smokeleaf>_依存
+psychite addiction:_<psychite>_中毒
+go-juice addiction:_<go-juice>_中毒
+ambrosia addiction:_<ambrosia>_中毒
+
+flu:インフルエンザ
+plague:ペスト
+malaria:マラリア
+sleeping sickness:睡眠病
+fibrous mechanites:筋繊維機械化症
+sensory mechanites:感覚器機械化症
+gut worms:回虫
+muscle parasites:せん毛虫
+heart attack:心臓発作
+a heart attack:_{heart attack}_
+heatstroke:熱中症
+hypothermia:低体温症
+bad back:腰痛
+a bad back:_{bad back}_
+frail:虚弱
+frailty:_{frail}_
+cataract:白内障
+a cataract:_{cataract}_
+blindness:失明
+hearing loss:失聴
+dementia:認知症
+alzheimer's:アルツハイマー
+asthma:ぜんそく
+artery blockage:心筋梗塞
+an artery blockage:_{artery blockage}_
+carcinoma:悪性腫瘍
+a carcinoma:_{carcinoma}_
+infection:感染症
+an infection:_{infection}_
+cirrhosis:肝硬変
+Disease:病気
+Animal disease:動物の病気
+
+;植物の
+blight:疫病

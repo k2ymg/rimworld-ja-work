@@ -1,0 +1,210 @@
+; Plants_Cave
+{Glowstool
+	label:_[glowstool]_
+	description:_?グロウスツール。?_洞窟でよく見つかる小さな茶色いキノコ。腐った_[Muffalo]_の胃から取り出した古くて汚い雑巾のような匂いがするが、焼けば驚くほどに旨い。光に晒すと死ぬ。
+}
+{Agarilux
+	label:_[agarilux]_
+	description:_?アガリラックス。?_巨大な紫色のキノコ。その大きさと輝く突起が、この菌類を際立たせている。光に晒すと死ぬ。
+}
+{Bryolux
+	label:_[bryolux]_
+	description:_?ブライオラックス。?_深く暗い洞窟でよく見つかる青いコケ。絡み合った繊維が粘つき、上を歩くと遅くなる。光に晒すと死ぬ。
+}
+
+; Plants_Cultivated_Decorative
+{Plant_Rose
+	label:_[rose]_
+	description:_?ローズ。?_美しい園芸用の花。_[Rose]_は_[Earth]_の古代から愛の象徴になっている。
+}
+{Plant_Daylily
+	label:_[daylily]_
+	description:_?デイリリー。?_花びらが大きく、寿命が短い園芸用の花。とても美しいが頻繁に植え直す必要がある。
+}
+
+; Plants_Cultivated_Farm
+{Plant_Rice
+	label:_[rice plant]_
+	description:_?ライス・プラント。?_背が低く、素早く育つ作物で、食べられる小さな粒が収穫できる。栄養価が高く、簡単に栽培できるため、多くの巨大文明で経済の核になっている。素早く育つとは言え、肥沃度に敏感で、貧しい土地では良い食糧にはならない。
+}
+{Plant_Potato
+	label:_[potato plant]_
+	description:_?ポテト・プラント。?_栄養価が高い芋。少し痩せた土壌でも良く育ち、油で揚げると外側がパリパリになって、とても美味しくなる。
+}
+{Plant_Corn
+	label:_[corn plant]_
+	description:_?コーン・プラント。?_穂に柔らかくて食べられる実を付ける背の高い穀類植物。成長に時間がかかるが、他の作物と比べて沢山収穫できる。収穫した_[Corn]_は長持ちする。
+}
+{Plant_Strawberry
+	label:_[strawberry plant]_
+	description:_?ストロベリー・プラント。?_背の低い灌木のような植物で、傷みやすいが美味しい_[Strawberry]_が収穫できる。他の作物のようなカロリー指向ではないが、生で食べても美味しい。
+}
+{Plant_Haygrass
+	label:_[haygrass]_
+	description:_?ヘイグラス。?_大量の干し草を生み出す、栄養豊富な牧草。人ではなく、動物が食べるもの。
+}
+{Plant_Cotton
+	label:_[cotton plant]_
+	description:_?コットン・プラント。?_細くて白い木綿繊維を生み出す中程度の高さの作物。布の素材として使われている。
+}
+{Plant_Devilstrand
+	label:_[devilstrand]_
+	description:_?デビルストランド。?_引き裂きにくい絹の網を生み出すように遺伝子操作された繊細なキノコ。このキノコの成長はとても遅いが、これから採れる_[Devilstrand]_繊維より優れているのは珍しい超ハイテクな織物だけである。\n\n名前の由来については、色が赤いからだと言う人もいるが、人々の欲深さから来ていると殆どの人は考えている。
+}
+{Plant_Healroot
+	label:_[healroot]_
+	description:_?ヒールルート。?__[Herbal medicine]_が収穫できる、成長が遅い植物。繊細な若枝のために、植えるのも収穫するのも労働集約的作業になる。\n\n何世紀にも渡って_{settlers}_達によって品種改良されてきた。五つの優れた薬効により、原住民からは "healer's hand" というあだ名で呼ばれることもある。
+}
+{Plant_Hops
+	label:_[hop plant]_
+	description:_?ポップ・プラント。?_花を付ける作物で、_[Hops]_を収穫できる。_[Beer]_の主原料。
+}
+{Plant_Smokeleaf
+	label:_[smokeleaf plant]_
+	description:_?スモークリーフ・プラント。?_葉に含まれている化学物質の精神的効果を目当てに栽培されている葉が多い作物。_[Smokeleaf leaves]_ は _[Crafting spot]_ で _[Joint]_ にできる。_[Smokeleaf]_ は使用者を落ち着かせるが、やる気が無くなり、中毒になる事もある。
+}
+{Plant_Psychoid
+	label:_[psychoid plant]_
+	description:_?サイコイド・プラント。?_葉が多い植物で、_[Psychite]_化学化合物を生み出す。元々は草食動物を払い除けるために、刺激を与えて気持ち悪くさせる防御機構として進化したものだが、_[Psychite]_ドラッグは抽出して様々な形態に精製でき、娯楽用途に使うことが出来る。これには中毒性がある。
+}
+{Plant_TreeCocoa
+	label:_[cocoa tree]_
+	description:_?ココア・ツリー。?_甘い_[Chocolate]_を生み出すように遺伝子操作された熱帯の樹木で、少し寒い気候でも育つ。
+}
+
+; Plants_Special
+{BurnedTree
+	label:_[burned tree]_
+	description:_?バーント・ツリー。?_燃えた樹木の残骸。見苦しく、使える木材はとれない。
+}
+{Plant_Ambrosia
+	label:_[ambrosia bush]_
+	description:_?アンブロージア・ブッシュ。?__[Ambrosia]_の実を付ける珍しい野生の灌木。_[Ambrosia]_の実は美味で、ドラッグのように_{mood}_を良くする。栽培出来ないので、野生の_[Ambrosia]_の林はとても貴重である。この果物の珍しさ、美しさ、望ましさが、古代ギリシアの神々の食べ物の名前が付けられている理由である。
+}
+
+; Plants_Wild_Arid
+{Plant_Agave
+	label:_[agave]_
+	description:_?アガベ。?_花と茎が食べられる、葉が大きな砂漠の植物。
+}
+{Plant_PincushionCactus
+	label:_[pincushion cactus]_
+	description:_?ピンクッション・カクタス。?_背の低いサボテン。針山に似ていることからこの名前が付けられている。
+}
+{Plant_SaguaroCactus
+	label:_[saguaro cactus]_
+	description:_?サウガロ・カクタス。?_乾燥地帯固有の大きなサボテン。これは樹木ではないが、木材のように使える繊維状の素材が採れる。
+}
+{Plant_TreeDrago
+	label:_[drago tree]_
+	description:_?ドラゴ・ツリー。?_てっぺんに尖った葉を分厚く生やす、砂漠の逞しい樹木。
+}
+
+; Plants_Wild_General
+{Plant_Grass
+	label:_[grass]_
+	description:_?グラス。?_雑草。わずかな明かりと栄養があれば何処にでも生える。
+}
+{Plant_TallGrass
+	label:_[tall grass]_
+	description:_?トール・グラス。?_背の高い雑草。ここを歩くと遅くなる。
+}
+{Plant_Bush
+	label:_[bush]_
+;todo: 意味不明
+	description:_?ブッシュ。?_背の低い灌木。Does not typically talk.
+}
+{Plant_Brambles
+	label:_[brambles]_
+	description:_?ブランブル。?_葉に覆われ、絡み合い、刺々しい枝。固まって生えるため、ここを歩くと遅くなる。
+}
+{Plant_HealrootWild
+	label:_[wild healroot]_
+	description:_?ワイルド・ヒールルート。?_薬草が採れる、ゆっくりと成長する植物。\n\n野生の_[Healroot]_は家庭用よりも寒さに強いが、栽培するのは難しすぎる。寒冷地の_{tribespeople}_に重宝されている。
+}
+
+; Plants_Wild_Swamp
+{Plant_TreeWillow
+	label:_[willow tree]_
+	description:_?ウィロウ・ツリー。柳。?_美しい樹冠をつくる、最も速く成長する陰樹の一種。木材は殆ど得られない。
+}
+{Plant_TreeCypress
+	label:_[cypress tree]_
+	description:_?サイプレス・ツリー。糸杉。?_沼地でよく見つかる背の高い針葉樹。成長が遅いとはいえ、木材がとても沢山採れるので、労力も少なく、長期的な投資として植える価値がある。
+}
+{Plant_TreeMaple
+	label:_[maple tree]_
+	description:_?メイプル・ツリー。楓。?_よく見かける、中型の樹木。三つに尖った特徴的な葉により簡単に見分けられる。
+}
+{Plant_Chokevine
+	label:_[chokevine]_
+	description:_?チョークバイン。(首絞め蔓。)?_コードのように絡みついた塊、棘だらけの蔓が地面に大きなとぐろを巻いて固まっている。ここを歩くとかなり遅くなる。夜になる前に子供達を家へ帰らせるために、夜になると_[Chokevine]_が子共を絞め殺すという作り話を複数の_{tribes}_がそれぞれ異なった形で生み出している。
+}
+
+; Plants_Wild_Temperate
+{Plant_Dandelion
+	label:_[dandelions]_
+	description:_?ダンデリオン。タンポポ。?_広く群生する小さくて黄色い花。雑草と思われがちだが、花が咲いた_[Dandelions]_は普通に美しい。
+}
+{Plant_Astragalus
+	label:_[astragalus]_
+	description:_?アストラガルス。レンゲソウ。?_高山性気候で育つ、多年生の小さい野生の花。
+}
+{Plant_Moss
+	label:_[moss]_
+	description:_?モス。?_薄暗く低温の場所に群生する野生のコケ。成長は遅いが、霜にとても強い。
+}
+{Plant_Berry
+	label:_[berry bush]_
+	description:_?ベリー・ブッシュ。野イチゴ。?_赤い_<Berries>_が採れるもじゃもじゃした野生の植物。_<Berries>_は調理できるが、生のまま食べても美味しい。
+}
+{Plant_TreeOak
+	label:_[oak tree]_
+	description:_?オーク・ツリー。?_広葉樹。育ちにくいが、これから採れる木材はとても堅いので、「oak(オーク)」は多くの文化で強さの象徴になっている。
+}
+{Plant_TreePoplar
+	label:_[poplar tree]_
+	description:_?ポプラ・ツリー。?_とても早く育つ針葉樹。しかし、広葉樹に比べると採れる木材は弱く、量も少ない。
+}
+{Plant_TreePine
+	label:_[pine tree]_
+	description:_?パイン・ツリー。松。?_とげとげした松の実に覆われた大きな針葉樹。特徴的な円錐形の形に育つ。
+}
+{Plant_TreeBirch
+	label:_[birch tree]_
+	description:_?バーチ・ツリー。シラカバ。?_紙のように薄くて白い樹皮で知られている、温暖な気候の樹木。
+}
+
+; Plants_Wild_Tropical
+{Plant_ShrubLow
+	label:_[low shrubs]_
+	description:_?ロウ・シュラブ。?_葉が大きい雑多な低い灌木。群生しているので通りにくい。
+}
+{Plant_Alocasia
+	label:_[alocasia]_
+	description:_?アロカシア。クワズイモ。?_熱帯植物。非常に大きな葉は熱帯性の森を特徴付ける物として広く認識されている。
+}
+{Plant_Clivia
+	label:_[clivia]_
+	description:_?クリビア。?_背が高く、綺麗な花を付ける珍しい植物。'bush lily'とも呼ばれる。
+}
+{Plant_Rafflesia
+	label:_[giant rafflesia]_
+	description:_?ジャイアント・ラフレシア。?_湿ったジャングルの奥深くで見つかる珍しい巨大な花。大きな花はさぞ見物だろうと思うかもしれないが、これの見た目と匂いは腐った肉のようである。
+}
+{Plant_TreeTeak
+	label:_[teak tree]_
+	description:_?チーク・ツリー。?_暖かい気候で育つ、並外れて堅い針葉樹。頑丈で水に強いため、昔は木造帆船の竜骨に使われていた。
+}
+{Plant_TreeCecropia
+	label:_[cecropia tree]_
+	description:_?セクロピア・ツリー。?_熱帯雨林で頻繁に見かける樹木の一つ。とても早く育つが、木材はあまり採れない。
+}
+{Plant_TreePalm
+	label:_[palm tree]_
+	description:_?パーム・ツリー。ヤシ。?_高い剥き出しの幹の上に大きな葉が生い茂っている熱帯の樹木。残念なことに、この種は食べられる実を付けない。
+}
+{Plant_TreeBamboo
+	label:_[bamboo tree]_
+	description:_?バンブー・ツリー。竹。?_密林に生える、育ちが早い木のような植物。木材として伐採できる。この植物自体は美しくない。
+}

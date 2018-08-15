@@ -1,0 +1,217 @@
+﻿JumpToLocation:<<Jump to location??その場所を見る>>
+PostponeLetter:<<Postpone??後回し>>
+RejectLetter:_<Reject>_
+
+LetterLabelFirstSummerWarning:<<Summer??夏>>
+FirstSummerWarning:夏が来た！そして冬も迫ってきている。\n\n作物は冬の寒さでは育たないので、生きるのに必要な量の食料をしっかりと保存する。\n\n食料が腐らないように、冷蔵倉庫を作れる。また、_[Parka]_を買うか、盗むか、作るかしないと、外に出ると凍死する。
+
+;RelationsBrokenDown,{0} との関係が悪くなり、敵対するようになった。
+;RelationsWarmed,{0} との関係が良くなり、敵対しなくなった。
+
+LetterRelationsChange_Hostile:{0} との関係が完全に終わり、これから敵対するようになった。\n\nこの派閥はあなたの_{colony}_やキャラバンを定期的に襲うようになり、交易を拒否する。関係を改善したいのなら、キャラバンや _[Transport pod]_ を使って贈り物を申し出ることが出来る。\n\nこの変化は友好度({1})が {2} を下回ったために起こった。中立関係に戻すには、友好度を {3} まで上げなければならない。
+LetterRelationsChange_NeutralFromHostile:{0} との関係は好転した。この派閥はあなたを中立と見なして、これ以上の攻撃を止めた。\n\nこの変化は友好度({1})が {2} を上回ったために起こった。もし友好度が {3} を下回ると、{0} はまた敵対するようになる。もし友好度が {4} を超えると同盟になり、共に戦うようになる。
+LetterRelationsChange_NeutralFromAlly:{0} との関係は冷めた。この派閥はあなたを同盟ではなく中立と見なすようになった。\n\nお互いに平和な関係であることには変わらないが、あなたが攻撃されても援軍を送らなくなった。\n\nこの変化は友好度({1})が {2} を下回ったために起こった。もし友好度が {3} を下回ると {0} は敵対するようになる。もし友好度が {4} を上回ればまた同盟になる。
+LetterRelationsChange_Ally:{0} との関係はとても親しいものになった。この派閥はこれから同盟になる。\n\n同盟は時々、あなたが攻撃されている時に援軍を送ってくれる。また、友好度を消費して、いつでも助けを呼ぶことができる。\n\n友好度({1})が {2} を上回ったために同盟になった。もし友好度が {3} を下回ると中立の関係に戻る。
+
+goodwill:<<goodwill??友好度>>
+Neutral:<<Neutral??中立>>
+Death:<<Death??死亡>>
+
+ShortCircuitRain:{0} が雨で短絡し発火した。
+
+LetterLabelAreaRevealed:<<Area revealed??空間の発見>>
+AreaRevealed:新しい空間が見つかった。
+AreaRevealedWithMechanoids:新しい空間が見つかった。敵対する古代の_[Mechanoid]_がいる。
+
+RoofCollapsed:支えが遠すぎたため天井が崩落した。
+TheseThingsCrushed:崩落の被害:
+NothingCrushed:何も潰されなかった。
+LetterLabelRoofCollapsed:天井の崩落
+
+RecruitSuccess:{0} は {1} の引き抜きに成功した。(成功率 {2})
+RecruitFail:{0} は {1} の引き抜きに失敗した。(成功率 {2})
+
+RelatedPawnInvolvedInQuest:[PAWN_nameDef] は {0} の {1} なので、もし [PAWN_nameDef] が死ぬと、{0} は長期間の悲しみにより苦しむ。しかし、もし [PAWN_nameDef] を救うことができれば、{0} は長期間とても幸せになる。
+
+LetterLabelBirthday:<<Birthday??誕生日>>
+BirthdayChronological:今日は {0} の誕生日!生物学的には {1} は {3} 歳になる。\n\n暦上では、{1} は {2} 歳になった。\n\n補足:仮死状態中は年を取らないので、暦上の年齢と生物学的年齢は区別されている。
+BirthdayBiologicalAgeInjuries:{0} が生物学的 {1} 歳になった。\n\n残念なことに、{0} は年を取ったことで次の病気を発症した:\n{2}
+
+LetterLabelNewDisease:_<Disease>_
+NewDisease:{0} が {1} にかかった。\n\n医療用ベッドと医者が用意されているか確認する。{2} に適切な治療を受けさせ、できる限りベッドで過ごさせる。
+NewPartDisease:{0} が{3}にかかった。感染源は[PAWN_possessive]の{1}。\n\n医療用ベッドと医者が用意されているか確認する。{2} に適切な治療を受けさせ、できる限りベッドで過ごさせる。
+NewDiseaseAnimal:{0} が病気になった: {1}
+NewPartDiseaseAnimal:{0} が病気になった: {3}が[PAWN_possessive]の{1}に発症した
+
+PawnWasFormerlyColonist:{0} は派閥の元一員だった。
+PawnHasTheseRelationshipsWithColonists:{0} は_{colonists}_と以下のような関係を持っている:
+PrisonerRescueTimeout:キャンプは {0} 日後に消える。この機会を逃せば、再び {1} の声を聞くことは無いかもしれない。
+
+LetterLabelAncientShrineWarning:<<Ancient danger??古代の脅威>>
+AncientShrineWarning:{0} は古代の壁に近づくにつれて嫌な予感に襲われた。根拠は無いが、この古びた建物には大きな危険があると感じている。
+
+StruckMineable:{0}の鉱脈に突き当たった!
+
+LetterLabelAnimalManhunterRevenge:<<{0} revenge??{0} の反撃>>
+AnimalManhunterFromDamage:[PAWN_indefinite] は傷つけられて攻撃してきた!\n\n近くの人を襲う。寝ると落ち着く。
+AnimalManhunterFromTaming:[PAWN_indefinite] は下手な手懐けにより攻撃してきた！
+AnimalManhunterOthers:近くにいた他の {0} も怒りだした！
+
+LetterFriendlyTrapSprungLabel:<<{0} hit trap??{0} が罠にはまった>>
+LetterFriendlyTrapSprung:{0} はうっかり罠を作動させてしまい怪我をした。
+
+LetterHealthComplications:{0} が以下を発症した:\n\n  {1}\n\nこれは {2} による。
+LetterHealthComplicationsLabel:{0}: {1}
+
+LetterHediffFromRandomHediffGiver:{0} は {1} を発症した。
+LetterHediffFromRandomHediffGiverLabel:{0}: {1}
+
+LetterLeadersDeathLabel:{1} が死亡: {0}
+LetterLeadersDeath:{1} の {3} である {0} が死んだ。\n\n新しい {3} は {2} になった。
+
+LetterLeaderChangedLabel:新しい {1}: {0}
+LetterLeaderChanged:{0} が {1} の {3} ではなくなった。\n\n新しい {3} は {2} になった。
+
+;MentalBreakLetterLabel:<<Mental break??精神崩壊>>
+FinalStraw:我慢の限界になったのは: {0}
+LastFactionRelationsEvent:最後のイベントは
+
+ReadMore:<<Read more??もっと読む>>
+LastEventsInLife:<<The last events in {0}'s life??{0}の人生での最後のイベント>>
+
+LetterLabelNoticedRelatedPawns:<<Relationship??縁故関係>>
+LetterRelatedPawnsRaidEnemy:到着した {1} の一団に{0}か_{prisoners}_と縁故関係がある人々がいる。\n\n派閥関係が悪いので、たとえ関係があるとしても、お互いに攻撃し合うことには変わらない。\n\nそれらの人々:
+LetterRelatedPawnsRaidFriendly:到着した友好的な {1} の一団に{0}か_{prisoners}_と縁故関係がある人々がいる:
+LetterRelatedPawnsNeutralGroup:到着した一団に{0}か_{prisoners}_と縁故関係がある人々がいる:
+LetterRelatedPawnsTradeShip:軌道交易商が{0}か_{prisoners}_と縁故関係がある人々を売っている:
+LetterRelatedPawnsTradingWithSettlement:ここの住民が{0}か_{prisoners}_と縁故関係がある人々を売っている:
+LetterRelatedPawnsTradingWithOtherCaravan:キャラバンが{0}か_{prisoners}_と縁故関係がある人々を売っている:
+LetterRelatedPawnsGroupGeneric:この一団に{0}か_{prisoners}_と縁故関係がある人々がいる:
+LetterRelatedPawnsInMapWherePlayerLanded:{0}が着地した場所に{0}か_{prisoners}_と縁故関係がある人々がいる。
+LetterRelatedPawnsSettlement:この_{settlement}_には{0}か_{prisoners}_と縁故関係がある人々がいる:
+LetterRelatedPawnsSite:このエリアには{0}か_{prisoners}_と縁故関係がある人々がいる:
+
+RelationshipAppendedLetterSuffix:<<(relationship)??(縁故関係)>>
+RelationshipAppendedLetterTextColonist:[PAWN_nameDef] はある_{colonist}_と縁故関係にある。[PAWN_pronoun]は {0} の {1}。
+RelationshipAppendedLetterTextPrisoner:[PAWN_nameDef] は_{prisoners}_の一人と縁故関係にある。[PAWN_pronoun]は {0} の {1}。
+
+LetterLabelAffair:<<Affair??浮気>>
+LetterAffair:{1} と結婚している {0} が {2} と浮気を始めた。
+LetterLabelNewLovers:<<New lovers??新しい恋人達>>
+LetterNoLongerLovers:{0} と {1} が別れた。
+LetterLabelBreakup:<<Breakup??振られた>>
+LetterLabelAcceptedProposal:<<Marriage is on!??プロポーズ成功>>
+LetterLabelRejectedProposal:<<Rejected proposal??プロポーズ失敗>>
+LetterAcceptedProposal:数日か、あるいは、いくつか節が過ぎた頃に結婚式が行われ、全ての_{colonists}_が招待される。式が行われる場所を制御したいのなら、_[Marriage spot]_を設置する。
+LetterRejectedProposal:{0} はこれにより悲しむだろう。
+
+LetterLabelRelationsChange_Hostile:<<Hostile: {0}??敵対: {0}>>
+LetterLabelRelationsChange_Ally:<<Allied: {0}??同盟: {0}>>
+LetterLabelRelationsChange_NeutralFromHostile:<<Enemy now neutral: {0}??敵が中立になった: {0}>>
+LetterLabelRelationsChange_NeutralFromAlly:<<Ally now neutral: {0}??同盟が中立になった: {0}>>
+LetterLabelShortCircuit:<<Zzztt...??バチバチ...>>
+LetterLabelMentalBreakdown:<<Mental break??精神崩壊>>
+
+LetterLabelSuffixBondedAnimalDied:<<bonded animal??絆で結ばれた動物>>
+LetterPartBondedAnimalDied:{0} は {1} と絆を結んでいた。これは {1} の_{mood}_に影響する。
+LetterPartBondedAnimalDiedMulti:これは以下の人々の_{mood}_に影響する:\n\n{0}
+
+LetterLabelPrisonBreak:<<Prison break??脱獄>>
+LetterPrisonBreak:_{prisoners}_が脱獄を仕組んでいた！どうにかしてドアの鍵を破り逃げ道を作ったようだ。武器を探し、戦い、逃げようとするだろう。以下の_{prisoners}_が関与している:\n\n{0}\n\n_{prisoners}_が多かったり健康的だとより脱獄を企むようになる。
+
+LetterLabelNewParty:<<Party??パーティ>>
+LetterNewParty:{0} がパーティをしている！参加した人は娯楽や社交を楽しみ、_{mood}_が良くなる状態が続く。
+
+
+LetterLabelNewlyAddicted:<<{0} addiction??{0} 中毒>>
+LetterNewlyAddicted:{0} が {1} 中毒になった。\n\n[PAWN_possessive]の {1} 欲求状態は'_<Needs>_'タブで確認できる。[PAWN_pronoun]は欲求を満たすために勝手にドラッグを消費する。もし {1} を手に入れられなければ、禁断症状が起きる。
+
+LetterLabelDrugBinge:<<{0} binge??{0} 乱用>>
+LetterDrugBinge:{0} が {1} を乱用するようになった。
+
+LetterLabelAllCaravanColonistsDied:<<Caravan destroyed??キャラバン 全滅>>
+LetterAllCaravanColonistsDied:{0} が全員死んだ。
+
+LetterLabelCaravanEnteredAmbushMap:<<Caravan arrived at ambush??キャラバンは待ち伏せ場所に到着した>>
+LetterCaravanEnteredAmbushMap:{0} が待ち伏せ場所に到着した。
+
+LetterLabelCaravanEnteredEnemyBase:<<Attack begun??戦闘開始>>
+LetterCaravanEnteredEnemyBase:{0} は {1} に到着し、攻撃準備が整った。
+
+LetterLabelTransportPodsLandedInEnemyBase:<<Attack begun??戦闘開始>>
+LetterTransportPodsLandedInEnemyBase:_[Transport pod]_ が {0} に到着した。
+
+LetterLabelFactionBaseDefeated:<<Base destroyed??本拠地 破壊>>
+LetterFactionBaseDefeated:敵の本拠地 {0} を破壊した。\n\nあと {1} でキャラバンは再編成される。ワールド画面でこの破壊した基地を選択して'_<Reform caravan>_'を選べば今すぐキャラバンを再編成できる。
+LetterFactionBaseDefeated_FactionDestroyed:ここは {0} の最後の砦だった、つまり、この派閥は全滅した。
+
+;LetterLabelPawnsLostDueToMapCountdown,置き去り
+;LetterPawnsLostDueToMapCountdown,動物や_{prisoners}_が荒野に置き去りにされた:\n\n{0}
+
+LetterLabelDefeatAllEnemiesQuestCompleted:<<Quest completed??クエスト完了>>
+LetterDefeatAllEnemiesQuestCompleted:敵の前哨基地を制圧した!\n\n{0} から報酬が届き、派閥関係が {1} 良くなった。
+
+LetterLabelFoundPreciousLump:<<Precious minerals found??稀少鉱物の発見>>
+LetterFoundPreciousLump:_[Long-range mineral scanner]_ を使い、{3} が {0} の塊を近くに発見した。\n\n残念だが、これはいつまでもあるわけではない。{1} 日後には他の誰かが採掘してしまう。\n\n{2}。
+
+LetterLabelAmbushInExistingMap:<<Ambush??待ち伏せ>>
+LetterAmbushInExistingMap:{0} は待ち伏せされた!
+
+LetterLabelPeaceTalks_Disaster:<<Peace talks disaster??和平交渉 決裂>>
+LetterPeaceTalks_Disaster:交渉は決裂した。代表団は始めの挨拶こそ辛うじてやり過ごしたものの、協議は屈辱と罵り合いの場へと瓦解した。\n\nキャラバンが急いで出発した後、{1} の {0} が追撃してきた！\n\n{1} との関係: {2}。
+
+LetterLabelPeaceTalks_Backfire:<<Peace talks backfire??和平交渉 逆効果>>
+LetterPeaceTalks_Backfire:交渉は裏目に出た。いくつかの社交辞令を交わしたにも拘わらず、代表団は重要な課題について進展させられず、さらに、いくつかの声明は屈辱とみなされた。\n\n{0} との関係: {1}。
+
+LetterLabelPeaceTalks_TalksFlounder:<<Peace talks flounder??和平交渉 平行線>>
+LetterPeaceTalks_TalksFlounder:交渉は平行線に終わった。代表団は失礼にならない程度の敬意を払いながら明確に話そうとしたが、本命の課題については進展させられなかった。\n\n{0} との関係は変わらなかった。
+
+LetterLabelPeaceTalks_Success:<<Peace talks success??和平交渉 成功>>
+LetterPeaceTalks_Success:交渉は成功した。代表団は幾つかの重要な課題について新たに理解し合えた。\n\n{0} との関係は {1} 良くなった。
+
+LetterLabelPeaceTalks_Triumph:<<Peace talks triumph??和平交渉 大勝利>>
+LetterPeaceTalks_Triumph:交渉は大勝利に終わった！代表団はすぐに親密になり、現在で最も難しい課題におけるお互いの価値観を真に理解し合えるようになった。\n\n{0} との関係は {1} 良くなった。\n\nキャラバンが出発するとき、{0} は贈り物を申し出た:\n\n {2}
+
+PeaceTalksSocialXPGain:交渉人 {0} は社交の経験値を {1} 得た。
+
+LetterRunWildMentalBreak:{0} が文化的な事に疲れ果てた。\n\n[PAWN_pronoun]は野生動物はいつでも自由だと気付いた。 なので、 [PAWN_pronoun]はあなたの派閥から離れて動物たちと暮らすことに決めた。\n\n[PAWN_objective]を手懐けて戻るように説得できる。
+
+LetterCatatonicMentalBreak:完全な精神崩壊に苦しんだ {0} が緊張性状態になった。[PAWN_pronoun]は数日後に元に戻る。
+
+
+LetterLabelAICoreOffer:<<AI Core Offer??AIコアの申し出>>
+LetterAICoreOffer:{1} の {0} がある情報の提供について連絡してきた: 宇宙船建造に必要な _[AI persona core]_ がある場所について。これはとても貴重なもので、厳重に守られていると教えてくれた。\n\n興味があるのなら _[Comms console]_ でこの派閥と話す。
+
+LetterCraftedLegendaryLabel:<<Legendary Work??極上の作品>>
+LetterCraftedLegendaryMessage:{0} が {1} を作った。\n\nこの価値あるアーティファクトのニュースは世界を駆け巡るだろう。
+
+LetterLabelPawnsLostBecauseMapClosed_Caravan:<<Caravan lost??キャラバン消滅>>
+LetterPawnsLostBecauseMapClosed_Caravan:キャラバンが消えた。次の人々や動物たちも一緒にいなくなった
+LetterLabelPawnsLostBecauseMapClosed_Home:<<Inhabitants abandoned??見捨てられた住民>>
+LetterPawnsLostBecauseMapClosed_Home:次の人や動物は見捨てられた
+
+LetterLabelHibernateComplete:<<Reactor ready??反応炉準備完了>>
+LetterHibernateComplete:Charlon Whitestone が反応炉の復帰処理を完了させ、離陸するパワーを出せるようになった。
+LetterHibernateCompleteStandalone:反応炉の復帰処理が完了し、離陸するパワーを出せるようになった。
+
+LetterLabelVisitorsGaveGift:<<Gift??贈り物>>
+LetterVisitorsGaveGift:苦労しているようなので、助けて上げましょう。
+
+LetterLabelFactionBaseProximity:<<Faction base proximity??派閥の本拠地に接近>>
+LetterFactionBaseProximity:他の派閥の拠点に近すぎるため、これらの派閥は縄張りを荒らされていると感じている。\n\n以前の節と比べて、派閥との友好度は次のように減少した:
+
+LetterLabelCaravansBattlefieldVictory:<<Caravan battle won??キャラバン勝利>>
+LetterCaravansBattlefieldVictory:キャラバンが戦闘に勝った。\n\nワールド画面でこの戦場を選択して'_<Reform caravan>_'を選べば今すぐキャラバンを再編成できる。\n\nアイテムはキャラバンの編成で簡単に集められるので、手動で集める必要はない。\n\nあと {0} でキャラバンは自動的に再編成される。
+
+LetterLabelRescueQuestFinished:<<Rescuee joins??救助により加入>>
+LetterRescueQuestFinished:助けたので[PAWN_nameDef]が仲間に加わった。\n\nこのエリアを選んで'_<Reform caravan>_'を選び、キャラバンを再編成すれば[PAWN_objective]を連れて行ける。
+
+LetterLabelPlayerEnteredNewSiteGeneric:<<Arrived at site??到着した>>
+
+LetterLabelPredatorHuntingColonist:<<{0} hunting {1}??{0} が {1} を襲っている>>
+LetterPredatorHuntingColonist:{0} が {1} を捕食しようとしている！
+
+;上にほぼ同じ文がある
+LetterDisease_Blocked:{0} が {1} を防いだ: {2}。
+LetterLabelTraitDisease:_<Disease>_ ({0})
+LetterTraitDisease:{0} が {1} にかかった。\n\n医療用ベッドと医者が用意されているか確認する。[PAWN_pronoun]に適切な治療を受けさせ、できる限りベッドで過ごさせる。

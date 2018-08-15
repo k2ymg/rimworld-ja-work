@@ -1,0 +1,56 @@
+﻿Tool:<<Tool??手段>>
+DamageLower:<<damage??ダメージ>>
+SecondsPerAttackLower:<<seconds per attack??攻撃ごとの秒数>>
+
+StatsReport_BaseValue:<<Base value??基本値>>
+StatsReport_RelevantTraits:<<Relevant traits??関連する特徴>>
+StatsReport_RelevantGear:<<Relevant gear??関連する装備>>
+StatsReport_RelevantHediffs:<<Relevant health conditions??関連する健康状態>>
+StatsReport_LifeStage:<<Life stage??ライフ・ステージ>>
+StatsReport_Material:<<Material??素材>>
+StatsReport_CharacterQuality:<<Character quality??キャラクタ品質>>
+StatsReport_Skills:<<Skills??スキル>>
+StatsReport_OtherStats:<<Other stats??その他の状態>>
+StatsReport_Health:<<Health??状態>>
+HealthFactorPercentImpact:<<{0} importance??影響度 {0}>>
+HealthOffsetScale:<<{0} impact??効果 {0}>>
+HealthFactorMaxImpact:<<{0} max??最大 {0}>>
+HealthFactorAllowedDefect:<<if below {0}??もし {0} 未満なら>>
+StatsReport_PostProcessed:<<Post-process curve??修正表による変換>>
+StatsReport_FinalValue:<<Final value??最終値>>
+StatsReport_MarketValueFromStuffsAndWork:<<Materials and labor??材質と労力>>
+StatsReport_QualityMultiplier:<<Quality multiplier??品質による掛け率>>
+StatsReport_MaxGain:<<Max gain??最大利益>>
+StatsReport_AgeMultiplier:<<Multiplier for age {0}??年齢による掛け率 {0}>>
+StatsReport_HealthMultiplier:<<Multiplier for health {0}??劣化度による掛け率 {0}>>
+StatsReport_MoodMultiplier:<<Multiplier for mood {0}??_{mood}_による掛け率 {0}>>
+StatsReport_LightMultiplier:<<Multiplier for light {0}??明るさによる掛け率 {0}>>
+StatsReport_DifficultyMultiplier:<<Multiplier for difficulty {0}??難易度による掛け率 {0}>>
+StatsReport_InBed:<<In bed??ベッド使用>>
+StatsReport_Facilities:<<Facilities??設備>>
+StatsReport_BodySize:<<Multiplier for body size {0}??体格による掛け率 {0}>>
+StatsReport_MeleeDPSExplanation:<<DPS = Melee damage * Melee hit chance / Cooldown in seconds??DPS = 近接ダメージ量 * 近接ヒット率 / クールダウン秒>>
+StatsReport_MeleeDamage:<<Melee damage??近接ダメージ>>
+StatsReport_Cooldown:<<Cooldown??クールダウン秒>>
+StatsReport_MeleeHitChance:<<Melee hit chance??近接ヒット率>>
+StatsReport_CooldownFormat:<<{0} s??{0} 秒>>
+StatsReport_LifeExpectancy:<<Life expectancy??平均寿命>>
+StatsReport_MissingBodyParts:<<Multiplier for missing body parts??部位欠損による掛け率>>
+StatsReport_GearAndInventoryMass:<<Gear and inventory??装備と所持品>>
+StatsReport_WornByCorpse:<<Multiplier for worn by corpse??遺服による掛け率>>
+AverageOfAllAttacks:<<average of all attacks??全攻撃の平均値>>
+StatsReport_ScenarioFactor:<<Scenario??シナリオ>>
+StatsReport_IngredientsMass:<<Ingredients??材料>>
+StatsReport_PermanentlyDisabled:<<Permanently disabled.??不能。>>
+StatsReport_Inspiration:{0}
+StatsReport_AddedBodyPartsMass:<<Added body parts??追加身体パーツ>>
+StatsReport_StuffEffectMultiplier:<<Material effect multiplier??素材効果係数>>
+StatsReport_Resting:<<Resting??休憩>>
+StatsReport_JoyKind:<<recreation type??娯楽種別>>
+StatsReport_WorkToUninstall:<<work to uninstall??撤去する工数>>
+StatsReport_PlantGrowth:<<Multiplier for growth {0}??成長度 {0} による係数>>
+StatsReport_PlantGrowth_Wild:<<scaled because wild??野生種による調整済み>>
+StatsReport_NotFlesh:<<Not flesh??新鮮ではない>>
+StatsReport_NotFresh:<<Not fresh??生ではない>>
+StatsReport_WildMan:<<Wild man??野生人>>
+StatsReport_NonToolAttack:<<Attack??攻撃>>

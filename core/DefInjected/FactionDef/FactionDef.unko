@@ -1,0 +1,89 @@
+; Factions_Hidden.xml
+{$AncientsBase
+	label:_[ancients]_
+	pawnSingular:_[ancient]_
+	pawnsPlural:_[ancients]_
+	fixedName:_[Ancients]_
+}
+
+{Ancients
+	$:AncientsBase
+}
+
+{AncientsHostile
+	$:AncientsBase
+}
+
+{Mechanoid
+	label:_[mechanoid hive]_
+	pawnSingular:_[mechanoid]_
+	pawnsPlural:_[mechanoids]_
+	fixedName:_[a mechanoid hive]_
+}
+
+{Insect
+	label:_[insects]_
+	pawnSingular:_[insect]_
+	pawnsPlural:_[insects]_
+	fixedName:_[insects]_
+}
+
+; Factions_Misc.xml
+{$OutlanderFactionBase
+	pawnSingular:_[outlander]_
+	pawnsPlural:_[outlanders]_
+	leaderTitle:_[prime councilor]_
+}
+
+{OutlanderCivil
+	label:_[civil outlander union]_
+	description:この人々は何十年、何百年もここに暮らしており、この世界へ導いた技術の大部分を失っている。普段は、簡単な機械で作業をし、先進的な火薬武器で自衛している。\n\n取引、信用、サバイバルに関して、実際に役立つ事に興味がある。\n\nこのグループは礼節を重んじている。
+	$:OutlanderFactionBase
+}
+
+{OutlanderRough
+	label:_[rough outlander union]_
+	description:この人々は何十年、何百年もここに暮らしており、この世界へ導いた技術の大部分を失っている。普段は、簡単な機械で作業をし、先進的な火薬武器で自衛している。\n\n取引、信用、サバイバルに関して、実際に役立つ事に興味がある。\n\nこのグループは野蛮な傾向がある。
+	$:OutlanderFactionBase
+}
+
+{$TribeBase
+	pawnSingular:_[tribesman]_
+	pawnsPlural:_[tribespeople]_
+	leaderTitle:_[chief]_
+}
+
+{TribeCivil
+	label:_[gentle tribe]_
+	description:遙か昔からここにいる人々。千年前に祖先がここへ墜落したのかもしれないし、技術文明の大崩壊から生き残ったのかもしれない。いずれにせよ、殆どが遊牧民で、原始的な道具と武器で暮らしている。\n\n技術が劣っているのは明らかだが、原始的な戦闘技術、数、勇敢さは、危険な敵にも頼れる味方にもなる。\n\nこの_{tribe}_はできるだけ平和な暮らしを追い求めている。たとえ見知らぬ人々でも、交易も同盟も歓迎している。
+	$:TribeBase
+}
+
+{TribeRough
+	label:_[savage tribe]_
+	description:遙か昔からここにいる人々。千年前に祖先がここへ墜落したのかもしれないし、技術文明の大崩壊から生き残ったのかもしれない。いずれにせよ、殆どが遊牧民で、原始的な道具と武器で暮らしている。\n\n技術が劣っているのは明らかだが、原始的な戦闘技術、数、勇敢さは、危険な敵にも頼れる味方にもなる。\n\nこの_{tribe}_は闘争による支配を重んじているため、仲間にするのは難しいかもしれない。
+	$:TribeBase
+}
+
+{Pirate
+	label:_[pirate band]_
+	description:お互いに争わずに、部外者と戦うことに同意している盗賊団の緩い連合。\n\n作物を作らず、何も建てず、取引も滅多にしない。個の強さと無慈悲さを重んじる闘争的文化で行動し、より豊かな近隣から略奪することで自分達を潤している。\n\n彼らの技術水準は最近誰から盗んだかに依存する。近距離で突き刺すのを好むやつもいるが、大抵は火薬の武器を携帯している。
+	pawnSingular:_[pirate]_
+	pawnsPlural:_[pirates]_
+	leaderTitle:_[boss]_
+}
+
+; Factions_Player.xml
+{PlayerColony
+	label:_[New Arrivals]_
+	description:見知らぬ土地へ着いたばかりの人々の集まり。
+	pawnSingular:_[colonist]_
+	pawnsPlural:_[colonists]_
+}
+
+{PlayerTribe
+	label:_[New Tribe]_
+	description:小さな_{tribe}_。
+	pawnSingular:_[tribesman]_
+	pawnsPlural:_[tribespeople]_
+}

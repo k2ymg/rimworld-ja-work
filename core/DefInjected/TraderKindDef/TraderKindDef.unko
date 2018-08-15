@@ -1,0 +1,18 @@
+﻿Caravan_Neolithic_BulkGoods.label:_[bulk goods trader]_
+Caravan_Neolithic_WarMerchant.label:_[war merchant]_
+Caravan_Neolithic_Slaver.label:_[slaver]_
+Caravan_Neolithic_ShamanMerchant.label:_[shaman merchant]_
+
+Caravan_Outlander_BulkGoods.label:_[bulk goods trader]_
+Caravan_Outlander_CombatSupplier.label:_[combat supplier]_
+Caravan_Outlander_PirateMerchant.label:_[pirate merchant]_
+Caravan_Outlander_Exotic.label:_[exotic goods trader]_
+
+Orbital_BulkGoods.label:_[bulk goods trader]_
+Orbital_CombatSupplier.label:_[combat supplier]_
+Orbital_Exotic.label:_[exotic goods trader]_
+Orbital_PirateMerchant.label:_[pirate merchant]_
+
+Visitor_Neolithic_Standard.label:_[trader]_
+
+Visitor_Outlander_Standard.label:_[trader]_

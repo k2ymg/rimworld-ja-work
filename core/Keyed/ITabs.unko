@@ -1,0 +1,139 @@
+﻿TabBills:_<Bills>_
+TabGrowing:<<Growing??栽培>>
+TabCharacter:<<Bio??人物>>
+TabTraining:<<Training??訓練>>
+TabPrisoner:_<Prisoner>_
+TabGuest:_<Guest>_
+TabGear:<<Gear??装備>>
+TabNeeds:_<Needs>_
+TabStorage:_<Storage>_
+TabShells:<<Shells??装弾>>
+TabHealth:_<Health>_
+TabRace:<<Race??種族>>
+TabBasics:Basics
+TabStats:<<Stats??状態>>
+TabRecords:<<Records??記録>>
+TabArt:<<Art??芸術>>
+TabSocial:<<Social??社交>>
+TabLog:<<Log??履歴>>
+TabFormingCaravan:<<Caravan??キャラバン>>
+
+AddBill:_<Add bill>_
+RecipeRequiresSkills:{0} のレシピは以下のスキルが必要。これらのスキルを持っている_{colonists}_がいないので、この_{bill}_は誰も実行できない。
+MinimumSkill:<<Min skill??最少スキル値>>
+SuspendedCaps:<<SUSPENDED??停止中>>
+BoundWorkerIs:<<Worker: {0}??作業者: {0}>>
+; 動詞か？未使用なので放置
+PlantVerb:<<Plant??植物>>
+ClipboardBillNotAvailableHere:コピーされた_{bill}_をここにペーストできない。
+ReorderBillUpTip:上げる
+ReorderBillDownTip:下げる
+DeleteBillTip:削除
+CopyBillTip:クリップボードへコピー
+SuspendBillTip:一時停止
+PasteBillTip:ペースト
+PasteBillTip_LimitReached:これ以上追加できない
+
+RecruitmentResistance:<<Resistance remaining??残りの抵抗度>>
+RecruitmentDifficulty:<<Recruitment difficulty??勧誘の難易度>>
+GetsFood:<<Gets food??食べ物を与える>>
+DoctorsCare:<<Doctors care??医者に診せる>>
+GetsMedicine:<<Gets medicine??薬を与える>>
+ShouldTryToRecruit:<<Try to recruit??勧誘>>
+ConsideredGuilty:<<Considered guilty (expires in {0})??有罪(期限 {0})>>
+
+MoveSpeed:<<Move speed??移動速度>>
+Efficiency:<<Efficiency??効率>>
+PartEfficiency:<<Part efficiency??部位効率>>
+BodyPartEfficiency:<<Body part efficiency??身体部位能力>>
+MissingBodyPart:<<Gone??失われた>>
+DestroyedBodyPart:<<Destroyed??破壊された>>
+ShatteredBodyPart:<<Shattered??粉砕された>>
+RemovedBodyPart:<<Removed??外された>>
+Healthy:<<Healthy??健康>>
+InPain:<<In pain??痛み>>
+PainLevel:<<Pain??痛みの強さ>>
+Injured:<<Injured??怪我>>
+NoHealthConditions:<<no health conditions??健康状態なし>>
+WholeBody:<<Whole body??全身>>
+DataProcessing:<<Data processing??データ処理>>
+Communication:<<Communication??コミュニケーション>>
+Affects:<<Affects??影響>>
+BleedingRate:<<Bleeding??出血>>
+TimeToDeath:<<death in {0}??死亡まであと {0}>>
+WontBleedOutSoon:<<no immediate danger??まだそれほど危険ではない>>
+HealthOverview:<<Overview??概要>>
+MedicalOperationsShort:_<Operations>_ ({0})
+MedicalOperationsMechanoidsShort:_<Modifications>_ ({0})
+MedicalOperations:_<Medical operations>_
+Amputate:<<amputate??切断手術>>
+HarvestOrgan:<<harvest??摘出>>
+RemoveOrgan:<<remove??摘出>>
+MemoryLower:<<memory??記憶>>
+SocialInteractionsLower:<<social interactions??社会的相互関係>>
+HungerRate:<<Hunger rate??空腹率>>
+Tiredness:<<Tiredness??疲れ>>
+PainFactor:<<Pain??苦痛>>
+PreventsInfection:<<Prevents infection??感染予防>>
+SelfTend:<<Self-tend??自己治療>>
+SelfTendTip:{0} の自己治療を有効にすると、通常の{1}の効率で、その場で自分自身を治療する。
+
+None:<<None??なし>>
+VeryPoor:<<Very poor??非常に悪い>>
+Poor:<<Poor??悪い>>
+Weakened:<<Weakened??弱っている>>
+GoodCondition:<<OK??良好>>
+Enhanced:<<Enhanced??強化>>
+SeriouslyImpaired:<<Seriously impaired??深刻な障害>>
+Impaired:<<Impaired??障害>>
+SlightlyImpaired:<<Slightly impaired??わずかな障害>>
+NoPain:<<None??無痛>>
+LittlePain:<<Little??少しの痛み>>
+MediumPain:<<Medium??痛い>>
+SeverePain:<<Severe??激しい痛み>>
+ExtremePain:<<Extreme??猛烈な痛み>>
+
+Trainability:<<Trainability??従順性>>
+CannotTrainNotSmartEnough:<<Requires trainability {0}.??必要とする従順性 {0}。>>
+CannotTrainTooSmall:この訓練をするには {0} は小さすぎる。
+
+TrainingNeedsPrerequisite:<<Prerequisite needed: {0}??前提: {0}>>
+
+NoRelationships:<<(no relationships)??(関係無し)>>
+Kidnapped:<<Kidnapped??誘拐>>
+Missing:<<Missing??消息不明>>
+Slave:<<Slave??奴隷>>
+FactionLeader:<<Faction leader??派閥のリーダー>>
+OpinionOf:<<Opinion of {0}??{0} への評価>>
+SomeonesOpinionOfMe:<<{0}'s opinion of me??{0} の私への評価>>
+IAmDead:<<I'm dead??私は死んだ>>
+IAmPsychopath:<<I'm a psychopath??私はサイコパス>>
+
+OverallArmor:<<Overall armor??アーマー合計>>
+MassCarried:<<Mass carried: {0} / {1} kg??重量: {0} / {1} kg>>
+ComfyTemperatureRange:<<Comfortable temperature range??快適な温度範囲>>
+ArmorBlunt:<<Blunt??打撲>>
+ArmorSharp:<<Sharp??尖鋭>>
+ArmorHeat:<<Heat??熱>>
+
+ShowAll:<<Show all??全て表示>>
+ShowCombat:<<Show combat??戦闘を表示>>
+ShowSocial:<<Show social??社交を表示>>
+NoRecentEntries:<<no recent entries??直近の履歴なし>>
+CopyLogTip:<<Copy log to the clipboard.??ログをクリップボードへコピー。>>
+
+FormingCaravanStatus_GatheringAnimals:<<Gathering animals??動物を集めている>>
+FormingCaravanStatus_GatheringAnimals_Pause:<<Gathering animals (waiting)??動物を集めている (待機)>>
+FormingCaravanStatus_GatheringItems:<<Gathering items??アイテムを集めている>>
+FormingCaravanStatus_GatheringItems_Pause:<<Gathering items (waiting)??アイテムを集めている (待機)>>
+FormingCaravanStatus_GatheringSlaves:<<Gathering slaves??奴隷を集めている>>
+FormingCaravanStatus_GatheringSlaves_Pause:<<Gathering slaves (waiting)??奴隷を集めている (待機)>>
+FormingCaravanStatus_Leaving:<<Leaving??離れている>>
+FormingCaravanStatus_Leaving_Pause:<<Leaving (waiting)??離れている (待機)>>
+FormingCaravanStatus_Waiting:<<Waiting??待機中>>
+CaravanMembers:<<Members??人員>>
+CaravanAnimals:<<Animals??動物>>
+ItemsToLoad:<<Items to load??積み込むアイテム>>
+LoadedItems:<<Loaded items??積み込んだアイテム>>
+PackAnimalsCountLower:<<pack animals??_{pack animal}_数>>
+InMentalStateCountLower:<<mentally broken??精神崩壊数>>

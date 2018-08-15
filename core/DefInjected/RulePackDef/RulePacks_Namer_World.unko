@@ -1,0 +1,26 @@
+﻿;名前なので訳さない
+{?NamerWorld.rulePack.rulesStrings
+	:r_name->[celestial_name]
+	:r_name->[celestial_prefix] [celestial_name]
+	:r_name->[celestial_name] [celestial_suffix]
+	:r_name->[world_name_numeric]
+	:r_name->[world_name_numeric] [celestial_suffix]
+	:r_name(p=0.5)->[celestial_name] [RomanNumeral]
+	:r_name(p=0.5)->[celestial_name]-[RomanNumeral]
+	:r_name(p=0.5)->[celestial_name]-[numbers]
+	:r_name->[celestial_name] [celestial_name]
+	:r_name->[NamePerson]'s [planet]
+
+	:world_name_numeric->[letters]-[numbers]
+	:world_name_numeric->[letters] [numbers]
+
+	:letters->[Letter]
+	:letters->[Letter][Letter]
+	:letters->[Letter][Letter][Letter]
+	:numbers->[Digit]
+	:numbers->[Digit][Digit]
+	:numbers->[Digit][Digit][Digit]
+
+	:planet->World
+	:planet->Planet
+}
