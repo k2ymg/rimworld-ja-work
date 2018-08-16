@@ -18,7 +18,7 @@ CaravanDemand.label:<<payment demand??カツあげ>>
 ; Incidents_Map_Disease.xml
 {$DiseaseIncident
 	; Keyed/Letters,NewDiseaseとほぼ同じ文
-	letterText:{1} の中の {0} 人が {2} を発症した。\n\n医療用ベッドと医者が用意されているか確認する。適切な治療を受けさせ、できる限りベッドで過ごさせる。\n\n以下の {1} が病気になった:\n\n{3}
+	letterText:{0} 人の{1}が {2} を発症した。\n\n医療用ベッドと医者が用意されているか確認する。適切な治療を受けさせ、できる限りベッドで過ごさせる。\n\n以下の {1} が病気になった:\n\n{3}
 }
 
 {Disease_Flu
@@ -237,32 +237,32 @@ Quest_TradeRequest.label:<<trade request??交易要請>>
 {Quest_BanditCamp
 	label:<<bandit camp quest??クエスト - 賊のキャンプ>>
 	letterLabel:<<Bandit camp quest??クエスト - 賊のキャンプ>>
-	letterText:{2} の {1} である {0} がメッセージを送ってきた。\n\n彼らのキャラバンを襲っている賊が近くに陣取っているらしい。これの破壊、要するに全ての敵と_<Turret>_を排除出来ないか尋ねてきている。\n\n{0} 曰く {5}。\n\nもし成功すれば、この派閥との関係が良くなり、次の価値 {6} の報酬を送ってくる:\n\n{3}\n\nもし {4} 日以内にやらなければ、彼らは自分達で破壊する。
+	letterText:{2} の {1} である {0} がメッセージを送ってきた。\n\n彼らのキャラバンを襲っている賊が近くに陣取っているらしい。これの破壊、要するに全ての敵と_<Turret>_を排除出来ないか尋ねてきている。\n\n{0} によると、{5}。\n\nもし成功すれば、この派閥との関係が良くなり、次の価値 {6} の報酬を送ってくる:\n\n{3}\n\nもし {4} 日以内にやらなければ、彼らは自分達で破壊する。
 }
 
 {Quest_ItemStash
 	label:<<item stash quest??クエスト - お宝>>
 	letterLabel:<<Item stash quest??クエスト - お宝>>
-	letterText:{2} の {1} である {0} が近くに価値 {6} の貴重な物が集められていると教えてくれた。\n\n集められている物:\n\n{3}\n\n残念だが、{4} 日以内に取らなければ他の誰かに奪われる。\n\n貴重な物は危険を引き寄せるので、注意すること。{0}によると{5}。
+	letterText:{2} の {1} である {0} が近くに価値 {6} の貴重な物が集められていると教えてくれた。\n\n集められている物:\n\n{3}\n\n残念だが、{4} 日以内に取らなければ他の誰かに奪われる。\n\n貴重な物は危険を引き寄せるので、注意すること。{0}によると、{5}。
 }
 
 {Quest_ItemStashAICore
 	label:<<item stash quest (AI core)??クエスト - お宝 (AIコア)>>
 ; inherit from QuestItemStash
 	letterLabel:クエスト - お宝
-	letterText:{2} の {1} である {0} が近くに貴重な物が集められていると教えてくれた。\n\n集められている物:\n\n{3}\n\n残念だが、{4} 日以内に取らなければ他の誰かに奪われる。\n\n貴重な物は危険を引き寄せるので、注意すること。{0}によると{5}。
+	letterText:{2} の {1} である {0} が近くに貴重な物が集められていると教えてくれた。\n\n集められている物:\n\n{3}\n\n残念だが、{4} 日以内に取らなければ他の誰かに奪われる。\n\n貴重な物は危険を引き寄せるので、注意すること。{0}によると、{5}。
 }
 
 {Quest_DownedRefugee
 	label:<<incapacitated refugee quest??クエスト - 行き倒れの難民>>
 	letterLabel:<<Incapacitated refugee quest??クエスト - 行き倒れの難民>>
-	letterText:[PAWN_nameDef] が助けを求めてきた。[PAWN_pronoun]は怪我をして動けない。助けなければ、{0} 日以内に死ぬ。\n\n[PAWN_nameDef] は {1} 歳で、助けてくれれば仲間に加わると約束した。\n\n[PAWN_nameDef]によると{3}。
+	letterText:[PAWN_nameDef] が助けを求めてきた。[PAWN_pronoun]は怪我をして動けない。助けなければ、{0} 日以内に死ぬ。\n\n[PAWN_nameDef] は {1} 歳で、助けてくれれば仲間に加わると約束した。\n\n[PAWN_nameDef]によると、{3}。
 }
 
 {Quest_PrisonerRescue
 	label:<<prisoner rescue quest??クエスト - _{prisoner}_救出>>
 	letterLabel:<<Prisoner rescue quest??クエスト - _{prisoner}_救出>>
-	letterText:{0} に捕まっている_{prisoner}_が無線を盗んで連絡してきた！\n\n[PAWN_nameDef] は近くにある武装されたキャンプに捕まっている。[PAWN_pronoun]は {1} 歳の {2} で、助けると仲間に加わる。[PAWN_pronoun]によると{3}。
+	letterText:{0} に捕まっている_{prisoner}_が無線を盗んで連絡してきた！\n\n[PAWN_nameDef] は近くにある武装されたキャンプに捕まっている。[PAWN_pronoun]は {1} 歳の {2} で、助けると仲間に加わる。[PAWN_pronoun]によると、{3}。
 }
 
 {Quest_PeaceTalks

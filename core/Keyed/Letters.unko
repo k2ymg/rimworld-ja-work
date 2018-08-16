@@ -35,13 +35,13 @@ RelatedPawnInvolvedInQuest:[PAWN_nameDef] は {0} の {1} なので、もし [PA
 
 LetterLabelBirthday:<<Birthday??誕生日>>
 BirthdayChronological:今日は {0} の誕生日!生物学的には {1} は {3} 歳になる。\n\n暦上では、{1} は {2} 歳になった。\n\n補足:仮死状態中は年を取らないので、暦上の年齢と生物学的年齢は区別されている。
-BirthdayBiologicalAgeInjuries:{0} が生物学的 {1} 歳になった。\n\n残念なことに、{0} は年を取ったことで次の病気を発症した:\n{2}
+BirthdayBiologicalAgeInjuries:{0} が生物学的 {1} 歳になった。\n\n残念なことに、 {0} は年を取ったことで次の病気を発症した:\n{2}
 
 LetterLabelNewDisease:_<Disease>_
-NewDisease:{0} が {1} にかかった。\n\n医療用ベッドと医者が用意されているか確認する。{2} に適切な治療を受けさせ、できる限りベッドで過ごさせる。
-NewPartDisease:{0} が{3}にかかった。感染源は[PAWN_possessive]の{1}。\n\n医療用ベッドと医者が用意されているか確認する。{2} に適切な治療を受けさせ、できる限りベッドで過ごさせる。
+NewDisease:{0} が {1} にかかった。\n\n医療用ベッドと医者が用意されているか確認する。 {2} に適切な治療を受けさせ、できる限りベッドで過ごさせる。
+NewPartDisease:{0} が {3} にかかった。感染源は[PAWN_possessive]の{1}。\n\n医療用ベッドと医者が用意されているか確認する。 {2} に適切な治療を受けさせ、できる限りベッドで過ごさせる。
 NewDiseaseAnimal:{0} が病気になった: {1}
-NewPartDiseaseAnimal:{0} が病気になった: {3}が[PAWN_possessive]の{1}に発症した
+NewPartDiseaseAnimal:{0} が病気になった: {3} が {1} に発症した
 
 PawnWasFormerlyColonist:{0} は派閥の元一員だった。
 PawnHasTheseRelationshipsWithColonists:{0} は_{colonists}_と以下のような関係を持っている:
@@ -124,7 +124,7 @@ LetterNewParty:{0} がパーティをしている！参加した人は娯楽や�
 
 
 LetterLabelNewlyAddicted:<<{0} addiction??{0} 中毒>>
-LetterNewlyAddicted:{0} が {1} 中毒になった。\n\n[PAWN_possessive]の {1} 欲求状態は'_<Needs>_'タブで確認できる。[PAWN_pronoun]は欲求を満たすために勝手にドラッグを消費する。もし {1} を手に入れられなければ、禁断症状が起きる。
+LetterNewlyAddicted:{0} が {1} 中毒になった。\n\n[PAWN_possessive]の {1} 欲求状態は'_<Needs>_'タブで確認できる。[PAWN_pronoun]は欲求を満たすために勝手にドラッグを消費する。もし {1} を手に入れられなければ、'_<withdrawal>_'状態になる。
 
 LetterLabelDrugBinge:<<{0} binge??{0} 乱用>>
 LetterDrugBinge:{0} が {1} を乱用するようになった。

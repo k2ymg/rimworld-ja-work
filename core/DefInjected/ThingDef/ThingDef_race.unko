@@ -49,7 +49,7 @@
 {Bear_Grizzly
 	label:_[grizzly bear]_
 	description:_?グリズリー・ベア。?_寒い気候に適応した、大型で雑食性の哺乳類。冬場は厚い脂肪と毛が体温を保っている。\n\n普段は魚、ベリー、蜂蜜、死肉を食べているが、強烈な力と鋭い爪で生きた獲物を殺すこともできる。図体の割には驚くほど素早い。
-	race.meatLabel:_<bear meat>_
+	race.meatLabel:_[bear meat]_
 	$:BaseBear
 }
 {Bear_Polar
@@ -88,7 +88,7 @@
 {Cassowary
 	label:_[cassowary]_
 	description:_?カソワリ。ヒクイドリ。?_色鮮やかな羽根を持つ、大きくて飛べない鳥。見た目は良いが、蹴りが凶悪。傷つけられたり、下手な手懐けをされると直ぐに怒ることで知られている。
-	race.meatLabel:_<bird meat>_
+	race.meatLabel:_[bird meat]_
 	tools.claws.label:_<claws>_
 	tools.beak.label:_<beak>_
 	tools.head.label:_<head>_
@@ -128,7 +128,7 @@
 	description:_?ピッグ。豚。?_最初に家畜化された動物の一つ。普通は肉のために育てられる。雑食性のため飼いやすい。自己中心的気質だが、訓練すれば複雑な作業も出来るようになる。
 ;	tools.teeth.label:_<teeth>_
 	tools.head.label:_<head>_
-	race.meatLabel:_<pork>_
+	race.meatLabel:_[pork]_
 }
 {Cow
 	label:_[cow]_
@@ -137,7 +137,7 @@
 	tools.head.label:_<head>_
 	tools.left_hoof.label:_<left hoof>_
 	tools.right_hoof.label:_<right hoof>_
-	race.meatLabel:_<beef>_
+	race.meatLabel:_[beef]_
 }
 {Alpaca
 	label:_[alpaca]_
@@ -209,7 +209,7 @@
 	description:_?メガスパイダー。?_本物の蜘蛛ではない、遺伝子操作された大型の_[Insectoid]_。熊と同じくらいの大きさ。重労働と戦闘のために作られた。分厚いキチン質の鎧、さらに、長い鋭利な刃により、狭い場所で倒すのは困難を極める。しかし、開けた場所ではけっこう遅い。
 	tools.head_claw.label:_<head claw>_
 	tools.head.label:_<head>_
-	race.meatLabel:_<insect meat>_
+	race.meatLabel:_[insect meat]_
 }
 
 ; Races_Animal_Pet
@@ -312,7 +312,7 @@
 	tools.right_hoof.label:_<right hoof>_
 	tools.teeth.label:_<teeth>_
 	tools.head.label:_<head>_
-	race.meatLabel:_<venison>_
+	race.meatLabel:_[venison]_
 }
 {Ibex
 	label:_[ibex]_
@@ -358,7 +358,7 @@
 	description:_?コブラ。?_捕食性の大きな蛇。刺激すると非常に攻撃的になり、噛みついて毒を犠牲者に注入する。
 	tools.venomfangs.label:_<venom-fangs>_
 	tools.head.label:_<head>_
-	race.meatLabel:_<cobraflesh>_
+	race.meatLabel:_[cobraflesh]_
 }
 {Monkey
 	label:_[monkey]_
@@ -394,7 +394,7 @@
 {Wolf_Timber
 	label:_[timber wolf]_
 	description:_?ティンバー・ウフル。?_荒々しい肉食獣。長い間、多くの古代_[Earth]_文化で恐れられていた。群れをなす狩人なので、複雑な社会生活を送り、また、とても賢い。
-	race.meatLabel:_<wolfmeat>_
+	race.meatLabel:_[wolfmeat]_
 	$:ThingBaseWolf
 }
 {Wolf_Arctic
@@ -411,7 +411,7 @@
 {Fox_Fennec
 	label:_[fennec fox]_
 	description:_?フェネック・フォックス。?_小型の狐。_[Earth]_のアフリカ大陸の北部が原産。小さな生物を狩り、暑さの中で自身を冷やせるとても大きな耳がある。
-	race.meatLabel:_<foxmeat>_
+	race.meatLabel:_[foxmeat]_
 	$:ThingBaseFox
 }
 {Fox_Red

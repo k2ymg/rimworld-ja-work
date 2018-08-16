@@ -1,7 +1,7 @@
 ﻿HitPointsBasic:<<hit points??ヒットポイント>>
 WorkLeft:<<Work left??残り工数>>
 ;トランスポートポッドで使われている
-Contents:<<Contents??内容物>>
+Contents:_<Contents>_
 ContainedResources:<<Contained resources??構成>>
 ForPrisonerUse:<<For prisoner use??_{prisoner}_用>>
 InPrisonCell:<<In prison cell: For prisoner use??_{prison cell}_の中: _{prisoner}_用>>
@@ -136,7 +136,7 @@ EquippedBy:<<equipped by {0}??{0} が装備している>>
 QuestTargetDestroyInspectString:<<{0} wants this destroyed.\n    Reward: {1} ({2})??{0} が破壊を求めている。\n    報酬: {1} ({2})>>
 WorldObjectTimeout:<<Time left: {0}??残り時間: {0}>>
 ;LongRangeMineralScannerEfficiency:効率: {0}
-ItemStashContents:<<Contents: {0} ({1})??内容物: {0} ({1})>>
+ItemStashContents:_<Contents>_: {0} ({1})
 ;SomeItemStashContents,内容物: {0}
 ClickToSortByThisColumn:クリックするとこの列でソート。
 WorkPriorityShiftClickTip:Shift + クリック:優先順位を上げる\nShift + 右クリック: 優先順位を下げる

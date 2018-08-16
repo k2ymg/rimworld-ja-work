@@ -110,7 +110,7 @@ Bullet_HeavySMG.label:_<heavy SMG bullet>_
 	tools.stock.label:_<stock>_
 	tools.barrel.label:_<barrel>_
 }
-Bullet_LMG.label:_[LMG bullet]_
+Bullet_LMG.label:_<LMG bullet>_
 {Gun_AssaultRifle
 	label:_[assault rifle]_
 	description:_?アサルト・ライフル。?_市街戦などで使う多目的のガス式突撃銃。優れた射程、そこそこな威力、優れた命中率。

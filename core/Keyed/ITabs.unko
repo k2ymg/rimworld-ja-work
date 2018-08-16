@@ -17,6 +17,7 @@ TabArt:<<Art??芸術>>
 TabSocial:<<Social??社交>>
 TabLog:<<Log??履歴>>
 TabFormingCaravan:<<Caravan??キャラバン>>
+TabTransporterContents:_<Contents>_
 
 AddBill:_<Add bill>_
 RecipeRequiresSkills:{0} のレシピは以下のスキルが必要。これらのスキルを持っている_{colonists}_がいないので、この_{bill}_は誰も実行できない。
@@ -137,3 +138,6 @@ ItemsToLoad:<<Items to load??積み込むアイテム>>
 LoadedItems:<<Loaded items??積み込んだアイテム>>
 PackAnimalsCountLower:<<pack animals??_{pack animal}_数>>
 InMentalStateCountLower:<<mentally broken??精神崩壊数>>
+
+RemoveSliderText:外す {{0}}x {0}
+ConfirmRemoveItemDialog:本当に {0} を外しますか？

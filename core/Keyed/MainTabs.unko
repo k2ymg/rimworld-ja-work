@@ -63,12 +63,12 @@ Storyteller:_<Storyteller>_
 ThisMapColonyWealthTotal:<<Colony wealth (this map)??_{Colony}_の価値 (このマップ)>>
 ThisMapColonyWealthItems:<<Colony wealth (items) (this map)??_{Colony}_の価値 (アイテム) (このマップ)>>
 ThisMapColonyWealthBuildings:<<Colony wealth (buildings) (this map)??_{Colony}_の価値 (建物) (このマップ)>>
-ThisMapColonyWealthTameAnimals:<<Colony wealth (animals) (this map)??_{Colony}_の価値 (動物) (このマップ)>>
+ThisMapColonyWealthColonistsAndTameAnimals:<<Colony wealth (people and animals) (this map)??_{Colony}_の価値 (人々と動物) (このマップ)>>
 NumThreatBigs:<<Major threats??大きな脅威>>
 NumEnemyRaids:<<Enemy raids??敵の襲撃>>
 ThisMapDamageTaken:<<Damage taken (this map)??総ダメージ量 (このマップ)>>
-ColonistsKilled:<<Colonists killed??殺された_<colonists>_数>>
-ColonistsLaunched:<<Colonists launched into space??宇宙へ飛び立った_<colonists>_数>>
+ColonistsKilled:<<Colonists killed??殺された_<colonists>_の数>>
+ColonistsLaunched:<<Colonists launched into space??宇宙へ飛び立った_<colonists>_の数>>
 
 ProjectTechLevel:<<project tech level??プロジェクトの技術レベル>>
 YourTechLevel:<<your tech level??あなたの技術レベル>>

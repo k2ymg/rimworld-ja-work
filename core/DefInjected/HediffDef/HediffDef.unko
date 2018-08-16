@@ -8,8 +8,8 @@
 
 ; Alcohol_Beer
 {AlcoholHigh
-	label:<<alcohol??アルコール>>
-	labelNoun:<<drunkenness??アルコール中毒>>
+	label:_[alcohol]_
+	labelNoun:<<drunkenness??_[alcohol]_ 中毒>>
 	{stages
 		warm.label:<<warm??火照り>>
 		tipsy.label:<<tipsy??ほろ酔い>>
@@ -30,7 +30,7 @@
 }
 
 {AlcoholTolerance
-	label:<<alcohol tolerance??アルコール鈍化>>
+	label:<<alcohol tolerance??_[alcohol]_ 鈍化>>
 	$:DrugToleranceBase
 }
 
@@ -41,12 +41,12 @@
 
 ; WakeUp
 {WakeUpHigh
-	label:<<high on wake-up??_[wake-up]_で高揚している>>
-	labelNoun:<<a wake-up high??_[wake-up]_・ハイ>>
+	label:<<high on wake-up??_[wake-up]_ で高揚している>>
+	labelNoun:<<a wake-up high??_[wake-up]_ ハイ>>
 }
 
 {WakeUpTolerance
-	label:<<wake-up tolerance??_[wake-up]_鈍化>>
+	label:<<wake-up tolerance??_[wake-up]_ 鈍化>>
 	$:DrugToleranceBase
 }
 
@@ -57,12 +57,12 @@
 
 ; Smokeleaf
 {SmokeleafHigh
-	label:<<stoned on smokeleaf??_[smokeleaf]_に酔っている>>
-	labelNoun:<<a smokeleaf high??_[smokeleaf]_・ハイ>>
+	label:<<stoned on smokeleaf??_[smokeleaf]_ に酔っている>>
+	labelNoun:<<a smokeleaf high??_[smokeleaf]_ ハイ>>
 }
 
 {SmokeleafTolerance
-	label:<<smokeleaf tolerance??_[smokeleaf]_鈍化>>
+	label:<<smokeleaf tolerance??_[smokeleaf]_ 鈍化>>
 	$:DrugToleranceBase
 }
 
@@ -73,23 +73,23 @@
 
 ; Psychite_Flake
 {FlakeHigh
-	label:<<high on flake??_[flake]_で高揚している>>
-	labelNoun:<<a flake high??_[flake]_・ハイ>>
+	label:<<high on flake??_[flake]_ で高揚している>>
+	labelNoun:<<a flake high??_[flake]_ ハイ>>
 }
 
 {PsychiteTeaHigh
-	label:<<high on psychite tea??_[psychite tea]_で高揚している>>
-	labelNoun:<<a psychite tea high??_[psychite tea]_・ハイ>>
+	label:<<high on psychite tea??_[psychite tea]_ で高揚している>>
+	labelNoun:<<a psychite tea high??_[psychite tea]_ ハイ>>
 }
 
 ; Psychite_Yayo
 {YayoHigh
-	label:<<high on yayo??_[yayo]_で高揚している>>
-	labelNoun:<<a yayo high??_[yayo]_・ハイ>>
+	label:<<high on yayo??_[yayo]_ で高揚している>>
+	labelNoun:<<a yayo high??_[yayo]_ ハイ>>
 }
 
 {PsychiteTolerance
-	label:<<psychite tolerance??_[psychite]_鈍化>>
+	label:<<psychite tolerance??_[psychite]_ 鈍化>>
 	$:DrugToleranceBase
 }
 
@@ -100,12 +100,12 @@
 
 ; GoJuice
 {GoJuiceHigh
-	label:<<high on go-juice??_[go-juice]_で高揚している>>
-	labelNoun:<<a go-juice high??_[go-juice]_・ハイ>>
+	label:<<high on go-juice??_[go-juice]_ で高揚している>>
+	labelNoun:<<a go-juice high??_[go-juice]_ ハイ>>
 }
 
 {GoJuiceTolerance
-	label:<<go-juice tolerance??_[go-juice]_鈍化>>
+	label:<<go-juice tolerance??_[go-juice]_ 鈍化>>
 	$:DrugToleranceBase
 }
 
@@ -126,15 +126,15 @@ LuciferiumHigh.label:_[luciferium]_
 PenoxycylineHigh.label:_[penoxycyline]_
 
 ; Ambrosia
-AmbrosiaHigh.label:<<ambrosia warmth??_[ambrosia]_熱>>
+AmbrosiaHigh.label:<<ambrosia warmth??_[ambrosia]_ 熱>>
 
 {AmbrosiaTolerance
-	label:<<ambrosia tolerance??_[ambrosia]_鈍化>>
+	label:<<ambrosia tolerance??_[ambrosia]_ 鈍化>>
 	$:DrugToleranceBase
 }
 
 {AmbrosiaAddiction
-	label:<<ambrosia addiction??_[ambrosia]_中毒>>
+	label:_<ambrosia addiction>_
 	stages.withdrawal.label:_<withdrawal>_
 }
 
@@ -158,11 +158,11 @@ Anesthetic.label:<<anesthetic??麻酔>>
 }
 
 {PsychicShock
-	label:<<psychic shock??サイキックショック>>
-	labelNoun:<<a psychic shock??サイキックショック>>
+	label:<<psychic shock??サイキック・ショック>>
+	labelNoun:<<a psychic shock??サイキック・ショック>>
 }
 
-CryptosleepSickness.label:<<cryptosleep sickness??クリプトスリープ症>>
+CryptosleepSickness.label:<<cryptosleep sickness??_[cryptosleep]_ 症>>
 
 {FoodPoisoning
 	label:<<food poisoning??食中毒>>
@@ -201,7 +201,7 @@ CryptosleepSickness.label:<<cryptosleep sickness??クリプトスリープ症>>
 
 {HeartAttack
 	label:_<heart attack>_
-	labelNoun:_<a heart attack>_
+	labelNoun:<<a heart attack??_<heart attack>_>>
 	{stages
 		painful.label:<<painful??苦痛>>
 		debilitating.label:<<debilitating??衰弱>>
@@ -369,7 +369,7 @@ ResurrectionSickness.label:<<resurrection sickness??蘇生後遺症>>
 ; Hediffs_Local_Chronic
 {BadBack
 	label:_<bad back>_
-	labelNoun:_<a bad back>_
+	labelNoun:<<a bad back??_<bad back>_>>
 }
 
 {Frail
@@ -379,7 +379,7 @@ ResurrectionSickness.label:<<resurrection sickness??蘇生後遺症>>
 
 {Cataract
 	label:_<cataract>_
-	labelNoun:_<a cataract>_
+	labelNoun:<<a cataract??_<cataract>_>>
 }
 
 Blindness.label:_<blindness>_
@@ -409,7 +409,7 @@ Dementia.label:_<dementia>_
 
 {HeartArteryBlockage
 	label:_<artery blockage>_
-	labelNoun:_<an artery blockage>_
+	labelNoun:<<an artery blockage??_<artery blockage>_>>
 	{stages
 		minor-0.label:<<minor??軽度>>
 		minor-1.label:<<minor??軽度>>
@@ -421,7 +421,7 @@ Dementia.label:_<dementia>_
 
 {Carcinoma
 	label:_<carcinoma>_
-	labelNoun:_<a carcinoma>_
+	labelNoun:<<a carcinoma??_<carcinoma>_>>
 	{stages
 		minor-0.label:<<minor??軽度>>
 		minor-1.label:<<minor??軽度>>
@@ -466,7 +466,7 @@ MuscleParasites.label:_<muscle parasites>_
 
 {WoundInfection
 	label:_<infection>_
-	labelNoun:_<an infection>_
+	labelNoun:<<an infection??_<infection>_>>
 	{stages
 		minor.label:<<minor??軽度>>
 		major.label:<<major??重度>>

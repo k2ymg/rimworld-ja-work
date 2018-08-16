@@ -69,10 +69,10 @@
 	:result(p=0.1)->[flavortext_situation][targetlist]を[damaged_present]
 	:result(p=0.1)->[targetlist]を[damaged_present]、[flavortext_consequence]
 
-	:adverb_flavortext->痛烈に
+	:adverb_flavortext->痛々しく
 	:adverb_flavortext->残酷に
 	:adverb_flavortext->恐ろしく
-	:adverb_flavortext->苦しみ悶える
+	:adverb_flavortext->いたぶるように
 	:adverb_flavortext->猛烈に
 	:adverb_flavortext->情け容赦なく
 	:adverb_flavortext->獰猛に

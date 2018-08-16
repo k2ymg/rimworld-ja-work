@@ -58,6 +58,7 @@ SkillDisabled:スキル無効
 CantSowCavePlantBecauseOfLight:明るすぎる
 CantSowCavePlantBecauseUnroofed:屋根がない
 IncapableOfDeconstruction:解体不能
+IncapableOfMining:採掘できない
 AngersFaction:派閥を怒らせる
 
 ConsumeThing:<<Consume {0}??{0} を食べる>>

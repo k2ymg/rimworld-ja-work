@@ -68,6 +68,7 @@ FillFermentingBarrel.reportString:<<filling TargetA.??TargetA に注いでいる
 TakeBeerOutOfFermentingBarrel.reportString:<<taking beer out of TargetA.??TargetA から_[beer]_を汲み出している。>>
 UnloadInventory.reportString:<<unloading TargetA.??TargetA から荷下ろししている。>>
 UnloadYourInventory.reportString:<<unloading inventory.??荷物を下ろしている。>>
+HaulToTransporter.reportString:<<hauling TargetA.??TargetA を運んでいる。>>
 ManTurret.reportString:<<operating turret.??_<Turret>_を操作している。>>
 EnterCryptosleepCasket.reportString:<<entering cryptosleep casket.??_[cryptosleep casket]_に入っている。>>
 UseNeurotrainer.reportString:<<using neurotrainer.??_[neurotrainer]_を使っている。>>

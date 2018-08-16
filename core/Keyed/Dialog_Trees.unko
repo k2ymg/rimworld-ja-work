@@ -28,3 +28,4 @@ CallConfirm:はい、とにかく呼んでくれ。
 CallCancel:いや、気にしないでくれ。
 MilitaryAidSent:{0} はあなたを助けるために戦士達を送ると合意した。
 CantSendMilitaryAidInTime:{0}は時間内に到着できないとすまなそうに答えた。\n\n(この派閥の技術レベルは _<transport pod>_ を使えるほど高くない)
+HostileVisitorsPresent:敵対している訪問者達がいる

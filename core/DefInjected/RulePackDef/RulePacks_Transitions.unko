@@ -82,10 +82,10 @@
 	:died->[flavor]爆轟し
 	:died->[flavor]はじけ
 
-	:flavor(p=0.2)->科学反応による[fireball]で
-	:flavor->[Color]色の[fireball]で
-	:flavor->[AdjectiveLarge][fireball]で
-	:flavor(p=4)->[fireball]で
+	:flavor(p=0.2)->科学反応による[fireball]に包まれながら
+	:flavor->[Color]色の[fireball]に包まれながら
+	:flavor->[AdjectiveLarge][fireball]に包まれながら
+	:flavor(p=4)->[fireball]に包まれながら
 	:flavor(p=4)->
 
 	:flavorsuffix->て、[everywhere][pieces]をまき散らした

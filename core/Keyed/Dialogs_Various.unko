@@ -240,8 +240,8 @@ TraderHasNoMore:<<Trader has no more.??交易商はこれ以上持っていな�
 ColonyHasNoMore:<<No more to sell.??これ以上売れない>>
 TraderWillNotTrade:<<Trader is not willing to buy this.??交易商はこれを買いたくない。>>
 Negotiator:<<Negotiator??交渉人>>
-NegotiatorTalkingImpaired:交渉人 {0} は病弱のためちゃんと話せない。
-NegotiatorHearingImpaired:交渉人 {0} は病弱のためちゃんと聞けない。
+NegotiatorTalkingImpaired:交渉人 {0} は意識が悪いのでちゃんと話せない。
+NegotiatorHearingImpaired:交渉人 {0} は意識が悪いのでちゃんと聞けない。
 NegotiatorCapacityImpaired:これは取引価格に影響する。\n\nもっと健康な交渉人を使おう。
 ConfirmTraderShortFunds:交易商はこの売買に必要な_[Silver]_を持っていない。構わず続けますか？
 SortBy:<<Sort by??並び替え>>
@@ -299,8 +299,9 @@ NutritionForagedPerDayTip:一日あたりの採餌で得られる栄養。実際
 NutritionEatenPerDayTip:一日に消費される栄養。参考までに、_[Simple meal]_ は {0} の栄養がある。\n\n食べられる: {2}\n\n印:\n{1}.
 MassCarriedSimple:<<Mass carried??持ち物の重量>>
 MassCapacity:<<Mass capacity??最大重量>>
-Mass:<<Mass??重さ>>
-EquipmentAndApparelMass:<<Equipment and apparel mass??衣服や装備品の重さ>>
+Mass:<<Mass??重量>>
+CaravanMass:<<Caravan mass??キャラバンの重量>>
+EquipmentAndApparelMass:<<Equipment and apparel mass??衣服や装備品の重量>>
 InventoryMass:<<Inventory mass??荷物の重さ>>
 CaravanFormationProcessStarted:今から_{colonists}_がアイテムを集めて、ここから離れる。
 ReformCaravan:_<Reform caravan>_
@@ -417,3 +418,5 @@ ConfirmSettleNearFactionBase:この場所は他の派閥の拠点から {0} タ�
 
 ConfirmCleanupTranslationFiles:{0}言語の翻訳ファイルを全て消しますか？\n\n以下の事を行います\n - 存在しないkeyed、def、backstorieのプレースホルダを追加する。\n - 翻訳されていないテキストを追加または更新する。\n - 全てのkeyedとdefを適切なXMLファイルへ移動する。\n - XMLファイルを自動整形する。\n - 古いdefNameを更新する。\n - XMLのコメントを全て削除する。(full-listの所を除く)\n - XMLではないファイルはそのまま。\nこのツールを実行する前に、言語ファイルを変更した後はデータを再読込させるためにゲームを再起動してください。\n\nこれを実行する前に、全てのファイルを必ずバックアップしてください。
 ConfirmCleanupTranslationFiles_Confirm:はい。バックアップしてあります
+
+TransportersCaravanWillBeImmobile:_[Pod]_を空のタイルに送るとキャラバンが動けなくなる。本当に続けますか？

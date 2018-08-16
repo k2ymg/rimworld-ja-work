@@ -43,12 +43,12 @@ smokeleaf leaves:_{smokeleaf}_の葉
 psychoid leaves:_{psychoid}_の葉
 withdrawal:離脱
 withdrawal symptoms:離脱症状
-alcohol addiction:_{alcohol}_中毒
-wake-up addiction:_<wake-up>_中毒
-smokeleaf dependence:_<smokeleaf>_依存
-psychite addiction:_<psychite>_中毒
-go-juice addiction:_<go-juice>_中毒
-ambrosia addiction:_<ambrosia>_中毒
+alcohol addiction:_[alcohol]_ 中毒
+wake-up addiction:_[wake-up]_ 中毒
+smokeleaf dependence:_[smokeleaf]_ 依存
+psychite addiction:_[psychite]_ 中毒
+go-juice addiction:_[go-juice]_ 中毒
+ambrosia addiction:_[ambrosia]_ 中毒
 
 flu:インフルエンザ
 plague:ペスト
@@ -59,26 +59,20 @@ sensory mechanites:感覚器機械化症
 gut worms:回虫
 muscle parasites:せん毛虫
 heart attack:心臓発作
-a heart attack:_{heart attack}_
 heatstroke:熱中症
 hypothermia:低体温症
 bad back:腰痛
-a bad back:_{bad back}_
 frail:虚弱
 frailty:_{frail}_
 cataract:白内障
-a cataract:_{cataract}_
 blindness:失明
 hearing loss:失聴
 dementia:認知症
 alzheimer's:アルツハイマー
 asthma:ぜんそく
 artery blockage:心筋梗塞
-an artery blockage:_{artery blockage}_
 carcinoma:悪性腫瘍
-a carcinoma:_{carcinoma}_
 infection:感染症
-an infection:_{infection}_
 cirrhosis:肝硬変
 Disease:病気
 Animal disease:動物の病気

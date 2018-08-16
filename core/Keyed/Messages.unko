@@ -190,7 +190,7 @@ MessageTransportPodsArrived:_[Transport pod]_ が到着した。
 MessageTransportPodsArrivedAndLost:_[Transport pod]_ が到着したが、_{colonists}_が一人も乗っていなかったので荷物が失われた。
 MessageTransportPodsArrivedAndAddedToCaravan:_[Transport pod]_ が到着した。中身は {0} に加えられた。
 
-MessageFailedToLoadTransportersBecauseColonistLost:_{colonists}_のうちの一人を失ったので、荷積み作業は中止された。
+;MessageFailedToLoadTransportersBecauseColonistLost:_{colonists}_のうちの一人を失ったので、荷積み作業は中止された。
 
 MessageFinishedLoadingTransporters:_{colonists}_は _[Transport pod]_ への積み込みを終えた。
 

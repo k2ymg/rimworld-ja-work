@@ -77,8 +77,8 @@ ContentSource_SteamWorkshop:Steam Workshop
 
 MedicalCareCategory_NoCare:<<No medical care??看護しない>>
 MedicalCareCategory_NoMeds:<<Doctor care, but no medicine??看護するが、薬は使わない>>
-MedicalCareCategory_HerbalOrWorse:<<Herbal medicine or worse??_[Herbal medicine]_以下>>
-MedicalCareCategory_NormalOrWorse:<<Industrial-tech medicine or worse??_[Medicine]_以下>>
+MedicalCareCategory_HerbalOrWorse:<<Herbal medicine or worse??_[Herbal medicine]_ 以下>>
+MedicalCareCategory_NormalOrWorse:<<Industrial-tech medicine or worse??_[Medicine]_ 以下>>
 MedicalCareCategory_Best:<<Best quality medicine??最高の医薬品>>
 
 HostilityResponseMode_Ignore:<<Ignore??無視>>

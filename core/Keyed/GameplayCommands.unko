@@ -200,24 +200,24 @@ CommandCancelLoad:<<Cancel load??荷積みをキャンセル>>
 CommandCancelLoadDesc:人やアイテムの荷積みをキャンセルして、既に積んであるものを下ろす。
 
 CommandLaunchGroup:<<Launch group??グループを発射>>
-CommandLaunchGroupDesc:_[Transport pod]_のグループを発射するために目標設定処理を開始する。次に目標を選ぶ。_[Pod]_は発射され一緒に着陸する。
-CommandLaunchGroupFailNotConnectedToFuelingPort:一部の_[Transport pod]_が給油口に接続されていない。
+CommandLaunchGroupDesc:_[Transport pod]_ のグループを発射するために目標設定処理を開始する。次に目標を選ぶ。_[Pod]_は発射され一緒に着陸する。
+CommandLaunchGroupFailNotConnectedToFuelingPort:一部の _[Transport pod]_ が給油口に接続されていない。
 CommandLaunchGroupFailNoFuel:一部の_[Pod launcher]_に燃料がない。
 CommandLaunchGroupFailUnderRoof:一部の_[Pod launcher]_が屋根の下にある。
 
 CommandLoadTransporter:<<Load launch group of {0}??発射グループ({0}個)の荷積み>>
-CommandLoadTransporterDesc:選択されている_[Transport pod]_(群)を発射グループに設定する。「荷積み」ダイアログを開いて誰と何を運ぶのか決められる。
-CommandLoadTransporterFailNotConnectedToFuelingPort:_[Transport pod]_は給油口に接続されていない。
+CommandLoadTransporterDesc:選択されている _[Transport pod]_ (群)を発射グループに設定する。「荷積み」ダイアログを開いて誰と何を運ぶのか決められる。
+CommandLoadTransporterFailNotConnectedToFuelingPort:_[Transport pod]_ は給油口に接続されていない。
 CommandLoadTransporterFailNoFuel:_[Pod launcher]_に燃料がない。
 
 CommandSelectPreviousTransporter:<<Select previous in launch group??発射グループの前を選択>>
-CommandSelectPreviousTransporterDesc:発射グループ内の前の_[Transport pod]_を選択する。
+CommandSelectPreviousTransporterDesc:発射グループ内の前の _[Transport pod]_ を選択する。
 
 CommandSelectAllTransporters:<<Select launch group??発射グループを選択>>
-CommandSelectAllTransportersDesc:発射グループ内の全ての_[Transport pod]_を選択する。
+CommandSelectAllTransportersDesc:発射グループ内の全ての _[Transport pod]_ を選択する。
 
 CommandSelectNextTransporter:<<Select next in launch group??発射グループの次を選択>>
-CommandSelectNextTransporterDesc:発射グループ内の次の_[Transport pod]_を選択する。
+CommandSelectNextTransporterDesc:発射グループ内の次の _[Transport pod]_ を選択する。
 
 CommandDesignateOpenCloseVentLabel:<<Designate open/close??開/閉を指示>>
 CommandDesignateOpenCloseVentDesc:換気口の開閉を指示する。_{colonists}_が直ぐに行う。

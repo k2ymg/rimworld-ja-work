@@ -16,7 +16,7 @@
 {Manhunters
 	label:_<manhunter pack>_
 	description:人を狩っている動物の群れ。
-	descriptionDialogue:彷徨いながら人を狩っている{1}の群れが{0}匹いる
+	descriptionDialogue:彷徨いながら人を狩っている{0}匹の{1}がいる
 	arrivedLetter:ここには人狩り動物がいる。
 	arrivedLetterLabel:<<Manhunters??人狩り>>
 }
