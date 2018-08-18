@@ -166,7 +166,7 @@ Underwall.label:<<underwall??壁下>>
 	$:tool
 }
 {WaterShallow
-	label:<<shallow water??浅い水>>
+	label:_<shallow water>_
 	$:tool
 }
 {WaterOceanShallow

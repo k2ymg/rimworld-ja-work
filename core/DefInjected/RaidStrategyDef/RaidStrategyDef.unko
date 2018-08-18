@@ -22,7 +22,7 @@
 }
 {Siege
 	letterLabelEnemy:<<Siege??包囲>>
-	arrivalTextEnemy:_{colony}_を囲み、離れたところから迫撃砲を叩き込もうとしているようだ。準備が終わるまで待つか、その前にこちらから仕掛けるか。
+	arrivalTextEnemy:_{colony}_を囲み、離れたところから迫撃砲を叩き込もうとしているようだ。相手の準備が終わるまで待ってもよいし、こちらか仕掛けてもよい。
 	letterLabelFriendly:<<Friendlies??援軍>>
 	arrivalTextFriendly:助ける為に包囲作戦をとるようだ。
 }

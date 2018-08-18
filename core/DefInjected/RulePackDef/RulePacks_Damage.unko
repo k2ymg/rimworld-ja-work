@@ -1,8 +1,8 @@
 ﻿{?Damage_Bomb.rulePack.rulesStrings
-	:damaged_past(p=2)->blasted
-	:damaged_past(p=2)->exploded
+	:damaged_past(p=2)->吹き飛ばした
+	:damaged_past(p=2)->爆破した
 	:damaged_past->怪我させた
-	:damaged_past->ダメージを負わせた
+	:damaged_past->傷つけた
 	:damaged_past->傷つけた
 	:damaged_past->痛めつけた
 
@@ -11,6 +11,15 @@
 	:destroyed_past->消し飛んだ
 	:destroyed_past->全壊した
 	:destroyed_past->吹き飛ばした
+
+	; Combat_ExplosionImpactに受動態があるため。
+	; もしDamage_Bomb以外も参照されるのならエラーが起こるかもしれない。
+	:damaged_past_pv(p=2)->吹き飛ばされた
+	:damaged_past_pv(p=2)->爆破させられた
+	:damaged_past_pv->怪我させられた
+	:damaged_past_pv->傷つけられた
+	:damaged_past_pv->傷つけられた
+	:damaged_past_pv->痛めつけられた
 }
 
 {?Damage_Flame.rulePack.rulesStrings
@@ -21,7 +30,7 @@
 	:damaged_past(p=2)->火を付けた
 	:damaged_past(p=2)->火傷させた
 	:damaged_past->怪我させた
-	:damaged_past->ダメージを負わせた
+	:damaged_past->傷つけた
 	:damaged_past->傷つけた
 	:damaged_past->痛めつけた
 

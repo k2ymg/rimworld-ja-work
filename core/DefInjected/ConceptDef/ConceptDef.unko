@@ -258,7 +258,7 @@
 
 {ShotAccuracyTooltip
 	label:<<Shot accuracy tooltip??射撃精度のヒント>>
-	helpText:射撃の命中率に関する正確な計算を見ることが出来る。\n\n射手を選択して、マウスを目標へ重ねる。命中率と様々な命中率係数が表示される。
+	helpText:射撃の命中率に関する正確な計算を見ることが出来る。\n\n射手を選択して、マウスを標的へ重ねる。命中率に加えて、命中率に影響する様々な乗数が詳細に表示される。
 }
 
 {FriendlyFireSafety

@@ -64,7 +64,7 @@ Fuel:<<Fuel??燃料>>
 FuelLevelGizmoLabel:<<Fuel??燃料>>
 SetTargetFuelLevel:燃料積載量を {0} に設定
 SetPodLauncherTargetFuelLevel:燃料積載量を {0} に設定\n最大距離: {1} タイル
-ConfiguredTargetFuelLevel:<<Target fuel level: {0}??目標の燃料積載量: {0}>>
+ConfiguredTargetFuelLevel:<<Target fuel level: {0}??積載燃料の上限: {0}>>
 Enemies:<<enemies??敵>>
 TimePassed:<<time passed??経過時間>>
 CurrentRadius:<<current radius??現在の範囲>>
@@ -128,8 +128,8 @@ TransportPodInGroupHasSomethingLeftToLoad:<<loading in progress??積み込み中
 TransportPodDestinationBeyondMaximumRange:<<Beyond maximum range??最大距離を超えている>>
 TransportPodNotEnoughFuel:<<Not enough fuel??燃料不足>>
 SettlementTrader:<<{0} of {1}??{1} の {0}>>
-RoomSurgerySuccessChanceFactor:<<Surgery success chance multiplier from room??部屋から影響される手術成功率係数>>
-RoomInfectionChanceFactor:<<Infection chance multiplier from room??部屋から影響される感染率係数>>
+RoomSurgerySuccessChanceFactor:<<Surgery success chance multiplier from room??部屋から影響される手術成功率乗数>>
+RoomInfectionChanceFactor:<<Infection chance multiplier from room??部屋から影響される感染率乗数>>
 VentClosed:<<Closed??閉じている>>
 WornBy:<<worn by {0}??{0} が着ている>>
 EquippedBy:<<equipped by {0}??{0} が装備している>>
@@ -157,7 +157,7 @@ CaravanMovementSpeedFull:<<Caravan movement speed??キャラバン移動速度>>
 DownedLower:<<downed??倒れた>>
 Carried:<<carried??運ばれた>>
 AverageCaravanMemberMoveSpeed:<<Avg. person move speed??人の平均速度>>
-MultiplierForCarriedMass:<<Multiplier for carried mass: {0}??運搬重量による倍率: {0}>>
+MultiplierForCarriedMass:<<Multiplier for carried mass: {0}??運搬重量による乗数: {0}>>
 FinalCaravanPawnsMovementSpeed:<<Caravan members speed??キャラバンメンバーの速度>>
 FinalCaravanMovementSpeed:<<Final speed??最終速度>>
 Winter:<<Winter??冬>>
@@ -265,7 +265,7 @@ ShootReportShooterAbility:<<Shooter??射手の命中率>>
 ShootReportWeapon:<<Weapon??武器>>
 Darkness:<<Darkness??暗がり>>
 TargetProne:<<Target lying down??ターゲットは伏せている>>
-TargetSize:<<Target size??目標の大きさ>>
+TargetSize:<<Target size??標的の大きさ>>
 Weather:<<Weather??天候>>
 ShootingCover:<<Cover??カバー>>
 CoverThingBlocksPercentOfShots:<<{0} stops {1}??{0} は {1} 低下させる>>
@@ -347,11 +347,11 @@ ManhunterPerHit:<<Manhunter chance per hit??命中ごとの殺人鬼になる確
 Ingredients:<<Ingredients??材料>>
 
 PercentGrowth:<<{0} grown??成長率 {0}>>
-GrowthRate:<<Growth rate??成長速度係数>>
+GrowthRate:<<Growth rate??成長速度>>
 FullyGrownIn:<<Fully grown in {0} of growth.??成長率 {0} で収穫可能>>
 PlantNeedsLightLevel:<<Needs light level??必要な光量>>
 PlantResting:<<Resting??休息中>>
-OutOfIdealTemperatureRange:<<Non-ideal temperature. Temperature growth multiplier: {0}%??適温範囲外。成長速度係数: {0}%>>
+OutOfIdealTemperatureRange:<<Non-ideal temperature. Temperature growth multiplier: {0}%??適温範囲外。成長速度乗数: {0}%>>
 OutOfIdealTemperatureRangeNotGrowing:<<Non-ideal temperature. Not growing.??適温範囲外。成長できない。>>
 ReadyToHarvest:<<Ready to harvest.??収穫できる。>>
 Mature:<<Mature.??十分成長した。>>
@@ -360,7 +360,7 @@ NoGrowingPeriod:<<Never??なし>>
 GrowYearRound:<<Year-round??一年中>>
 GrowSeasonHereNow:<<Growing season here now.??栽培時期になった。>>
 CannotGrowBadSeasonTemperature:<<Cannot grow (bad seasonal temperature).??成長不可能 (季節の温度が不適合)。>>
-Blighted:<<Blighted??疫病>>
+Blighted:_<Blighted>_
 DyingBecauseExposedToLight:<<Dying because exposed to light??光に晒されているため、死につつある>>
 
 Zone:<<Zone??ゾーン>>
@@ -530,7 +530,7 @@ RoutePlannerPressEscapeToReturnToCaravanFormationDialog:ESC: キャラバン編�
 EstimatedTimeToWaypoint:<<Est. travel time: {0}??推定時間: {0}>>
 EstimatedTimeToWaypointFromPrevious:<<Est. travel time (from previous waypoint): {0}??推定区間時間: {0}>>
 EstimatedTimeToTile:<<Est. travel time: {0}??推定移動時間: {0}>>
-ForagedFoodAmount:<<Foraged food amount??採餌した量>>
+ForagedFoodAmount:_<Foraged food amount>_
 
 OutfitAnything:<<Anything??なんでも>>
 OutfitWorker:<<Worker??作業者>>

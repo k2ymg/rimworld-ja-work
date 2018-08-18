@@ -21,7 +21,7 @@ Rule_DisallowDesignator_Hunt.label:<<cannot hunt??狩猟禁止>>
 Rule_DisallowDesignator_Hunt.description:狩猟できない。
 Rule_DisallowDesignator_Tame.label:<<cannot tame??手懐け禁止>>
 Rule_DisallowDesignator_Tame.description:動物を手懐けられない。
-StatFactor.label:<<stat multiplier??ステータス係数>>
+StatFactor.label:<<stat multiplier??ステータス乗数>>
 DisableIncident.label:<<disable incident??出来事を禁止>>
 CreateIncident.label:<<create incident??出来事を起こす>>
 Rule_DisallowBuilding.label:<<disallow building??建造禁止>>

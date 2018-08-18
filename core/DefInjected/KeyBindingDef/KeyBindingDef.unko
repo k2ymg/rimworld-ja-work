@@ -10,7 +10,7 @@ Cancel.label:<<cancel??_<Cancel>_>>
 
 TakeScreenshot.label:<<take screenshot??スクリーンショットを撮る>>
 ToggleScreenshotMode.label:<<toggle screenshot mode??スクリーンショットモード切り替え>>
-SelectNextInCell.label:<<select next in cell??セル内の次のモノを選択>>
+SelectNextInCell.label:<<select next in cell??セル内の次のものを選択>>
 TogglePause.label:<<pause/resume game??一時停止>>
 TimeSpeed_Normal.label:<<game speed: Normal??ゲーム速度: 通常>>
 TimeSpeed_Fast.label:<<game speed: Fast??ゲーム速度: 高速>>

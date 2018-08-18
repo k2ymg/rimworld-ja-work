@@ -130,7 +130,8 @@
 	:symbolizes->の景色を思い起こされる
 	:symbolizes->の感情を伝えている
 	:symbolizes->の事を考えさせられる
-	:symbolizes->作者の意図を表している
+	; 本当は「作者の～を～している」だが、クソ語順のせいで無理
+	:symbolizes->を表している
 	:symbolizes->の概念を想起させる
 
 	:depicts->を描写している

@@ -163,7 +163,7 @@
 		:image->植物が枯れ果てた地面が、[circumstance_group]様子
 		:image->[Quantity_adjphrase]の墓石が、[circumstance_group]様子
 
-		:circumstance_phrase->見渡す限り生き物が居なくなっている
+		:circumstance_phrase->見渡す限り生物が居なくなっている
 		:circumstance_phrase->発光する塵のせいでぼんやりとした光に包まれている
 		:circumstance_phrase->骨を暗示させるように並んでいる
 		:circumstance_phrase->毒が止むのを待っている
@@ -188,7 +188,7 @@
 		:image->雪に覆われた不毛の[TerrainFeature][circumstance_group]様子
 		:image->[Quantity_adjphrase]の場所で灰に覆われた植物[circumstance_group]様子
 
-		:circumstance_phrase->、見渡す限り生き物が居なくなっている
+		:circumstance_phrase->、見渡す限り生物が居なくなっている
 		:circumstance_phrase->が空からの細い光の筋で微かに照らされている
 		:circumstance_phrase->が青く冷たい光で浮き上がっている
 

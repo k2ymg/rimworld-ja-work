@@ -525,9 +525,10 @@
 	:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[adverb_flavortext][damaged_past]。
 	:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[adverb_flavortext][damaged_past]。
 
-	:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]を[damaged_past]。
-	:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]を[adverb_flavortext][damaged_past]。
-	:r_logentry->[RECIPIENT_definite]を[damaged_past]。
+	; 受動態にするために、勝手に_pvを追加している。see:RulePacks_Damage/Damage_Bomb
+	:r_logentry->[RECIPIENT_definite]が[INITIATOR_definite]に[damaged_past_pv]。
+	:r_logentry->[RECIPIENT_definite]が[INITIATOR_definite]に[adverb_flavortext][damaged_past_pv]。
+	:r_logentry->[RECIPIENT_definite]が[damaged_past_pv]。
 
 	:r_logentry(p=0.001)->[RECIPIENT_definite]が爆発に巻き込まれた。
 	:r_logentry(p=0.001)->[RECIPIENT_definite]が爆発に打たれた。

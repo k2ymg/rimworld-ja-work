@@ -163,7 +163,7 @@
 }
 {FlakArmor
 	label:_[flak armor]_
-	description:銃弾や爆発を防ぐように金属アーマーを縫い付けた服を作れるようになる。重いので動きか少し遅くなる。
+	description:銃弾や爆発を防ぐように金属_{armor}_を縫い付けた服を作れるようになる。重いので動きか少し遅くなる。
 }
 {Mortars
 	label:[[mortars??_{mortar}_]]
@@ -195,7 +195,7 @@
 }
 {SniperTurret
 	label:_[uranium slug turret]_
-	description:アーマーを貫通する _[Uranium slug turret]_ を作れるようになる。_[Plasteel]_ を紙のように突き破るウランのスラッグ弾を発射するが、近距離では効果が落ちる。
+	description:_{armor}_を貫通する _[Uranium slug turret]_ を作れるようになる。_[Plasteel]_ を紙のように突き破るウランのスラッグ弾を発射するが、近距離では効果が落ちる。
 }
 
 ; ResearchProjects_3_Microelectronics
@@ -271,7 +271,7 @@
 }
 {Cryptosleep
 	label:_[cryptosleep casket]_
-	description:_[Cryptosleep casket]_ を作れるようになる。生き物を永久に仮死状態にできる。
+	description:_[Cryptosleep casket]_ を作れるようになる。生物を永久に仮死状態にできる。
 }
 {PoweredArmor
 	label:_[powered armor]_

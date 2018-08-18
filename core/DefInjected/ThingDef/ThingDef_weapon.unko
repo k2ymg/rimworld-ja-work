@@ -135,14 +135,14 @@ Bullet_Minigun.label:_<minigun bullet>_
 ; Weapons_RangedIndustrialConsumable
 {Gun_TripleRocket
 	label:_[triple rocket launcher]_
-	description:_?トリプル・ロケット・ランチャー。?_大型の爆破ロケットを3発同時に発射する使い捨てのロケットランチャー。硬い目標の小さな集団に対して効果的。\n\n取り回しが悪く、一度しか使えない上に、大破壊を引き起こすので、こんな武器を使うヤツはちょっとやばいヤツだと言われる。
+	description:_?トリプル・ロケット・ランチャー。?_大型の爆破ロケットを3発同時に発射する使い捨てのロケットランチャー。硬い標的の小さな集団に対して効果的。\n\n取り回しが悪く、一度しか使えない上に、大破壊を引き起こすので、こんな武器を使うヤツはちょっとやばいヤツだと言われる。
 	tools.barrel.label:_<cannon/barrel>_
 }
 Bullet_Rocket.label:_<rocket>_
 
 {Gun_DoomsdayRocket
 	label:_[doomsday rocket launcher]_
-	description:_?ドゥームズデイ・ロケット・ランチャー。?_巨大な爆発を起こす弾を発射する使い捨てのロケットランチャー。柔らかい目標の大きな一団に対して効果的。火を放つ。\n\n取り回しが悪く、一度しか使えない上に、大破壊を引き起こすので、こんな武器を使うヤツはちょっとやばいヤツだと言われる。
+	description:_?ドゥームズデイ・ロケット・ランチャー。?_巨大な爆発を起こす弾を発射する使い捨てのロケットランチャー。柔らかい標的の大きな一団に対して効果的。火を放つ。\n\n取り回しが悪く、一度しか使えない上に、大破壊を引き起こすので、こんな武器を使うヤツはちょっとやばいヤツだと言われる。
 	tools.barrel.label:_<cannon/barrel>_
 }
 Bullet_DoomsdayRocket.label:_<doomsday rocket>_

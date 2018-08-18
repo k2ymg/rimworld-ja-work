@@ -39,8 +39,8 @@
 
 ; Recipes_Butchery
 {ButcherCorpseFlesh
-	label:<<butcher creature??生き物を解体する>>
-	description:生き物を解体して肉、皮、その他の部位を得る。
+	label:<<butcher creature??生物を解体する>>
+	description:生物を解体して肉、皮、その他の部位を得る。
 	jobString:<<Butchering.??解体している。>>
 }
 

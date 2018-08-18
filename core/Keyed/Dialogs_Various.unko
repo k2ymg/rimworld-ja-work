@@ -151,12 +151,12 @@ IncludeFromAll:<<Look everywhere??全ての場所を見る>>
 IncludeSpecific:<<Look in {0}??{0}を見る>>
 
 Damage:<<Damage??ダメージ>>
-ArmorPenetration:<<Armor penetration??アーマー貫通量>>
-ArmorPenetrationExplanation:この武器が目標に当たるごとに無効化するアーマー値。\n\nもし、アーマー貫通量が目標のアーマー値を超えた場合、防御していないのと同じになる。それ以外は、目標のアーマー値からこの値が引かれる。
-Accuracy:<<Accuracy??命中度>>
+ArmorPenetration:_<Armor penetration>_
+ArmorPenetrationExplanation:この武器が標的に当たるごとに無効化する_<Armor>_。\n\nもし、_<Armor penetration>_が標的の_<Armor>_を超えた場合、防御していないのと同じになる。それ以外は、標的の_<Armor>_からこの値が引かれる。
+Accuracy:<<Accuracy??精度>>
 BurstShotCount:<<Burst shot count??一回の発射数>>
-WarmupTime:<<Warmup??ワームアップ時間>>
-MeleeWarmupTime:<<Melee warmup??近接ワームアップ時間>>
+WarmupTime:<<Warmup??ワームアップ>>
+MeleeWarmupTime:<<Melee warmup??近接ワームアップ>>
 CooldownTime:<<Cooldown??クールダウン>>
 BurstShotFireRate:<<Fire rate??発射レート>>
 Range:<<Range??射程>>
@@ -167,16 +167,16 @@ MissRadius:<<Miss radius??ミス半径>>
 
 GrowsWild:<<Grows wild??野生の植物>>
 Harvestable:<<Harvestable??収穫可能>>
-LimitedLifespan:<<Limited lifespan??寿命がある>>
+LimitedLifespan:<<Limited lifespan??寿命あり>>
 GrowingTime:<<Growing time??成長時間>>
 HarvestYield:<<Harvest yield??収穫量>>
-GrowingTimeDesc:植物は一日のうち、光が当たっている時だけ成長する。この値は植物が最大限まで育つために実際に必要な時間の総計を表している。実際の成長時間は一般的におよそ2倍かかる。低温時でも植物の成長は遅くなる。
+GrowingTimeDesc:植物は一日のうち、光が当たっている時だけ成長する。この値は植物が最大限まで育つために実際に必要な時間の総計を表している。大抵、実際の成長時間は約2倍かかる。低温時でも植物の成長は遅くなる。
 Days:<<days??日>>
 MinGrowingSkillToSow:<<Minimum growing skill to sow??必要な栽培スキル>>
 FertilityRequirement:<<Fertility requirement??必要な肥沃度>>
-FertilitySensitivity:<<Fertility sensitivity??肥沃度への感度係数>>
+FertilitySensitivity:<<Fertility sensitivity??肥沃度への感度>>
 LightRequirement:<<Light requirement??必要な光量>>
-Attributes:<<Attributes??属性>>
+Attributes:<<Attributes??性質>>
 LifeSpan:<<Lifespan??寿命>>
 Nutrition:<<Nutrition??栄養>>
 Joy:<<Recreation??娯楽>>
@@ -188,26 +188,26 @@ LeatherType:<<Leather type??皮の種類>>
 BodySize:<<Body size??体格>>
 RecruitDifficulty:<<Recruit difficulty??説得の難度>>
 MarketValue:<<Base price??基本価格>>
-Covers:<<Covers??カバー>>
-Layer:<<Layer??レイヤー>>
+Covers:_<Covers>_
+Layer:_<Layer>_
 CoverEffectiveness:<<Cover effectiveness??カバー効力>>
 CoverEffectivenessExplanation:銃撃戦でこれに身を隠したときの効力。数値が高いほど銃弾を多く防ぐ。
-MedicineXpGainFactor:<<Experience gain factor??経験獲得倍率>>
+MedicineXpGainFactor:<<Experience gain factor??経験獲得因子>>
 MoodChange:<<Mood change??_{mood}_の変化>>
 Wildness:<<Wildness??野性>>
-WildnessExplanation:より野性的な生物を手懐けたり、訓練したり、扱うのはより難しい。
+WildnessExplanation:より野性的な生物の手懐、訓練、扱いは難しい。
 TrainingDecayInterval:<<Training decay interval??訓練が衰える間隔>>
 TamenessWillNotDecay:<<Tameness will never decay.??従順性は衰えない。>>
 AnimalFilthRate:<<Animal filth rate??床を汚す度合い>>
-AnimalFilthRateExplanation:動物が歩いた床は汚れる。この値は、この動物が {0} セル歩くごとに床を汚す平均量を表している。\n\n大きな動物、またはペット向きではない動物はより汚れる。
+AnimalFilthRateExplanation:動物が歩いた床は汚れる。この値は、この動物が {0} セル歩くごとに床を汚す平均量を表している。\n\n大きな動物やペット向きではない動物はより汚す。
 TimeRecordsCategory:<<Time??時間>>
 MiscRecordsCategory:<<Misc??その他>>
 Addictiveness:<<Addictiveness??中毒>>
 PackAnimal:_<Pack animal>_
-PackAnimalExplanation:この動物が長距離のキャラバンでアイテムを運ぶのに適しているかどうか。
+PackAnimalExplanation:この動物が長旅をするキャラバンでアイテムを運ぶのに適しているかどうか。
 
 Skill:<<Skill??スキル>>
-SurgerySuccessChanceFactor:<<Success rate multiplier??成功率への掛率>>
+SurgerySuccessChanceFactor:<<Success rate multiplier??成功率乗数>>
 ;SurgeryRequireBed:<<Requires bed??ベッドを必要とするか>>
 WorkSpeedStat:<<Work speed governed by??作業速度に影響する能力>>
 EfficiencyStat:<<Output quantity governed by??産出数に影響する能力>>
@@ -218,10 +218,10 @@ ConstructionSkillRequiredExplanation:建てるために必要な建設レベル
 NuzzleInterval:<<Nuzzle interval??すり寄りの間隔>>
 NuzzleIntervalExplanation:動物が_{colonists}_にすり寄る平均的な間隔。\n\nすり寄りは、鼻や鼻面を親しい者に押しつけることで愛情を示す、様々な動物が共通に持っている行動。たいていの人はコレのかわいさに気付き、ある程度の間良い_{mood}_になる。
 
-HarmedRevengeChance:<<Revenge chance on harm??危害による反撃の確率>>
-HarmedRevengeChanceExplanation:攻撃者がライフルの範囲から傷つけた場合に生物が反撃する確率。\n\nこの確率は攻撃者が近づくほど高まる。もしかなり近くで攻撃した場合、確率は三倍になる。\n\nこの確率はダメージを与えるたびに判定されるので、発射が遅く、高威力な武器ほど引き起こす可能性が低くなる。\n\n生物が反撃する可能性を最小限にするには、ライフルの範囲から遅い発射速度の武器で攻撃する。
-TameFailedRevengeChance:<<Revenge chance on tame fail??手懐け失敗による反撃の確率>>
-TerrainRequirement:<<Terrain requirement??地形の要件>>
+HarmedRevengeChance:<<Revenge chance on harm??危害による反撃確率>>
+HarmedRevengeChanceExplanation:攻撃者がライフルの射程からこの生物を傷つけた場合に、この生物が反撃する確率。\n\nこの確率は攻撃者が近づくほど高まり、かなり近くで攻撃した場合は三倍以上になる。\n\nこの確率はダメージを与えるたびに判定されるので、射撃間隔が長く、高威力な武器ほど反撃されにくくなる。\n\n生物が反撃する可能性を最小限にするには、ライフルの射程から射撃間隔が長い武器で攻撃する。
+TameFailedRevengeChance:<<Revenge chance on tame fail??手懐け失敗による反撃確率>>
+TerrainRequirement:<<Terrain requirement??地形要件>>
 Supports:<<Supports??サポート>>
 
 PositiveBuysNegativeSells:<<Positive numbers buy.\nNegative numbers sell.??正の数は"買い"\n負の数は"売り">>
@@ -240,18 +240,21 @@ TraderHasNoMore:<<Trader has no more.??交易商はこれ以上持っていな�
 ColonyHasNoMore:<<No more to sell.??これ以上売れない>>
 TraderWillNotTrade:<<Trader is not willing to buy this.??交易商はこれを買いたくない。>>
 Negotiator:<<Negotiator??交渉人>>
-NegotiatorTalkingImpaired:交渉人 {0} は意識が悪いのでちゃんと話せない。
-NegotiatorHearingImpaired:交渉人 {0} は意識が悪いのでちゃんと聞けない。
+;前者は会話能力が、後者は聴力が下がっているときに表示されるが
+;それらが下がる原因は様々なので、曖昧な言い方にする。
+NegotiatorTalkingImpaired:交渉人 {0} はあまり健康ではないので、ちゃんと話せない。
+NegotiatorHearingImpaired:交渉人 {0} はあまり健康ではないので、ちゃんと聞けない。
 NegotiatorCapacityImpaired:これは取引価格に影響する。\n\nもっと健康な交渉人を使おう。
 ConfirmTraderShortFunds:交易商はこの売買に必要な_[Silver]_を持っていない。構わず続けますか？
 SortBy:<<Sort by??並び替え>>
 TraderTypePrice:<<trader type??取引種別>>
 Selling:<<selling??売り>>
 Buying:<<buying??買い>>
-ItemSellPriceFactor:<<item sell price multiplier??売却掛け率>>
+ItemSellPriceFactor:<<item sell price multiplier??アイテム売却価格乗数>>
 
 DifficultyLevel:<<difficulty level??難易度>>
-PostCurve:<<global post-process curve??最終的な修正曲線>>
+;たぶん未使用
+PostCurve:<<global post-process curve??グローバル・ポストプロセス・カーブ>>
 YourNegotiatorBonus:<<Your negotiator bonus??交渉人ボーナス>>
 TradeWithFactionBaseBonus:<<Trading with faction base bonus??派閥ボーナス>>
 minimum:<<minimum??最小値>>
@@ -274,17 +277,17 @@ CaravanPawnIsUnreachable:{0} は割り当てられた_{colonists}_の誰にも�
 CaravanItemIsUnreachableSingle:{0} に到達できる割り当てられた_{colonists}_は誰もいない。
 CaravanItemIsUnreachableMulti:{0}x{1} に到達できる割り当てられた_{colonists}_は誰もいない。
 TooBigCaravanMassUsage:キャラバンはそんなに運べない。
-CaravanMassUsageTooltip:持ち物と装備を含む。運ぶ量が最大より少ない場合は移動速度にボーナスが付く。
+CaravanMassUsageTooltip:持ち物と装備を含む。運ぶ量が最大より少ない場合は移動が速くなる。
 CaravanVisibilityTip:視認性はキャラバンがどれほど注意を引きつけるかを表している。\n\nこれはキャラバンが襲われる確率に掛けられる。\n\n視認性は何かモノを見つける能力には影響しない。\n\n視認性はキャラバンの全ての人と動物の体格を合算したモノに基づいている。
 DaysWorthOfFood:<<Days of food??食糧日数>>
 DaysWorthOfFoodInfoRot:<<rot in {0}??腐敗まで {0}>>
 InfiniteDaysWorthOfFoodInfo:<<Unlimited??無制限>>
-DaysWorthOfFoodTooltip:少なくとも一人の人間、または一匹の動物の食糧が切れるまでの、おおよその日数。食性は種族によって異なるので、ある種が他よりも早く食料を食べ尽くす事がある。この値は経路を選んだ後に、より正確に計算される。\n\n影響するのは:\n  - 持っている食料の種類と量\n  - キャラバンのメンバーとその食性\n  - 採餌率\n  - 動物が草を食べられるかどうか\n  - 食料が腐るまでの時間\n  - 食料は暑い気候でより早く腐る
+DaysWorthOfFoodTooltip:少なくとも一人の人間、または一匹の動物の食糧が切れるまでの、おおよその日数。食性は種族によって異なるので、ある種が他よりも早く食料を食べ尽くす事がある。この値は経路を選んだ後に、より正確に計算される。\n\n影響するのは:\n  - 持っている食料の種類と量\n  - キャラバンのメンバーとその食性\n  - _{Foraging}_量\n  - 動物が草を食べられるかどうか\n  - 食料が腐るまでの時間\n  - 暑い気候は食料をより早く腐らせる
 DaysWorthOfFoodTooltip_OnlyFirstWaypoint:\n(最初のウェイポイントのみ計算に含まれている)
 DaysWorthOfFoodWarningDialog:キャラバンは {0} 日分の食料しか持っていないので早めに飢える。
 DaysWorthOfFoodWarningDialog_NoFood:キャラバンは食料を持っていないので直ぐに飢える。
-ForagedFoodPerDayTip:人々が一日あたりに採餌する平均量。この値は採餌率が異なるバイオームを移動するにつれて変化する。
-ForagedFoodPerDay:<<Forage per day??一日あたりの採餌>>
+ForagedFoodPerDayTip:人々が一日あたりに_{forage}_する平均量。この値は_{forage}_量が異なるバイオームを移動するにつれて変化する。
+ForagedFoodPerDay:<<Forage per day??一日あたりの_{forage}_>>
 CaravanFoodWillRotSoonWarningDialog:キャラバンの食料の大部分は直ぐに腐る。
 CaravanIncapableOfSocial:キャラバンに外交や取引ができるメンバーがいない。
 CaravanAreYouSure:このキャラバンを本当に編成しますか?
@@ -295,7 +298,7 @@ MarketValueTip:<<Market value??市場価格>>
 DaysUntilRotTip:この地域の平均気温を元にした、このアイテムが腐り始めるまでの日数。
 ItemNutritionTip:この食べ物に含まれる栄養量。\n\n例えば: 大人は一日あたり {0} の栄養が必要。
 AnimalCanGrazeTip:この動物は持っている食料の代わりに草を食べられる。植食はいくつかのバイオームと気温範囲でのみ可能。
-NutritionForagedPerDayTip:一日あたりの採餌で得られる栄養。実際の採餌量はバイオームの採餌能力にも影響される。\n\n{0}
+NutritionForagedPerDayTip:一日あたりに_{foraged}_される栄養。実際の_{foraged}_量はバイオームの_{forageability}_にも影響される。\n\n{0}
 NutritionEatenPerDayTip:一日に消費される栄養。参考までに、_[Simple meal]_ は {0} の栄養がある。\n\n食べられる: {2}\n\n印:\n{1}.
 MassCarriedSimple:<<Mass carried??持ち物の重量>>
 MassCapacity:<<Mass capacity??最大重量>>
@@ -322,7 +325,7 @@ CantGrazeBecauseOfBiome:({0})
 CantGrazeBecauseOfTemp:<<(too cold for {0} more days)??(寒さのため {0} 日以上)>>
 TotalNutrition:<<Total nutrition??栄養の合計>>
 CaravanNotMoving:<<Not moving??動いていない>>
-ForagedNutritionPerDay:<<Foraged nutrition per day??一日に採餌される栄養>>
+ForagedNutritionPerDay:<<Foraged nutrition per day??一日に_{foraged}_される栄養>>
 FactionType:<<Faction type??派閥タイプ>>
 TotalBodySize:<<Total body size??体格の合計>>
 

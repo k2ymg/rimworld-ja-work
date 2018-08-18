@@ -78,8 +78,8 @@ CommandStopForceAttackDesc:集中攻撃を解除し、_<Turret>_に発砲を任�
 CommandStopAttackFailNotForceAttacking:集中攻撃できない。
 CommandExtractShell:<<Extract shell??弾を取り出す>>
 CommandExtractShellDesc:装填中の弾を取り出せば弾の種類を変えられる。
-MessageTargetBeyondMaximumRange:目標が遠すぎる。
-MessageTargetBelowMinimumRange:目標が近すぎる。
+MessageTargetBeyondMaximumRange:標的が遠すぎる。
+MessageTargetBelowMinimumRange:標的が近すぎる。
 MessageTurretWontFireBecauseHoldFire:警告: "発砲禁止"なっているので撃てない。
 
 CommandShipLaunch:<<Launch ship??船を発射する>>
@@ -122,10 +122,10 @@ CommandReleaseAnimalsDesc:有効にすると、主人がいる動物を放ち、
 CommandReleaseAnimalsFail_NoAnimals:リリースできる動物がいない。
 
 CommandSquadAttack:<<Attack??攻撃>>
-CommandSquadAttackDesc:選択されている_{colonists}_に指定した目標を攻撃させる。
+CommandSquadAttackDesc:選択されている_{colonists}_に指定した標的を攻撃させる。
 
 CommandMeleeAttack:<<Melee attack??近接攻撃>>
-CommandMeleeAttackDesc:選択されている_{colonists}_に指定した目標を拳や近接武器で攻撃させる。
+CommandMeleeAttackDesc:選択されている_{colonists}_に指定した標的を拳や近接武器で攻撃させる。
 
 CommandHoldFire:<<Hold fire??射撃禁止>>
 CommandHoldFireDesc:攻撃を中止する。
@@ -226,7 +226,7 @@ CommandRemoveWaypointLabel:<<Remove??削除>>
 CommandRemoveWaypointDesc:ウェイポイントを削除。
 
 CommandPauseCaravan:<<Rest??休憩>>
-CommandToggleCaravanPauseDesc:休憩する。これは以下の利点がある:\n\n  - 人々が社交を行える\n  - 採餌が {0} 倍速くなる\n  - 視認性に {1} 掛けられる
+CommandToggleCaravanPauseDesc:休憩する。これは以下の利点がある:\n\n  - 人々が社交を行える\n  - _{forage}_が {0} 倍速くなる\n  - 視認性に {1} 掛けられる
 
 CommandShowSellableItems:<<Show what will buy??買う物を表示>>
 CommandShowSellableItemsDesc:この交易商が買いたい物を全て表示する。

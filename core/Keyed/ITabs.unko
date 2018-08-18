@@ -80,7 +80,7 @@ SelfTend:<<Self-tend??自己治療>>
 SelfTendTip:{0} の自己治療を有効にすると、通常の{1}の効率で、その場で自分自身を治療する。
 
 None:<<None??なし>>
-VeryPoor:<<Very poor??非常に悪い>>
+VeryPoor:<<Very poor??とても悪い>>
 Poor:<<Poor??悪い>>
 Weakened:<<Weakened??弱っている>>
 GoodCondition:<<OK??良好>>
@@ -110,8 +110,8 @@ SomeonesOpinionOfMe:<<{0}'s opinion of me??{0} の私への評価>>
 IAmDead:<<I'm dead??私は死んだ>>
 IAmPsychopath:<<I'm a psychopath??私はサイコパス>>
 
-OverallArmor:<<Overall armor??アーマー合計>>
-MassCarried:<<Mass carried: {0} / {1} kg??重量: {0} / {1} kg>>
+OverallArmor:<<Overall armor??_{armor}_合計>>
+MassCarried:<<Mass carried??重量>>: {0} / {1} _[kg]_
 ComfyTemperatureRange:<<Comfortable temperature range??快適な温度範囲>>
 ArmorBlunt:<<Blunt??打撲>>
 ArmorSharp:<<Sharp??尖鋭>>

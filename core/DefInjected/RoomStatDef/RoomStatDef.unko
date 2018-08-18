@@ -62,8 +62,8 @@
 		sterile.label:<<sterile??無菌>>
 	}
 }
-InfectionChanceFactor.label:<<infection chance factor??感染率>>
-SurgerySuccessChanceCleanlinessFactor.label:<<surgery success chance cleanliness factor??手術成功率清潔係数>>
-ResearchSpeedFactor.label:<<research speed factor??研究速度係数>>
-GraveVisitingJoyGainFactor.label:<<grave visiting recreation factor??墓参り安らぎ係数>>
+InfectionChanceFactor.label:<<infection chance factor??感染率因子>>
+SurgerySuccessChanceCleanlinessFactor.label:<<surgery success chance cleanliness factor??手術成功率清潔因子>>
+ResearchSpeedFactor.label:<<research speed factor??研究速度因子>>
+GraveVisitingJoyGainFactor.label:<<grave visiting recreation factor??墓参り安らぎ因子>>
 FoodPoisonChance.label:<<food poison chance??食中毒率>>

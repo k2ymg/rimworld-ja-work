@@ -135,12 +135,14 @@ Elevation:<<Elevation??高度>>
 Fertility:<<Fertility??肥沃>>
 AvgTemp:<<Average temperature??年平均気温>>
 Rainfall:<<Rainfall??降雨量>>
+; 地形の特徴
 SpecialFeatures:<<Special features??特徴>>
 HasCoast0:<<northern coast??北海岸>>
 HasCoast1:<<eastern coast??東海岸>>
 HasCoast2:<<southern coast??南海岸>>
 HasCoast3:<<western coast??西海岸>>
 HasCaves:<<caves??洞窟>>
+
 FactionBase:<<Faction base??本拠地>>
 StoneTypesHere:<<Stone types??主な地質>>
 TimeZone:<<Time zone??タイムゾーン>>
@@ -148,7 +150,7 @@ MovementDifficulty:<<Movement difficulty??移動のしやすや>>
 AnimalsCanGrazeNow:<<Animals can graze now??現在動物は草を食べられるか>>
 AverageDiseaseFrequency:<<Average disease frequency??疾病 平均頻度>>
 PerYear:<<per year??年毎>>
-Forageability:<<Forageability??採餌性>>
+Forageability:_<Forageability>_
 ConfirmRequiredWorkTypeDisabledForEveryone:選ばれている人々は次の作業が出来ません:\n\n{0}\n\nこれは通常より難しいゲームになります。このまま続けますか？
 
 CreateCharacters:<<Create characters??キャラクターの作成>>

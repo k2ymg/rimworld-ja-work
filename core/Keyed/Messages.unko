@@ -37,9 +37,9 @@ MessageAnimalsGoPsychoHunted:警告: {0} は危害を加えられると {1} の�
 MessageAnimalManhuntsOnTameFailed:警告: {0} は手懐行為が失敗すると反撃するかもしれない。(確率 {1})
 
 LetterLabelMessageRecruitSuccess:<<New recruit??新人>>
-MessageRecruitSuccess:{0} は {1} の勧誘に成功した(成功率 {2})。
-MessageTameSuccess:{0} は {1} の手懐けに成功した(成功率 {2})。
-MessageTameAndNameSuccess:{0} は {1} の手懐けに成功し(成功率 {2})、{3} と名付けた。
+MessageRecruitSuccess:{0} は {1} の勧誘に成功した (成功率 {2})。
+MessageTameSuccess:{0} は {1} の手懐けに成功した (成功率 {2})。
+MessageTameAndNameSuccess:{0} は {1} の手懐けに成功し (成功率 {2})、{3} と名付けた。
 
 MessageColonyCannotAfford:この取引を行える余裕がない。
 MessageColonyNotEnoughSilver:取引をするための十分な_[Silver]_がない。
@@ -265,6 +265,7 @@ MessageGoodwillChangedWithReason:{0} との関係が {1} から {2} へ変わっ
 GoodwillChangedReason_AttackedPawn:{0} を攻撃したため
 GoodwillChangedReason_UsedItem:{1} に {0}を使ったため
 GoodwillChangedReason_RemovedBodyPart:{0} から臓器を抜いたため
+GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart:{0} に無闇に移植したため
 GoodwillChangedReason_CapturedPawn:{0} を捕まえたため
 GoodwillChangedReason_PawnCrushed:{0} が潰れたため
 GoodwillChangedReason_PawnDied:{0} が死んだため

@@ -3,8 +3,8 @@ AnimalInsanitySingle:一匹の {0} が狂った。目に入る者は全て攻撃
 LetterLabelAnimalInsanityMultiple:<<Mad {0}??{0} の凶暴化>>
 AnimalInsanityMultiple:ある種の精神波がこの地に吹き荒れた。_{colonists}_は大丈夫だが、しかし・・・\n\nここの {0} 達は狂気に駆り立てられたようだ。
 
-LetterLabelCropBlight:<<Blight??疫病>>
-LetterCropBlight:作物が疫病に侵されている事に、ある_{colonist}_が気付いた！蔓延する前に、侵された作物を刈り取るか焼却するべきだ。
+LetterLabelCropBlight:_<Blight>_
+LetterCropBlight:作物が_{blight}_に侵されている事に、ある_{colonist}_が気付いた！蔓延する前に、侵された作物を刈り取るか焼却するべきだ。
 
 LetterLabelMiracleHeal:<<Miracle??奇跡>>
 MiracleHeal:{0} は奇跡的に回復した！

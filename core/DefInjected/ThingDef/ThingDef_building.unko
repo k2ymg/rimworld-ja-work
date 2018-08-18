@@ -432,7 +432,7 @@
 }
 {FabricationBench
 	label:_[fabrication bench]_
-	description:_?ファブリケーション・ベンチ。?_単純な素材から科学技術の粋を集めたモノを作り出すための、高度な道具を備えた作業台。
+	description:_?ファブリケーション・ベンチ。?_単純な素材から科学技術の粋を集めた物を作り出すための、高度な道具を備えた作業台。
 }
 {SimpleResearchBench
 	label:_[simple research bench]_
@@ -514,7 +514,7 @@ Bullet_AutocannonTurret.label:_<autocannon shell>_
 Bullet_TurretSniper.label:_<uranium slug>_
 {Gun_TurretSniper
 	label:_[uranium slug cannon]_
-	description:_<Turret>_に取り付けるように作られた自動装填の狙撃砲。離れていると正確だが、近くの目標にはそうではない。
+	description:_<Turret>_に取り付けるように作られた自動装填の狙撃砲。離れていると正確だが、近くの標的にはそうではない。
 }
 
 {Turret_Mortar

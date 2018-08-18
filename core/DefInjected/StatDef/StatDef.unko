@@ -1,39 +1,40 @@
 ; Stats_Apparel
 {StuffEffectMultiplierInsulation_Cold
-	label:<<Insulation - Cold - Material effect multiplier??断熱 - 低温 - 素材係数>>
+	label:_<Insulation - Cold>_ - _<Material effect multiplier>_
 }
 
 {StuffEffectMultiplierInsulation_Heat
-	label:<<Insulation - Heat - Material effect multiplier??断熱 - 高温 - 素材係数>>
+	label:_<Insulation - Heat>_ - _<Material effect multiplier>_
 }
 
 {StuffEffectMultiplierArmor
-	label:<<Armor - Material effect multiplier??アーマー - 素材係数>>
+	label:_<Armor>_ - _<Material effect multiplier>_
 }
 
+;Unityのテキスト折り返し処理が超絶クソなので、行頭にスペースを入れずに、2行折り返す
 {ArmorRating_Sharp
-	label:<<Armor - Sharp??アーマー - 尖鋭>>
-	description:弾丸、ナイフ、爆発、動物の噛みつきなどの尖鋭なダメージに影響をする確率。\n\nダメージを受けると、まず、このアーマー値から攻撃のアーマー貫通値が引かれ、残った値と0から100の乱数値と比較される。\n\n-もし、乱数値がアーマー値の半分を下回ると、ダメージは完全に弾かれる。\n    -もし、乱数値がアーマー値の半分を上回り、かつ、アーマー値を超えない場合は、ダメージは軽減される。ダメージは打撲ダメージに変換され、半分になる。\n    -もし、乱数値がアーマー値を超えると、アーマーは無視される。\n\n例えば、90%のアーマー値に10%のアーマー貫通値を持つ攻撃を受けたとすると、攻撃を完全に弾く確率は40%、ダメージを軽減する確率は40%になる。\n\n衣服の場合、外側から内側に向かって、各_{layer}_のアーマーが攻撃にそれぞれ適用される。
+	label:<<Armor - Sharp??_{Armor}_ - 尖鋭>>
+	description:銃弾、ナイフ、爆発、動物の噛みつきなどの尖鋭ダメージに影響する確率。\n\nダメージを受けると、この_<Armor>_から攻撃の _<Armor penetration>_ が引かれ、次に、残った値と0から100の乱数値が比較される。\n\n-もし、乱数値が_<Armor>_の半分を下回ると、ダメージは完全に弾かれる。\n\n-もし、乱数値が_<Armor>_の半分を上回り、かつ、超えない場合は、ダメージは軽減される。ダメージは打撲ダメージに変換され、半分になる。\n\n-もし、乱数値が_<Armor>_を超えると、_<Armor>_は無視される。\n\n例えば、90%の_<Armor>_に10%の _<Armor penetration>_ を持つ攻撃を受けたとすると、攻撃を完全に弾く確率は40%、ダメージを軽減する確率は40%になる。\n\n衣服の場合、外側から内側に向かって、各_{layer}_の_<Armor>_が攻撃にそれぞれ適用される。
 }
 
 {ArmorRating_Blunt
-	label:<<Armor - Blunt??アーマー - 打撲>>
-	description:棍棒、落石、爆発などの打撲ダメージが影響を与える確率。\n\nダメージを受けると、まず、このアーマー値から攻撃のアーマー貫通値が引かれ、残った値と0から100の乱数値と比較される。\n\n-もし、乱数値がアーマー値の半分を下回ると、ダメージは完全に弾かれる。\n    -もし、乱数値がアーマー値の半分を上回り、かつ、アーマー値を超えない場合は、ダメージは軽減される。ダメージは半分になる。\n    -もし、乱数値がアーマー値を超えると、アーマーは無視される。\n\n例えば、90%のアーマー値に10%のアーマー貫通値を持つ攻撃を受けたとすると、攻撃を完全に弾く確率は40%、ダメージを軽減する確率は40%になる。\n\n衣服の場合、外側から内側に向かって、各_{layer}_のアーマーが攻撃にそれぞれ適用される。
+	label:<<Armor - Blunt??_{Armor}_ - 打撲>>
+	description:棍棒、落石、爆発などの打撲ダメージに影響する確率。\n\nダメージを受けると、この_<Armor>_から攻撃の _<Armor penetration>_ が引かれ、次に、残った値と0から100の乱数値が比較される。\n\n-もし、乱数値が_<Armor>_の半分を下回ると、ダメージは完全に弾かれる。\n\n-もし、乱数値が_<Armor>_の半分を上回り、かつ、超えない場合は、ダメージは軽減される。ダメージは半分になる。\n\n-もし、乱数値が_<Armor>_を超えると、_<Armor>_は無視される。\n\n例えば、90%の_<Armor>_に10%の _<Armor penetration>_ を持つ攻撃を受けたとすると、攻撃を完全に弾く確率は40%、ダメージを軽減する確率は40%になる。\n\n衣服の場合、外側から内側に向かって、各_{layer}_の_<Armor>_が攻撃にそれぞれ適用される。
 }
 
 {ArmorRating_Heat
-	label:<<Armor - Heat??アーマー - 熱>>
-	description:火傷などの温度に関するダメージに影響を与える確率。\n\nダメージを受けると、まず、このアーマー値から攻撃のアーマー貫通値が引かれ、残った値と0から100の乱数値と比較される。\n\n-もし、乱数値がアーマー値の半分を下回ると、ダメージは完全に弾かれる。\n    -もし、乱数値がアーマー値の半分を上回り、かつ、アーマー値を超えない場合は、ダメージは軽減される。ダメージは打撲ダメージに変換され、半分になる。\n    -もし、乱数値がアーマー値を超えると、アーマーは無視される。\n\n例えば、90%のアーマー値に10%のアーマー貫通値を持つ攻撃を受けたとすると、攻撃を完全に弾く確率は40%、ダメージを軽減する確率は40%になる。\n\n衣服の場合、外側から内側に向かって、各_{layer}_のアーマーが攻撃にそれぞれ適用される。
+	label:<<Armor - Heat??_{Armor}_ - 熱>>
+	description:火傷などの温度によるダメージに影響する確率。\n\nダメージを受けると、この_<Armor>_から攻撃の _<Armor penetration>_ が引かれ、次に、残った値と0から100の乱数値が比較される。\n\n-もし、乱数値が_<Armor>_の半分を下回ると、ダメージは完全に弾かれる。\n\n-もし、乱数値が_<Armor>_の半分を上回り、かつ、超えない場合は、ダメージは軽減される。ダメージは打撲ダメージに変換され、半分になる。\n\n-もし、乱数値が_<Armor>_を超えると、_<Armor>_は無視される。\n\n例えば、90%の_<Armor>_に10%の _<Armor penetration>_ を持つ攻撃を受けたとすると、攻撃を完全に弾く確率は40%、ダメージを軽減する確率は40%になる。\n\n衣服の場合、外側から内側に向かって、各_{layer}_の_<Armor>_が攻撃にそれぞれ適用される。
 }
 
 {Insulation_Cold
-	label:<<Insulation - Cold??断熱 - 低温>>
-	description:最低許容気温を高める。大きな値ほど寒い気候で生き残れる。
+	label:_<Insulation - Cold>_
+	description:最低_{comfortable temperature}_を高める。大きな値ほど寒い気候で生き残れる。
 }
 
 {Insulation_Heat
-	label:<<Insulation - Heat??断熱 - 高温>>
-	description:最高許容気温を高める。大きな値ほど暑い気候で生き残れる。
+	label:_<Insulation - Heat>_
+	description:最高_{comfortable temperature}_を高める。大きな値ほど暑い気候で生き残れる。
 }
 
 {EnergyShieldEnergyMax
@@ -44,13 +45,13 @@
 {EnergyShieldRechargeRate
 	label:<<Shield recharge rate??シールドの再チャージ速度>>
 	description:シールドのエネルギーが増加する速度。壊れていない限り。
-	formatString:_<{0}/s>_
+	formatString:<<{0}/s??{0}/毎秒>>
 }
 
 {SmokepopBeltRadius
 	label:<<Smokepop belt radius??_[smokepop belt]_ 半径>>
 	description:_[smokepop belt]_ が発動したときに見えにくくする範囲。
-	formatString:{0} c
+	formatString:<<{0} c??{0} セル>>
 }
 
 {EquipDelay
@@ -68,18 +69,18 @@
 {Mass
 	label:<<mass??重量>>
 	description:オブジェクトの重量。
-	formatString:{0} kg
+	formatString:{0} _[kg]_
 }
 
 {MarketValue
 	label:<<market value??市場価格>>
-	description:市場価格。実際の値段は交渉スキル、親密度や他の状態依存の要因に調整される。
+	description:市場価格。実際の値段は交渉スキル、親密度、その他の状態依存の因子で調整される。
 	formatString:${0}
 }
 
 {SellPriceFactor
-	label:<<sell price multiplier??売却価格率>>
-	description:アイテムを売るときに値段に掛けられる倍率。
+	label:<<sell price multiplier??売却価格乗数>>
+	description:アイテムを売るときに値段に掛けられる値。
 }
 
 {Flammability
@@ -94,8 +95,8 @@
 
 {DeteriorationRate
 	label:<<deterioration rate??劣化速度>>
-	description:野ざらしにされたときに劣化する速度で、一日ごとにHPに与えるダメージの平均。劣化速度は天気、屋根、_[toxic fallout]_、_[shallow water]_に放置なども影響される。
-	formatString:{0} / 日
+	description:このアイテムを屋外に放置したときに劣化する速度で、一日ごとにHPに与えるダメージの平均値。劣化速度は天気、屋根の有無、 _[toxic fallout]_、 _<shallow water>_ に放置する、などにも影響される。
+	formatString:<<{0} / day??{0} / 日>>
 }
 
 {Beauty
@@ -115,7 +116,7 @@
 
 {Nutrition
 	label:<<nutrition??栄養>>
-	description:この食物の栄養度。
+	description:この食物の栄養量。
 }
 
 {FoodPoisonChanceFixedHuman
@@ -125,7 +126,7 @@
 
 {ShootingAccuracyTurret
 	label:_<shooting accuracy>_
-	description:発射距離のセル毎の基本命中率。命中率は他の要因の影響も受ける。命中率の詳細は射手を選んで標的にマウスを重ねると表示される。
+	description:射撃距離のセル毎の基本命中率。命中率は他の因子の影響も受ける。命中率の詳細は射手を選んで標的にマウスを重ねると表示される。
 }
 
 ; Stats_Basics_Special
@@ -141,7 +142,7 @@
 
 {ConstructionSpeedFactor
 	label:<<construction speed??建造速度>>
-	description:この素材から作られている物の速度に掛けられる値。 石などの素材から作ると遅く、木材などは速い。
+	description:この素材から作られている物の建造速度への乗数。石などの素材から作ると遅く、木材などは速い。
 }
 
 ; Stats_Building_Special
@@ -171,8 +172,8 @@
 }
 
 {ResearchSpeedFactor
-	label:<<research speed factor??研究速度係数>>
-	description:研究速度への倍率。
+	label:<<research speed factor??研究速度因子>>
+	description:研究速度への乗数。
 	parts.Room_cleanliness.customLabel:_<Room cleanliness>_
 }
 
@@ -182,18 +183,18 @@
 }
 
 {ImmunityGainSpeedFactor
-	label:<<immunity gain speed factor??免疫獲得速度係数>>
-	description:免疫を獲得する速度に掛ける倍率。
+	label:<<immunity gain speed factor??免疫獲得速度因子>>
+	description:免疫獲得速度への乗数。
 }
 
 {WorkTableWorkSpeedFactor
-	label:<<work speed factor??作業速度係数>>
-	description:作業速度に掛ける倍率。
+	label:<<work speed factor??作業速度因子>>
+	description:作業速度への乗数。
 }
 
 {WorkTableEfficiencyFactor
-	label:<<work efficiency factor??作業効率係数>>
-	description:作業効率に掛ける倍率。
+	label:<<work efficiency factor??作業効率因子>>
+	description:作業効率への乗数。
 }
 
 {JoyGainFactor
@@ -202,20 +203,20 @@
 }
 
 {SurgerySuccessChanceFactor
-	label:<<surgery success chance factor??手術成功率係数>>
-	description:ここで手術した時の成功率に掛ける倍率。手術成功率は、医者の能力や医薬品の使用など、他の多くの要因からも影響を受ける。
+	label:<<surgery success chance factor??手術成功率因子>>
+	description:ここで手術した時の成功率への乗数。手術成功率は医者の能力や薬の使用など、他の多くの因子からも影響を受ける。
 	parts.Room_cleanliness.customLabel:_<Room cleanliness>_
 }
 
 ; Stats_Pawns_Combat
 {MeleeDPS
 	label:<<melee DPS??近接 DPS>>
-	description:近接戦での1秒あたりのダメージの平均値。この値は相手の回避やアーマーを考慮していない。
+	description:近接戦での1秒あたりのダメージの平均値。この値は相手の回避や_<Armor>_を考慮していない。
 }
 
 {MeleeArmorPenetration
-	label:<<melee armor penetration??近接アーマー貫通>>
-	description:近接攻撃時のアーマー貫通量の平均値。現在使っている武器の値を含んでいる。
+	label:<<melee armor penetration??近接_{armor penetration}_>>
+	description:近接攻撃時の_{armor penetration}_の平均値。現在使っている武器の値を含んでいる。
 }
 
 {MeleeHitChance
@@ -230,12 +231,12 @@
 
 {ShootingAccuracyPawn
 	label:<<shooting accuracy??射撃命中率>>
-	description:射撃距離のセル毎の基本成功率。命中率は他の要因からも影響を受ける。命中率の詳細は射手を選択して相手にマウスを重ねると表示できる。
+	description:射撃距離のセル毎の基本成功率。命中率は他の因子からも影響を受ける。命中率の詳細は射手を選択して相手にマウスを重ねると表示できる。
 }
 
 {AimingDelayFactor
 	label:<<aiming time??照準時間>>
-	description:相手を選んでから撃つまでにかかる時間。
+	description:標的を選んでから撃つまでにかかる時間。
 }
 
 ; Stats_Pawns_General
@@ -252,47 +253,47 @@
 
 {PsychicSensitivity
 	label:<<psychic sensitivity??精神感度>>
-	description:精神現象の影響度への倍率。感度が高い人は、悪い事はより悪く、良い事はより良く、両方から強い影響を受ける。
+	description:精神現象の影響度への乗数。感度が高い人は、悪い事はより悪く、良い事はより良く、両方から強い影響を受ける。
 }
 
 {ToxicSensitivity
 	label:<<toxic sensitivity??毒感度>>
-	description:こ生物の毒蓄積の影響度への倍率。
+	description:この生物の毒蓄積の影響度への乗数。
 }
 
 {GlobalLearningFactor
-	label:<<global learning factor??基本習得係数>>
-	description:全てのスキルの習得率への倍率。
+	label:<<global learning factor??基本習得因子>>
+	description:全てのスキルの習得速度への乗数。
 }
 
 {HungerRateMultiplier
-	label:<<hunger rate multiplier??空腹係数>>
-	description:この生き物がどれほど早く空腹になるか。
+	label:<<hunger rate multiplier??空腹速度乗数>>
+	description:生物の空腹速度への乗数。
 }
 
 {RestRateMultiplier
-	label:<<rest rate multiplier??休息係数>>
-	description:この生物が睡眠中にどれほど速く休息できるか。
+	label:<<rest rate multiplier??休息速度乗数>>
+	description:生物が寝ている時の休息速度への乗数
 }
 
 {EatingSpeed
 	label:<<eating speed??食事速度>>
-	description:食事の速さへの倍率。
+	description:食事の速さへの乗数。
 }
 
 {ComfyTemperatureMin
-	label:<<Minimum comfortable temperature??最低許容気温>>
+	label:<<Minimum comfortable temperature??最低_{comfortable temperature}_>>
 	description:この気温を下回ると機嫌が悪くなる。大きく下回ると、低体温症を発症し、凍傷、そして死に至る。
 }
 
 {ComfyTemperatureMax
-	label:<<Maximum comfortable temperature??最大許容気温>>
+	label:<<Maximum comfortable temperature??最大_{comfortable temperature}_>>
 	description:この気温を上回ると機嫌が悪くなる。大きく上回ると、熱中症を発症し、そして死に至る。
 }
 
 {ImmunityGainSpeed
 	label:<<immunity gain speed??免疫獲得速度>>
-	description:疫病に対する免疫を獲得する速度。この速度が遅すぎると免疫を獲得する前に疫病で死ぬ。
+	description:病気への免疫を獲得する速度。この速度が遅すぎると免疫を獲得する前に病気で死ぬ。
 }
 
 {CarryingCapacity
@@ -302,12 +303,12 @@
 
 {MeatAmount
 	label:<<meat amount??肉の量>>
-	description:解体したときに得られる肉の量。
+	description:この生物を解体したときに得られる肉の量。
 }
 
 {LeatherAmount
 	label:<<leather amount??皮の量>>
-	description:解体したときに得られる皮の量。
+	description:この生物を解体したときに得られる皮の量。
 }
 
 {MinimumHandlingSkill
@@ -321,7 +322,7 @@
 }
 
 {ForagedNutritionPerDay
-	label:<<foraged food amount??採餌量>>
+	label:_<foraged food amount>_
 	description:キャラバンで旅をしているときに、この人物が自動的に集める一日あたりの栄養の量。
 }
 
@@ -337,7 +338,7 @@
 }
 
 {SocialImpact
-	label:<<social impact??社交の影響度>>
+	label:<<social impact??社交影響度>>
 	description:この人物と社交的なやり取りをした人への影響度。
 }
 
@@ -360,7 +361,7 @@
 ; Stats_Pawns_WorkGeneral
 {WorkSpeedGlobal
 	label:<<global work speed??基本作業速度>>
-	description:全ての作業速度への倍率。
+	description:全ての作業速度への乗数。
 }
 
 {MiningSpeed
@@ -370,12 +371,12 @@
 
 {MiningYield
 	label:<<mining yield??採掘収率>>
-	description:採掘者が掘り出す資源への倍率。採掘と地下資源ドリルに適用される。岩の塊の産出量には影響しない。
+	description:採掘者が掘り出す資源の収率。採掘と地下資源ドリルに適用される。岩の塊の産出量には影響しない。
 }
 
 {SmoothingSpeed
 	label:<<smoothing speed??ならし速度>>
-	description:荒れた地面や壁をならす速度への倍率。
+	description:荒れた地面や壁をならす速度への乗数。
 }
 
 {ResearchSpeed
@@ -512,28 +513,28 @@
 
 ; Stats_Stuff
 {StuffPower_Armor_Sharp
-	label:<<Armor - Sharp??アーマー - 尖鋭>>
-	description:弾、刃物、動物の噛みつきなどの尖鋭ダメージに対するアーマー。
+	label:<<Armor - Sharp??_{Armor}_ - 尖鋭>>
+	description:弾、刃物、動物の噛みつきなどの尖鋭ダメージに対する_<Armor>_。
 }
 
 {StuffPower_Armor_Blunt
-	label:<<Armor - Blunt??アーマー - 打撲>>
-	description:棍棒、落石、爆などの打撲ダメージに対するアーマー。
+	label:<<Armor - Blunt??_{Armor}_ - 打撲>>
+	description:棍棒、落石、爆発などの打撲ダメージに対する_<Armor>_。
 }
 
 {StuffPower_Armor_Heat
-	label:<<Armor - Heat??アーマー - 熱>>
-	description:炎などの温度によるダメージに対するアーマー。
+	label:<<Armor - Heat??_{Armor}_ - 熱>>
+	description:炎などの温度によるダメージに対する_<Armor>_。
 }
 
 {StuffPower_Insulation_Cold
-	label:<<Insulation - Cold??絶縁 - 低温>>
-	description:この素材で作られた衣服を着た者の最低快適温度をどれほど高めるか。
+	label:<<Insulation - Cold??断熱 - 低温>>
+	description:この素材で作られた衣服を着た者の最低_{comfortable temperature}_をどれほど高めるか。
 }
 
 {StuffPower_Insulation_Heat
-	label:<<Insulation - Heat??絶縁 - 高温>>
-	description:この素材で作られた衣服を着た者の最高快適温度をどれほど高めるか。
+	label:<<Insulation - Heat??断熱 - 高温>>
+	description:この素材で作られた衣服を着た者の最高_{comfortable temperature}_をどれほど高めるか。
 }
 
 ; Stats_Weapons_Melee
@@ -543,58 +544,58 @@
 }
 
 {MeleeWeapon_AverageArmorPenetration
-	label:<<melee armor penetration??近接アーマー貫通>>
-	description:近接戦闘でアーマーを貫通する平均値。
+	label:<<melee armor penetration??近接_{armor penetration}_>>
+	description:近接戦闘で_<Armor>_を貫通する平均値。
 }
 
 {MeleeWeapon_DamageMultiplier
-	label:<<melee damage multiplier??近接ダメージ倍率>>
-	description:近接攻撃によるダメージへの倍率。
+	label:<<melee damage multiplier??近接ダメージ乗数>>
+	description:近接攻撃によるダメージへの乗数。
 }
 
 {MeleeWeapon_CooldownMultiplier
 	label:<<melee cooldown??近接クールダウン>>
-	description:この素材で作られた武器の攻撃間隔への倍率。
+	description:この素材で作られた武器の攻撃間隔への乗数。
 }
 
 {SharpDamageMultiplier
 	label:<<sharp damage??尖鋭ダメージ>>
-	description:この素材で作られた武器の尖鋭攻撃によるダメージへの倍率。
+	description:この素材で作られた武器の尖鋭攻撃によるダメージへの乗数。
 }
 
 {BluntDamageMultiplier
 	label:<<blunt damage??打撲ダメージ>>
-	description:この素材で作られた武器の打撲攻撃によるダメージへの倍率
+	description:この素材で作られた武器の打撲攻撃によるダメージへの乗数。
 }
 
 ; Stats_Weapons_Ranged
 {AccuracyTouch
 	label:<<Accuracy (touch)??精度 (近接)>>
-	description:3セル以下の距離における武器の命中精度への影響度。実際の命中率は他の要因の影響も受ける。
+	description:3セル以下の距離における武器の命中精度への影響度。実際の命中率は他の因子の影響も受ける。
 }
 
 {AccuracyShort
 	label:<<Accuracy (short)??精度 (近)>>
-	description:12セルの距離における武器の命中精度への影響度。実際の命中率は他の要因の影響も受ける。
+	description:12セルの距離における武器の命中精度への影響度。実際の命中率は他の因子の影響も受ける。
 }
 
 {AccuracyMedium
 	label:<<Accuracy (medium)??精度 (中)>>
-	description:25セルの距離における武器の命中精度への影響度。実際の命中率は他の要因の影響も受ける。
+	description:25セルの距離における武器の命中精度への影響度。実際の命中率は他の因子の影響も受ける。
 }
 
 {AccuracyLong
 	label:<<Accuracy (long)??精度 (遠)>>
-	description:40セル以上の距離における武器の命中精度への影響度。実際の命中率は他の要因の影響も受ける。
+	description:40セル以上の距離における武器の命中精度への影響度。実際の命中率は他の因子の影響も受ける。
 }
 
 {RangedWeapon_Cooldown
 	label:<<ranged cooldown??遠距離クールダウン>>
 	description:発射間隔。
-	formatString:<<{0} s??{0} 秒>>
+	formatString:_<{0} s>_
 }
 
 {RangedWeapon_DamageMultiplier
-	label:<<damage multiplier??ダメージ倍率>>
-	description:この武器から発射された飛翔体のダメージ倍率。
+	label:<<damage multiplier??ダメージ乗数>>
+	description:この武器から発射された飛翔体のダメージへの乗数。
 }

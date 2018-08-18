@@ -22,7 +22,7 @@ min:<<min??最小>>
 max:<<max??最大>>
 chance:<<chance??確率>>
 context:<<context??対象>>
-multiplier:<<multiplier??倍率>>
+multiplier:<<multiplier??乗数>>
 damage:<<damage??ダメージ>>
 radius:<<radius??半径>>
 durationDays:<<duration (days)??持続 (日)>>

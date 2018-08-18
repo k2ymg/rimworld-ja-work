@@ -72,5 +72,5 @@ ColonistsLaunched:<<Colonists launched into space??宇宙へ飛び立った_<col
 
 ProjectTechLevel:<<project tech level??プロジェクトの技術レベル>>
 YourTechLevel:<<your tech level??あなたの技術レベル>>
-ResearchCostMultiplier:<<cost multiplier??コスト倍率>>
+ResearchCostMultiplier:<<cost multiplier??コスト乗数>>
 ResearchCostComparison:あなたの技術レベルにより、プロジェクトの基本コストは {0} から {1} になった。

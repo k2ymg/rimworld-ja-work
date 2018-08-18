@@ -72,7 +72,7 @@
 	labelShort:<<Grow??栽培>>
 	pawnLabel:<<Grower??栽培者>>
 	gerundLabel:<<growing??栽培>>
-	description:植物の種を蒔き、作物を収穫し、野生の植物から採餌する。
+	description:植物の種を蒔き、作物を収穫し、野生の植物を_{forage}_する。
 	verb:<<Grow??栽培>>
 }
 {Mining

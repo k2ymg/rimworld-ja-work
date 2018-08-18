@@ -435,7 +435,7 @@ Bullet_Shell_AntigrainWarhead.label:_[antigrain warhead]_
 }
 {Leather_Light
 	label:_[lightleather]_
-	description:軽く、薄い革。恐らく小型の動物から剥いだもの。アーマー面は厚い革より劣る。
+	description:軽く、薄い革。恐らく小型の動物から剥いだもの。_{armor}_に関しては厚い革より劣る。
 }
 {Leather_Bird
 	label:_[birdskin]_
@@ -455,11 +455,11 @@ Bullet_Shell_AntigrainWarhead.label:_[antigrain warhead]_
 }
 {Leather_Human
 	label:_[human leather]_
-	description:なめして、乾かして、磨いた人の皮。殆どの人はこれを嫌がるが、一部の人は気に入る。一応革だが、アーマーも断熱も特に優れているわけでは無い。
+	description:なめして、乾かして、磨いた人の皮。殆どの人はこれを嫌がるが、一部の人は気に入る。一応革だが、_{armor}_も断熱も特に優れているわけでは無い。
 }
 {Leather_Pig
 	label:_[pigskin]_
-	description:なめして、乾かして、磨いた_[Pig]_の皮。一応革だが、アーマーも断熱も特に優れているわけでは無い。
+	description:なめして、乾かして、磨いた_[Pig]_の皮。一応革だが、_{armor}_も断熱も特に優れているわけでは無い。
 }
 {Leather_Elephant
 	label:_[elephant leather]_
@@ -467,7 +467,7 @@ Bullet_Shell_AntigrainWarhead.label:_[antigrain warhead]_
 }
 {Leather_Heavy
 	label:_[heavy fur]_
-	description:長く、硬くもつれた毛に覆われた厚い革。大型の逞しい動物から剥いだもの。厚い皮によりアーマーも断熱性も優れている。
+	description:長く、硬くもつれた毛に覆われた厚い革。大型の逞しい動物から剥いだもの。厚い皮により_{armor}_も断熱性も優れている。
 }
 {Leather_Rhinoceros
 	label:_[rhinoceros leather]_

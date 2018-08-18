@@ -45,8 +45,8 @@
 
 ;「～た」で統一すること。「死んだ」はだめ。
 {?Transition_DiedInclude.rulePack.rulesStrings
-	:r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun]で[SUBJECT_definite]が[die]た。
-	:r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty]で[SUBJECT_definite]が[die]た。
+	:r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun]により[SUBJECT_definite]が[die]た。
+	:r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty]により[SUBJECT_definite]が[die]た。
 
 	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNoun][duetoa][died][flavorsuffix]。
 	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNounPretty][duetoa][died][flavorsuffix]。

@@ -132,7 +132,7 @@
 }
 {Cow
 	label:_[cow]_
-	description:_?牛。?_家畜化された大きな有蹄類。大量のミルク、肉、革を生み出すために数千年に渡って飼育されてきた。非常におとなしい生き物で、何度傷つけられようが、襲いかかってこない。家畜としての生活に慣れきっているので、自然界では生き残れない。
+	description:_?牛。?_家畜化された大きな有蹄類。大量のミルク、肉、革を生み出すために数千年に渡って飼育されてきた。非常におとなしい生物で、何度傷つけられようが、襲いかかってこない。家畜としての生活に慣れきっているので、自然界では生き残れない。
 ;	tools.teeth.label:_<teeth>_
 	tools.head.label:_<head>_
 	tools.left_hoof.label:_<left hoof>_
@@ -257,7 +257,7 @@
 }
 {Alphabeaver
 	label:_[alphabeaver]_
-	description:_?アルファビーバー。?_木材を機械並の効率で集めるめに、遺伝子操作により派生した大型のビーバー似の生き物。専用の餌がなくなると、全ての樹木を食べ尽くしたい衝動に駆られる。邪魔されると襲いかかってくる傾向がある。
+	description:_?アルファビーバー。?_木材を機械並の効率で集めるめに、遺伝子操作により派生した大型のビーバー似の生物。専用の餌がなくなると、全ての樹木を食べ尽くしたい衝動に駆られる。邪魔されると襲いかかってくる傾向がある。
 	tools.left_claw.label:_<left claw>_
 	tools.right_claw.label:_<right claw>_
 ;	tools.teeth.label:_<teeth>_
@@ -297,7 +297,7 @@
 }
 {Rat
 	label:_[rat]_
-	description:_?ラット。?_台所を汚し疫病を蔓延させることで知られる、誰もが嫌っている齧歯類で、人の後を何処までもついて行く。何でも食べて、何処にでも居る。
+	description:_?ラット。?_台所を汚し疾病を蔓延させることで知られる、誰もが嫌っている齧歯類で、人の後を何処までもついて行く。何でも食べて、何処にでも居る。
 	tools.left_claw.label:_<left claw>_
 	tools.right_claw.label:_<right claw>_
 ;	tools.teeth.label:_<teeth>_
@@ -307,7 +307,7 @@
 ; Races_Animal_Temperate
 {Deer
 	label:_[deer]_
-	description:_?ディア。鹿。?_群れで行動する中型の草食動物で、森や平地が混在する場所を好んで住んでいる。とてもすばしっこい。
+	description:_?鹿。?_群れで行動する中型の草食動物で、森や平地が混在する場所を好んで住んでいる。とてもすばしっこい。
 	tools.left_hoof.label:_<left hoof>_
 	tools.right_hoof.label:_<right hoof>_
 	tools.teeth.label:_<teeth>_

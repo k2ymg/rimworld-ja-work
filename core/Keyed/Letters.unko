@@ -102,7 +102,7 @@ LetterNoLongerLovers:{0} と {1} が別れた。
 LetterLabelBreakup:<<Breakup??振られた>>
 LetterLabelAcceptedProposal:<<Marriage is on!??プロポーズ成功>>
 LetterLabelRejectedProposal:<<Rejected proposal??プロポーズ失敗>>
-LetterAcceptedProposal:数日か、あるいは、いくつか節が過ぎた頃に結婚式が行われ、全ての_{colonists}_が招待される。式が行われる場所を制御したいのなら、_[Marriage spot]_を設置する。
+LetterAcceptedProposal:数日か、あるいは、いくつか節が過ぎた頃に結婚式が行われ、全ての_{colonists}_が招待される。式が行われる場所を指定したいのなら、 _[Marriage spot]_ を設置する。
 LetterRejectedProposal:{0} はこれにより悲しむだろう。
 
 LetterLabelRelationsChange_Hostile:<<Hostile: {0}??敵対: {0}>>
@@ -124,7 +124,7 @@ LetterNewParty:{0} がパーティをしている！参加した人は娯楽や�
 
 
 LetterLabelNewlyAddicted:<<{0} addiction??{0} 中毒>>
-LetterNewlyAddicted:{0} が {1} 中毒になった。\n\n[PAWN_possessive]の {1} 欲求状態は'_<Needs>_'タブで確認できる。[PAWN_pronoun]は欲求を満たすために勝手にドラッグを消費する。もし {1} を手に入れられなければ、'_<withdrawal>_'状態になる。
+LetterNewlyAddicted:{0} が {1} 中毒になった。\n\n[PAWN_possessive]の {1} 欲求状態は'_<Needs>_'タブで確認できる。[PAWN_pronoun]は欲求を満たすために勝手にドラッグを消費する。もし {1} を手に入れられなければ、'_<Withdrawal>_'状態になる。
 
 LetterLabelDrugBinge:<<{0} binge??{0} 乱用>>
 LetterDrugBinge:{0} が {1} を乱用するようになった。

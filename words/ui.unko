@@ -145,8 +145,15 @@ frame:施工
 queue order:連続命令
 pack animal:駄載獣
 
-layer:レイヤー
+covers:保護部位
+layer:層
 prison cell:囚人部屋
 inspect:調べる
-{0} meat:{0}肉
+{0} meat:{0}の肉
 kg:キログラム
+
+forage:採集
+foraged:採集
+forageability:採集性
+Foraging:採集
+foraged food amount:食物の_{foraged}_量
