@@ -30,7 +30,7 @@
 	:artconjunction->それを除けば、
 
 	:artextra_clause->イメージは[subimageplural]で縁取られている
-	:artextra_clause->イメージの端は[subimageplural]になっている
+	:artextra_clause->イメージの端に[subimageplural]がある
 	:artextra_clause->[subimagesingle]が[side_position]ある
 	:artextra_clause->主題は[subimageany]の前にある
 	:artextra_clause->イメージの下側は[subimageany]で占められている

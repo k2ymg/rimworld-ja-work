@@ -1,7 +1,7 @@
 ﻿Root.label:ルート
 
 Foods.label:<<foods??食べ物>>
-FoodMeals.label:<<meals??調理済>>
+FoodMeals.label:<<meals??ミール>>
 FoodRaw.label:<<raw food??生食材>>
 MeatRaw.label:<<meat??肉>>
 PlantFoodRaw.label:<<vegetarian??野菜>>
@@ -17,12 +17,12 @@ Drugs.label:<<drugs??ドラッグ>>
 MortarShells.label:<<mortar shells??砲弾>>
 
 ResourcesRaw.label:<<raw resources??原材料>>
-PlantMatter.label:<<plant matter??植物原料>>
-StoneBlocks.label:<<stone blocks??ブロック>>
+PlantMatter.label:<<plant matter??植物質>>
+StoneBlocks.label:<<stone blocks??石のブロック>>
 
 Items.label:<<items??物品>>
 Unfinished.label:<<unfinished??未完成>>
-Artifacts.label:<<artifacts??アーティファクト>>
+Artifacts.label:<<artifacts??遺物>>
 BodyParts.label:<<body parts??人体部品>>
 BodyPartsNatural.label:<<natural??非人工>>
 BodyPartsArtificial.label:<<artificial??人工>>

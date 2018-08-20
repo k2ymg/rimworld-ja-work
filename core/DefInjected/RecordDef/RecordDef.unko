@@ -203,8 +203,8 @@
 }
 
 {ArtifactsActivated
-	label:<<artifacts activated??アーティファクト>>
-	description:作動させたアーティファクトの数
+	label:<<artifacts activated??遺物>>
+	description:作動させた遺物の数
 }
 
 {ContainersOpened

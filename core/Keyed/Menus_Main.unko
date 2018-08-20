@@ -102,7 +102,7 @@ TooMany:多すぎます(最大 {0}):
 CanBeUpdatedOnWorkshop:あなたが作者なので Workshop で更新することができます。
 
 ChooseAIStoryteller:<<Choose AI Storyteller??AI_{Storyteller}_の選択>>
-HowStorytellersWork:AI_{Storyteller}_は賊の襲撃、資材の落下、動物の攻撃などのイベントを作り出す。彼らの選択があなたの_{colony}_の物語に影響を与える。これらの設定はいつでも変えられます。
+HowStorytellersWork:AI_{Storyteller}_は賊の襲撃、物資の落下、動物の攻撃などのイベントを作り出す。彼らの選択があなたの_{colony}_の物語に影響を与える。これらの設定はいつでも変えられます。
 MustChooseDifficulty:難易度を選択してください。
 Difficulty:<<Difficulty??難易度>>
 CommitmentMode:_<Commitment mode>_

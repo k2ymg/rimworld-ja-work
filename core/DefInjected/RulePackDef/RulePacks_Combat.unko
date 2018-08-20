@@ -342,7 +342,7 @@
 	:adverb_threw->正確に
 	:adverb_threw->落ち着いて
 	:adverb_threw(initiator_flesh!=Mechanoid)->恐る恐る
-	:adverb_threw->正確にprecisely
+	:adverb_threw->正確に
 	:adverb_threw(initiator_flesh!=Mechanoid)->油断なく
 
 	:adjective_threw->careful

@@ -31,7 +31,7 @@ LetterLabelRoofCollapsed:天井の崩落
 RecruitSuccess:{0} は {1} の引き抜きに成功した。(成功率 {2})
 RecruitFail:{0} は {1} の引き抜きに失敗した。(成功率 {2})
 
-RelatedPawnInvolvedInQuest:[PAWN_nameDef] は {0} の {1} なので、もし [PAWN_nameDef] が死ぬと、{0} は長期間の悲しみにより苦しむ。しかし、もし [PAWN_nameDef] を救うことができれば、{0} は長期間とても幸せになる。
+RelatedPawnInvolvedInQuest:[PAWN_nameDef] は {0} の {1} なので、 [PAWN_nameDef] が死ぬと {0} は長く苦しむことになる。逆に、 [PAWN_nameDef] を救えば、暫くの間とても幸せになる。
 
 LetterLabelBirthday:<<Birthday??誕生日>>
 BirthdayChronological:今日は {0} の誕生日!生物学的には {1} は {3} 歳になる。\n\n暦上では、{1} は {2} 歳になった。\n\n補足:仮死状態中は年を取らないので、暦上の年齢と生物学的年齢は区別されている。
@@ -183,7 +183,7 @@ LetterLabelAICoreOffer:<<AI Core Offer??AIコアの申し出>>
 LetterAICoreOffer:{1} の {0} がある情報の提供について連絡してきた: 宇宙船建造に必要な _[AI persona core]_ がある場所について。これはとても貴重なもので、厳重に守られていると教えてくれた。\n\n興味があるのなら _[Comms console]_ でこの派閥と話す。
 
 LetterCraftedLegendaryLabel:<<Legendary Work??極上の作品>>
-LetterCraftedLegendaryMessage:{0} が {1} を作った。\n\nこの価値あるアーティファクトのニュースは世界を駆け巡るだろう。
+LetterCraftedLegendaryMessage:{0} が {1} を作った。\n\nこの価値ある工芸品のニュースは世界を駆け巡るだろう。
 
 LetterLabelPawnsLostBecauseMapClosed_Caravan:<<Caravan lost??キャラバン消滅>>
 LetterPawnsLostBecauseMapClosed_Caravan:キャラバンが消えた。次の人々や動物たちも一緒にいなくなった

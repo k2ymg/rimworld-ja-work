@@ -45,7 +45,7 @@
 }
 {Plant_Cotton
 	label:_[cotton plant]_
-	description:_?コットン・プラント。?_細くて白い木綿繊維を生み出す中程度の高さの作物。布の素材として使われている。
+	description:_?コットン・プラント。?_細くて白い木綿繊維を生み出す中程度の高さの作物。布を作るために使われている。
 }
 {Plant_Devilstrand
 	label:_[devilstrand]_
@@ -57,7 +57,7 @@
 }
 {Plant_Hops
 	label:_[hop plant]_
-	description:_?ポップ・プラント。?_花を付ける作物で、_[Hops]_を収穫できる。_[Beer]_の主原料。
+	description:_?ポップ・プラント。?_花を付ける作物で、_[Hops]_を収穫できる。_[Beer]_に欠かせない材料。
 }
 {Plant_Smokeleaf
 	label:_[smokeleaf plant]_

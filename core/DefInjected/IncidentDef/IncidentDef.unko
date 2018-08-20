@@ -67,7 +67,7 @@ CaravanDemand.label:<<payment demand??カツあげ>>
 }
 {Disease_AnimalFlu
 	label:_<flu>_ (_<animals>_)
-	letterLabel:_<Animal disease>_ (flu)
+	letterLabel:_<Animal disease>_ (_<flu>_)
 	$:DiseaseAnimalIncident
 }
 {Disease_AnimalPlague

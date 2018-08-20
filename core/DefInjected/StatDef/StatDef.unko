@@ -142,7 +142,7 @@
 
 {ConstructionSpeedFactor
 	label:<<construction speed??建造速度>>
-	description:この素材から作られている物の建造速度への乗数。石などの素材から作ると遅く、木材などは速い。
+	description:これから作られている物の建造速度への乗数。石などの素材から作ると遅く、木材などは速い。
 }
 
 ; Stats_Building_Special
@@ -416,12 +416,12 @@
 
 {ConstructSuccessChance
 	label:<<construct success chance??建設成功率>>
-	description:建造の成功率。失敗すると時間と資材を無駄にする。
+	description:建造の成功率。失敗すると時間と物資を無駄にする。
 }
 
 {FixBrokenDownBuildingSuccessChance
 	label:<<repair success chance??修理成功率>>
-	description:_[Component]_を使っている設備を修理するときの成功率。失敗すると時間と資材を無駄にする。これは故障の修理にだけ適用され、ダメージの補修には関係しない。
+	description:_[Component]_を使っている設備を修理するときの成功率。失敗すると時間と物資を無駄にする。これは故障の修理にだけ適用され、ダメージの補修には関係しない。
 }
 
 ; Stats_Pawns_WorkMedical

@@ -5,7 +5,7 @@ DesignatorCutPlants:<<Cut plants??刈り取り>>
 DesignatorCutPlantsDesc:植物を刈り取る。印を付けられた植物は完全に取り除かれ、食材などが採れるのなら収穫される。
 
 DesignatorDeconstruct:<<Deconstruct??解体>>
-DesignatorDeconstructDesc:解体して資材を部分的に回収する。
+DesignatorDeconstructDesc:解体して物資を部分的に回収する。
 
 DesignatorUninstall:<<Uninstall??撤去>>
 DesignatorUninstallDesc:撤去すれば移動、売却、別の場所へ配置できる。
@@ -71,7 +71,7 @@ ManageAreas:<<Manage areas...??エリアを編集...>>
 
 DesignatorGrowingZoneDesc:_{colonists}_が特定の植物を栽培するゾーンを作る。
 
-DesignatorZoneCreateStorageResourcesDesc:_{colonists}_が資材を貯める_{stockpile}_を作る。\n既存の_{stockpile}_を広げることもできる。
+DesignatorZoneCreateStorageResourcesDesc:_{colonists}_が物資を貯める_{stockpile}_を作る。\n既存の_{stockpile}_を広げることもできる。
 
 DesignatorZoneCreateStorageDumpingDesc:_{colonists}_がガラクタを貯める_{stockpile}_を作る。\n既存の_{stockpile}_を広げることもできる。
 
@@ -117,7 +117,8 @@ TerrainIsAlready:ここの地面は既に {0} だ。
 SurfaceBeingSmoothed:表面を滑らかにするように既に指示されている。
 IdenticalThingExists:同じ物が既にある。
 IdenticalBlueprintExists:同じ設計が既にある。
-TerrainCannotSupport:ここの地面はこれを支えられない。
+; 水の上も対象なので、「地面」は良くない。
+TerrainCannotSupport:この地形には作れない。
 SpaceAlreadyOccupied:既に塞がっている。
 SpaceBeingSmoothed:ここは滑らかにしようとしている。
 TerrainMustBeRemovable:剥がせる床を指定する。

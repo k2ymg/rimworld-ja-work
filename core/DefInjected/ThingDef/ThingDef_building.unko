@@ -460,7 +460,7 @@
 }
 {NutrientPasteDispenser
 	label:_[nutrient paste dispenser]_
-	description:_?ニュートリエント・ペースト・ディスペンサ。?_隣接する_[Hopper]_に置かれた有機原料から食べられる栄養ペーストを合成する機械。他の調理方法よりも少ない素材と時間でできるが、誰もこれを好んで食べようとはしない。生の食べ物でも構わないが、_[Hay]_のような粗末な植物は使えない。
+	description:_?ニュートリエント・ペースト・ディスペンサ。?_隣接する_[Hopper]_に置かれた有機原料から食べられる栄養ペーストを合成する機械。他の調理方法よりも少ない材料と時間でできるが、誰もこれを好んで食べようとはしない。生の食べ物でも構わないが、_[Hay]_のような粗末な植物は使えない。
 }
 {Hopper
 	label:_[hopper]_
@@ -584,7 +584,7 @@ description:_?センサー・クラスター。?_多機能なセンサーモジ�
 ; Buildings_Special
 {PsychicEmanator
 	label:_[psychic emanator]_
-	description:_?サイキック・エマネイター。?_落ち着く精神場を周りに投射する古代の装置。近くの人の_{mood}_を良くする。壁を突き抜けて作用する。
+	description:_?サイキック・エマネイター。?_落ち着く精神場を周りに放射する古代の装置。近くの人の_{mood}_を良くする。壁を突き抜けて作用する。
 }
 {VanometricPowerCell
 	label:_[vanometric power cell]_

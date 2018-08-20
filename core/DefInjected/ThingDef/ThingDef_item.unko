@@ -255,7 +255,7 @@
 }
 {Neutroamine
 	label:_[neutroamine]_
-	description:_?ニュートロアミン。?_人工合成された化学物質。前駆体。単体では使えないが、多くのドラッグがこれを原料にしている。
+	description:_?ニュートロアミン。?_人工合成された化学物質。前駆体。単体では使えないが、多くのドラッグがこれを材料にしている。
 }
 {Chemfuel
 	label:_[chemfuel]_
@@ -293,7 +293,7 @@
 }
 {RawHops
 	label:_[hops]_
-	description:_?ホップ。?_生の_[Hops]_。味と保存性に関わる、_[Beer]_作りに欠かせない原料。
+	description:_?ホップ。?_生の_[Hops]_。_[Beer]_作りに欠かせない香味料かつ保存料。
 }
 {PsychoidLeaves
 	label:_[psychoid leaves]_
@@ -347,7 +347,7 @@ Bullet_Shell_AntigrainWarhead.label:_[antigrain warhead]_
 }
 {Steel
 	label:_[steel]_
-	description:_?スチール。鋼鉄。?_鉄と炭素からなる合金で、多様な建物、武器、機械のの素材として使われている。
+	description:_?スチール。鋼鉄。?_鉄と炭素からなる合金で、多様な建物、武器、機械に使われている。
 }
 {Plasteel
 	label:_[plasteel]_
@@ -361,7 +361,7 @@ Bullet_Shell_AntigrainWarhead.label:_[antigrain warhead]_
 }
 {Uranium
 	label:_[uranium]_
-	description:_?ウラニウム。?_黒くて、とても重い金属。核反応を利用した装置の燃料として有名だが、密度と硬度が非常に高いので、特定の武器や鎧、弾の材料にも適している。
+	description:_?ウラニウム。?_黒くて、とても重い金属。核反応を利用した装置の燃料として有名だが、密度と硬度が非常に高いので、特定の武器や鎧、弾にも適している。
 }
 {Jade
 	label:_[jade]_

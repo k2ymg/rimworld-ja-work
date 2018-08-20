@@ -175,7 +175,7 @@ CreatureTrainability:<<{0} trainability??{0} 訓練性>>
 ProximitySingleGoodwillChange:<<{0} with {1}??{0} {1}>>
 EnterCooldown:{0} 日までは再入場できない。
 Caravan:<<Caravan??キャラバン>>
-HiddenOrNoSitePartDescription:恐らく危険がある
+HiddenOrNoSitePartDescription:恐らく何らかの危険がある
 PreciousLumpLabel:<<lump of {0}??{0} の塊>>
 NoActiveResearchProjectToFinish:<<no active research project??研究可能なプロジェクトはない>>
 Turret:_<turret>_
@@ -382,9 +382,9 @@ ZoneVisibilityToggleButton:ゾーンを可視化する。
 ShowBeautyToggleButton:美しさを表示する。\n\nマウスで指した所にキャラクタが居る場合に感じる周りの美しさを表示する。
 ShowRoomStatsToggleButton:部屋の状態を表示する。\n\nマウスで指した部屋の状態を表示する。
 ShowColonistBarToggleButton:_{colonist}_バーを表示する。\n\n_{colonists}_全員のアイコンと基本ステータスを画面上部に沿うように表示する。\n\n右クリックしてドラッグすると並べ替えられる。
-AutoHomeAreaToggleButton:新しい建造物の周りを自動的に_<Home area>_にする。
-AutoRebuildButton:_<Home area>_内の破壊された建物を自動的に建造する。
-CategorizedResourceReadoutToggleButton:資材情報のカテゴリ方法の切り替え。
+AutoHomeAreaToggleButton:新しい建造物の周りを自動的に _<Home area>_ にする。
+AutoRebuildButton:_<Home area>_ 内の破壊された建物を自動的に建造する。
+CategorizedResourceReadoutToggleButton:物資情報の分類方法を切り替える。
 ShowAnimalNamesToggleButton:手懐けた動物の名前を表示する。
 ShowRoofOverlayToggleButton:屋根を表示する。
 LockNorthUpToggleButton:北が常に上になるようにカメラの回転を固定する。
@@ -401,7 +401,7 @@ GameConditionsTip:この地域今すぐに影響を及ぼす特殊な条件。
 TimeLeft:<<time left??残り時間>>
 ImpactDate:<<impact date??衝突日>>
 
-NoStuffsToBuildWith:これを作るのに必要な資源が無い。
+NoStuffsToBuildWith:これを作るのに必要な素材が無い。
 
 WillGetWorkSpeedPenalty:{0} の作業速度が低下
 MustPlaceUnroofed:屋根の下には配置できない。

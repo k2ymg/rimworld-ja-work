@@ -32,7 +32,7 @@ LowMedicineDesc:薬が {0} 個しか備蓄されていない。\n\n_{traders}_�
 NoMedicineDesc:薬が何も備蓄されていない。\n\n_{traders}_からもっと薬を買おう。
 
 NeedColonistBeds:<<Need colonist beds??_{colonist}_用ベッドが必要>>
-NeedColonistBedsDesc:_{colonist}_用ベッドより_{colonists}_のほうが多くなっているため、誰かが寝る場所を失う。\n\nもっとベッドを作るか、_{prisoners}_用ベッドを_{colonist}_用に変えよう。資材が無いときは、資材不要ですぐさま設置できる _[sleeping spot]_ が使える。
+NeedColonistBedsDesc:_{colonist}_用ベッドより_{colonists}_のほうが多くなっているため、誰かが寝る場所を失う。\n\nもっとベッドを作るか、_{prisoners}_用ベッドを_{colonist}_用に変えよう。物資が無いときは、物資不要ですぐさま設置できる _[sleeping spot]_ が使える。
 
 HunterLacksWeapon:<<Hunter lacks ranged weapon??_<Hunter>_が遠距離武器を持っていない>>
 HunterLacksWeaponDesc:_<Hunter>_に割り当てられている_{colonist}_が遠距離武器を装備していない。\n\n遠距離武器を装備するまで_<Hunt>_は行われない。

@@ -76,7 +76,7 @@
 {?NamerFactionTribal.rulePack.rulesStrings
 	:r_name->[tribalworld] [political_union_tribal]
 	:r_name->The [tribalworld] [political_union_tribal]
-	:r_name->The [Color_e] [TerrainFeature] [political_union_tribal]
+	:r_name->The [Color_e] [TerrainFeature_e] [political_union_tribal]
 	:r_name->[political_union_tribal] of [WordTribal]
 	:r_name->The [Color_e] [Animal_e] [WordTribal]
 	:r_name->The [WordTribal] of the [TerrainFeature_e]

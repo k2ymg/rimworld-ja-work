@@ -313,6 +313,6 @@ DefeatedHostileFactionLeader.label:defeated hostile leader
 		:desc_sentence->[SELLER_nameDef]と[BUYER_possessive]は価格に同意している。
 		:desc_sentence->[BUYER_nameDef]はアイテムの代金を支払っている。
 		:desc_sentence->[SELLER_nameDef]は受け取ったお金を数えている。
-		:desc_sentence->[BUYER_nameDef]はグッズを手に取っている。
+		:desc_sentence->[BUYER_nameDef]は商品を手に取っている。
 	}
 }

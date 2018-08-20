@@ -72,7 +72,7 @@ HaulToTransporter.reportString:<<hauling TargetA.??TargetA を運んでいる。
 ManTurret.reportString:<<operating turret.??_<Turret>_を操作している。>>
 EnterCryptosleepCasket.reportString:<<entering cryptosleep casket.??_[cryptosleep casket]_に入っている。>>
 UseNeurotrainer.reportString:<<using neurotrainer.??_[neurotrainer]_を使っている。>>
-UseArtifact.reportString:<<activating artifact.??アーティファクトを起動している。>>
+UseArtifact.reportString:<<activating artifact.??遺物を起動している。>>
 UseItem.reportString:<<using TargetA.??TargetA を使用している。>>
 TriggerFirefoamPopper.reportString:<<triggering firefoam popper.??_[firefoam popper]_を起動している。>>
 ClearSnow.reportString:<<clearing snow.??除雪している。>>

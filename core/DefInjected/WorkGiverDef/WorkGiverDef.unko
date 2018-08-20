@@ -203,12 +203,12 @@
 	gerund:<<constructing??建設>>
 }
 {ConstructDeliverResourcesToFrames
-	label:<<deliver resources to frames??資材を施工場所へ運ぶ>>
+	label:<<deliver resources to frames??物資を施工場所へ運ぶ>>
 	verb:<<work on??作業>>
 	gerund:<<working on??作業>>
 }
 {ConstructDeliverResourcesToBlueprints
-	label:<<deliver resources to blueprints??資材を設計場所へ運ぶ>>
+	label:<<deliver resources to blueprints??物資を設計場所へ運ぶ>>
 	verb:<<work on??作業>>
 	gerund:<<working on??作業>>
 }
@@ -384,12 +384,12 @@
 	gerund:<<hauling??運搬>>
 }
 {DeliverResourcesToFrames
-	label:<<deliver resources to frames??_<frame>_へ資材を運ぶ>>
+	label:<<deliver resources to frames??_<frame>_へ物資を運ぶ>>
 	verb:<<deliver to??運搬>>
 	gerund:<<delivering to??運搬>>
 }
 {DeliverResourcesToBlueprints
-	label:<<deliver resources to blueprints??_<blueprint>_へ資材を運ぶ>>
+	label:<<deliver resources to blueprints??_<blueprint>_へ物資を運ぶ>>
 	verb:<<deliver to??運搬>>
 	gerund:<<delivering to??運搬>>
 }

@@ -87,7 +87,7 @@ MessageMiscarriedStarvation:{0} が飢えにより流産した。
 MessageMiscarriedPoorHealth:{0} が体調不良により流産した。
 MessageGaveBirth:{0} が出産した。
 
-MessageNuzzledPawnGaveNameTo:{1} が懐いたので {0} は {2} と名付けた。
+MessageNuzzledPawnGaveNameTo:{1} が懐いたので {0} が {2} と名付けた。
 
 MessageNoHandlerSkilledEnough:{0} は誰も手懐けられない。(必要レベル {1} / {2}、最も高い {3} は {4})。
 
@@ -118,14 +118,14 @@ MessageBondedAnimalsMentalBreak:{0} 匹の動物達は {1} の死により精神
 
 MessageSuccessfullyRemovedHediff:{0} は {1} の {2} の除去に成功した。
 
-MessageShipChunkDrop:宇宙船の残骸が近くに衝突した。\n\n解体すれば資源を得られる。
+MessageShipChunkDrop:宇宙船の残骸が近くに衝突した。\n\n解体すれば物資を得られる。
 
 MessagePartyCalledOff:パーティは中止になった。
 MessagePartyFinished:パーティは終わった。
 
 MessageCannotSellItemsReason:いくつかのアイテムは次の理由により取引できない:
 
-MessageConstructionFailed:{1} は {0} の建造に失敗し、いくつかの資源が無駄になった。
+MessageConstructionFailed:{1} は {0} の建造に失敗し、いくつかの物資が無駄になった。
 
 MessageScreenshotSavedAs:スクリーンショットを次の名前で保存した: {0}
 
