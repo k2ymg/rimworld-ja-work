@@ -14,10 +14,10 @@ EnemyRaidLeaderPresent:{1} は派閥 {0} のリーダーだ。
 FriendlyRaidLeaderPresent:{1} は派閥 {0} のリーダーだ。
 
 LetterLabelRefugeePodCrash:_[Transport pod]_
-RefugeePodCrash:[PAWN_nameDef]という[PAWN_title]が_[Transport pod]_で墜落してきた。この衝撃でも生き残っているのなら、かなり重傷だろう。
-RefugeePodCrash_Factionless:[PAWN_nameDef]はどこの派閥にも属していない。[PAWN_objective]を救助して本人の好きにさせるか、それとも勧誘や奴隷目的で捕まえることもできる。
-RefugeePodCrash_Hostile:[PAWN_nameDef]は敵の[PAWN_factionName]から来た。勧誘や奴隷目的で捕まえられる。
-RefugeePodCrash_NonHostile:[PAWN_nameDef]は[PAWN_factionName]から来た。助けると仲間になるかもしれない。それか、元いた場所へ帰り、あなたの善意を伝え広めるかもしれない。\n\n勧誘や奴隷目的で捕まえることもできるが、その場合は[PAWN_possessive]の派閥を怒らせることになる。
+RefugeePodCrash:[PAWN_nameDef] という [PAWN_title] が _[Transport pod]_ で墜落してきた。この衝撃でも生き残っているのなら、かなり重傷だろう。
+RefugeePodCrash_Factionless:[PAWN_nameDef] はどこの派閥にも属していない。[PAWN_objective]を救助して本人の好きにさせるか、それとも勧誘や奴隷目的で捕まえることもできる。
+RefugeePodCrash_Hostile:[PAWN_nameDef] は敵の [PAWN_factionName] から来た。勧誘や奴隷目的で捕まえられる。
+RefugeePodCrash_NonHostile:[PAWN_nameDef] は [PAWN_factionName] から来た。助けると仲間になるかもしれない。それか、元いた場所へ帰り、あなたの善意を伝え広めるかもしれない。\n\n勧誘や奴隷目的で捕まえることもできるが、その場合は[PAWN_possessive]の派閥を怒らせること になる。
 
 LetterLabelCargoPodCrash:_<Cargo pods>_
 CargoPodCrash:_{Cargo pod}_の墜落を近くに確認した。\n\n残骸から何か役立つ物が見つかるかもしれない。
@@ -48,7 +48,7 @@ VisitorsLeaving:{0} からの訪問者達は去ろうとしている。
 ;WandererJoin:[PAWN_nameDef] という名前の {0} がやってきて_[colony}_に加わった。[PAWN_pronoun]は {1} だ。\n\n[PAWN_pronoun]は協力的だが、自ら出て行こうとはしない。もし、[PAWN_nameDef]が邪魔なら、追放したり、奴隷商に売ったり、殺したりできる。しかし、他の_{colonists}_はこの騒動に感づくだろう。
 
 LetterLabelManhunterPackArrived:_<Manhunter pack>_
-ManhunterPackArrived:{0}の_{manhunter pack}_がやって来た。この地域をうろつき、人間狩りを行う。\n\n誰かがドアを通るのを見ない限り、ドアを攻撃することはない。中に隠れていれば安全だ。また、動いていない_<Turret>_も攻撃しないので、_<Turret>_を守りたいならオフにする。\n\n{0}は一日か二日でここから出て行く。出て行くまで隠れても良いし、戦っても良い。
+ManhunterPackArrived:{0} の_{manhunter pack}_がやって来た。この地域をうろつき、人間狩りを行う。\n\n誰かがドアを通るのを見ない限り、ドアを攻撃することはない。中に隠れていれば安全だ。また、動いていない_<Turret>_も攻撃しないので、_<Turret>_を守りたいならオフにする。\n\n{0}は一日か二日でここから出て行く。出て行くまで隠れても良いし、戦っても良い。
 
 MessageAnimalInsanityPulse:古代の構造物が近くの動物達を狂気へと駆り立てる精神パルスを放射した。
 LetterShipPartDroveColonistInsane:墜落した船の一部が_{colonist}_ {0} に対して狂気へと駆り立てる精神パルスを放射した。

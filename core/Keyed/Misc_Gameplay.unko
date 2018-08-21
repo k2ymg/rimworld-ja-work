@@ -10,7 +10,7 @@ MedicalBed:<<Medical??医療用>>
 Owner:<<Owner??所有者>>
 Owners:<<Owners??所有者>>
 AssignedColonist:<<Assigned colonist??担当者>>
-DiedOn:<<Died on the {0}??{0} により死亡>>
+DiedOn:<<Died on the {0}??{0} に死亡>>
 Nobody:<<Nobody??無し>>
 Unowned:<<Unowned??空き>>
 DeadTime:<<Dead for {0}??死後 {0}>>
@@ -87,8 +87,8 @@ CaravanAnimal:<<1 animal??1 匹の動物>>
 CaravanAnimalsCount:<<{0} animals??{0} 匹の動物>>
 CaravanPrisoner:<<1 prisoner??1 人の_{prisoner}_>>
 CaravanPrisonersCount:<<{0} prisoners??{0} 人の_{prisoners}_>>
-CaravanPawnsInMentalState:<<{0} in mental state??{0} が精神異常>>
-CaravanPawnsDowned:<<{0} downed??{0} が倒れた>>
+CaravanPawnsInMentalState:<<{0} in mental state??{0} 人が精神異常>>
+CaravanPawnsDowned:<<{0} downed??{0} 人が行動不能>>
 CaravanTraveling:<<Traveling.??移動中。>>
 ;CaravanPaused:<<Resting.??休憩中。>>
 CaravanWaiting:<<Waiting.??待機中>>

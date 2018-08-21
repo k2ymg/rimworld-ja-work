@@ -7,7 +7,7 @@
 
 ; Various_Stones
 {$MakeStoneBlocksBase
-	jobString:<<Cutting stone blocks from chunk.??塊から石を切り出している。>>
+	jobString:<<Cutting stone blocks from chunk.??塊から石のブロックを切り出している。>>
 }
 
 {Make_StoneBlocksSandstone
@@ -160,7 +160,7 @@
 }
 {Make_Patchleather
 	label:<<make patchleather??_[patchleather]_ を作る>>
-	description:異なる種類の皮を組み合わせて低品位なつぎはぎの皮を作る。
+	description:異なる種類の革を組み合わせて低品位なつぎはぎの革を作る。
 	jobString:<<Making patchleather.??_[Patchleather]_ を作っている。>>
 }
 

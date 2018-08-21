@@ -25,7 +25,7 @@ HelpTranslate:<<Help translate RimWorld??RimWorld の翻訳を手伝う>>
 BuySoundtrack:<<Buy soundtrack??サウンドトラックの購入>>
 CreateWorld:<<Create world??ワールドを作る>>
 
-TranslationThanks:RimWorldの翻訳は全ファンによって作られています。これらの翻訳は以下の素晴らしいボランティア達によって作られました:\n\n{0}
+TranslationThanks:RimWorldの翻訳は全てファンによって作られています。これらの翻訳は以下の素晴らしいボランティア達によって作られました:\n\n{0}
 TranslationHowToContribute:あなたも協力できます。詳細は以下をクリックしてください。(ブラウザが開きます。)
 LearnMore:<<Learn more??詳細>>
 
@@ -146,7 +146,7 @@ HasCaves:<<caves??洞窟>>
 FactionBase:<<Faction base??本拠地>>
 StoneTypesHere:<<Stone types??主な地質>>
 TimeZone:<<Time zone??タイムゾーン>>
-MovementDifficulty:<<Movement difficulty??移動のしやすや>>
+MovementDifficulty:<<Movement difficulty??移動の難しさ>>
 AnimalsCanGrazeNow:<<Animals can graze now??現在動物は草を食べられるか>>
 AverageDiseaseFrequency:<<Average disease frequency??疾病 平均頻度>>
 PerYear:<<per year??年毎>>

@@ -62,8 +62,8 @@ Open.reportString:<<opening TargetA.??TargetA を開けている。>>
 ;RearmTrap.reportString:TargetA を再装填している。
 RearmTurret.reportString:<<rearming TargetA.??TargetA を再装填している。>>
 RearmTurretAtomic.reportString:<<rearming TargetA.??TargetA を再装填している。>>
-Refuel.reportString:<<refueling TargetA.??TargetA を補給している。>>
-RefuelAtomic.reportString:<<refueling TargetA.??TargetA を補給している。>>
+Refuel.reportString:<<refueling TargetA.??TargetA に補給している。>>
+RefuelAtomic.reportString:<<refueling TargetA.??TargetA に補給している。>>
 FillFermentingBarrel.reportString:<<filling TargetA.??TargetA に注いでいる。>>
 TakeBeerOutOfFermentingBarrel.reportString:<<taking beer out of TargetA.??TargetA から_[beer]_を汲み出している。>>
 UnloadInventory.reportString:<<unloading TargetA.??TargetA から荷下ろししている。>>

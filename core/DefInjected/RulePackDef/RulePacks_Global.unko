@@ -106,8 +106,8 @@
 	; added
 	:Animal_e->English/Words/Nouns/Animals
 	:TerrainFeature_e->English/Words/Nouns/TerrainFeatures
-	:NaturalObject_e->Words/Nouns/NaturalObject
-	:TreeType_e->Words/Nouns/TreeTypes
+	:NaturalObject_e->English/Words/Nouns/NaturalObject
+	:TreeType_e->English/Words/Nouns/TreeTypes
 	:PersonJob_e->English/Words/Nouns/People_Jobs
 	:Enemy_e->English/Words/Nouns/Enemies
 	:Gore_e->English/Words/Nouns/Gore

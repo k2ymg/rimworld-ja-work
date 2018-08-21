@@ -167,7 +167,7 @@
 }
 {HoopstoneRing
 	label:_[hoopstone ring]_
-	description:_?フープストーン・リング。?_石と地面に描いた大きな輪を使う昔ながらの遊び。離れたところから輪を通すように石を投げる。くつろげるうえに、_<shooting>_スキルも鍛えられる。
+	description:_?フープストーン・リング。?_石と地面に立てた大きな輪を使う昔ながらの遊び。離れたところから輪を通すように石を投げる。くつろげるうえに、_<shooting>_スキルを鍛えられる。
 }
 {GameOfUrBoard
 	label:_[game-of-Ur board]_
