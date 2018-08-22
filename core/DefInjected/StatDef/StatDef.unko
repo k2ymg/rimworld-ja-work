@@ -442,7 +442,7 @@
 
 {MedicalSurgerySuccessChance
 	label:<<medical surgery success chance??手術成功率>>
-	description:手術の成功率。実際の成功率は設備、薬の使用、部屋の清潔さ、手術の難度にも影響される。
+	description:手術の成功率。実際の成功率は設備、薬の使用、部屋の清潔さ、手術の難度、閃きにも影響される。どれほど成功率が高くても、失敗する可能性が消えるわけではない。
 }
 
 ; Stats_Pawns_WorkRecipes

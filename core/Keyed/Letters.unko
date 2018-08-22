@@ -194,8 +194,8 @@ LetterLabelHibernateComplete:<<Reactor ready??反応炉準備完了>>
 LetterHibernateComplete:Charlon Whitestone が反応炉の復帰処理を完了させ、離陸するパワーを出せるようになった。
 LetterHibernateCompleteStandalone:反応炉の復帰処理が完了し、離陸するパワーを出せるようになった。
 
-LetterLabelVisitorsGaveGift:<<Gift??贈り物>>
-LetterVisitorsGaveGift:苦労しているようなので、助けて上げましょう。
+LetterLabelVisitorsGaveGift:<<Gift from {0}??{0} からの贈り物>>
+LetterVisitorsGaveGift:[PAWN_factionName] の {0} が 贈り物を置いていった:\n\n{1}
 
 LetterLabelFactionBaseProximity:<<Faction base proximity??派閥の本拠地に接近>>
 LetterFactionBaseProximity:他の派閥の拠点に近すぎるため、これらの派閥は縄張りを荒らされていると感じている。\n\n以前の節と比べて、派閥との友好度は次のように減少した:

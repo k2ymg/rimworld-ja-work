@@ -41,7 +41,7 @@
 {Inspired_Surgery
 	label:_<inspired surgery>_
 ;	beginLetterLabel:_<Inspiration>_: _<Inspired surgery>_
-	beginLetter:[PAWN_nameIndef] が閃きを感じた！\n\n手術の失敗率が10分の1になる。\n\n8日経過するか、手術が終わると閃きは終わる。
+	beginLetter:[PAWN_nameIndef] が閃きを感じた！\n\n次の手術の成功率が2倍になる。\n\n8日経過するか、手術が終わると閃きは終わる。
 	endMessage:{0} の閃きは終わった (_<inspired surgery>_)。
 	baseInspectLine:_<Inspired>_: _<Inspired surgery>_
 }

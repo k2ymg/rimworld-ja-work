@@ -254,6 +254,10 @@ function replace([string]$str)
 	}
 
 	#$str.replace('//', "`u{200b}") #faq. zero-width space not work
+
+	#if($str -ne $str.trim()){
+	#	throw [myunko]"contain lead or last space: $($str)"
+	#}
 	$str
 }
 
@@ -282,6 +286,10 @@ function make_words
 				write-host "Error: Value is empty: $($file_name)($count): $_"
 				$script:error_stop = $true
 			}else{
+				if($value -ne $value.trim()){
+					write-host "Error: Value contain lead or last space: $($file_name)($count): $_"
+					$script:error_stop = $true
+				}
 				if($value.indexOf(':') -ge 0){
 					write-host "Error: Contain separator: $($file_name)($count): $_"
 					$script:error_stop = $true
@@ -845,7 +853,7 @@ if(!$testMode -and ($target -eq 'all')){
 	copy-item 'core\misc\*' $dst_root -force -recurse
 }
 
-if($target -eq 'all' -and !$testMode){
+if(($target -eq 'all') -and !$testMode -and ($trans_mode -eq [TransMode]::A)){
 	foreach($word in $words.getEnumerator()) {
 		$value = $word.value
 		if($value.count -le 0){

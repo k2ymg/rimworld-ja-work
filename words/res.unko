@@ -102,7 +102,7 @@ insect jelly:インセクト・ジェリー
 
 unfert:無精卵
 fert:有精卵
-eggs (unfert.): 卵 (_{unfert}_)
+eggs (unfert.):卵 (_{unfert}_)
 eggs (fert.):卵 (_{fert}_)
 turkey egg (fert.):_{turkey}_の卵 (_{fert}_)
 ostrich egg (fert.):_{ostrich}_の卵 (_{fert}_)

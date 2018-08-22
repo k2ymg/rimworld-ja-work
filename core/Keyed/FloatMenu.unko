@@ -77,7 +77,7 @@ Rescue:<<Rescue {0}??{0} を_{Rescue}_する>>
 CannotRescue:<<Cannot rescue??_{Rescue}_できない>>
 
 CarryToCryptosleepCasket:<<Carry {0} to cryptosleep casket??{0} を _[Cryptosleep casket]_ に運ぶ>>
-CannotCarryToCryptosleepCasket:<<Cannot carry to cryptosleep casket?? _[Cryptosleep casket]_ に運べない>>
+CannotCarryToCryptosleepCasket:<<Cannot carry to cryptosleep casket??_[Cryptosleep casket]_ に運べない>>
 
 NoCryptosleepCasket:<<No available cryptosleep casket.??_[Cryptosleep casket]_ がない。>>
 NoPrisonerBed:到達でき、使われておらず、閉じられた空間にあり、適温な環境にある_{prisoner}_用のベッドがない

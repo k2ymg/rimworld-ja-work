@@ -95,14 +95,26 @@ Woman.stages.woman.label:<<woman??女>>
 	description:恋人がいる事で、こんな気にさせる。
 }
 
-{BondedAnimalMaster.stages.s_master
-	label:<<{0}'s master??{0} の主人>>
-	description:絆で結ばれた動物がいることで、私の気分を良くしてくれる。
+{BondedAnimalMaster.stages
+	{s_master
+		label:<<{0}'s master??{0} の主人>>
+		description:絆で結ばれた動物がいることで、私の気分を良くしてくれる。
+	}
+	{master_of
+		label:<<master of {0}??{0} の主人>>
+		description:絆で結ばれた動物がいることで、私の気分を良くしてくれる。
+	}
 }
 
-{NotBondedAnimalMaster.stages.not_s_master
-	label:<<not {0}'s master??{0} の主人でない>>
-	description:絆で結ばれている私が主人になるべきだ。
+{NotBondedAnimalMaster.stages
+	{not_s_master
+		label:<<not {0}'s master??{0} の主人でない>>
+		description:絆で結ばれている私が主人になるべきだ。
+	}
+	{not_master_of
+		label:<<not master of {0}??{0}の主人でない>>
+		description:絆で結ばれている私が主人になるべきだ。
+	}
 }
 
 {WantToSleepWithSpouseOrLover.stages.want_to_sleep_with
