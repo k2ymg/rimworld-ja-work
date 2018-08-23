@@ -170,7 +170,9 @@ Harvestable:<<Harvestable??収穫可能>>
 LimitedLifespan:<<Limited lifespan??寿命あり>>
 GrowingTime:<<Growing time??成長時間>>
 HarvestYield:<<Harvest yield??収穫量>>
-GrowingTimeDesc:植物は一日のうち、光が当たっている時だけ成長する。この値は植物が最大限まで育つために実際に必要な時間の総計を表している。大抵、実際の成長時間は約2倍かかる。低温時でも植物の成長は遅くなる。
+MinGrowthTemperature:<<Min growth temperature??成長下限温度>>
+MaxGrowthTemperature:<<Max growth temperature??成長上限温度>>
+GrowingTimeDesc:植物は一日のうちの特定の時間かつ、光が当たっている時だけ成長する。この値は植物が最大限まで育つために実際に必要な時間の総計を表している。大抵、実際の成長時間は約2倍かかる。低温時でも植物の成長は遅くなる。
 Days:<<days??日>>
 MinGrowingSkillToSow:<<Minimum growing skill to sow??必要な栽培スキル>>
 FertilityRequirement:<<Fertility requirement??必要な肥沃度>>
