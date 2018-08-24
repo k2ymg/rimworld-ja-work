@@ -194,6 +194,8 @@ MessageTransportPodsArrivedAndAddedToCaravan:_[Transport pod]_ が到着した�
 
 MessageFinishedLoadingTransporters:_{colonists}_は _[Transport pod]_ への積み込みを終えた。
 
+MessageCantLoadMoreIntoTransporters:{1} は _[Transport pod]_ への積み込みを終えられない。アイテムか人が得られなくなったため。 ({0})。
+
 MessageTransportPodsDestinationIsInvalid:選択された目的地が不正。
 MessageTransportPodsDestinationIsTooFar:_[Transport pod]_ をその距離まで飛ばすには、各 _[Pod launcher]_ に最低でも {0} の燃料が必要。
 

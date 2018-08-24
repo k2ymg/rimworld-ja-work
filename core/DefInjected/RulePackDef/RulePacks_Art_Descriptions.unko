@@ -100,8 +100,8 @@
 	:side_position->遠くに
 	:side_position->イメージの下側に
 	:side_position->イメージの上側に
-	:side_position->主要なシーンの左側へ
-	:side_position->主要なシーンの右側へ
+	:side_position->主要なシーンの左側に
+	:side_position->主要なシーンの右側に
 	:side_position->イメージの縁に
 	:side_position->主題の近くに
 	:side_position->主題から遠く離れた所に

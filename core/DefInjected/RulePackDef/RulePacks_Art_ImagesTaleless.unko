@@ -1,8 +1,9 @@
 ﻿{?TalelessImages.rulePack.rulesStrings
 	; imageは名詞文にすること。また、desc_pawnは空の場合もある。
-	:image->[desc_pawn]一人の[Character]
-	:image->[desc_pawn][TerrainFeature]の近くにいる一人の[Character]
-	:image->[desc_pawn][Community]の近くにいる一人の[Character]
+	;Characterは人とは限らない。
+	:image->[desc_pawn][Character]
+	:image->[desc_pawn][TerrainFeature]の近くにいる[Character]
+	:image->[desc_pawn][Community]の近くにいる[Character]
 	;順番の問題。元がクソなのでどうしようもない。
 	:image->[desc_pawn][Character]達に囲まれている[Character]
 	:image->[Game]をしている[Character]達
