@@ -163,7 +163,7 @@ FinalCaravanMovementSpeed:<<Final speed??最終速度>>
 Winter:<<Winter??冬>>
 MovementDifficultyOffsetInWinter:<<{0} in winter??{0} は冬>>
 RangeTo:<<to??から>>
-NoDietCategoryLetter:<<No letter??通知無し>>
+NoDietCategoryLetter:<<No letter??表記無し>>
 ExpiresIn:<<Expires in??期限切れまで残り>>
 CaravanLeaderCaravanName:<<{0}'s caravan??{0} のキャラバン>>
 Reason:<<Reason??理由>>

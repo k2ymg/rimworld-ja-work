@@ -300,8 +300,8 @@ MarketValueTip:<<Market value??市場価格>>
 DaysUntilRotTip:この地域の平均気温を元にした、このアイテムが腐り始めるまでの日数。
 ItemNutritionTip:この食べ物に含まれる栄養量。\n\n例えば: 大人は一日あたり {0} の栄養が必要。
 AnimalCanGrazeTip:この動物は持っている食料の代わりに草を食べられる。植食はいくつかのバイオームと気温範囲でのみ可能。
-NutritionForagedPerDayTip:一日あたりに_{foraged}_される栄養。実際の_{foraged}_量はバイオームの_{forageability}_にも影響される。\n\n{0}
-NutritionEatenPerDayTip:一日に消費される栄養。参考までに、_[Simple meal]_ は {0} の栄養がある。\n\n食べられる: {2}\n\n印:\n{1}.
+NutritionForagedPerDayTip:一日ごとに_{foraged}_される栄養。実際の_{foraged}_量はバイオームの_{forageability}_にも影響される。\n\n{0}
+NutritionEatenPerDayTip:一日ごとに消費する栄養。参考として、 _[Simple meal]_ は {0} の栄養がある。\n\n食べられる物: {2}\n\n略字の意味:\n{1}.
 MassCarriedSimple:<<Mass carried??持ち物の重量>>
 MassCapacity:<<Mass capacity??最大重量>>
 Mass:<<Mass??重量>>

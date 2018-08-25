@@ -184,6 +184,12 @@ titleShort:_<apprentice>_
 desc:[PAWN_nameDef]は父の鍛冶場を手伝っていた。\n\n伝統的な技法を使っている残り少ない鍛冶屋で、材料も自分達で集めていた。\n\n時々、仕事の後に自作の剣を使って練習していた。
 }
 
+{Archaeologist85
+title:_<Archaeologist>_
+titleShort:_<Explorer>_
+desc:[PAWN_pronoun]は退屈な日常に囚われていた。ある日、考古学を学ぶため、世界を見るために船に飛び乗った。\n\n生き抜く方法を身につけた。人々の事も学んだが、生者よりも死者の方がマシだと考えている。
+}
+
 {Architect28
 title:_<architect>_
 titleShort:_<architect>_
@@ -597,6 +603,12 @@ desc:[PAWN_nameDef]は巨大で複雑な地下洞窟で穴掘りの仕事をし�
 title:_<charity worker>_
 titleShort:_<altruist>_
 desc:_[Glitterworld]_はここに住めるほどに幸運な人々にとっては天国のように安全で快適だが、[PAWN_nameDef]は貧困に喘ぐ近隣の星々を無視できなかった。[PAWN_pronoun]は寄付を訴え、困っている人々を支えていた。
+}
+
+{Chemist54
+title:_<Chemist>_
+titleShort:_<Chemist>_
+desc:[PAWN_nameDef]は栄えている_[Midworld]_で有名な_{chemist}_だった。\n\n人々を獣に変える非人道的な実験をした後、[PAWN_pronoun]は逮捕されて最果ての世界へと追放された。
 }
 
 {Chemist73
@@ -1664,10 +1676,10 @@ titleShort:_<noble>_
 desc:[PAWN_nameDef]はある大きな王族で位の低い王として生まれた。\n\n[PAWN_pronoun]は幼い頃から故郷の星を統治し、仕事を通して政治的、文化的な技能を学んだ。
 }
 
-{HillbillyProdigy33
+{HillbillyProdigy85
 title:_<hillbilly prodigy>_
 titleShort:_<hillbilly>_
-desc:毛皮に包まれた亜人間が主に住んでいる寒い山がちな星に生まれたBenjaminは、酒場の喧嘩や銃撃戦の音を聞きながら育った。子供の頃はバンジョーを弾いたり、メカニックとして働いていたが、[PAWN_pronoun]の異常な知性はもっと別な事を求めていた。[PAWN_pronoun]は20歳の時に医学学校に入学した。
+desc:毛皮に包まれた亜人間が主に住んでいる寒い山がちな星に生まれたBenjaminは、酒場の喧嘩や銃撃戦の音を聞きながら育った。子供の頃はバンジョーを弾いたり、メカニックとして働いていたが、[PAWN_pronoun]の異常な知性はもっと別な事を求めていた。[PAWN_pronoun]は若い頃に医学学校に入学した。
 }
 
 {HiredAssassin2
@@ -1896,6 +1908,12 @@ desc:[PAWN_nameDef]の母星で戦争が起こった後、[PAWN_pronoun]は言�
 title:_<lazy programmer>_
 titleShort:_<programmer>_
 desc:[PAWN_nameDef]は地元の_[Urbworld]_企業に対抗出来るほどのソフトを個人で開発した。\n\n[PAWN_pronoun]の法的に怪しいやり方は知的財産窃盗の申し立て件数を増やす一方だった。
+}
+
+{LogicalChild2
+title:_<Logical child>_
+titleShort:_<Logic kid>_
+desc:[PAWN_pronoun]はコンピュータのような論理的な物事が好きで、芸術面はさっぱりだった。\n\n人付き合いが悪かったので友達は少なかったが、代わりにとても親密だった。
 }
 
 {Loner40
@@ -2976,6 +2994,11 @@ titleShort:_<scout>_
 desc:小さい帝国の植民地監督官の元に生まれた[PAWN_nameDef]は偵察技能を教える青年向けプログラムに入隊させられた。\n\n[PAWN_pronoun]は荒野で生きる方法、従うこと、質問しないことを学んだ。
 }
 
+{Scrounger25
+title:_<Scrounger>_
+titleShort:_<Scrounger>_
+desc:[PAWN_nameDef]は価値がある物や面白い物を探してゴミ山によく入っていた。\n\n[PAWN_pronoun]は臭い匂いや、何週間もの大怪我をするような危険な事を気にしなかった。
+}
 
 {Sculptor63
 title:_<sculptor>_

@@ -308,9 +308,9 @@ MessagePredatorHuntingPlayerAnimal:{0} が {1} を捕食しようとしている
 MessagePrisonerResistanceBroken:_{prisoner}_ {0} の抵抗は {1} により砕かれた。
 MessagePrisonerResistanceBroken_RecruitAttempsWillBegin:勧誘出来るようになった。
 
-MessageDisableModsBeforeCleaningTranslationFiles:このツールを使う前に全てのMODを無効にする。
+MessageDisableModsBeforeCleaningTranslationFiles:このツールを使う前には、全てのMODを無効にして下さい。
 MessageTranslationFilesCleanupDone:完了。処理したフォルダ: {0}
 
-MessageCantCleanupTranslationFilesBeucaseOfXmlError:翻訳ファイル({0})が読み込めませんでした。先にXMLのパースエラーをを直して下さい。
+MessageCantCleanupTranslationFilesBeucaseOfXmlError:翻訳ファイル({0})が読み込めませんでした。先にXMLのパースエラーを直して下さい。
 
-MessageCapturingWillAngerFaction:警告:[PAWN_nameDef]を捕まえると派閥[PAWN_factionName]が怒る。
+MessageCapturingWillAngerFaction:警告: [PAWN_nameDef] を捕まえると派閥 [PAWN_factionName] が怒る。

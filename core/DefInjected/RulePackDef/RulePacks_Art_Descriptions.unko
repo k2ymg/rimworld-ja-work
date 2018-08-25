@@ -2,9 +2,9 @@
 	:r_art_description->[physical_description_root][context_sentence]
 	:circumstance_group->[circumstance_phrase]
 	:desc_sentence_group->[desc_sentence] [style_group]
-	:context_sentence->この[depiction]は、[DATE]にあった、[tale_noun]について触れている。
-	:context_sentence->この[depiction]は、[DATE]にあった、[tale_noun]に関連している。
-	:context_sentence->この[depiction]は、[DATE]にあった、[tale_noun]を伝えている。
+	:context_sentence->この[depiction]は、 [DATE] にあった、 [tale_noun]について触れている。
+	:context_sentence->この[depiction]は、 [DATE] にあった、 [tale_noun]に関連している。
+	:context_sentence->この[depiction]は、 [DATE] にあった、 [tale_noun]を伝えている。
 }
 
 {?ArtDescriptionRoot_Taleless.rulePack.rulesStrings
@@ -27,7 +27,7 @@
 	:artconjunction->刺激的なのは、
 	:artconjunction->この手の作品には珍しいことに、
 	:artconjunction->誰もあまり気に掛けないが、
-	:artconjunction->それを除けば、
+	:artconjunction->それの他に、
 
 	:artextra_clause->イメージは[subimageplural]で縁取られている
 	:artextra_clause->イメージの端に[subimageplural]がある
