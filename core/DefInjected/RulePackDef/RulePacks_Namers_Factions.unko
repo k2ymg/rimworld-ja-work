@@ -23,8 +23,8 @@
 	:r_name(p=4)->[townname_combo]
 	:r_name->[townname_near]
 
-	:topicalnoun->[Vegetable]
-	:topicalnoun->[Game]
+	:topicalnoun->[Vegetable_e]
+	:topicalnoun->[Game_e]
 	:topicalnoun->[BodyPart]
 
 	:townname_combo->[topicalnoun] [TerrainFeature_e]
@@ -34,8 +34,8 @@
 	:townname_combo(p=2)->[concept_positive]'s [TerrainFeature_e]
 	:townname_combo(p=2)->[concept_positive] [TerrainFeature_e]
 	:townname_combo(p=2)->[concept_positive] [Community_e]
-	:townname_combo(p=3)->[Character]'s [TerrainFeature_e]
-	:townname_combo(p=3)->[Character]'s [Community_e]
+	:townname_combo(p=3)->[Character_e]'s [TerrainFeature_e]
+	:townname_combo(p=3)->[Character_e]'s [Community_e]
 
 	:townname_near->[nearnameinitial]-at-the-[TerrainFeature_e]
 	:townname_near->[nearnameinitial]-by-the-[TerrainFeature_e]
@@ -73,6 +73,12 @@
 	:townend->ron
 	:townend->well
 }
+{?NamerSettlementOutlander.rulePack.rulesFiles
+	; replace
+	:townname_fixed->Names/OutlanderTown
+	:concept_positive->English/Words/Nouns/Concepts_Positive
+}
+
 {?NamerFactionTribal.rulePack.rulesStrings
 	:r_name->[tribalworld] [political_union_tribal]
 	:r_name->The [tribalworld] [political_union_tribal]
@@ -84,8 +90,8 @@
 
 {?NamerSettlementTribal.rulePack.rulesStrings
 	:r_name(p=2)->[WordTribal]
-	:r_name->[Color] [WordTribal]
-	:r_name->[Color] [TerrainFeature_e]
+	:r_name->[Color_e] [WordTribal]
+	:r_name->[Color_e] [TerrainFeature_e]
 	:r_name->[WordTribal] [TerrainFeature_e]
 }
 
@@ -136,7 +142,7 @@
 	:townname_combo->[Weapon_e] [geography]
 	:townname_combo->[ColorBadass_e] [geography]
 	:geography(p=2)->[TerrainFeature_e]
-	:geography->[Community]
+	:geography->[Community_e]
 
 	:townname_wordgen(p=2)->[SylE][SylE]
 	:townname_wordgen(p=2)->[SylE][SylE][SylE]

@@ -55,7 +55,7 @@
 }
 {DoubleBed
 	label:_[double bed]_
-	description:_?ダブル・ベッド?_簡素な二人用のベッド。
+	description:_?ダブル・ベッド。?_簡素な二人用のベッド。
 }
 {RoyalBed
 	label:_[royal bed]_

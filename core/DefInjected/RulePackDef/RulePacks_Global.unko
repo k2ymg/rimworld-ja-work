@@ -50,6 +50,10 @@
 	:PersonalCharacteristic(p=0.15)->性的な嗜好
 	:PersonalCharacteristic(p=0.15)->性的な経験
 	; added
+	:Character_e(p=6)->[PersonJob]
+	:Character_e(p=4)->[Animal]
+	:Character_e(p=3)->[Enemy]
+	:Character_e->[Mechanoid]
 	:AdjectiveAny_e->[AdjectiveBadass_e]
 	:AdjectiveAny_e->[AdjectiveAngsty_e]
 	:AdjectiveAny_e->[AdjectiveFriendly_e]
@@ -112,6 +116,7 @@
 	:Enemy_e->English/Words/Nouns/Enemies
 	:Gore_e->English/Words/Nouns/Gore
 	:Apparel_e->English/Words/Nouns/Apparel
+	:Bodypart_e->English/Words/Nouns/Bodyparts
 	:AdjectiveBadass_e->English/Words/Adjectives/Badass
 	:AdjectiveAngsty_e->English/Words/Adjectives/Angsty
 	:AdjectiveFriendly_e->English/Words/Adjectives/Friendly

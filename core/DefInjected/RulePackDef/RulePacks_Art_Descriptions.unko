@@ -109,7 +109,7 @@
 	:side_position->焦点の下に
 
 	:style_clause(p=4)->この作品は[ConceptAny][symbolizes]
-	:artextra_clause->[subimagesingle][side_position][ConceptAny][symbolizes]
+	:artextra_clause->[side_position]ある[subimagesingle]が[ConceptAny][symbolizes]
 	:style_clause->この作品は[ConceptAny]のアイデアが注ぎ込まれ、 [artstyle_adj]様式になっている
 	:style_clause->この作品は[artstyle_adj]様式で作られている
 	:style_clause->主要なシーンの[artstyle_adj]様式が[artstyle_adj]様式の背景描写で台無しになっている
@@ -117,7 +117,8 @@
 	:style_clause->全体的な構成は[composition]構造になっている
 	:style_clause->スタイルは[artstyle_adj]で、[artstyle_adj]の要素がある
 	:style_clause->このイメージには何らかの方法で[ConceptAny]とConceptAnyconcept]の両方が表現されている
-	:style_clause->イメージは[ConceptAny]と[ConceptAny]を対比している
+	;これも語順の問題・・・faq
+	:style_clause->イメージは[ConceptAny]と[ConceptAny]を対照させている
 	:style_clause->イメージの[composition]構成は[artstyle_adj]様式と殆どぶつかり合っている
 	:style_clause->この作品の色相は、[Color]から[Color]へと次第に変化している
 	:style_clause->イメージにあるほとんどの形状は[composition]構造になっているように見える

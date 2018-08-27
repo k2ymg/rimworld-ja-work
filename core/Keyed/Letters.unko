@@ -53,8 +53,8 @@ AncientShrineWarning:{0} は古代の壁に近づくにつれて嫌な予感に�
 StruckMineable:{0}の鉱脈に突き当たった!
 
 LetterLabelAnimalManhunterRevenge:<<{0} revenge??{0} の反撃>>
-AnimalManhunterFromDamage:[PAWN_indefinite] は傷つけられて攻撃してきた!\n\n近くの人を襲う。寝ると落ち着く。
-AnimalManhunterFromTaming:[PAWN_indefinite] は下手な手懐けにより攻撃してきた！
+AnimalManhunterFromDamage:[PAWN_indefinite] が傷つけられて攻撃してきた!\n\n近くの人を襲う。寝ると落ち着く。
+AnimalManhunterFromTaming:[PAWN_indefinite] が下手な手懐けをされて攻撃してきた！
 AnimalManhunterOthers:近くにいた他の {0} も怒りだした！
 
 LetterFriendlyTrapSprungLabel:<<{0} hit trap??{0} が罠にはまった>>
