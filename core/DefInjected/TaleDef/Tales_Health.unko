@@ -252,7 +252,8 @@
 		:tale_noun->[KILLER_nameDef]が[VICTIM_nameDef]を[wound_name_past]事
 		:tale_noun->[KILLER_nameDef]が[WEAPON_label]で[VICTIM_nameDef]を[wound_name_past]事
 
-		:image->[KILLER_nameFull]が[VICTIM_nameFull]の[CAPACITY_label]能力を[with_weapon_optional][cap_removal]いる様子
+		; capacityには「運動」や「意識」などが入るが、～機能や～能力というのはどれも上手く合わないので、無視する
+		:image->[KILLER_nameFull]が[VICTIM_nameFull]の[CAPACITY_label]を[with_weapon_optional][cap_removal]いる様子
 		:image->[KILLER_nameFull]が[VICTIM_nameFull]の[CAPACITY_label]を[with_weapon_optional][cap_removal]、[wound_name_present]様子
 
 		:cap_removal->破壊して

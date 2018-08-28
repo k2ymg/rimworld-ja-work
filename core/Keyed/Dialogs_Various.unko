@@ -322,7 +322,7 @@ CaravanMovementSpeedTip:移動速度は、動物を含む全員の平均的な�
 AnimalsWillBeAbleToGraze:<<Animals will be able to graze??動物は草を食べられるか>>
 AnimalsCanGraze:<<Animals can graze??動物は草を食べられる。>>
 PossibleToGrazeFor:<<(for {0} more days)??({0} 日以上)>>
-PossibleToGrazeForever:<<(forever)??(永遠)>>
+PossibleToGrazeForever:<<(forever)??(一年中)>>
 CantGrazeBecauseOfBiome:({0})
 CantGrazeBecauseOfTemp:<<(too cold for {0} more days)??(寒さのため {0} 日以上)>>
 TotalNutrition:<<Total nutrition??栄養の合計>>

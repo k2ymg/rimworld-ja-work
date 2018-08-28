@@ -151,7 +151,7 @@ Products:<<Products??製品>>
 Relationship:<<{0} of {1}??{1} の {0}>>
 Prisoner:_<Prisoner>_
 Refugee:<<Refugee??亡命者>>
-TileMovementDifficulty:<<Terrain movement difficulty??地形の移動しやすさ>>
+TileMovementDifficulty:<<Terrain movement difficulty??地形の移動の難しさ>>
 Impassable:<<Impassable??通行不能>>
 CaravanMovementSpeedFull:<<Caravan movement speed??キャラバン移動速度>>
 DownedLower:<<downed??倒れた>>

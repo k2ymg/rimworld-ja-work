@@ -70,7 +70,7 @@ LetterLabelBeaversArrived:<<Beavers!??ビーバー！>>
 BeaversArrived:腹を空かせたアルファービーバーの群れが現れた。この地域の木材源を全部食い荒らされる前に駆除しよう。
 
 RefugeeChasedTitle:<<Refugee chased at {0}??{0} からの亡命者>>
-RefugeeChasedInitial:[PAWN_nameDef] と名乗る [PAWN_title] が近くから呼びかけてきた。[PAWN_pronoun]は {3} からの {2} に追われている！\n\n[PAWN_pronoun]は安全と_{colony}_への参加を懇願している。[PAWN_pronoun]は {4} 歳だと言っているが、これ以上の情報を聞き出している暇は無い。\n\n警告 - 受け入れると追いかけてきている {2} と戦うことになる。敵の構成:\n\n{5}
+RefugeeChasedInitial:[PAWN_nameDef] と名乗る [PAWN_title] が近くから呼びかけてきている。[PAWN_pronoun]は {3} からの {2} に追われている！\n\n[PAWN_pronoun]は安全と_{colony}_への参加を懇願している。[PAWN_pronoun]は {4} 歳だと言っているが、これ以上の情報を聞き出している暇は無い。\n\n警告 - 受け入れると追いかけてきている {2} と戦うことになる。敵の構成:\n\n{5}
 RefugeeChasedInitial_Accept:<<Offer safety??安全を申し出る>>
 RefugeeChasedInitial_Reject:<<Ignore the message??メッセージを無視する>>
 RefugeeChasedRejected:通信を切る間際、パニックになった {0} の叫び声が耳障りなスピーカーから聞こえてきた。
@@ -93,7 +93,7 @@ LetterTraderCaravanArrival:{0} から来たキャラバンが接触してきた�
 ;LetterBuildingBrokenDown:機械({0})が故障した。\n建設作業を受け持った_{colonists}_が修理するまで機能しない。
 
 RansomDemandTitle:<<Ransom demand at {0}??{0} からの身代金要求>>
-RansomDemand:{1} が通信で呼びかけてきた。彼らは元_{colonist}_の {0} を人質にしている。\n\n[PAWN_objective]は {2} _[Silver]_と引き換えに解放される。
+RansomDemand:{1} が無線で呼びかけてきている。彼らは元_{colonist}_の {0} を人質にしている。\n\n[PAWN_objective]は {2} _[Silver]_と引き換えに解放される。
 RansomDemand_Accept:_<Accept>_
 RansomDemand_Reject:_<Reject>_
 
