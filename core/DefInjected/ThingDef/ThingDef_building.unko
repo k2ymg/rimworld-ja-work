@@ -19,7 +19,7 @@
 }
 {SculptureGrand
 	label:_[grand sculpture]_
-	description:_?ランド・スカルプチャ。?_部屋を圧迫する巨大さの彫刻。
+	description:_?グランド・スカルプチャ。?_部屋を圧迫する巨大さの彫刻。
 }
 {Snowman
 	label:_[snowman]_

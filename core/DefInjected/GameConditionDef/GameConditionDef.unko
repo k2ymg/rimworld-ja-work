@@ -12,13 +12,13 @@
 
 {PsychicDrone
 	label:_[psychic drone]_
-	description:_?サイクック・ドローン。?_離れた所から強力なAIが人々を狂気へと駆り立てる精神波を放射している。
+	description:_?サイクック・ドローン。?_強力なAIが離れた所から人々を狂気へと駆り立てる精神波を放射している。
 	endMessage:_{psychic drone}_は終わった。
 }
 
 {PsychicSoothe
 	label:_[psychic soothe]_
-	description:_?サイキック・スーズ。?_離れた所から強力なAIが人々を落ち着かせて安心させる精神波を放射している。
+	description:_?サイキック・スーズ。?_強力なAIが離れた所から人々を落ち着かせて安心させる精神波を放射している。
 	endMessage:_{psychic soothe}_は終わった。
 }
 

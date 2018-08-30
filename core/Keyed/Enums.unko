@@ -139,9 +139,9 @@ FoodPoisonCause_FilthyKitchen:汚い調理場により
 FoodPoisonCause_Rotten:腐った食物により
 FoodPoisonCause_DangerousFoodType:危険な食物により
 
-PsychicDroneLevel_None:_<none>_
-PsychicDroneLevel_GoodMedium:_<medium>_
-PsychicDroneLevel_BadLow:_<low>_
-PsychicDroneLevel_BadMedium:_<medium>_
-PsychicDroneLevel_BadHigh:_<high>_
-PsychicDroneLevel_BadExtreme:_<extreme>_
+PsychicDroneLevel_None:<<none??無>>
+PsychicDroneLevel_GoodMedium:<<medium??中>>
+PsychicDroneLevel_BadLow:<<low??弱>>
+PsychicDroneLevel_BadMedium:<<medium??中>>
+PsychicDroneLevel_BadHigh:<<high??強>>
+PsychicDroneLevel_BadExtreme:<<extreme??極>>
