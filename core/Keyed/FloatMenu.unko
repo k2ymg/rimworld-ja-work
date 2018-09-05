@@ -5,24 +5,24 @@ CannotUseNoPower:<<Cannot use (no power)??使用できない (電気がない)>>
 CannotUseNoPath:<<Cannot use (no path)??使用できない (パスがない)>>
 CannotUseReserved:<<Cannot use (reserved)??使用できない (予約済)>>
 CannotUseFull:<<Cannot use (full)??使用できない (満載)>>
-LeaderUnavailable:<<leader {0} is unavailable??リーダー {0} は存在しない>>
+LeaderUnavailable:<<leader {1_labelShort} is unavailable??リーダー {1_labelShort} は存在しない>>
 LeaderUnavailableNoLeader:<<leader is unavailable??リーダーは存在しない>>
 
-FireAt:<<Fire at {0}??{0} に発射>>
+FireAt:<<Fire at {1_label}??{1_label} に発射>>
 
 OutOfRange:範囲外
 TooClose:近すぎる
 CannotHitTarget:対象に命中しない
-IsIncapableOfViolenceLower:{0} は暴力行為ができない
+IsIncapableOfViolenceLower:{1_labelShort} は暴力行為ができない
 IncapableOfViolenceLower:暴力行為ができない
-IsNotDraftedLower:{0} は_<Draft>_されていない
+IsNotDraftedLower:{1_labelShort} は_<Draft>_されていない
 CannotOrderNonControlledLower:操作していないユニットには指示できない
 CannotAttackSelf:自分自身には攻撃できない
 
-OrderManThing:{0} に配置
+OrderManThing:{1_labelShort} に配置
 
-MeleeAttack:{0} に近接攻撃
-MeleeAttackToDeath:{0} を近接攻撃で殺害する
+MeleeAttack:{1_label} に近接攻撃
+MeleeAttackToDeath:{1_label} を近接攻撃で殺害する
 NoPath:パスがない
 
 ForbiddenLower:_<forbidden>_
@@ -61,22 +61,22 @@ IncapableOfDeconstruction:解体不能
 IncapableOfMining:採掘できない
 AngersFaction:派閥を怒らせる
 
-ConsumeThing:<<Consume {0}??{0} を食べる>>
+ConsumeThing:<<Consume {1_labelShort}??{1_labelShort} を食べる>>
 
 CannotGoNoPath:そこには行けない(パスがない)
 GoHere:<<Go here??ここに移動する>>
 
-Arrest:<<Arrest {0}??{0} を逮捕する>>
-TryToArrest:<<Try to arrest {0}??{0} の逮捕を試みる>>
-CannotArrest:<<Cannot arrest??逮捕できない>>
+Arrest:<<Arrest {0}??{0} を_{arrest}_する>>
+TryToArrest:<<Try to arrest {1_label}??{1_label} の_{arrest}_を試みる>>
+CannotArrest:<<Cannot arrest??_{arrest}_できない>>
 
-Capture:<<Capture {0}??{0} を_{Capture}_する>>
+Capture:<<Capture {1_label}??{1_label} を_{Capture}_する>>
 CannotCapture:<<Cannot capture??_{Capture}_できない>>
 
-Rescue:<<Rescue {0}??{0} を_{Rescue}_する>>
+Rescue:<<Rescue {1_label}??{1_label} を_{Rescue}_する>>
 CannotRescue:<<Cannot rescue??_{Rescue}_できない>>
 
-CarryToCryptosleepCasket:<<Carry {0} to cryptosleep casket??{0} を _[Cryptosleep casket]_ に運ぶ>>
+CarryToCryptosleepCasket:<<Carry {1_label} to cryptosleep casket??{1_label} を _[Cryptosleep casket]_ に運ぶ>>
 CannotCarryToCryptosleepCasket:<<Cannot carry to cryptosleep casket??_[Cryptosleep casket]_ に運べない>>
 
 NoCryptosleepCasket:<<No available cryptosleep casket.??_[Cryptosleep casket]_ がない。>>
@@ -84,7 +84,7 @@ NoPrisonerBed:到達でき、使われておらず、閉じられた空間にあ
 NoNonPrisonerBed:到達でき、使われておらず、適温な環境にある非_{prisoner}_用のベッドがない
 NoAnimalBed:到達でき、使われておらず、適温な環境にある動物用ベッドがない
 Reserved:他の誰かが使用している
-ReservedBy:{0}が 使用している
+ReservedBy:{1_labelShort} が使用している
 IsReservedBy:{0} は {1} が使用している
 TooHeavy:重すぎる
 
@@ -96,44 +96,44 @@ MinSkill:<<min skill??最小スキル>>
 Equip:<<Equip {0}??{0} を装備する>>
 EquipWarningBrawler:<<(brawler will be unhappy)??(_<Brawler>_は不機嫌になる)>>
 CannotEquip:<<Cannot equip {0}??{0} を装備できない>>
-CannotManThing:<<Cannot man {0}??{0} 出来ない>>
+CannotManThing:<<Cannot man {1_labelShort}??{1_labelShort} 出来ない>>
 
-ForceWear:<<Force wear {0}??{0} を着る>>
-CannotWear:<<Cannot wear {0}??{0} を着られない>>
+ForceWear:<<Force wear {1_labelShort}??{1_labelShort} を着る>>
+CannotWear:<<Cannot wear {1_label}??{1_label} を着られない>>
 CannotWearBecauseOfMissingBodyParts:<<missing body parts??部位欠損>>
 
-CannotPickUp:<<Cannot pick up {0}??{0} を拾えない>>
-CannotPickUpAll:<<Cannot pick up {0} (all)??{0} を拾えない (全て)>>
-PickUp:<<Pick up {0}??{0} を拾う>>
-PickUpAll:<<Pick up {0} (all)??{0} を拾う (全て)>>
-PickUpSome:<<Pick up {0}...??{0} を拾う...>>
-PickUpCount:<<Pick up {0} x{{0}}??{0} を {{0}} 個拾う>>
+CannotPickUp:<<Cannot pick up {1_label}??{1_label} を拾えない>>
+CannotPickUpAll:<<Cannot pick up {1_label} (all)??{1_label} を拾えない (全て)>>
+PickUp:<<Pick up {1_label}??{1_label} を拾う>>
+PickUpAll:<<Pick up {1_label} (all)??{1_label} を拾う (全て)>>
+PickUpSome:<<Pick up {1_labelShort}...??{1_labelShort} を拾う...>>
+PickUpCount:<<Pick up {1_labelShort} x{{1_labelShort}}??{1_labelShort} を {{1_labelShort}} 個拾う>>
 
-CannotGiveToPackAnimal:{0} を_{pack animal}_に与えられない
-CannotGiveToPackAnimalAll:{0} を_{pack animal}_に与えられない (全て)
-GiveToPackAnimal:<<Give {0} to pack animal??{0} を_{pack animal}_に与える>>
-GiveToPackAnimalAll:<<Give {0} (all) to pack animal??{0} を_{pack animal}_に与える (全て)>>
-GiveToPackAnimalSome:<<Give {0} to pack animal...??{0} を_{pack animal}_に与える...>>
-GiveToPackAnimalCount:<<Take {0} x{{0}}??{0} を {{0}} 個取る>>
+CannotGiveToPackAnimal:{1_label} を_{pack animal}_に与えられない
+CannotGiveToPackAnimalAll:{1_label} を_{pack animal}_に与えられない (全て)
+GiveToPackAnimal:<<Give {1_label} to pack animal??{1_label} を_{pack animal}_に与える>>
+GiveToPackAnimalAll:<<Give {1_label} (all) to pack animal??{1_label} を_{pack animal}_に与える (全て)>>
+GiveToPackAnimalSome:<<Give {1_labelShort} to pack animal...??{1_labelShort} を_{pack animal}_に与える...>>
+GiveToPackAnimalCount:<<Take {1_labelShort} x{{1_labelShort}}??{1_labelShort} を {{1_labelShort}} 個取る>>
 
-CannotLoadIntoCaravan:{0} をキャラバンに積み込めない
-CannotLoadIntoCaravanAll:{0} を(全て)キャラバンに積み込めない
-LoadIntoCaravan:<<Load {0} into caravan??{0} をキャラバンに積み込む>>
-LoadIntoCaravanAll:<<Load {0} (all) into caravan??{0} を(全て)キャラバンに積み込む>>
-LoadIntoCaravanSome:<<Load {0} into caravan...??{0} をいくつかキャラバンに積み込む...>>
-LoadIntoCaravanCount:<<Load {0} x{{0}}??{0} を {{0}} 個積み込む>>
+CannotLoadIntoCaravan:{1_label} をキャラバンに積み込めない
+CannotLoadIntoCaravanAll:{1_label} を(全て)キャラバンに積み込めない
+LoadIntoCaravan:<<Load {1_label} into caravan??{1_label} をキャラバンに積み込む>>
+LoadIntoCaravanAll:<<Load {1_label} (all) into caravan??{1_label} を(全て)キャラバンに積み込む>>
+LoadIntoCaravanSome:<<Load {1_labelShort} into caravan...??{1_labelShort} をいくつかキャラバンに積み込む...>>
+LoadIntoCaravanCount:<<Load {1_labelShort} x{{1_labelShort}}??{1_labelShort} を {{1_labelShort}} 個積み込む>>
 OverweightLower:<<overweight??重量オーバー>>
 
-CannotCarryToExit:{0} を運んでこのエリアから離れられない
-CarryToExit:<<Carry {0} and leave the area??{0} を運んでこのエリアから離れる>>
-CarryToExitAndCapture:<<Capture {0} and leave the area??{0} を捕まえてこのエリアから離れる>>
+CannotCarryToExit:{1_label} を運んでこのエリアから離れられない
+CarryToExit:<<Carry {1_label} and leave the area??{1_label} を運んでこのエリアから離れる>>
+CarryToExitAndCapture:<<Capture {1_label} and leave the area??{1_label} を_{Capture}_してこのエリアから離れる>>
 
-Strip:<<Strip {0}??{0} を脱がす>>
-CannotStrip:<<Cannot strip {0}??{0} を脱がせられない>>
+Strip:<<Strip {1_label}??{1_label} を脱がす>>
+CannotStrip:<<Cannot strip {1_label}??{1_label} を脱がせられない>>
 
 SelfDestructHere:<<Self-destruct here??ここで自壊>>
 
-Drop:<<Drop {0}??{0} を落とす>>
+Drop:<<Drop {1_label}??{1_label} を落とす>>
 
 UseMedicalBed:<<Rest until healed??完治するまで休む>>
 NotInjured:<<not injured??傷は無い>>
@@ -154,12 +154,12 @@ OfferGifts:<<Offer gifts??贈り物を申し出る>>
 EnterCryptosleepCasket:<<Enter cryptosleep casket??_[Cryptosleep casket]_ に入る>>
 OpenCryptosleepCasket:<<Open cryptosleep casket??_[Cryptosleep casket]_ を開ける>>
 
-CannotGenericWork:<<Cannot {0} {1}??{1} を {0} できない>>
+CannotGenericWork:<<Cannot {0} {2_labelShort}??{2_labelShort} を {0} できない>>
 CannotGenericWorkCustom:<<Cannot {0}??{0} できない>>
 
 CannotMissingHealthActivities:<<Cannot prioritize (incapable of {0})??優先できない ({0} 能力が無い)>>
 
-CannotGenericAlreadyAm:<<Already {0} {1}??{1} はすでに {0} している>>
+CannotGenericAlreadyAm:<<Already {0} {2_labelShort}??{2_labelShort} はすでに {0} している>>
 
 CannotPrioritizeWorkTypeDisabled:<<Cannot prioritize (will never do {0})??優先できない ({0} はできない)>>
 
@@ -171,12 +171,12 @@ NotAssigned:<<not assigned??未割当>>
 
 CannotPrioritizeResearch:<<Cannot prioritize (research is a long-term task)??優先できない (研究は長時間作業のため)>>
 
-CannotPrioritizeForbidden:<<Cannot prioritize ({0} is forbidden)??優先できない ({0} は禁止されている)>>
-CannotPrioritizeCellForbidden:<<Cannot prioritize (forbidden)??優先できない (禁止されている)>>
+CannotPrioritizeForbidden:<<Cannot prioritize ({1_label} is forbidden)??優先できない ({1_label} は_{forbidden}_されている)>>
+CannotPrioritizeCellForbidden:<<Cannot prioritize (forbidden)??優先できない (_{forbidden}_されている)>>
 
 CannotPrioritizeForbiddenOutsideAllowedArea:<<Outside allowed area??_<Allowed area>_から外れている>>
 
-PrioritizeGeneric:<<Prioritize {0} {1}??{1} の {0} を優先>>
+PrioritizeGeneric:<<Prioritize {0} {2_label}??{2_label} の {0} を優先>>
 
 DropAtEdge:<<Drop at edge??端に落とす>>
 DropInCenter:<<Drop in center??中央に落とす>>

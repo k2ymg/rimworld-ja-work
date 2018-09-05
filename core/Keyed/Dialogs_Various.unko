@@ -72,7 +72,7 @@ NameIsInvalid:適切な名前を入力してください。
 NameIsInUse:この名前は既に使われています。
 ZoneGainsName:このゾーンを {0} という名前にした。
 
-PawnGainsName:この人物のニックネームは {0} になった。[PAWN_possessive]の肩書きは{1}だ。
+PawnGainsName:この人物のニックネームは {0} になった。{PAWN_possessive}の肩書きは{PAWN_title}だ。
 AnimalGainsName:この動物の名前は {0} になった。
 
 VersionMismatch:バージョンの不一致
@@ -244,8 +244,8 @@ TraderWillNotTrade:<<Trader is not willing to buy this.??交易商はこれを�
 Negotiator:<<Negotiator??交渉人>>
 ;前者は会話能力が、後者は聴力が下がっているときに表示されるが
 ;それらが下がる原因は様々なので、曖昧な言い方にする。
-NegotiatorTalkingImpaired:交渉人 {0} はあまり健康ではないので、ちゃんと話せない。
-NegotiatorHearingImpaired:交渉人 {0} はあまり健康ではないので、ちゃんと聞けない。
+NegotiatorTalkingImpaired:交渉人 {1_labelShort} はあまり健康ではないので、ちゃんと話せない。
+NegotiatorHearingImpaired:交渉人 {1_labelShort} はあまり健康ではないので、ちゃんと聞けない。
 NegotiatorCapacityImpaired:これは取引価格に影響する。\n\nもっと健康な交渉人を使おう。
 ConfirmTraderShortFunds:交易商はこの売買に必要な_[Silver]_を持っていない。構わず続けますか？
 SortBy:<<Sort by??並び替え>>
@@ -275,7 +275,7 @@ CaravanMustHaveAtLeastOneColonist:少なくとも一人は倒れていない_{co
 CaravanCouldNotFindExitSpot:選択した出発エリア({0})は通行不能。
 CaravanCouldNotFindPackingSpot:有効な _[packing spot]_ を見つけられない。出発エリア({0})に到達可能か確認しよう。
 CaravanCouldNotFindReachableExitSpot:警告: 割り当てられた_{colonists}_のうちの何人かが出発エリア({0})にたどり着けない。
-CaravanPawnIsUnreachable:{0} は割り当てられた_{colonists}_の誰にも到達できない。
+CaravanPawnIsUnreachable:{1_labelShort} は割り当てられた_{colonists}_の誰にも到達できない。
 CaravanItemIsUnreachableSingle:{0} に到達できる割り当てられた_{colonists}_は誰もいない。
 CaravanItemIsUnreachableMulti:{0}x{1} に到達できる割り当てられた_{colonists}_は誰もいない。
 TooBigCaravanMassUsage:キャラバンはそんなに運べない。
@@ -336,11 +336,11 @@ SourceCaravanMustHaveAtLeastOneColonist:少なくとも一人は倒れていな�
 SplitCaravanThingCountTip:元のキャラバンから新しいキャラバンに持たすことができる、このアイテムの数
 
 LoadTransporters:<<Load {0}??{0} への積み込み>>
-TooBigTransportersMassUsage:指示された人とアイテムは_[Transport pod]_には重すぎる。
-CantSendEmptyTransportPods:空の_[Transport pod]_を送る事はできない。
-PawnCantReachTransporters:{0} は_[Transport pod]_までたどり着く事ができない。
-TransporterItemIsUnreachableSingle:_[Transport pod]_と {0} の間にパスがない。
-TransporterItemIsUnreachableMulti:_[Transport pod]_と {0}x {1} の間にパスがない。
+TooBigTransportersMassUsage:指定された人とアイテムは _[Transport pod]_ には重すぎる。
+CantSendEmptyTransportPods:空の _[Transport pod]_ を送る事はできない。
+PawnCantReachTransporters:{1_labelShort} は _[Transport pod]_ にたどり着けない。
+TransporterItemIsUnreachableSingle:_[Transport pod]_ と {0} の間にパスがない。
+TransporterItemIsUnreachableMulti:_[Transport pod]_ と {0}x {1} の間にパスがない。
 
 SocialSkillIs:<<Social skill: {0}??社交スキル: {0}>>
 
@@ -411,13 +411,13 @@ ConfirmAbandonHomeNegativeThoughts_Everyone:全員:
 ;ConfirmLeavePrisonersOrAnimalsBehind,何人かの_{prisoners}_か動物がこの地域にまだ残っており、現時点では唯一このキャラバンに参加できる。\n\nキャラバンを移動させると、戻ってくるまで彼らはこの地域から離れられなくなる。_{prisoners}_は逃げだし、動物達は待ち続ける\n\n待つのなら、彼らは可能な限りこのキャラバンに参加しようとする。本当にキャラバンを動かしますか？
 ConfirmMoveAutoJoinableCaravan:動物や_{prisoners}_がキャラバンに合流しようとしている。もし移動すると、もう合流できなくなる。\n\n倒れていない_{colonists}_がいないマップに置き去りにされた動物、_{prisoners}_、倒れた_{colonists}_は放棄されたと見なされ、敵に連れ去られる可能性がある。\n\n本当にキャラバンを移動させますか？
 
-ConfirmBanishPawnDialog:本当に {0} を追放しますか？
-ConfirmBanishPawnDialog_LeftToDie:{0} は恐らく死ぬでしょう。
-ConfirmBanishPawnDialog_Items:{0} は次のアイテムを持っていく:
+ConfirmBanishPawnDialog:本当に {1_label} を追放しますか？
+ConfirmBanishPawnDialog_LeftToDie:{1_labelShort} は恐らく死ぬでしょう。
+ConfirmBanishPawnDialog_Items:{1_labelShort} は次のアイテムを持っていく:
 ConfirmBanishPawnDialog_AllColonistsThoughts:_{colonists}_は全員次の思いを抱く:
-ConfirmBanishPawnDialog_IndividualThoughts:{0} を追放すると、次の人々はこのような思いを抱く:
+ConfirmBanishPawnDialog_IndividualThoughts:{1_labelShort} を追放すると、次の人々はこのような思いを抱く:
 
-ConfirmSendNotCompletelyLoadedPods:_[Pod]_のグループは荷積みが終わっていない。{0} がない。それでも発射しますか？
+ConfirmSendNotCompletelyLoadedPods:_[Pod]_のグループは荷積みが終わっていない。{1_labelShort} がない。それでも発射しますか？
 
 ConfirmSettleNearFactionBase:この場所は他の派閥の拠点から {0} タイル以内なので侵略されたと受け止められ、派閥との関係が {1} 日ごとに悪くなる。\n\nどうしても、ここに入植しますか？
 

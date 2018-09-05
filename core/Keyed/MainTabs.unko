@@ -3,7 +3,7 @@ HigherPriority:<<higher priority??優先度 高>>
 LowerPriority:<<lower priority??優先度 低>>
 RelevantSkills:<<Relevant skills: {0}\nAverage of relevant skills: {1} / {2}??該当スキル: {0}\n該当スキルの平均値: {1} / {2}>>
 ClickToJumpTo:<<Click to jump to:??クリックで移動:>>
-CannotDoThisWork:{0} はこの作業ができない。
+CannotDoThisWork:{1_labelShort} はこの作業ができない。
 NoneBrackets:<<(none)??(なし)>>
 IncapableOfWorkTypeBecauseOfCapacities:この_{colonist}_は健康上の理由によりこのタイプの作業を行えない。
 EmergencyWorkMarker:<<E??緊急>>

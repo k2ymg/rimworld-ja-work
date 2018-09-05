@@ -115,7 +115,7 @@
 	:style_clause->主要なシーンの[artstyle_adj]様式が[artstyle_adj]様式の背景描写で台無しになっている
 	:style_clause->この作品には[artstyle_adj]様式と[composition]構成がある
 	:style_clause->全体的な構成は[composition]構造になっている
-	:style_clause->スタイルは[artstyle_adj]で、[artstyle_adj]の要素がある
+	:style_clause->[artstyle_adj]様式に[artstyle_adj]要素がある
 	:style_clause->このイメージには何らかの方法で[ConceptAny]とConceptAnyconcept]の両方が表現されている
 	;これも語順の問題・・・faq
 	:style_clause->イメージは[ConceptAny]と[ConceptAny]を対照させている
@@ -167,36 +167,36 @@
 	:artstyle_adj->シュールリアリズム的な
 	:artstyle_adj->古典的な
 	:artstyle_adj->現代的な
-	:artstyle_adj->シンボリック
+	:artstyle_adj->シンボリックな
 	:artstyle_adj->素人っぽいが魅力的な
 	:artstyle_adj->細部にこだわった
 	:artstyle_adj->ずんぐりとした
-	:artstyle_adj->立体派
-	:artstyle_adj->印象派
-	:artstyle_adj->表現派
+	:artstyle_adj->立体派の
+	:artstyle_adj->印象派の
+	:artstyle_adj->表現派の
 	:artstyle_adj->写真のような
-	:artstyle_adj->バロック調
-	:artstyle_adj->ダダイスト
-	:artstyle_adj->グリッチアート
-	:artstyle_adj->ピクセル調
-	:artstyle_adj->フォーブ派
-	:artstyle_adj->庶民派
-	:artstyle_adj->比喩的
+	:artstyle_adj->バロック調の
+	:artstyle_adj->ダダイストの
+	:artstyle_adj->グリッチアートの
+	:artstyle_adj->ピクセル調の
+	:artstyle_adj->フォーブ派の
+	:artstyle_adj->庶民派の
+	:artstyle_adj->比喩的な
 	:artstyle_adj->曲がりくねったような
-	:artstyle_adj->幾何学的
-	:artstyle_adj->抽象的
-	:artstyle_adj->超実写主義的
+	:artstyle_adj->幾何学的な
+	:artstyle_adj->抽象的な
+	:artstyle_adj->超実写主義的な
 	:artstyle_adj->ポップアートのような
 	:artstyle_adj->ミニマルアートのような
-	:artstyle_adj->ネオ・クラシカル
-	:artstyle_adj->セル・シェード
-	:artstyle_adj->ポスト印象派
-	:artstyle_adj->純粋主義的
+	:artstyle_adj->ネオ・クラシカルの
+	:artstyle_adj->セル・シェードの
+	:artstyle_adj->ポスト印象派の
+	:artstyle_adj->純粋主義的な
 	:artstyle_adj->ロココ調のような
 	:artstyle_adj->ロマネスク調のような
 	:artstyle_adj->空想的な
 	:artstyle_adj->落書きのような
 	:artstyle_adj->エロティックな
 	:artstyle_adj->官能的な
-	:artstyle_adj->心象派
+	:artstyle_adj->心象派の
 }

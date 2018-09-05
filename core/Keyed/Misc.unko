@@ -45,7 +45,7 @@ MeatHumanDesc:さばいた生肉。調理するか、生で食べられるが、
 
 CorpseLabel:<<{0} corpse??{0} の死骸>>
 CorpseDesc:{0} の死骸。
-DeadLabel:<<{0} (dead)??{0} (死亡)>>
+DeadLabel:<<{1_label} (dead)??{1_label} (死亡)>>
 
 RoughStoneTerrainLabel:<<rough {0}??粗い {0}>>
 RoughStoneTerrainDesc:粗く自然な {0}
@@ -62,8 +62,8 @@ FactionUnaffiliated:<<Unaffiliated??無所属>>
 ;アイテム名が先に来た方がソート時に都合が良い
 ThingMadeOfStuffLabel:{1} ({0})
 
-SomeonesRoom:<<{0}'s {1}??{0} の {1}>>
-CouplesRoom:<<{0} and {1}'s {2}??{0} と {1} の {2}>>
+SomeonesRoom:<<{PAWN_labelShort}'s {1}??{PAWN_labelShort} の {1}>>
+CouplesRoom:<<{PAWN1_labelShort} and {PAWN2_labelShort}'s {2}??{PAWN1_labelShort} と {PAWN2_labelShort} の {2}>>
 
 VariousLabel:<<(various)??(混在)>>
 

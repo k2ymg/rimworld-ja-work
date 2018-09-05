@@ -1,5 +1,5 @@
-﻿LetterLabelAnimalInsanitySingle:<<Mad {0}??{0} の凶暴化>>
-AnimalInsanitySingle:一匹の {0} が狂った。目に入る者は全て攻撃する。
+﻿LetterLabelAnimalInsanitySingle:<<Mad {ANIMAL_labelShort}??{ANIMAL_labelShort} の凶暴化>>
+AnimalInsanitySingle:一匹の {ANIMAL_label} が狂った。目に入る者は全て攻撃する。
 LetterLabelAnimalInsanityMultiple:<<Mad {0}??{0} の凶暴化>>
 AnimalInsanityMultiple:ある種の精神波がこの地に吹き荒れた。_{colonists}_は大丈夫だが、しかし・・・\n\nここの {0} 達は狂気に駆り立てられたようだ。
 
@@ -9,15 +9,15 @@ LetterCropBlight:作物が_{blight}_に侵されている事に、ある_{coloni
 LetterLabelMiracleHeal:<<Miracle??奇跡>>
 MiracleHeal:{0} は奇跡的に回復した！
 
-EnemyRaidLeaderPresent:{1} は派閥 {0} のリーダーだ。
+EnemyRaidLeaderPresent:{LEADER_labelShort} は派閥 {LEADER_factionPawnsPlural} のリーダーだ。
 
-FriendlyRaidLeaderPresent:{1} は派閥 {0} のリーダーだ。
+FriendlyRaidLeaderPresent:{LEADER_labelShort} は派閥 {LEADER_factionPawnsPlural} のリーダーだ。
 
 LetterLabelRefugeePodCrash:_[Transport pod]_
-RefugeePodCrash:[PAWN_nameDef] という [PAWN_title] が _[Transport pod]_ で墜落してきた。この衝撃でも生き残っているのなら、かなり重傷だろう。
-RefugeePodCrash_Factionless:[PAWN_nameDef] はどこの派閥にも属していない。[PAWN_objective]を救助して本人の好きにさせるか、それとも勧誘や奴隷目的で捕まえることもできる。
-RefugeePodCrash_Hostile:[PAWN_nameDef] は敵の [PAWN_factionName] から来た。勧誘や奴隷目的で捕まえられる。
-RefugeePodCrash_NonHostile:[PAWN_nameDef] は [PAWN_factionName] から来た。助けると仲間になるかもしれない。それか、元いた場所へ帰り、あなたの善意を伝え広めるかもしれない。\n\n勧誘や奴隷目的で捕まえることもできるが、その場合は[PAWN_possessive]の派閥を怒らせること になる。
+RefugeePodCrash:{PAWN_nameDef} という {PAWN_titleIndef} が _[Transport pod]_ で墜落してきた。この衝撃でも生き残っているのなら、かなり重傷だろう。
+RefugeePodCrash_Factionless:{PAWN_nameDef} はどこの派閥にも属していない。{PAWN_objective}を救助して本人の好きにさせるか、それとも勧誘や奴隷目的で捕まえることもできる。
+RefugeePodCrash_Hostile:{PAWN_nameDef} は敵の {PAWN_factionName} から来た。勧誘や奴隷目的で捕まえられる。
+RefugeePodCrash_NonHostile:{PAWN_nameDef} は {PAWN_factionName} から来た。助けると仲間になるかもしれない。それか、元いた場所へ帰り、あなたの善意を伝え広めるかもしれない。\n\n勧誘や奴隷目的で捕まえることもできるが、その場合は{PAWN_possessive}の派閥を怒らせること になる。
 
 LetterLabelCargoPodCrash:_<Cargo pods>_
 CargoPodCrash:_{Cargo pod}_の墜落を近くに確認した。\n\n残骸から何か役立つ物が見つかるかもしれない。
@@ -31,21 +31,18 @@ ShortCircuitWasHuge:かなりの大爆発だ。ワーオ。
 
 TraderArrival:商船が近くを通り過ぎようとしている。\n\n彼らは {0} という名で、{1} をしている。
 
-SingleTravelerPassing:{1} の {0} が通り過ぎようとしている。[PAWN_pronoun]は {2} と名乗っている。
+SingleTravelerPassing:{1} の {PAWN_title} が通り過ぎようとしている。{PAWN_pronoun}は {PAWN_nameFull} と名乗っている。
 GroupTravelersPassing:{0} の 旅行者達が通り過ぎようとしている。
 
 LetterLabelSingleVisitorArrives:<<Visitor??訪問者>>
-SingleVisitorArrives:{1} の {0} が_{colony}_を訪問している。\n\n[PAWN_pronoun]は {2} と名乗っている。{3}{4}
-SingleVisitorArrivesTraderInfo:\n\n[PAWN_pronoun]は持っているアイテムをいくつかトレードしたがっている。
-SingleVisitorArrivesLeaderInfo:\n\n[PAWN_pronoun]は派閥のリーダーだ。
+SingleVisitorArrives:{1} の {PAWN_titleIndef} が_{colony}_を訪問している。\n\n{PAWN_pronoun}は {PAWN_nameFull} と名乗っている。{3}{4}
+SingleVisitorArrivesTraderInfo:\n\n{PAWN_pronoun}は持っているアイテムをいくつかトレードしたがっている。
+SingleVisitorArrivesLeaderInfo:\n\n{PAWN_pronoun}は派閥のリーダーだ。
 LetterLabelGroupVisitorsArrive:<<Visitors??訪問者達>>
 GroupVisitorsArrive:{0} の一団が_{colony}_を訪問している。{1}{2}
 GroupVisitorsArriveTraderInfo:\n\n彼らは持っているアイテムをいくつかトレードしたがっている。
-GroupVisitorsArriveLeaderInfo:\n\n訪問者達のうち、{0} は派閥のリーダーだ。
+GroupVisitorsArriveLeaderInfo:\n\n訪問者達のうち、{1_labelShort} は派閥のリーダーだ。
 VisitorsLeaving:{0} からの訪問者達は去ろうとしている。
-
-;LetterLabelWandererJoin:<<Wanderer joins??放浪者>>
-;WandererJoin:[PAWN_nameDef] という名前の {0} がやってきて_[colony}_に加わった。[PAWN_pronoun]は {1} だ。\n\n[PAWN_pronoun]は協力的だが、自ら出て行こうとはしない。もし、[PAWN_nameDef]が邪魔なら、追放したり、奴隷商に売ったり、殺したりできる。しかし、他の_{colonists}_はこの騒動に感づくだろう。
 
 LetterLabelManhunterPackArrived:_<Manhunter pack>_
 ManhunterPackArrived:{0} の_{manhunter pack}_がやって来た。この地域をうろつき、人間狩りを行う。\n\n誰かがドアを通るのを見ない限り、ドアを攻撃することはない。中に隠れていれば安全だ。また、動いていない_<Turret>_も攻撃しないので、_<Turret>_を守りたいならオフにする。\n\n{0}は一日か二日でここから出て行く。出て行くまで隠れても良いし、戦っても良い。
@@ -70,15 +67,15 @@ LetterLabelBeaversArrived:<<Beavers!??ビーバー！>>
 BeaversArrived:腹を空かせたアルファービーバーの群れが現れた。この地域の木材源を全部食い荒らされる前に駆除しよう。
 
 RefugeeChasedTitle:<<Refugee chased at {0}??{0} からの亡命者>>
-RefugeeChasedInitial:[PAWN_nameDef] と名乗る [PAWN_title] が近くから呼びかけてきている。[PAWN_pronoun]は {3} からの {2} に追われている！\n\n[PAWN_pronoun]は安全と_{colony}_への参加を懇願している。[PAWN_pronoun]は {4} 歳だと言っているが、これ以上の情報を聞き出している暇は無い。\n\n警告 - 受け入れると追いかけてきている {2} と戦うことになる。敵の構成:\n\n{5}
+RefugeeChasedInitial:{PAWN_nameDef} と名乗る {PAWN_titleIndef} が近くから呼びかけてきている。{PAWN_pronoun}は {3} からの {2} に追われている！\n\n{PAWN_pronoun}は安全と_{colony}_への参加を懇願している。{PAWN_pronoun}は {4} 歳だと言っているが、これ以上の情報を聞き出している暇は無い。\n\n警告 - 受け入れると追いかけてきている {2} と戦うことになる。敵の構成:\n\n{5}
 RefugeeChasedInitial_Accept:<<Offer safety??安全を申し出る>>
 RefugeeChasedInitial_Reject:<<Ignore the message??メッセージを無視する>>
-RefugeeChasedRejected:通信を切る間際、パニックになった {0} の叫び声が耳障りなスピーカーから聞こえてきた。
+RefugeeChasedRejected:通信を切る間際、パニックになった {1_labelShort} の叫び声が安っぽいスピーカーから聞こえてきた。
 
-LetterLabelAnimalSelfTame:<<{0} self-tamed??{0} が勝手に懐いた>>
+LetterLabelAnimalSelfTame:<<{1_kind} self-tamed??{1_kind} が勝手に懐いた>>
 LetterAnimalSelfTame:{0} がペットになった。
-LetterAnimalSelfTameAndNameNumerical:{0} がペットになった。{1} と名付けた。
-LetterAnimalSelfTameAndName:{0} がペットになった。_{colonists}_は {1} と呼ぶことに決めた。
+LetterAnimalSelfTameAndNameNumerical:{0} がペットになった。{ANIMAL_nameFull} と名付けた。
+LetterAnimalSelfTameAndName:{0} がペットになった。_{colonists}_は {ANIMAL_nameFull} と呼ぶことに決めた。
 
 LetterLabelFarmAnimalsWanderIn:<<{0} join??{0} が加わった>>
 LetterFarmAnimalsWanderIn:見捨てられたか、迷子になった {0} のグループが迷い込んできた。\n\n人に慣れているようで、_{colony}_に加わった。
@@ -93,7 +90,7 @@ LetterTraderCaravanArrival:{0} から来たキャラバンが接触してきた�
 ;LetterBuildingBrokenDown:機械({0})が故障した。\n建設作業を受け持った_{colonists}_が修理するまで機能しない。
 
 RansomDemandTitle:<<Ransom demand at {0}??{0} からの身代金要求>>
-RansomDemand:{1} が無線で呼びかけてきている。彼らは元_{colonist}_の {0} を人質にしている。\n\n[PAWN_objective]は {2} _[Silver]_と引き換えに解放される。
+RansomDemand:{1} が無線で呼びかけてきている。彼らは元_{colonist}_の {PAWN_labelShort} を人質にしている。\n\n{PAWN_objective}は {2} _[Silver]_と引き換えに解放される。
 RansomDemand_Accept:_<Accept>_
 RansomDemand_Reject:_<Reject>_
 

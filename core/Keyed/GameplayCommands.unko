@@ -19,7 +19,7 @@ CommandDraftLabel:_<Draft>_
 ; 未使用
 CommandUndraftLabel:_<Undraft>_
 CommandToggleDraftDesc:徴兵を切り替える。\n\n徴兵された人は命令を受けて戦う。作業、食事、休憩はしない。
-IsIncapped:{0} は歩けない。
+IsIncapped:{1_labelShort} は歩けない。
 
 CommandFireAtWillLabel:<<Fire at will??発砲許可>>
 CommandFireAtWillDesc:発砲許可を切り替える。\n\n無効にすると、遠距離の敵へ自動的に射撃しなくなる。近接戦には影響しない。

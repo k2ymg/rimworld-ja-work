@@ -131,8 +131,8 @@ SettlementTrader:<<{0} of {1}??{1} の {0}>>
 RoomSurgerySuccessChanceFactor:<<Surgery success chance multiplier from room??部屋から影響される手術成功率乗数>>
 RoomInfectionChanceFactor:<<Infection chance multiplier from room??部屋から影響される感染率乗数>>
 VentClosed:<<Closed??閉じている>>
-WornBy:<<worn by {0}??{0} が着ている>>
-EquippedBy:<<equipped by {0}??{0} が装備している>>
+WornBy:<<worn by {1_labelShort}??{1_labelShort} が着ている>>
+EquippedBy:<<equipped by {1_labelShort}??{1_labelShort} が装備している>>
 QuestTargetDestroyInspectString:<<{0} wants this destroyed.\n    Reward: {1} ({2})??{0} が破壊を求めている。\n    報酬: {1} ({2})>>
 WorldObjectTimeout:<<Time left: {0}??残り時間: {0}>>
 ;LongRangeMineralScannerEfficiency:効率: {0}
@@ -165,7 +165,7 @@ MovementDifficultyOffsetInWinter:<<{0} in winter??{0} は冬>>
 RangeTo:<<to??から>>
 NoDietCategoryLetter:<<No letter??表記無し>>
 ExpiresIn:<<Expires in??期限切れまで残り>>
-CaravanLeaderCaravanName:<<{0}'s caravan??{0} のキャラバン>>
+CaravanLeaderCaravanName:<<{1_labelShort}'s caravan??{1_labelShort} のキャラバン>>
 Reason:<<Reason??理由>>
 RelationsWith:<<Relations with {0}??{0} との関係>>
 capturedBy:<<captured by {0}??{0} により確保>>
@@ -219,9 +219,9 @@ NewArea:<<New area??新しいエリア>>
 InvertArea:<<Invert??反転>>
 
 CannotOrderNonControlled:<<Cannot order characters you do not control.??操作できないユニットには命令できない。>>
-IsIncapableOfViolence:<<{0} is incapable of violence.??{0} は野蛮なことはできない。>>
+IsIncapableOfViolence:<<{1_labelShort} is incapable of violence.??{1_labelShort} は野蛮なことはできない。>>
 IsIncapableOfViolenceShort:<<incapable of violence??野蛮なことはできない>>
-IsNotDrafted:<<{0} is not drafted.??{0} は_<Draft>_されていない。>>
+IsNotDrafted:<<{1_labelShort} is not drafted.??{1_labelShort} は_<Draft>_されていない。>>
 
 SnowNone:<<No snow??雪なし>>
 SnowDusting:<<Snow (dusting)??積雪 (疎ら)>>
@@ -234,11 +234,11 @@ MinimumRange:<<Minimum range??最小半径>>
 CanFireIn:<<Can fire in??発射開始まであと>>
 CannotFire:<<Cannot fire??発射できない>>
 Roofed:<<roofed??屋根>>
-ShellLoaded:<<Shell loaded: {0}??装填済み: {0}>>
+ShellLoaded:<<Shell loaded: {1_label}??装填済み: {1_label}>>
 ShellNotLoaded:<<Not loaded??未装填>>
 
-ReportHaulingTo:<<hauling {0} to {1}.??{0} を {1} に運んでいる。>>
-ReportHauling:<<hauling {0}.??{0} を運んでいる。>>
+ReportHaulingTo:<<hauling {THING_label} to {DESTINATION}.??{THING_label} を {DESTINATION} に運んでいる。>>
+ReportHauling:<<hauling {1_label}.??{1_label} を運んでいる。>>
 ReportHaulingUnknown:<<hauling.??運んでいる。>>
 ReportSleeping:<<sleeping.??寝ている。>>
 ReportResting:<<resting.??休んでいる。>>
@@ -253,7 +253,7 @@ AreaLower:<<area??エリア>>
 ReportCowering:<<cowering.??縮こまっている。>>
 ReportStanding:<<standing.??立っている。>>
 ReportExtinguishingFire:<<extinguishing fire.??火を消している。>>
-ReportExtinguishingFireOn:<<extinguishing fire on {0}.??{0} の火を消している。>>
+ReportExtinguishingFireOn:<<extinguishing fire on {TARGET_label}.??{TARGET_label} の火を消している。>>
 ReportDiggingUpCorpse:<<digging up corpse.??死体を掘り起こしている。>>
 
 LordReportAttendingMarriageCeremony:<<Attending marriage ceremony??結婚式に参加している。>>
@@ -268,7 +268,7 @@ TargetProne:<<Target lying down??ターゲットは伏せている>>
 TargetSize:<<Target size??標的の大きさ>>
 Weather:<<Weather??天候>>
 ShootingCover:<<Cover??カバー>>
-CoverThingBlocksPercentOfShots:<<{0} stops {1}??{0} は {1} 低下させる>>
+CoverThingBlocksPercentOfShots:<<{COVER_label} stops {1}??{COVER_label} は {1} 低下させる>>
 NoCoverLower:<<no cover??カバー無し>>
 Execution:<<Execution??処刑>>
 
@@ -286,9 +286,9 @@ MentalBreakThresholdExtreme:<<Extreme break threshold??精神崩壊(大)閾値>>
 MentalBreakThresholdMajor:<<Major break threshold??精神崩壊(中)閾値>>
 MentalBreakThresholdMinor:<<Minor break threshold??精神崩壊(小)閾値>>
 
-PawnMainDescGendered:{0} {1}
+PawnMainDescGendered:{PAWN_gender} {1}
 PawnMainDescFactionedWrap:<<{0} of {1}??{1} の {0}>>
-PawnMainDescLifestageWrap:{1} {0}
+PawnMainDescLifestageWrap:{2_lifeStageAdjective} {0}
 Faction:<<Faction??派閥>>
 Equipped:<<Equipped??装備品>>
 EquippedNothing:<<nothing??素手>>
@@ -340,7 +340,7 @@ NotRefrigerated:<<Not refrigerated (spoils in {0})??常温 (腐敗まで {0})>>
 OverADecade:<<over a decade??10年以上>>
 LessThanADay:<<less than a day??一日未満>>
 
-ShotBy:<<Shot by {0}??{0} の射撃>>
+ShotBy:<<Shot by {1_labelShort}??{1_labelShort} の射撃>>
 CannotHit:<<Cannot hit target.??命中しない。>>
 ManhunterPerHit:<<Manhunter chance per hit??命中ごとの殺人鬼になる確率>>
 
@@ -393,7 +393,7 @@ ShowExpandingIconsToggleButton:離れているオブジェクトを拡大アイ�
 ShowWorldFeaturesToggleButton:地形の名前を表示する。
 
 Fire:<<Fire??火災>>
-FireOn:<<Fire on {0}??{0} が 燃えている>>
+FireOn:<<Fire on {1_label}??{1_label} が 燃えている>>
 Burning:<<Burning??炎上中>>
 FireSizeLower:<<fire size {0}??炎上サイズ {0}>>
 
@@ -421,7 +421,7 @@ WindTurbine_WindPathIsBlockedByRoof:屋根が邪魔している。
 Watermill_WaterUsedTwice:流れが損なわれている: 他の_[Watermill]_により乱されている
 
 CasketContains:<<Contains??内容物>>
-CasketWarning:警告！\n\n[PAWN_nameDef]は最後の_{colonist}_です！[PAWN_nameDef]をキャスケットに入れるとゲームを続けられなくなる。本当に続行しますか？
+CasketWarning:警告！\n\n{PAWN_nameDef} は最後の_{colonist}_です！ {PAWN_nameDef} をキャスケットに入れるとゲームを続けられなくなる。本当に続行しますか？
 
 ShipReportCannotLaunch:発射できない。
 ShipReportCanLaunch:発射準備完了。
@@ -435,7 +435,7 @@ HibernateWarningStandalone:反応炉を動かす準備が出来た。\n\n起動�
 HibernateWarningPacifist:Charlon Whitestone は反応炉の休止状態復帰処理を行える準備ができた。彼はこの処理はおよそ15日掛かると忠告した。
 HibernateWarningStandalonePacifist:反応炉を動かす準備が出来た。この処理にはおおよそ15日かかる。
 
-NeurotrainerUsed:{0} は_[Neurotrainer]_を使って、{1}のスキルが {2} から {3} になった。
+NeurotrainerUsed:{USER_labelShort} は_[Neurotrainer]_を使って、{1}のスキルが {2} から {3} になった。
 
 Installed:<<Installed??配置済み>>
 NotInstalled:<<Not installed??未配置>>
@@ -477,17 +477,17 @@ LifespanExpiry:<<Expires in:??寿命まで:>>
 
 InactiveFacility:<<inactive??無効>>
 
-DiseaseGrowthModeChanged_Growing:<<{0}'s {1} is now growing.??{0} の {1} は進行している。>>
-DiseaseGrowthModeChanged_Stable:<<{0}'s {1} is now stable.??{0} の {1} は安定している。>>
-DiseaseGrowthModeChanged_Remission:<<{0}'s {1} is now in remission.??{0} の {1} は治癒した。>>
+DiseaseGrowthModeChanged_Growing:<<{PAWN_labelShort}'s {1} is now growing.??{PAWN_labelShort} の {1} は進行している。>>
+DiseaseGrowthModeChanged_Stable:<<{PAWN_labelShort}'s {1} is now stable.??{PAWN_labelShort} の {1} は安定している。>>
+DiseaseGrowthModeChanged_Remission:<<{PAWN_labelShort}'s {1} is now in remission.??{PAWN_labelShort} の {1} は治癒した。>>
 
 MarriageSpotUsable:<<Usable now.??使用可能。>>
 MarriageSpotNotUsable:<<Not usable: {0}.??使用不可: {0}。>>
 MarriageSpotNotStandable:<<blocked??塞がれている>>
-MarriageSpotDangerous:<<too dangerous for {0}??{0} のため非常に危険>>
-MarriageSpotForbidden:<<forbidden for {0}??{0} のため禁止>>
+MarriageSpotDangerous:<<too dangerous for {1_labelShort}??{1_labelShort} のため非常に危険>>
+MarriageSpotForbidden:<<forbidden for {1_labelShort}??{1_labelShort} のため禁止>>
 MarriageSpotReserved:<<reserved??予約済>>
-MarriageSpotUnreachable:<<unreachable for {0}??{0} のため到達できない>>
+MarriageSpotUnreachable:<<unreachable for {1_labelShort}??{1_labelShort} のため到達できない>>
 MarriageSpotInPrisonCell:<<in prison cell??牢獄の中にある>>
 NotEnjoyableOutsideTemperature:<<uncomfortable temperature??不快な温度>>
 

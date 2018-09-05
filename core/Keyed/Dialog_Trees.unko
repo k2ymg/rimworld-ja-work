@@ -1,7 +1,7 @@
 ﻿FactionGreetingHostile:{0} はマイクに向かって罵声を飛ばし、切断した。
-FactionGreetingHostileAppreciative:{0} は[PAWN_possessive]の_{settlements}_の一つに貢ぎ物を贈ったり、[PAWN_possessive]の派閥の_{prisoners}_を無傷で解放するなどの友好的な態度を要求してきた。それまでは[PAWN_pronoun]は話をしたくない。\n\n[PAWN_pronoun]は罵りながら切断した。
-FactionGreetingWary:{0} は {1} に慎重に挨拶して、どのようなビジネスをしたいか尋ねた。
-FactionGreetingWarm:{0} は {1} に心から挨拶して、 [PAWN_pronoun]が出来る事について尋ねた。
+FactionGreetingHostileAppreciative:{0} は{0_possessive}の_{settlements}_の一つに貢ぎ物を贈ったり、{0_possessive}の派閥の_{prisoners}_を無傷で解放するなどの友好的な態度を要求してきた。それまでは{0_pronoun}は話をしたくない。\n\n{0_pronoun}は罵りながら切断した。
+FactionGreetingWary:{0} は {NEGOTIATOR_labelShort} に慎重に挨拶して、どのようなビジネスをしたいか尋ねた。
+FactionGreetingWarm:{0} は {NEGOTIATOR_labelShort} に心から挨拶して、[PAWN_pronoun]が出来る事について尋ねた。
 
 Disconnect:<<Disconnect??切断>>
 

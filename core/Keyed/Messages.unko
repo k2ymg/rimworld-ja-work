@@ -16,7 +16,7 @@ MessageVisitorsTakingWounded:{1} の {0} は怪我をした_{guest}_を運ぼう
 MessageVisitorsTrappedLeaving:{1} の {0} は閉じ込められ脱出しようとしている。
 MessageVisitorsDangerousTemperature:{1} の {0} は危険な気温のため離れている。
 
-MessageWornApparelDeterioratedAway:{1} が身に着けていた {0} は朽ち果てた。
+MessageWornApparelDeterioratedAway:{1_nameFull} が身に着けていた {0} は朽ち果てた。
 
 MessageSeasonBegun:{0} が始まる。
 
@@ -26,20 +26,20 @@ MessageNeedBeaconToTradeWithShip:船と取引するには通電している _[or
 
 MessageBillComplete:_{bill}_完了：{0}
 
-MessageFullyHealed:{0} の怪我は治った。
+MessageFullyHealed:{1_label} の怪我は治った。
 
-MessagePrisonerIsEscaping:_{prisoner}_ {0} が逃げている。
+MessagePrisonerIsEscaping:_{prisoner}_ {1_labelShort} が逃げている。
 
-MessageOutOfNearbyShellsFor:{0} は {1} に使う弾薬を近くで見つけられない。
+MessageOutOfNearbyShellsFor:{PAWN_labelShort} は {GUN_label} に使う砲弾を近くで見つけられない。
 
-MessageAnimalsGoPsychoHunted:警告: {0} は危害を加えられると {1} の確率で襲ってくる。近づくと確率は上がり、_<Hunting stealth>_が良いと下がる。
+MessageAnimalsGoPsychoHunted:警告: {ANIMAL_kindBasePlural} は危害を加えられると {1} の確率で襲ってくる。近づくと確率は上がり、 _<Hunting stealth>_ が良いと下がる。
 
-MessageAnimalManhuntsOnTameFailed:警告: {0} は手懐行為が失敗すると反撃するかもしれない。(確率 {1})
+MessageAnimalManhuntsOnTameFailed:警告: {ANIMAL_kindBasePlural} は手懐行為が失敗すると反撃するかもしれない。(確率 {1})
 
 LetterLabelMessageRecruitSuccess:<<New recruit??新人>>
-MessageRecruitSuccess:{0} は {1} の勧誘に成功した (成功率 {2})。
-MessageTameSuccess:{0} は {1} の手懐けに成功した (成功率 {2})。
-MessageTameAndNameSuccess:{0} は {1} の手懐けに成功し (成功率 {2})、{3} と名付けた。
+MessageRecruitSuccess:{RECRUITER_nameFull} は {RECRUITEE_nameFull} の勧誘に成功した (成功率 {2})。
+MessageTameSuccess:{RECRUITER_labelShort} は {1} の手懐けに成功した (成功率 {2})。
+MessageTameAndNameSuccess:{RECRUITER_labelShort} は {1} の手懐けに成功し (成功率 {2})、{RECRUITEE_nameFull} と名付けた。
 
 MessageColonyCannotAfford:この取引を行える余裕がない。
 MessageColonyNotEnoughSilver:取引をするための十分な_[Silver]_がない。
@@ -63,23 +63,23 @@ MessageMustDesignateOpenable:中身が入っている墓地や容器を指定す
 MessageMustDesignateForbiddable:禁止されていないアイテムを指定する。
 MessageMustDesignateUnforbiddable:禁止されているアイテムを指定する。
 
-MessageRefusedArrest:{0} は逮捕されるのを拒否した。
+MessageRefusedArrest:{1_labelShort} は_{arrest}_されるのを拒否した。
 
 MessageNoMedicalBeds:利用可能な医療用ベッドがない。
 MessageNoAnimalBeds:利用可能な動物用ベッドがない。
-MessageTooLowMedCare:手術には {0} 以上が必要だが、{1} の現在の治療レベルは"{2}"になっている。
+MessageTooLowMedCare:手術には {0} 以上が必要だが、{PAWN_labelShort} の現在の治療レベルは"{2}"になっている。
 
-PawnDiedBecauseOf:{0} が死んだ。原因: {1}。
-PawnDied:{0} が死んだ。
+PawnDiedBecauseOf:{PAWN_labelShort} が死んだ。原因: {1}。
+PawnDied:{1_labelShort} が死んだ。
 
-MessageNoLongerDowned:{0} は自由に歩き回れるようになった。
+MessageNoLongerDowned:{1_label} は歩けるようになった。
 
-MessageInvoluntarySleep:{0} が極度の疲労によって倒れた。
+MessageInvoluntarySleep:{1_labelShort} が極度の疲労によって倒れた。
 
-MessageMedicalOperationFailureMinor:{0} は {1} の手術で少し失敗した。
-MessageMedicalOperationFailureCatastrophic:{0} は {1} の手術で大失敗した。
-MessageMedicalOperationFailureRidiculous:{0} は {1} の手術で間抜けな失敗をした。
-MessageMedicalOperationFailureFatal:{0} は {1} の手術で致命的なミスを犯した。特別な挑戦のため: {2}
+MessageMedicalOperationFailureMinor:{SURGEON_labelShort} は {PATIENT_labelShort} の手術で少し失敗した。
+MessageMedicalOperationFailureCatastrophic:{SURGEON_labelShort} は {PATIENT_labelShort} の手術で大失敗した。
+MessageMedicalOperationFailureRidiculous:{SURGEON_labelShort} は {PATIENT_labelShort} の手術で間抜けな失敗をした。
+MessageMedicalOperationFailureFatal:{SURGEON_labelShort} は {PATIENT_labelShort} の手術で致命的なミスを犯した。特別な挑戦のため: {2}
 
 MessageMedicalOperationWillAngerFaction:この手術は {0} を怒らせる。
 
@@ -87,36 +87,36 @@ MessageMiscarriedStarvation:{0} が飢えにより流産した。
 MessageMiscarriedPoorHealth:{0} が体調不良により流産した。
 MessageGaveBirth:{0} が出産した。
 
-MessageNuzzledPawnGaveNameTo:{1} が懐いたので {0} が {2} と名付けた。
+MessageNuzzledPawnGaveNameTo:{1} が懐いたので {NAMER_nameFull} が {NAMEE_nameFull} と名付けた。
 
-MessageNoHandlerSkilledEnough:{0} は誰も手懐けられない。(必要レベル {1} / {2}、最も高い {3} は {4})。
+MessageNoHandlerSkilledEnough:{ANIMAL_kindBase} は誰も手懐けられない。(必要レベル {1} / {2}、最も高い {HANDLER_labelShort} は {4})。
 
-MessageEatenByPredator:{0} が {1} に喰われた。
-MessageAttackedByPredator:{0} が {1} に襲われた!
+MessageEatenByPredator:{EATEN_labelShort} が {PREDATOR} に喰われた。
+MessageAttackedByPredator:{PREY_labelShort} が {PREDATOR} に襲われている!
 
 MessageHiveReproduced:虫の巣が自己増殖した。
 
 MessageTraderCaravanLeaving:{0} からの交易キャラバンは離れている。
 
-MessageCantSelectDeadPawn:{0} は死んでいる。
-MessageCantSelectOffMapPawn:{0} はマップ外にいる。
+MessageCantSelectDeadPawn:{1_labelShort} は死んでいる。
+MessageCantSelectOffMapPawn:{1_labelShort} はマップの外にいる。
 
-MessageSocialFight:{0} が {1} とケンカを始めた。
+MessageSocialFight:{PAWN1_labelShort} が {PAWN2_labelShort} とケンカを始めた。
 
-MessageNewMarriageCeremony:_{colonists}_は {0} と {1} の 結婚式を祝うために集った。
-MessageMarriageCeremonyStarts:{0} と {1} の結婚式が始まった!
-MessageMarriageCeremonyCalledOff:{0} と {1} の結婚式は取りやめになった。
-MessageNewlyMarried:{0} と {1} は結婚した。_{colonists}_たちはこの出来事を喜んでいる。
-MessageMarriageCeremonyAfterPartyFinished:{0} と {1} の結婚式は終わった。
+MessageNewMarriageCeremony:_{colonists}_は {PAWN1_labelShort} と {PAWN2_labelShort} の 結婚を祝うために集った。
+MessageMarriageCeremonyStarts:{PAWN1_labelShort} と {PAWN2_labelShort} が結婚式を始めた!
+MessageMarriageCeremonyCalledOff:{PAWN1_labelShort} と {PAWN2_labelShort} の結婚式は取りやめになった。
+MessageNewlyMarried:{PAWN1_labelShort} と {PAWN2_labelShort} は結婚した。_{colonists}_はこの出来事を喜んでいる。
+MessageMarriageCeremonyAfterPartyFinished:{PAWN1_labelShort} と {PAWN2_labelShort} の結婚式は終わった。
 
-MessageNewBondRelation:{0} と {1} は絆で結ばれた。
-MessageNewBondRelationNewName:{0} と {1} は絆で結ばれた。{0} は {2} と名付けた。
+MessageNewBondRelation:{HUMAN_labelShort} と {ANIMAL_labelShort} は絆で結ばれた。
+MessageNewBondRelationNewName:{HUMAN_labelShort} と {1} は絆で結ばれた。{HUMAN_labelShort} は {ANIMAL_nameFull} と名付けた。
 
-MessageBondedAnimalMentalBreak:{0} は {1} の死により精神崩壊を起こした。
-MessageNamedBondedAnimalMentalBreak:{1} と名づけられた {0} は {2} の死により精神崩壊を起こした。
-MessageBondedAnimalsMentalBreak:{0} 匹の動物達は {1} の死により精神崩壊を起こした。
+MessageBondedAnimalMentalBreak:{ANIMAL} が {HUMAN_labelShort} の死により精神崩壊を起こした。
+MessageNamedBondedAnimalMentalBreak:{ANIMAL_label} と名づけられた {ANIMAL_kindIndef} が {HUMAN_labelShort} の死により精神崩壊を起こした。
+MessageBondedAnimalsMentalBreak:{0} 匹の動物達が {HUMAN_labelShort} の死により精神崩壊を起こした。
 
-MessageSuccessfullyRemovedHediff:{0} は {1} の {2} の除去に成功した。
+MessageSuccessfullyRemovedHediff:{SURGEON_labelShort} は {PATIENT_labelShort} の {HEDIFF} を取り除いた。
 
 MessageShipChunkDrop:宇宙船の残骸が近くに衝突した。\n\n解体すれば物資を得られる。
 
@@ -125,19 +125,19 @@ MessagePartyFinished:パーティは終わった。
 
 MessageCannotSellItemsReason:いくつかのアイテムは次の理由により取引できない:
 
-MessageConstructionFailed:{1} は {0} の建造に失敗し、いくつかの物資が無駄になった。
+MessageConstructionFailed:{WORKER_labelShort} は {0} の建造に失敗し、いくつかの物資が無駄になった。
 
 MessageScreenshotSavedAs:スクリーンショットを次の名前で保存した: {0}
 
-MessageNoLongerSocialFighting:{0} と {1} はケンカを止めた。
+MessageNoLongerSocialFighting:{PAWN1_labelShort} と {PAWN2_labelShort} はケンカを止めた。
 
-MessageNoLongerBingingOnDrug:{0} は {1} の乱用を止めた。
+MessageNoLongerBingingOnDrug:{2_labelShort} は {1} の乱用を止めた。
 
-MessageNoLongerOnTargetedInsultingSpree:{0} は {1} に暴言を言うのを止めた。
+MessageNoLongerOnTargetedInsultingSpree:{PAWN_labelShort} は {TARGET_label} への暴言を止めた。
 
-MessageRottedAwayInStorage:{0} が貯蔵所で腐った。
+MessageRottedAwayInStorage:{1_label} が貯蔵所で腐った。
 
-MessageFoodPoisoning:{0} が {1} で食中毒を起こした。原因: {2}。
+MessageFoodPoisoning:{PAWN_labelShort} が {FOOD_labelShort} で食中毒になった。原因: {2}。
 
 MessagePawnLostWhileFormingCaravan:{0} がキャラバンから外された。
 MessagePawnLostWhileFormingCaravan_AllLost:キャラバンの編成は中止された。
@@ -153,11 +153,11 @@ MessagePlantDiedOfRot_LeftUnharvested:{0} が収穫されずに腐って死ん�
 MessagePlantDiedOfRot_ExposedToLight:{0} が光に当たって死んだ。
 MessagePlantDiedOfRot:{0} が腐って死んだ。
 MessagePlantDiedOfPoison:{0} が毒で死んだ。
-MessagePlantDiedOfBlight:{0} が疫病で死んだ。
+MessagePlantDiedOfBlight:{1_label} が_{blight}_で死んだ。
 
-MessagePawnBeingBurned:{0} が高温の大気で火傷した。
+MessagePawnBeingBurned:{1_labelShort} が高温の空気で火傷している。
 
-MessageAccidentalOverdose:{0} が {1} を誤って過剰摂取した!
+MessageAccidentalOverdose:{INGESTER} が {DRUG_labelShort} を誤って過剰摂取した!
 
 MessageCaravanArrivedAtDestination:{0} は目的地に到達した。
 
@@ -165,14 +165,14 @@ MessageCaravanIsVisitingSettlement:{0} は {1}に到着した。
 
 MessageCaravanEnteredWorldObject:{0} は {1}に到着した。
 
-MessagePawnLeftMapAndCreatedCaravan:{0} はこのエリアを離れてキャラバンを編成した。
+MessagePawnLeftMapAndCreatedCaravan:{1_labelShort} はこのエリアを離れてキャラバンを編成した。
 MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin:動物が加わろうとしている。
 
 MessageSettledInExistingMap:新しいエリアに入植できた。
 
-MessagePermanentWoundHealed:{1} の {2} は治った。原因: {0}
+MessagePermanentWoundHealed:{PAWN_labelShort} の {2} は治った。原因: {0}
 
-MessageRescueeJoined:[PAWN_objective]を救出したことで、{0} がグループに加わった！
+MessageRescueeJoined:救出により、{1_labelShort} がグループに加わった！
 
 ;MessageAttackedCaravanIsNowHostile,{0} のキャラバンを攻撃したので、この派閥は今から敵になる。
 ;MessageFactionPawnCrushed,{0} が落盤事故により人を失った。派閥関係: {1}
@@ -194,7 +194,7 @@ MessageTransportPodsArrivedAndAddedToCaravan:_[Transport pod]_ が到着した�
 
 MessageFinishedLoadingTransporters:_{colonists}_は _[Transport pod]_ への積み込みを終えた。
 
-MessageCantLoadMoreIntoTransporters:{1} は _[Transport pod]_ への積み込みを終えられない。アイテムか人が得られなくなったため。 ({0})。
+MessageCantLoadMoreIntoTransporters:{1} は _[Transport pod]_ への積み込みを終えられない。アイテムか人が得られなくなったため。 ({2_labelShort})。
 
 MessageTransportPodsDestinationIsInvalid:選択された目的地が不正。
 MessageTransportPodsDestinationIsTooFar:_[Transport pod]_ をその距離まで飛ばすには、各 _[Pod launcher]_ に最低でも {0} の燃料が必要。
@@ -203,12 +203,12 @@ MessageReformedCaravan:キャラバンは再編成した。
 
 MessageCantBanishLastColonist:最後の_{colonist}_を追放することはできない。
 
-MessageCantEquipIncapableOfViolence:装備不可: {0} は暴力をふるえない。
-MessageCantEquipIncapableOfManipulation:装備不可: できない。
+MessageCantEquipIncapableOfViolence:装備不能: {1_labelShort} は暴力をふるえない。
+MessageCantEquipIncapableOfManipulation:装備不能: できない。
 
-MessageSlaughteringBondedAnimal:絆があるので、{0} を屠殺すると {1} が不満になる。
+MessageSlaughteringBondedAnimal:絆があるので、{DESIGNATED_labelShort} を屠殺すると {BONDED_labelShort} が不満になる。
 
-MessageCaravanRanOutOfFood:{0} の食料が尽きた({1})。
+MessageCaravanRanOutOfFood:{0} の食料が尽きた ({PAWN_label})。
 
 MessageSelectOwnBaseToFormCaravan:キャラバンを編成するには自分の_{colony}_か人々がいる場所を選択する。
 
@@ -218,8 +218,8 @@ MessageYouHaveToReformCaravanNow:今すぐキャラバンを編成しなけれ�
 
 MessageDefendersAttacking:{1} の {0} が {2} を攻撃している。
 
-MessageSelfTendUnsatisfied:自己治療をするには、{0} に医者の仕事も割り当てる必要がある。
-MessageCannotSelfTendEver:{0} は医者の仕事ができないので、自己治療はできない。
+MessageSelfTendUnsatisfied:自己治療をするには、{1_labelShort} に医者の仕事も割り当てる必要がある。
+MessageCannotSelfTendEver:{1_labelShort} は医者の仕事ができないので、自己治療はできない。
 
 MessageCantAddWaypointBecauseImpassable:このタイルは通れない。
 MessageCantAddWaypointBecauseUnreachable:最後のウェイポイントから、このタイルに到達できない。
@@ -231,25 +231,25 @@ MessageCantDoExecutionBecauseNoWardenCapableOfViolence:暴力行為を行える_
 MessageSiteCountdownBecauseNoMoreEnemies:すべての敵を倒した。残り {0} で、キャラバンは自動的に再編成される。
 MessageSiteCountdownBecauseNoEnemiesInitially:残り {0} で、キャラバンは自動的に再編成される。ワールド画面で今すぐ再編成することもできる。
 
-MessageCantBanishDownedPawn:{0} は歩けないので追放できない。
+MessageCantBanishDownedPawn:{1_labelShort} は歩けないので追放できない。
 MessageSleepingPawnsWokenUp:{0} は目を覚ました。
 MessageCompSpawnerSpawnedItem:アイテムを生産した: {0}。
 MessageHediffCuredByItem:健康が回復した: {0}。
 MessageBodyPartCuredByItem:身体パーツを修復した: {0}。
 MessageResearchProjectFinishedByItem:テクノロジーが与えられた: {0}。
 MessagePawnResurrected:{0} は息を吹き返した!
-MessageFailedToRescueRelative:{0} を救えなかった。{1} を悲しませる。
-MessageRescuedRelative:{0} を救えた。{1} が喜ぶ。
+MessageFailedToRescueRelative:{PAWN_labelShort} を救えなかった。{RELATIVE_labelShort} を悲しませる。
+MessageRescuedRelative:{PAWN_labelShort} を救えた。{RELATIVE_labelShort} が喜ぶ。
 
 MessageTornadoLeftMap:竜巻は去った。
 MessageTornadoDissipated:竜巻は散り散りになった。
 MessagePeaceTalksNoDiplomat:意識も、外交能力も無い
 MessageWarningCavePlantsExposedToLight:警告: {0} は光に当たると生きていけない。
 
-MessageTargetedTantrumChangedTarget:{0} は {1} へ行けないので代わりに {2} へ怒りを向けた。
-MessageTargetedInsultingSpreeChangedTarget:{0} は {1} へ行けないので代わりに {2} へ怒りを向けた。
+MessageTargetedTantrumChangedTarget:{PAWN_labelShort} は {OLDTARGET_label} へ行けないので代わりに {TARGET_label} へ怒りを向けた。
+MessageTargetedInsultingSpreeChangedTarget:{PAWN_labelShort} は {OLDTARGET_label} へ行けないので代わりに {TARGET_label} へ怒りを向けた。
 
-MessageMurderousRageChangedTarget:{0} は怒りの矛先を {1} へ変えた。
+MessageMurderousRageChangedTarget:{PAWN_labelShort} は怒りの矛先を {TARGET_label} へ変えた。
 
 MessagePlantIncompatibleWithRoof:{0} は屋根の下では成長できない。
 MessageRoofIncompatibleWithPlant:{0} の上に屋根は作れない。
@@ -258,24 +258,24 @@ MessageChoseRoute:キャラバンは最初のウェイポイントへ自動的�
 
 ;MessageBlockedHediff:{0} が {1} を防いでいる: {2}。
 
-MessageCraftedMasterwork:{0} が {1} を作った。
+MessageCraftedMasterwork:{WORKER_labelShort} が {CRAFTED_labelShort} を作った。
 
 MessagePlayerTriedToLeaveMapViaExitGrid:ここから離れるには、ワールド画面の"_<Reform caravan>_"ボタンを使う。
 
 MessageGoodwillChanged:{0} との関係が {1} から {2} へ変わった。
 MessageGoodwillChangedWithReason:{0} との関係が {1} から {2} へ変わった。({3})。
-GoodwillChangedReason_AttackedPawn:{0} を攻撃したため
-GoodwillChangedReason_UsedItem:{1} に {0}を使ったため
-GoodwillChangedReason_RemovedBodyPart:{0} から臓器を抜いたため
-GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart:{0} に無闇に移植したため
-GoodwillChangedReason_CapturedPawn:{0} を捕まえたため
-GoodwillChangedReason_PawnCrushed:{0} が潰れたため
-GoodwillChangedReason_PawnDied:{0} が死んだため
+GoodwillChangedReason_AttackedPawn:{1_labelShort} を攻撃したため
+GoodwillChangedReason_UsedItem:{TARGET_labelShort} に {ITEM_labelShort} を使ったため
+GoodwillChangedReason_RemovedBodyPart:{0} を取り外したため
+GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart:{0} を無闇に移植したため
+GoodwillChangedReason_CapturedPawn:{1_labelShort} を捕まえたため
+GoodwillChangedReason_PawnCrushed:{1_labelShort} が潰れたため
+GoodwillChangedReason_PawnDied:{1_labelShort} が死んだため
 GoodwillChangedReason_Traded:交易により
 GoodwillChangedReason_AttackedCaravan:キャラバンを襲ったため
 GoodwillChangedReason_NaturallyOverTime:時間経過で{0}になる性質により
-GoodwillChangedReason_ExitedMapHealthy:{0} が元気に出て行ったので
-GoodwillChangedReason_Tended:{0} を看護したので
+GoodwillChangedReason_ExitedMapHealthy:{1_labelShort} が元気に出て行ったので
+GoodwillChangedReason_Tended:{1_labelShort} を看護したので
 GoodwillChangedReason_ReceivedGift:贈り物を受け取ったので
 GoodwillChangedReason_FulfilledTradeRequest:取引要請を達成したので
 
@@ -294,8 +294,8 @@ MessageBillValidationIncludeZoneDeleted:{1} の "{0}" は消された_{stockpile
 MessageBillValidationIncludeZoneUnavailable:{1} の "{0}" は利用不可な_{stockpile}_ {2} のアイテムを数えられなくなった。
 MessageBillValidationStoreZoneInsufficient:{1} の "{0}" は全ての生産物を_{stockpile}_ {2} へ運べなくなった。
 
-MessageAnimalReturnedWild:継続的な飼い慣らしを怠ったので、{0} は野生へ帰っていった。
-MessageAnimalLostSkill:継続的な訓練を怠ったので、{0} はスキルを失った: {1}
+MessageAnimalReturnedWild:継続的な飼い慣らしを怠ったので、{1_labelShort} は野生に帰った。
+MessageAnimalLostSkill:継続的な訓練を怠ったので、{ANIMAL_labelShort} はスキルを失った: {1}
 
 MessageTranslationReportSaved:翻訳リポートを出力しました: {0}
 
@@ -303,9 +303,9 @@ MessageCaravanArrivalActionNoLongerValid:{0} は目的地へたどり着けな�
 
 MessageEnterCooldownBlocksEntering:{0} 日間は再入場できない。
 
-MessagePredatorHuntingPlayerAnimal:{0} が {1} を捕食しようとしている！
+MessagePredatorHuntingPlayerAnimal:{PREDATOR} が {PREY_definite} を捕食しようとしている！
 
-MessagePrisonerResistanceBroken:_{prisoner}_ {0} の抵抗は {1} により砕かれた。
+MessagePrisonerResistanceBroken:_{prisoner}_ {PRISONER_labelShort} の抵抗は {WARDEN_labelShort} により砕かれた。
 MessagePrisonerResistanceBroken_RecruitAttempsWillBegin:勧誘出来るようになった。
 
 MessageDisableModsBeforeCleaningTranslationFiles:このツールを使う前には、全てのMODを無効にして下さい。
@@ -313,4 +313,4 @@ MessageTranslationFilesCleanupDone:完了。処理したフォルダ: {0}
 
 MessageCantCleanupTranslationFilesBeucaseOfXmlError:翻訳ファイル({0})が読み込めませんでした。先にXMLのパースエラーを直して下さい。
 
-MessageCapturingWillAngerFaction:警告: [PAWN_nameDef] を捕まえると派閥 [PAWN_factionName] が怒る。
+MessageCapturingWillAngerFaction:警告: {PAWN_nameDef} を捕まえると派閥 {PAWN_factionName} が怒る。

@@ -66,7 +66,7 @@ CurrentExpectationsAndRecreation:現在の期待({0})では、毎日 {1} 鈍化�
 bored:<<bored??退屈した>>
 
 Boredom:<<Boredom??退屈>>
-BoredomDesc:これらの人々には娯楽の欲求を満たすか、娯楽に割り当てる必要があるが、現在の娯楽には退屈している:\n\n{0}\n\nもっと多くの娯楽の種類を増やす。\n\n現在{0}に利用可能な娯楽の種類は:\n\n{2}
+BoredomDesc:これらの人々には娯楽の欲求を満たすか、娯楽に割り当てる必要があるが、現在の娯楽には退屈している:\n\n{0}\n\nもっと多くの娯楽の種類を増やす。\n\n現在 {PAWN_labelShort} が行える娯楽の種類は:\n\n{2}
 
 NeedBatteries:<<Need batteries??_[Battery]_が必要>>
 NeedBatteriesDesc:_[Solar panel]_ や _[Wind generator]_ があるが、_[Battery]_がない。これは、日が沈んだり風が弱くなるたびに停電することを意味している。\n\n電力を持続させるために_[Battery]_を一つか二つ作ろう。

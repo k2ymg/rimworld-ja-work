@@ -23,7 +23,7 @@ AddBill:_<Add bill>_
 RecipeRequiresSkills:{0} のレシピは以下のスキルが必要。これらのスキルを持っている_{colonists}_がいないので、この_{bill}_は誰も実行できない。
 MinimumSkill:<<Min skill??最少スキル値>>
 SuspendedCaps:<<SUSPENDED??停止中>>
-BoundWorkerIs:<<Worker: {0}??作業者: {0}>>
+BoundWorkerIs:<<Worker: {1_labelShort}??作業者: {1_labelShort}>>
 ; 動詞か？未使用なので放置
 PlantVerb:<<Plant??植物>>
 ClipboardBillNotAvailableHere:コピーされた_{bill}_をここにペーストできない。
@@ -96,7 +96,7 @@ ExtremePain:<<Extreme??猛烈な痛み>>
 
 Trainability:<<Trainability??従順性>>
 CannotTrainNotSmartEnough:<<Requires trainability {0}.??必要とする従順性 {0}。>>
-CannotTrainTooSmall:この訓練をするには {0} は小さすぎる。
+CannotTrainTooSmall:この訓練をするには {1_labelShort} は小さすぎる。
 
 TrainingNeedsPrerequisite:<<Prerequisite needed: {0}??前提: {0}>>
 
@@ -105,8 +105,8 @@ Kidnapped:<<Kidnapped??誘拐>>
 Missing:<<Missing??消息不明>>
 Slave:<<Slave??奴隷>>
 FactionLeader:<<Faction leader??派閥のリーダー>>
-OpinionOf:<<Opinion of {0}??{0} への評価>>
-SomeonesOpinionOfMe:<<{0}'s opinion of me??{0} の私への評価>>
+OpinionOf:<<Opinion of {1_labelShort}??{1_labelShort} への評価>>
+SomeonesOpinionOfMe:<<{1_labelShort}'s opinion of me??{1_labelShort} の私への評価>>
 IAmDead:<<I'm dead??私は死んだ>>
 IAmPsychopath:<<I'm a psychopath??私はサイコパス>>
 
