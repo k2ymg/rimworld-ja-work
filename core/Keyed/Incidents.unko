@@ -36,12 +36,12 @@ GroupTravelersPassing:{0} の 旅行者達が通り過ぎようとしている�
 
 LetterLabelSingleVisitorArrives:<<Visitor??訪問者>>
 SingleVisitorArrives:{1} の {PAWN_titleIndef} が_{colony}_を訪問している。\n\n{PAWN_pronoun}は {PAWN_nameFull} と名乗っている。{3}{4}
-SingleVisitorArrivesTraderInfo:\n\n{PAWN_pronoun}は持っているアイテムをいくつかトレードしたがっている。
-SingleVisitorArrivesLeaderInfo:\n\n{PAWN_pronoun}は派閥のリーダーだ。
+SingleVisitorArrivesTraderInfo:{PAWN_pronoun}は持っているアイテムをいくつかトレードしたがっている。
+SingleVisitorArrivesLeaderInfo:{PAWN_pronoun}は派閥のリーダーだ。
 LetterLabelGroupVisitorsArrive:<<Visitors??訪問者達>>
 GroupVisitorsArrive:{0} の一団が_{colony}_を訪問している。{1}{2}
-GroupVisitorsArriveTraderInfo:\n\n彼らは持っているアイテムをいくつかトレードしたがっている。
-GroupVisitorsArriveLeaderInfo:\n\n訪問者達のうち、{1_labelShort} は派閥のリーダーだ。
+GroupVisitorsArriveTraderInfo:彼らは持っているアイテムをいくつかトレードしたがっている。
+GroupVisitorsArriveLeaderInfo:訪問者達のうち、{1_labelShort} は派閥のリーダーだ。
 VisitorsLeaving:{0} からの訪問者達は去ろうとしている。
 
 LetterLabelManhunterPackArrived:_<Manhunter pack>_

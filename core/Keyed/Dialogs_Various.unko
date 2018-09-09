@@ -285,7 +285,7 @@ DaysWorthOfFood:<<Days of food??食糧日数>>
 DaysWorthOfFoodInfoRot:<<rot in {0}??腐敗まで {0}>>
 InfiniteDaysWorthOfFoodInfo:<<Unlimited??無制限>>
 DaysWorthOfFoodTooltip:少なくとも一人の人間、または一匹の動物の食糧が切れるまでの、おおよその日数。食性は種族によって異なるので、ある種が他よりも早く食料を食べ尽くす事がある。この値は経路を選んだ後に、より正確に計算される。\n\n影響するのは:\n  - 持っている食料の種類と量\n  - キャラバンのメンバーとその食性\n  - _{Foraging}_量\n  - 動物が草を食べられるかどうか\n  - 食料が腐るまでの時間\n  - 暑い気候は食料をより早く腐らせる
-DaysWorthOfFoodTooltip_OnlyFirstWaypoint:\n(最初のウェイポイントのみ計算に含まれている)
+DaysWorthOfFoodTooltip_OnlyFirstWaypoint:(最初のウェイポイントのみ計算に含まれている)
 DaysWorthOfFoodWarningDialog:キャラバンは {0} 日分の食料しか持っていないので早めに飢える。
 DaysWorthOfFoodWarningDialog_NoFood:キャラバンは食料を持っていないので直ぐに飢える。
 ForagedFoodPerDayTip:人々が一日あたりに_{forage}_する平均量。この値は_{forage}_量が異なるバイオームを移動するにつれて変化する。

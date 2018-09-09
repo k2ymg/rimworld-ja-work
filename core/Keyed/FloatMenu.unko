@@ -176,7 +176,7 @@ CannotPrioritizeCellForbidden:<<Cannot prioritize (forbidden)??優先できな�
 
 CannotPrioritizeForbiddenOutsideAllowedArea:<<Outside allowed area??_<Allowed area>_から外れている>>
 
-PrioritizeGeneric:<<Prioritize {0} {2_label}??{2_label} の {0} を優先>>
+PrioritizeGeneric:<<Prioritize {0} {1}??{1} の {0} を優先>>
 
 DropAtEdge:<<Drop at edge??端に落とす>>
 DropInCenter:<<Drop in center??中央に落とす>>

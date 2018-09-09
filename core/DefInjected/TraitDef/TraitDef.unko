@@ -1,146 +1,146 @@
 ﻿{Nudist.degreeDatas.nudist
 	label:_<nudist>_
-	description:[PAWN_nameDef]は裸の開放感を楽しんでいる。服を着られるが、ない方が幸せになれる。
+	description:{PAWN_nameDef} は裸の開放感を楽しんでいる。服を着られるが、ない方が幸せになれる。
 }
 
 {Bloodlust.degreeDatas.bloodlust
 	label:_<bloodlust>_
-	description:[PAWN_nameDef]は傷ついている人を見ると興奮し、血や死を見ても気にしない。他と比べて4倍ケンカを始めやすい。
+	description:{PAWN_nameDef} は傷ついている人を見ると興奮し、血や死を見ても気にしない。他と比べて4倍ケンカを始めやすい。
 }
 
 {Kind.degreeDatas.kind
 	label:_<kind>_
-	description:[PAWN_nameDef]は良い人だ。[PAWN_pronoun]の性格は周りを明るくさせ、他人を屈辱しない。
+	description:{PAWN_nameDef} は良い人だ。{PAWN_pronoun}の性格は周りを明るくさせ、他人を屈辱しない。
 }
 
 {Psychopath.degreeDatas.psychopath
 	label:_<psychopath>_
-	description:[PAWN_nameDef]は思いやりがない。他人の苦しみなどに煩わされない。他人が殺されようが、死体として転がっていようが、収監されようが、奴隷として売られようが、自分に関係しない限り気にしない。社交的な行為で_{mood}_は良くならない。
+	description:{PAWN_nameDef} は思いやりがない。他人の苦しみなどに煩わされない。他人が殺されようが、死体として転がっていようが、収監されようが、奴隷として売られようが、自分に関係しない限り気にしない。社交的な行為で_{mood}_は良くならない。
 }
 
 {Cannibal.degreeDatas.cannibal
 	label:_<cannibal>_
-	description:[PAWN_nameDef]は人肉を食べる事は間違っていて恐ろしいことだと教わった。しかし、昔、一度だけ試したことがある・・・。そして好きになった。
+	description:{PAWN_nameDef} は人肉を食べる事は間違っていて恐ろしいことだと教わった。しかし、昔、一度だけ試したことがある・・・。そして好きになった。
 }
 
 {Abrasive.degreeDatas.abrasive
 	label:_<abrasive>_
-	description:[PAWN_nameDef]はいつも思っていることを、それがむかつく事なら特に、そのまま言葉にする。これは人々をかなり怒らせる傾向がある。
+	description:{PAWN_nameDef} は思っている事を、それがむかつく事なら特に、そのまま口にする事が多い。これは人々をかなり怒らせる傾向がある。
 }
 
 {TooSmart.degreeDatas.too_smart
 	label:_<too smart>_
-	description:[PAWN_nameDef]は自滅するほどに頭が良すぎる。誰よりも物覚えが良いが、かなりの変人にもなり得る。
+	description:{PAWN_nameDef} は自滅するほどに頭が良すぎる。誰よりも物覚えが良いが、かなりの変人にもなり得る。
 }
 
 {Brawler.degreeDatas.brawler
 	label:_<brawler>_
-	description:[PAWN_nameDef]は間近でやり合うのが好きだ。近接戦闘における命中率は大きく上昇するが、遠距離武器を持たせようとするととても不機嫌になる。
+	description:{PAWN_nameDef}は間近でやり合うのが好きだ。近接戦闘における命中率は大きく上昇するが、遠距離武器を持たせようとするととても不機嫌になる。
 }
 
 {Masochist.degreeDatas.masochist
 	label:_<masochist>_
-	description:[PAWN_nameDef]にとって、苦痛とはちょっと楽しむものだ。何故かは分からないが、とにかく変態的に興奮する。
+	description:{PAWN_nameDef} にとって、苦痛とはちょっと楽しむものだ。何故かは分からないが、とにかく変態的に興奮する。
 }
 
 {NightOwl.degreeDatas.night_owl
 	label:_<night owl>_
-	description:[PAWN_nameDef]は夜に起きて、昼に寝るのを好む。\n\n夜(23時-06時)に起きていると_{mood}_が良くなり、昼(11時-18時)に起きていると悪くなる。\n\n暗闇にいても_{mood}_へのペナルティを受けない。
+	description:{PAWN_nameDef} は夜に起きて、昼に寝るのを好む。\n\n夜(23時-06時)に起きていると_{mood}_が良くなり、昼(11時-18時)に起きていると悪くなる。\n\n暗闇にいても_{mood}_へのペナルティを受けない。
 }
 
 {Greedy.degreeDatas.greedy
 	label:_<greedy>_
-	description:[PAWN_nameDef]は豪華な寝室を欲しがっている。欲しいものが手に入らないと_{mood}_が悪くなる。
+	description:{PAWN_nameDef} は豪華な寝室を欲しがっている。欲しいものが手に入らないと_{mood}_が悪くなる。
 }
 
 {Jealous.degreeDatas.jealous
 	label:_<jealous>_
-	description:[PAWN_nameDef]にとって、自分の寝室が他人よりも劣っていることは屈辱的だ。他人が自分よりも豪華な寝室を持っていると_{mood}_が悪くなる。
+	description:{PAWN_nameDef} にとって、自分の寝室が他人よりも劣っていることは屈辱的だ。他人が自分よりも豪華な寝室を持っていると_{mood}_が悪くなる。
 }
 
 {Ascetic.degreeDatas.ascetic
 	label:_<ascetic>_
-	description:[PAWN_nameDef]は禁欲生活が好きだ。豪華な寝室にいると_{mood}_が悪くなる。また、上等な食事を嫌い、生で食べるのを好む。食べ物が生でも全く気にしない。
+	description:{PAWN_nameDef} は禁欲生活が好きだ。豪華な寝室にいると_{mood}_が悪くなる。また、上等な食事を嫌い、生で食べるのを好む。食べ物が生でも全く気にしない。
 }
 
 {Gay.degreeDatas.gay
 	label:_<gay>_
-	description:[PAWN_nameDef]は自分と同性の人に惹かれる。
+	description:{PAWN_nameDef} は自分と同性の人に惹かれる。
 }
 
 {AnnoyingVoice.degreeDatas.annoying_voice
 	label:_<annoying voice>_
-	description:[PAWN_nameDef]の声は鼻に掛かったような不快な音で、がなるように喋るため何を言っているか分からない。これにより嫌われやすい。
+	description:{PAWN_nameDef} の声は鼻に掛かったような不快な音で、がなるように喋るため何を言っているか分からない。これにより嫌われやすい。
 }
 
 {CreepyBreathing.degreeDatas.creepy_breathing
 	label:_<creepy breathing>_
-	description:[PAWN_nameDef]はいつも荒い息づかいで絶えず汗をかいている。人々は気持ち悪がっている。
+	description:{PAWN_nameDef} はいつも荒い息づかいで絶えず汗をかいている。人々は気持ち悪がっている。
 }
 
 {Pyromaniac.degreeDatas.pyromaniac
 	label:_<pyromaniac>_
-	description:[PAWN_nameDef]は火が大好き。火を決して消そうとはしない。時々、ストレス発散のために、あちこちに火を点けまくる。_{mood}_が悪いときによくやる。
+	description:{PAWN_nameDef} は火が大好き。火を決して消そうとはしない。時々、ストレス発散のために、あちこちに火を点けまくる。_{mood}_が悪いときによくやる。
 }
 
 {Wimp.degreeDatas.wimp
 	label:_<wimp>_
-	description:[PAWN_nameDef]は弱くて臆病者だ。ちょっとした痛みでも動けなくなる。
+	description:{PAWN_nameDef} は弱くて臆病者だ。ちょっとした痛みでも動けなくなる。
 }
 
 {Nimble.degreeDatas.nimble
 	label:_<nimble>_
-	description:[PAWN_nameDef]は並外れた運動神経を持っている。神がかった動きで危険を避けているようだ。
+	description:{PAWN_nameDef} は並外れた運動神経を持っている。神がかった動きで危険を避けているようだ。
 }
 
 {FastLearner.degreeDatas.fast_learner
 	label:_<fast learner>_
-	description:[PAWN_nameDef]は勉強のコツを知っている。誰よりも早く物事を覚える。
+	description:{PAWN_nameDef} は勉強のコツを知っている。誰よりも早く物事を覚える。
 }
 
 {Undergrounder.degreeDatas.undergrounder
 	label:_<undergrounder>_
-	description:[PAWN_nameDef]は屋外や光に興味がない。長い間室内に居ても、閉じ込められたように感じる事はなく、_<cabin fever>_にもならない。また、暗闇も気にならない。
+	description:{PAWN_nameDef} は屋外や光に興味がない。室内に長く居ても、閉じ込められたように感じる事はなく、_<cabin fever>_にもならない。また、暗闇も気にならない。
 }
 
 {Transhumanist.degreeDatas.transhumanist
 	label:_<transhumanist>_
-	description:[PAWN_nameDef]は弱々しい人間の身体に限界を感じている。[PAWN_pronoun]は人工的な肉体で強化される夢をよく見ている。
+	description:{PAWN_nameDef} は弱々しい人間の身体に限界を感じている。{PAWN_pronoun}は人工的な肉体で強化される夢をよく見ている。
 }
 
 {BodyPurist.degreeDatas.body_purist
 	label:_<body purist>_
-	description:[PAWN_nameDef]は人間の体に限界があるのは何か理由があると考えている。[PAWN_objective]にとって、人工的な肉体は主義に反した、汚らわしい物だ。
+	description:{PAWN_nameDef} は人間の体に限界があるのは何か理由があると考えている。{PAWN_objective}にとって、人工的な肉体は主義に反した、汚らわしい物だ。
 }
 
 {DislikesMen.degreeDatas.misandrist
 	label:_<misandrist>_
-	description:[PAWN_nameDef]は男が大嫌いで信用していない。
+	description:{PAWN_nameDef} は男が大嫌いで信用していない。
 }
 
 {DislikesWomen.degreeDatas.misogynist
 	label:_<misogynist>_
-	description:[PAWN_nameDef]は女が大嫌いで信用していない。
+	description:{PAWN_nameDef} は女が大嫌いで信用していない。
 }
 
 {GreatMemory.degreeDatas.great_memory
 	label:_<great memory>_
-	description:[PAWN_nameDef]は細かいことを何でも覚えている。使っていないスキルが衰える速さが他の人より半分になる。
+	description:{PAWN_nameDef} は細かいことを何でも覚えている。使っていないスキルが衰える速さが他の人より半分になっている。
 }
 
 {Tough.degreeDatas.tough
 	label:_<tough>_
-	description:[PAWN_nameDef]は皮膚が厚く、肉厚で、骨が丈夫だ。他の人よりも受けるダメージが少なく、殺されにくい。
+	description:{PAWN_nameDef} は皮膚が厚く、肉厚で、骨が丈夫だ。他の人よりも受けるダメージが少なく、殺されにくい。
 }
 
 {Gourmand.degreeDatas.gourmand
 	label:_<gourmand>_
-	description:[PAWN_nameDef]の人生は食べ物が中心になっている。お腹が早くすき、時々、お腹がすいていなくても、沢山食べたいという衝動に負けてしまう。
+	description:{PAWN_nameDef} の人生は食べ物が中心になっている。お腹が早くすき、時々、お腹がすいていなくても、沢山食べたいという衝動に負けてしまう。
 }
 
 {QuickSleeper.degreeDatas.quick_sleeper
 	label:_<quick sleeper>_
-	description:[PAWN_nameDef]は平均的な人よりも寝る時間が少ない。寝る場所に関わらず、通常の三分の二の時間で睡眠欲求を満たせる。
+	description:{PAWN_nameDef} は平均的な人よりも寝る時間が短い。寝る場所に関わらず、通常の三分の二の時間で睡眠欲求を満たせる。
 }
 
 {SpeedOffset.degreeDatas

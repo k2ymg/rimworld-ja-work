@@ -94,7 +94,7 @@ FarmAnimalsWanderIn.label:<<farm animals wander in??迷い込んだ家畜>>
 {WandererJoin
 	label:[[wanderer join??放浪者の加入]]
 	letterLabel:[[Wanderer joins??放浪者の加入]]
-	letterText:[PAWN_nameDef]という名の[PAWN_kind]がやってきて、_{colony}_に加わった。[PAWN_pronoun]は[PAWN_title]だ。\n\n[PAWN_pronoun]は協力的だが、自発的に出て行くことはない。邪魔なら追放する、奴隷として売る、または単に殺すなど出来る。しかし、他の_{colonists}_はその騒動に気付くだろう。
+	letterText:{PAWN_nameDef} という名の {PAWN_kind} がやってきて、_{colony}_に加わった。{PAWN_pronoun}は {PAWN_title} だ。\n\n{PAWN_pronoun}は協力的だが、自発的に出て行くことはない。邪魔なら追放する、奴隷として売る、または単に殺すなど出来る。しかし、他の_{colonists}_はその騒動に気付くだろう。
 }
 
 RefugeePodCrash.label:<<transport pod crash??_[transport pod]_ 墜落>>
@@ -129,7 +129,7 @@ ThrumboPasses.label:<<thrumbos pass??_[thrumbo]_ の通過>>
 {WildManWandersIn
 	label:<<wild man wanders in??迷い込んだ野人>>
 	letterLabel:<<Wild man wanders in??迷い込んだ野人>>
-	letterText:野生動物と共に暮らしている人がここへ入り込んできた。[PAWN_pronoun]は {0} と名乗っている。\n\n[PAWN_objective]を手懐けられる。
+	letterText:野生動物と共に暮らしている人がここへ入り込んできた。{PAWN_pronoun}は {0} と名乗っている。\n\n{PAWN_objective}を手懐けられる。
 }
 
 PsychicDrone.label:_[psychic drone]_
@@ -256,19 +256,19 @@ Quest_TradeRequest.label:<<trade request??交易要請>>
 {Quest_DownedRefugee
 	label:<<incapacitated refugee quest??クエスト - 行き倒れの難民>>
 	letterLabel:<<Incapacitated refugee quest??クエスト - 行き倒れの難民>>
-	letterText:[PAWN_nameDef] が助けを求めてきた。[PAWN_pronoun]は怪我をして動けない。助けなければ、{0} 日以内に死ぬ。\n\n[PAWN_nameDef] は {1} 歳で、助けてくれれば仲間に加わると約束した。\n\n[PAWN_nameDef]によると、{3}。
+	letterText:{PAWN_nameDef} が助けを求めてきた。{PAWN_pronoun}は怪我をして動けない。助けなければ、{0} 日以内に死ぬ。\n\n{PAWN_nameDef} は {1} 歳の {2} で、助けてくれれば仲間に加わると約束した。\n\n{PAWN_nameDef}によると、{3}。
 }
 
 {Quest_PrisonerRescue
 	label:<<prisoner rescue quest??クエスト - _{prisoner}_救出>>
 	letterLabel:<<Prisoner rescue quest??クエスト - _{prisoner}_救出>>
-	letterText:{0} に捕まっている_{prisoner}_が無線を盗んで連絡してきた！\n\n[PAWN_nameDef] は近くにある武装されたキャンプに捕まっている。[PAWN_pronoun]は {1} 歳の {2} で、助けると仲間に加わる。[PAWN_pronoun]によると、{3}。
+	letterText:{0} に捕まっている_{prisoner}_が無線を盗んで連絡してきた！\n\n{PAWN_nameDef} は近くにある武装されたキャンプに捕まっている。{PAWN_pronoun}は {1} 歳の {2} で、助けると仲間に加わる。{PAWN_pronoun}によると、{3}。
 }
 
 {Quest_PeaceTalks
 	label:<<peace talks quest??クエスト - 和平交渉>>
 	letterLabel:<<Peace talks quest??クエスト - 和平交渉>>
-	letterText:{1} の {0} である [PAWN_nameDef] がメッセージを送ってきた。[PAWN_pronoun]は近くで話をしたがっている。\n\nこの派閥との関係を良くして贈り物を受け取る絶好の機会だが、下手な交渉人は関係を良くするどころか逆に怒らせる事もある。この申し出は {2} 日後に終わる。
+	letterText:{1} の {0} である {PAWN_nameDef} がメッセージを送ってきた。{PAWN_pronoun}は近くで話をしたがっている。\n\nこの派閥との関係を良くして贈り物を受け取る絶好の機会だが、下手な交渉人は関係を良くするどころか逆に怒らせる事もある。この申し出は {2} 日後に終わる。
 }
 
 {Quest_JourneyOffer
