@@ -166,7 +166,7 @@
 {RomanceAttempt
 	label:誘惑
 	{?logRulesInitiator.rulesStrings
-		:r_logentry->[INITIATOR_nameDef]が[wootactic][OTHER_nameDef][wooed]。
+		:r_logentry->[INITIATOR_nameDef]が[wootactic][RECIPIENT_nameDef][wooed]。
 
 		:wooed->といちゃつこうとした
 		:wooed->といちゃついた
@@ -178,14 +178,14 @@
 		:wooed->を魅了した
 		:wooed->に求愛した
 
-		:wootactic(p=4)->[OTHER_possessive]の[PersonalCharacteristic][complimenting]
+		:wootactic(p=4)->[RECIPIENT_possessive]の[PersonalCharacteristic][complimenting]
 		:wootactic->[TalkTopicAny]の話を伝えながら
 		:wootactic->[TalkTopicAny]の物語を伝えながら
 		:wootactic->[TalkTopicAny]についてジョークを言いながら
 		:wootactic->[TalkTopicAny]について考察しながら
 		:wootactic(p=2)->[INITIATOR_possessive]自身の[PersonalCharacteristic][boasting]
-		:wootactic->[OTHER_objective]と[romantic_adj][romantic_noun]を比べながら
-		:wootactic->[OTHER_objective]は[romantic_adj][romantic_noun]のようだと言いながら
+		:wootactic->[RECIPIENT_objective]と[romantic_adj][romantic_noun]を比べながら
+		:wootactic->[RECIPIENT_objective]は[romantic_adj][romantic_noun]のようだと言いながら
 
 		:boasting->を自慢しながら
 		:boasting->に触れながら
@@ -238,19 +238,19 @@
 {MarriageProposal
 	label:プロポーズ
 	{?logRulesInitiator.rulesStrings
-		:r_logentry->[INITIATOR_nameDef]が[OTHER_nameDef]に結婚を申し込んだ。
-		:r_logentry->[INITIATOR_nameDef]が[OTHER_nameDef]に生涯に渡る献身を申し込んだ。 
-		:r_logentry->[INITIATOR_nameDef]が[OTHER_nameDef]に一緒に生きたいと伝えた。
+		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]に結婚を申し込んだ。
+		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]に生涯に渡る献身を申し込んだ。 
+		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]に一緒に生きたいと伝えた。
 	}
 }
 
 {Breakup
 	label:別れ
 	{?logRulesInitiator.rulesStrings
-		:r_logentry->[INITIATOR_nameDef]が[OTHER_nameDef]に分かれようと伝えた。
-		:r_logentry->[INITIATOR_nameDef]が[OTHER_nameDef]に距離を置こうと伝えた。
-		:r_logentry->[INITIATOR_nameDef]が[OTHER_nameDef]に上手くいっていないと話した。
-		:r_logentry->[INITIATOR_nameDef]が[OTHER_nameDef]に他の人を見つけた方が良さそうだと話した。
+		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]に分かれようと伝えた。
+		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]に距離を置こうと伝えた。
+		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]に上手くいっていないと話した。
+		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]に他の人を見つけた方が良さそうだと話した。
 	}
 }
 
