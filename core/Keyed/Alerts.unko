@@ -1,8 +1,8 @@
 ﻿ClickToJumpToProblem:問題の場所を見る
 
-BreakRiskMinor:<<Minor break risk??崩壊(小)の危機>>
-BreakRiskMajor:<<Major break risk??崩壊(中)の危機>>
-BreakRiskExtreme:<<Extreme break risk??崩壊(大)の危機>>
+BreakRiskMinor:<<Minor break risk??崩壊(小)の恐れ>>
+BreakRiskMajor:<<Major break risk??崩壊(中)の恐れ>>
+BreakRiskExtreme:<<Extreme break risk??崩壊(大)の恐れ>>
 BreakRiskMinorDesc:次の_{colonists}_は_{mood}_が悪いので、いつでも精神崩壊(小)を起こすかもしれない:\n\n{0}
 BreakRiskMajorDesc:次の_{colonists}_は_{mood}_がとても悪いので、いつでも精神崩壊(中)を起こすかもれない:\n\n{0}
 BreakRiskExtremeDesc:次の_{colonists}_は危険なまでにストレスがかかっており、今にも(恐らく暴力的な)精神崩壊(大)を起こすかもしれない:\n\n{0}

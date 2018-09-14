@@ -11,8 +11,8 @@
 		label:<<someone was executed??誰かが処刑された>>
 		description:_{prisoner}_か_{guest}_が冷酷に殺された。ちょっと悪いことに思われた。
 	}
-	{someone_organharvested
-		label:<<someone organ-harvested??誰かの臓器が抜かれた>>
+	{someone_was_organmurdered
+		label:<<someone was organ-murdered??誰かが臓器目的で殺された>>
 		description:_{prisoner}_か_{guest}_が死んだ。体から臓器を取ったからだ。おぞましい。
 	}
 }

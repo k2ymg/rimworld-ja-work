@@ -2438,10 +2438,10 @@ titleShort:_<ward>_
 desc:母によって有名な貴族の玄関先に置き去りにされた[PAWN_nameDef]はそこの養子になった。\n\n[PAWN_pronoun]は貴族間の変な仕来りを素早く身につけた・・・言葉、文化、技術、新旧問わず、全て常識から外れていた。
 }
 
-{Novelist28
+{Novelist7
 title:_<novelist>_
 titleShort:_<novelist>_
-desc:[PAWN_nameDef]は_[Glitterworld]_に住み、大成功した小説を書いていた。[PAWN_pronoun]は気ままに生活し、昼は執筆に、夜はパーティに明け暮れていた・・・雑用はした事がない。
+desc:[PAWN_nameDef]は_[Glitterworld]_に住み、大成功した小説を書いていた。[PAWN_pronoun]は気ままに生活し、昼は執筆に、夜はパーティに明け暮れていたので、雑用をした事がない。
 }
 
 {Nurse53
@@ -3210,16 +3210,16 @@ titleShort:_<marine>_
 desc:[PAWN_nameDef]はある帝国宇宙軍の兵士だった。[PAWN_pronoun]の仕事は敵の宇宙船へ突撃し、船員を倒し、船を無傷で奪取することだった。そして、[PAWN_pronoun]はこれが得意だった。
 }
 
-{SpaceMarine17
-title:_<space marine>_
-titleShort:_<marine>_
-desc:[PAWN_nameDef]は星々を旅して母星のために戦うため、惑星間海兵隊に入隊して、いくつかの戦いで名を上げた。\n\n[PAWN_possessive]の経験は周りの人々に対する関心を薄れさせ、社交性を失わせた。しかし、戦い方は身につけた。
-}
-
 {SpaceMarine27
 title:_<space marine>_
 titleShort:_<marine>_
-desc:[PAWN_nameDef]は殺伐と人を殺すことで有名な宇宙海兵隊に入隊した。[PAWN_pronoun]のニックネーム「Grim」は[PAWN_pronoun]のラストネームと戦闘中の感情の欠如から付けられた。
+desc:[PAWN_nameDef]は躊躇無く人を殺すことで有名な宇宙海兵隊に入隊した。[PAWN_pronoun]のニックネーム「Grim」は[PAWN_pronoun]のラストネームと戦闘中の感情の欠如から付けられた。
+}
+
+{SpaceMarine48
+title:_<space marine>_
+titleShort:_<marine>_
+desc:[PAWN_nameDef]は星々を旅して母星のために戦うため、惑星間海兵隊に入隊して、いくつかの戦いで名を上げた。\n\n[PAWN_possessive]の経験は周りの人々に対する関心を薄れさせ、社交性を失わせた。しかし、戦い方は身につけた。
 }
 
 {SpaceMarine51
