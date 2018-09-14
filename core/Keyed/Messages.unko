@@ -118,7 +118,7 @@ MessageBondedAnimalsMentalBreak:{0} 匹の動物達が {HUMAN_labelShort} の死
 
 MessageSuccessfullyRemovedHediff:{SURGEON_labelShort} は {PATIENT_labelShort} の {HEDIFF} を取り除いた。
 
-MessageShipChunkDrop:宇宙船の残骸が近くに衝突した。\n\n解体すれば物資を得られる。
+MessageShipChunkDrop:宇宙船の残骸が近くに衝突した。解体すれば物資を得られる。
 
 MessagePartyCalledOff:パーティは中止になった。
 MessagePartyFinished:パーティは終わった。
@@ -161,9 +161,9 @@ MessageAccidentalOverdose:{INGESTER} が {DRUG_labelShort} を誤って過剰摂
 
 MessageCaravanArrivedAtDestination:{0} は目的地に到達した。
 
-MessageCaravanIsVisitingSettlement:{0} は {1}に到着した。
+;MessageCaravanIsVisitingSettlement:{0} は {1}に到着した。
 
-MessageCaravanEnteredWorldObject:{0} は {1}に到着した。
+;MessageCaravanEnteredWorldObject:{0} は {1}に到着した。
 
 MessagePawnLeftMapAndCreatedCaravan:{1_labelShort} はこのエリアを離れてキャラバンを編成した。
 MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin:動物が加わろうとしている。
@@ -235,7 +235,7 @@ MessageCantBanishDownedPawn:{1_labelShort} は歩けないので追放できな�
 MessageSleepingPawnsWokenUp:{0} は目を覚ました。
 MessageCompSpawnerSpawnedItem:アイテムを生産した: {0}。
 MessageHediffCuredByItem:健康が回復した: {0}。
-MessageBodyPartCuredByItem:身体パーツを修復した: {0}。
+MessageBodyPartCuredByItem:身体パーツを再生した: {0}。
 MessageResearchProjectFinishedByItem:テクノロジーが与えられた: {0}。
 MessagePawnResurrected:{0} は息を吹き返した!
 MessageFailedToRescueRelative:{PAWN_labelShort} を救えなかった。{RELATIVE_labelShort} を悲しませる。

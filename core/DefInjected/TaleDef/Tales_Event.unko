@@ -2,7 +2,7 @@
 	label:launched ship
 	{?rulePack.rulesStrings
 		:tale_noun->[PAWN_nameDef]が惑星から脱出した事
-		:tale_noun->[PAWN_nameDef]が宇宙船で旅だった事
+		:tale_noun->[PAWN_nameDef]が宇宙船で旅立った事
 
 		:image->[PAWN_nameFull]が[circumstance_group]星々へと打ち上げられている様子
 		:image->[PAWN_nameFull]が[circumstance_group]天へ急いでいる様子
@@ -10,7 +10,7 @@
 		:image->[PAWN_nameFull]が[circumstance_group]ロケットを操縦している様子
 
 		:circumstance_phrase->[TerrainFeature]の前で
-		:circumstance_phrase->途方もない力を使って
+		:circumstance_phrase->途方もない力で
 		:circumstance_phrase->塵や岩を吹き飛ばしながら
 		:circumstance_phrase->ロケットを劇的に噴射しながら
 		:circumstance_phrase->正確な離陸で

@@ -27,10 +27,10 @@
 	verb:<<Become patient??病人になる>>
 }
 {BasicWorker
-	labelShort:<<Basic??雑用>>
+	labelShort:<<Basic??雑事>>
 	pawnLabel:<<Worker??作業者>>
 	gerundLabel:<<dealing with??作業中>>
-	description:専門的では無い簡単な作業。_{prisoner}_の開放や機会のスイッチの切り替え。
+	description:専門的でない簡単な作業。_{prisoner}_の解放や機械のスイッチの切り替え。
 	verb:<<Deal with??制御>>
 }
 {Warden

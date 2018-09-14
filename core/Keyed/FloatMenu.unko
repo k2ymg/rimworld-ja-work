@@ -107,21 +107,21 @@ CannotPickUpAll:<<Cannot pick up {1_label} (all)??{1_label} を拾えない (全
 PickUp:<<Pick up {1_label}??{1_label} を拾う>>
 PickUpAll:<<Pick up {1_label} (all)??{1_label} を拾う (全て)>>
 PickUpSome:<<Pick up {1_labelShort}...??{1_labelShort} を拾う...>>
-PickUpCount:<<Pick up {1_labelShort} x{{1_labelShort}}??{1_labelShort} を {{1_labelShort}} 個拾う>>
+PickUpCount:<<Pick up {1_labelShort} x{{0}}??{1_labelShort} を {{0}} 個拾う>>
 
 CannotGiveToPackAnimal:{1_label} を_{pack animal}_に与えられない
 CannotGiveToPackAnimalAll:{1_label} を_{pack animal}_に与えられない (全て)
 GiveToPackAnimal:<<Give {1_label} to pack animal??{1_label} を_{pack animal}_に与える>>
 GiveToPackAnimalAll:<<Give {1_label} (all) to pack animal??{1_label} を_{pack animal}_に与える (全て)>>
 GiveToPackAnimalSome:<<Give {1_labelShort} to pack animal...??{1_labelShort} を_{pack animal}_に与える...>>
-GiveToPackAnimalCount:<<Take {1_labelShort} x{{1_labelShort}}??{1_labelShort} を {{1_labelShort}} 個取る>>
+GiveToPackAnimalCount:<<Take {1_labelShort} x{{0}}??{1_labelShort} を {{0}} 個取る>>
 
 CannotLoadIntoCaravan:{1_label} をキャラバンに積み込めない
 CannotLoadIntoCaravanAll:{1_label} を(全て)キャラバンに積み込めない
 LoadIntoCaravan:<<Load {1_label} into caravan??{1_label} をキャラバンに積み込む>>
 LoadIntoCaravanAll:<<Load {1_label} (all) into caravan??{1_label} を(全て)キャラバンに積み込む>>
 LoadIntoCaravanSome:<<Load {1_labelShort} into caravan...??{1_labelShort} をいくつかキャラバンに積み込む...>>
-LoadIntoCaravanCount:<<Load {1_labelShort} x{{1_labelShort}}??{1_labelShort} を {{1_labelShort}} 個積み込む>>
+LoadIntoCaravanCount:<<Load {1_labelShort} x{{0}}??{1_labelShort} を {{0}} 個積み込む>>
 OverweightLower:<<overweight??重量オーバー>>
 
 CannotCarryToExit:{1_label} を運んでこのエリアから離れられない

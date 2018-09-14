@@ -1,7 +1,7 @@
 ﻿{CaravanFormed
 	label:caravan formed
 	{?rulePack.rulesStrings
-		:tale_noun->[PAWN_nameDef]が冒険へ旅だった事
+		:tale_noun->[PAWN_nameDef]が冒険へ旅立った事
 		:tale_noun->[PAWN_nameDef]がキャラバンを編成した事
 
 		:image->[circumstance_group][PAWN_nameFull]が意識的に大きく踏み出している様子

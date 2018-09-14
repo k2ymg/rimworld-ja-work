@@ -6,7 +6,7 @@ TabCaravanNeeds:_<Needs>_
 TabCaravanGear:<<Gear??装備>>
 TabCaravanItems:_<Items>_
 
-AbandonSliderText:<<Abandon {{1_labelShort}}x {1_labelShort}??破棄 {{1_labelShort}}x {1_labelShort}>>
+AbandonSliderText:<<Abandon {{0}}x {1_labelShort}??破棄 {{0}}x {1_labelShort}>>
 ConfirmAbandonItemDialog:本当に {1_label} を破棄しますか？\n\n破棄されたアイテムは消滅して回収できません。
 AbandonTip:<<Abandon??破棄>>
 BanishTip:<<Banish??追放>>

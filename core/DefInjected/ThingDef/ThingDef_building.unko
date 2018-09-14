@@ -238,7 +238,7 @@
 }
 {MultiAnalyzer
 	label:_[multi-analyzer]_
-	description:_?マルチ・アナライザー。?__[Hi-tech research bench]_の近くに置くと、研究速度が上がり、また、新しい研究プロジェクトが開放される。一つの_[Research bench]_は一つの_[Multi-analyzer]_だけ使える。
+	description:_?マルチ・アナライザー。?__[Hi-tech research bench]_の近くに置くと、研究速度が上がり、また、新しい研究プロジェクトが解除される。一つの_[Research bench]_は一つの_[Multi-analyzer]_だけ使える。
 }
 {VitalsMonitor
 	label:_[vitals monitor]_
@@ -440,7 +440,7 @@
 }
 {HiTechResearchBench
 	label:_[hi-tech research bench]_
-	description:_?ハイテク・リサーチ・ベンチ。?_コンピュータと電子計測器を備えた最先端の台。研究がより速くなり、高度な研究プロジェクトが開放される。
+	description:_?ハイテク・リサーチ・ベンチ。?_コンピュータと電子計測器を備えた最先端の台。研究がより速くなり、高度な研究プロジェクトが解除される。
 }
 {ElectricCrematorium
 	label:_[electric crematorium]_

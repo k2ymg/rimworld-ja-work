@@ -72,7 +72,7 @@ LetterLeadersDeath:{1} の {3} である {OLDLEADER_nameFull} が死んだ。\n\
 LetterLeaderChangedLabel:新しい {1}: {0}
 LetterLeaderChanged:{OLDLEADER_nameFull} が {1} の {3} ではなくなった。\n\n新しい {3} は {NEWLEADER_nameFull} になった。
 
-FinalStraw:我慢の限界になったのは: {0}
+FinalStraw:我慢の限界を破ったのは: {0}
 LastFactionRelationsEvent:最後のイベントは
 
 ReadMore:<<Read more??もっと読む>>
@@ -131,8 +131,8 @@ LetterDrugBinge:{2_label} が {1} を乱用するようになった。
 LetterLabelAllCaravanColonistsDied:<<Caravan destroyed??キャラバン 全滅>>
 LetterAllCaravanColonistsDied:{0} が全員死んだ。
 
-LetterLabelCaravanEnteredAmbushMap:<<Caravan arrived at ambush??キャラバンは待ち伏せ場所に到着した>>
-LetterCaravanEnteredAmbushMap:{0} が待ち伏せ場所に到着した。
+LetterLabelCaravanEnteredMap:<<Caravan arrived at {0_label}??キャラバンは {0_label} に到着した>>
+LetterCaravanEnteredMap:{0} は {1_definite} に到着した。
 
 LetterLabelCaravanEnteredEnemyBase:<<Attack begun??戦闘開始>>
 LetterCaravanEnteredEnemyBase:{0} は {1} に到着し、攻撃準備が整った。
@@ -205,7 +205,7 @@ LetterCaravansBattlefieldVictory:キャラバンが戦闘に勝った。\n\nワ�
 LetterLabelRescueQuestFinished:<<Rescuee joins??救助により加入>>
 LetterRescueQuestFinished:助けたので {PAWN_nameDef} が仲間に加わった。\n\nこのエリアを選んで '_<Reform caravan>_' を選び、キャラバンを再編成すれば{PAWN_objective}を連れて行ける。
 
-LetterLabelPlayerEnteredNewSiteGeneric:<<Arrived at site??到着した>>
+;LetterLabelPlayerEnteredNewSiteGeneric:<<Arrived at site??到着した>>
 
 LetterLabelPredatorHuntingColonist:<<{PREDATOR_labelShort} hunting {PREY_definite}??{PREDATOR_labelShort} が {PREY_definite} を襲っている>>
 LetterPredatorHuntingColonist:{PREDATOR} が {PREY_definite} を捕食しようとしている！
