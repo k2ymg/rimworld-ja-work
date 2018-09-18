@@ -54,7 +54,7 @@ MessageMustDesignateMineable:採掘可能な岩を指定する。
 MessageMustDesignateHuntable:狩猟可能な動物を指定する。
 MessageMustDesignateTameable:手懐けられる動物を指定する。
 MessageMustDesignateClaimable:放棄された人工構造物を指定する。
-MessageMustDesignateSmoothableSurface:荒れた面を指定する。
+MessageMustDesignateSmoothableSurface:粗い面を指定する。
 MessageNothingCanRemoveThickRoofs:分厚い天井は取り除けない。
 MessageAlreadyInStorage:既に貯蔵所にある。必要ならより優先度の高い貯蔵所へ移動できる。
 MessageMustDesignateStrippable:脱がせられる衣服を着た、死体や倒れている人物を指定する。

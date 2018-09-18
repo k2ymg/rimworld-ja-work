@@ -21,13 +21,13 @@ DesignatorHaulThingsDesc:石の塊や他のアイテムを廃棄ゾーンに運�
 MustHaulHaulables:運べるが自動で運ばない物だけ指定できる(岩の塊など)。
 
 DesignatorHunt:<<Hunt??狩る>>
-DesignatorHuntDesc:狩猟者に動物を狩らせる。
+DesignatorHuntDesc:_{hunter}_に動物を狩らせる。
 
 DesignatorMine:_<Mine>_
 DesignatorMineDesc:岩を採掘する。
 
 DesignatorSmoothSurface:<<Smooth surface??表面をならす>>
-DesignatorSmoothSurfaceDesc:荒れた岩の地面や壁を滑らかにする。
+DesignatorSmoothSurfaceDesc:粗い岩の地面や壁を滑らかにする。
 
 DesignatorPlan:<<Plan??予定地>>
 DesignatorPlanDesc:予定地を設置する。これは将来の拡張計画を助けるだけで、何も行わない。
@@ -97,7 +97,7 @@ DesignatorStripDesc:死体や怪我人から衣服を脱がす。
 ;DesignatorRearmTrapDesc:バネ式の罠を再装填して再び動くようにする。
 
 DesignatorOpen:<<Open??開ける>>
-DesignatorOpenDesc:箱を開ける。
+DesignatorOpenDesc:容器を開ける。
 
 DesignatorSlaughter:<<Slaughter??屠殺>>
 DesignatorSlaughterDesc:動物を屠殺する。

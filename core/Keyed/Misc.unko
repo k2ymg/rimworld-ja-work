@@ -48,11 +48,11 @@ CorpseDesc:{0} の死骸。
 DeadLabel:<<{1_label} (dead)??{1_label} (死亡)>>
 
 RoughStoneTerrainLabel:<<rough {0}??粗い {0}>>
-RoughStoneTerrainDesc:粗く自然な {0}
-RoughHewnStoneTerrainLabel:<<rough-hewn {0}??荒けずりの {0}>>
-RoughHewnStoneTerrainDesc:ざっくりとカットされた 自然な {0} の床
+RoughStoneTerrainDesc:粗い、天然の {0}
+RoughHewnStoneTerrainLabel:<<rough-hewn {0}??粗削りの {0}>>
+RoughHewnStoneTerrainDesc:粗く切り取られている天然の {0} の床
 SmoothStoneTerrainLabel:<<smooth {0}??滑らかな {0}>>
-SmoothStoneTerrainDesc:滑らかで自然な {0} の床
+SmoothStoneTerrainDesc:滑らかな天然の {0} の床
 
 BlueprintLabelExtra:<< (blueprint)?? (設計)>>
 FrameLabelExtra:<< (building)?? (施工)>>

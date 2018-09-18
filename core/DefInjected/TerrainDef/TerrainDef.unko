@@ -1,6 +1,6 @@
 ﻿{Concrete
 	label:_[concrete]_
-	description:_?コンクリート。?_荒い_<concrete>_。速く歩け、安上がりで、手早く作れる。見栄えはとても悪い。
+	description:_?コンクリート。?_粗い_<concrete>_。速く歩け、安上がりで、手早く作れる。見栄えはとても悪い。
 }
 {PavedTile
 	label:_[paved tile]_

@@ -102,8 +102,8 @@ PawnsWithLifeThreateningDiseaseAmputationDesc:重病により死にそうな人�
 BilliardsNeedsSpace:<<Billiards needs space??_[Billiards]_に空間が必要>>
 BilliardsNeedsSpaceDesc:障害物に隣接しているため_{colonists}_が遊べない _[Billiards table]_ がある。\n\n_[Billiards table]_ の周りは完全に空けないと使えない。
 
-HunterHasShieldAndRangedWeapon:<<Hunter has shield and ranged weapon??シールドと遠距離武器を持った狩猟者>>
-HunterHasShieldAndRangedWeaponDesc:遠距離攻撃を阻害する _[Shield belt]_ を身につけながら遠距離武器を装備した狩猟者がいる。シールドを脱がないが限り狩りはできない。
+HunterHasShieldAndRangedWeapon:<<Hunter has shield and ranged weapon??シールドと遠距離武器を持った_{hunter}_>>
+HunterHasShieldAndRangedWeaponDesc:遠距離攻撃を阻害する _[Shield belt]_ を身につけながら遠距離武器を装備している_{hunter}_がいる。シールドを脱がない限り狩りはできない。
 
 NeedWarmClothes:<<Need warm clothes??防寒着が必要>>
 NeedWarmClothesDesc1:冬が訪れたとき、少なくとも _{colonists}_ {0} 人分の防寒着が足りなくなる。

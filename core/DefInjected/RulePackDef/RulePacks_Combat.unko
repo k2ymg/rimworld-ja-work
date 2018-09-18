@@ -32,8 +32,8 @@
 	:targetlist(recipient_part_count==3)->[recipient_part0_label]、[recipient_part1_label]、[recipient_part2_label]
 	:targetlist->[recipient_part0_label]、[recipient_part1_label]、[recipient_part2_label]、[recipient_part3_label]
 
-	:damaged_present(deflected!=True)->傷つけている
-	:damaged_present(deflected!=True)->怪我させている
+	:damaged_present(deflected!=True)->傷つけて
+	:damaged_present(deflected!=True)->怪我させて
 
 	:destroyed(p=0.5)->壊した
 	:destroyed(p=0.5)->粉砕した
@@ -64,9 +64,9 @@
 }
 
 {?Combat_MeleeDamageIncludes.rulePack.rulesStrings
-	:result(p=0.5)->[targetlist]を[damaged_present]
-	:result(p=0.1)->[targetlist]を[adverb_flavortext][damaged_present]
-	:result(p=0.1)->[flavortext_situation][targetlist]を[damaged_present]
+	:result(p=0.5)->[targetlist]を[damaged_present]いる
+	:result(p=0.1)->[targetlist]を[adverb_flavortext][damaged_present]いる
+	:result(p=0.1)->[flavortext_situation][targetlist]を[damaged_present]いる
 	:result(p=0.1)->[targetlist]を[damaged_present]、[flavortext_consequence]
 
 	:adverb_flavortext->痛々しく
@@ -130,7 +130,7 @@
 	:expertly->器用さで
 	:expertly->極めたように
 	:expertly->芸術的に
-	:expertly->プロ意識を持ちながら
+	:expertly->プロ意識で
 	:expertly->名人のように
 	:expertly->達人のように
 	:expertly->師範のように
@@ -144,10 +144,10 @@
 	:expert->器用な
 	:expert->上手な
 	:expert->巧妙な
-	:expert->専門的な
+	:expert->プロ並みな
 	:expert->的確な
 	:expert->巧みな
-	:expert->賢い
+	:expert->抜け目ない
 	:expert->見事な
 	:expert->芸術的な
 }
@@ -182,8 +182,8 @@
 	:r_logentry(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。
 
 	:result(p=1,recipient_part_damaged_count==0)->[destroyed_targets]を[destroyed_present]
-	:result(p=1,recipient_part_destroyed_count==0)->[damaged_targets]を[damaged_present]
-	:result(p=1)->[destroyed_targets]を[destroyed_present]、[damaged_targets]を[damaged_present]。
+	:result(p=1,recipient_part_destroyed_count==0)->[damaged_targets]を[damaged_present]いる
+	:result(p=1)->[destroyed_targets]を[destroyed_present]、[damaged_targets]を[damaged_present]いる
 
 	:action(p=0.3)->[INITIATOR_definite]が[implement]の[damaged_inf]を[RECIPIENT_definite]に当てた
 	:action(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf]した
@@ -358,7 +358,7 @@
 	:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]て、[destroyed_suffix][to]。
 	:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[expertly][destroyed_past]た。
 	:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]た。
-	:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_present]。
+	:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_present]いる。
 	; 次の三つは、元は受動態だが、面倒なので能動態にする。(上と被っている)
 	:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]た。
 	:r_logentry->[INITIATOR_definite]の[expert][WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]た。
@@ -372,8 +372,8 @@
 	:r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
 	:r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]の[expert][WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
 
-	:r_logentry(p=3)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]て、[damaged_targets]を[damaged_past]。
-	:r_logentry(p=6)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_present]、[damaged_targets]を[damaged_present]。
+	:r_logentry(p=3)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]て、さらに、[damaged_targets]を[damaged_past]。
+	:r_logentry(p=6)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_present]、さらに、[damaged_targets]を[damaged_present]。
 
 	:r_logentry(p=0.2)->[INITIATOR_definite]が[RECIPIENT_definite]に[WEAPON_projectile_label]を当てた。
 	:r_logentry(p=0.2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]に当たった。
@@ -384,22 +384,24 @@
 
 	:weapon_projectile_label(p=0.05)->ショット
 
-	;「～が～を～した(て)」の形にすること
+	;「～が～を～た(て)」の形にすること
+	;「弾が頭を貫いた」など
 	:destroyed_past->粉々にし
 	:destroyed_past->潰し
 	:destroyed_past->吹き飛ばし
 	:destroyed_past->ダメにし
 	:destroyed_past->貫い
 	:destroyed_past->貫い
-	:destroyed_past->穴を開け
+	:destroyed_past->穴だらけにし
 
-	:destroyed_present->粉々にしている
-	:destroyed_present->潰している
-	:destroyed_present->吹き飛ばしている
-	:destroyed_present->ダメにしている
-	:destroyed_present->貫いている
-	:destroyed_present->貫いている
-	:destroyed_present->穴を開けている
+	;「～ている」「～て」の形
+	:destroyed_present->粉々にして
+	:destroyed_present->潰して
+	:destroyed_present->吹き飛ばして
+	:destroyed_present->ダメにして
+	:destroyed_present->貫いて
+	:destroyed_present->貫いて
+	:destroyed_present->穴だらけにして
 
 	:destroyed_suffix->破片
 	:destroyed_suffix->小片

@@ -116,10 +116,10 @@ CanChangeStorytellerSettingsDuringPlay:_{storyteller}_と難易度はいつで�
 UnlockExtremeDifficulty:_<Merciless mode>_
 ConfirmUnlockExtremeDifficulty:_<Merciless mode>_はあらゆる挑戦が極端に難しくなる特別なモードです。\n\n_<Merciless mode>_はある段階に達すると自動で解除されます。ですが、今すぐ解除できます。\n\nこのオプションは、高難易度を何度か遊んだことがあり、さらに、絶体絶命な状況でも最後まで諦めない人にのみ向いています。
 
-SelectLandingSite:<<Select landing site??開始地点を選択>>
+SelectStartingSite:<<Select starting site??開始地点を選択>>
 SelectRandomSite:<<Select random site??ランダムに選択>>
 SelectSite:<<Select site??決定>>
-MustSelectLandingSite:開始地点を設定してください
+MustSelectStartingSite:開始地点を選んで下さい。
 CannotLandBiome:このバイオームでは開始できない: {0}
 BiomeNotImplemented:このバイオームは未実装
 CannotLandImpassableMountains:通り抜けられない山には降りられない。

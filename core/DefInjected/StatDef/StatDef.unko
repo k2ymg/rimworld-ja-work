@@ -376,7 +376,7 @@
 
 {SmoothingSpeed
 	label:<<smoothing speed??ならし速度>>
-	description:荒れた地面や壁をならす速度への乗数。
+	description:粗い地面や壁をならす速度への乗数。
 }
 
 {ResearchSpeed

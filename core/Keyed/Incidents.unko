@@ -103,7 +103,7 @@ EscapeShipFound:Charlon Whitestone から送られてきた座標に到着し、
 EscapeShipLostLabel:<<Ship destroyed??船は破壊された>>
 EscapeShipLost:Charlon Whitestone がメッセージを送ってきた。\n\n着陸した船の制御を失っていることを確認した。これが悪者の手に渡らないように、自爆装置を強制作動した。船は今やクレーターとなった。\n\nこの星から出るための別の方法を探す必要がある。
 
-CaravanMeetingTitle:<<Caravan meeting by {0}??キャラバン {0} と出会った>>
+CaravanMeetingTitle:<<Caravan meeting by {0}??{0} のキャラバン会合>>
 CaravanMeeting:{0} は {1} からのキャラバンと平和的に出会った。このキャラバンの構成:\n\n{2}
 CaravanMeeting_Trade:<<Trade??取引>>
 CaravanMeeting_Attack:<<Attack??攻撃>>
