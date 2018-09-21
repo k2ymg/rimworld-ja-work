@@ -6,10 +6,11 @@
 	:damaged_past->傷つけた
 	:damaged_past->痛めつけた
 
-	:destroyed_past->砕けた
-	:destroyed_past->潰れた
-	:destroyed_past->消し飛んだ
-	:destroyed_past->全壊した
+	;「～を～した」
+	:destroyed_past->砕いた
+	:destroyed_past->潰した
+	:destroyed_past->消し飛ばした
+	:destroyed_past->全壊させた
 	:destroyed_past->吹き飛ばした
 
 	; Combat_ExplosionImpactに受動態があるため。

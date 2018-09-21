@@ -1,5 +1,5 @@
 ﻿{?Combat_MeleeIncludes.rulePack.rulesStrings
-	:r_logentry->[action]。[result]。
+	:r_logentry->[action][result]。
 	:r_logentry(p=0.2)->[action]。
 
 	:implement(IMPLEMENTOWNER_type==weapon,p=2)->[WEAPON_label]の[TOOL_label]
@@ -64,21 +64,21 @@
 }
 
 {?Combat_MeleeDamageIncludes.rulePack.rulesStrings
-	:result(p=0.5)->[targetlist]を[damaged_present]いる
-	:result(p=0.1)->[targetlist]を[adverb_flavortext][damaged_present]いる
-	:result(p=0.1)->[flavortext_situation][targetlist]を[damaged_present]いる
-	:result(p=0.1)->[targetlist]を[damaged_present]、[flavortext_consequence]
+	:result(p=0.5)->。[targetlist]を[damaged_present]いる
+	:result(p=0.1)->。[targetlist]を[adverb_flavortext][damaged_present]いる
+	:result(p=0.1)->。[flavortext_situation][targetlist]を[damaged_present]いる
+	:result(p=0.1)->。[targetlist]を[damaged_present]、[flavortext_consequence]
 
 	:adverb_flavortext->痛々しく
-	:adverb_flavortext->残酷に
-	:adverb_flavortext->恐ろしく
-	:adverb_flavortext->いたぶるように
-	:adverb_flavortext->猛烈に
-	:adverb_flavortext->情け容赦なく
-	:adverb_flavortext->獰猛に
-	:adverb_flavortext->意地悪に
-	:adverb_flavortext->無慈悲に
-	:adverb_flavortext->薄情に
+	:adverb_flavortext->手荒く
+	:adverb_flavortext->おぞましく
+	:adverb_flavortext->痛烈に
+	:adverb_flavortext->激しく
+	:adverb_flavortext->徹底的に
+	:adverb_flavortext->荒々しく
+	:adverb_flavortext->惨たらしく
+	:adverb_flavortext->手ひどく
+	:adverb_flavortext->淡々と
 
 	:flavortext_situation(recipient_flesh!=Mechanoid)->飛び散った血糊の中で
 	:flavortext_situation(recipient_flesh==Mechanoid)->飛び散った残骸の中で
@@ -181,9 +181,9 @@
 	:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]の[destroyed_targets]を[expertly][destroyed_past]。
 	:r_logentry(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。
 
-	:result(p=1,recipient_part_damaged_count==0)->[destroyed_targets]を[destroyed_present]
-	:result(p=1,recipient_part_destroyed_count==0)->[damaged_targets]を[damaged_present]いる
-	:result(p=1)->[destroyed_targets]を[destroyed_present]、[damaged_targets]を[damaged_present]いる
+	:result(p=1,recipient_part_damaged_count==0)->。[destroyed_targets]を[destroyed_present]
+	:result(p=1,recipient_part_destroyed_count==0)->。[damaged_targets]を[damaged_present]いる
+	:result(p=1)->。[destroyed_targets]を[destroyed_present]、[damaged_targets]を[damaged_present]いる
 
 	:action(p=0.3)->[INITIATOR_definite]が[implement]の[damaged_inf]を[RECIPIENT_definite]に当てた
 	:action(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf]した
@@ -228,9 +228,9 @@
 	:action->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf][tried]
 	:action->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf][tried]
 	:action->[INITIATOR_definite]が[RECIPIENT_definite]へ[WEAPON_label]を振り下ろした
-	:action(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite][towardsat][verb_genericattack]
+	:action(p=0.3)->[INITIATOR_definite]が[implement]を[RECIPIENT_definite][towardsat][verb_genericattack]
 	:action(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite][towardsat][verb_genericattack]
-	:action(p=0.3)->[INITIATOR_definite]が[implement]で[verb_genericattack]
+	:action(p=0.3)->[INITIATOR_definite]が[implement]を[verb_genericattack]
 
 	:towardsat->へ
 	:towardsat->に
@@ -257,20 +257,20 @@
 	:failtype->もたついた
 	:failtype->失敗した
 
-	:result->しかし失敗した
-	:result->しかし空を切った
-	:result->しかし一振りは外れた
-	:result->しかし最後の瞬間につまずいた
-	:result(initiator_flesh!=Mechanoid)->しかし最後の瞬間に躊躇した
+	:result->が、失敗した
+	:result->が、空を切った
+	:result->が、大きく空振りした
+	:result->が、最後の瞬間につまずいた
+	:result(initiator_flesh!=Mechanoid)->が、最後の瞬間に躊躇した
 }
 
 {?Combat_Dodge.rulePack.rulesStrings
 	:r_logentry(p=0.2)->[RECIPIENT_definite]が[implement]からの[INITIATOR_definite]の[damaged_inf]をよけた。
 	:r_logentry(p=0.2)->[RECIPIENT_definite]が[INITIATOR_definite]の[damaged_inf]をよけた。
 
-	:result->しかし[RECIPIENT_definite]は飛び退いた
-	:result->しかし[RECIPIENT_definite]のフェイントにダマされた
-	:result->しかし攻撃は巧みによけられた
+	:result->が、[RECIPIENT_definite]は飛び退いた
+	:result->が、[RECIPIENT_definite]のフェイントにダマされた
+	:result->が、攻撃は巧みによけられた
 }
 
 {?Combat_RangedFire.rulePack.rulesStrings
@@ -413,13 +413,13 @@
 	:damaged_past->傷つけた
 	:damaged_past->怪我させた
 	:damaged_past->貫いた
-	:damaged_past->害した
+	:damaged_past->傷つけた
 	:damaged_past->打った
 
 	:damaged_present->傷つけている
 	:damaged_present->怪我させている
 	:damaged_present->貫いている
-	:damaged_present->害している
+	:damaged_present->傷つけている
 	:damaged_present->打っている
 
 	:damaged_suffix->汚いやり方で
@@ -526,7 +526,7 @@
 	:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。
 	:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[adverb_flavortext][destroyed_past]。
 	:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[adverb_flavortext][destroyed_past]。
-	:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]、[damaged_targets]を[damaged_past]。
+	:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。[damaged_targets]を[damaged_past]。
 	:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
 	:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[adverb_flavortext][damaged_past]。
 	:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[adverb_flavortext][damaged_past]。

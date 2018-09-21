@@ -135,9 +135,7 @@ WornBy:<<worn by {1_labelShort}??{1_labelShort} が着ている>>
 EquippedBy:<<equipped by {1_labelShort}??{1_labelShort} が装備している>>
 QuestTargetDestroyInspectString:<<{0} wants this destroyed.\n    Reward: {1} ({2})??{0} が破壊を求めている。\n    報酬: {1} ({2})>>
 WorldObjectTimeout:<<Time left: {0}??残り時間: {0}>>
-;LongRangeMineralScannerEfficiency:効率: {0}
 ItemStashContents:_<Contents>_: {0} ({1})
-;SomeItemStashContents,内容物: {0}
 ClickToSortByThisColumn:クリックするとこの列でソート。
 WorkPriorityShiftClickTip:Shift + クリック:優先順位を上げる\nShift + 右クリック: 優先順位を下げる
 WorkPriorityShiftClickEnableDisableTip:Shift + クリック: 全て有効\nShift + 右クリック: 全て無効
@@ -147,7 +145,7 @@ KnownSiteThreat:<<Known threat: {0}??判明している脅威: {0}>>
 KnownSiteThreats:<<Known threats: {0}??判明している脅威: {0}>>
 KnownSiteThreatsNone:<<Known threats: None??判明している脅威: 不明>>
 SkillRequirements:<<Skill Requirements??必要スキル>>
-Products:<<Products??製品>>
+Products:<<Products??生成物>>
 Relationship:<<{0} of {1}??{1} の {0}>>
 Prisoner:_<Prisoner>_
 Refugee:<<Refugee??亡命者>>

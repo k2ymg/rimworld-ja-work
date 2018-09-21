@@ -233,7 +233,7 @@ MessageSiteCountdownBecauseNoEnemiesInitially:残り {0} で、キャラバン�
 
 MessageCantBanishDownedPawn:{1_labelShort} は歩けないので追放できない。
 MessageSleepingPawnsWokenUp:{0} は目を覚ました。
-MessageCompSpawnerSpawnedItem:アイテムを生産した: {0}。
+MessageCompSpawnerSpawnedItem:アイテムが生成された: {0}。
 MessageHediffCuredByItem:健康が回復した: {0}。
 MessageBodyPartCuredByItem:身体パーツを再生した: {0}。
 MessageResearchProjectFinishedByItem:テクノロジーが与えられた: {0}。
@@ -284,7 +284,7 @@ MessageGiftGivenButNotAppreciated:{0} は贈り物を受け取ったが、満足
 MessageCantGiveGiftBecauseCantCarryEncumbered:キャラバンは既に過重しており、これ以上運べない。
 MessageCantGiveGiftBecauseCantCarry:キャラバンはあまり運べない。贈り物の重さは {0} だがキャラバンはあと {1} しか運べない。
 
-MessageFormedCaravan:{0} の編成が終わりワールドマップへ移動し始めた。
+MessageFormedCaravan:{0} は編成を終えて、ワールドマップへ移動し始めた。
 MessageFormedCaravan_Orders:命令
 
 MessageBillValidationStoreZoneDeleted:{1} の "{0}" は消された_{stockpile}_ {2} へ運べなくなった。

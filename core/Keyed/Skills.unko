@@ -1,32 +1,32 @@
 ﻿Level:<<Level??レベル>>
 ProgressToNextLevel:<<Progress to next level??次のレベルまで>>
 Experience:<<Experience??経験値>>
-Passion:<<Passion??情熱>>
-PassionNone:<<None\n   -Learns {0}??なし\n   -経験 {0}>>
-PassionMinor:<<Interested\n   -Learns {0}??関心\n   -経験 {0}>>
-PassionMajor:<<Burning\n   -Learns {0}??熱心\n   -経験 {0}>>
-LearnedMaxToday:<<Learned max today ({0}/{1}, further learning multiplied by {2})??今日は最大限学んだ。({0} / {1}、 以降の学習率 {2})>>
-EffectsAtLevel:<<Effects at level {0}??{0} レベルの効果>>
+Passion:<<Passion??熱意>>
+PassionNone:<<None\n   -Learns {0}??なし\n   -習得率 {0}>>
+PassionMinor:<<Interested\n   -Learns {0}??関心\n   -習得率 {0}>>
+PassionMajor:<<Burning\n   -Learns {0}??熱心\n   -習得率 {0}>>
+LearnedMaxToday:<<Learned max today ({0}/{1}, further learning multiplied by {2})??今日は最大限学んだ ({0} / {1}、 以降の習得は {2} になる)>>
+EffectsAtLevel:<<Effects at level {0}??レベル {0} の効果>>
 SkillMax:<<MAX??最大>>
 
-Skill0:<<Barely heard of it??無謀>>
-Skill1:<<Utter beginner??ど素人>>
+Skill0:<<Barely heard of it??無知>>
+Skill1:<<Utter beginner??ド素人>>
 Skill2:<<Beginner??初心者>>
-Skill3:<<Basic familiarity??基本的な知識あり>>
-Skill4:<<Some familiarity??十分な知識あり>>
-Skill5:<<Significant familiarity??豊富な知識あり>>
+Skill3:<<Basic familiarity??基礎知識あり>>
+Skill4:<<Some familiarity??ある程度の知識あり>>
+Skill5:<<Significant familiarity??十分な知識あり>>
 Skill6:<<Capable amateur??できるアマチュア>>
-Skill7:<<Weak professional??駆け出しのプロ>>
-Skill8:<<Employable professional??プロ>>
-Skill9:<<Solid professional??立派なプロ>>
-Skill10:<<Skilled professional??腕利きのプロ>>
-Skill11:<<Very skilled professional??熟練のプロ>>
-Skill12:<<Expert??匠>>
-Skill13:<<Strong expert??師匠>>
-Skill14:<<Master??達人>>
-Skill15:<<Strong master??指折りの達人>>
-Skill16:<<Region-known master??地域の達人>>
-Skill17:<<Region-leading master??地域代表>>
-Skill18:<<Planet-known master??惑星級の達人>>
-Skill19:<<Planet-leading master??惑星代表>>
-Skill20:<<Legendary master??生ける伝説>>
+Skill7:<<Weak professional??未熟なプロ>>
+Skill8:<<Employable professional??まともなプロ>>
+Skill9:<<Solid professional??信頼できるプロ>>
+Skill10:<<Skilled professional??熟練のプロ>>
+Skill11:<<Very skilled professional??凄腕のプロ>>
+Skill12:<<Expert??達人>>
+Skill13:<<Strong expert??優れた達人>>
+Skill14:<<Master??師範>>
+Skill15:<<Strong master??優れた師範>>
+Skill16:<<Region-known master??地方で名高い師範>>
+Skill17:<<Region-leading master??地方随一の師範>>
+Skill18:<<Planet-known master??惑星で名高い師範>>
+Skill19:<<Planet-leading master??惑星随一の師範>>
+Skill20:<<Legendary master??伝説の師範>>

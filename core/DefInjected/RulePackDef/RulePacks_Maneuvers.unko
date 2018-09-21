@@ -8,6 +8,7 @@
 	:damaged_inf->攻撃
 	:damaged_inf(deflected!=True)->攻撃
 
+	;「～た(が)」の形で終わる事。
 	:damaged_past(p=4)->斬った
 	:damaged_past->切った
 	:damaged_past->切り刻んだ
@@ -27,9 +28,9 @@
 	:woundname(p=0.3)->裂け目
 	:flavortext_situation(recipient_flesh!=Mechanoid)->[woundname]から血を流しながら
 	:flavortext_situation->[woundname]から液体を垂れ流しながら
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織をさらけ出しながら
-	:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器をさらけ出しながら
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残しながら
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織をさらけ出している
+	:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器をさらけ出している
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残している
 
 	:destroyed_past->真っ二つにした
 	:destroyed_past->細切れにした
@@ -56,24 +57,25 @@
 	:damaged_inf(deflected!=True)->攻撃
 	:damaged_inf(deflected!=True)->攻撃
 
+	;「～た(が)」の形で終わる事。
 	:damaged_past(p=4)->刺した
 	:damaged_past->突き刺した
 	:damaged_past(deflected!=True)->刺し通した
-	:damaged_past(deflected!=True)->刺した
+	:damaged_past(deflected!=True)->穴を空けた
 	:damaged_past(deflected!=True)->串刺しにした
 
 	; 「～て」「～ている」の形にすること
 	:damaged_present(deflected!=True)->刺し通して
-	:damaged_present(deflected!=True)->刺して
+	:damaged_present(deflected!=True)->穴を空けて
 	:damaged_present(deflected!=True)->穿って
 	:damaged_present(deflected!=True)->串刺しにして
 
 	:woundname->穴
 	:woundname->創傷
 	:woundname->裂け目
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残しながら
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->裂けた[woundname]を残しながら
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->出血している[woundname]を残しながら
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残している
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->裂けた[woundname]を残している
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->出血している[woundname]を残している
 
 	:destroyed_past->刺し貫いた
 	:destroyed_past->貫通した
@@ -96,6 +98,7 @@
 	:damaged_inf->攻撃
 	:damaged_inf->攻撃
 
+	;「～た」「～たが」「～て」の形で終わる事。
 	:damaged_past(p=4)->打った
 	:damaged_past->殴った
 	:damaged_past->打った
@@ -123,10 +126,10 @@
 }
 
 {?Maneuver_Smash.rulePack.rulesStrings
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->大きな打撲傷を残しながら
-	:flavortext_consequence->明らかな変形を残しながら
-	:flavortext_consequence->ぐらついている[RECIPIENT_objective]を殴りながら
-	:flavortext_consequence->[RECIPIENT_objective]を横殴りしながら
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->大きな打撲傷を残している
+	:flavortext_consequence->明らかな変形を残している
+	:flavortext_consequence->ぐらついている[RECIPIENT_objective]を殴っている
+	:flavortext_consequence->[RECIPIENT_objective]を横殴りしている
 
 	:destroyed_suffix->欠片[to]
 	:destroyed_suffix->小片[to]
@@ -140,6 +143,7 @@
 	:damaged_inf(deflected!=True)->攻撃
 	:damaged_inf->攻撃
 
+	;「～た(が)」の形で終わる事。
 	:damaged_past(p=4)->引っ掻いた
 	:damaged_past(deflected!=True)->切り裂いた
 	:damaged_past(deflected!=True)->引き裂いた
@@ -169,9 +173,9 @@
 	:woundname(p=0.3)->傷口
 	:flavortext_situation(recipient_flesh!=Mechanoid)->[woundname]から血を流しながら
 	:flavortext_situation->[woundname]から体液を流しながら
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織を露わにしながら
-	:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器を露わにしながら
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残しながら
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織を露わにしている
+	:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器を露わにしている
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残している
 
 	:destroyed_suffix(recipient_flesh!=Mechanoid)->ぐちゃぐちゃな薄片[to]
 	:destroyed_suffix->薄片[to]
@@ -188,22 +192,23 @@
 	:damaged_inf->攻撃
 	:damaged_inf->攻撃
 
+	;「～た(が)」の形で終わる事。
 	:damaged_past(p=2)->突いた
 	:damaged_past(p=2)->突き刺した
 	:damaged_past->突き刺した
-	:damaged_past->突き込んだ
+	:damaged_past->突き刺した
 	:damaged_past->刺した
 
 	; 「～て」「～ている」の形にすること
 	:damaged_present(p=2)->突いて
 	:damaged_present(p=2)->突き刺して
 	:damaged_present->突き刺して
-	:damaged_present->突き込んで
+	:damaged_present->突き刺して
 	:damaged_present->刺して
 
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->大きな打撲傷を残しながら
-	:flavortext_consequence->明らかに変形させながら
-	:flavortext_consequence->ふらついている[RECIPIENT_objective]を殴りながら
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->大きな打撲傷を残している
+	:flavortext_consequence->明らかに変形させている
+	:flavortext_consequence->ふらついている[RECIPIENT_objective]を殴っている
 	:flavortext_consequence->[RECIPIENT_objective]を横殴りしながら
 
 	:destroyed_past->砕いた
@@ -230,23 +235,24 @@
 	:damaged_inf(p=0.5)->攻撃
 
 	; 「Aを～」になるように。
-	:damaged_past->噛んだ
-	:damaged_past->喰らった
+	;「～た(が)」の形で終わる事。
 	:damaged_past->噛んだ
 	:damaged_past->かじった
-	:damaged_past(deflected!=True)->引き裂いた
+	:damaged_past->喰らった
+	:damaged_past->噛みきった
+	:damaged_past(deflected!=True)->引き裂い
 
 	; 「～て」「～て-いる」の形にすること
-	:damaged_present->噛んで
-	:damaged_present->食らいついて
-	:damaged_present->噛んで
+	:damaged_present->噛んだ
 	:damaged_present->かじって
+	:damaged_present->喰らって
+	:damaged_present->噛みきって
 	:damaged_present(deflected!=True)->引き裂いて
 
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織を露わにしながら
-	:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器を露わにしながら
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮膚に容赦ない傷を残しながら
-	:flavortext_consequence(recipient_flesh==Mechanoid)->装甲に容赦ない傷を残しながら
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織を露わにしている
+	:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器を露わにしている
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮膚に容赦ない傷を残している
+	:flavortext_consequence(recipient_flesh==Mechanoid)->装甲に容赦ない傷を残している
 
 	:destroyed_past->むさぼり食った
 	:destroyed_past->噛みきった

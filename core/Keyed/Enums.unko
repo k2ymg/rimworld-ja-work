@@ -19,7 +19,7 @@ StoragePriorityPreferred:<<preferred??高い>>
 StoragePriorityImportant:<<important??重要>>
 StoragePriorityCritical:<<critical??最重要>>
 
-FoodTypeFlags_VegetableOrFruit:<<vegetables??野菜と果物>>
+FoodTypeFlags_VegetableOrFruit:<<vegetables??野菜>>
 FoodTypeFlags_Meat:<<raw meat??生肉>>
 FoodTypeFlags_Corpse:<<corpses??屍肉>>
 FoodTypeFlags_Seed:<<seeds??種子>>

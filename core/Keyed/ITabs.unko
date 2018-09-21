@@ -46,7 +46,7 @@ ConsideredGuilty:<<Considered guilty (expires in {0})??有罪(期限 {0})>>
 MoveSpeed:<<Move speed??移動速度>>
 Efficiency:<<Efficiency??効率>>
 PartEfficiency:<<Part efficiency??部位効率>>
-BodyPartEfficiency:<<Body part efficiency??身体部位能力>>
+BodyPartEfficiency:<<Body part efficiency??身体部位効率>>
 MissingBodyPart:<<Gone??失われた>>
 DestroyedBodyPart:<<Destroyed??破壊された>>
 ShatteredBodyPart:<<Shattered??粉砕された>>

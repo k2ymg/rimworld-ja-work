@@ -536,8 +536,8 @@ MuscleParasites.label:_<muscle parasites>_
 ; Hediffs_Local_Injuries
 {MissingBodyPart
 	label:<<missing body part??部位の欠損>>
-	labelNoun:<<a missing body part??欠損部位>>
-	labelNounPretty:<<missing a {1}??{1}欠損>>
+	labelNoun:<<a missing body part??部位の欠損>>
+	labelNounPretty:<<missing a {1}??{1}の欠損>>
 }
 
 {$InjuryBase

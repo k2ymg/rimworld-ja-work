@@ -34,7 +34,7 @@
 	skillLabel:_<animals>_
 }
 {Crafting
-	description:武器、_[Component]_、精製品などの雑多な物を作る。
+	description:武器、_[Component]_、精製物などの雑多な物を作る。
 	label:_<crafting>_
 	skillLabel:_<crafting>_
 }

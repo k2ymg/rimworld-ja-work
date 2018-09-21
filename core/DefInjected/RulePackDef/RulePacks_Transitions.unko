@@ -5,8 +5,8 @@
 }
 
 {?Transition_Downed.rulePack.rulesStrings
-	:r_logentry->[CULPRITHEDIFF_labelNoun]によって[SUBJECT_definite]が[collapsemeta]。
-	:r_logentry->[CULPRITHEDIFF_labelNounPretty]によって[SUBJECT_definite]が[collapsemeta]。
+	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNoun]により[collapsemeta]。
+	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNounPretty]により[collapsemeta]。
 
 	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNoun][duetoa][collapsedmeta]。
 	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNounPretty][duetoa][collapsedmeta]。
@@ -34,7 +34,7 @@
 	:helplessly(subject_flesh!=Mechanoid)->疲れ果てて
 	:helplessly(subject_flesh!=Mechanoid)->弱々しく
 	:helplessly(subject_flesh!=Mechanoid)->力なく
-	:helplessly(subject_flesh==Mechanoid)->制御不能により
+	:helplessly(subject_flesh==Mechanoid)->制御不能になりながら
 
 	:collapsemeta->[collapse]
 	:collapsemeta(p=0.5)->[helplessly][collapse]
@@ -45,8 +45,8 @@
 
 ;「～た」で統一すること。「死んだ」はだめ。
 {?Transition_DiedInclude.rulePack.rulesStrings
-	:r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun]により[SUBJECT_definite]が[die]た。
-	:r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty]により[SUBJECT_definite]が[die]た。
+	:r_logentry(p=1.5)->[SUBJECT_definite]が[CULPRITHEDIFF_labelNoun]により[die]た。
+	:r_logentry(p=1.5)->[SUBJECT_definite]が[CULPRITHEDIFF_labelNounPretty]により[die]た。
 
 	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNoun][duetoa][died][flavorsuffix]。
 	:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNounPretty][duetoa][died][flavorsuffix]。

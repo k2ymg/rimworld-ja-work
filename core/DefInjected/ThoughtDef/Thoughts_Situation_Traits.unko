@@ -162,12 +162,12 @@
 		label:<<ascetic has awful bedroom??_{ascetic}_の酷い寝室>>
 		description:まさに私が求めていた部屋。慎ましく質素だ。
 	}
-	{ascetic_has_repulsive_bedroom
-		label:<<ascetic has repulsive bedroom??_{ascetic}_のむかつく寝室>>
+	{ascetic_has_dull_bedroom
+		label:<<ascetic has dull bedroom??_{ascetic}_の冴えない寝室>>
 		description:まさに私が求めていた部屋。慎ましく質素だ。
 	}
-	{ascetic_has_dull_bedroom
-		label:<<ascetic has dull bedroom??_{ascetic}_のさえない寝室>>
+	{ascetic_has_mediocre_bedroom
+		label:<<ascetic has mediocre bedroom??_{ascetic}_の平凡な寝室>>
 		description:慎ましく質素な部屋。いいね。
 	}
 	{ascetic_has_impressive_bedroom-0
