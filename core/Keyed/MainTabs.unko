@@ -10,11 +10,12 @@ EmergencyWorkMarker:<<E??緊急>>
 SelectedWorkTypeWithVeryBadSkill:警告: 該当スキルの平均がとても低い。
 
 ManageOutfits:_<Manage outfits>_
-ClearForcedApparel:<<Clear forced??強制を解除>>
+ClearForcedApparel:<<Clr. forced??強制を解除>>
 ApparelForcedLower:<<forced??強制>>
 ForcedApparel:<<Forced apparel??服装を強制する>>
 AssignTabEdit:<<Edit...??編集...>>
 ManageDrugPolicies:_<Manage drug policies>_
+ManageFoodRestrictions:<<Manage food restrictions??食べ物規制を編集>>
 
 Copy:<<Copy??コピー>>
 Paste:<<Paste??ペースト>>

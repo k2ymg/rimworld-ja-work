@@ -26,10 +26,10 @@
 
 	:woundname->傷
 	:woundname(p=0.3)->裂け目
-	:flavortext_situation(recipient_flesh!=Mechanoid)->[woundname]から血を流しながら
-	:flavortext_situation->[woundname]から液体を垂れ流しながら
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織をさらけ出している
-	:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器をさらけ出している
+	:flavortext_situation(recipient_flesh!=Mechanoid)->[woundname]から血を流している
+	:flavortext_situation->[woundname]から体液を垂れ流している
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織を露わにしている
+	:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器を露わにしている
 	:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残している
 
 	:destroyed_past->真っ二つにした
@@ -38,11 +38,12 @@
 	:destroyed_past->切り離した
 	:destroyed_past->引き裂いた
 
-	:destroyed_present->真っ二つにしている
-	:destroyed_present->細切れにしている
-	:destroyed_present->半分にしている
-	:destroyed_present->切り離している
-	:destroyed_present->切り裂いている
+	;「～て(いる)」で統一すること
+	:destroyed_present->真っ二つにして
+	:destroyed_present->細切れにして
+	:destroyed_present->半分にして
+	:destroyed_present->切り離して
+	:destroyed_present->切り裂いて
 
 	:destroyed_suffix->滑らかな小片に
 	:destroyed_suffix->綺麗に
@@ -81,9 +82,10 @@
 	:destroyed_past->貫通した
 	:destroyed_past->串刺しにした
 
-	:destroyed_present->刺し貫いている
-	:destroyed_present->貫通している
-	:destroyed_present->串刺しにしている
+	;「～て(いる)」で統一すること
+	:destroyed_present->刺し貫いて
+	:destroyed_present->貫通して
+	:destroyed_present->串刺しにして
 
 	:destroyed_suffix->真っ直ぐに
 	:destroyed_suffix->綺麗な穴を残しながら
@@ -118,11 +120,12 @@
 	:destroyed_past->破壊した
 	:destroyed_past->破壊した
 
-	:destroyed_present->粉々にしている
-	:destroyed_present->潰している
-	:destroyed_present->砕いている
-	:destroyed_present->破壊している
-	:destroyed_present->壊している
+	;「～て(いる)」で統一すること
+	:destroyed_present->粉々にして
+	:destroyed_present->潰して
+	:destroyed_present->砕いて
+	:destroyed_present->破壊して
+	:destroyed_present->壊して
 }
 
 {?Maneuver_Smash.rulePack.rulesStrings
@@ -161,18 +164,19 @@
 	:destroyed_past->ズタズタに裂いた
 	:destroyed_past->引き裂いた
 
-	:destroyed_present->引っ掻いている
-	:destroyed_present->引き裂いている
-	:destroyed_present->引きちぎっている
-	:destroyed_present->ズタズタに裂いている
-	:destroyed_present->引き裂いている
+	;「～て(いる)」で統一すること
+	:destroyed_present->引っ掻いて
+	:destroyed_present->引き裂いて
+	:destroyed_present->引きちぎって
+	:destroyed_present->ズタズタに裂いて
+	:destroyed_present->引き裂いて
 }
 
 {?Maneuver_Scratch.rulePack.rulesStrings
 	:woundname->傷
 	:woundname(p=0.3)->傷口
-	:flavortext_situation(recipient_flesh!=Mechanoid)->[woundname]から血を流しながら
-	:flavortext_situation->[woundname]から体液を流しながら
+	:flavortext_situation(recipient_flesh!=Mechanoid)->[woundname]から血を流している
+	:flavortext_situation->[woundname]から体液を垂れ流している
 	:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織を露わにしている
 	:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器を露わにしている
 	:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残している
@@ -217,11 +221,12 @@
 	:destroyed_past->壊した
 	:destroyed_past->壊した
 
-	:destroyed_present->砕いている
-	:destroyed_present->潰している
-	:destroyed_present->壊している
-	:destroyed_present->壊している
-	:destroyed_present->壊している
+	;「～て(いる)」で統一すること
+	:destroyed_present->砕いて
+	:destroyed_present->潰して
+	:destroyed_present->壊して
+	:destroyed_present->壊して
+	:destroyed_present->壊して
 
 	:destroyed_suffix->破片[to]
 	:destroyed_suffix->小片[to]
@@ -240,7 +245,7 @@
 	:damaged_past->かじった
 	:damaged_past->喰らった
 	:damaged_past->噛みきった
-	:damaged_past(deflected!=True)->引き裂い
+	:damaged_past(deflected!=True)->引き裂いた
 
 	; 「～て」「～て-いる」の形にすること
 	:damaged_present->噛んだ
@@ -259,10 +264,11 @@
 	:destroyed_past->引き裂いた
 	:destroyed_past->破壊した
 
-	:destroyed_present->むさぼり食っている
-	:destroyed_present->噛みきっている
-	:destroyed_present->引き裂いている
-	:destroyed_present->破壊している
+	;「～て(いる)」で統一すること
+	:destroyed_present->むさぼり食って
+	:destroyed_present->噛みきって
+	:destroyed_present->引き裂いて
+	:destroyed_present->破壊して
 
 	:destroyed_suffix->[to] shreds
 	:destroyed_suffix->破片[to]

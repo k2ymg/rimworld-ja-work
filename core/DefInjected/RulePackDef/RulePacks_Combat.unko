@@ -59,8 +59,8 @@
 	:painevent->怪我による
 	:painevent->傷による
 
-	:to->へ
-	:to->の中へ
+	:to->へと
+	:to->へと
 }
 
 {?Combat_MeleeDamageIncludes.rulePack.rulesStrings
@@ -181,7 +181,7 @@
 	:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]の[destroyed_targets]を[expertly][destroyed_past]。
 	:r_logentry(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。
 
-	:result(p=1,recipient_part_damaged_count==0)->。[destroyed_targets]を[destroyed_present]
+	:result(p=1,recipient_part_damaged_count==0)->。[destroyed_targets]を[destroyed_present]いる
 	:result(p=1,recipient_part_destroyed_count==0)->。[damaged_targets]を[damaged_present]いる
 	:result(p=1)->。[destroyed_targets]を[destroyed_present]、[damaged_targets]を[damaged_present]いる
 
@@ -516,8 +516,8 @@
 	:prefix->[INITIATOR_definite]の[WEAPON_projectile_label][fromof][blast]
 	:prefix->[INITIATOR_definite]の[WEAPON_label][fromof][blast]
 	:prefix->[INITIATOR_definite]の[blast]
-	:prefix->[INITIATOR_definite]の[WEAPON_projectile_label][blast]
-	:prefix->[INITIATOR_definite]の[WEAPON_label][blast]
+	:prefix->[INITIATOR_definite]の[WEAPON_projectile_label]の[blast]
+	:prefix->[INITIATOR_definite]の[WEAPON_label]の[blast]
 	:prefix->[INITIATOR_definite]の[WEAPON_projectile_label]
 	:prefix->[INITIATOR_definite]の[WEAPON_label]
 
@@ -543,7 +543,7 @@
 	:blast->爆風
 	:blast->衝撃波
 	:blast->爆轟
-	:blast->放出
+	:blast->爆裂
 	:blast->衝撃
 
 	:fromof->からの

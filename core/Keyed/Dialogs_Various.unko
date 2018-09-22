@@ -356,16 +356,17 @@ HistoryUploadNoOnce:今回はアップロードしなが、また後で
 
 Outfit:<<Outfit??服装>>
 SelectOutfit:<<Select outfit...??服装を選択...>>
-NewOutfit:<<New outfit??新しい服装>>
+NewOutfit:<<New outfit??服装を作る>>
 DeleteOutfit:<<Delete outfit...??服装を削除...>>
 OutfitInUse:<<Outfit is in use by {0}.??この服装は {0} が使用している。>>
 NoOutfitSelected:<<No outfit selected??服装未選択>>
 
 DrugPolicy:<<Drug policy??ドラッグのポリシー>>
 SelectDrugPolicy:<<Select policy...??ポリシーを選択...>>
-NewDrugPolicy:<<New policy??新しいポリシー>>
+NewDrugPolicy:<<New policy??ポリシーを作る>>
 DeleteDrugPolicy:<<Delete policy...??ポリシーを削除...>>
 DrugPolicyInUse:<<Drugs policy is in use by {0}.??ドラッグのポリシーは {0} が使用している。>>
+FoodRestrictionInUse:<<Food restriction is in use by {0}.??食べ物規制は {0} が使用している。>>
 SocialDrugs:<<Social drugs??たしなみ程度>>
 NoDrugs:<<No drugs??ドラッグ不使用>>
 OneDrinkPerDay:<<One drink per day??一日一回>>
@@ -393,6 +394,18 @@ TakeToInventoryColumnDesc:何度も_{stockpile}_に行かないように、消�
 DrugUsageTipForAddiction:中毒者用。\n\nこのドラッグを既に中毒状態の欲求を満たすために使う。\n\n例え無効でも、特定の特徴を持っていたり精神崩壊しているキャラクターは、無視して使うかもしれない。
 DrugUsageTipForJoy:娯楽用。\n\nこのドラッグを娯楽や人付き合いのために使う。\n\n例え無効でも、特定の特徴を持っていたり精神崩壊しているキャラクターは、無視して使うかもしれない。
 DrugUsageTipScheduled:定期的。\n\nこのドラッグを定期的に、特定の条件で使う。
+
+FoodRestriction:<<Food restriction??食べ物規制>>
+FoodRestrictionLavish:<<Lavish??無制限>>
+FoodRestrictionFine:<<Fine??_[food/Fine]_まで>>
+FoodRestrictionSimple:<<Simple??_[food/Simple]_まで>>
+FoodRestrictionPaste:<<Paste??_[food/Paste]_まで>>
+FoodRestrictionRaw:<<Raw??生物のみ>>
+FoodRestrictionNothing:<<Nothing??全て禁止>>
+SelectFoodRestriction:<<Select food restriction??食べ物規制を選択>>
+NewFoodRestriction:<<New food restriction??食べ物規制を作る>>
+DeleteFoodRestriction:<<Delete food restriction??食べ物規制を削除>>
+NoFoodRestrictionSelected:<<No food restriction selected??食べ物規制未選択>>
 
 MedGroupDefaults:<<Defaults??初期値>>
 MedGroupColonist:_<Colonist>_

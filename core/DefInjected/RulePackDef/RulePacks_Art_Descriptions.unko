@@ -31,7 +31,7 @@
 
 	:artextra_clause->イメージは[subimageplural]で縁取られている
 	:artextra_clause->イメージの端に[subimageplural]がある
-	:artextra_clause->[subimagesingle]が[side_position]ある
+	:artextra_clause->[subimagesingle]が[side_position]にある
 	:artextra_clause->主題は[subimageany]の前にある
 	:artextra_clause->イメージの下側は[subimageany]で占められている
 	:artextra_clause->そのシーンは[Community]の中央で起きている
@@ -39,8 +39,8 @@
 	:artextra_clause->そのシーンは[TerrainFeature]の近くにある[Community]の中で起きている
 	:artextra_clause->[Character]が[side_position][idles]いる
 	:artextra_clause->[PAWN_adj][Character]が[side_position][idles]いる
-	:artextra_clause->[Quantity_adjphrase]の[Character]が[side_position]現れている
-	:artextra_clause->[Quantity_adjphrase]の[PAWN_adj][Character]が[side_position]現れている
+	:artextra_clause->[Quantity_adjphrase]の[Character]が[side_position]から現れている
+	:artextra_clause->[Quantity_adjphrase]の[PAWN_adj][Character]が[side_position]から現れている
 	:artextra_clause->[Animal]が[side_position][idles]いる
 	:artextra_clause->目を細めて見ると、イメージの[composition]構成が[subimageany]の輪郭を表している
 	:artextra_clause->[PAWN_adj][PersonJob]の[emotional_expression]顔が全体を見渡している
@@ -84,32 +84,33 @@
 	:emotional_expression->叫んでいる
 	:emotional_expression->大喜びしている
 
-	:idles->座って
-	:idles->立って
-	:idles->じっとして
-	:idles->笑って
-	:idles->横になって
-	:idles->ポーズを決めて
-	:idles->現れて
-	:idles->姿を現そうとして
-	:idles->姿を消そうとして
-	:idles->浮いて
+	;side_positionとの組み合わせ
+	:idles->に座って
+	:idles->に立って
+	:idles->でじっとして
+	:idles->で笑って
+	:idles->で横になって
+	:idles->でポーズを決めて
+	:idles->に現れて
+	:idles->へ姿を現そうとして
+	:idles->へ姿を消そうとして
+	:idles->に浮いて
 
-	:side_position->偏った位置に
-	:side_position->背景に
-	:side_position->遠くに
-	:side_position->イメージの下側に
-	:side_position->イメージの上側に
-	:side_position->主要なシーンの左側に
-	:side_position->主要なシーンの右側に
-	:side_position->イメージの縁に
-	:side_position->主題の近くに
-	:side_position->主題から遠く離れた所に
-	:side_position->主題の下に
-	:side_position->焦点の下に
+	:side_position->偏った位置
+	:side_position->背景
+	:side_position->遠く
+	:side_position->イメージの下側
+	:side_position->イメージの上側
+	:side_position->主要なシーンの左側
+	:side_position->主要なシーンの右側
+	:side_position->イメージの縁
+	:side_position->主題の近く
+	:side_position->主題から遠く離れた所
+	:side_position->主題の下
+	:side_position->焦点の下
 
 	:style_clause(p=4)->この作品は[ConceptAny][symbolizes]
-	:artextra_clause->[side_position]ある[subimagesingle]が[ConceptAny][symbolizes]
+	:artextra_clause->[side_position]にある[subimagesingle]が[ConceptAny][symbolizes]
 	:style_clause->この作品は[ConceptAny]のアイデアが注ぎ込まれ、 [artstyle_adj]様式になっている
 	:style_clause->この作品は[artstyle_adj]様式で作られている
 	:style_clause->主要なシーンの[artstyle_adj]様式が[artstyle_adj]様式の背景描写で台無しになっている

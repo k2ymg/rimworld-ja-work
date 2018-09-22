@@ -15,3 +15,4 @@ AllowedAreaWide.label:_<allowed area>_
 HostilityResponse.headerTip:交戦対応
 Outfit.label:<<current outfit??現在の服装>>
 DrugPolicy.label:<<drug policy??ドラッグ・ポリシー>>
+FoodRestriction.label:<<food restriction??食べ物規制>>

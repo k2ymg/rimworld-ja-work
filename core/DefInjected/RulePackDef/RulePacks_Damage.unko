@@ -24,11 +24,12 @@
 }
 
 {?Damage_Flame.rulePack.rulesStrings
+	;「～を～した」の形式にすること
 	:damaged_past(p=2)->吹き飛ばした
 	:damaged_past(p=2)->焦がした
 	:damaged_past(p=2)->燃やした
 	:damaged_past(p=2)->ただれさせた
-	:damaged_past(p=2)->火を付けた
+	:damaged_past(p=2)->発火させた
 	:damaged_past(p=2)->火傷させた
 	:damaged_past->怪我させた
 	:damaged_past->傷つけた
@@ -74,7 +75,7 @@
 	:damaged_past->気絶させた
 	:damaged_past->混乱させた
 	:damaged_past->停止させた
-	:damaged_past->目をくらませた
+	:damaged_past->ふらつかせた
 
 	:destroyed_past->[damaged_past]
 }
