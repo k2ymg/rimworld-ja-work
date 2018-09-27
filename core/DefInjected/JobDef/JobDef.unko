@@ -9,6 +9,7 @@ Maintain.reportString:<<maintaining TargetA.??TargetA を手入れしている�
 ; Jobs_Caravan
 PrepareCaravan_GatherItems.reportString:<<gathering supplies.??荷物を集めている。>>
 PrepareCaravan_GatherPawns.reportString:<<preparing to leave.??出発準備をしている。>>
+PrepareCaravan_GatherDownedPawns.reportString:<<preparing to leave.??出発準備をしている。>>
 
 ; Jobs_Gatherings
 MarryAdjacentPawn.reportString:<<marrying TargetA.??TargetA と結婚式を挙げている。>>

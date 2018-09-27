@@ -1,6 +1,7 @@
 ﻿CommandForbid:_<Forbid>_
-CommandForbiddenDesc:禁止 - _{colonists}_はこれと関わらない。
-CommandNotForbiddenDesc:許可 - _{colonists}_はこれと関われる。
+CommandAllow:_<Allow>_
+CommandForbiddenDesc:禁止状態: _{colonists}_はこれと関われる。クリックすると許可する。
+CommandNotForbiddenDesc:許可状態: _{colonists}_はこれと関われる。クリックすると禁止する。
 
 CommandTogglePowerLabel:<<Toggle power??電源>>
 CommandTogglePowerDesc:電源スイッチの切り替え。

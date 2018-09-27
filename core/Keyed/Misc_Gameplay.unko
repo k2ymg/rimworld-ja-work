@@ -143,7 +143,7 @@ AllowedAreaShiftClickTip:Shift + クリック: 全て_{home}_へ\nShift + 右ク
 CheckboxShiftClickTip:Shift + クリック: 全て選択\nShift + 右クリック: 全て解除
 KnownSiteThreat:<<Known threat: {0}??判明している脅威: {0}>>
 KnownSiteThreats:<<Known threats: {0}??判明している脅威: {0}>>
-KnownSiteThreatsNone:<<Known threats: None??判明している脅威: 不明>>
+KnownSiteThreatsNone:<<Threats: Unknown??脅威: 不明>>
 SkillRequirements:<<Skill Requirements??必要スキル>>
 Products:<<Products??生成物>>
 Relationship:<<{0} of {1}??{1} の {0}>>

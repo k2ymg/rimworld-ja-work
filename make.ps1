@@ -253,7 +253,7 @@ function replace([string]$str)
 		throw [myunko]"Error: included <: $($str)"
 	}
 
-	#$str.replace('//', "`u{200b}") #faq. zero-width space not work
+	#$str = $str.replace('//', '`u{200b}') #faq. zero-width space not work
 
 	#if($str -ne $str.trim()){
 	#	throw [myunko]"contain lead or last space: $($str)"

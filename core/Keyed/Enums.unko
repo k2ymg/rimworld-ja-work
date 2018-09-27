@@ -2,9 +2,9 @@
 Lit:<<Lit??明るい>>
 LitBrightly:<<Brightly lit??とても明るい>>
 
-Unspecified:<<Undecided??未定>>
-Always:<<Allow??許可>>
-Never:<<Do not allow??禁止>>
+;Unspecified:<<Undecided??未定>>
+;Always:<<Allow??許可>>
+;Never:<<Do not allow??禁止>>
 
 PriceTypeVeryCheap:<<very cheap??とても安い>>
 PriceTypeCheap:<<cheap??安い>>

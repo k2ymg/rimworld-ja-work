@@ -29,10 +29,10 @@
 	{?rulePack.rulesStrings
 		:tale_noun->[PAWN_nameDef]が[OBJECT_label]を作り終えた事
 
-		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の複雑な内部機構を作り上げている様子
+		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]を作っている様子
+		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]を組み立てている様子
 		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の表面を磨いている様子
-		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の表面の細部を作り込んでいる様子
-		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]に名を刻み込んでいる様子
+		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]に名前を刻み込んでいる様子
 
 		:circumstance_phrase->目を輝かせながら
 		:circumstance_phrase->額の汗を拭いながら
@@ -51,12 +51,12 @@
 {CompletedLongCraftingProject
 	label:completed long crafting project
 	{?rulePack.rulesStrings
-		:tale_noun->[PAWN_nameDef]が[OBJECT_label]を作り終えた事
+		:tale_noun->[PAWN_nameDef]が[OBJECT_label]の作業を終えた事
 
-		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の複雑な内部機構を作り上げている様子
+		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の作業をしている様子
 		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の表面を磨いている様子
 		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の表面の細部を作り込んでいる様子
-		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]に名を刻み込んでいる様子
+		:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]に名前を刻み込んでいる様子
 
 		:circumstance_phrase->目を輝かせながら
 		:circumstance_phrase->額の汗を拭いながら
@@ -381,9 +381,7 @@
 {IncreasedMenagerie
 	label:increased menagerie
 	{?rulePack.rulesStrings
-		:tale_noun->[HUMAN_nameDef]が[AnimalGroup]に他の動物を、さらに増やそうとした事
-		:tale_noun->[HUMAN_nameDef]が[AnimalGroup]に他の動物を、さらに増やそうとした事
-		:tale_noun->[HUMAN_nameDef]が[AnimalGroup]に他の動物を、さらに増やそうとした事
+		:tale_noun(p=3)->[HUMAN_nameDef]が[AnimalGroup]をさらに増やそうとした事
 		:tale_noun->[HUMAN_nameDef]が[AnimalGroup]に追い回された事
 		:tale_noun->[HUMAN_nameDef]が[ANIMAL_nameDef]を手懐けた事
 

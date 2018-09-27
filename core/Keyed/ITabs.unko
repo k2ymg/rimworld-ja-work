@@ -129,6 +129,10 @@ FormingCaravanStatus_GatheringItems:<<Gathering items??アイテムを集めて�
 FormingCaravanStatus_GatheringItems_Pause:<<Gathering items (waiting)??アイテムを集めている (待機)>>
 FormingCaravanStatus_GatheringSlaves:<<Gathering slaves??奴隷を集めている>>
 FormingCaravanStatus_GatheringSlaves_Pause:<<Gathering slaves (waiting)??奴隷を集めている (待機)>>
+
+FormingCaravanStatus_GatheringDownedPawns:<<Gathering downed people??倒れている人を集めている>>
+FormingCaravanStatus_GatheringDownedPawns_Pause:<<Gathering downed people (waiting)??倒れている人を集めている (待機)>>
+  
 FormingCaravanStatus_Leaving:<<Leaving??離れている>>
 FormingCaravanStatus_Leaving_Pause:<<Leaving (waiting)??離れている (待機)>>
 FormingCaravanStatus_Waiting:<<Waiting??待機中>>

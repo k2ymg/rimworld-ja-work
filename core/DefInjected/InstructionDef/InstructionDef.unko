@@ -37,9 +37,9 @@
 	text:右クリックしてこのモードから抜けてください。
 }
 {UnforbidStartingResources
-	text:次に、_{colonists}_がアイテムを_<Stockpile zone>_に運べるように、アイテムを'_<Unforbid>_'状態にします。\n\n1.持ってきたアイテムをクリックして選択する。\n2.'_<Forbid>_'をクリックして許可にする。\n\n(ヒント:アイテムをダブルクリックすると、画面内にある同じアイテムが全て選択されます。)
-	rejectInputMessage:持ってきたアイテムを_<Unforbid>_状態にしてください。
-	onMapInstruction:これを_<Unforbid>_状態にする
+	text:次に、_{colonists}_がアイテムを _<Stockpile zone>_ に運べるように、アイテムの'_<forbidden>_' 状態を解除します。\n\n1.持ってきたアイテムをクリックして選択する。\n2.'_<Allow>_'をクリックして許可する。\n\n(ヒント:アイテムをダブルクリックすると、画面内にある同じアイテムが全て選択されます。)
+	rejectInputMessage:持ってきたアイテムを_<Allow>_状態にしてください。
+	onMapInstruction:これを_<Allow>_状態にする
 }
 {BuildRoomWalls
 	text:素晴らしい！次は、部屋を作ります。\n\n1.'_[Architect]_'をクリックする。\n2.'_[Structure]_'をクリックする。\n3.'_[Wall]_'を選択する。\n4.'_[wooden]_'の素材を選択する。\n5.マップ上に示された形状に合わせて、壁を四つ作る。

@@ -23,7 +23,7 @@
 		rich.label:<<rich??裕福>>
 		luxurious.label:<<luxurious??贅沢>>
 		very_luxurious.label:<<very luxurious??とても贅沢>>
-		extremely_luxurious.label:<<extremely luxurious??非常に贅沢>>
+		extremely_luxurious.label:<<extremely luxurious??非情に贅沢>>
 		unbelievably_luxurious.label:<<unbelievably luxurious??信じられないほど贅沢>>
 	}
 }
@@ -32,11 +32,11 @@
 	{scoreStages
 		cramped.label:<<cramped??窮屈>>
 		rather_tight.label:<<rather tight??やや窮屈>>
-		averagesized.label:<<average-sized??平均的な広さ>>
-		somewhat_spacious.label:<<somewhat spacious??やや広々>>
-		quite_spacious.label:<<quite spacious??広々>>
-		very_spacious.label:<<very spacious??とても広々>>
-		extremely_spacious.label:<<extremely spacious??非常に広々>>
+		averagesized.label:<<average-sized??普通>>
+		somewhat_spacious.label:<<somewhat spacious??やや広い>>
+		quite_spacious.label:<<quite spacious??広い>>
+		very_spacious.label:<<very spacious??とても広い>>
+		extremely_spacious.label:<<extremely spacious??非情に広い>>
 	}
 }
 {Beauty
@@ -44,11 +44,11 @@
 	{scoreStages
 		hideous.label:<<hideous??ひどく醜い>>
 		ugly.label:<<ugly??醜い>>
-		neutral.label:<<neutral??並>>
-		pretty.label:<<pretty??やや魅力的>>
+		neutral.label:<<neutral??普通>>
+		pretty.label:<<pretty??やや美しい>>
 		beautiful.label:<<beautiful??美しい>>
 		very_beautiful.label:<<very beautiful??とても美しい>>
-		extremely_beautiful.label:<<extremely beautiful??非常に美しい>>
+		extremely_beautiful.label:<<extremely beautiful??非情に美しい>>
 		unbelievably_beautiful.label:<<unbelievably beautiful??信じられないほど美しい>>
 	}
 }

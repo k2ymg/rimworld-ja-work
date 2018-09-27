@@ -120,17 +120,17 @@
 	:expertly->賢く
 	:expertly->見事に
 	:expertly->華麗に
-	:expertly->技量で
-	:expertly->豊富な経験で
+	:expertly->巧みに
+	:expertly->劇的に
 	:expertly->鋭い勘で
 	:expertly->慎重に
 	:expertly->正確に
 	:expertly->無駄の無い動きで
-	:expertly->力で
-	:expertly->器用さで
+	:expertly->力強く
+	:expertly->器用に
 	:expertly->極めたように
 	:expertly->芸術的に
-	:expertly->プロ意識で
+	:expertly->プロのように
 	:expertly->名人のように
 	:expertly->達人のように
 	:expertly->師範のように
@@ -435,13 +435,13 @@
 
 {?Combat_RangedDeflect.rulePack.rulesStrings
 	:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_target]を[damaged_past]が、[deflected_result]。
-	:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite][damaged_target_possessive_opt] [damaged_past] [deflected_result]。
+	:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]れて、[RECIPIENT_definite][damaged_target_possessive_opt]を[damaged_past]が、[deflected_result]。
 	:r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt]が[INITIATOR_definite]の[WEAPON_projectile_label]で[damaged_past]が、[deflected_result]。
 
 	:r_logentry(p=0.2)->[INITIATOR_definite]が[RECIPIENT_definite][damaged_target_possessive_opt]に[WEAPON_projectile_label]を当てたが、[deflected_result]。
 	:r_logentry(p=0.2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite][damaged_target_possessive_opt]に当たったが、[deflected_result]。
-	:r_logentry(p=0.4)->[INITIATOR_definite]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite][damaged_target_possessive_opt]に[WEAPON_projectile_label]を当てたが、[deflected_result]。
-	:r_logentry(p=0.4)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite][damaged_target_possessive_opt]に当てたが、 [deflected_result]。
+	:r_logentry(p=0.4)->[INITIATOR_definite]が[ORIGINALTARGET_definite]への[WEAPON_projectile_label]を[missed]し、[RECIPIENT_definite][damaged_target_possessive_opt]に当たったが、[deflected_result]。
+	:r_logentry(p=0.4)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]れて、[RECIPIENT_definite][damaged_target_possessive_opt]に当たったが、[deflected_result]。
 	:r_logentry(p=0.2)->[ORIGINALTARGET_definite]を狙った[INITIATOR_definite]の[WEAPON_projectile_label]は[RECIPIENT_definite][damaged_target_possessive_opt]に当たったが、[deflected_result]。
 
 	:weapon_projectile_label(p=0.05)->ショット
@@ -465,8 +465,9 @@
 
 	:scraped_present->跳ねながら
 
-	:missed->外れ
-	:missed->僅かに外れ
+	;人の場合は「外して、外した」物の場合は「外れて、外れた」
+	:missed->外
+	:missed->僅かに外
 }
 
 {?Combat_RangedMiss.rulePack.rulesStrings

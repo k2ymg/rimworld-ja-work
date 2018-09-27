@@ -38,7 +38,7 @@ DesignatorPlanRemoveDesc:予定地を取り除く。
 DesignatorForbid:_<Forbid>_
 DesignatorForbidDesc:アイテムを禁止する。_{colonists}_は指定されたアイテムには関われなくなる。
 
-DesignatorUnforbid:_<Unforbid>_
+DesignatorUnforbid:_<Allow>_
 DesignatorUnforbidDesc:アイテムの禁止を解除する。_{colonists}_は指定されたアイテムに関われるようになる。
 
 DesignatorAreaHomeExpand:_<Expand home area>_

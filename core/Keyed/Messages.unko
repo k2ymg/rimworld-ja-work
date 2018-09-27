@@ -260,7 +260,8 @@ MessageChoseRoute:キャラバンは最初のウェイポイントへ自動的�
 
 MessageCraftedMasterwork:{WORKER_labelShort} が {CRAFTED_labelShort} を作った。
 
-MessagePlayerTriedToLeaveMapViaExitGrid:ここから離れるには、ワールド画面の"_<Reform caravan>_"ボタンを使う。
+MessagePlayerTriedToLeaveMapViaExitGrid_CanReform:ここから離れるには、ワールド画面の'_<Reform caravan>_'ボタンを使う。
+MessagePlayerTriedToLeaveMapViaExitGrid_CantReform:今はここから離れられない。
 
 MessageGoodwillChanged:{0} との関係が {1} から {2} へ変わった。
 MessageGoodwillChangedWithReason:{0} との関係が {1} から {2} へ変わった。({3})。
@@ -314,3 +315,5 @@ MessageTranslationFilesCleanupDone:完了。処理したフォルダ: {0}
 MessageCantCleanupTranslationFilesBeucaseOfXmlError:翻訳ファイル({0})が読み込めませんでした。先にXMLのパースエラーを直して下さい。
 
 MessageCapturingWillAngerFaction:警告: {PAWN_nameDef} を捕まえると派閥 {PAWN_factionName} が怒る。
+
+MessageCantShootInMelee:近接戦闘状態では撃てない。

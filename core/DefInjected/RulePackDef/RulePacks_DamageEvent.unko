@@ -50,6 +50,28 @@
 	:destroyed_present->燃やしている
 }
 
+{?DamageEvent_TrapSpike.rulePack.rulesStrings
+	:damage_source->に[spiketrap]が刺さった
+	:damage_source->に[spiketrap]が当たった
+	:damage_source->に[spiketrap]が放たれた
+
+	:spiketrap(p=3)->スパイク・トラップ
+	:spiketrap(p=3)->スパイク・トラップ
+	:spiketrap->棘
+	:spiketrap->鋭利な罠
+	:spiketrap->尖った罠
+
+	:damaged_present->刺している
+	:damaged_present->刺さっている
+	:damaged_present->突き通している
+	:damaged_present->突き刺さっている
+
+	:destroyed_present->引き裂いた
+	:destroyed_present->砕いた
+	:destroyed_present->引きちぎった
+	:destroyed_present->潰した
+}
+
 {?DamageEvent_PowerBeam.rulePack.rulesStrings
 	:damage_source->の上の[sky]が切り開かれた
 	:damage_source->が凄まじい[power]のビームで[damaged_past]
