@@ -995,8 +995,8 @@ titleShort:_<miner>_
 desc:[PAWN_nameDef]は外宙採掘場で小惑星から金属を取り出す肉体労働をしていた。[PAWN_pronoun]は自分の工業スキルを日常的に使っており、バーでの喧嘩も得意だった。
 }
 
-{DeepSpaceSurveor87
-title:_<deep space surveor>_
+{DeepSpaceSurveyor87
+title:_<deep space surveyor>_
 titleShort:_<surveyor>_
 desc:[PAWN_nameDef]は深宇宙調査官だった。[PAWN_pronoun]は入植に適している場所を調べていた。\n\n[PAWN_pronoun]の遠征により攻撃的な原住民、緑色の宇宙女性、ギリシャ神話の信者と会えた。多くの銃撃戦を生き延び、[PAWN_pronoun]は敵を追い払うために簡易な旋盤や岩石投射砲の作り方を身につけた。
 }
@@ -1014,8 +1014,8 @@ desc:[PAWN_nameDef]は自分が住んでいる所の圧政から逃れる事に�
 }
   
 {DefenseLawyer71
-title:_<defense lawyer>_
-titleShort:_<lawyer>_
+title:_<Defense lawyer>_
+titleShort:_<Lawyer>_
 desc:[PAWN_nameDef]は銃よりも言葉のほうが稼げると気付いた。口の巧さが役に立つ仕事を探し、法律家になった。\n\n[PAWN_pronoun]はよく一緒に育った違法なスピーダー・レーサーを弁護していた。
 }
 
@@ -1239,7 +1239,7 @@ desc:[PAWN_nameDef]は星から星へ旅をし、標本、物語、研究を集�
 {ExplosivesExpert26
 title:_<explosives expert>_
 titleShort:_<blaster>_
-desc:[PAWN_nameDef]は採掘場で雇われた発破士だった。[PAWN_pronoun]は自分の仕事に対して非情に真面目で、専門技術に精通していたが、完璧な爆破の後始末を手伝うような事をして自分の地位を落とすような事はしなかった。
+desc:[PAWN_nameDef]は採掘場で雇われた発破士だった。[PAWN_pronoun]は自分の仕事に対して非常に真面目で、専門技術に精通していたが、完璧な爆破の後始末を手伝うような事をして自分の地位を落とすような事はしなかった。
 }
 
 {FactionLeader74
@@ -1282,6 +1282,12 @@ desc:Johnは家族の農場で働き、家畜の世話や怪我の手当をし�
 title:_<farmer boy>_
 titleShort:_<farmer>_
 desc:Benjaminの両親は[PAWN_pronoun]が7歳の時に火事で亡くなった。[PAWN_pronoun]は叔父の農場で育ち、畑を耕し、肉体労働をしていた。\n\n[PAWN_pronoun]は両親の事故について聞かれるのが嫌だったので、人付き合いよりも労働を選んだ。
+}
+
+{FarmersDaughter81
+title:_<Farmer's daughter>_
+titleShort:_<Farm girl>_
+desc:[PAWN_nameDef]は両親のブドウ園で育った。若い頃はその土地を探検して回り、様々な虫を調べていた。\n\n世の中のありとあらゆる面白い話しを聞いていたので、それを自分自身で確かめに行きたいと何時も夢見ていた。
 }
 
 {FarmersSon51
@@ -1505,6 +1511,12 @@ desc:戦争が終わった後に[PAWN_pronoun]は遺伝子工学会社に入っ�
 title:_<geologist>_
 titleShort:_<geologist>_
 desc:[PAWN_nameDef]は探鉱者達と一緒に働き、岩の種類や地層を調べていた。\n\nずっと地下に居たので、ドリルなどの機械を修理出来るようになった。
+}
+
+{Gigolo99
+title:_<Gigolo>_
+titleShort:_<Gigolo>_
+desc:[PAWN_nameDef]は_{Boomrat}_ピザを買うために自分自身を奴隷として売った。その後、男娼として働くためにZeglarのコロニーに売られた。\n\nたまたま偶然、船をハイジャックして逃げようとしている奴隷達に加わる事ができた。奴隷船員達の船長と_{Boomrat}_ピザの最後の一欠片を巡って争った後、_{escape pod}_で船から追い出された。
 }
 
 {GlitterworldEmpath26
@@ -2628,6 +2640,12 @@ titleShort:_<gladiator>_
 desc:[PAWN_nameDef]は子供の頃に奴隷にされ、地下闘技場で猛獣や人間と戦わされていた。\n\n[PAWN_pronoun]はこの闘技に対する相性の良さを見せつけ、ついに自分自身の自由を買った。しかし、この穴で過ごした時間は知的な興奮を与えなかった。
 }
 
+{PizzaLover37
+title:_<Pizza lover>_
+titleShort:_<Pizza kid>_
+desc:[PAWN_nameDef]は_{boomrat}_ピザが大好物だった。他の食べ物を殆ど口にしなかったため、不健康と体力不足でベッドに伏せっていた。\n\n適当な生物の頭蓋骨を叩き潰して、中に何が入っているのか見るのが好きだった。
+}
+
 {PlagueChild44
 title:_<plague child>_
 titleShort:_<child>_
@@ -2898,6 +2916,12 @@ titleShort:_<reporter>_
 desc:Candiceは調査報道記者として何年も過ごしてきた。[PAWN_pronoun]は珍しい地域からめちゃくちゃなレポートを作ることで有名だった。\n\n[PAWN_pronoun]は評論家から軽く見られていたが、長期調査の末にいくつかの目立った噂を打ち破った。
 }
 
+{ReptileResearcher37
+title:_<Reptile researcher>_
+titleShort:_<Researcher>_
+desc:両親のブドウ園を離れた後、[PAWN_nameDef]は既知宇宙の大半を旅し、その中で多くのスキルを身につけた。\n\n[PAWN_pronoun]は殆どの時間を爬虫類の研究と触れ合いに費やした。[PAWN_pronoun]は幾つかのブレークスルーを行ったこと、それと、"Thorny Devil"を見つけたことで有名だった。
+}
+
 {RichBoy23
 title:_<rich boy>_
 titleShort:_<rich boy>_
@@ -2967,7 +2991,13 @@ desc:[PAWN_nameDef]は重労働を避けるため、宝を求めて残骸や遺�
 {Scavenger62
 title:_<scavenger>_
 titleShort:_<scavenger>_
-desc:[PAWN_nameDef]は核戦争により荒廃した世界に僅かに残っている街の一つで育った。\n\n[PAWN_pronoun]は文明崩壊後の荒れ果てたこの世界で、テクノロジーや物資を漁って生きてる術を身につけた。
+desc:[PAWN_nameDef]は核戦争により荒廃した世界に僅かに残っている街の一つで育った。\n\n[PAWN_pronoun]は文明崩壊後の荒れ果てたこの世界で、テクノロジーや物資を漁って生きる術を身につけた。
+}
+
+{SchoolyardOutcast11
+title:_<Schoolyard outcast>_
+titleShort:_<Outcast>_
+desc:[PAWN_nameDef]には僅かだがそれなりの教養があった。家柄が良く支持も多かったが、友達作りに苦労し、よくいじめられた。一人で作業したり遊ぶ事を覚え、また、争いを避けるために人付き合いを避けるようになった。\n\n争いが起こったときは、激しく仕返ししていた。
 }
 
 {ScienceProdigy16
@@ -3210,16 +3240,16 @@ titleShort:_<marine>_
 desc:[PAWN_nameDef]はある帝国宇宙軍の兵士だった。[PAWN_pronoun]の仕事は敵の宇宙船へ突撃し、船員を倒し、船を無傷で奪取することだった。そして、[PAWN_pronoun]はこれが得意だった。
 }
 
+{SpaceMarine17
+title:_<space marine>_
+titleShort:_<marine>_
+desc:[PAWN_nameDef]は星々を旅して母星のために戦うため、惑星間海兵隊に入隊して、いくつかの戦いで名を上げた。\n\n[PAWN_possessive]の経験は周りの人々に対する関心を薄れさせ、社交性を失わせた。しかし、戦い方は身につけた。
+}
+
 {SpaceMarine27
 title:_<space marine>_
 titleShort:_<marine>_
 desc:[PAWN_nameDef]は躊躇無く人を殺すことで有名な宇宙海兵隊に入隊した。[PAWN_pronoun]のニックネーム「Grim」は[PAWN_pronoun]のラストネームと戦闘中の感情の欠如から付けられた。
-}
-
-{SpaceMarine48
-title:_<space marine>_
-titleShort:_<marine>_
-desc:[PAWN_nameDef]は星々を旅して母星のために戦うため、惑星間海兵隊に入隊して、いくつかの戦いで名を上げた。\n\n[PAWN_possessive]の経験は周りの人々に対する関心を薄れさせ、社交性を失わせた。しかし、戦い方は身につけた。
 }
 
 {SpaceMarine51
@@ -3330,10 +3360,10 @@ titleShort:_<specialist>_
 desc:殺す理由をくれ、正当な理由を！\n\nMarkusは熟練の兵士だった・・・過激派や人外の襲撃者と戦うために特殊部隊に入るほどに。自分を孤独な英雄だと思った事はないが、自分の役目は果たしていた。
 }
 
-{SpeederRacer68
-title:_<speeder racer>_
-titleShort:_<racer>_
-desc:RustyはKhalderiaの大きな森にあるシダ農民の子共だった。\n\n[PAWN_pronoun]は巨大な林冠や素晴らしい景色の中を駆け抜ける高速レーシングに魅せられた。レースの怪しげな世界では、銃や口先で自分の身は自分で守らねばならなかった。
+{SpeederRacer2
+title:_<Speeder racer>_
+titleShort:_<Racer>_
+desc:[PAWN_nameDef]はKhalderiaの大きな森にあるシダ農民の子共だった。\n\n[PAWN_pronoun]は巨大な林冠や素晴らしい景色の中を駆け抜ける高速レーシングに魅せられた。レースの怪しげな世界では、銃や口先で自分の身は自分で守らねばならなかった。
 }
 
 {Spiceminer42
@@ -3638,6 +3668,12 @@ desc:[PAWN_nameDef]は賢くなれるという科学試験に参加した。し�
 title:_<test subject>_
 titleShort:_<subject>_
 desc:実験#56,048、実験体#11,529,914は、子供の頃は心と精神のテストをする白い部屋で過ごしていた。\n\n[PAWN_pronoun]の知り合いは「Mother」と自称する声だけだった。マザーはテストに成功すると褒め称え、失敗すると厳しい罰を与えた。
+}
+
+{TheaterTechnician98
+title:_<Theater technician>_
+titleShort:_<Technician>_
+desc:[PAWN_nameDef]は有名な劇場の舞台裏で数え切れない程の時間を過ごした。背景を作り、照明を制御し、舞台機構を監視していた。\n\n非番の時は役者達とよく話していた。役者達の関係性を探る事は、他者との接し方や操り方を身につける助けになった。
 }
 
 {Tinkerer43

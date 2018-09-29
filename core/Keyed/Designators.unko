@@ -119,6 +119,7 @@ IdenticalThingExists:同じ物が既にある。
 IdenticalBlueprintExists:同じ設計が既にある。
 ; 水の上も対象なので、「地面」は良くない。
 TerrainCannotSupport:この地形には作れない。
+TerrainCannotSupport_TerrainAffordance:{0_label} には次をサポートする地形が必要: {1_label}
 SpaceAlreadyOccupied:既に塞がっている。
 SpaceBeingSmoothed:ここは滑らかにしようとしている。
 TerrainMustBeRemovable:剥がせる床を指定する。

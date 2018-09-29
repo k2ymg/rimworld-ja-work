@@ -128,8 +128,8 @@ ThrumboPasses.label:<<thrumbos pass??_[thrumbo]_ の通過>>
 
 {WildManWandersIn
 	label:<<wild man wanders in??迷い込んだ野人>>
-	letterLabel:<<Wild man wanders in??迷い込んだ野人>>
-	letterText:野生動物と共に暮らしている人がここへ入り込んできた。{PAWN_pronoun}は {0} と名乗っている。\n\n{PAWN_objective}を手懐けられる。
+	letterLabel:<<{PAWN_kind} wanders in??迷い込んだ野人>>
+	letterText:野生動物と共に暮らしている人がここへ入り込んできた。{PAWN_pronoun}は {0} と名乗っている。\n\n{PAWN_objective}を手懐けるか_{arrest}_できる。
 }
 
 PsychicDrone.label:_[psychic drone]_

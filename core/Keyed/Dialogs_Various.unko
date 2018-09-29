@@ -54,7 +54,8 @@ SaveIsFromThisGameBuild:セーブデータはこのゲームバージョンで�
 SaveIsUnknownFormat:セーブデータが未知の形式なので正しく読み込むことは不可能です。
 ProblemSavingFile:セーブ中に問題がありました。{0}:\n\n{1}\n詳細はエラーログを見てください。
 LoadAnyway:<<Load anyway??強制ロード>>
-ChangeLoadedMods:<<Load mod list from save??セーブデータからMODリスを読み込む>>
+;このテキストはボタンに入りきらないので短めにする
+ChangeLoadedMods:<<Load mod list from save??セーブのMODリストを使う>>
 MissingMods:いくつかのMODがないので、インストールしてください。
 
 NamePlayerFactionMessage:しばらくここに居るようなので、{0}が派閥の名前を決めるべきだと考えている。あなたの派閥を何と呼びますか？
@@ -225,6 +226,12 @@ HarmedRevengeChanceExplanation:攻撃者がライフルの射程からこの生�
 TameFailedRevengeChance:<<Revenge chance on tame fail??手懐け失敗による反撃確率>>
 TerrainRequirement:<<Terrain requirement??地形要件>>
 Supports:<<Supports??サポート>>
+TrapArmorPenetration:<<Trap armor penetration??トラップの_{armor penetration}_>>
+RearmCost:<<Rearm cost??再装填コスト>>
+RearmCostExplanation:この_{turret}_の再装填にかかるコスト (難易度で変動)。
+ShotsBeforeRearm:<<Shots before rearm??発射残数>>
+ShotsBeforeRearmExplanation:再装填するまでに発射できる回数。
+PowerConsumption:<<Power consumption??消費電力量>>
 
 PositiveBuysNegativeSells:<<Positive numbers buy.\nNegative numbers sell.??正の数は"買い"\n負の数は"売り">>
 BuyPriceDesc:購入価格

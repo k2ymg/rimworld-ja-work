@@ -87,6 +87,7 @@ Resurrect.reportString:<<resurrecting TargetA.??TargetA を蘇生している。
 Insult.reportString:<<insulting TargetA.??TargetA を侮辱している。>>
 HaulCorpseToPublicPlace.reportString:<<hauling TargetA.??TargetA を運んでいる。>>
 InducePrisonerToEscape.reportString:<<inducing TargetA to escape.??TargetA に脱走をそそのかしている。>>
+OfferHelp.reportString:<<helping TargetA.??TargetA を手伝っている。>>
 Ignite.reportString:<<igniting TargetA.??TargetA に火を点けている。>>
 BeatFire.reportString:<<beating fire out.??火を消している。>>
 ExtinguishSelf.reportString:<<extinguishing self.??自分の火を消している。>>

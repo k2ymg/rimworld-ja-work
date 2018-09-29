@@ -17,6 +17,7 @@ MeteoriteIncoming.label:<<meteorite (incoming)??隕石 (入)>>
 ; Ethereal_Various
 ;見えない
 RectTrigger.label:rect trigger
+TriggerUnfogged.label:trigger unfogged
 
 Explosion.label:<<explosion??爆発>>
 Blight.label:_[blight]_

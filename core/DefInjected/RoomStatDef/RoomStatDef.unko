@@ -23,7 +23,7 @@
 		rich.label:<<rich??裕福>>
 		luxurious.label:<<luxurious??贅沢>>
 		very_luxurious.label:<<very luxurious??とても贅沢>>
-		extremely_luxurious.label:<<extremely luxurious??非情に贅沢>>
+		extremely_luxurious.label:<<extremely luxurious??非常に贅沢>>
 		unbelievably_luxurious.label:<<unbelievably luxurious??信じられないほど贅沢>>
 	}
 }
@@ -36,7 +36,7 @@
 		somewhat_spacious.label:<<somewhat spacious??やや広い>>
 		quite_spacious.label:<<quite spacious??広い>>
 		very_spacious.label:<<very spacious??とても広い>>
-		extremely_spacious.label:<<extremely spacious??非情に広い>>
+		extremely_spacious.label:<<extremely spacious??非常に広い>>
 	}
 }
 {Beauty
@@ -48,7 +48,7 @@
 		pretty.label:<<pretty??やや美しい>>
 		beautiful.label:<<beautiful??美しい>>
 		very_beautiful.label:<<very beautiful??とても美しい>>
-		extremely_beautiful.label:<<extremely beautiful??非情に美しい>>
+		extremely_beautiful.label:<<extremely beautiful??非常に美しい>>
 		unbelievably_beautiful.label:<<unbelievably beautiful??信じられないほど美しい>>
 	}
 }

@@ -226,8 +226,8 @@ data decoder:データデコーダ
 deathjack:デスジャック
 decoder:デコーダ
 dedicated student:ひたむきな学生
-deep space miner:外宇宙の採掘師
-deep space surveor:深宇宙の調査官
+deep space miner:深宇宙の採掘師
+deep space surveyor:深宇宙の調査官
 defector:亡命者
 defense lawyer:弁護士
 delinquent:非行
@@ -306,6 +306,8 @@ farm mechanic:農業機械工
 farmer:農民
 farmer boy:農家の子
 farmer's son:農民の子
+Farmer's daughter:農民の子
+Farm girl:農家の子
 fearful chef:怯える料理人
 feline scientist:ネコ科科学者
 feral:野生
@@ -984,3 +986,10 @@ Construct:建設
 Logical child:論理的な子
 Logic kid:論理的な子
 Scrounger:廃品屋
+Gigolo:ジゴロ
+Pizza lover:ピザ好き
+Pizza kid:ピザ好き
+Reptile researcher:爬虫類研究者
+Schoolyard outcast:学校ののけ者
+Outcast:のけ者
+Theater technician:劇場の技術者

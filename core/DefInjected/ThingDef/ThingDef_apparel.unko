@@ -1,7 +1,7 @@
 ; Apparel_Belts
 {Apparel_ShieldBelt
 	label:_[shield belt]_
-	description:_?シールド・ベルト。?_個人用エネルギー・シールド。高速な飛翔体やエネルギー攻撃を止めようとする。近接攻撃や至近距離からの発砲に対しては何もしない。また、外からの射撃と同じように、内からの射撃も無効にする。
+	description:_?シールド・ベルト。?_飛翔体反発装置。飛んでくる飛翔体や散弾を止めようとするが、近接攻撃や熱に対しては何もしない。着用者からの射撃を妨げ、また、EMPが当たると簡単に無効化される。
 }
 {Apparel_SmokepopBelt
 	label:_[smokepop belt]_

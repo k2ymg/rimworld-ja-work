@@ -142,6 +142,9 @@ SomeoneElseSleeping:<<occupied by {0}??{0} が所有している>>
 TradeWith:<<Trade with {0}??{0} と取引する>>
 CannotTrade:<<Cannot trade??取引できない>>
 
+Open:<<Open {0_label}??{0_label} を開ける>>
+CannotOpen:<<Cannot open {0_label}??{0_label} を開けられない>>
+
 EnterMap:<<Enter {0}??{0} に入る>>
 VisitSettlement:<<Visit {0}??{0} に訪れる>>
 VisitPeaceTalks:<<Visit {0}??{0} に訪れる>>

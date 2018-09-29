@@ -73,6 +73,7 @@ LetterLeaderChangedLabel:新しい {1}: {0}
 LetterLeaderChanged:{OLDLEADER_nameFull} が {1} の {3} ではなくなった。\n\n新しい {3} は {NEWLEADER_nameFull} になった。
 
 FinalStraw:我慢の限界を破ったのは: {0}
+MentalStateCausedByMood:_{mood}_が悪いので起こった。
 LastFactionRelationsEvent:最後のイベントは
 
 ReadMore:<<Read more??もっと読む>>
@@ -97,6 +98,7 @@ RelationshipAppendedLetterTextPrisoner:{PAWN_nameDef} は_{prisoners}_の一人�
 LetterLabelAffair:<<Affair??浮気>>
 LetterAffair:{SPOUSE_labelShort} と結婚している {PAWN1_labelShort} が {PAWN2_labelShort} と浮気を始めた。
 LetterLabelNewLovers:<<New lovers??新しい恋人達>>
+LetterNewLovers:{PAWN1_labelShort} と {PAWN2_labelShort} が一緒に寝たくなった。二人用のベッドを与えられないか検討する。
 LetterNoLongerLovers:{PAWN1_labelShort} と {PAWN2_labelShort} が別れた。
 LetterLabelBreakup:<<Breakup??振られた>>
 LetterLabelAcceptedProposal:<<Marriage is on!??プロポーズ成功>>
@@ -173,7 +175,7 @@ LetterPeaceTalks_Triumph:交渉は大勝利に終わった！代表団はすぐ�
 
 PeaceTalksSocialXPGain:交渉人 {PAWN_labelShort} は社交の経験値を {1} 得た。
 
-LetterRunWildMentalBreak:{0} が文化的な事に疲れ果てた。\n\n{0_pronoun}は野生動物はいつでも自由だと気付いた。 なので、{0_pronoun}はあなたの派閥から離れて動物たちと暮らすことに決めた。\n\n{0_objective}を手懐けて戻るように説得できる。
+LetterRunWildMentalBreak:{0} が文化的な事に疲れ果てた。\n\n{0_pronoun}は野生動物はいつも自由だと気付いたので、あなたの派閥から離れて動物たちと暮らすことに決めた。\n\n{0_objective}を手懐けるか_{arrest}_して戻るように説得できる。
 
 LetterCatatonicMentalBreak:完全な精神崩壊に苦しんだ {0} が緊張性状態になった。{0_pronoun}は数日後に元に戻る。
 

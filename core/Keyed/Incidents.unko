@@ -114,6 +114,7 @@ LetterLabelCaravanRequest:<<Caravan request??キャラバン派遣要請>>
 LetterCaravanRequest:近くの_{settlement}_ {0} から特別な取引要求を持ちかけられた。\n\n欲しい物:\n\n {1} (価値 {2})\n\n見返り:\n\n {3} (価値 {4})\n\n期限: {5}\n\n取引したいのなら、要求された物資を持たせたキャラバンを送り出す。この旅にかかるおおよその時間は {6}。この提案を再確認する場合はワールドマップで {0} を選択する。
 CaravanRequestInfo:<<Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left)??要求: {0} ({3}), 報酬: {1} ({4}) (残り {2})>>
 NormalQualityOrBetter:<<_{normal}_ quality or better??_{normal}_品質以上>>
+NotTainted:<<not tainted??穢れた物は不可>>
 
 CaravanDemandTitle:<<Caravan demand by {0}??{0} によるキャラバン喝上げ>>
 CaravanDemand:{0} が {1} からの {2} 人の {4} の一団に待ち伏せされた。以下を渡さないと攻撃してくる:\n\n{3}
