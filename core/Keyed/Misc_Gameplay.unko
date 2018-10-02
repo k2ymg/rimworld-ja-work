@@ -390,8 +390,7 @@ UsePlanetDayNightSystemToggleButton:夜間表現の切り替え。
 ShowExpandingIconsToggleButton:離れているオブジェクトを拡大アイコンで表示する。
 ShowWorldFeaturesToggleButton:地形の名前を表示する。
 
-Fire:<<Fire??火災>>
-FireOn:<<Fire on {1_label}??{1_label} が 燃えている>>
+FireOn:<<fire on {1_label}??{1_label} が 燃えている>>
 Burning:<<Burning??炎上中>>
 FireSizeLower:<<fire size {0}??炎上サイズ {0}>>
 

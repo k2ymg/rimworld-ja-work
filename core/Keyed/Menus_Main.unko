@@ -80,6 +80,7 @@ Downloading:<<Downloading??ダウンロード中>>
 Source:<<Source??入手元>>
 ModTargetVersion:<<For version: {0}??対応バージョン: {0}>>
 ModNotMadeForThisVersion:このMODは起動中のRimWorldのバージョン向けに作られていないので、正しく動かないかもしれません。
+ModNotMadeForThisVersion_Newer:このMODは起動中のRimWorldより新しいもの向けに作られており、ほぼ正しく動きません。
 MessageModNeedsWellFormattedTargetVersion:MODのAbout.xmlに次のような形式のターゲット・バージョンが必要です: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;
 DragToReorder:順を変えるにはドラッグする
 
