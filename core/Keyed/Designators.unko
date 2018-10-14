@@ -112,7 +112,7 @@ CannotPlaceInUndiscovered:未知の場所には設置できない。
 InteractionSpotBlocked:{1_labelShort} によって作用場所が塞がれている。
 InteractionSpotOutOfBounds:作用空間が範囲外。
 InteractionSpotWillBeBlocked:{1_labelShort} によって作用場所が塞がれる。
-WouldBlockInteractionSpot:{0} が {1} の作用場所を塞ぐかもしれない。
+WouldBlockInteractionSpot:{0} が {1} の作用場所を塞ごうとしている。
 TerrainIsAlready:ここの地面は既に {0} だ。
 SurfaceBeingSmoothed:表面を滑らかにするように既に指示されている。
 IdenticalThingExists:同じ物が既にある。

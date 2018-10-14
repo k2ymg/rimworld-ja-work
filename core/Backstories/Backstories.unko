@@ -532,11 +532,10 @@ titleShort:_<traveler>_
 desc:旅商いの家族に生まれた[PAWN_nameDef]は父から商人へなる方法を教わった。[PAWN_pronoun]はよく_{pack animal}_を引く仕事を任された。移動する生活のため、食料は狩りや物々交換で手に入れた。
 }
 
-;todo: 未翻訳
 {CargoPilot58
 title:_<cargo pilot>_
 titleShort:_<pilot>_
-desc:[PAWN_nameDef]は長距離鉱石輸送船の船員達に育てられた。[PAWN_pronoun] perfected [PAWN_possessive] skills at trading and manipulation of people while running weapons between systems.
+desc:[PAWN_nameDef]は長距離鉱石輸送船の船員達に育てられた。星系間に武器を売り歩く中で、交渉術を極めていった。
 }
 
 {CasketBuilder76
@@ -2408,6 +2407,12 @@ titleShort:_<naturalist>_
 desc:Mitchは辺鄙な星で最小限の教育を受けて育った。[PAWN_pronoun]は生活のために狩りや作物を育てていた。\n\n[PAWN_pronoun]の家庭は食い物狙いのごろつき共に頻繁に襲われていたので、[PAWN_pronoun]はとても疑い深く、他人を安易に信じないようになった。
 }
 
+{NavyPathfinder53
+title:_<Navy pathfinder>_
+titleShort:_<Pathfinder>_
+desc:[PAWN_nameDef] は深宇宙の先にある遠い惑星への航路図作成を専門とする軍の探検隊の一つで育てられ、訓練を受けた。
+}
+
 {NavyScientist46
 title:_<navy scientist>_
 titleShort:_<scientist>_
@@ -2524,11 +2529,10 @@ titleShort:_<scholar>_
 desc:クラスで一番の成績で大学を卒業した[PAWN_nameDef]は体育大学の教授になり直ぐに有名になった。\n\n新しい名声と健康により肉体労働はしたくなくなった。そういうことは院生に残して上げたほうがいいだろう。
 }
 
-; todo: 未翻訳
 {OverwatchSniper1
 title:_<overwatch sniper>_
 titleShort:_<sniper>_
-desc:[PAWN_nameDef]はどうして軍に加わったのか分からなかったが、仲間の兵士を守り続けていた。\n\nArmy life broke him down and built him back up. 射撃、格闘、銃創の応急処置を学んだ。
+desc:[PAWN_nameDef]はどうして軍に加わったのか分からなかったが、仲間の兵士を守り続けていた。\n\n軍での生活により[PAWN_pronoun]は叩き直された。射撃、格闘、銃創の応急処置を学んだ。
 }
 
 {Pampered87
@@ -3052,6 +3056,12 @@ desc:[PAWN_nameDef]は良い子だった。誰か困っている人が居たら�
 title:_<serial murderer>_
 titleShort:_<murderer>_
 desc:[PAWN_nameDef]は楽しむために人殺しを始めたので、何度も繰り返して手口が上達した。[PAWN_pronoun]は物騒な通りに潜み、何時間も獲物をつけ回した。\n\n[PAWN_pronoun]は犠牲者で芸術を作ることを楽しみ、死体に[PAWN_pronoun]の証を残す事で知られていた。
+}
+
+{ShadowMarine63
+title:_<Shadow marine>_
+titleShort:_<Marine>_
+desc:探検者としての技能を極めた後、[PAWN_nameDef] は自分が航路図作成に関わった惑星で自分の技能を生かすために隊から抜けた。軌道交易路の事は知り尽くしていたので、どのような惑星にも気付かれずに出入りできた。
 }
 
 {ShamanOfShadows47
@@ -3614,11 +3624,10 @@ titleShort:_<tech nerd>_
 desc:Michaelは子共の頃に全ての最新ガジェットを持っていた。[PAWN_pronoun]は友達とは遊ばずに、AIとゲームばかりしていた。[PAWN_pronoun]は知らない人の近くではいつも気まずい思いをしていた。
 }
 
-; todo: 未翻訳
 {TechHead7
 title:_<tech-head>_
 titleShort:_<tech-head>_
-desc:子共サイズのEVAスーツに身を包んで船の外郭に父と共に立っている。[PAWN_nameDef]は子供の頃から宇宙が大好きだった。\n\n[PAWN_pronoun]は「Civil Academics Program」に入った。[PAWN_pronoun]は父の真似事をしながら、散らかった部屋で植物の世話をして暮らしていた。[PAWN_possessive] nickname was given for [PAWN_possessive] love of circles.
+desc:子共サイズのEVAスーツに身を包んで船の外郭に父と共に立っている。[PAWN_nameDef]は子供の頃から宇宙が大好きだった。\n\n[PAWN_pronoun]は「Civil Academics Program」に入った。[PAWN_pronoun]は父の真似事をしながら、散らかった部屋で植物の世話をして暮らしていた。いつもテクノロジーの事ばかり考えていたので、このようなあだ名になった。
 }
 
 {Technician82

@@ -27,11 +27,11 @@
 
 {Granite
 	label:_[granite]_
-	description:_?グラナイト。花崗岩。?_とても堅い火成岩。
+	description:_?グラナイト。花崗岩。?_とても硬い火成岩。
 }
 {SmoothedGranite
 	label:_[smoothed granite]_
-	description:_?スムースッド・グラナイト。?_とても堅い火成岩。光沢のある表面は黒、白、ピンクの斑点でモザイク模様を成している。
+	description:_?スムースッド・グラナイト。?_とても硬い火成岩。光沢のある表面は黒、白、ピンクの斑点でモザイク模様を成している。
 }
 {ChunkGranite
 	label:_[granite chunk]_
@@ -39,7 +39,7 @@
 }
 {BlocksGranite
 	label:_[granite blocks]_
-	description:_?グラナイト・ブロック。?__[Granite]_のブロック。非常に堅い。
+	description:_?グラナイト・ブロック。?__[Granite]_のブロック。非常に硬い。
 	stuffProps.stuffAdjective:_[granite]_
 }
 

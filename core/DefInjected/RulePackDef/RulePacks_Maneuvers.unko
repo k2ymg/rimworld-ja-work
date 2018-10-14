@@ -62,12 +62,12 @@
 	:damaged_past(p=4)->刺した
 	:damaged_past->突き刺した
 	:damaged_past(deflected!=True)->刺し通した
-	:damaged_past(deflected!=True)->穴を空けた
+	:damaged_past(deflected!=True)->刺した
 	:damaged_past(deflected!=True)->串刺しにした
 
-	; 「～て」「～ている」の形にすること
+	; 「～を」～「～て」「～ている」の形にすること
 	:damaged_present(deflected!=True)->刺し通して
-	:damaged_present(deflected!=True)->穴を空けて
+	:damaged_present(deflected!=True)->刺して
 	:damaged_present(deflected!=True)->穿って
 	:damaged_present(deflected!=True)->串刺しにして
 

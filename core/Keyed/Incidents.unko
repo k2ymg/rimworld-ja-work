@@ -94,8 +94,7 @@ RansomDemand:{1} が無線で呼びかけてきている。彼らは元_{colonis
 RansomDemand_Accept:_<Accept>_
 RansomDemand_Reject:_<Reject>_
 
-;todo: 未翻訳
-JourneyOffer:Charlon Whitestone という友好的なAIがメッセージを送ってきた！(A friendly AI from your past named Charlon Whitestone has sent you a message!)\n\n彼はこの星に宇宙船を隠していることを明かし、その座標を伝えてきた。\n\n現在、この宇宙船は深い休止状態になっている。到着したら起動させ、起動シーケンスが完了するまで、これを奪おうとする襲撃者達から守る必要がある。\n\nもしこの船を飛ばすことができれば、Charlonはあなたをこの_[Rimworld]_から連れだし、星々へと向かうだろう。
+JourneyOffer:遙か昔に Charlon Whitestone と名付けられた、友好的なAIがメッセージを送ってきた！\n\n彼はこの星に宇宙船を隠していることを明かし、その座標を伝えてきた。\n\n現在、この宇宙船は深い休止状態になっている。到着したら起動させ、起動シーケンスが完了するまで、これを奪おうとする襲撃者達から守る必要がある。\n\nもしこの船を飛ばすことができれば、Charlonはあなたをこの_[Rimworld]_から連れだし、星々へと向かうだろう。
 
 EscapeShipFoundLabel:<<Ship found??船の発見>>
 EscapeShipFound:Charlon Whitestone から送られてきた座標に到着し、隠されていた船を発見した。\n\n船の反応炉はまだ深い休止状態にあるため、飛ぶことはまだ出来ない。コンピュータコアと対話することで起動させられる。\n\nCharlon Whitestone の忠告によると、起動処理はおよそ15日かかり、エネルギー特性は遠くからでも検知される。この種のエネルギー特性は星間飛行能力があることを示しており、略奪者集団や凶悪な_[Mechanoid]_群れを引き寄せることになる。防御をしっかりと整えること。

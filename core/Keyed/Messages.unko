@@ -172,7 +172,7 @@ MessageSettledInExistingMap:新しいエリアに入植できた。
 
 MessagePermanentWoundHealed:{PAWN_labelShort} の {2} は治った。原因: {0}
 
-MessageRescueeJoined:救出により、{1_labelShort} がグループに加わった！
+MessageRescueeJoined:救出された {1_labelShort} がグループに加わった！
 
 ;MessageAttackedCaravanIsNowHostile,{0} のキャラバンを攻撃したので、この派閥は今から敵になる。
 ;MessageFactionPawnCrushed,{0} が落盤事故により人を失った。派閥関係: {1}

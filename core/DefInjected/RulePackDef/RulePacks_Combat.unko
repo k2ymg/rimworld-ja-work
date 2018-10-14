@@ -22,7 +22,7 @@
 	:adjective_bodypart->無骨な
 	:adjective_bodypart->逞しい
 	:adjective_bodypart->頑丈な
-	:adjective_bodypart->堅い
+	:adjective_bodypart->硬い
 	:adjective_bodypart->丈夫な
 	:adjective_bodypart(initiator_flesh==True)->硬化した
 	:adjective_bodypart->固い

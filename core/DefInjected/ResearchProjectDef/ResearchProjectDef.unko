@@ -13,7 +13,7 @@
 }
 {ComplexFurniture
 	label:_[complex furniture]_
-	description:_[Bed]_、_[End table]_、_[Dining chair]_、_[Armchair]_、_[Dresser]_、_[Tool cabinet]_、_[Billiard table]_,_[Poker table]_、_[Vent]_、_[Sarcophagus]_などの複雑な家具を作れるようになる。
+	description:_[Bed]_、_[End table]_、_[Dining chair]_、_[Armchair]_、_[Dresser]_、_[Tool cabinet]_、_[Billiard table]_, _[Poker table]_、_[Vent]_、_[Sarcophagus]_ などの複雑な家具を作れるようになる。
 }
 {PassiveCooler
 	label:_[passive cooler]_

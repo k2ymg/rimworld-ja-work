@@ -111,7 +111,7 @@
 }
 {Plant_Bush
 	label:_[bush]_
-;todo: 意味不明
+;todo: ただのジョークらしいが、意味不明
 	description:_?ブッシュ。?_背の低い灌木。Does not typically talk.
 }
 {Plant_Brambles
@@ -160,7 +160,7 @@
 }
 {Plant_TreeOak
 	label:_[oak tree]_
-	description:_?オーク・ツリー。?_広葉樹。育ちにくいが、これから採れる木材はとても堅いので、「oak(オーク)」は多くの文化で強さの象徴になっている。
+	description:_?オーク・ツリー。?_広葉樹。育ちにくいが、これから採れる木材はとても硬いので、「oak(オーク)」は多くの文化で強さの象徴になっている。
 }
 {Plant_TreePoplar
 	label:_[poplar tree]_
@@ -194,7 +194,7 @@
 }
 {Plant_TreeTeak
 	label:_[teak tree]_
-	description:_?チーク・ツリー。?_暖かい気候で育つ、並外れて堅い針葉樹。頑丈で水に強いため、昔は木造帆船の竜骨に使われていた。
+	description:_?チーク・ツリー。?_暖かい気候で育つ、並外れて硬い針葉樹。頑丈で水に強いため、昔は木造帆船の竜骨に使われていた。
 }
 {Plant_TreeCecropia
 	label:_[cecropia tree]_

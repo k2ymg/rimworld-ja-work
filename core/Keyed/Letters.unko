@@ -74,7 +74,7 @@ LetterLeaderChanged:{OLDLEADER_nameFull} が {1} の {3} ではなくなった�
 
 FinalStraw:我慢の限界を破ったのは: {0}
 MentalStateReason_Mood:_{mood}_が悪いので起こった。
-MentalStateReason_Trait:特徴により起こった: {0}。
+MentalStateReason_Trait:次の特徴により起こった: {0}。
 MentalStateReason_Hediff:次の理由により起こった: {0}。
 MentalStateReason_BondedHumanDeath:{0_definite} の死により起こった。
 LastFactionRelationsEvent:最後のイベントは
