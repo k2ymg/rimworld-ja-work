@@ -12,7 +12,7 @@
 
 {Rescuing
 	label:_<Rescuing>_
-	helpText:負傷した人を助けるには、負傷していない_{colonist}_を選択し、負傷した人を右クリックする。\n\n_{colonist}_以外を助けてもあなたの_{colony}_に加わるとは限らない。回復したらそのまま出て行くかもしれない。確実に仲間にしたければ、捕まえて勧誘する。
+	helpText:負傷した人を助けるには、負傷していない_{colonist}_を選んで、負傷した人を右クリックする。\n\n_{colonist}_以外を助けてもあなたの_{colony}_に加わるとは限らない。回復したらそのまま出て行くかもしれない。確実に仲間にしたければ、捕まえて勧誘する。
 }
 
 {Capturing
@@ -62,7 +62,7 @@
 
 {DrugPolicies
 	label:<<Drug policies??ドラッグのポリシー>>
-	helpText:_{colonists}_に特定のドラッグを特定のスケジュールで摂らせる事ができる。例えば、抗マラリア剤を定期的に摂らせたり、ビールを一日一本飲ませたりできる。\n\n_[Assign]_タブを開き、'_<Manage drug policies>_'ボタンを押す。新しいポリシーを作り、_{colonists}_に割り当てる。\n\n_{colonists}_はこの方針以外のドラッグを依然として使える。何をすべきか伝える事はできるが、彼らは自分の欲望にも従うのだ！
+	helpText:_{colonists}_に特定のドラッグを特定のスケジュールで摂らせる事ができる。例えば、感染症予防薬を定期的に摂らせたり、ビールを一日一本飲ませたりできる。\n\n_[Assign]_タブを開き、'_<Manage drug policies>_'ボタンを押す。新しいポリシーを作り、_{colonists}_に割り当てる。\n\n_{colonists}_はこの方針以外のドラッグを依然として使える。何をすべきか伝える事はできるが、彼らは自分の欲望にも従うのだ！
 }
 
 {TVForSickPeople
@@ -115,14 +115,15 @@
 	label:<<Pausing??一時停止>>
 	helpText:{Key:TogglePause} でゲームを止めたり再開できる。\n\n停止中でも指示を出すことが出来る。\n\nもし忙しくなってきたら {Key:TogglePause} を押しましょう！
 }
+
 {Stockpiles
 	label:_<Stockpiles>_
 	helpText:_{colonists}_にはアイテムを保管する場所が必要です。彼らが保管できるように_<Stockpile>_を作りましょう。\n\n_<Stockpile>_は左下にある '_[ui/Architect]_' メニューの '_[Zone]_' 項にある。
 }
 
 {Forbidding
-	label:<<Forbid and unforbid??禁止と解除>>
-	helpText:_{Colonists}_は'_<Forbid>_'されているアイテムを無視する。\n\n'_<Forbid>_'されているアイテムには小さいX印が付いている。'_<Forbid>_'されているアイテムを選択して、下の操作メニューから'_<Unforbid>_'する。
+	label:<<Forbid and allow??禁止と許可>>
+	helpText:_{Colonists}_は'_<Forbid>_'されているアイテムを無視する。\n\n'_<Forbid>_'されているアイテムには小さなX印が付いている。'_<Allow>_'するには'_<Forbid>_'されているアイテムを選択して、下の操作メニューを使う。
 }
 
 {GrowingFood
@@ -278,8 +279,8 @@
 }
 
 {SwitchFlickingDesignation
-	label:<<Flick designations only designate??スイッチ操作は指示するだけ>>
-	helpText:注意:_{colonist}_にスイッチを操作するように指示しているだけにすぎない。\n\n制御の仕事ができる_{colonist}_が実際にスイッチを操作するまでは何も起こらない。
+	label:<<Flick designations only designate??スイッチ操作は指示しているだけ>>
+	helpText:注意:これは_{colonist}_にスイッチを操作するように指示しているだけにすぎない。\n\n_{colonist}_が実際にスイッチを操作するまでは何も起こらない。
 }
 
 {MaxNumberOfPlayerSettlements
