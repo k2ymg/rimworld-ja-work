@@ -29,6 +29,7 @@ StatsReport_MoodMultiplier:<<Multiplier for mood {0}??_{mood}_による乗数 {0
 StatsReport_LightMultiplier:<<Multiplier for light {0}??明るさによる乗数 {0}>>
 StatsReport_DifficultyMultiplier:<<Multiplier for difficulty {0}??難易度による乗数 {0}>>
 StatsReport_InBed:<<In bed??ベッド使用>>
+;ベッドエンドやキャビネットのこと
 StatsReport_Facilities:<<Facilities??設備>>
 StatsReport_BodySize:<<Multiplier for body size {0}??体格による乗数 {0}>>
 StatsReport_MeleeDPSExplanation:<<DPS = Melee damage * Melee hit chance / Cooldown in seconds??DPS = 近接ダメージ * 近接ヒット率 / クールダウン秒>>

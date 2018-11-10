@@ -381,7 +381,7 @@ Bullet_Shell_AntigrainWarhead.label:_[antigrain warhead]_
 }
 {Hyperweave
 	label:_[hyperweave]_
-	description:_?ハイパーウェーブ。?_専用の生産_[Mechanite]_を使って極細繊維を分子レベルで織り込んだ布。大抵の場合は自由に曲がるが、打撃を受けると硬くなって衝撃を吸収し、また、引き裂くのはとても難しい。生産方法は最も先進的な_[Glitterworld]_の世界だけに知られている。
+	description:_?ハイパーウィーブ。?_専用の生産_[Mechanite]_を使って極細繊維を分子レベルで織り込んだ布。大抵の場合は自由に曲がるが、打撃を受けると硬くなって衝撃を吸収し、また、引き裂くのはとても難しい。生産方法は最も先進的な_[Glitterworld]_の世界だけに知られている。
 }
 {WoolMegasloth
 	label:_[megasloth wool]_

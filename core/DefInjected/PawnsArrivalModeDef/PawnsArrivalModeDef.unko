@@ -10,8 +10,8 @@ EdgeWalkInGroups.textFriendly:友好的な {1} から {0} の一団が近くに�
 EdgeDropGroups.textEnemy:{1} から {0} の一団が _[Transport pod]_ で近くに複数に分かれて到着した。
 EdgeDropGroups.textFriendly:友好的な {1} から {0} の一団が _[Transport pod]_ で近くに複数に分かれて到着した。
 
-CenterDrop.textEnemy:{1} から {0} の一団が真上に落ちてきた！
-CenterDrop.textFriendly:友好的な {1} から {0} の一団が真上に落ちてきた！
+CenterDrop.textEnemy:{1} から {0} の一団が真上から落ちてきた！
+CenterDrop.textFriendly:友好的な {1} から {0} の一団が真上から落ちてきた！
 
 RandomDrop.textEnemy:{1} から {0} の一団が _[Transport pod]_ で到着した。_[Pod]_は乱れてこの地域全体に散らばって着地した！
 RandomDrop.textFriendly:友好的な {1} から {0} の一団が _[Transport pod]_ で到着した。_[Pod]_は乱れてこの地域全体に散らばって着地した！

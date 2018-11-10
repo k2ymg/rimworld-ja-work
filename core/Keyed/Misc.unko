@@ -37,6 +37,7 @@ Day:<<Day??日>>
 day:<<day??日>>
 Default:<<Default??既定>>
 Average:<<Average??平均>>
+MoneyFormat:${0}
 
 MeatLabel:_[{0} meat]_
 MeatDesc:さばいた生肉。調理するか、生で食べられる。

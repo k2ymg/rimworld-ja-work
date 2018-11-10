@@ -205,7 +205,7 @@ LetterLabelFactionBaseProximity:<<Faction base proximity??派閥の本拠地に�
 LetterFactionBaseProximity:他の派閥の拠点に近すぎるため、これらの派閥は縄張りを荒らされていると感じている。\n\n以前の節と比べて、派閥との友好度は次のように減少した:
 
 LetterLabelCaravansBattlefieldVictory:<<Caravan battle won??キャラバン勝利>>
-LetterCaravansBattlefieldVictory:キャラバンが戦闘に勝った。\n\nワールド画面でこの戦場を選択して'_<Reform caravan>_'を選べば今すぐキャラバンを再編成できる。\n\nアイテムはキャラバンの編成で簡単に集められるので、手動で集める必要はない。\n\nあと {0} でキャラバンは自動的に再編成される。
+LetterCaravansBattlefieldVictory:キャラバンは戦闘に勝った。\n\nワールド画面でこの戦場を選択して'_<Reform caravan>_'を選べば今すぐキャラバンを再編成できる。\n\nアイテムはキャラバンの編成で簡単に集められるので、手動で集める必要はない。\n\nあと {0} でキャラバンは自動的に再編成される。
 
 LetterLabelRescueQuestFinished:<<Rescuee joins??救助により加入>>
 LetterRescueQuestFinished:助けたので {PAWN_nameDef} が仲間に加わった。\n\nこのエリアを選んで '_<Reform caravan>_' を選び、キャラバンを再編成すれば{PAWN_objective}を連れて行ける。

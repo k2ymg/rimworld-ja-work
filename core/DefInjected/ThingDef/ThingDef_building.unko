@@ -274,7 +274,7 @@
 }
 {CaravanPackingSpot
 	label:_[caravan packing spot]_
-	description:_?キャラバン・パッキング・スポット?_キャラバンが準備する場所を指定する。_[Stockpiles]_の近くに置くと荷物の積み込みが速くなる。
+	description:_?キャラバン・パッキング・スポット。?_キャラバンが準備する場所を指定する。_[Stockpiles]_の近くに置くと荷物の積み込みが速くなる。
 }
 
 ; Buildings_Natural
@@ -330,7 +330,7 @@
 }
 {WaterproofConduit
 	label:_[waterproof conduit]_
-	description:_?ウォータープルーフ・コンジット。?_浅い水の下に電力を送れる工業用の電線。
+	description:_?ウォータープルーフ・コンジット。?_浅い水の下を通して電力を送れる工業用の電線。
 }
 {PowerSwitch
 	label:_[power switch]_

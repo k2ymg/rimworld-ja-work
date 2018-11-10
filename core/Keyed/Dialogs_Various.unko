@@ -407,7 +407,7 @@ FoodRestrictionLavish:<<Lavish??無制限>>
 FoodRestrictionFine:<<Fine??_[food/Fine]_まで>>
 FoodRestrictionSimple:<<Simple??_[food/Simple]_まで>>
 FoodRestrictionPaste:<<Paste??_[food/Paste]_まで>>
-FoodRestrictionRaw:<<Raw??生物のみ>>
+FoodRestrictionRaw:<<Raw??生のみ>>
 FoodRestrictionNothing:<<Nothing??全て禁止>>
 SelectFoodRestriction:<<Select food restriction??食べ物規制を選択>>
 NewFoodRestriction:<<New food restriction??食べ物規制を作る>>

@@ -26,8 +26,8 @@ TypeFirstNickOrLastName:姓、ニックネーム、名を入力してくださ�
 MessageAlreadyPreferredName:この名前は既に使われています。
 ChangeStoryteller:_<Storyteller settings>_
 AutosaveInterval:<<Autosave interval??自動保存間隔>>
-TemperatureMode:<<Temperature mode??気候モード>>
-ShowRealtimeClock:<<Show realtime clock??実時間の表示>>
+TemperatureMode:<<Temperature mode??温度単位>>
+ShowRealtimeClock:<<Show realtime clock??実時刻の表示>>
 MaxNumberOfPlayerSettlements:<<Maximum number of colonies: {0}??_<colonies>_の最大数: {0}>>
 PlantWindSway:<<Plant wind sway??植物がなびく効果>>
 EnableTestMapSizes:<<Enable test map sizes??テスト用のマップサイズを有効にする>>

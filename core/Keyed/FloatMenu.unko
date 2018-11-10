@@ -157,7 +157,7 @@ OfferGifts:<<Offer gifts??贈り物を申し出る>>
 EnterCryptosleepCasket:<<Enter cryptosleep casket??_[Cryptosleep casket]_ に入る>>
 OpenCryptosleepCasket:<<Open cryptosleep casket??_[Cryptosleep casket]_ を開ける>>
 
-CannotGenericWork:<<Cannot {0} {2_labelShort}??{2_labelShort} を {0} できない>>
+CannotGenericWork:<<Cannot {0} {1}??{1} を {0} できない>>
 CannotGenericWorkCustom:<<Cannot {0}??{0} できない>>
 
 CannotMissingHealthActivities:<<Cannot prioritize (incapable of {0})??優先できない ({0} 能力が無い)>>

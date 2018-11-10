@@ -58,14 +58,14 @@ Bullet_Revolver.label:_<revolver bullet>_
 }
 {Gun_Autopistol
 	label:_[autopistol]_
-	description:_?オートピストル。?_古風なブローバック式自動拳銃。ストッピングパワーも射程も良くないが、速く撃てる。
+	description:_?オートピストル。?_古風なブローバック式自動拳銃。ストッピングパワーも射程も良くないが、素早く撃てる。
 	tools.grip.label:_<grip>_
 	tools.barrel.label:_<barrel>_
 }
 Bullet_Autopistol.label:_<autopistol bullet>_
 {Gun_MachinePistol
 	label:_[machine pistol]_
-	description:_?マシン・ピストル。?_小型のサブマシンガン。低射程だがとても扱いやすい。発射頻度の高さが低威力を補っている。
+	description:_?マシン・ピストル。?_小型のサブマシンガン。射程が短いが、とても扱いやすい。低威力だが、発射頻度の高さがそれを補っている。
 	tools.grip.label:_<grip>_
 	tools.barrel.label:_<barrel>_
 }
@@ -150,7 +150,7 @@ Bullet_DoomsdayRocket.label:_<doomsday rocket>_
 ; Weapons_RangedIndustrialGrenades
 {Weapon_GrenadeFrag
 	label:_[frag grenade]_
-	description:_?フラッグ・グレネード。?_昔ながらの破片手榴弾。近くに投げられ、何処かで爆発し、近くの物や人はもれなくダメージを受ける。
+	description:_?フラッグ・グレネード。?_昔ながらの破片手榴弾。近くの爆発させたい所へ投げて、その周囲にある物や人にダメージを与えられる。
 	verbs.throw_frag_grenade.label:_[frag grenade]_ を投げる
 }
 Proj_GrenadeFrag.label:_<frag grenade>_
