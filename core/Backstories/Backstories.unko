@@ -2263,6 +2263,12 @@ titleShort:_<geek>_
 desc:[PAWN_nameDef]は静かな郊外で育った。[PAWN_pronoun]は人付き合いが上手いというわけではないが、若い頃のコンピュータへの興味は真の才能になった。
 }
 
+{MidworldLoner80
+title:_<Midworld loner>_
+titleShort:_<Loner>_
+desc:[PAWN_nameDef]はある穏やかで平凡な_[midworld]_で生まれた。\n\n友達は少なからずいたが、一人で過ごす時間を好み、ネット配信の音楽を聞きながらバイクをいじったり、組み立てたばかりの新しい銃で玩具の兵士を撃ったりしていた。
+}
+
 {MidworldSailor84
 title:_<midworld sailor>_
 titleShort:_<sailor>_
@@ -2303,6 +2309,12 @@ desc:[PAWN_nameDef]は帝国陸軍の内部監視役だった。[PAWN_pronoun]�
 title:_<military engineer>_
 titleShort:_<engineer>_
 desc:[PAWN_nameDef]は_{colonial}_の軍で技師として働いていた。[PAWN_pronoun]は武器、殺人ドローンその他の「面白い」物で遊んでいた。\n\n[PAWN_pronoun]は_[Mechanoid]_の道具の修理と改造を専門にしていた。時々それを自分自身に試していた。
+}
+
+{MilitaryGunsmith27
+title:_<Military gunsmith>_
+titleShort:_<Gunsmith>_
+desc:[PAWN_nameDef]がいた世界が争いに陥った時、多くの同僚達と一緒に世界を駆け巡る軍隊に徴兵された。\n\n専門知識のおかけで運良く小火器部門のメカニックに従事でき、最前線に立たずに済んだ。
 }
 
 {MilitaryInventor44

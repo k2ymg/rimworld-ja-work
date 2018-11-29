@@ -58,7 +58,7 @@ AnimalManhunterFromTaming:{1_indefinite} が下手な手懐けをされて攻撃
 AnimalManhunterOthers:近くにいた他の {1_kindBasePlural} も怒りだした！
 
 LetterFriendlyTrapSprungLabel:<<{1_labelShort} hit trap??{1_labelShort} が罠にはまった>>
-LetterFriendlyTrapSprung:{1_labelShort} は罠をうっかり作動させて怪我をした。
+LetterFriendlyTrapSprung:{1_labelShort} が罠をうっかり作動させて怪我をした。
 
 LetterHealthComplications:{PAWN_labelShort} が以下を発症した:\n\n  {1}\n\nこれは {2} による。
 LetterHealthComplicationsLabel:{PAWN_labelShort}: {1}

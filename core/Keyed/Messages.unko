@@ -44,7 +44,7 @@ MessageTameAndNameSuccess:{RECRUITER_labelShort} は {1} の手懐けに成功�
 MessageColonyCannotAfford:この取引を行える余裕がない。
 MessageColonyNotEnoughSilver:取引をするための十分な_[Silver]_がない。
 
-MessageCriticalAlert:<<Critical alert: {0}??緊急警告: {0}>>
+MessageCriticalAlert:<<Critical alert: {0}??緊急警報: {0}>>
 
 MessageMustDesignateHarvestable:十分に成長した収穫可能な植物を指定する。
 MessageMustDesignateHarvestableWood:十分に成長した木材を生み出す植物を指定する。

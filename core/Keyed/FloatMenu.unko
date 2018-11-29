@@ -63,7 +63,7 @@ AngersFaction:派閥を怒らせる
 
 ConsumeThing:<<Consume {1_labelShort}??{1_labelShort} を食べる>>
 
-CannotGoNoPath:そこには行けない(パスがない)
+CannotGoNoPath:ここには行けない (パスがない)
 GoHere:<<Go here??ここに移動する>>
 
 Arrest:<<Arrest {0}??{0} を_{arrest}_する>>
