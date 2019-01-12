@@ -263,8 +263,8 @@ MessageCraftedMasterwork:{WORKER_labelShort} が {CRAFTED_labelShort} を作っ�
 MessagePlayerTriedToLeaveMapViaExitGrid_CanReform:ここから離れるには、ワールド画面の'_<Reform caravan>_'ボタンを使う。
 MessagePlayerTriedToLeaveMapViaExitGrid_CantReform:今はここから離れられない。
 
-MessageGoodwillChanged:{0} との関係が {1} から {2} へ変わった。
-MessageGoodwillChangedWithReason:{0} との関係が {1} から {2} へ変わった。({3})。
+MessageGoodwillChanged:{0} との関係が {1} から {2} に変わった。
+MessageGoodwillChangedWithReason:{0} との関係が {1} から {2} に変わった。({3})。
 GoodwillChangedReason_AttackedPawn:{1_labelShort} を攻撃したため
 GoodwillChangedReason_UsedItem:{TARGET_labelShort} に {ITEM_labelShort} を使ったため
 GoodwillChangedReason_RemovedBodyPart:{0} を取り外したため
@@ -274,7 +274,7 @@ GoodwillChangedReason_PawnCrushed:{1_labelShort} が潰れたため
 GoodwillChangedReason_PawnDied:{1_labelShort} が死んだため
 GoodwillChangedReason_Traded:交易により
 GoodwillChangedReason_AttackedCaravan:キャラバンを襲ったため
-GoodwillChangedReason_NaturallyOverTime:時間経過で{0}になる性質により
+GoodwillChangedReason_NaturallyOverTime:時間経過で {0} になる性質により
 GoodwillChangedReason_ExitedMapHealthy:{1_labelShort} が元気に出て行ったので
 GoodwillChangedReason_Tended:{1_labelShort} を看護したので
 GoodwillChangedReason_ReceivedGift:贈り物を受け取ったので

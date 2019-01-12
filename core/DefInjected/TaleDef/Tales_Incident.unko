@@ -236,27 +236,27 @@
 		:tale_noun->[PAWN_nameDef]の[Community]を脅かした_[flashstorm]_
 		:tale_noun->[PAWN_nameDef]の[Community]が恐ろしい_[flashstorm]_に脅かされた事
 
-		:image->[Quantity_adjphrase]の落雷が[circumstance_phrase]様子
-		:image->[behavior]炎の壁が[circumstance_phrase]様子
-		:image->[behavior][Color]の炎の壁が[circumstance_phrase]様子
-		:image->[behavior]灰と煙の雲が[circumstance_phrase]様子
-		:image->[behavior]炎の波が[circumstance_phrase]様子
+		:image->[circumstance_phrase][Quantity_adjphrase]の落雷
+		:image->[circumstance_phrase]炎の壁[behavior]
+		:image->[circumstance_phrase][Color]の炎の壁[behavior]
+		:image->[circumstance_phrase]灰と煙の雲[behavior]
+		:image->[circumstance_phrase]炎の波[behavior]
 
 		:behavior->
-		:behavior->進んでくる
-		:behavior->近寄ってくる
+		:behavior->が向かってくる様子
+		:behavior->が近寄ってくる様子
 
-		:circumstance_phrase->[Community]へ近づいている
-		:circumstance_phrase->威圧的な雲の下で起こっている
-		:circumstance_phrase->[TerrainFeature]を殆ど包み込んでいる
-		:circumstance_phrase->[Quantity_adjphrase]の[TerrainFeature]を殆ど包み込んでいる
+		:circumstance_phrase->[Community]へ迫っている
+		:circumstance_phrase->威圧的な雲の下にある
+		:circumstance_phrase->[TerrainFeature]を飲み込もうとしている
+		:circumstance_phrase->[Quantity_adjphrase]の[TerrainFeature]を飲み込もうとしている
 
 		:desc_sentence->[PAWN_nameDef]が怯えながら見ている。
 		:desc_sentence->畏敬の念の表情を浮かべた[PAWN_nameDef]が見ている。
 		:desc_sentence->[PAWN_nameDef]が防衛対策を指揮している。
 		:desc_sentence->[Quantity_adjphrase]の[PersonJob]が大急ぎで準備している。
 		:desc_sentence->[Quantity_adjphrase]の[Animal]がここから逃げ出している。
-		:desc_sentence->すべての野生生物がここを離れている。
+		:desc_sentence->すべての野生生物がここから離れている。
 	}
 }
 
@@ -408,22 +408,22 @@
 	{?rulePack.rulesStrings
 		:tale_noun->[PAWN_nameDef]の[Community]に日食がかかった事
 
-		:image->異常に暗い空、[circumstance_phrase]様子
-		:image->薄暗い空、[circumstance_phrase]様子
-		:image->太陽光で微かにリング状になった月、[circumstance_phrase]様子
-		:image->暗闇の中を右往左往する[Quantity_adjphrase]の[Animal]達、[circumstance_phrase]様子
+		:image->異常に暗い空と、[circumstance_phrase]
+		:image->薄暗い空と、[circumstance_phrase]
+		:image->太陽光で微かにリング状になった月と、[circumstance_phrase]
+		:image->暗闇の中を右往左往する[Quantity_adjphrase]の[Animal]達と、[circumstance_phrase]
 
-		:circumstance_phrase->大気は静まりかえっている
-		:circumstance_phrase->近くの[TerrainFeature]を薄明りが包んでいる
-		:circumstance_phrase->近くの[Quantity_adjphrase]の[TerrainFeature]を薄明りが包んでいる
-		:circumstance_phrase->星が見えている
+		:circumstance_phrase->静まりかえっている大気
+		:circumstance_phrase->薄明りに包まれている近くの[TerrainFeature]
+		:circumstance_phrase->薄明りに包まれている近くの[Quantity_adjphrase]の[TerrainFeature]
+		:circumstance_phrase->星が見えている様子
 
 		:desc_sentence->その下では、[AdjectiveFriendly]表情で[PAWN_nameDef]が[Game]をしている。
 		:desc_sentence->畏敬の念の表情を浮かべた[PAWN_nameDef]が見ている。
 		:desc_sentence->[Quantity_adjphrase]の[PersonJob]が見上げている。
 		:desc_sentence->[PAWN_nameDef]が[TerrainFeature]の近くで空を眺めている。
 		:desc_sentence->見物人の[Community]が穏やかに空を見ている。
-		:desc_sentence->視界に[Enemy]はいない。
+		:desc_sentence->[Enemy]は見当たらない。
 	}
 }
 

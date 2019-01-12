@@ -116,9 +116,9 @@
 		:image->[PAWN_nameFull]が[circumstance_group][Weapon]を振り回している様子
 		:image->[PAWN_nameFull]が[circumstance_group]仁王立ちしている様子
 
-		:circumstance_phrase->目に[AdjectiveBadass]表情を浮かべながら
-		:circumstance_phrase->目に[AdjectiveAngsty]表情を浮かべながら
-		:circumstance_phrase->勝利への雄叫びをあげながら
+		:circumstance_phrase->[AdjectiveBadass]目付きで
+		:circumstance_phrase->[AdjectiveAngsty]目付きで
+		:circumstance_phrase->勝利への雄叫びを上げながら
 		:circumstance_phrase->[Gore]にまみれながら
 
 		:desc_sentence->[Quantity_adjphrase]の[Enemy]が襲撃ですくんでいる。

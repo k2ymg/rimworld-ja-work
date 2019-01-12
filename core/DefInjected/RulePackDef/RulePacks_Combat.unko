@@ -14,6 +14,7 @@
 	:implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_label]
 	:implement(IMPLEMENTOWNER_type==hediff,p=1)->[TOOL_label]
 
+	;「[硬い][鋭い歯]」のように形容詞が連続する場合があるが・・・仕方ない
 	:adjective_bodypart->硬い
 	:adjective_bodypart->強力な
 	:adjective_bodypart->力強い
@@ -40,24 +41,24 @@
 	:destroyed(p=0.5)->潰した
 	:destroyed(p=0.5)->破壊した
 
-	:wince(recipient_flesh==Normal)->怯んだ
-	:wince(recipient_flesh==Normal)->顔をゆがめた
-	:wince(recipient_flesh==Normal)->萎縮した
+	:wince(recipient_flesh==Normal)->怯んでいる
+	:wince(recipient_flesh==Normal)->顔をゆがめている
+	:wince(recipient_flesh==Normal)->萎縮している
 	:wince(recipient_flesh==Normal)->うめいている
 	:wince(recipient_flesh!=Mechanoid)->悲鳴を上げている
 	:wince(recipient_flesh!=Mechanoid)->叫んでいる
 	:wince->後ずさっている
 	:wince->よろめいている
 
-	:painstate->に
+	:painstate->に包まれながら
 	:painstate->で
-	:painstate->による
+	:painstate->で
 
 	:painevent(recipient_flesh!=Mechanoid)->痛み[painstate]
 	:painevent(recipient_flesh!=Mechanoid)->苦痛[painstate]
 	:painevent(recipient_flesh==Normal)->苦しみで
-	:painevent->怪我による
-	:painevent->傷による
+	:painevent->怪我で
+	:painevent->傷で
 
 	:to->へと
 	:to->へと
@@ -93,7 +94,7 @@
 	:flavortext_consequence(recipient_flesh!=Mechanoid)->嫌な傷を残している
 	:flavortext_consequence->恐ろしい傷を残している
 
-	:flavortext_consequence(recipient_flesh!=Mechanoid)->[painevent][RECIPIENT_objective][wince]
+	:flavortext_consequence(recipient_flesh!=Mechanoid)->[painevent][wince]
 	:flavortext_consequence(p=0.2)->体勢が整っていない[RECIPIENT_objective]を投げ飛ばしている
 }
 
@@ -367,13 +368,13 @@
 	:r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
 	:r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_targets]を[expertly][damaged_past]。
 	:r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
-	:r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[damaged_targets]を[damaged_present]。
+	:r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[damaged_targets]を[damaged_present]いる。
 	; 次の二つは、元は受動態だが、面倒なので能動態にする。(上と被っている)
 	:r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
 	:r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]の[expert][WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
 
 	:r_logentry(p=3)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]て、さらに、[damaged_targets]を[damaged_past]。
-	:r_logentry(p=6)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_present]、さらに、[damaged_targets]を[damaged_present]。
+	:r_logentry(p=6)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_present]、さらに、[damaged_targets]を[damaged_present]いる。
 
 	:r_logentry(p=0.2)->[INITIATOR_definite]が[RECIPIENT_definite]に[WEAPON_projectile_label]を当てた。
 	:r_logentry(p=0.2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]に当たった。
@@ -416,11 +417,11 @@
 	:damaged_past->傷つけた
 	:damaged_past->打った
 
-	:damaged_present->傷つけている
-	:damaged_present->怪我させている
-	:damaged_present->貫いている
-	:damaged_present->傷つけている
-	:damaged_present->打っている
+	:damaged_present->傷つけて
+	:damaged_present->怪我させて
+	:damaged_present->貫いて
+	:damaged_present->傷つけて
+	:damaged_present->打って
 
 	:damaged_suffix->汚いやり方で
 	:damaged_suffix(recipient_flesh!=Mechanoid)->血しぶきを上げながら

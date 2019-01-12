@@ -93,7 +93,7 @@ BeatFire.reportString:<<beating fire out.??火を消している。>>
 ExtinguishSelf.reportString:<<extinguishing self.??自分の火を消している。>>
 Ingest.reportString:<<consuming TargetA.??TargetA を食べている。>>
 LayDown.reportString:<<lying down.??横たわっている。>>
-Lovin.reportString:<<lovin'.??ウフフ、アハハ>>
+Lovin.reportString:<<lovin'.??愛し合っている>>
 
 ; Jobs_Work
 HaulToCell.reportString:<<hauling TargetA.??TargetA を運んでいる。>>

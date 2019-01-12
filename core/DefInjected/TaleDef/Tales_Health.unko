@@ -33,10 +33,10 @@
 		:with_weapon_optional->[circumstance_group]
 
 		:circumstance_phrase->容赦なく
-		:circumstance_phrase->機械のように
+		:circumstance_phrase->冷然と
 		:circumstance_phrase->激しい怒りで
 		:circumstance_phrase->無駄の無い動きで
-		:circumstance_phrase->無表情に
+		:circumstance_phrase->冷徹に
 		:circumstance_phrase->必要もなく
 		:circumstance_phrase->卑劣に、冷淡なやり方で
 
@@ -49,7 +49,7 @@
 		:desc_sentence->[VICTIM_nameDef]は苦痛にもだえている。
 		:desc_sentence->[KILLER_nameDef]は歯を剥きだしている。
 		:desc_sentence->[KILLER_nameDef]は満足気だ。
-		:desc_sentence->[KILLER_nameDef]は自分がしたことに悩んでいるようだ。
+		:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
 		:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
 		:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
 	}
@@ -83,12 +83,12 @@
 		:with_weapon_optional->[circumstance_group]
 
 		:circumstance_phrase->容赦なく
-		:circumstance_phrase->機械のように
+		:circumstance_phrase->冷然と
 		:circumstance_phrase->激しい怒りで
 		:circumstance_phrase->無駄の無い動きで
-		:circumstance_phrase->無表情に
+		:circumstance_phrase->冷徹に
 		:circumstance_phrase->必要もないのに
-		:circumstance_phrase->卑劣に、冷淡なやり方で
+		:circumstance_phrase->卑劣で冷淡なやり方で
 
 		:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
 		:desc_sentence->[PersonJob]が[side_position]から静かに注意を向けている。
@@ -96,7 +96,7 @@
 		:desc_sentence->[VICTIM_nameDef]は目を閉じている。
 		:desc_sentence->[KILLER_nameDef]は歯を剥きだしている。
 		:desc_sentence->[KILLER_nameDef]は満足気だ。
-		:desc_sentence->[KILLER_nameDef]は自分がしたことに悩んでいるようだ。
+		:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
 		:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
 		:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
 	}
@@ -129,10 +129,10 @@
 		:with_weapon_optional->[circumstance_group]
 
 		:circumstance_phrase->容赦なく
-		:circumstance_phrase->機械のように
+		:circumstance_phrase->冷然と
 		:circumstance_phrase->長距離から
 		:circumstance_phrase->高い所から
-		:circumstance_phrase->無表情に
+		:circumstance_phrase->冷徹に
 		:circumstance_phrase->卑劣に、冷淡なやり方で
 
 		:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
@@ -142,7 +142,7 @@
 		:desc_sentence->[VICTIM_nameDef]は[Gore]にまみれている。
 		:desc_sentence->[KILLER_nameDef]は歯を剥きだしている。
 		:desc_sentence->[KILLER_nameDef]は満足気だ。
-		:desc_sentence->[KILLER_nameDef]は自分がしたことに悩んでいるようだ。
+		:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
 		:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
 		:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
 	}
@@ -176,9 +176,9 @@
 		:with_weapon_optional->[circumstance_group]
 
 		:circumstance_phrase->容赦なく
-		:circumstance_phrase->機械のように
+		:circumstance_phrase->冷然と
 		:circumstance_phrase->無駄の無い動きで
-		:circumstance_phrase->無表情に
+		:circumstance_phrase->冷徹に
 		:circumstance_phrase->卑劣に、冷淡なやり方で
 
 		:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
@@ -190,7 +190,7 @@
 		:desc_sentence->[KILLER_nameDef]が[Gore]にまみれている。
 		:desc_sentence->[KILLER_nameDef]が歯を剥きだしている。
 		:desc_sentence->[KILLER_nameDef]は満足気だ。
-		:desc_sentence->[KILLER_nameDef]は自分がしたことに悩んでいるようだ。
+		:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
 		:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
 		:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
 		:desc_sentence->[KILLER_nameDef]は野獣のような表情をしている。
@@ -222,9 +222,9 @@
 		:with_weapon_optional->[WEAPON_label]で[circumstance_group]
 		:with_weapon_optional->[circumstance_group]
 
-		:circumstance_phrase->機械のように
+		:circumstance_phrase->冷然と
 		:circumstance_phrase->無駄の無い動きで
-		:circumstance_phrase->無表情に
+		:circumstance_phrase->冷徹に
 		:circumstance_phrase->優れた英雄的行為で
 		:circumstance_phrase->信じがたい力で
 
@@ -274,16 +274,16 @@
 		:with_weapon_optional->[circumstance_group]
 
 		:circumstance_phrase->容赦なく
-		:circumstance_phrase->機械のように
+		:circumstance_phrase->冷然と
 		:circumstance_phrase->無駄の無い動きで
-		:circumstance_phrase->無表情に
+		:circumstance_phrase->冷徹に
 
 		:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
 		:desc_sentence->[PersonJob]が[side_position]から静かに注意を向けている。
 		:desc_sentence->[VICTIM_nameDef]は[AdjectiveAngsty]表情をしている。
 		:desc_sentence->[VICTIM_nameDef]の目は閉じられている。
 		:desc_sentence->[KILLER_nameDef]は満足気だ。
-		:desc_sentence->[KILLER_nameDef]は自分がしたことに悩んでいるようだ。
+		:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
 		:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
 		:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
 	}
@@ -312,7 +312,7 @@
 		:desc_sentence->[VICTIM_nameDef]が爆発に囲まれている。
 		:desc_sentence->[VICTIM_nameDef]が爆発痕に囲まれている。
 		:desc_sentence->[KILLER_nameDef]は満足げだ。
-		:desc_sentence->[KILLER_nameDef]は自分がしたことに悩んでいるようだ。
+		:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
 		:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
 		:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
 	}
@@ -362,7 +362,7 @@
 		:circumstance_phrase->発疹ができた
 		:circumstance_phrase->医者に手当てされている
 
-		:desc_sentence->ハエにまみた[Quantity_adjphrase]の[Animal]の屍骸が辺りを囲んでいる。
+		:desc_sentence->ハエにまみれた[Quantity_adjphrase]の[Animal]の屍骸が辺りを囲んでいる。
 		:desc_sentence->ねじれた[Quantity_adjphrase]の[Color]の[TerrainFeature]が周りを囲んでいる。
 		:desc_sentence->[Quantity_adjphrase]の[PersonJob]が同じ苦しみに襲われている。
 		:desc_sentence->その場面は[TreeType]の森の中で起きている。
@@ -377,7 +377,7 @@
 		:tale_noun->[PAWN_nameDef]がオーバーヒートになった事
 
 		:image->[circumstance_group][PAWN_nameFull]が砂の上をトボトボと歩いている様子
-		:image->[circumstance_group][PAWN_nameFull]が[TerrainFeature]の日陰に群がっている様子
+		:image->[circumstance_group][PAWN_nameFull]が[TerrainFeature]の日陰に身を隠している様子
 		:image->[circumstance_group][PAWN_nameFull]が水を探し求めている様子
 		:image->[circumstance_group][PAWN_nameFull]が日陰を求めている様子
 		:image->[circumstance_group][PAWN_nameFull]が日に焼けた大地をノロノロ進んでいる様子
@@ -404,7 +404,7 @@
 		:tale_noun->[PAWN_nameDef]が凍え死にそうになった事
 
 		:image->[circumstance_group][PAWN_nameFull]が雪の中をトボトボと歩いている様子
-		:image->[circumstance_group][PAWN_nameFull]が[TerrainFeature]の傍らに群がっている様子
+		:image->[circumstance_group][PAWN_nameFull]が[TerrainFeature]の側で丸まっている様子
 		:image->[circumstance_group][PAWN_nameFull]が暖かい[Apparel]を探している様子
 		:image->[circumstance_group][PAWN_nameFull]が火の側にうずくまっている様子
 		:image->[circumstance_group][PAWN_nameFull]が火を点けようとしている様子

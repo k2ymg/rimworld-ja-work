@@ -28,7 +28,7 @@
 }
 {Penoxycyline
 	label:_[penoxycyline]_
-	description:_?ペノキシリン。?_感染症予防薬。_<Malaria>_、_<Sleeping sickness>_、_<Plague>_を防ぐ。効果を持続させるには5日ごとに摂取しなければならない。注意:この薬は新たな感染を防ぐだけである。既に感染しているものを、例えまだそれに気付いていないとしても、治すわけではない、。
+	description:_?ペノキシリン。?_感染症予防薬。_<Malaria>_、_<Sleeping sickness>_、_<Plague>_を防ぐ。効果を持続させるには5日ごとに摂取しなければならない。注意:この薬は新たな感染を防ぐだけである。既に感染しているものを、例えまだそれに気付いていないとしても、治すわけではない。
 	ingestible.ingestCommandString:{0} を摂る
 	ingestible.ingestReportString:{0} を摂っている。
 }

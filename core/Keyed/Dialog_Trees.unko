@@ -14,7 +14,7 @@ SilverForGoodwill:{0} _[Silver]_で友好度が {1} 上がる
 SilverGiftSent:{0} ありがとう。\n\n(友好度が {1} 上がった)。
 
 RequestTrader:交易キャラバンの派遣を要請する。(代価: {0} 友好度)
-ChooseTraderKind:{0} が交易キャラバンの種別を尋ねている。
+ChooseTraderKind:{0} は交易キャラバンの種別を尋ねている。
 TraderSent:{0} は交易キャラバンを送ることに合意した。数日以内に到着する。
 WaitTime:到着まで {0}
 

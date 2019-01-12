@@ -24,7 +24,7 @@
 	skillLabel:_<cooking>_
 }
 {Plants
-	description:作物の種まき、世話、収穫、旅行中の採餌。
+	description:作物の種まき、世話、収穫、旅行中の_{foraging}_。
 	label:_<plants>_
 	skillLabel:_<plants>_
 }

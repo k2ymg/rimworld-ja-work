@@ -95,7 +95,7 @@
 }
 {ArchotechArm
 	label:_[archotech arm]_
-	description:_[Archotech]_により作られた義手。素手で太くて硬い枝をへし折るほどに強力く、米粒に詩を書けるほどに正確。普通の生身に見えるが、_[Plasteel]_よりも傷つきにくい。例え傷ついても、時と共に自己修復する。その内部構造は人類には理解不能である。
+	description:_[Archotech]_により作られた義手。太くて硬い枝を素手でへし折るほどに強力く、米粒に詩を書けるほどに正確。普通の生身に見えるが、_[Plasteel]_よりも傷つきにくい。例え傷ついても、時と共に自己修復する。その内部構造は人類には理解不能である。
 }
 {ArchotechLeg
 	label:_[archotech leg]_
@@ -361,7 +361,7 @@ Bullet_Shell_AntigrainWarhead.label:_[antigrain warhead]_
 }
 {Uranium
 	label:_[uranium]_
-	description:_?ウラニウム。?_黒くて、とても重い金属。核反応を利用した装置の燃料として有名だが、密度と硬度が非常に高いので、特定の武器や鎧、弾にも適している。
+	description:_?ウラニウム。?_黒く、とても重い金属。核反応を利用した装置の燃料として有名だが、密度と硬度が非常に高いので、特定の武器や鎧、弾にも適している。
 }
 {Jade
 	label:_[jade]_

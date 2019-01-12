@@ -36,16 +36,16 @@
 	:damaged_past->傷つけた
 	:damaged_past->痛めつけた
 
-	:damaged_present(p=2)->吹き飛ばしている
-	:damaged_present(p=2)->焦がしている
-	:damaged_present(p=2)->燃やしている
-	:damaged_present(p=2)->ただれさせている
-	:damaged_present(p=2)->火を付けている
-	:damaged_present(p=2)->火傷させている
-	:damaged_present->怪我させている
-	:damaged_present->ダメージを負わせている
-	:damaged_present->傷つけている
-	:damaged_present->痛めつけている
+	:damaged_present(p=2)->吹き飛ばして
+	:damaged_present(p=2)->焦がして
+	:damaged_present(p=2)->燃やして
+	:damaged_present(p=2)->ただれさせて
+	:damaged_present(p=2)->火を付けて
+	:damaged_present(p=2)->火傷させて
+	:damaged_present->怪我させて
+	:damaged_present->ダメージを負わせて
+	:damaged_present->傷つけて
+	:damaged_present->痛めつけて
 
 	:destroyed_past->焼いた
 	:destroyed_past->灰にした
@@ -54,7 +54,7 @@
 	:destroyed_past->燃やし尽くした
 	:destroyed_past->吹き飛ばした
 
-	:destroyed_present->焼いている焼き尽くしている
+	:destroyed_present->焼いている
 	:destroyed_present->灰にしている
 	:destroyed_present->黒焦げにしている
 	:destroyed_present->蒸発させている

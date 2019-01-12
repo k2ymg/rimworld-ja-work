@@ -26,10 +26,17 @@
 	:image->[Quantity_adjphrase]の[Vegetable]
 	:image->[Apparel]
 
+	:depiction->描写
+	:depiction->イメージ
+	:depiction->肖像
+	:depiction->表現
+	:depiction->イラスト
+	:depiction->アートワーク
+	
 	:image->[Shape]
 	;順番の問題。元がクソなのでどうしようもない。
 	:image->[Shape]に囲まれている[Shape]
-	:image->[ConceptAny]の抽象的な描写
+	:image->抽象化された[ConceptAny]
 	; 原文と違うが「～な」という形容詞になっているので、何か付けないといけない
 	:image->[AdjectiveAny]感情を抽象化した形状
 

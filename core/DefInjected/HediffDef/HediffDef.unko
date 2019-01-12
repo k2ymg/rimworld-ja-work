@@ -609,7 +609,7 @@ MuscleParasites.label:_<muscle parasites>_
 	}
 	comps.HediffComp_GetsPermanent.permanentLabel:<<cut scar??切り傷痕>>
 	{injuryProps
-		destroyedLabel:<<Cut off??切り落とされた>>
+		destroyedLabel:<<Cut off??切り離された>>
 		destroyedOutLabel:<<Cut out??切り取られた>>
 	}
 	$:InjuryBase

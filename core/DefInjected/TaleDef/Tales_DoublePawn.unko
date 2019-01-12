@@ -199,11 +199,11 @@
 		:image->[KILLER_nameFull]が[circumstance_group][VICTIM_nameFull]を残忍に殺している様子
 		:image->[VICTIM_nameFull]が[circumstance_group]殺されている様子
 
-		:circumstance_phrase->一見したところ無慈悲に
-		:circumstance_phrase->機械のように
+		:circumstance_phrase->容赦なく
+		:circumstance_phrase->冷然と
 		:circumstance_phrase->激しい怒りと共に
 		:circumstance_phrase->無駄の無い動きで
-		:circumstance_phrase->無表情に
+		:circumstance_phrase->冷徹に
 		:circumstance_phrase->後ろめたい理由により
 		:circumstance_phrase->卑劣で、冷淡な方法で
 

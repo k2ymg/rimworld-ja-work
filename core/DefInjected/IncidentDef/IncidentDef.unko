@@ -256,7 +256,7 @@ Quest_TradeRequest.label:<<trade request??交易要請>>
 {Quest_DownedRefugee
 	label:<<incapacitated refugee quest??クエスト - 行き倒れの難民>>
 	letterLabel:<<Incapacitated refugee quest??クエスト - 行き倒れの難民>>
-	letterText:{PAWN_nameDef} が助けを求めてきた。{PAWN_pronoun}は怪我をして動けない。助けなければ、{0} 日以内に死ぬ。\n\n{PAWN_nameDef} は {1} 歳の {2} で、助けてくれれば仲間に加わると約束した。\n\n{PAWN_nameDef}によると、{3}。
+	letterText:{PAWN_nameDef} が助けを求めてきた。{PAWN_pronoun}は怪我で動けない。助けなければ、{0} 日以内に死ぬ。\n\n{PAWN_nameDef} は {1} 歳の {2} で、助けてくれれば仲間に加わると約束した。\n\n{PAWN_nameDef}によると、{3}。
 }
 
 {Quest_PrisonerRescue

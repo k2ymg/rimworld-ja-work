@@ -2,9 +2,9 @@
 	:r_art_description->[physical_description_root][context_sentence]
 	:circumstance_group->[circumstance_phrase]
 	:desc_sentence_group->[desc_sentence][style_group]
-	:context_sentence->この[depiction]は、 [DATE] にあった、 [tale_noun]について触れている。
-	:context_sentence->この[depiction]は、 [DATE] にあった、 [tale_noun]に関連している。
-	:context_sentence->この[depiction]は、 [DATE] にあった、 [tale_noun]を伝えている。
+	:context_sentence->この[depiction]は、[DATE] にあった、[tale_noun]について触れている。
+	:context_sentence->この[depiction]は、[DATE] にあった、[tale_noun]に関連している。
+	:context_sentence->この[depiction]は、[DATE] にあった、[tale_noun]を伝えている。
 }
 
 {?ArtDescriptionRoot_Taleless.rulePack.rulesStrings
@@ -29,6 +29,7 @@
 	:artconjunction->誰もあまり気に掛けないが、
 	:artconjunction->それの他に、
 
+	;～ある、～いるの判別不能
 	:artextra_clause->イメージは[subimageplural]で縁取られている
 	:artextra_clause->イメージの端に[subimageplural]がある
 	:artextra_clause->[subimagesingle]が[side_position]にある
@@ -111,7 +112,7 @@
 
 	:style_clause(p=4)->この作品は[ConceptAny][symbolizes]
 	:artextra_clause->[side_position]にある[subimagesingle]が[ConceptAny][symbolizes]
-	:style_clause->この作品は[ConceptAny]のアイデアが注ぎ込まれ、 [artstyle_adj]様式になっている
+	:style_clause->この作品は[ConceptAny]のアイデアが注ぎ込まれ、[artstyle_adj]様式になっている
 	:style_clause->この作品は[artstyle_adj]様式で作られている
 	:style_clause->主要なシーンの[artstyle_adj]様式が[artstyle_adj]様式の背景描写で台無しになっている
 	:style_clause->この作品には[artstyle_adj]様式と[composition]構成がある

@@ -76,14 +76,14 @@
 		:tale_noun->[PAWN_nameDef]が崩落をよけた事
 		:tale_noun->[PAWN_nameDef]が落下物で潰されそうになった事
 
-		:image->[PAWN_nameFull]が崩れた岩の欠片から飛び退いて、岩が[circumstance_group]様子
-		:image->[PAWN_nameFull]が崩落をなんとか避け、岩が[circumstance_group]様子
-		:image->[PAWN_nameFull]が落ちてきた天井を避け、崩落が[circumstance_group]様子
-		:image->[PAWN_nameFull]が落石で死ぬところを避け、岩が[circumstance_group]様子
+		:image->[circumstance_group]崩れた岩の欠片から飛び退いている[PAWN_nameFull]
+		:image->[circumstance_group]崩落をなんとか避けている[PAWN_nameFull]
+		:image->[circumstance_group]落ちてきた天井を避けている[PAWN_nameFull]
+		:image->[circumstance_group]落石で死にそうになった[PAWN_nameFull]
 
 		:circumstance_phrase->破片と粉塵を巻き上げている
 		:circumstance_phrase->下の物全てを粉々にしている
-		:circumstance_phrase->凄まじい衝撃を伴っている
+		:circumstance_phrase->凄まじい衝撃の
 
 		:desc_sentence->[PAWN_pronoun]は疲れて汗をかいている。
 		:desc_sentence->[PAWN_pronoun]は怯えているように見える。

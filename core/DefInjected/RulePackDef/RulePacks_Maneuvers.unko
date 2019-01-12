@@ -248,7 +248,7 @@
 	:damaged_past(deflected!=True)->引き裂いた
 
 	; 「～て」「～て-いる」の形にすること
-	:damaged_present->噛んだ
+	:damaged_present->噛んで
 	:damaged_present->かじって
 	:damaged_present->喰らって
 	:damaged_present->噛みきって
@@ -270,7 +270,7 @@
 	:destroyed_present->引き裂いて
 	:destroyed_present->破壊して
 
-	:destroyed_suffix->[to] shreds
+	:destroyed_suffix->断片[to]
 	:destroyed_suffix->破片[to]
 	:destroyed_suffix->薄片[to]
 	:destroyed_suffix(recipient_flesh!=Mechanoid)->ぐちゃぐちゃな薄片[to]
