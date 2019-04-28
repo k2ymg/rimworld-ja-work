@@ -42,7 +42,7 @@
 		:r_logentry->[INITIATOR_nameDef]が優越を示すために[RECIPIENT_nameDef]をはたいた。
 		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]にコミュニティへ戻るように指示した。
 		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]にコミュニティに戻るように呼んだ。
-		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]へ服従させるため、無防備な所を触った。
+		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]を服従させるため、無防備な所を触った。
 		:r_logentry->[INITIATOR_nameDef]が地面を指して、[RECIPIENT_nameDef]へここに来るように要求した。
 		:r_logentry->[INITIATOR_nameDef]が[RECIPIENT_nameDef]に最初の命令を与えた。
 	}

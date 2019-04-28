@@ -185,10 +185,10 @@
 
 		:image->暗く冷えた空[circumstance_group]様子
 		:image->灰で満たされた大気[circumstance_group]様子
-		:image->雪に覆われた不毛の[TerrainFeature][circumstance_group]様子
+		:image->雪に覆われた不毛な[TerrainFeature][circumstance_group]様子
 		:image->[Quantity_adjphrase]の場所で灰に覆われた植物[circumstance_group]様子
 
-		:circumstance_phrase->、見渡す限り生物が居なくなっている
+		:circumstance_phrase->と、見渡す限り生物が居なくなっている
 		:circumstance_phrase->が空からの細い光の筋で微かに照らされている
 		:circumstance_phrase->が青く冷たい光で浮き上がっている
 

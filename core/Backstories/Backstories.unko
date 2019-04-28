@@ -802,6 +802,18 @@ titleShort:_<negotiator>_
 desc:自分の母星から逃げ出した後、[PAWN_nameDef]は自分の能力を星々で発揮した。\n\n[PAWN_pronoun]は用心棒のように働くことを選び、様々な反乱組織、奴隷達、商業都市のために働いていた。[PAWN_pronoun]の専門は危険な状況での交渉だった。
 }
 
+{CommonerHeir25
+title:_<Commoner heir>_
+titleShort:_<Heir>_
+desc:[PAWN_nameDef]は蒸気時代の世界で町の悪ガキだった。\n\n後継者探しに躍起になっていた皇帝は、館から食べ物を盗もうとした[PAWN_pronoun]を捕まえ、次期皇帝として仕込むことにした。
+}
+
+{CommonerLord87
+title:_<Commoner lord>_
+titleShort:_<Lord>_
+desc:武術と外交術を数年間学んだ後、[PAWN_nameDef]はついに自身が支配する民と領地を授かった。\n\n平民出身のため、他の支配者達から認められなかった。彼らは[PAWN_nameDef]に大罪の濡れ衣を着せ、皇帝は[PAWN_pronoun]を追放するしかなかった。
+}
+
 {ComputerEngineer16
 title:_<computer engineer>_
 titleShort:_<tech head>_
@@ -1765,6 +1777,12 @@ titleShort:_<pest guard>_
 desc:[PAWN_nameDef]は凶暴な遺伝子操作された野生動物の不可思議な突然発生が起こった後に王の名の下に_{colony}_を守らされていた。\n\n[PAWN_pronoun]の努力もむなしく、王国は滅ぼされてしまった。[PAWN_pronoun]はPTSD、動物嫌い、科学技術恐怖症になった。[PAWN_pronoun]の名前は[PAWN_pronoun]が見つかった場所に由来している。
 }
 
+{HunterScavenger64
+title:_<hunter scavenger>_
+titleShort:_<scavenger>_
+desc:Vinnaのぬかるんだ土地で賊の一家に生まれた[PAWN_nameDef]は、仲間のギャング達と近隣の居留地から食べ物や物資を集めて生きていた。[PAWN_pronoun]はその集団の中で最も凶悪だった。
+}
+
 {IcePlanetChild60
 title:_<ice planet child>_
 titleShort:_<ice child>_
@@ -2441,6 +2459,12 @@ desc:艦隊提督のホロスクリーンを錆びたペンチと針金だけで
 title:_<nerd>_
 titleShort:_<nerd>_
 desc:[PAWN_nameDef]は何でも興味を持った。他の子供達が工業都市の郊外で鬼ごっこをしている時でも手当たり次第に本を読みあさり、専門技術、ロボット、武器、格好良さそうな物なら何でも読んでいた。\n\nフランス訛りのせいで友達は作りにくかった。
+}
+
+{NetworkEngineer83
+title:_<Network engineer>_
+titleShort:_<Engineer>_
+desc:[PAWN_nameDef]は常にコンピュータのネットワーク・システムに取り組んでいた。\n\n連続稼働時間とパケットロスを除けば、世間の事など気にせず暮らしていた。
 }
 
 {NeuroScientist84
@@ -3642,6 +3666,12 @@ titleShort:_<tech-head>_
 desc:子共サイズのEVAスーツに身を包んで船の外郭に父と共に立っている。[PAWN_nameDef]は子供の頃から宇宙が大好きだった。\n\n[PAWN_pronoun]は「Civil Academics Program」に入った。[PAWN_pronoun]は父の真似事をしながら、散らかった部屋で植物の世話をして暮らしていた。いつもテクノロジーの事ばかり考えていたので、このようなあだ名になった。
 }
 
+{TechnicalKid1
+title:_<Technical kid>_
+titleShort:_<Tech kid>_
+desc:[PAWN_nameDef]は周りのことなど気にせず、目の前の事に集中するのが大好きだ。
+}
+
 {Technician82
 title:_<technician>_
 titleShort:_<techie>_
@@ -4050,6 +4080,12 @@ desc:[PAWN_nameDef]は新石器時代の星に住む野蛮な_{tribal}_のリー
 title:_<war child>_
 titleShort:_<war child>_
 desc:Mushintoの両親は故郷の内戦に徴兵された。戦闘と死に囲まれながら育ったので、惨事に慣れ、鉄の意志を持つようになった。[PAWN_pronoun]の感情的な面が育つことはなかった。
+}
+
+{Warlordess14
+title:_<warlordess>_
+titleShort:_<warlordess>_
+desc:[PAWN_nameDef]は海賊集団の手強いリーダーだった。\n\nどれ程激しくとも、物騒であろうとも、[PAWN_pronoun]は全ての挑戦に応じた。周りは[PAWN_pronoun]を殺戮機械と呼んでいた。
 }
 
 {WarRefugee51

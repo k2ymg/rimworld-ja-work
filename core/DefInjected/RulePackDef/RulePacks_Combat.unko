@@ -153,20 +153,24 @@
 	:expert->芸術的な
 }
 
+;近接・遠距離共有なので、曖昧な感じに。また、挿入先のoffをこちらへ取り込む感じで。
+;「～た。」か「～て、」の形になるように。presentは受動態っぽく。pastは自動型。
 {?Combat_DeflectIncludes.rulePack.rulesStrings
-	:scraped_present->かすりながら
-	:scraped_present->跳ねながら
-	:scraped_present->かすりながら
-	:scraped_present->跳ね返りながら
-	:scraped_present->跳ねながら
-	:scraped_present->滑りならが
+	;「アーマー～」
+	:scraped_present->をかすめ
+	:scraped_present->から跳ね
+	:scraped_present->をこすっ
+	:scraped_present->から跳ね返っ
+	:scraped_present->にそらされ
+	:scraped_present->を滑っ
 
-	:scraped_past->かすめて
-	:scraped_past->跳ねて
-	:scraped_past->かすって
-	:scraped_past->跳ね返って
-	:scraped_past->跳ねて
-	:scraped_past->滑って
+	;「({武器}は)～、
+	:scraped_past->かすめ
+	:scraped_past->跳ね
+	:scraped_past->こすれ
+	:scraped_past->跳ね返っ
+	:scraped_past->それ
+	:scraped_past->滑っ
 }
 
 {?Combat_Hit.rulePack.rulesStrings
@@ -209,19 +213,21 @@
 	:deflected_result->が、[deflected_consequence]
 
 	:adverb_deflected_opt(p=4)->た
-	:adverb_deflected_opt->、[adverb_deflected]
+	:adverb_deflected_opt->て、[adverb_deflected]
 
 	:adverb_deflected->無傷だった
 	:adverb_deflected->無駄だった
 
-	:deflected_consequence->[TOOL_label]は[scraped_past]外れ[adverb_deflected_opt]
-	:deflected_consequence->アーマーから[scraped_present]落ち[adverb_deflected_opt]
+	:deflected_consequence->[TOOL_label]は[scraped_past][adverb_deflected_opt]
+	:deflected_consequence->アーマー[scraped_present][adverb_deflected_opt]
 
-	:scraped_present->こすれ
-	:scraped_present->滑り
+	; see Combat_DeflectIncludes
+	:scraped_present->を削っ
+	:scraped_present->から滑っ
 
-	:scraped_past->かすって
-	:scraped_past->滑って
+	; see Combat_DeflectIncludes
+	:scraped_past->削っ
+	:scraped_past->滑っ
 }
 
 {?Combat_FailIncludes.rulePack.rulesStrings
@@ -454,17 +460,19 @@
 	:deflected_result->[deflected_consequence]
 
 	:adverb_deflected_opt(p=4)->た
-	:adverb_deflected_opt->、[adverb_deflected]
+	:adverb_deflected_opt->て、[adverb_deflected]
 
 	:adverb_deflected->無傷だった
 	:adverb_deflected->無駄だった
 
-	:deflected_consequence->[scraped_past]外れ[adverb_deflected_opt]
-	:deflected_consequence->アーマーから[scraped_present]落ち[adverb_deflected_opt]
+	:deflected_consequence->[scraped_past][adverb_deflected_opt]
+	:deflected_consequence->アーマー[scraped_present][adverb_deflected_opt]
 
-	:scraped_past->跳ねて
+	; see Combat_DeflectIncludes
+	:scraped_past->から跳ね飛ばされ
 
-	:scraped_present->跳ねながら
+	; see Combat_DeflectIncludes
+	:scraped_present->跳ね飛ばされ
 
 	;人の場合は「外して、外した」物の場合は「外れて、外れた」
 	:missed->外

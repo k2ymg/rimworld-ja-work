@@ -2,9 +2,9 @@
 	:r_art_description->[physical_description_root][context_sentence]
 	:circumstance_group->[circumstance_phrase]
 	:desc_sentence_group->[desc_sentence][style_group]
-	:context_sentence->この[depiction]は、[DATE] にあった、[tale_noun]について触れている。
-	:context_sentence->この[depiction]は、[DATE] にあった、[tale_noun]に関連している。
-	:context_sentence->この[depiction]は、[DATE] にあった、[tale_noun]を伝えている。
+	:context_sentence->この[depiction]は、[DATE]にあった、[tale_noun]について触れている。
+	:context_sentence->この[depiction]は、[DATE]にあった、[tale_noun]に関連している。
+	:context_sentence->この[depiction]は、[DATE]にあった、[tale_noun]を伝えている。
 }
 
 {?ArtDescriptionRoot_Taleless.rulePack.rulesStrings
@@ -140,7 +140,7 @@
 	:depicts->を描写している
 	:depicts->を示している
 	:depicts->を人物描写している
-	:depicts->に似ている
+	:depicts->に似せている
 	:depicts->を図解している
 	:depicts->を表している
 	:depicts->のように形作られている

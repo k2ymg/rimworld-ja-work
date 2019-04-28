@@ -127,7 +127,7 @@ Bullet_AssaultRifle.label:_<assault rifle bullet>_
 Bullet_SniperRifle.label:_<sniper rifle bullet>_
 {Gun_Minigun
 	label:_[minigun]_
-	description:_?ミニガン。?_多銃身式機関銃。扱いにくいが、一度発射され始めれば高速に発射される。殆どの自動装填式銃は火薬を動力にしているが、この銃は電動モーターで銃の中を通すように高速に実包を入れ替えている。
+	description:_?ミニガン。?_多銃身式機関銃。扱いにくいが、一度発射され始めれば高速に発射される。殆どの自動装填式銃は火薬を動力にしているが、この銃は実包を電動モーターで銃の中を通しながら、高速に入れ替えている。
 	tools.barrels.label:_<barrels>_
 }
 Bullet_Minigun.label:_<minigun bullet>_

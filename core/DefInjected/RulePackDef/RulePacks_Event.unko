@@ -5,7 +5,7 @@
 	:stunned(p=3)->気絶した
 	:stunned->よろめいた
 	:stunned->クラクラした
-	:stunned->混乱させた
+	:stunned->混乱した
 
 	:r_logentry->[SUBJECT_definite]が[staggered]。
 	:r_logentry->[SUBJECT_definite]が攻撃で[staggered]。
