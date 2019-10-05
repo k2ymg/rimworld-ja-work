@@ -820,11 +820,11 @@ titleShort:_<tech head>_
 desc:プログラマとしての業務に退屈し、Academyでの素晴らしき日々を失いつつあった[PAWN_nameDef]は「強者だけが生き残れる」という辺境開拓のコマーシャルを見た。\n\n[PAWN_pronoun]は妻のMorganと一緒に未知なる旅への準備を始めた。
 }
 
-{ComputerGeek14
-title:_<computer geek>_
-titleShort:_<geek>_
-desc:[PAWN_nameDef]は子供時代の多くを自分のコンピュータで過ごし、常にキーボードを叩いており、いつ起きて食べているのか分からなかった。\n\n[PAWN_possessive]の興味はとても狭く、暗号プロトコルのハッキングに限られていた。
-}
+;{ComputerGeek14
+;title:_<computer geek>_
+;titleShort:_<geek>_
+;desc:[PAWN_nameDef]は子供時代の多くを自分のコンピュータで過ごし、常にキーボードを叩いており、いつ起きて食べているのか分からなかった。\n\n[PAWN_possessive]の興味はとても狭く、暗号プロトコルのハッキングに限られていた。
+;}
 
 {ConArtist80
 title:_<con artist>_
@@ -3672,11 +3672,11 @@ titleShort:_<Tech kid>_
 desc:[PAWN_nameDef]は周りのことなど気にせず、目の前の事に集中するのが大好きだ。
 }
 
-{Technician82
-title:_<technician>_
-titleShort:_<techie>_
-desc:IT専門家である[PAWN_nameDef]にはコードを書く時間がもう無かった。\n\n[PAWN_pronoun]は仮死室とAIサブルーチンの不整合による不具合を直すために常に仕事に呼び出されていた。
-}
+;{Technician82
+;title:_<technician>_
+;titleShort:_<techie>_
+;desc:IT専門家である[PAWN_nameDef]にはコードを書く時間がもう無かった。\n\n[PAWN_pronoun]は仮死室とAIサブルーチンの不整合による不具合を直すために常に仕事に呼び出されていた。
+;}
   
 {TechnologyDoctor35
 title:_<technology doctor>_
