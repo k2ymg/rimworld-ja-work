@@ -1,0 +1,108 @@
+﻿{%Flame
+	label:<<flame??焼身>>
+	deathMessage:{0} が燃えて死んだ。
+}
+{Burn
+	label:<<burn??火傷>>
+	$:Flame
+}
+{Frostbite
+	label:<<frostbite??凍傷>>
+	deathMessage:{0} が寒さに倒れた。
+}
+{TornadoScratch
+	label:<<scratch??裂傷>>
+	deathMessage:{0} が竜巻で死んだ。
+}
+; 多分だけれど、名詞にしないとおかしくなると思う。何処かで表示されるのなら、だが。
+{%Cut
+	label:<<cut??斬る>>
+	deathMessage:{0} が斬られて死んだ。
+}
+{SurgicalCut
+	label:<<surgical cut??手術>>
+	deathMessage:{0} が手術中に死んだ。
+	$:Cut
+}
+{ExecutionCut
+	label:<<execution cut??処刑>>
+	; 処刑は意図的に行うので
+	deathMessage:{0} は処刑された。
+	$:Cut
+}
+{Crush
+	label:<<crush??潰す>>
+	deathMessage:{0} が潰されて死んだ。
+}
+{%Blunt
+	label:<<blunt??殴る>>
+	deathMessage:{0} が殴られて死んだ。
+}
+{Poke
+	$:Blunt
+}
+{Stab
+	label:<<stab??刺す>>
+	deathMessage:{0} が刺されて死んだ。
+}
+{%Scratch
+	label:<<scratch??裂く>>
+	deathMessage:{0} が裂かれて死んだ。
+}
+{ScratchToxic
+	label:<<toxic scratch??毒裂き>>
+	$:Scratch
+}
+{%Bite
+	label:<<bite??噛む>>
+	deathMessage:{0} が噛まれて死んだ。
+}
+{ToxicBite
+	label:<<toxic bite??噛む>>
+	$:Bite
+}
+{Deterioration
+	label:<<deterioration??劣化>>
+}
+{Mining
+	label:<<mining??採掘>>
+}
+{Rotting
+	label:<<rotting??腐敗>>
+}
+{Extinguish
+	label:<<extinguish??消火>>
+}
+{%Bomb
+	label:<<bomb??爆発>>
+	deathMessage:{0} が爆発で死んだ。
+}
+{BombSuper
+	$:Bomb
+}
+{Smoke
+	label:<<smoke??煙幕>>
+}
+{RangedStab
+	label:<<stab??突く>>
+	deathMessage:{0} が突かれて死んだ。
+}
+{Bullet
+	label:<<bullet??撃つ>>
+	deathMessage:{0} が撃たれて死んだ。
+}
+{%Arrow
+	label:<<arrow??射る>>
+	deathMessage:{0} が矢に射抜かれて死んだ。
+}
+{ArrowHighVelocity
+	$:Arrow
+}
+{Stun
+	label:<<stun??麻痺>>
+	deathMessage:{0} が麻痺して死んだ。
+}
+{EMP
+	label:EMP
+	deathMessage:{0} がEMPで死んだ。
+}

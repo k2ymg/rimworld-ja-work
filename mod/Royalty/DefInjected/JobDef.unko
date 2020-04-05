@@ -1,0 +1,6 @@
+﻿{Play_MusicalInstrument
+	reportString:<<playing TargetA.??TargetA を演奏している。>>
+}
+{Reign
+	reportString:<<reigning.??統治している。>>
+}

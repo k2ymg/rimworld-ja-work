@@ -1,0 +1,25 @@
+﻿{RoyaltyTips
+	{!tips
+		:_{royal title}_によっては、保有者は援軍を呼ぶ事ができる。これは困難な時の助けになる。
+		:より高位な_{royal title}_保有者は _<authority>_ への特別な欲求がある。 _[throne]_ から統治することで欲求を満たせる。
+		:より高いレベルの高貴な_{colonist}_は希望を下回る物は、飢えない限り、食べない。
+		:パワー・アーマー、_[cataphract armor]_、サイフォーカスの衣服は_{royal title}_の衣服要件を満たす。
+		:_{royal title}_保有者が死んだ場合、その_{title}_は選んだ後継者に移る。
+		:_{royal title}_保有者の後継者は _[comms console]_ で変えられる。しかし、それには儀式を執り行う必要がある。
+		:_[psychic amplifier]_ が必要な_{title}_を得た者には、_{Empire}_からそれを与えられる。
+		:取り付けた _[psychic amplifier]_ は手術でアップグレード、またはダウングレードできる。
+		:_{Empire}_は特定のインプラントの使用は決められた_{royal title}_に制限している。不正に使うと_{Empire}_と外交問題になるかもしれない。
+		:_[psychic silencer]_ インプラントは精神痕跡を隠すことで、当局が不正な精神パワーを検出するのを防ぐ。
+		:_[psychic amplifier]_ の新しいレベルを取り付けるとサイキャストの一つを覚える。
+		:_{psycast}_は戦闘でとても有利になる。
+		:悪影響がある_{psycast}_を仲間の_{faction}_にかけると関係が悪くなる。
+		:_[invisibility]_ _{psycast}_の効果は攻撃しても消えない。
+		:_<psychic entropy limit>_ を超えると深刻な状況は回避できるが、健康リスクはひどくなる。
+		:より高い _<psychic sensitivity>_ を持つ生物は_{psycast}_により影響される。
+		:サイフォーカス装備を身に付けた_{psycaster}_は _<psychic entropy limit>_ や回復速度が上がる。
+		:_[mech cluster]_ と戦うときはパワーセルを狙ってみる。それが爆発すると、周囲の物に大ダメージを与える。
+		:邪魔されるまで休止している _[mech cluster]_ もある。その間に攻撃準備をする。
+		:_{Imperial}_の _[royal tribute collector]_ は年二回訪れ、_{prisoner}_や金を _<royal favor>_ へ交換してくれる。
+		:休止している _[mech cluster]_ は、攻撃したり、 _[proximity activator]_ を起動させない限り、安全に通り過ぎる事ができる。
+	}
+}

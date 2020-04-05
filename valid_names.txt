@@ -15,6 +15,7 @@ customLabel
 deathMessage
 description
 descriptionDialogue
+descriptionFuture
 destroyedLabel
 destroyedOutLabel
 discoveredLetterText
@@ -44,7 +45,6 @@ labelNoun
 labelNounPretty
 labelPlural
 labelShort
-labelSocial
 labelSolidTendedWell
 labelTendedWell
 labelTendedWellInner
@@ -54,6 +54,7 @@ letterLabel
 letterLabelEnemy
 letterLabelFriendly
 letterText
+letterTitle
 meatLabel
 offMessage
 onMapInstruction
@@ -81,3 +82,18 @@ title
 titleShort
 desc
 rulesFiles
+finishedMessage
+calledOffMessage
+textWillArrive
+labelForFullStatList
+tips
+customLetterLabel
+customLetterText
+royalFavorLabel
+introText
+inspectString
+endingText
+expiryInfoPart
+expiryInfoPartTip
+renounceTitleMessage
+arrivingPawnsLabelDef

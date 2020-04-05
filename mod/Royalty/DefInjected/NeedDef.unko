@@ -1,0 +1,5 @@
+﻿{Authority
+	label:_<authority>_
+	description:_{Authority}_は特定の_{title}_保持者が尊敬されたいという欲求を表している。_{Authority}_はふさわしい_{throneroom}_で統治するか、_{title}_所有者の地位を認める行動で満たされる。この欲求はより高位の_{title}_ではより大きくなる、また、_{settlement}_に誰かがいてそれらを統治している時だけ適用される。
+	;Authority is a need by holders of certain titles to feel one's stature is respected. Authority is satisfied by reigning in an appropriate throneroom, or by other activities that acknowledge the title-holder's position. This need is greater for those with higher title, and only applies when someone is at a home settlement with others to reign over.
+}

@@ -1,0 +1,24 @@
+﻿{Meditative
+	label:<<solitary relaxation??一人でくつろぐ>>
+}
+{Social
+	label:<<social interaction??会話>>
+}
+{Gaming_Dexterity
+	label:<<dexterity play??ゲーム (器用さ)>>
+}
+{Gaming_Cerebral
+	label:<<cerebral play??ゲーム (知的)>>
+}
+{Television
+	label:<<television watching??_[television]_鑑賞>>
+}
+{Telescope
+	label:<<telescope study??天体観察>>
+}
+{Chemical
+	label:<<chemical consumption??ドラッグ>>
+}
+{Gluttonous
+	label:<<food consumption??暴飲暴食>>
+}

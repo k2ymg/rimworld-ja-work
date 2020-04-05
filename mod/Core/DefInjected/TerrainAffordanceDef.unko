@@ -1,0 +1,27 @@
+﻿{Light
+	label:<<light??小型>>
+}
+{Medium
+	label:<<medium??中型>>
+}
+{Heavy
+	label:<<heavy??大型>>
+}
+{ShallowWater
+	label:_<shallow water>_
+}
+{MovingFluid
+	label:<<moving water??水流>>
+}
+{Bridgeable
+	label:<<bridgeable??橋を架けられる>>
+}
+{GrowSoil
+	label:<<growable??栽培可能>>
+}
+{Diggable
+	label:<<diggable??採掘可能>>
+}
+{SmoothableStone
+	label:<<smoothable??滑らかにできる>>
+}

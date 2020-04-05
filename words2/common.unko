@@ -1,0 +1,48 @@
+colony:村
+colonist:村人
+settlement:入植地
+prisoner:囚人
+guest:客人
+faction:派閥
+
+archotech:アーコテック
+mechanoid:メカノイド
+mechanoid hive:_{mechanoid}_・ハイブ
+mechanite:メカナイト
+
+blueprint:設計
+frame:施工
+
+; room role
+bedroom:寝室
+
+; event
+heat wave:熱波
+cold snap:寒波
+psychic drone:サイキック・ドローン
+toxic fallout:毒性の降灰
+
+; ThingCategory
+psytrainer:サイトレイナー
+
+; royalty
+empire:帝国
+title:称号
+royal title:爵位
+throneroom:王座の間
+psychic entropy:サイキック・エントロピー
+psychic entropy limit:_{psychic entropy}_ 上限
+;おんし？もっと良い名前は？
+royal favor:恩賜
+speech:スピーチ
+concert:コンサート
+psycast:サイキャスト
+bladelink:ブレードリンク
+
+tribute collector:トリビュート・コレクター
+
+mech cluster:メック・クラスター
+
+janissary:イェニチェリ
+;janissary:精鋭歩兵
+techprint:テックプリント

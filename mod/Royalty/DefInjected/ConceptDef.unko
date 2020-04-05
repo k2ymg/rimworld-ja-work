@@ -1,0 +1,4 @@
+﻿{RoyalIncapableOfSocial
+	label:<<Royal incapable of social??社交性が無い貴族>>
+	helpText:{PAWN_labelShort} は社交的な事ができない。しかし、このクエストは {FACTION_royalFavorLabel} を与え、その結果_{royal title}_を得る。_{royal title}_を持つ人々には社交スキルがかなり必要なので、 {PAWN_labelShort} が_{title}_を得ると、とても苦労するだろう。高位の_{title}_では、_{colonist}_は取引や交渉のような社交的な事しかできなくなる。
+}

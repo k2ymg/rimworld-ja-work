@@ -1,0 +1,178 @@
+﻿{Root
+	label:<<root??ルート>>
+}
+{Foods
+	label:<<foods??食べ物>>
+}
+{FoodMeals
+	label:<<meals??ミール>>
+}
+{FoodRaw
+	label:<<raw food??生食材>>
+}
+{MeatRaw
+	label:<<meat??肉>>
+}
+{PlantFoodRaw
+	label:<<vegetarian??野菜>>
+}
+{AnimalProductRaw
+	label:<<animal products??畜産物>>
+}
+{EggsUnfertilized
+	label:_<eggs (unfert.)>_
+}
+{EggsFertilized
+	label:_<eggs (fert.)>_
+}
+{Manufactured
+	label:<<manufactured??加工>>
+}
+{Textiles
+	label:<<textiles??生地>>
+}
+{Leathers
+	label:<<leathers??革>>
+}
+{Medicine
+	label:<<medicine??薬>>
+}
+{Drugs
+	label:<<drugs??ドラッグ>>
+}
+{MortarShells
+	label:<<mortar shells??砲弾>>
+}
+{ResourcesRaw
+	label:<<raw resources??原材料>>
+}
+{PlantMatter
+	label:<<plant matter??植物質>>
+}
+{StoneBlocks
+	label:<<stone blocks??石のブロック>>
+}
+{Items
+	label:<<items??物品>>
+}
+{Unfinished
+	label:<<unfinished??未完成>>
+}
+{Artifacts
+	label:<<artifacts??遺物>>
+}
+{Neurotrainers
+	label:<<neurotrainers??_[neurotrainer]_>>
+}
+{NeurotrainersPsycast
+	label:<<psytrainers??_[psytrainer]_>>
+}
+{Techprints
+	label:<<techprints??_[techprint]_>>
+}
+{BodyParts
+	label:<<body parts??人体部品>>
+}
+{BodyPartsNatural
+	label:<<natural??非人工>>
+}
+{BodyPartsSimple
+	label:<<simple parts??簡素パーツ>>
+}
+{BodyPartsProsthetic
+	label:<<prosthetic??補綴>>
+}
+{BodyPartsBionic
+	label:<<bionic??バイオニック>>
+}
+{BodyPartsUltra
+	label:<<ultratech??ウルトラテック>>
+}
+{BodyPartsArchotech
+	label:_<archotech>_
+}
+{Weapons
+	label:<<weapons??武器>>
+}
+{WeaponsMelee
+	label:<<melee weapons??近接戦武器>>
+}
+{WeaponsMeleeBladelink
+	label:<<bladelink weapons??_[bladelink]_ 武器>>
+}
+{WeaponsRanged
+	label:<<ranged weapons??遠距離武器>>
+}
+{Grenades
+	label:<<grenades??投擲武器>>
+}
+{Apparel
+	label:<<apparel??衣服>>
+}
+{Headgear
+	label:<<headgear??ヘッドギア>>
+}
+{ApparelArmor
+	label:<<armor??アーマー>>
+}
+{ArmorHeadgear
+	label:<<headgear??ヘッドギア>>
+}
+{ApparelNoble
+	label:<<noble apparel??高貴な衣服>>
+}
+{HeadgearNoble
+	label:<<headgear??ヘッドギア>>
+}
+{Buildings
+	label:<<buildings??建造物>>
+}
+{BuildingsArt
+	label:<<art??芸術>>
+}
+;この辺は建設のカテゴリと同じ
+{BuildingsProduction
+	label:_<production>_
+}
+{BuildingsFurniture
+	label:_<furniture>_
+}
+{BuildingsPower
+	label:_<power>_
+}
+{BuildingsSecurity
+	label:_<ui/security>_
+}
+{BuildingsMisc
+	label:_<misc>_
+}
+{BuildingsJoy
+	label:_<recreation>_
+}
+{BuildingsTemperature
+	label:_<temperature>_
+}
+{BuildingsSpecial
+	label:<<special??特殊>>
+}
+{Chunks
+	label:<<chunks??塊>>
+}
+{StoneChunks
+	label:<<stone chunks??岩>>
+}
+{Corpses
+	label:<<corpses??死骸>>
+}
+{CorpsesHumanlike
+	label:<<humanlike corpses??人の死骸>>
+}
+{CorpsesAnimal
+	label:<<animal corpses??動物の死骸>>
+}
+{CorpsesInsect
+	label:<<insect corpses??_{insect}_虫の死骸>>
+}
+{CorpsesMechanoid
+	label:<<mechanoid corpses??_[Mechanoid]_の死骸>>
+}

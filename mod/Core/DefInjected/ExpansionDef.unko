@@ -1,0 +1,9 @@
+﻿{Core
+	label:Core
+	description:RimWorld 本体。
+}
+{Royalty
+	;labelはMOD名なので訳さない
+	label:Royalty
+	description:_[Empire]_ がやってきた。彼らは王、女王、_{title}_、名誉などの古代の伝統に従いながら、名誉に縛れた文化で超高度技術を駆使している。\n\n_{royal title}_を得よ。豪華な_{throneroom}_と王室を作れ。 _[Empire]_ エリート兵を募り、ユニークな _[Empire]_ _[bladelink]_ 武器を持たせろ。\n\n新しいサイキック能力を使え。目潰し、マインドコントロール、吐き気、狂気の誘発。テレポート、痛み止め、強力な集中力、透明化。\n\nImperial High Stellarch によく仕え、 _[rimworld]_ から脱出させよ。\n\n新しいクエストシステムは、異なる目標、敵、_{guest}_、報酬、助っ人、特別な脅威、世界の状態を組み合わせて、ユニークなクエストを生成する。この拡張は大量の新しいクエストを追加する。\n\n_[Mechanoid]_ が _[Mechanoid]_ 建築物のクラスターを作るようになる。各 _[mech cluster]_ はユニークなレイアウトを作り、ユニークな戦術パズルを提供する。 _[Mech cluster]_ は常に休止状態で現れるので、慎重な攻撃を計画・実行できる。また、それを敵に対しても利用できる。\n\n_[Empire]_ に仕える必要はない。 _[psychic amplifier]_ や他の _[Empire]_ の技術を盗める。反抗的な生き方は自由だが、難しくもある。\n\nこの拡張には RimWorld のオリジナルサウンドの作曲者 Alistair Lindsay による新しい音楽アルバムも含まれている。
+}

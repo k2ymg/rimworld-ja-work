@@ -1,0 +1,9 @@
+﻿{RoofConstructed
+	label:<<constructed roof??屋根>>
+}
+{RoofRockThin
+	label:<<rock roof (thin)??岩天井 (薄)>>
+}
+{RoofRockThick
+	label:<<overhead mountain??岩盤天井>>
+}

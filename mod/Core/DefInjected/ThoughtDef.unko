@@ -1,0 +1,2702 @@
+﻿{Inebriated
+	{stages
+		{alcohol_warmth
+			label:<<alcohol warmth??火照り>>
+			description:飲んだ後は少し気が抜ける。気持ちいい。
+		}
+		{quite_inebriated
+			label:<<quite inebriated??酔い>>
+			description:ちょっとふらつくけれど楽しい！
+		}
+		{drunk
+			label:<<drunk??酩酊>>
+			description:なんでもできるし、怖いモノなんかないぞ！素晴らしい一時だ！
+		}
+		{hammered
+			label:<<hammered??泥酔>>
+			description:おぅ！なんだぁ？
+		}
+	}
+}
+{Hungover
+	{stages
+		{mild_hangover
+			label:<<mild hangover??軽い二日酔い>>
+			description:頭痛はほとんど消えた。
+		}
+		{serious_hangover
+			label:<<serious hangover??重い二日酔い>>
+			description:酒のせいで頭痛がひどい。
+		}
+		{pounding_hangover
+			label:<<pounding hangover??酷い二日酔い>>
+			description:ガチョウの群れが頭をつついているようだ。
+		}
+	}
+}
+{AlcoholWithdrawal
+	{stages
+		{alcohol_withdrawal
+			label:<<alcohol withdrawal??アルコール_{withdrawal}_>>
+			description:なんか揺れている。何もかもがイラつく。飲みつづけるか。
+		}
+	}
+}
+{AmbrosiaHigh
+	{stages
+		{ambrosia_warmth
+			label:<<ambrosia warmth??_[ambrosia]_の火照り>>
+			description:_[Ambrosia]_は落ち着くのと同時に元気もみなぎってくる。
+		}
+	}
+}
+{AmbrosiaWithdrawal
+	{stages
+		{ambrosia_withdrawal
+			label:<<ambrosia withdrawal??_[ambrosia]__{withdrawal}_>>
+			description:気が重く寒気が収まらない。もうこの果物を欲しいとは思わない。
+		}
+	}
+}
+{GoJuiceHigh
+	{stages
+		{high_on_gojuice
+			label:<<high on go-juice??_[go-juice]_で高揚している>>
+			description:昂ぶってきたけど落ち着いている。いつでもヤれる。飛んでいる弾丸のように。
+		}
+	}
+}
+{GoJuiceWithdrawal
+	{stages
+		{gojuice_withdrawal
+			label:<<go-juice withdrawal??_[go-juice]__{withdrawal}_>>
+			description:全てがぼんやりしていて頭が回らない。手足が重い、疲れてお腹もすいた、全身が痛い。なんで目の焦点が合わないんだ？
+		}
+	}
+}
+{FlakeHigh
+	{stages
+		{high_on_flake
+			label:<<high on flake??_[flake]_で高揚している>>
+			description:いい、いいねぇ
+		}
+	}
+}
+{PsychiteTeaHigh
+	{stages
+		{psychite_tea
+			label:<<psychite tea??_[psychite tea]_>>
+			description:このお茶は気分をすごく良くしてくれる。これで元気になるのが大好きだ！
+		}
+	}
+}
+{YayoHigh
+	{stages
+		{high_on_yayo
+			label:<<high on yayo??_[yayo]_で高揚している>>
+			description:みなぎってきた!やってやろうぜ!
+		}
+	}
+}
+{PsychiteWithdrawal
+	{stages
+		{psychite_withdrawal
+			label:<<psychite withdrawal??_[psychite]__{withdrawal}_>>
+			description:人生に疲れました。何もかもがとてもつまらなくうんざりする。特に自分が。
+		}
+	}
+}
+{SmokeleafHigh
+	{stages
+		{high_on_smokeleaf
+			label:<<high on smokeleaf??_[smokeleaf]_で高揚している>>
+			description:まるで、中毒者の、ようだ。
+		}
+	}
+}
+{SmokeleafWithdrawal
+	{stages
+		{smokeleaf_withdrawal
+			label:<<smokeleaf withdrawal??_[smokeleaf]_ _{withdrawal}_>>
+			description:マジで吸いたい。体が震え、常に不安ばかり感じている。
+		}
+	}
+}
+{WakeUpWithdrawal
+	{stages
+		{wakeup_withdrawal
+			label:<<wake-up withdrawal??_[wake-up]_ _{withdrawal}_>>
+			description:完全にぼーっとしていて、集中できない。とても疲れた。
+		}
+	}
+}
+{Expectations
+	{stages
+		{skyhigh_expectations
+			label:<<sky-high expectations??とても高い期待>>
+			description:ここはとても快適に出来るはずだ。
+		}
+		{high_expectations
+			label:<<high expectations??高い期待>>
+			description:欲しい物を手に入れてはいけない理由は無い。
+		}
+		{moderate_expectations
+			label:<<moderate expectations??僅かな期待>>
+			description:何でも好き勝手には出来なそうだ。
+		}
+		{low_expectations
+			label:<<low expectations??低い期待>>
+			description:あまり快適には出来そうにない。
+		}
+		{very_low_expectations
+			label:<<very low expectations??とても低い期待>>
+			description:生きるには自分を強く保たねばならない。
+		}
+		{extremely_low_expectations
+			label:<<extremely low expectations??かなり低い期待>>
+			description:生きるには鋼の意識が必要だ。
+		}
+		{noble_expectations
+			label:<<noble expectations??貴族の期待>>
+			description:庶民より上の私は常に幸せであるべきだ。
+		}
+		{royal_expectations
+			label:<<royal expectations??王族の期待>>
+			;todo:未翻訳/保留
+			description:My majesty... I can hardly believe it myself. A moment's discomfort is below me.
+		}
+	}
+}
+{AnestheticHigh
+	{stages
+		{anesthetic_wooziness
+			label:<<anesthetic wooziness??麻酔の目眩>>
+			description:とても重い・・・そしてとても穏やかだ・・・
+		}
+	}
+}
+{KnowGuestExecuted
+	{stages
+		{justified_execution
+			label:<<justified execution??正当な処刑>>
+			description:罪を犯した_{prisoner}_か_{guest}_が処刑された。正しい行為だったが、悲しいことに変わりはない。
+		}
+		{someone_was_euthanized
+			label:<<someone was euthanized??誰かが安楽死させられた>>
+			description:_{prisoner}_か_{guest}_が安楽死させられた。慈悲深い行為だったが、悲しいことには変わりはない。
+		}
+		{someone_was_executed
+			label:<<someone was executed??誰かが処刑された>>
+			description:_{prisoner}_か_{guest}_が冷酷に殺された。ちょっと悪いことに思われた。
+		}
+		{someone_was_organmurdered
+			label:<<someone was organ-murdered??誰かが臓器目的で殺された>>
+			description:_{prisoner}_か_{guest}_が死んだ。体から臓器を取ったからだ。おぞましい。
+		}
+	}
+}
+{KnowColonistExecuted
+	{stages
+		{justified_execution_of_colonist
+			label:<<justified execution of colonist??_{colonist}_の正当な処刑>>
+			description:罪を犯した_{colonist}_が処刑された。正しい行為だったが、悲しいことには変わりない。
+		}
+		{colonist_euthanized
+			label:<<colonist euthanized??_{colonist}_の安楽死>>
+			description:_{colonist}_が安楽死させられた。それは、慈悲深い行為だったが、悲しいことには変わりない。
+		}
+		{colonist_executed
+			label:<<colonist executed??_{colonist}_の処刑>>
+			description:_{colonist}_が冷酷に殺された。ちょっと悪いことに思われた。
+		}
+		{colonist_organharvested
+			label:<<colonist organ-harvested??_{colonist}_の臓器摘出>>
+			description:_{colonist}_が死んだ。体から臓器を取ったからだ。おぞましい。
+		}
+	}
+}
+{KnowPrisonerDiedInnocent
+	{stages
+		{innocent_prisoner_died
+			label:<<innocent prisoner died??無実の_{prisoner}_の死>>
+			description:大人しくしていたにも拘わらず_{prisoner}_の一人が死んだ。_{prisoner}_の世話ぐらい出来るはずだ。彼らの死を望むのなら、蛮行を許すよりも、少なくとも秩序だった処刑ができたはずだ。
+		}
+	}
+}
+{KnowColonistDied
+	{stages
+		{colonist_died
+			label:<<colonist died??_{colonist}_の死>>
+			description:仲間の一人が死んだ。仲間の世話ぐらい出来るはずだ。
+		}
+	}
+}
+{BondedAnimalDied
+	{stages
+		{bonded_animal_died
+			label:<<bonded animal {0} died??絆で結ばれた動物 {0} の死>>
+			description:こんな優しい動物は他にはいない。この世はなんて残酷なんだ！
+		}
+	}
+}
+{PawnWithGoodOpinionDied
+	{stages
+		{my_friend_died
+			label:<<my friend {0} died??_{friend}_ {0} の死>>
+			description:とてもいい奴だったのに、逝ってしまった。この世は日に日に闇に包まれていく。
+		}
+	}
+}
+{PawnWithBadOpinionDied
+	{stages
+		{my_rival_died
+			label:<<my rival {0} died??_{rival}_ {0} の死>>
+			description:ざまあ。この世にはまだ正義があったようだ。
+		}
+	}
+}
+{MySonDied
+	{stages
+		{my_son_died
+			label:<<my son {0} died??_{son}_ {0} の死>>
+			description:_{son}_が死んだ。自分の血肉をわけた...
+		}
+	}
+}
+{MyDaughterDied
+	{stages
+		{my_daughter_died
+			label:<<my daughter {0} died??_{daughter}_ {0} の死>>
+			description:_{daughter}_が死んだ。自分の血肉をわけた...
+		}
+	}
+}
+{MyHusbandDied
+	{stages
+		{my_husband_died
+			label:<<my husband {0} died??_{husband}_ {0} の死>>
+			description:_{husband}_が死んだ。そして独りになった。
+		}
+	}
+}
+{MyWifeDied
+	{stages
+		{my_wife_died
+			label:<<my wife {0} died??_{wife}_ {0} の死>>
+			description:_{wife}_が死んだ。そして独りになった。
+		}
+	}
+}
+{MyFianceDied
+	{stages
+		{my_fiance_died
+			label:<<my fiance {0} died??_{fiance}_ {0} の死>>
+			description:_{fiance}_が死んだ。素敵な男だった・・・私の未来は消え去った。
+		}
+	}
+}
+{MyFianceeDied
+	{stages
+		{my_fiancée_died
+			label:<<my fiancée {0} died??_{fiancée}_ {0} の死>>
+			description:_{fiancée}_が死んだ。素敵な女だった・・・私の未来は消え去った。
+		}
+	}
+}
+{MyLoverDied
+	{stages
+		{my_lover_died
+			label:<<my lover {0} died??_{lover}_ {0} の死>>
+			description:_{lover}_が死んで独りになった。
+		}
+	}
+}
+{MyBrotherDied
+	{stages
+		{my_brother_died
+			label:<<my brother {0} died??_{brother}_ {0} の死>>
+			description:_{brother}_が死んだ。自分の血肉をわけた...
+		}
+	}
+}
+{MySisterDied
+	{stages
+		{my_sister_died
+			label:<<my sister {0} died??_{sister}_ {0} の死>>
+			description:_{sister}_が死んだ。自分の血肉を分けた...
+		}
+	}
+}
+{MyGrandchildDied
+	{stages
+		{my_grandchild_died
+			label:<<my grandchild {0} died??_{grandchild}_ {0} の死>>
+			description:_{grandchild}_が死んだ。自分の血肉を分けた...
+		}
+	}
+}
+{MyFatherDied
+	{stages
+		{my_father_died
+			label:<<my father {0} died??_{father}_ {0} の死>>
+			description:_{father}_が死んだ。彼はもう戻ってこない。
+		}
+	}
+}
+{MyMotherDied
+	{stages
+		{my_mother_died
+			label:<<my mother {0} died??_{mother}_ {0} の死>>
+			description:_{mother}_が死んだ。彼女はもう戻ってこない。
+		}
+	}
+}
+{MyNieceDied
+	{stages
+		{my_niece_died
+			label:<<my niece {0} died??_{niece}_ {0} の死>>
+			description:_{niece}_が死んだ。とても良い子だった。
+		}
+	}
+}
+{MyNephewDied
+	{stages
+		{my_nephew_died
+			label:<<my nephew {0} died??_{nephew}_ {0} の死>>
+			description:_{nephew}_が死んだ。とても良い子だった。
+		}
+	}
+}
+{MyHalfSiblingDied
+	{stages
+		{my_halfsibling_died
+			label:<<my half-sibling {0} died??_{half-sibling}_ {0} の死>>
+			description:_{half-sibling}_が死んだ。自分の血肉を分けた...
+		}
+	}
+}
+{MyAuntDied
+	{stages
+		{my_aunt_died
+			label:<<my aunt {0} died??_{aunt}_ {0} の死>>
+			description:_{aunt}_が死んだ。
+		}
+	}
+}
+{MyUncleDied
+	{stages
+		{my_uncle_died
+			label:<<my uncle {0} died??_{uncle}_ {0} の死>>
+			description:私の_{uncle}_が死んだ。
+		}
+	}
+}
+{MyGrandparentDied
+	{stages
+		{my_grandparent_died
+			label:<<my grandparent {0} died??_{grandparent}_ {0} の死>>
+			description:_{grandparent}_が死んだ。
+		}
+	}
+}
+{MyCousinDied
+	{stages
+		{my_cousin_died
+			label:<<my cousin {0} died??_{cousin}_ {0} の死>>
+			description:_{cousin}_が死んだ。自分の血肉を分けた...
+		}
+	}
+}
+{MyKinDied
+	{stages
+		{my_kin_died
+			label:<<my kin {0} died??_{kin}_ {0} の死>>
+			description:_{kin}_が死んだ。
+		}
+	}
+}
+;{DebugBad
+;	{stages
+;		{debug_bad_thought
+;			label:debug bad thought
+;			description:Test thought for debugging.
+;		}
+;	}
+;}
+;{DebugGood
+;	{stages
+;		{debug_good_thought
+;			label:debug good thought
+;			description:Test thought for debugging.
+;		}
+;	}
+;}
+{AteLavishMeal
+	{stages
+		{ate_lavish_meal
+			label:<<ate lavish meal??_[lavish meal]_ を食べた>>
+			description:_[Lavish meal]_ は素晴らしかった。身も心も満たされた。
+		}
+	}
+}
+{AteFineMeal
+	{stages
+		{ate_fine_meal
+			label:<<ate fine meal??_[fine meal]_ を食べた>>
+			description:本当においしい _[Fine meal]_ を食べた。おいしかった！
+		}
+	}
+}
+{AteAwfulMeal
+	{stages
+		{ate_awful_meal
+			label:<<ate awful meal??ひどい食事だった>>
+			description:胸が悪くなるような、味気ない食事を食べなければならなかった。生きるためとはいえ、こんなドロドロした物を飲み込みたいとは誰も思わない。
+		}
+	}
+}
+{AteRawFood
+	{stages
+		{ate_raw_food
+			label:<<ate raw food??生の食材を食べた>>
+			description:生の食材を食べるしかなかった。このような食べ物は食べる前に調理するべきだ。動物ではないのだから。
+		}
+	}
+}
+{AteKibble
+	{stages
+		{ate_kibble
+			label:<<ate kibble??_[kibble]_を食べた>>
+			description:_[Kibble]_を食べるしかなかった。人間性を捨てたようなものだ。
+		}
+	}
+}
+{AteCorpse
+	{stages
+		{ate_corpse
+			label:<<ate corpse??死体を食べた>>
+			description:解体も調理もしていない死体の肉をそのまま食べるしかなかった。
+		}
+	}
+}
+{AteHumanlikeMeatDirect
+	{stages
+		{raw_cannibalism
+			label:<<raw cannibalism??生の人肉を食べた>>
+			description:人肉を食べた、生で、動物のように。これは悪夢だ。
+		}
+	}
+}
+{AteHumanlikeMeatDirectCannibal
+	{stages
+		{raw_cannibalism
+			label:<<raw cannibalism??生の人肉を食べた>>
+			description:人肉を食べた、生で、動物のように。とても・・・ジューシーだった。
+		}
+	}
+}
+{AteHumanlikeMeatAsIngredient
+	{stages
+		{cooked_cannibalism
+			label:<<cooked cannibalism??調理された人肉を食べた>>
+			description:調理された人肉を食べた。おぞましい。
+		}
+	}
+}
+{AteHumanlikeMeatAsIngredientCannibal
+	{stages
+		{cooked_cannibalism
+			label:<<cooked cannibalism??調理された人肉を食べた>>
+			description:調理された人肉を食べた。とても満足している。ソラマメと良いシャンティが有れば、もっと素晴らしかっただろう。
+		}
+	}
+}
+{AteInsectMeatDirect
+	{stages
+		{ate_insect_meat
+			label:<<ate insect meat??虫の肉を食べた>>
+			description:灰色にぬめっている虫の肉を食べた。これは、恐らく、人生で最悪の味かもしれない。
+		}
+	}
+}
+{AteInsectMeatAsIngredient
+	{stages
+		{ate_cooked_insect_meat
+			label:<<ate cooked insect meat??調理された虫の肉を食べた>>
+			description:灰色にぬめっている虫の肉を調理したものを食べた。味はある程度調味料がごまかしてくれたが、虫腺か嚢か、私には分からない物が入っていた。
+		}
+	}
+}
+{AteRottenFood
+	{stages
+		{ate_rotten_food
+			label:<<ate rotten food??腐った物を食べた>>
+			description:胸くそ悪い腐った物を食べた。それは口の中でとろけたが・・・決して良い意味ではない。
+		}
+	}
+}
+{GotMarried
+	{stages
+		{got_married_to
+			label:<<got married to {0}??{0} と結婚した>>
+			description:結婚した！一緒に新しい人生を始められるなんて最高だ！
+		}
+	}
+}
+{AttendedWedding
+	{stages
+		{attended_wedding
+			label:<<attended wedding??結婚式に参列した>>
+			description:未来を作るために二人が一緒になる場面を目に出来たことは素晴らしい。
+		}
+	}
+}
+{AttendedParty
+	{stages
+		{attended_party
+			label:<<attended party??_{party}_に参加した>>
+			description:_{party}_で良い時間を過ごした。
+		}
+	}
+}
+{AttendedConcert
+	{stages
+		{attended_concert
+			label:<<attended concert??_{concert}_に参加した>>
+			description:演奏を聴いて楽しんだ。
+		}
+	}
+}
+{HeldConcert
+	{stages
+		{held_concert
+			label:<<held concert??_{concert}_を開催した>>
+			description:みんな夢中だった。みんな本当に夢中だった。
+		}
+	}
+}
+{TerribleSpeech
+	{stages
+		{terrible_speech
+			label:<<terrible speech??酷い_{speech}_>>
+			description:下手な_{speech}_だった。我々の可能性がどれ程少ないのか分かった。
+		}
+	}
+}
+{UninspiringSpeech
+	{stages
+		{uninspiring_speech
+			label:<<uninspiring speech??つまらない_{speech}_>>
+			;todo:未翻訳/保留
+			description:That speech was more awkward than inspiring. If that's who we're listening to, I'm worried.
+		}
+	}
+}
+{EncouragingSpeech
+	{stages
+		{encouraging_speech
+			label:<<encouraging speech??力強い_{speech}_>>
+			description:確かな道があると感じられる_{speech}_だった。
+		}
+	}
+}
+{InspirationalSpeech
+	{stages
+		{inspirational_speech
+			label:<<inspirational speech??感動的な_{speech}_>>
+			description:心も頭も動かされる_{speech}_だった。決意に満たされた。
+		}
+	}
+}
+{ColonistLost
+	{stages
+		{colonist_lost
+			label:<<colonist lost??_{colonist}_を失った>>
+			description:残念な出来事で仲間を失った。
+		}
+	}
+}
+{BondedAnimalLost
+	{stages
+		{bonded_animal_lost
+			label:<<bonded animal {0} lost??絆の動物 {0} を失った>>
+			description:優しく、無二の動物だった。この世は残酷だ！
+		}
+	}
+}
+{PawnWithGoodOpinionLost
+	{stages
+		{my_friend_lost
+			label:<<my friend {0} lost??友人 {0} を失った>>
+			description:良い奴だったのに。世の中は暗くなるばかりだ。
+		}
+	}
+}
+{PawnWithBadOpinionLost
+	{stages
+		{my_rival_lost
+			label:<<my rival {0} lost??ライバル {0} を失った>>
+			description:当然の結果。この世にも正義はあったようだ。
+		}
+	}
+}
+{MySonLost
+	{stages
+		{my_son_lost
+			label:<<my son {0} lost??_{son}_ {0} を失った>>
+			description:_{son}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyDaughterLost
+	{stages
+		{my_daughter_lost
+			label:<<my daughter {0} lost??_{daughter}_ {0} を失った>>
+			description:_{daughter}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyHusbandLost
+	{stages
+		{my_husband_lost
+			label:<<my husband {0} lost??_{husband}_ {0} を失った>>
+			description:_{husband}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyWifeLost
+	{stages
+		{my_wife_lost
+			label:<<my wife {0} lost??_{wife}_ {0} を失った>>
+			description:_{wife}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyFianceLost
+	{stages
+		{my_fiance_lost
+			label:<<my fiance {0} lost??_{fiance}_ {0} を失った>>
+			description:_{fiance}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyFianceeLost
+	{stages
+		{my_fiancée_lost
+			label:<<my fiancée {0} lost??_{fiancée}_ {0} を失った>>
+			description:_{fiancée}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyLoverLost
+	{stages
+		{my_lover_lost
+			label:<<my lover {0} lost??_{lover}_ {0} を失った>>
+			description:_{lover}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyBrotherLost
+	{stages
+		{my_brother_lost
+			label:<<my brother {0} lost??_{brother}_ {0} を失った>>
+			description:_{brother}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MySisterLost
+	{stages
+		{my_sister_lost
+			label:<<my sister {0} lost??_{sister}_ {0} を失った>>
+			description:_{sister}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyGrandchildLost
+	{stages
+		{my_grandchild_lost
+			label:<<my grandchild {0} lost??_{grandchild}_ {0} を失った>>
+			description:_{grandchild}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyFatherLost
+	{stages
+		{my_father_lost
+			label:<<my father {0} lost??_{father}_ {0} を失った>>
+			description:_{father}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyMotherLost
+	{stages
+		{my_mother_lost
+			label:<<my mother {0} lost??_{mother}_ {0} を失った>>
+			description:_{mother}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyNieceLost
+	{stages
+		{my_niece_lost
+			label:<<my niece {0} lost??_{niece}_ {0} を失った>>
+			description:_{niece}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyNephewLost
+	{stages
+		{my_nephew_lost
+			label:<<my nephew {0} lost??_{nephew}_ {0} を失った>>
+			description:_{nephew}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyHalfSiblingLost
+	{stages
+		{my_halfsibling_lost
+			label:<<my half-sibling {0} lost??_{half-sibling}_ {0} を失った>>
+			description:_{half-sibling}_ が消えた。
+		}
+	}
+}
+{MyAuntLost
+	{stages
+		{my_aunt_lost
+			label:<<my aunt {0} lost??_{aunt}_ {0} を失った>>
+			description:_{aunt}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyUncleLost
+	{stages
+		{my_uncle_lost
+			label:<<my uncle {0} lost??_{uncle}_ {0} を失った>>
+			description:_{uncle}_ が消えた。いつか帰ってくると願っている。
+		}
+	}
+}
+{MyGrandparentLost
+	{stages
+		{my_grandparent_lost
+			label:<<my grandparent {0} lost??_{grandparent}_ {0} を失った>>
+			description:_{grandparent}_ が消えた。
+		}
+	}
+}
+{MyCousinLost
+	{stages
+		{my_cousin_lost
+			label:<<my cousin {0} lost??_{cousin}_ {0} を失った>>
+			description:_{cousin}_ が消えた。
+		}
+	}
+}
+{MyKinLost
+	{stages
+		{my_kin_lost
+			label:<<my kin {0} lost??_{kin}_ {0} を失った>>
+			description:_{kin}_ が消えた。
+		}
+	}
+}
+{AteWithoutTable
+	{stages
+		{ate_without_table
+			label:<<ate without table??地べたで食べた>>
+			description:地べたで食事するしかなかった。この辺りにテーブルを置けないのか?
+		}
+	}
+}
+{SleepDisturbed
+	{stages
+		{disturbed_sleep
+			label:<<disturbed sleep??良く眠れなかった>>
+			description:人が周りをうろついて良く眠れなかった。個室が解決してくれるはず。
+		}
+	}
+}
+{NewColonyOptimism
+	{stages
+		{initial_optimism
+			label:<<initial optimism??初期の楽観>>
+			description:苦しい状況だが、新しい_{settlement}_を開拓することに興奮している。
+		}
+	}
+}
+{NewColonyHope
+	{stages
+		{initial_hope
+			label:<<initial hope??初期の希望>>
+			description:ここには慣れたが、まだ新しい状況に興奮している。上手くいきますように・・・
+		}
+	}
+}
+{SleptOutside
+	{stages
+		{slept_outside
+			label:<<slept outside??外で寝た>>
+			description:自然に対して無防備なまま外で寝るしかなかった。
+		}
+	}
+}
+{SleptOnGround
+	{stages
+		{slept_on_ground
+			label:<<slept on ground??地べたで寝た>>
+			description:動物のように地べたで寝るしかなかった。
+		}
+	}
+}
+{SleptInCold
+	{stages
+		{slept_in_the_cold
+			label:<<slept in the cold??寒い中で寝た>>
+			description:寒い中で寝るしかなかった。ヒーターが切実に欲しい。
+		}
+	}
+}
+{SleptInHeat
+	{stages
+		{slept_in_the_heat
+			label:<<slept in the heat??暑い中で寝た>>
+			description:耐えられないほどの暑さの中で寝るしかなかった。クーラーはないの？
+		}
+	}
+}
+{KnowPrisonerSold
+	{stages
+		{prisoner_sold
+			label:<<prisoner sold??_{prisoner}_が売られた>>
+			description:この_{colony}_では_{prisoner}_を奴隷として売っている。悪い考えだ。
+		}
+	}
+}
+{FreedFromSlavery
+	{stages
+		{freed_from_slavery
+			label:<<freed from slavery??_<slavery>_から自由になった>>
+			description:_{slavery}_から自由になった。感謝している！
+		}
+	}
+}
+{ReleasedHealthyPrisoner
+	{stages
+		{prisoner_released
+			label:<<prisoner released??_{prisoner}_を解放した>>
+			description:健康的な_{prisoner}_を解放した。_{prisoner}_もちゃんと扱えると分かって嬉しい。
+		}
+	}
+}
+{KnowGuestOrganHarvested
+	{stages
+		{someones_organ_harvested
+			label:<<someone's organ harvested??誰かの臓器が摘出された>>
+			description:_{guest}_か_{prisoner}_から臓器が摘出された。なすすべがない時に臓器のために解体するなんて、おぞましい。
+		}
+	}
+}
+{KnowColonistOrganHarvested
+	{stages
+		{colonists_organ_harvested
+			label:<<colonist's organ harvested??_{colonist}_の臓器が摘出された>>
+			description:誰かが_{colonist}_から臓器を摘出した。なすすべがない時に臓器のために解体するなんて、おぞましい。
+		}
+	}
+}
+{MyOrganHarvested
+	{stages
+		{my_organ_harvested
+			label:<<my organ harvested??私の臓器が摘出された>>
+			description:私から臓器を摘出した！まるで古いエンジンを分解するかのように!
+		}
+	}
+}
+{WasImprisoned
+	{stages
+		{was_imprisoned
+			label:<<was imprisoned??投獄された>>
+			description:私をしらばく投獄した、まるで囚われたケモノのように。
+		}
+	}
+}
+{Catharsis
+	{stages
+		{catharsis
+			label:<<catharsis??カタルシス>>
+			description:長いトンネルを抜けたように、やっと気持ちがすっきりした。
+		}
+	}
+}
+{Nuzzled
+	{stages
+		{nuzzled
+			label:<<nuzzled??擦り寄られた>>
+			description:かわいい動物が擦り寄ってきた。
+		}
+	}
+}
+{KnowBuriedInSarcophagus
+	{stages
+		{buried_in_sarcophagus
+			label:<<buried in sarcophagus??埋葬した>>
+			description:装飾付きの棺に誰かが埋葬された。魂に安らぎを。
+		}
+	}
+}
+{SoakingWet
+	{stages
+		{soaking_wet
+			label:<<soaking wet??ずぶ濡れ>>
+			description:ずぶ濡れになった。
+		}
+	}
+}
+{ButcheredHumanlikeCorpse
+	{stages
+		{I_butchered_humanlike
+			label:<<I butchered humanlike??人肉を捌いた>>
+			description:誰かの人肉を動物のように切り捌いた。
+		}
+	}
+}
+{KnowButcheredHumanlikeCorpse
+	{stages
+		{we_butchered_humanlike
+			label:<<we butchered humanlike??私達は人肉を捌いた>>
+			description:私達は誰かの人肉を動物のように切り捌いた。
+		}
+	}
+}
+{ObservedLayingCorpse
+	{stages
+		{observed_corpse
+			label:<<observed corpse??死体を見た>>
+			description:地面に転がっている死体を見て不安になった。
+		}
+	}
+}
+{ObservedLayingRottingCorpse
+	{stages
+		{observed_rotting_corpse
+			label:<<observed rotting corpse??腐乱死体を見た>>
+			description:地面に転がっている腐乱死体を見て不安になった。
+		}
+	}
+}
+{WitnessedDeathAlly
+	{stages
+		{witnessed_allys_death
+			label:<<witnessed ally's death??仲間が死ぬところを見た>>
+			description:仲間が死ぬところを見た。さっきまで生きていたのに、次の瞬間にはもう死んでいた。
+		}
+	}
+}
+{WitnessedDeathNonAlly
+	{stages
+		{witnessed_outsiders_death
+			label:<<witnessed outsider's death??よそ者が死ぬところを見た>>
+			description:誰かが死ぬところ見た。さっきまで生きていたのに、次の瞬間にはもう死んでいた。
+		}
+	}
+}
+{WitnessedDeathFamily
+	{stages
+		{witnessed_family_members_death
+			label:<<witnessed family member's death??家族が死ぬところを見た>>
+			description:家族が死ぬところをみた。自分の血肉をわけた...
+		}
+	}
+}
+{WitnessedDeathBloodlust
+	{stages
+		{witnessed_death_with_bloodlust
+			label:<<witnessed death with bloodlust??殺戮を見た>>
+			description:誰かが死んだ！燃える！
+		}
+	}
+}
+{KilledHumanlikeBloodlust
+	{stages
+		{killed_someone
+			label:<<killed someone??殺した>>
+			description:誰かを殺した！最高だ！
+		}
+	}
+}
+{DefeatedHostileFactionLeader
+	{stages
+		{defeated_hostile_leader
+			label:<<defeated hostile leader {0}??敵のリーダー {0} を打ち負かした>>
+			description:奴らは我々を滅ぼそうとしていたが、返り討ちにしてやった!
+		}
+	}
+}
+{DefeatedHostileFactionLeaderOpinion
+	{stages
+		{defeated_hostile_leader
+			label:<<defeated hostile leader??敵のリーダーを打ち負かした>>
+		}
+	}
+}
+{ColonistBanished
+	{stages
+		{colonist_banished
+			label:<<colonist banished??_{colonist}_を追放した>>
+			description:誰かを追放した。頑張ってほしいが、心配だ。
+		}
+	}
+}
+{ColonistBanishedToDie
+	{stages
+		{colonist_banished_to_death
+			label:<<colonist banished to death??_{colonist}_を死なせるように追放した>>
+			description:ほぼ生き残れないような状態で誰かを追放した。
+		}
+	}
+}
+{PrisonerBanishedToDie
+	{stages
+		{prisoner_banished_to_death
+			label:<<prisoner banished to death??_{prisoner}_を死なせるように追放した>>
+			description:ほぼ生き残れないような状態で_{prisoner}_を追放した。
+		}
+	}
+}
+{BondedAnimalBanished
+	{stages
+		{bonded_animal_banished
+			label:<<bonded animal {0} banished??絆で結ばれた動物 {0} が追放された>>
+			description:絆で結ばれた動物が追放された！
+		}
+	}
+}
+{FailedToRescueRelative
+	{stages
+		{failed_to_rescue
+			label:<<failed to rescue {0}??{0} の救出に失敗した>>
+			description:近しい人を救える機会があったのに、出来なかった。助けられたかもしれないのに！
+		}
+	}
+}
+{RescuedRelative
+	{stages
+		{rescued
+			label:<<rescued {0}??{0} を救出した>>
+			description:近しい人を救出した。ようやく胸をなで下ろした。
+		}
+	}
+}
+{Rescued
+	;バグなのかどうか知らないが、これはポッドを助けても表示される。なので、どうとでも取れる曖昧な文にする。
+	{stages
+		{rescued
+			label:<<rescued??救出された>>
+			description:助けられた！もうダメかと思っていた。とても感謝している。
+		}
+	}
+}
+{AteInImpressiveDiningRoom
+	{stages
+		{decent_dining_room
+			label:<<decent dining room??まともな食堂>>
+			description:まともな食堂で食事した。
+		}
+		{slightly_impressive_dining_room
+			label:<<slightly impressive dining room??まずまずな食堂>>
+			description:まずまずな食堂で食事した。
+		}
+		{somewhat_impressive_dining_room
+			label:<<somewhat impressive dining room??なかなかな食堂>>
+			description:なかなかな食堂で食事した。
+		}
+		{very_impressive_dining_room
+			label:<<very impressive dining room??素晴らしい食堂>>
+			description:素晴らしい食堂で食事した。
+		}
+		{extremely_impressive_dining_room
+			label:<<extremely impressive dining room??豪華な食堂>>
+			description:豪華な食堂で食事した。ずっとこうしていたい。
+		}
+		{unbelievably_impressive_dining_room
+			label:<<unbelievably impressive dining room??信じられない食堂>>
+			description:信じられないような食堂で食事した。ずっとこうしていたい。
+		}
+		{wondrously_impressive_dining_room
+			label:<<wondrously impressive dining room??幻想的な食堂>>
+			description:幻想的な食堂で食事した。ずっとこうしていたい。
+		}
+	}
+}
+{JoyActivityInImpressiveRecRoom
+	{stages
+		{decent_rec_room
+			label:<<decent rec room??まともな娯楽室>>
+			description:まともな娯楽室で楽しんだ。
+		}
+		{slightly_impressive_rec_room
+			label:<<slightly impressive rec room??まずまずな娯楽室>>
+			description:まずまずな娯楽室で楽しんだ。
+		}
+		{somewhat_impressive_rec_room
+			label:<<somewhat impressive rec room??なかなかな娯楽室>>
+			description:なかなかな娯楽室で楽しんだ。
+		}
+		{very_impressive_rec_room
+			label:<<very impressive rec room??素晴らしい娯楽室>>
+			description:素晴らしい娯楽室で楽しんだ。
+		}
+		{extremely_impressive_rec_room
+			label:<<extremely impressive rec room??豪華な娯楽室>>
+			description:豪華な娯楽室で楽しんだ。ずっとこうしていたい。
+		}
+		{unbelievably_impressive_rec_room
+			label:<<unbelievably impressive rec room??信じられない娯楽室>>
+			description:信じられないような娯楽室で楽しんだ。ずっとこうしていたい。
+		}
+		{wondrously_impressive_rec_room
+			label:<<wondrously impressive rec room??幻想的な娯楽室>>
+			description:幻想的な娯楽室で楽しんだ。ずっとこうしていたい。
+		}
+	}
+}
+{SleptInBedroom
+	{stages
+		{awful_bedroom
+			label:<<awful bedroom??酷い寝室>>
+			description:酷い寝室で寝なければならなかった。
+		}
+		{decent_bedroom
+			label:<<decent bedroom??まともな寝室>>
+			description:まともな寝室で寝られた。
+		}
+		{slightly_impressive_bedroom
+			label:<<slightly impressive bedroom??まずまずな寝室>>
+			description:まずまずな寝室で寝られた。いいね。
+		}
+		{impressive_bedroom
+			label:<<impressive bedroom??なかなかな寝室>>
+			description:なかなかな寝室で寝た。良かった。
+		}
+		{very_impressive_bedroom
+			label:<<very impressive bedroom??素晴らしい寝室>>
+			description:素晴らしい寝室で寝た。お気に入りだ。
+		}
+		{extremely_impressive_bedroom
+			label:<<extremely impressive bedroom??豪華な寝室>>
+			description:豪華な寝室で寝た。素晴らしかった。
+		}
+		{unbelievably_impressive_bedroom
+			label:<<unbelievably impressive bedroom??信じられない寝室>>
+			description:信じられないような寝室で寝た。衝撃的だった。
+		}
+		{wondrously_impressive_bedroom
+			label:<<wondrously impressive bedroom??幻想的な寝室>>
+			description:天国のような寝室で寝た。幻想的だった。
+		}
+	}
+}
+{SleptInBarracks
+	{stages
+		{awful_barrack
+			label:<<awful barrack??酷い共同寝室>>
+			description:酷い寝室で寝るしかなかった。ぞっとするような部屋だった上に、一緒に寝ている！
+		}
+		{dull_barrack
+			label:<<dull barrack??さえない共同寝室>>
+			description:さえない寝室で寝るしかなかった。しかも、他の人と一緒に寝ている。
+		}
+		{mediocre_barrack
+			label:<<mediocre barrack??平凡な共同寝室>>
+			description:平凡な寝室で他人と一緒に寝るしかなかった。こんな所に居たくない。
+		}
+		{decent_barrack
+			label:<<decent barrack??まともな共同寝室>>
+			description:まともな寝室で寝たが、一緒に寝るのは大嫌いだ。
+		}
+		{slightly_impressive_barrack
+			label:<<slightly impressive barrack??まずまずな共同寝室>>
+			description:まずまずな寝室で寝られた。しかし、一緒に寝たくはない。
+		}
+		{impressive_barrack
+			label:<<impressive barrack??なかなかな共同寝室>>
+			description:なかなかな寝室で寝られた。とはいえ、一緒に寝るのは止めたい。
+		}
+		{very_impressive_barrack
+			label:<<very impressive barrack??素晴らしい共同寝室>>
+			description:素晴らしい寝室で寝た。一緒でも気にならない。
+		}
+		{extremely_impressive_barrack
+			label:<<extremely impressive barrack??豪華な共同寝室>>
+			description:豪華な寝室で寝た。一緒でも気にならない。
+		}
+		{unbelievably_impressive_barrack
+			label:<<unbelievably impressive barrack??信じられない共同寝室>>
+			description:信じられないような寝室で寝た。一緒でも構わない。
+		}
+		{wondrously_impressive_barrack
+			label:<<wondrously impressive barrack??幻想的な共同寝室>>
+			description:幻想的な寝室で寝た。一緒でも幸せだ。
+		}
+	}
+}
+{Chitchat
+	{stages
+		{chitchat
+			label:<<chitchat??世間話>>
+		}
+	}
+}
+{DeepTalk
+	{stages
+		{deep_talk
+			label:<<deep talk??込み入った会話>>
+		}
+	}
+}
+{Slighted
+	{stages
+		{slighted
+			label:<<slighted??ばかにされた>>
+		}
+	}
+}
+{Insulted
+	{stages
+		{insulted
+			label:<<insulted??侮辱された>>
+		}
+	}
+}
+{InsultedMood
+	{stages
+		{insulted
+			label:<<insulted??侮辱された>>
+			description:面と向かって侮辱された！なんて嫌な奴！
+		}
+	}
+}
+{KindWords
+	{stages
+		{kind_words
+			label:<<kind words??優しい言葉>>
+		}
+	}
+}
+{KindWordsMood
+	{stages
+		{kind_words
+			label:<<kind words??優しい言葉>>
+			description:優しい言葉をかけてくれた！なんて良い人だ！
+		}
+	}
+}
+{RapportBuilt
+	{stages
+		{rapport_built
+			label:<<rapport built??親密な関係>>
+		}
+	}
+}
+{HadAngeringFight
+	{stages
+		{angering_fight
+			label:<<angering fight??腹が立って喧嘩>>
+		}
+	}
+}
+{HadCatharticFight
+	{stages
+		{cathartic_fight
+			label:<<cathartic fight??カッとなって喧嘩>>
+		}
+	}
+}
+{HarmedMe
+	{stages
+		{harmed_me
+			label:<<harmed me??傷つけられた>>
+		}
+	}
+}
+{BotchedMySurgery
+	{stages
+		{botched_my_surgery
+			label:<<botched my surgery??手術でヘマをされた>>
+		}
+	}
+}
+{RescuedMe
+	{stages
+		{rescued_me
+			label:<<rescued me??救出された>>
+		}
+	}
+}
+{RescuedMeByOfferingHelp
+	{stages
+		{rescued_me
+			label:<<rescued me??救出された>>
+			description:救出された！もうダメかと思っていた。感謝している。
+		}
+	}
+}
+{RecruitedMe
+	{stages
+		{recruited_me
+			label:<<recruited me??勧誘された>>
+		}
+	}
+}
+{CrashedTogether
+	{stages
+		{crashed_together
+			label:<<crashed together??一緒に不時着した>>
+		}
+	}
+}
+{SoldMyLovedOne
+	{stages
+		{loved_one_sold
+			label:<<loved one sold??大切な人が売られた>>
+			description:大切な人が肉のように商人に売られた！
+		}
+	}
+}
+{SoldMyBondedAnimal
+	{stages
+		{bonded_animal_given_away
+			label:<<bonded animal given away??絆で結ばれた動物が譲渡された>>
+			description:絆で結ばれている特別な動物が譲渡された！
+		}
+	}
+}
+{SoldMyBondedAnimalMood
+	{stages
+		{bonded_animal_given_away
+			label:<<bonded animal given away??絆で結ばれた動物が譲渡された>>
+			description:絆で結ばれている特別な動物が譲渡された！
+		}
+	}
+}
+{ForcedMeToTakeDrugs
+	{stages
+		{forced_me_to_take_drugs
+			label:<<forced me to take drugs??ドラッグをやらされた>>
+		}
+	}
+}
+{ForcedMeToTakeDrugsMood
+	{stages
+		{forced_to_take_drugs
+			label:<<forced to take drugs??ドラッグをやらされた>>
+			description:私は_<teetotaler>_だから、自分でドラッグを摂ったりはしない。なのに無理矢理！汚れたように感じる。 
+		}
+	}
+}
+{ForcedMeToTakeLuciferium
+	{stages
+		{forced_me_to_take_luciferium
+			label:<<forced me to take luciferium??_<luciferium>_を摂らされた>>
+		}
+	}
+}
+{ForcedMeToTakeLuciferiumMood
+	{stages
+		{forced_to_take_luciferium
+			label:<<forced to take luciferium??_[Luciferium]_を摂らされた>>
+			description:自然体主義者だから、_[Luciferium]_は決して摂らないのに、無理矢理！汚れたように感じる。
+		}
+	}
+}
+{RebuffedMyRomanceAttempt
+	{stages
+		{rebuffed_me
+			label:<<rebuffed me??拒絶された>>
+		}
+	}
+}
+{RebuffedMyRomanceAttemptMood
+	{stages
+		{rebuffed_by
+			label:<<rebuffed by {0}??{0} に拒絶された>>
+			description:いい親密な関係を築こうとしたけど無視された。ひどいやつ。
+		}
+	}
+}
+{FailedRomanceAttemptOnMe
+	{stages
+		{failed_to_romance_me
+			label:<<failed to romance me??私への誘惑は失敗した>>
+		}
+	}
+}
+{FailedRomanceAttemptOnMeLowOpinionMood
+	{stages
+		{had_to_rebuff
+			label:<<had to rebuff {0}??{0} を拒絶した>>
+			description:嫌いな奴が誘おうとしてきた。
+		}
+	}
+}
+{BrokeUpWithMe
+	{stages
+		{broke_up_with_me
+			label:<<broke up with me??振られた>>
+		}
+	}
+}
+{BrokeUpWithMeMood
+	{stages
+		{broken_up_with_by
+			label:<<broken up with by {0}??{0} に振られた>>
+			description:ゴミでも捨てるかのよう振られた。
+		}
+	}
+}
+{CheatedOnMe
+	{stages
+		{cheated_on_me
+			label:<<cheated on me??浮気された>>
+		}
+	}
+}
+{CheatedOnMeMood
+	{stages
+		{cheated_on_by
+			label:{<<cheated on by {0}??0} に浮気された>>
+			description:やってくれたのは誰だ！
+		}
+	}
+}
+{DivorcedMe
+	{stages
+		{divorced_me
+			label:<<divorced me??離婚された>>
+		}
+	}
+}
+{DivorcedMeMood
+	{stages
+		{divorced_by
+			label:<<divorced by {0}??{0} に離婚された>>
+			description:婚姻の誓いを立てたのに、破り捨てられた。
+		}
+	}
+}
+{RejectedMyProposal
+	{stages
+		{rejected_my_proposal
+			label:<<rejected my proposal??プロポーズを断られた>>
+		}
+	}
+}
+{RejectedMyProposalMood
+	{stages
+		{my_proposal_was_rejected_by
+			label:<<my proposal was rejected by {0}??{0} にプロポーズを断られた>>
+			description:結婚して当然だと思っていたが、このざまだ。
+		}
+	}
+}
+{IRejectedTheirProposal
+	{stages
+		{I_rejected_their_proposal
+			label:<<I rejected their proposal??プロポーズを断った>>
+		}
+	}
+}
+{HoneymoonPhase
+	{stages
+		{honeymoon_phase
+			label:<<honeymoon phase??ハネムーン>>
+		}
+	}
+}
+{GotSomeLovin
+	{stages
+		{got_some_lovin
+			label:<<got some lovin’??愛を育んだ>>
+			description:もう独りエッチしなくてすみます。
+		}
+	}
+}
+{KilledMyFriend
+	{stages
+		{killed_my_friend
+			label:<<killed my friend??_{friend}_が殺された>>
+		}
+	}
+}
+{KilledMyRival
+	{stages
+		{killed_my_rival
+			label:<<killed my rival??_{rival}_が殺された>>
+		}
+	}
+}
+{KilledMyLover
+	{stages
+		{killed_my_lover
+			label:<<killed my lover??_{lover}_が殺された>>
+		}
+	}
+}
+{KilledMyFiance
+	{stages
+		{killed_my_fiance
+			label:<<killed my fiance??_{fiance}_が殺された>>
+		}
+	}
+}
+{KilledMySpouse
+	{stages
+		{killed_my_spouse
+			label:<<killed my spouse??_{spouse}_が殺された>>
+		}
+	}
+}
+{KilledMyFather
+	{stages
+		{killed_my_father
+			label:<<killed my father??_{father}_が殺された>>
+		}
+	}
+}
+{KilledMyMother
+	{stages
+		{killed_my_mother
+			label:<<killed my mother??_{mother}_が殺された>>
+		}
+	}
+}
+{KilledMySon
+	{stages
+		{killed_my_son
+			label:<<killed my son??_{son}_が殺された>>
+		}
+	}
+}
+{KilledMyDaughter
+	{stages
+		{killed_my_daughter
+			label:<<killed my daughter??_{daughter}_が殺された>>
+		}
+	}
+}
+{KilledMyBrother
+	{stages
+		{killed_my_brother
+			label:<<killed my brother??_{brother}_が殺された>>
+		}
+	}
+}
+{KilledMySister
+	{stages
+		{killed_my_sister
+			label:<<killed my sister??_{sister}_が殺された>>
+		}
+	}
+}
+{KilledMyKin
+	{stages
+		{killed_my_kin
+			label:<<killed my kin??_{kin}_が殺された>>
+		}
+	}
+}
+{KilledMyBondedAnimal
+	{stages
+		{killed_my_bonded_animal
+			label:<<killed my bonded animal??絆で結ばれた動物が殺された>>
+		}
+	}
+}
+{ArtifactMoodBoost
+	{stages
+		{strange_feeling
+			label:<<strange feeling??奇妙な感覚>>
+			description:ともても奇妙な感じだが、すごく落ち着ける。
+		}
+	}
+}
+{EnvironmentDark
+	{stages
+		{darkness
+			label:<<darkness??暗がり>>
+			description:しばらく暗がりに居た。気にくわない。
+		}
+	}
+}
+{ApparelDamaged
+	{stages
+		{ratty_apparel
+			label:<<ratty apparel??薄汚い格好>>
+			description:苛つくほどに大きな穴が服に開いている。新しい服は着られないのか？
+		}
+		{tattered_apparel
+			label:<<tattered apparel??ボロボロな格好>>
+			description:バラバラに崩れ落ちそうだ。ゴミの山に見えないような物は着られないのか？
+		}
+	}
+}
+{WrongApparelGender
+	{stages
+		{wearing_apparel
+			label:<<wearing {0} apparel??{0} を着ている>>
+			description:明らかに{0}用の服を着ている！恥ずかしい。
+		}
+	}
+}
+{DeadMansApparel
+	{stages
+		{tainted
+			label:<<tainted {0}??穢れた {0}>>
+			description:死人が着ていた物を身につけている。気味が悪くて不潔な感じがする。
+		}
+		{tainted_1
+			label:<<tainted {0} (+1)??穢れた {0} (+1)>>
+			description:死人が着ていた物を二つも身につけている。気味が悪くて不潔な感じがする。
+		}
+		{tainted_2
+			label:<<tainted {0} (+2)??穢れた {0} (+2)>>
+			description:死人が着ていた物を三つも身につけている。気味が悪くて不潔な感じがする。
+		}
+		{tainted_etc
+			label:<<tainted {0} etc??穢れた {0} (etc)>>
+			description:死人が着ていた物を四つ以上身につけている。気味が悪くて不潔な感じがする。
+		}
+	}
+}
+{HumanLeatherApparelSad
+	{stages
+		{human_leather
+			label:<<human leather {0}??人革の {0}>>
+			description:人皮製の服を着ていると不安になる。こんな事は誰もしない。
+		}
+		{human_leather_1
+			label:<<human leather {0} (+1)??人革の {0} (+1)>>
+			description:狂人のような格好をさせられている。
+		}
+		{human_leather_2
+			label:<<human leather {0} (+2)??人革の {0} (+2)>>
+			description:服の何処かに顔があると思う。なんてこった、顔で出来た服か。
+		}
+		{human_leather_etc
+			label:<<human leather {0} etc??人革の {0} (etc)>>
+			description:ホラー映画から飛び出してきた変人みたいで、映画の中に居るみたいだ。
+		}
+	}
+}
+{HumanLeatherApparelHappy
+	{stages
+		{human_leather
+			label:<<human leather {0}??人革の {0}>>
+			description:他人の苦痛を身にまとうことを味わっている。
+		}
+		{human_leather_1
+			label:<<human leather {0} (+1)??人革の {0} (+1)>>
+			description:これで脅せる。私の力を知れ。
+		}
+		{human_leather_2
+			label:<<human leather {0} (+2)??人革の {0} (+2)>>
+			description:服にある顔は笑っていないが、私を愉快にさせてくれる。
+		}
+		{human_leather_etc
+			label:<<human leather {0} etc??人革の {0} (etc)>>
+			description:正に人肉！人肉は勝利の証だ！
+		}
+	}
+}
+{Sick
+	{stages
+		{sick
+			label:<<sick??病気>>
+			description:気分が悪い。
+		}
+	}
+}
+{EnvironmentCold
+	{stages
+		{chilly
+			label:<<chilly??冷える>>
+			description:寒くて不快。
+		}
+		{cold
+			label:<<cold??寒い>>
+			description:とても寒くて震えている。
+		}
+		{numbing_cold
+			label:<<numbing cold??感覚が無くなるほどに寒い>>
+			description:震えが止まらない。歯がガチガチ鳴っている。暖を取ることしか考えられない。
+		}
+		{absolutely_freezing
+			label:<<absolutely freezing??完全に凍えている>>
+			description:歯が猛烈にガチガチ鳴っていて、殆ど話せない。つま先の感覚が無い。今すぐ暖を取らないと。
+		}
+	}
+}
+{EnvironmentHot
+	{stages
+		{sweaty
+			label:<<sweaty??汗まみれ>>
+			description:暑すぎて、汗をかいている。
+		}
+		{hot
+			label:<<hot??暑い>>
+			description:あまりにも暑すぎる。とにかく冷えた空気を吸いたい・・・
+		}
+		{sweltering_hot
+			label:<<sweltering hot??蒸し暑い>>
+			description:オーブンの中にいるようだ！いつまで耐えられるかわからない。
+		}
+		{blistering_hot
+			label:<<blistering hot??焼けるほど暑い>>
+			description:焦げそうなくらい暑い。この熱で死ねる！
+		}
+	}
+}
+{NeedFood
+	{stages
+		{hungry
+			label:<<hungry??空腹>>
+			description:本当にお腹が空いた。
+		}
+		{ravenously_hungry
+			label:<<ravenously hungry??とにかく何か食べたい>>
+			description:この空腹感を無視するのは難しい。
+		}
+		{malnourished
+			label:<<malnourished??栄養失調>>
+			description:最後に食事をしたのはいつだったか。意識がぼんやりして集中できない。体が衰えてきた。
+		}
+		{badly_malnourished
+			label:<<badly malnourished??酷い栄養失調>>
+			description:身体が衰弱していくのが分かる。胃が猛烈に痛む。
+		}
+		{starving
+			label:<<starving??飢餓>>
+			description:食べ物以外の事を考えるのが難しい。皮膚が骨に張り付いている。このまま死ぬのか？
+		}
+		{advanced_starvation
+			label:<<advanced starvation??飢餓 (末期)>>
+			description:体が動かない、食べ物以外の事を考えるのが難しい。胃が猛烈に痛む。意識が飛びそうだ。
+		}
+		{extreme_starvation
+			label:<<extreme starvation??飢餓 (限界)>>
+			description:食べ物...食べ物...何でも...たのむ...
+		}
+	}
+}
+{NeedRest
+	{stages
+		{drowsy
+			label:<<drowsy??眠い>>
+			description:もうしばらく寝ていない。集中できない。
+		}
+		{tired
+			label:<<tired??疲れた>>
+			description:とても疲れた。今すぐ横になって、数分でも休みたい...
+		}
+		{exhausted
+			label:<<exhausted??疲れ果てた>>
+			description:疲れ切って、立っているのがやっと。まぶたが鉛のように重い。寝かせてほしい...
+		}
+	}
+}
+{NeedJoy
+	{stages
+		{recreationstarved
+			label:<<recreation-starved??娯楽に餓えている>>
+			description:暇な時に楽しい事をしたのはずいぶん前だ。
+		}
+		{recreationdeprived
+			label:<<recreation-deprived??娯楽不足>>
+			description:もっと娯楽の種類を増やして、遊ばせて欲しい。ここはとても退屈。
+		}
+		{recreation_unfulfilled
+			label:<<recreation unfulfilled??娯楽が満たされていない>>
+			description:もっと娯楽の種類を増やして、遊ばせて欲しい。
+		}
+		{recreation_satisfied
+			label:<<recreation satisfied??娯楽満足>>
+			description:やりたいことが色々できて、素晴らしい時間を過ごせた。
+		}
+		{recreation_fully_satisfied
+			label:<<recreation fully satisfied??娯楽大満足>>
+			description:とても楽しんだ、最高！
+		}
+	}
+}
+{NeedComfort
+	{stages
+		{uncomfortable
+			label:<<uncomfortable??心地よくない>>
+			description:この頃はあまり心地良くない。この辺に何か柔らかい椅子が必要だ。
+		}
+		{comfortable
+			label:<<comfortable??心地よい>>
+			description:この頃は快適に過ごしている。
+		}
+		{quite_comfortable
+			label:<<quite comfortable??十分心地よい>>
+			description:この頃はとても快適に過ごしている。
+		}
+		{extremely_comfortable
+			label:<<extremely comfortable??非常に心地よい>>
+			description:この頃は非常に快適に過ごしている。ここはとても素敵だ。
+		}
+		{luxuriantly_comfortable
+			label:<<luxuriantly comfortable??贅沢なほどに心地よい>>
+			description:天上の雲で休んでいるようだ。
+		}
+	}
+}
+{NeedBeauty
+	{stages
+		{hideous_environment
+			label:<<hideous environment??酷い環境>>
+			description:ここは耐えられない程に醜い。これ以上見るのは不可能だ。
+		}
+		{ugly_environment
+			label:<<ugly environment??嫌な環境>>
+			description:本当に嫌な所。これ以上見たくない。
+		}
+		{unsightly_environment
+			label:<<unsightly environment??見苦しい環境>>
+			description:ここはちょっと見苦しい所だ。見たいとは思わない。
+		}
+		{pretty_environment
+			label:<<pretty environment??良い環境>>
+			description:ここは良さそうだ。
+		}
+		{beautiful_environment
+			label:<<beautiful environment??美しい環境>>
+			description:本当にここが気に入っている。美しい。
+		}
+		{gorgeous_environment
+			label:<<gorgeous environment??素晴らしい環境>>
+			description:ここは美しい。気分が高揚して、幸せな人生をおくらせてくれる。
+		}
+	}
+}
+{NeedRoomSize
+	{stages
+		{confined_interior
+			label:<<confined interior??窮屈な室内>>
+			description:ここは狭すぎる。檻の中のネズミのようだ。
+		}
+		{cramped_interior
+			label:<<cramped interior??狭い室内>>
+			description:この部屋は小さすぎる。もっと歩き回れて息ができる空間が欲しい。
+		}
+		{spacious_interior
+			label:<<spacious interior??広い室内>>
+			description:この部屋はとても大きく、開放感がある。
+		}
+	}
+}
+{NeedOutdoors
+	{stages
+		{entombed_underground
+			label:<<entombed underground??地下に葬られている>>
+			description:地下に居すぎている。山の重みで押し潰されているようだ。空を見て、風を感じたい。
+		}
+		{trapped_underground
+			label:<<trapped underground??地下に囚われている>>
+			description:どれほど地下に居るのか？新鮮な空気にの中に出て、空の下で過ごしたい。
+		}
+		{cabin_fever
+			label:_<cabin fever>_
+			description:室内で過ごしすぎて屋根に押し潰されているみたいだ。外に出て空を見たい。
+		}
+		{trapped_indoors
+			label:<<trapped indoors??室内に囚われている>>
+			description:最後に空を見てからずいぶん時間が経った。
+		}
+		{stuck_indoors
+			label:<<stuck indoors??室内から動けない>>
+			description:外に出て新鮮な空気を吸いたい。
+		}
+	}
+}
+{DrugDesireFascination
+	{stages
+		{chemical_want
+			label:<<chemical want??薬物欲求>>
+			description:ドラッグに夢中になっている。しばらくそれを感じていない。
+		}
+		{chemical_hunger
+			label:<<chemical hunger??薬物渇望>>
+			description:ドラッグに夢中になっている。とても長い間それを感じていない。
+		}
+		{chemical_starvation
+			label:<<chemical starvation??薬物枯渇>>
+			description:ドラッグに夢中になっている。全くそれを感じていない。
+		}
+	}
+}
+{DrugDesireFascinationSatisfied
+	{stages
+		{chemical_comfort
+			label:<<chemical comfort??薬物充足>>
+			description:ドラッグに夢中になっており、少し前に経験した。
+		}
+		{chemical_satisfaction
+			label:<<chemical satisfaction??薬物満足>>
+			description:ドラッグに夢中になっており、ちょうどさっき経験した。
+		}
+	}
+}
+{DrugDesireInterest
+	{stages
+		{chemical_want
+			label:<<chemical want??薬物欲求>>
+			description:ドラッグに興味がある。しばらく前に少し試した。
+		}
+		{chemical_hunger
+			label:<<chemical hunger??薬物渇望>>
+			description:ドラッグに興味がある。長い間試す機会が無い。
+		}
+		{chemical_starvation
+			label:<<chemical starvation??薬物枯渇>>
+			description:ドラッグに興味がある。とても長い間試していない。
+		}
+	}
+}
+{DrugDesireInterestSatisfied
+	{stages
+		{chemical_comfort
+			label:<<chemical comfort??薬物充足>>
+			description:ドラッグに興味がある。少し前にやったが、良かった。
+		}
+		{chemical_satisfaction
+			label:<<chemical satisfaction??薬物満足>>
+			description:ドラッグに興味がある。ちょうどさっきやったが、とても良かった！
+		}
+	}
+}
+{PrisonCell
+	{stages
+		{awful_prison_cell
+			label:<<awful prison cell??酷い独居房>>
+			description:酷い独居房だ。
+		}
+		{decent_prison_cell
+			label:<<decent prison cell??まともな独居房>>
+			description:まともな独居房だ。
+		}
+		{slightly_impressive_prison_cell
+			label:<<slightly impressive prison cell??まずまずな独居房>>
+			description:けっこう良さそうな独居房だ。
+		}
+		{impressive_prison_cell
+			label:<<impressive prison cell??なかなかな独居房>>
+			description:なかなかの独居房だ。こんな風に扱ってくれるなんて信じられない。
+		}
+		{very_impressive_prison_cell
+			label:<<very impressive prison cell??素晴らしい独居房>>
+			description:素晴らしい独居房だ。こんな風に扱ってくれるなんて信じられない。最高だ！
+		}
+		{extremely_impressive_prison_cell
+			label:<<extremely impressive prison cell??豪華な独居房>>
+			description:豪華な独居房だ。こんな風に扱ってくれるなんて信じられない。最高だ！
+		}
+		{unbelievably_impressive_prison_cell
+			label:<<unbelievably impressive prison cell??夢のような独居房>>
+			description:夢のような独居房だ。今までで最高だ！
+		}
+		{wondrously_impressive_prison_cell
+			label:<<wondrously impressive prison cell??驚異的な独居房>>
+			description:想像しうるなかで最高の独居房。ずっとここに居たい。
+		}
+	}
+}
+{PrisonBarracks
+	{stages
+		{awful_barrack
+			label:<<awful barrack??酷い雑居房>>
+			description:酷い雑居房だ。
+		}
+		{dull_barrack
+			label:<<dull barrack??さえない雑居房>>
+			description:さえない雑居房に居る。
+		}
+		{slightly_impressive_barrack
+			label:<<slightly impressive barrack??まずまずな雑居房>>
+			description:まずまずな雑居房だ。
+		}
+		{somewhat_impressive_barrack
+			label:<<somewhat impressive barrack??なかなかな雑居房>>
+			description:なかなかな雑居房だ。いいね。
+		}
+		{very_impressive_barrack
+			label:<<very impressive barrack??素晴らしい雑居房>>
+			description:素晴らしい雑居房だ。いいね。
+		}
+		{extremely_impressive_barrack
+			label:<<extremely impressive barrack??豪華な雑居房>>
+			description:豪華な雑居房だ。こんな風に扱ってくれるなんて信じられない。
+		}
+		{unbelievably_impressive_barrack
+			label:<<unbelievably impressive barrack??夢のような雑居房>>
+			description:夢のような雑居房だ。こんな風に扱ってくれるなんて信じられない。
+		}
+		{wondrously_impressive_barrack
+			label:<<wondrously impressive barrack??驚異的な雑居房>>
+			description:驚異的な雑居房だ！こんな風に扱ってくれるなんて信じられない。
+		}
+	}
+}
+{HospitalPatientRoomStats
+	{stages
+		{awful_hospital
+			label:<<awful hospital??酷い病室>>
+			description:酷い病室だ。
+		}
+		{dull_hospital
+			label:<<dull hospital??さえない病室>>
+			description:さえない病室に押し込められている。
+		}
+		{slightly_impressive_hospital
+			label:<<slightly impressive hospital??まずまずな病室>>
+			description:まずまずな病室だ。ちょっと良い気分だ。
+		}
+		{somewhat_impressive_hospital
+			label:<<somewhat impressive hospital??なかなかな病室>>
+			description:なかなかな病室だ。良い気分だ。
+		}
+		{very_impressive_hospital
+			label:<<very impressive hospital??素晴らしい病室>>
+			description:素晴らしい病室だ。良い気分だ。
+		}
+		{extremely_impressive_hospital
+			label:<<extremely impressive hospital??豪華な病室>>
+			description:豪華な病室だ。もう治った気分だ。
+		}
+		{unbelievably_impressive_hospital
+			label:<<unbelievably impressive hospital??夢のような病室>>
+			description:夢のような病室だ。もう治った気分だ。
+		}
+		{wondrously_impressive_hospital
+			label:<<wondrously impressive hospital??驚異的な病室>>
+			description:驚異的な病室だ！もう治った気分だ。
+		}
+	}
+}
+{Affair
+	{stages
+		{affair
+			label:<<affair??不倫>>
+		}
+	}
+}
+{Incestuous
+	{stages
+		{incestuous
+			label:<<incestuous??近親相姦>>
+		}
+	}
+}
+{Disfigured
+	{stages
+		{disfigured
+			label:<<disfigured??容姿>>
+		}
+	}
+}
+{HardWorkerVsLazy
+	{stages
+		{hard_worker_vs_lazy
+			label:<<hard worker vs lazy??勤勉 vs ぐうたら>>
+		}
+	}
+}
+{TeetotalerVsChemicalInterest
+	{stages
+		{teetotaler_vs_chemical_interest
+			label:<<teetotaler vs chemical interest??薬物拒絶 vs 薬物乱用>>
+		}
+	}
+}
+{TeetotalerVsAddict
+	{stages
+		{teetotaler_vs_addict
+			label:<<teetotaler vs addict??_{teetotaler}_ vs 中毒者>>
+		}
+	}
+}
+{ChemicalInterestVsTeetotaler
+	{stages
+		{chemical_interest_vs_teetotaler
+			label:<<chemical interest vs teetotaler??薬物乱用 vs _{teetotaler}_>>
+		}
+	}
+}
+{HoldingMePrisoner
+	; TODO:確認
+	{stages
+		{holding_me_prisoner
+			label:<<holding me prisoner??_{prisoner}_状態>>
+		}
+	}
+}
+{Drunk
+	{stages
+		{drunk
+			label:<<drunk??のんだくれ>>
+		}
+	}
+}
+{Pretty
+	{stages
+		{physically_appealing
+			label:<<physically appealing??美しい見た目>>
+		}
+		{physically_stunning
+			label:<<physically stunning??とても美しい見た目>>
+		}
+	}
+}
+{Ugly
+	{stages
+		{physically_unsightly
+			label:<<physically unsightly??酷い見た目>>
+		}
+		{physically_hideous
+			label:<<physically hideous??とても酷い見た目>>
+		}
+	}
+}
+{AnnoyingVoice
+	{stages
+		{annoying_voice
+			label:<<annoying voice??気に障る声>>
+		}
+	}
+}
+{CreepyBreathing
+	{stages
+		{creepy_breathing
+			label:<<creepy breathing??気持ち悪い息づかい>>
+		}
+	}
+}
+{Man
+	{stages
+		{man
+			label:<<man??男>>
+		}
+	}
+}
+{Woman
+	{stages
+		{woman
+			label:<<woman??女>>
+		}
+	}
+}
+{TranshumanistAppreciation
+	{stages
+		{transhumanist_appreciation-0
+			label:<<transhumanist appreciation??_<transhumanist>_の歓喜>>
+		}
+		{transhumanist_appreciation-1
+			label:<<transhumanist appreciation??_<transhumanist>_の歓喜>>
+		}
+		{transhumanist_appreciation-2
+			label:<<transhumanist appreciation??_<transhumanist>_の歓喜>>
+		}
+		{transhumanist_appreciation-3
+			label:<<transhumanist appreciation??_<transhumanist>_の歓喜>>
+		}
+		{transhumanist_appreciation-4
+			label:<<transhumanist appreciation??_<transhumanist>_の歓喜>>
+		}
+	}
+}
+{BodyPuristDisgust
+	{stages
+		{body_purist_disgust-0
+			label:<<body purist disgust??_<body purist>_の嫌悪感>>
+		}
+		{body_purist_disgust-1
+			label:<<body purist disgust??_<body purist>_の嫌悪感>>
+		}
+		{body_purist_disgust-2
+			label:<<body purist disgust??_<body purist>_の嫌悪感>>
+		}
+		{body_purist_disgust-3
+			label:<<body purist disgust??_<body purist>_の嫌悪感>>
+		}
+		{body_purist_disgust-4
+			label:<<body purist disgust??_<body purist>_の嫌悪感>>
+		}
+	}
+}
+{ButcheredHumanlikeCorpseOpinion
+	{stages
+		{butchered_humanlike_corpse
+			label:<<butchered humanlike corpse??人の死体を解体>>
+		}
+	}
+}
+{AteRawHumanlikeMeat
+	{stages
+		{ate_raw_humanlike_meat
+			label:<<ate raw humanlike meat??人の生肉を食べた>>
+		}
+	}
+}
+{SoldPrisoner
+	{stages
+		{sold_prisoner_to_slavery
+			label:<<sold prisoner to slavery??_{prisoner}_を奴隷として売った>>
+		}
+	}
+}
+{ExecutedPrisoner
+	{stages
+		{executed_prisoner
+			label:<<executed prisoner??_{prisoner}_を処刑した>>
+		}
+	}
+}
+{KilledColonist
+	{stages
+		{killed_colonist
+			label:<<killed colonist??_{colonist}_を殺した>>
+		}
+	}
+}
+{KilledColonyAnimal
+	{stages
+		{killed_colony_animal
+			label:<<killed colony animal??手懐けた動物を殺した>>
+		}
+	}
+}
+{OpinionOfMyLover
+	{stages
+		{opinion_of_my
+			label:<<opinion of my {0} {1}??{0}の評価 {1}>>
+			description:恋人がいる事で、こんな気にさせる。
+		}
+	}
+}
+{BondedAnimalMaster
+	{stages
+		{s_master
+			label:<<{0}'s master??{0} の主人>>
+			description:絆で結ばれた動物がいることで、私の気分を良くしてくれる。
+		}
+		{master_of
+			label:<<master of {0}??{0} の主人>>
+			description:絆で結ばれた動物がいることで、私の気分を良くしてくれる。
+		}
+	}
+}
+{NotBondedAnimalMaster
+	{stages
+		{not_s_master
+			label:<<not {0}'s master??{0} の主人でない>>
+			description:絆で結ばれている私が主人になるべきだ。
+		}
+		{not_master_of
+			label:<<not master of {0}??{0}の主人でない>>
+			description:絆で結ばれている私が主人になるべきだ。
+		}
+	}
+}
+{WantToSleepWithSpouseOrLover
+	{stages
+		{want_to_sleep_with
+			label:<<want to sleep with {0}??{0} と一緒に寝たい>>
+			description:パートナーと分かれて寝るのは嫌だ。
+		}
+	}
+}
+{SharedBed
+	{stages
+		{sharing_bed
+			label:<<sharing bed??ベッドシェア>>
+			description:何とも思っていない人とベッドを共有している。
+		}
+	}
+}
+{ColonistLeftUnburied
+	{stages
+		{colonist_left_unburied
+			label:<<colonist left unburied??_{colonist}_が埋葬されていない>>
+			description:死んだ仲間を野ざらしにしている。誰であろうとこんな風に扱われるべきではない。ちゃんと埋葬するのは当然だ。
+		}
+	}
+}
+{Naked
+	{stages
+		{naked
+			label:<<naked??裸>>
+			description:裸。屈辱的だ。
+		}
+	}
+}
+{Pain
+	{stages
+		{minor_pain
+			label:<<minor pain??わずかな痛み>>
+			description:うぅ・・・痛い。
+		}
+		{serious_pain
+			label:<<serious pain??辛い痛み>>
+			description:うげぇ・・・いつ終わるんだ？
+		}
+		{intense_pain
+			label:<<intense pain??激しい痛み>>
+			description:止めてくれ・・・止めてくれ・・・止めてくれ・・・
+		}
+		{mindshattering_pain
+			label:<<mind-shattering pain??狂いそうな痛み>>
+			description:あああ！
+		}
+	}
+}
+{PsychicEmanatorSoothe
+	{stages
+		{psychic_emanator_soothe
+			label:<<psychic emanator soothe??サイキック・スーズ放射>>
+			description:サイキック放射は不思議な感じだが、とても落ち着く。
+		}
+	}
+}
+{PsychicDrone
+	{stages
+		{psychic_soothe
+			label:<<psychic soothe??サイキック・スーズ>>
+			description:意識に穏やかに語りかけてくるように、和ませ、緊張をほぐしてくれる。
+		}
+		{low_psychic_drone
+			label:<<low psychic drone??低サイキック・ドローン>>
+			description:意識を爪で引っかかれているみたいだ。声が、囁きかけている。いくつかの言葉しか聞き取れないが、嫌な言葉だ。
+		}
+		{moderate_psychic_drone
+			label:<<moderate psychic drone??中サイキック・ドローン>>
+			description:見えない誰かに話しかけられているみたいだ。声は変わるのにメッセージは変わらない。誰かを傷つけてしまう。何処かへ行ってくれ！
+		}
+		{high_psychic_drone
+			label:<<high psychic drone??高サイキック・ドローン>>
+			description:耐えがたい大声がする。集中するのが難しい。そいつに話返している自分に気付いた、叫びながら。しかしヤツは叫び続けたままだ！
+		}
+		{extreme_psychic_drone
+			label:<<extreme psychic drone??極サイキック・ドローン>>
+			description:動悸が激しく、汗をかいている。痛み、苦しみ、周りにいる敵のことしか考えられない。奴らは悪夢だ、悪夢だ、悪夢だ・・・
+		}
+	}
+}
+{Joywire
+	{stages
+		{joywire
+			label:_<joywire>_
+			description:すばらしい。
+		}
+	}
+}
+{Aurora
+	{stages
+		{beautiful_aurora
+			label:美しい_<aurora>_
+			description:素晴らしい景色だ。
+		}
+	}
+}
+{DoingPassionateWork
+	{stages
+		{minor_passion_for_my_work
+			label:<<minor passion for my work??仕事への興味>>
+			description:仕事が楽しい。
+		}
+		{burning_passion_for_my_work
+			label:<<burning passion for my work??仕事への情熱>>
+			description:仕事がとても楽しい。毎日これだけやっていたい。
+		}
+	}
+}
+{PsychicEntropyHangover
+	{stages
+		{psychic_hangover
+			label:_<psychic hangover>_
+			description:体と目がうずくが、脳からくると分かっている。
+		}
+	}
+}
+{MasochistPain
+	{stages
+		{masochist_in_minor_pain
+			label:<<masochist in minor pain??マゾのわずかな痛み>>
+			description:オォ... ハハハ... 慣れてきたぞ！
+		}
+		{masochist_in_serious_pain
+			label:<<masochist in serious pain??マゾの辛い痛み>>
+			description:ウグググ... 痛む、でも、いい、もっと!
+		}
+		{masochist_in_intense_pain
+			label:<<masochist in intense pain??マゾの激しい痛み>>
+			description:イテテ... どこか悪いようだが... とても満足できる感覚だ!
+		}
+		{masochist_in_mindshattering_pain
+			label:<<masochist in mind-shattering pain??マゾの狂いそうな痛み>>
+			description:アアアア... ここは天国？
+		}
+	}
+}
+{ProsthophileNoProsthetic
+	{stages
+		{transhumanist_frustrated
+			label:<<transhumanist frustrated??強化願望>>
+			description:生身の体には限界がある。もっと人工的な身体になりたい。
+		}
+	}
+}
+{ProsthophileHappy
+	{stages
+		{transhumanist_pleased
+			label:<<transhumanist pleased??_<transhumanist>_の喜び>>
+			description:この人工パーツはかっこいい。もっと欲しい。
+		}
+		{transhumanist_quite_pleased
+			label:<<transhumanist quite pleased??_<transhumanist>_の十分な喜び>>
+			description:人工パーツは一つよりも二つが良い。もっとあればいいが。
+		}
+		{transhumanist_delighted
+			label:<<transhumanist delighted??_<transhumanist>_の歓喜>>
+			description:三つの人工パーツ、弱い人肉が消えていく。でもまだ機械の力が欲しい。
+		}
+		{transhumanist_enchanted
+			label:<<transhumanist enchanted??_<transhumanist>_の恍惚>>
+			description:四つの人工パーツで人を超えようとしている。でもまだ置き換えたい肉が少し残っている。
+		}
+		{transhumanist_overjoyed
+			label:<<transhumanist overjoyed??_{transhumanist}_の狂喜>>
+			description:人工パーツが五つ！私のような強化された存在は悲しむ事など無い。
+		}
+		{machine_body_is_complete
+			label:<<machine body is complete??機械化完了>>
+			description:これぞ正に望んだもの。
+		}
+	}
+}
+{ProsthophobeUnhappy
+	{stages
+		{body_purist_squeamish
+			label:<<body purist squeamish??_<body purist>_のいらつき>>
+			description:異質な物を取り付けられて不愉快だ。汚れているようだ！
+		}
+		{body_purist_disgusted
+			label:<<body purist disgusted??_<body purist>_のむかつき>>
+			description:二つの人工パーツが私の自然で純粋な体を汚している。そう考えるだけで病気になる。
+		}
+		{body_purist_violated
+			label:<<body purist violated??_<body purist>_の冒涜>>
+			description:三つの人工パーツが私の純粋な肉体を犯している。考えるだけで身震いする・・・そしてそれらが一緒に震えている。
+		}
+		{body_purist_horrified
+			label:<<body purist horrified??_<body purist>_の戦慄>>
+			description:四つもの人工パーツでロボットになっているようだ。なんて恐ろしい状況なんだ。
+		}
+		{body_purist_nightmare
+			label:<<body purist nightmare??_<body purist>_の悪夢>>
+			description:五つの人工パーツ・・・まだ自分自身は残っているのか？それとも自分は人間だと思っているロボットなのか？
+		}
+		{I_have_become_what_I_hate
+			label:<<I have become what I hate??嫌悪する物になってしまった>>
+			description:正反対のことを要求する！
+		}
+	}
+}
+{BrawlerUnhappy
+	{stages
+		{brawler_has_ranged_weapon
+			label:<<brawler has ranged weapon??_{brawler}_に遠距離武器>>
+			description:遠くから撃ちたくない。間近でやり合いたい！
+		}
+	}
+}
+{PyromaniacHappy
+	{stages
+		{pyromaniac_has_incendiary_weapon
+			label:<<pyromaniac has incendiary weapon??_{pyromaniac}_に火炎武器>>
+			description:炎や火について考えさせられる。とても幸せだ。
+		}
+	}
+}
+{ClothedNudist
+	{stages
+		{constraining_clothes
+			label:<<constraining clothes??着衣を強要された>>
+			description:_<Nudist>_なのに服を着せられている。耐えられなくはないが、やはり窮屈で不快な感じがする。
+		}
+	}
+}
+{HappyNude
+	{stages
+		{happily_nude
+			label:<<happily nude??あるがままの姿>>
+			description:裸が一番！とても自由で、解放的で、周りを感じられる！
+		}
+	}
+}
+{UndergrounderIndoors
+	{stages
+		{undergrounder_indoors
+			label:<<undergrounder indoors??室内の_{undergrounder}_>>
+			description:室内に居るのは好きだ。
+		}
+	}
+}
+{UndergrounderUnderground
+	{stages
+		{underground
+			label:<<underground??地下>>
+			description:地下に居るのは大好きだ。
+		}
+	}
+}
+{UndergrounderOutdoors
+	{stages
+		{undergrounder_outdoors
+			label:<<undergrounder outdoors??室外の_{undergrounder}_>>
+			description:外に居るのは嫌いだ。地下に戻りたい。
+		}
+	}
+}
+{NightOwlDuringTheDay
+	{stages
+		{night_owl_in_daytime
+			label:<<night owl in daytime??昼の_{night owl}_>>
+			description:昼間に働きたくない。
+		}
+	}
+}
+{NightOwlDuringTheNight
+	{stages
+		{night_owl_at_night
+			label:<<night owl at night??夜の_{night owl}_>>
+			description:夜は気分がいい。
+		}
+	}
+}
+{Greedy
+	{stages
+		{greedy_for_impressive_bedroom-0
+			label:<<greedy for impressive bedroom??豪華な寝室への渇望>>
+			description:本当に豪華な寝室が欲しい。
+		}
+		{greedy_for_impressive_bedroom-1
+			label:<<greedy for impressive bedroom??豪華な寝室への渇望>>
+			description:見窄らしい！本当に豪華な寝室が欲しい。
+		}
+		{greedy_for_impressive_bedroom-2
+			label:<<greedy for impressive bedroom??豪華な寝室への渇望>>
+			description:十分には程遠い。本当に豪華な寝室が欲しい。
+		}
+		{greedy_for_impressive_bedroom-3
+			label:<<greedy for impressive bedroom??豪華な寝室への渇望>>
+			description:十分とは言えない。本当に豪華な寝室が欲しい。
+		}
+		{greedy_for_impressive_bedroom-4
+			label:<<greedy for impressive bedroom??豪華な寝室への渇望>>
+			description:完璧とはいえない。本当に豪華な寝室が欲しい。
+		}
+	}
+}
+{Jealous
+	{stages
+		{jealous_of_s_bedroom
+			label:<<jealous of {0}'s bedroom??{0} の寝室が羨ましい>>
+			description:一番良い部屋をくれ！
+		}
+	}
+}
+{Ascetic
+	{stages
+		{ascetic_has_awful_bedroom
+			label:<<ascetic has awful bedroom??_{ascetic}_の酷い寝室>>
+			description:まさに私が求めていた部屋。慎ましく質素だ。
+		}
+		{ascetic_has_dull_bedroom
+			label:<<ascetic has dull bedroom??_{ascetic}_の冴えない寝室>>
+			description:まさに私が求めていた部屋。慎ましく質素だ。
+		}
+		{ascetic_has_mediocre_bedroom
+			label:<<ascetic has mediocre bedroom??_{ascetic}_の平凡な寝室>>
+			description:慎ましく質素な部屋。いいね。
+		}
+		{ascetic_has_impressive_bedroom-0
+			label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+			description:豪華な寝室は好きではない。
+		}
+		{ascetic_has_impressive_bedroom-1
+			label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+			description:豪華な寝室は好きではない。
+		}
+		{ascetic_has_impressive_bedroom-2
+			label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+			description:豪華な寝室は好きではない。
+		}
+		{ascetic_has_impressive_bedroom-3
+			label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+			description:豪華な寝室は好きではない。
+		}
+		{ascetic_has_impressive_bedroom-4
+			label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+			description:豪華な寝室は好きではない。
+		}
+		{ascetic_has_impressive_bedroom-5
+			label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+			description:豪華な寝室は好きではない。
+		}
+		{ascetic_has_impressive_bedroom-6
+			label:<<ascetic has impressive bedroom??_{ascetic}_の豪華な寝室>>
+			description:豪華な寝室は好きではない。
+		}
+	}
+}
+{MoodOffsetSanguine
+	{stages
+		{sanguine
+			label:_<sanguine>_
+			description:'_<Sanguine>_'の特徴がもたらすボーナス。
+		}
+	}
+}
+{MoodOffsetOptimist
+	{stages
+		{optimist
+			label:_<optimist>_
+			description:'_<Optimist>_'の特徴がもたらすボーナス。
+		}
+	}
+}
+{MoodOffsetPessimist
+	{stages
+		{pessimist
+			label:_<pessimist>_
+			description:'_<Pessimist>_'の特徴がもたらすペナルティ。
+		}
+	}
+}
+{MoodOffsetDepressive
+	{stages
+		{depressive
+			label:_<depressive>_
+			description:'_<Depressive>_'の特徴がもたらすペナルティ。
+		}
+	}
+}
+{MoodOffsetTorturedArtist
+	{stages
+		{Tortured_artist
+			label:_<Tortured artist>_
+			description:_<tortured artist>_の特徴がもたらすペナルティ。
+		}
+	}
+}

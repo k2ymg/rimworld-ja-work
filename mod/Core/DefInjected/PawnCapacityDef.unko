@@ -1,0 +1,37 @@
+﻿{Consciousness
+	label:<<consciousness??意識>>
+	labelMechanoids:<<Data processing??データ処理>>
+}
+{Moving
+	label:<<moving??運動>>
+}
+{Manipulation
+	label:<<manipulation??取り回し>>
+}
+{Talking
+	label:<<talking??会話>>
+	labelMechanoids:<<Communication??通信>>
+}
+{Eating
+	label:<<eating??摂食>>
+}
+{Sight
+	label:<<sight??視覚>>
+}
+{Hearing
+	label:<<hearing??聴覚>>
+}
+{Breathing
+	label:<<breathing??呼吸>>
+}
+{BloodFiltration
+	label:<<blood filtration??血液ろ過>>
+	labelMechanoids:_<fluid reprocessing>_
+}
+{BloodPumping
+	label:<<blood pumping??血液循環>>
+	labelMechanoids:_<power generation>_
+}
+{Metabolism
+	label:<<metabolism??代謝>>
+}

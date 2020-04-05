@@ -1,0 +1,40 @@
+﻿{Ambush
+	label:<<ambush??待ち伏せ>>
+	description:待ち伏せによる戦闘が継続中。
+}
+{Caravan
+	label:<<caravan??キャラバン>>
+	description:旅をしている人達のグループ。
+}
+{Settlement
+	label:_<settlement>_
+	description:ある_{faction}_の本拠地。
+}
+{AbandonedSettlement
+	label:<<abandoned settlement??放棄された_{settlement}_>>
+	description:放棄された_{settlement}_。
+}
+{DestroyedSettlement
+	label:<<destroyed settlement??破壊された_{settlement}_>>
+	description:破壊された_{settlement}_。
+}
+{EscapeShip
+	label:<<landed ship??着陸した船>>
+	description:この星から脱出できる船が隠されている場所。
+}
+{AttackedNonPlayerCaravan
+	label:<<attacked caravan??攻撃されているキャラバン>>
+	description:攻撃を受けているキャラバン。
+}
+{TravelingTransportPods
+	label:<<transport pods??_[transport pod]_>>
+	description:飛行中の _[transport pod]_
+}
+{RoutePlannerWaypoint
+	label:<<waypoint??ウェイポイント>>
+	description:一時的なウェイポイント。
+}
+{PeaceTalks
+	label:<<peace talks??和平交渉>>
+	description:和平交渉を行う場所。
+}

@@ -1,0 +1,229 @@
+﻿@concrete:コンクリート
+@wood floor:木製床
+
+{Concrete
+	label:_[concrete]_
+	description:_?コンクリート。?_粗い_{concrete}_。安上がりで、手早く作れるが、見栄えはとても悪い。
+}
+{PavedTile
+	label:[[paved tile??舗装タイル]]
+	description:_<concrete>_のタイル。安いが、見た目は普通で、作るのは遅い。
+}
+{WoodPlankFloor
+	label:_[wood floor]_
+	description:_?ウッド・フロア。?_暖かみがあり、くつろいだ雰囲気を感じられる木製の床板。簡単に敷けるが、とても燃えやすい。
+}
+{MetalTile
+	label:[[steel tile??鋼鉄製タイル]]
+	description:_?スチール・タイル。?_宇宙船を思わせる鉄のタイル。素晴らしく、滑らかな表面により_<cleanliness>_にボーナスが付く。
+}
+{SilverTile
+	label:[[silver tile??銀製タイル]]
+	description:_?シルバー・タイル。?_未来的だが高貴な見た目で、豪華な部屋に最適。_<cleanliness>_にボーナスが付く。
+}
+{GoldTile
+	label:[[gold tile??金製タイル]]
+	description:_?ゴールド・タイル。?_贅沢を見せびらかすのなら、このタイルほど最適な物はない。非常に高価で、非常に美しく、本当にこんな所に住んでいたら、非常に高慢ちきだと思われるだろう。
+}
+{SterileTile
+	label:_[sterile tile]_
+	description:_?ステラ・タイル。?_特殊な洗浄能力を持つ抗菌タイル。清潔な部屋は治療や研究の成果を高める。とても作りにくい。
+}
+{CarpetRed
+	label:[[red carpet??赤い_{carpet}_]]
+	description:_?レッド・カーペット。?_素敵なバラ色のフラシ天カーペット。
+}
+{CarpetGreen
+	label:[[green carpet??緑色の_{carpet}_]]
+	description:_?グリーン・カーペット。?_自然を思わせる、緑色のカーペット。地球っぽいだろ。
+}
+{CarpetBlue
+	label:[[blue carpet??青い_{carpet}_]]
+	description:_?ブルー・カーペット。?_柔らかで涼しげな青色のフラシ天カーペット。
+}
+{CarpetCream
+	label:[[cream carpet??クリーム色の_{carpet}_]]
+	description:_?クリーム・カーペット。?_魅惑的なクリーム色のカーペット。
+}
+{CarpetDark
+	label:[[dark carpet??灰色の_{carpet}_]]
+	description:_?ダーク・カーペット。?_落ち着いた、暗い灰色のカーペット。
+}
+{BurnedWoodPlankFloor
+	label:[[burned wood floor??燃えた_{wood floor}_]]
+	description:燃え尽きた_<wood floor>_。
+}
+{BurnedCarpet
+	label:[[burned carpet??燃えた_{carpet}_]]
+	description:燃え尽きた_<carpet>_。
+}
+{$TileStoneBase
+	description:城を思わせるような、丁寧に切り出した石のタイル。立派だが、敷きにくい。
+}
+{TileSandstone
+	label:_[sandstone tile]_
+	$:TileStoneBase
+}
+{TileGranite
+	label:_[granite tile]_
+	$:TileStoneBase
+}
+{TileLimestone
+	label:_[limestone tile]_
+	$:TileStoneBase
+}
+{TileSlate
+	label:_[slate tile]_
+	$:TileStoneBase
+}
+{TileMarble
+	label:_[marble tile]_
+	$:TileStoneBase
+}
+{$FlagstoneBase
+	description:大雑把に切り出した石のタイル。美しくはないが、屋外の路面に適している。敷石を解体しても何も残らない。
+}
+{FlagstoneSandstone
+	label:[[sandstone flagstone??_{sandstone}_の敷石]]
+	$:FlagstoneBase
+}
+{FlagstoneGranite
+	label:[[granite flagstone??_{granite}_の敷石]]
+	$:FlagstoneBase
+}
+{FlagstoneLimestone
+	label:[[limestone flagstone??_{limestone}_敷石]]
+	$:FlagstoneBase
+}
+{FlagstoneSlate
+	label:[[slate flagstone??_{slate}_敷石]]
+	$:FlagstoneBase
+}
+{FlagstoneMarble
+	label:[[marble flagstone??_{marble}_敷石]]
+	$:FlagstoneBase
+}
+{Soil
+	label:<<soil??土>>
+	{tools
+		{dirt
+			label:_<dirt>_
+		}
+	}
+}
+{MossyTerrain
+	label:<<lichen-covered soil??苔むした土>>
+}
+{MarshyTerrain
+	label:<<marshy soil??湿地>>
+	{tools
+		{mud
+			label:_<mud>_
+		}
+	}
+}
+{SoilRich
+	label:<<rich soil??肥えた土>>
+	{tools
+		{dirt
+			label:_<dirt>_
+		}
+	}
+}
+{Gravel
+	label:<<stony soil??砂利>>
+	{tools
+		{gravel
+			label:_<gravel>_
+		}
+	}
+}
+{Sand
+	label:<<sand??砂地>>
+	{tools
+		{sand
+			label:_<sand>_
+		}
+	}
+}
+{SoftSand
+	label:<<soft sand??柔らかい砂地>>
+	{tools
+		{sand
+			label:_<sand>_
+		}
+	}
+}
+{Mud
+	label:<<mud??泥>>
+	{tools
+		{mud
+			label:_<mud>_
+		}
+	}
+}
+{Ice
+	label:<<Ice??氷>>
+}
+{BrokenAsphalt
+	label:<<broken asphalt??朽ちたアスファルト>>
+}
+{PackedDirt
+	label:<<packed dirt??踏み固められた土>>
+}
+{Underwall
+	label:<<underwall??壁下>>
+}
+{Bridge
+	label:_[bridge]_
+	description:水の上に作れる、橋桁に平らな木の面を乗せたもの。軽い物なら橋の上に作れるが、壊れやすいので注意する。もし橋が落ちたら、その上の物も同じように落ちる。
+}
+{$WaterBase
+	{tools
+		{water
+			label:_<water>_
+		}
+	}
+}
+{$WaterDeepBase
+	$:WaterBase
+}
+{WaterDeep
+	label:<<deep water??深い水>>
+	$:WaterDeepBase
+}
+{WaterOceanDeep
+	label:<<deep ocean water??深い海>>
+	$:WaterDeepBase
+}
+{$WaterChestDeepBase
+	$:WaterBase
+}
+{WaterMovingChestDeep
+	label:<<chest-deep moving water??腰の深さの水流>>
+	$:WaterChestDeepBase
+}
+{$WaterShallowBase
+	$:WaterBase
+}
+{WaterShallow
+	label:_<shallow water>_
+	$:WaterShallowBase
+}
+{WaterOceanShallow
+	label:<<shallow ocean water??浅い海>>
+	$:WaterShallowBase
+}
+{WaterMovingShallow
+	label:<<shallow moving water??浅い水流>>
+	$:WaterShallowBase
+}
+{Marsh
+	label:<<marsh??沼>>
+	{tools
+		{mud
+			label:_<mud>_
+		}
+	}
+	$:WaterShallowBase
+}

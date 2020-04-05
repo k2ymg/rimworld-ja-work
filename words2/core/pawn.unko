@@ -1,0 +1,144 @@
+; PawnKind
+grenadier:グレネード兵
+EMP grenadier:EMPグレネード兵
+smoke grenadier:スモーク・グレネード兵
+mercenary gunner:マセーナリ・ガンナー
+mercenary sniper:マセーナリ・スナイパー
+mercenary slasher:マセーナリ・スラッシャー
+heavy mercenary:ヘヴィー・マセーナリ
+boss:ボス
+elite mercenary:エリート・マセーナリ
+villager:村人
+town guard:衛兵
+town trader:商人
+town councilman:議員
+drifter:浮浪者
+scavenger gunner:スカベンジャー・ガンナー
+scavenger thrasher:スカベンジャー・スラッシャー
+pirate gunner:パイレート・ガンナー
+;colonist -> 共通
+member:仲間
+space refugee:宇宙難民
+ancient soldier:古代兵
+slave:奴隷
+wild man:野人
+wild woman:_{wild man}_
+stranger in black:怪しい黒服
+man in black:黒服の男
+woman in black:黒服の女
+penitent:告解者
+archer:アーチャー
+warrior:ウォーリア
+hunter:ハンター
+trader:交易商
+berserker:バーサーカー
+heavy archer:ヘビー・アーチャー
+berserker chief:バーサーカー・チーフ
+archer chief:アーチャー・チーフ
+muffalo:マッファロー
+muffalo calf:幼い_{muffalo}_
+gazelle:ガゼル
+iguana:イグアナ
+dromedary:ヒトコブラクダ
+dromedary calf:幼い_{dromedary}_
+grizzly bear:グリズリー・ベア
+polar bear:ホッキョクグマ
+cougar:ピューマ
+panther:ヒョウ
+lynx:オオヤマネコ
+lynx kitten:幼い_{lynx}_
+cassowary:カソワリ
+emu:エミュー
+ostrich:オストリッチ
+turkey:シチメンチョウ
+chicken:ニワトリ
+rooster:_{chicken}_
+hen:_{chicken}_
+chick:ヒヨコ
+cockerel:_{chicken}_
+pig:ブタ
+sow:_{pig}_
+piglet:子ブタ
+bull:_{cow}_
+cow:ウシ
+calf:子_{cow}_
+alpaca:アルパカ
+duck:カモ
+duckling:子_{duck}_
+bison:バイソン
+bison calf:幼い_{bison}_
+goat:ヤギ
+goat doe:_{goat}_
+baby goat:子_{goat}_
+goose:ガチョウ
+sheep:ヒツジ
+ram:_{sheep}_
+ewe:_{sheep}_
+lamb:子ヒツジ
+horse:ウマ
+stallion:_{horse}_
+mare:_{horse}_
+foal:子ウマ
+yak:ヤク
+yak calf:幼い_{yak}_
+guinea pig:モルモット
+donkey:ロバ
+donkey foal:幼い_{donkey}_
+rhinoceros:サイ
+elephant:ゾウ
+elephant calf:幼い_{elephant}_
+megasloth:メガスロス
+thrumbo:スランボ
+thrumbo calf:幼い_{thrumbo}_
+hare:ノウサギ
+snowhare:カンジキウサギ
+megascarab:メガスカラベ
+spelopede:スピロピード
+megaspider:メガスパイダー
+yorkshire terrier:ヨークシャー・テリア
+yorkshire terrier puppy:幼い_{yorkshire terrier}_
+husky:ハスキー
+husky puppy:幼い_{husky}_
+labrador retriever:ラブラドール・レトリバー
+labrador puppy:幼いラブラドール
+cat:ネコ
+kitten:子ネコ
+squirrel:リス
+alphabeaver:アルファビーバー
+capybara:カピバラ
+chinchilla:チンチラ
+boomrat:ボムラット
+raccoon:アライグマ
+rat:ネズミ
+deer:シカ
+buck:_{deer}_
+doe:_{deer}_
+ibex:アイベックス
+ibex doe:_{ibex}_
+ibex ram:_{ibex}_
+elk:ヘラジカ
+elk calf:幼い_{elk}_
+caribou:カリブー
+caribou calf:幼い_{caribou}_
+wild boar:イノシシ
+tortoise:カメ
+cobra:コブラ
+monkey:サル
+boomalope:ボマロープ
+boomalope calf:幼い_{boomalope}_
+warg:ワーグ
+warg puppy:幼い_{warg}_
+timber wolf:オオカミ
+timber wolf puppy:幼い_{timber wolf}_
+arctic wolf:ホッキョクオオカミ
+arctic wolf puppy:幼い_{arctic wolf}_
+fennec fox:フェネック
+fennec fox puppy:幼い_{fennec fox}_
+red fox:アカギツネ
+red fox puppy:幼い_{red fox}_
+arctic fox:ホッキョクギツネ
+arctic fox puppy:幼い_{arctic fox}_
+centipede:センチピード
+lancer:ランサー
+scyther:サイザー
+pikeman:パイクマン

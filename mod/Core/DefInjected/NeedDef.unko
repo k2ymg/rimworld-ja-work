@@ -1,0 +1,63 @@
+﻿{Chemical_Alcohol
+	label:_[alcohol]_
+	description:_<Alcohol addiction>_ により、 _<Withdrawal symptoms>_ を避けるために定期的に_<Alcohol>_を欲しがっている。
+}
+{Chemical_Ambrosia
+	label:_[ambrosia]_
+	description:_<Ambrosia addiction>_ により、 _<Withdrawal symptoms>_ を避けるために定期的に_[Ambrosia]_を欲しがっている。
+}
+{Chemical_GoJuice
+	label:_[go-juice]_
+	description:_<Go-juice addiction>_ により、 _<Withdrawal symptoms>_ を避けるために定期的に_[Go-juice]_を欲しがっている。
+}
+{Chemical_Luciferium
+	label:_[luciferium]_
+	description:_[Luciferium]_の_[Mechanite]_により体が強化されている。\n\n_[Luciferium]_を定期的に摂らなければ、_[Mechanite]_は統制を失う。もしそうなると、使用者は怒りに囚われ続け死に至る。\n\nこの中毒が治ることはない。
+}
+{Chemical_Psychite
+	label:_[psychite]_
+	description:_<Psychite addiction>_ により、 _<Withdrawal symptoms>_ を避けるために定期的にドラッグを欲しがっている。
+}
+{Chemical_Smokeleaf
+	label:_[smokeleaf]_
+	description:_<Smokeleaf dependence>_ により、 _<Withdrawal symptoms>_ を避けるために定期的に_[Smokeleaf]_を欲しがっている。
+}
+{Chemical_WakeUp
+	label:_[wake-up]_
+	description:_<Wake-up addiction>_ により、 _<Withdrawal symptoms>_ を避けるために定期的にドラッグを欲しがっている。
+}
+{Mood
+	label:_<mood>_
+	description:幸せやストレスの度合いを表す。_{mood}_が低すぎると_{mental break}_に陥るかもしれない。_{mental break}_になった人は、_{mood}_の低さにより、軽度の場合は一日部屋に引きこもったり、重度の場合は殺人衝動に駆られたりする。
+}
+{Food
+	label:<<food??食>>
+	description:直近に摂取した栄養の量。ゼロになると徐々に栄養失調になり死に至る。
+}
+{Rest
+	label:<<rest??睡眠>>
+	description:直近にどれくらい眠ったか。ゼロになるとその場に倒れて死んだように眠る。
+}
+{Joy
+	label:_<recreation>_
+	description:楽しみたいという欲求を表している。同じ事ばかりしていると楽しみが薄れてくるので、種類を揃えなければならない。
+}
+{Beauty
+	label:<<beauty??美しさ>>
+	description:直近に周りで見た視覚的な気持ちよさを反映している。芸術のような美しい物を見たときは上がり、汚れや石の粗い面などを見ると下がる。
+}
+{Comfort
+	label:<<comfort??快適>>
+	description:快適な家具に座ったり寝たりすると増える。ベッドに寝る、椅子に座りながら作業するなどで増える。
+}
+{Outdoors
+	label:<<outdoors??屋外>>
+	description:屋内に閉じ込められたくないという欲求を表している。長く屋内、特に地下にいると悪くなる。空の下、特に屋外で過ごせば良くなる。部屋の広さは関係ないが、時々外へ出たいと思っている。地下に住んでいるような人々にとっては、屋外で過ごす時間の欠如が大きな問題になる。
+}
+{DrugDesire
+	label:<<chemical??薬物>>
+	description:薬物を摂取したい欲求を表している。一定以上なら良い_{mood}_になるが、下回ると_{mood}_は徐々に悪くなる。
+}
+{RoomSize
+	label:<<room size??部屋の広さ>>
+}

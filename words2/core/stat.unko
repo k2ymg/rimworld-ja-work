@@ -1,0 +1,65 @@
+shooting:射撃
+melee:格闘
+social:社交
+;animals:動物
+medical:医学
+cooking:調理
+construction:建設
+plants:植物
+mining:採掘
+artistic:芸術
+crafting:工作
+intellectual:知的
+equip delay:装着遅延
+cleanliness:清潔さ
+shooting accuracy:射撃命中率
+negotiation ability:交渉能力
+Room cleanliness:部屋の清潔さ
+hunting stealth:狩猟隠密性
+
+hunger rate:空腹速度
+{0} s:{0} 秒
+comfortable temperature:許容気温
+Insulation - Cold:断熱 - 低温
+Insulation - Heat:断熱 - 高温
+armor stat:アーマー状態
+armor penetration:_{armor}_貫通
+Armor - Sharp:_{Armor}_ - 尖鋭
+Armor - Blunt:_{Armor}_ - 打撲
+Armor - Heat:_{Armor}_ - 熱
+Material effect multiplier:素材効果乗数
+material factor:素材因数
+construction speed:_{construction}_速度
+food poison chance:食中毒率
+food stat:食物状態
+chance to poison a meal:食事を汚染する確率
+people:人
+Trainability:訓練可能性
+;囚人の
+resistance:抵抗
+
+peg leg:簡易義足
+wooden hand:簡易義手
+wooden foot:簡易中足義足
+denture:義歯
+
+alcohol:アルコール
+withdrawal:離脱
+withdrawal symptoms:離脱症状
+alcohol addiction:_[alcohol]_ 中毒
+wake-up addiction:_[wake-up]_ 中毒
+smokeleaf dependence:_[smokeleaf]_ 依存
+psychite addiction:_[psychite]_ 中毒
+go-juice addiction:_[go-juice]_ 中毒
+ambrosia addiction:_[ambrosia]_ 中毒
+
+;inspiration
+work frenzy:熱狂的労働
+go frenzy:熱狂的行動
+shoot frenzy:熱狂的射撃
+inspired trade:天才的取引
+inspired recruitment:天才的勧誘
+inspired surgery:天才的手術
+inspired creativity:天才的創作
+inspired taming:天才的手なずけ
+creativity inspiration:創作の閃き

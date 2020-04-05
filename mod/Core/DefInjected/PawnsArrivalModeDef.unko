@@ -1,0 +1,34 @@
+﻿{EdgeWalkIn
+	textEnemy:{1} から {0} の一団が近くに到着した。
+	textFriendly:友好的な {1} から {0} の一団が近くに到着した。
+	textWillArrive:{0_pawnsPluralDef} が到着する。
+}
+{EdgeDrop
+	textEnemy:{1} から {0} の一団が _[Transport pod]_ で近くに到着した。
+	textFriendly:友好的な {1} から {0} の一団が _[Transport pod]_ で近くに到着した。
+	textWillArrive:{0_pawnsPluralDef} が _[Transport pod]_ で到着する。
+}
+{EdgeWalkInGroups
+	textEnemy:{1} から {0} の一団が近くに到着し、複数方向から迫ってきている。
+	textFriendly:友好的な {1} から {0} の一団が近くに到着し、複数方向から迫ってきている。
+	textWillArrive:{0_pawnsPluralDef} が到着して、複数方向からやってくる。
+}
+{EdgeDropGroups
+	textEnemy:{1} から {0} の一団が _[Transport pod]_ で近くに複数に分かれて到着した。
+	textFriendly:友好的な {1} から {0} の一団が _[Transport pod]_ で近くに複数に分かれて到着した。
+	textWillArrive:{0_pawnsPluralDef} が複数に別れて、 _[Transport pod]_ で到着する。
+}
+{CenterDrop
+	textEnemy:{1} から {0} の一団が真上から落ちてきた！
+	textFriendly:友好的な {1} から {0} の一団が真上から落ちてきた！
+	textWillArrive:{0_pawnsPluralDef} が _[transport pod]_ で真上から到着する。
+}
+{RandomDrop
+	textEnemy:{1} から {0} の一団が _[Transport pod]_ で到着した。_[Pod]_は乱れてこの地域全体に散らばって着地した！
+	textFriendly:友好的な {1} から {0} の一団が _[Transport pod]_ で到着した。_[Pod]_は乱れてこの地域全体に散らばって着地した！
+	textWillArrive:{0_pawnsPluralDef} が _[transport pod]_ で到着する。
+}
+{MechClusterDrop
+	textEnemy:{0} の集団が _[drop pod]_ で着陸した。
+	textWillArrive:_[mech cluster]_ が _[drop pod]_ で到着する。
+}

@@ -1,0 +1,488 @@
+﻿{PsychicSilencer
+	label:_[psychic silencer]_
+	description:不用心なサイキック放射を隠す_<archotech>_の装置で、それらを検出できなくする。副作用として、慢性的な痛みを引き起こす。\n\nこの手のインプラントは犯罪者の_{psycaster}_、ワイルドキャスター、_{bladelink}_利用者が当局の検知をかわすために使っている。
+}
+{PsychicSensitizer
+	label:_[psychic sensitizer]_
+	description:この脳インプラントは、精神的相互作用に関係する脳の領域の成長を促進させることで、 _{psychic sensitivity}_ を高める。
+}
+{PsychicHarmonizer
+	label:_[psychic harmonizer]_
+	description:この脳インプラントは使用者の_{mood}_を円形の精神場に投射して、近くの人々に曖昧で、単純化された感情を感じさせる。これはモラルを高く保つのに有力な方法だが、使用者が不幸になると、大惨事になり得る。
+}
+{PsychicReader
+	label:_[psychic reader]_
+	description:限定的な読心術を与え、交渉や社交の場で有利になるための能力を改善する。効果は使用者の _{psychic sensitivity}_ に比例する。
+}
+{PsychicAmplifier
+	label:_[psychic amplifier]_
+	description:脳をより大きな精神場へつなぐ_<archotech>_装置。特定の能力を訓練することで、様々な効果の_{psycast}_を投げられるようになる。\n\nこのインプラントは数段階アップグレードできる。より高いレベルはより強いサイキャストを使える。\n\n_[psychic amplifier]_ は自分一人で、失敗せずに取り付けられる。ユニットを頭蓋骨に押しつけると、神経蔓が挿入され、骨に固定される。取り除くには手術が必要。\n\n_{Imperial}_の法では _[psychic amplifier]_ の使用を特定の_{royal title}_に制限している。違法な使用は精神特徴を検出されて、外交問題が起こる恐れがある。
+	{comps
+		{CompUsableImplant
+			useLabel:_[psychic amplifier]_ を取り付ける
+		}
+	}
+}
+{Neurocalculator
+	label:_[neurocalculator]_
+	description:視神経や触覚神経を通じて操作する単純な小型計算機。脳に埋め込まれた電卓やメモ帳のように、記憶と計算を支援する。
+}
+{LearningAssistant
+	label:_[learning assistant]_
+	description:睡眠中に重要な経験を繰り返して、新しい記憶の形成を強化する、知覚記憶システム。
+}
+{GastroAnalyzer
+	label:_[gastro-analyzer]_
+	;todo: 正確さってなんだよ、と。
+	description:食物に関連する匂いに注目した、嗅覚を強化するバイオニック鼻インプラント。多層超微細吸着メッシュが空気中の化合物を検出する。マイクロプロセッサが検出結果を嗅覚神経信号へ変換して、神経結合インターフェースから脳へ送る。その結果、強化されていない人には未知の深み、豊かさ、正確さを食物から嗅ぎ取れ、効率よく調理できる。ユニットは鼻に収まるほど小さいため、使用者の外見に影響を与えない。
+	;This bionic nose implant enhances the sense of smell, with a focus towards food-related smells. A multi-layered ultrafine absorption mesh detects compounds in the air. A microprocessor formats the readings into an olfactory nerve signal to send to the brain through a nerve-link interface. The result is that the user can smell foods with a depth, richness, and precision unknown among unenhanced humans, allowing them to cook more effectively. The whole unit is small enough to be installed in the nose without affecting the user's appearance.
+}
+{Immunoenhancer
+	label:_[immunoenhancer]_
+	description:解析計算機が血流を調べ、病原体を解析し、体の自然の免疫システムを急速に促して、それ単体よりも素早く病原体に対応させる。免疫速度をかなり上げる。
+}
+{Coagulator
+	label:_[coagulator]_
+	description:失血に反応すると凝固因子を放出して、出血速度を大幅に下げる。
+}
+{HealingEnhancer
+	label:_[healing enhancer]_
+	description:傷の治りを速くするナノマシンと回復因子を放出する。このインプラントは物理的な傷だけ治し、それ以外の病気や健康問題には何もしない。
+}
+{ToughskinGland
+	label:_[toughskin gland]_
+	description:このバイオニック腺は皮膚を強くする化学物質とナノマシンを放出してダメージ耐性を少し増やす。他の皮膚硬化腺ほどの防御はないが、使用者の見た目をそれほど変えないという利点がある。
+}
+{ArmorskinGland
+	label:_[armorskin gland]_
+	description:このバイオニック腺は化学物質とナノマシンを放出して、皮膚を強くして、急所に柔軟な皮下角質を追加する。これにより体全体にわたってダメージ耐性が上がる。しかし、これらの変化は皮膚を革のようにして、全身に皺が寄り、一般的に醜いと思われている。
+}
+{StoneskinGland
+	label:_[stoneskin gland]_
+	description:このバイオニック腺は化学物質とナノマシンを放出して皮膚を内臓鎧へと変化させる。全ての表皮が厚く、堅くなり、炎に耐えるが、接合外部角質板は、頭や顔を含むあらゆる場所に作られる。このインプラントの使用者を物理的に傷つけるのはとても難しいが、板と堅い皮膚は使用者の容姿をかなり悪くする。
+}
+{AestheticShaper
+	label:_[aesthetic shaper]_
+	description:体の筋肉と脂肪の形に影響するホルモンと_[mechanite]_の精巧なパッケージで、望んだ見た目のために非機能的な美的組織を追加する。このインプラントは使用者、またはパートナーの好みに応じて様々な体型を作れる。
+}
+{AestheticNose
+	label:_[aesthetic nose]_
+	description:好みの鼻に整形され、流行の美しさ標準に合わせて、見た目を良くする。
+}
+{LoveEnhancer
+	label:[[love enhancer??ラブ・エンハンサー]]
+	description:人間はいつも新しい技術を性的満足を高めるために使ってきた。バイオニクスも例外ではない。このインプラントは物理的、化学的に体を変えて、パートナー両方の営みの体験を強化する。物理的にも、心理的にも。このインプラントは取り付けるときに男性女性両方に対応する。
+}
+{DetoxifierStomach
+	label:_[detoxifier stomach]_
+	description:広範囲の毒フィルターと中和システムを持つ人工胃。食中毒を気にせず、なんでも食べられるようになる。
+}
+{ReprocessorStomach
+	label:_[reprocessor stomach]_
+	description:体が普通使わない栄養分を分解する高度な化学処理システム。効率を高める。
+}
+{NuclearStomach
+	label:_[nuclear stomach]_
+	description:体の食物エネルギー要求を置き換える複雑な化学合成が付いている超小型核反応炉。体が失った物質を補うだけの食物しか必要にならないため、摂取欲求を大幅に減らせる。この人工胃は食中毒を起こさない。とはいえ、反応炉を遮蔽する余地がないので、放射線による癌リスクが高まる。
+}
+{CircadianAssistant
+	label:_[circadian assistant]_
+	description:人工腺。脳から毒蓄積を解消する化学物質とナノマシンを作り出す。
+}
+{CircadianHalfCycler
+	label:_[circadian half-cycler]_
+	description:脳の半分を独立させるための信号リダイレクター。脳のもう半分を眠らせる一方で、使用者を半覚醒状態にする。脳の半分を交互に使うことで、眠らなくてよくなる。残念だが、脳の半球は一つよりも二つのほうが優れているので、半分だけで作業していると意識の低下を起こす。
+}
+{Mindscrew
+	label:_[mindscrew]_
+	description:継続的な痛みを与える。これは当局が長期刑罰のために使っている。思想や宗教的傾倒の表明として自発的に付ける人もいる。
+}
+{DrillArm
+	label:_[drill arm]_
+	description:採掘を高速化する機械交換化腕。スネークドリルが内蔵されているので、鉱員は素早く岩の弱点を見つけて利用できる。少し不格好で、動きがわずかに遅くなる。
+}
+{FieldHand
+	label:_[field hand]_
+	description:この機械化交換腕は農家の種まきや収穫作業を速くする。複数の伸縮する指のような突起で、同じ植物のそれぞれの先端から同時に収穫できる、またはそれぞれの穴に一度に正確にまける。多目的マニピュレータも付いている。少し不格好で、動きがわずかに遅くなる。
+}
+{HandTalon
+	label:_[hand talon]_
+	description:中指と薬指の間に隠された隙間から伸びる鋭い爪。爪は手のひらより長いが、しまうときは柔軟になるので、丸めて手に隠せる。素早く切り裂けるが、_{armor}_は貫きにくい。
+}
+{ElbowBlade
+	label:_[elbow blade]_
+	description:尺骨の末端に隠された隙間から自在に伸びる鋭い刃。不意に飛び出すので、効果的に斬りつけられる。
+}
+{KneeSpike
+	label:_[knee spike]_
+	description:膝の前に隠された隙間から自在に伸びるトゲ。不意に飛び出すので、効果的に刺せ、厚い_{armor}_も貫ける。
+}
+{VenomFangs
+	label:_[venom fangs]_
+	description:両方の犬歯に埋め込まれた注射器。毒ポンプに繋がっている。敵をかむと、注射器が伸びて、対象に毒を送り込む。
+}
+{VenomTalon
+	label:_[venom talon]_
+	description:収納可能な指の爪、前腕の毒ポンプに繋がっている。傷に毒を噴射しながら敵をひっかける。爪は中指に付けるように作られている。素早いが、_{armor}_は貫きにくい。
+}
+{SunBlocker
+	label:_[sun blocker]_
+	description:高高度に奇妙なフィールドを作るウルトラテック機械。空を不透過にして太陽を遮る。
+}
+{SmokeSpewer
+	label:_[smoke spewer]_
+	description:領域拒否のために作られた大量破壊ウルトラテック武器。使える化合物を集めて自己再生の不透過な分子に変える、この星の全域で太陽を遮るのに十分な煙を吐き出す。
+}
+{ToxicSpewer
+	label:_[toxic spewer]_
+	description:領域拒否のために作られた大量破壊ウルトラテック武器。使える化合物を集めて自己再生の不透過な毒に変える、これらを大気に噴射することでこの星全域を毒で汚染できる。
+}
+{WeatherController
+	label:_[weather controller]_
+	description:天候を操作するウルトラテック装置。化学物質と奇妙なフィールドで、天候を特定の状態に強制する。
+}
+{ClimateAdjuster
+	label:_[climate adjuster]_
+	description:気候を操作するウルトラテック装置。化学物質と奇妙なフィールドで大気を操作して、この地域の気温を変化させる。
+}
+{PsychicDroner
+	label:_[psychic droner]_
+	description:狂った超知能の考えを送る_[archotech]_装置。一つの性別に合わせた巨大な _{psychic drone}_ を作り、星の全域に影響する。その性別の人たちはその影響で動揺させられ、_{mood}_が下がり、狂うかもしれない。影響は個人の _{psychic sensitivity}_ で変化する。
+}
+{PsychicSuppressor
+	label:_[psychic suppressor]_
+	description:特定の性別へ合わせた巨大なサイキック制圧場を作る_[archotech]_装置。その性別の人たちはサイキック活動を抑制される、意識が低下する。影響は個人の _{psychic sensitivity}_ で変化する。
+}
+{EMIDynamo
+	label:_[EMI dynamo]_
+	description:巨大な電磁妨害発生器。近くの電子デバイスを妨害したり停止させたりする。
+}
+{Shuttle
+	label:_[shuttle]_
+	description:宇宙民族のシャトル。地表と軌道、星系の星々などの間を行き来するために作られている。
+}
+{Drape
+	label:_[drape]_
+	description:立てた木製の枠に吊り下げた装飾された布。王族の部屋にふさわしい。
+}
+{Brazier
+	label:_[brazier]_
+	description:火を入れる鉢型の調度品。周りを照らして暖かくする。
+}
+{Throne
+	label:_[throne]_
+	description:貴族が座って統治するための、大きく、飾り立てられた椅子。_[Throne]_ が置かれた部屋は_{throneroom}_になり、座っている貴族の_{authority}_欲求を満たす。
+}
+{GrandThrone
+	label:_[grand throne]_
+	description:貴族が座って統治するための、巨大で、飾り立てられた椅子。_[Throne]_ が置かれた部屋は_{throneroom}_になり、座っている貴族の_{authority}_欲求を満たす。
+}
+{UnstablePowerCell
+	label:_[unstable power cell]_
+	description:_[Mechanoid]_の発電機。ヴァノメトリックパワーコアが無限に動き、量子泡変動からエネルギーを取り出す。\n\n内部の増幅システムが不安定にさせている。ダメージを受けると、巨大な爆発を生み出す。\n\n何人かの勇敢な人間が発電所や防衛爆弾のために_{mechanoid}_から盗んだ。しかし、予測不能な爆発はひどいことになる。
+}
+{Defoliator
+	label:_[defoliator]_
+	description:近くの植物を全滅させる焦土装置。動物には影響しない。\n\n惑星規模の戦争では、敵の食糧や隠れ場所を絶つために、農地や密林中にばらまかれた。これは普通、軌道投下_[mechanoid]_群れを伴っている。
+}
+{ActivatorCountdown
+	label:_[count-down activator]_
+	description:_[Mechanoid]_の時限装置。カウントダウン後、近くの休止している_[mechanoid]_や構造物を起こす。
+}
+{ActivatorProximity
+	label:_[proximity activator]_
+	description:休止中の_[mechanoid]_の接近警報器。人の接近を感知すると、近くの休止している_[mechanoid]_や構造物を起こす。
+}
+@shield_desc_1:動体を撃ち落とす場を投射する遮蔽装置。射撃は外へ出られるが、入ってはこれない。
+@shield_desc_2:この装置はEMP攻撃、本体にショックを与えるか、またはシールドにEMP弾を当てること、で一時的に無効化できる。
+{ShieldGeneratorMortar
+	label:_[mortar shield]_
+	description:_{shield_desc_1}_\n\nこれは高角に合わせているので、_{mortar}_の砲弾を防ぐ。\n\n_{shield_desc_2}_
+}
+{ShieldGeneratorBullets
+	label:_[bullet shield]_
+	description:_{shield_desc_1}_\n\nこれは低角に合わせているので、弾のような低空の飛翔体を防ぐ。\n\n_{shield_desc_2}_
+}
+{MechCapsule
+	label:_[mech capsule]_
+	description:_[mechanoid]_を格納、展開するカプセル。何体かの_[mechanoid]_が入っており、目覚めると飛び出して戦うために備えている。
+}
+{MechAssembler
+	label:_[mech assembler]_
+	description:自動化された_[mechanoid]_工場。定期的に新しい_[mechanoid]_を組み立てて配置する。
+}
+{MechDropBeacon
+	label:_[mech drop beacon]_
+	description:_[mechanoid]_の増援ドロップビーコン。作動させるとメカの一団を呼び、_{drop pod}_で近くに着地させる。
+}
+{Turret_AutoMiniTurret
+	label:_[mini-slugger turret]_
+	description:電源内蔵型の防衛_[turret]_ 。弱いが、長距離のスラグ弾を放つ。壊れると爆発する。
+}
+{Gun_MiniTurretMech
+	label:_[mini-slugger]_
+	description:スラッグスロアーを乗せた自動_[turret]_。
+}
+{Bullet_MiniSlug
+	label:_[mini-slug]_
+}
+{Turret_AutoChargeBlaster
+	label:_[auto charge turret]_
+	description:電源を内蔵した、チャージブラスターを乗せたターレット。近距離の対象は感知しない。
+}
+{$Gun_ChargeBlasterHeavyBase
+	; Coreから。できれば共通化したい
+	label:_[heavy charge blaster]_
+	description:_?ヘビー・チャージ・ブラスター。?_エリア制圧射撃に使われるパルスチャージ高速連射ブラスター。長い冷却が、長く、致命的な連射を可能にする。
+	{tools
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Gun_ChargeBlasterHeavyTurret
+	label:<<light charge blaster??ライト・チャージ・ブラスター>>
+	description:エリア射撃に使われるパルスチャージ高速連射ブラスター。
+	$:Gun_ChargeBlasterHeavyBase
+}
+{Turret_AutoInferno
+	label:_[auto inferno turret]_
+	description:インフェルノキャノンを乗せた電源内蔵型の_[turret]_。近距離の対象は感知しない。
+}
+{$Gun_InfernoCannonBase
+	; Coreから。できれば共通化したい
+	label:_[inferno cannon]_
+	description:_?インフェルノ・キャノン。?_焼夷弾を放つ小型の野戦砲。大型の焼夷弾頭を発射する。
+	{tools
+		{barrel
+			label:_<cannon/barrel>_
+		}
+	}
+}
+{Gun_InfernoCannonTurret
+	$:Gun_InfernoCannonBase
+}
+{Turret_AutoMortar
+	label:_[auto mortar]_
+	description:電源内蔵、自動装填の自動_[mortar]_。どんな距離でも、壁も越えて、当たるが、命中度はとても悪い。
+}
+{Artillery_AutoMortar
+	label:[[auto-mortar??_{auto mortar}_]]
+}
+{ShipLandingBeacon
+	label:[[ship landing beacon??船着陸ビーコン]]
+	description:着陸場所の隅を示す。開けた場所 (最低 9x9) の四隅に配置して着陸場所を作る。通常、宇宙船はこの場所に、可能なら、着陸する。
+}
+{UnfinishedMusicalInstrument
+	label:_[unfinished musical instrument]_
+	description:未完成の楽器。
+}
+{Harp
+	label:_[harp]_
+	description:_?ハープ。?_簡易な据え置き型の楽器。弦がフレームに一列に張られて、奏者の指で直接弾く。\n\n_[crafting spot]_ か _[smithy]_ で作れる。
+}
+{Harpsichord
+	label:_[harpsichord]_
+	description:_?ハープシコード。?__[smithy]_で作れる、複雑な据え置き型の楽器。奏者は楽器の前に並んだキーを使う。それぞれのキーは内部構造に繋がっている、木製の枠に張られた弦をかき鳴らす。_[harp]_ より複雑に演奏できるが、木製の構造とかき鳴らす仕組みは音量と表現力を押さえている。
+}
+{Piano
+	label:_[piano]_
+	description:進んだ据え置き型の楽器。鍵盤を押さえて演奏する、鋼の枠に張られた弦をハンマーが叩く。ハンマー機構と高い張りの弦は、とても柔らかく、大きな音で演奏できるので、ピアノをとても表現力が高い楽器にしている。\n\n_[smithy]_で作られる。
+}
+{Apparel_PsyfocusHelmet
+	label:_[psyfocus helmet]_
+	description:サイキック集中のために作られた軽いヘルメット。精神的防御を少し与え、特別な素材が _{psychic sensitivity}_ を強化して、_{psychic entropy}_ を発散させる。
+}
+{Apparel_PsyfocusShirt
+	label:_[psyfocus shirt]_
+	description:特別なサイキック集中素材が埋め込まれたシャツ。_{psychic sensitivity}_を強化して、_{psychic entropy}_ の発散を助ける。
+}
+{Apparel_PsyfocusVest
+	label:_[psyfocus vest]_
+	description:特別なサイキック集中素材が埋め込まれた薄手のベスト。_{psychic sensitivity}_ を強化して、_{psychic entropy}_ の発散を助ける。
+}
+{Apparel_PsyfocusRobe
+	description:サイキック集中素材が埋め込まれた長いローブ。_{psychic sensitivity}_ を強化して、_{psychic entropy}_ の発散を助ける。
+	label:_[psyfocus robe]_
+}
+{Apparel_ShirtRuffle
+	label:_[ruffle shirt]_
+	description:ボタンが付いている、ひだ襟のシャツ。貴人に適している。
+}
+{Apparel_Corset
+	label:_[corset]_
+	description:刺繍が施されているコルセット。女性らしい体型を保つための堅いワイヤーが付いてる。中・上流階級の女性貴族に適している。
+}
+{Apparel_VestRoyal
+	label:_[royal vest]_
+	description:権力を示す、刺繍されたベスト。中・上流階級の男性貴族に適している。
+}
+{Apparel_RobeRoyal
+	label:_[royal robe]_
+	description:複雑な飾り模様が刺繍された長いローブ。全く実用的ではなく、その用途は着用者を力ある貴族として示すためである。
+}
+{Apparel_HatLadies
+	label:_[ladies hat]_
+	description:複雑な刺繍が付いている、婦人用の華奢な帽子。中流階級の女性貴族に適している。
+}
+{Apparel_HatTop
+	label:_[top hat]_
+	description:高く、真っ直ぐな、光沢がある帽子。中流階級の男性貴族に適している。
+}
+{Apparel_Coronet
+	label:_[coronet]_
+	description:金属製の、小さい冠のような髪飾り。着用者を身分ある貴族として示す。
+}
+{Apparel_Crown
+	label:_[crown]_
+	description:精巧なデザインの、金属製の豪華な冠。上流階級の貴族が身につけている。
+}
+@cataphract_desc:このような防具は_{imperial}_の _[cataphract]_ が強固に要塞化した陣地を、他に手が無ければ、正面突破するために使っている。
+{Apparel_ArmorCataphract
+	;文はマーリンアーマーと似ている。
+	label:_[cataphract armor]_
+	description:重いパワーアーマーのスーツ。最高の防御のために機動性を犠牲にして作られている。密にアブレーションコーティングされた重い _<plasteel>_ 積層装甲が正確な、または強力な攻撃をほとんど防ぐ。スーツの重みで着用者が完全に行動不能になるのをニューロ・メメティック補助装置が防いでいるが、それでもまだとても扱いにくい。\n\n_{cataphract_desc}_
+}
+{Apparel_ArmorHelmetCataphract
+	label:_[cataphract helmet]_
+	description:強固な装甲を施したハイテクヘルメット。密な _<plasteel>_ 積層シェル、死角用の間接映像システムを備える。強力な、または幸運な攻撃をほとんど防ぐ\n\n_{cataphract_desc}_
+}
+{ShuttleIncoming
+	label:_[shuttle]_ (<<incoming??入>>)
+}
+{ShuttleLeaving
+	label:_[shuttle]_ (<<leaving??出>>)
+}
+{MonumentMarker
+	label:_[monument marker]_
+	description:モニュメント建設予定地の印。一度置くと取り除けない。
+}
+
+@link_desc:この武器には一個人とだけ繋がる人格が内蔵されている。使用者と高性能武器は反射神経を同調して、恐ろしいほどの速さ、正確さ、創造性で攻撃できるようになる。使用者と一度繋がると、この武器の人格はそれ以外の人の利用を拒否するようになる。
+
+@zeushammer_desc:EMP蓄電器を埋め込んだ _[warhammer]_。 衝突すると、物理ダメージに加えて、対象にEMPを炸裂させる。
+
+@plasmasword_desc:金属製の芯に刃が付いた剣。芯を取り囲むプラズマは、エネルギー場によってその場へ固定されている。標的は金属芯で切られ、さらにプラズマの鞘で燃えたり発火したりする。
+
+{MeleeWeapon_MonoSwordBladelink
+	label:_[link monosword]_
+	; 途中まではノーマルと*ほぼ*同じ
+	description:結晶金属の長剣で、単分子の刃を持続する_[mechanite]_が含まれている。厚い鎧でも楽に切り裂き、その軽さと内臓人格が高速な攻撃を可能にする。\n\n_{link_desc}_
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{point
+			label:_<point>_
+		}
+		{edge
+			label:_<edge>_
+		}
+	}
+}
+{MeleeWeapon_ZeusHammerBladelink
+	label:_[link zeushammer]_
+	description:_{zeushammer_desc}_\n\n_{link_desc}_
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{MeleeWeapon_PlasmaSwordBladelink
+	label:_[link plasmasword]_
+	description:_{plasmasword_desc}_\n\n_{link_desc}_
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{point
+			label:_<point>_
+		}
+		{edge
+			label:_<edge>_
+		}
+	}
+}
+{MeleeWeapon_Axe
+	label:_[axe]_
+	description:棒に短い刃を付けた戦斧は人類最古の武器の一つが進化した形状である。簡素で古くさい作りは、力強く振り下ろしたときの切断力を重視している。
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{edge
+			label:_<edge>_
+		}
+	}
+}
+{MeleeWeapon_Warhammer
+	label:_[warhammer]_
+	description:先端に野蛮なハンマーが付いている長い棒状の武器。たとえ鎧越しでも、力強い衝撃で敵の内部を粉砕できる。
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{MeleeWeapon_MonoSword
+	label:_[monosword]_
+	description:結晶金属の長剣で、単分子の刃を持続する_[mechanite]_が含まれている。厚い鎧でも楽に切り裂き、その軽さが素早い攻撃を可能にする。
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{point
+			label:_<point>_
+		}
+		{edge
+			label:_<edge>_
+		}
+	}
+}
+{MeleeWeapon_Zeushammer
+	label:_[zeushammer]_
+	description:_{zeushammer_desc}_
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{MeleeWeapon_PlasmaSword
+	label:_[plasmasword]_
+	description:_{plasmasword_desc}_
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{point
+			label:_<point>_
+		}
+		{edge
+			label:_<edge>_
+		}
+	}
+}
+{OrbitalTargeterMechCluster
+	label:_[orbital mech cluster targeter]_
+	description:古代の軍の照準器。軌道プラットホームから標的位置に _[mechanoid]_ の戦闘クラスターを落とす信号を送る。クラスターには _[mechanoid]_  や防衛設備が含まれている。\n\nこれを作った古代の軍に従っていたとはいえ、落ちてきたメカは今では目に入る人間を、呼び出した人物を含め、無差別に攻撃する。\n\n使い切りのコードが含まれているので、一度しか使えない。
+}
+{MeleeWeapon_PsyfocusStaff
+	label:_[psyfocus staff]_
+	description:サイキック集中素材を巻き付けた、ウルトラテックの軽い杖。武器としてはあまり役に立たないが、これを振るう_{psycaster}_は _{psychic sensitivity}_ が大きくなり、 _{psychic entropy}_ の発散が速くなる。
+	{tools
+		{head
+			label:_<head>_
+		}
+	}
+}

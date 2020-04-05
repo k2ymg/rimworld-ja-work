@@ -1,0 +1,27 @@
+﻿{Stab
+	label:<<stab??刺す>>
+}
+{Cut
+	label:<<cut??切る>>
+}
+{Blunt
+	label:<<blunt??殴る>>
+}
+{Scratch
+	label:<<scratch??引っ掻き>>
+}
+{Poke
+	label:<<poke??突く>>
+}
+{Bite
+	label:<<bite??噛みつき>>
+}
+{ToxicBite
+	label:<<toxic bite??毒噛みつき>>
+}
+{ScratchToxic
+	label:<<toxic scratch??毒引っ掻き>>
+}
+{KickMaterialInEyes
+	label:<<kick material in eyes??目のゴミ>>
+}

@@ -1,0 +1,55 @@
+﻿{AmbushEdge
+	label:<<ambush??待ち伏せ>>
+	description:待ち伏せ。
+}
+{AmbushHidden
+	label:<<ambush??待ち伏せ>>
+	description:待ち伏せ。
+}
+{%Outpost
+	label:<<outpost??前哨基地>>
+	description:小規模な、護られている前哨基地。
+	approachOrderString:<<Attack {0}??{0} を攻撃>>
+	approachingReportString:<<Attacking {0}??{0} を攻撃している>>
+	arrivedLetter:ここには敵の前哨基地がある。
+}
+{BanditCamp
+	label:<<bandit camp??_{bandit}_キャンプ>>
+	description:_{bandit}_のキャンプ。
+	$:Outpost
+}
+{DownedRefugee
+	label:<<incapacitated refugee??動けない_{refugee}_>>
+	description:立ち往生している、助けを請うている動けない_{refugee}_。
+}
+{ItemStash
+	label:<<item stash??アイテムの隠し場所>>
+	description:貴重なアイテムが隠されている場所。
+}
+{Manhunters
+	label:_<manhunter pack>_
+	description:人を狩っている動物の群れ。
+	arrivedLetter:ここには人狩り動物がいる。
+}
+{PossibleUnknownThreatMarker
+	label:<<possible unknown threat??未知の脅威の可能性>>
+	description:未知の脅威の可能性。
+}
+{PreciousLump
+	label:<<lump of precious resources??貴重資源の塊>>
+	description:採掘可能な貴重資源の塊。
+}
+{PrisonerWillingToJoin
+	label:<<prisoner camp??_{prisoner}_キャンプ>>
+	description:敵に捕らわれている_{prisoner}_。助けると仲間になる。
+}
+{SleepingMechanoids
+	label:<<sleeping mechanoids??休止状態の_[Mechanoid]_>>
+	description:休止状態の_[Mechanoid]_の一団。
+	arrivedLetter:ここには敵対する休止状態の_[Mechanoid]_が何体かいる。\n\n_[Mechanoid]_に近づくと起きるかもしれないので、気を付けろ。
+}
+{Turrets
+	label:<<turrets??_[turret]_>>
+	description:いくつかの_<Turret>_。
+	arrivedLetter:ここには敵の_<Turret>_がある。
+}

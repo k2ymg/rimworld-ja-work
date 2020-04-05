@@ -1,0 +1,233 @@
+﻿{WorldCameraMovement
+	label:<<World view camera movement??カメラの動かし方>>
+	helpText:マウスホイールか、{Key:MapZoom_In}、{Key:MapZoom_Out}キーで拡大縮小。\n\n{Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}キーか、マウス・ミドルボタンを押しながらドラッグで平行移動。
+}
+{ReformCaravan
+	label:<<Reforming caravans??キャラバンの再編成>>
+	helpText:戦闘後はワールド画面の'_<Reform caravan>_'コマンドから簡単にキャラバンを再編成できる。
+}
+{Rescuing
+	label:_<Rescuing>_
+	helpText:負傷した人を助けるには、負傷していない_{colonist}_を選んで、負傷した人を右クリックする。\n\n_{colonist}_以外を助けてもあなたの_{colony}_に加わるとは限らない。回復したらそのまま出て行くかもしれない。確実に仲間にしたければ、捕まえて勧誘する。
+}
+{Capturing
+	label:_<Capturing>_
+	helpText:死なずに倒れた敵は捕まえる事ができる。\n\n捕まえるには、_{colonist}_を選択し、動けなくなった敵を右クリックし、'_<capture>_'を選択する。_{prisoner}_用に指定されたベッドが空いていなければならない。
+}
+{ShieldBelts
+	label:<<Shield belts??_[Shield belt]_>>
+	helpText:_[Shield belt]_は内外からの遠距離攻撃を防ぐが、近接攻撃には効果がない。_[Shield belt]_に対処するには、集中砲火するか、近接攻撃を行う。
+}
+{InteractingWithTraders
+	label:<<Interacting with traders??商人との取引>>
+	helpText:頭上に?が付いている人には話しかける事ができる。_{colonist}_を選択し、?が付いている人を右クリックする。
+}
+{Drafting
+	label:<<Drafting for combat??徴兵>>
+	helpText:_{colonist}_を直接操作して戦わせるには、_{colonist}_を選択して'_<draft>_'を選択する。\n\n徴兵された_{colonist}_はあなたの指示通りに動き、戦闘行為のみ指示できる。武器を持っている人は必要に応じてそれを使うようになる。\n\n_{colonist}_を徴兵したままにすると、飢えて不機嫌になる。
+}
+{BuildOrbitalTradeBeacon
+	label:<<Build orbital trade beacon??_[Orbital trade beacon]_を作る>>
+	helpText:衛星軌道上の交易商へアイテムやシルバーを送るには、_[Orbital trade beacon]_ を作り、近くにアイテムの_<stockpile>_ゾーンを配置する。
+}
+{AnimalsDontAttackDoors
+	label:<<Animals don't attack doors??動物はドアを攻撃する>>
+	helpText:人狩り動物は人が通ったドアを攻撃する。また、動いていない_<Turret>_も攻撃する。
+}
+{BillsTab
+	label:<<Bills tab??_{bills}_タブ>>
+	helpText:_{colonist}_を作業台で働かせるには、台を選択して'_<bills>_'タブを開く。ここで、どの食事を作るのか、何を作るのか、どの生物を解体するのか指示できる。
+}
+{OpeningComms
+	label:<<Using the comms console??_[comms console]_を使う>>
+	helpText:通信するには、_{colonist}_を選択して _[comms console]_ を右クリックする。
+}
+{DrugAddiction
+	label:<<Drug addiction??ドラッグ中毒>>
+	helpText:_{colonist}_のドラッグ欲は'_<Needs>_'タブから調べられる。\n\n欲求レベルが0の状態が続くと、中毒は様々な悪影響がある'_<withdrawal>_'へと変わる。\n\nしかし、_<withdrawal>_が長く続いた後にはは中毒が終わり、ドラッグ欲は無くなる。
+}
+{DrugPolicies
+	label:<<Drug policies??ドラッグのポリシー>>
+	helpText:_{colonist}_に特定のドラッグを特定のスケジュールで摂らせる事ができる。例えば、感染症予防薬を定期的に摂らせたり、ビールを一日一本飲ませたりできる。\n\n_[Assign]_タブを開き、'_<Manage drug policies>_'ボタンを押す。新しいポリシーを作り、_{colonist}_に割り当てる。\n\n_{colonist}_はこの方針以外のドラッグを依然として使える。何をすべきか伝える事はできるが、彼らは自分の欲望にも従うのだ！
+}
+{TVForSickPeople
+	label:<<TV for sick people??病人用のテレビ>>
+	helpText:病人はベッドで横になっていてもTVを観ることができる。
+}
+{PrisonerTab
+	label:<<Prisoner tab??_{prisoner}_タブ>>
+	helpText:_{prisoner}_をどう扱うかは_{prisoner}_の'_{prisoner}_'タブから設定できる。\n\n勧誘、無視、処刑するか、食事させるか、どのような治療を受けさせるか設定できる。\n\n'_<warden>_'が割り当てられている_{colonist}_が_{prisoner}_と関われる。
+}
+{SetGrowingZonePlant
+	label:<<Set what plant to grow??育てる植物を設定する>>
+	helpText:_<Growing zone>_に何を植えるか設定できる。樹木も育てられます！_<Growing zone>_を選択して'<<plant??植物>>'ボタンを押す。(訳注:実際には今現在選択されている植物名が表示されており、「植物」ボタンというのはない。)
+}
+{DrugBurning
+	label:<<Drug burning??ドラッグの焼却処分>>
+	helpText:ドラッグは便利だが、悪い中毒を引き起こす事もある。_{colony}_でドラッグを避けたい場合は、_[Campfire]_で焼却するとう選択肢もある。
+}
+{DoorOpenSpeed
+	label:<<Door opening speeds??ドアの開閉速度>>
+	helpText:ドアは何で作られているかによって、開く速度が異なる。\n\n警告:石のドアはものすごく遅く開くため、通り抜ける人はかなり遅くなる。
+}
+{QueueOrders
+	label:<<Order queueing??_{queue order}_>>
+	helpText:"シフト"キーを押しながら人物に命令すると、複数の命令を連続して与えられる。これは徴兵していない人物に仕事を与える事にも使える。
+}
+{CameraDolly
+	label:<<Camera dolly??カメラを動かす>>
+	helpText:カメラを動かすには MOUSE BUTTON 3 (ミドル・ボタン)をクリックしたままドラッグするか、{Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} を使う。
+}
+{CameraZoom
+	label:<<Camera zoom??カメラのズーム>>
+	helpText:カメラをズームイン、アウトさせるには MOUSEWHEEL か {Key:MapZoom_In}, {Key:MapZoom_Out}を使う。
+}
+{TimeControls
+	label:<<Time controls??時間操作>>
+	helpText:時間を速めることが出来る。\n\n時間を操作するには {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, {Key:TimeSpeed_Superfast} か、画面右下のボタンを使う。
+}
+{Pause
+	label:<<Pausing??一時停止>>
+	helpText:{Key:TogglePause} でゲームを止めたり再開できる。\n\n停止中でも指示を出すことが出来る。\n\nもし忙しくなってきたら {Key:TogglePause} を押しましょう！
+}
+{Stockpiles
+	label:_<Stockpiles>_
+	helpText:_{colonist}_にはアイテムを保管する場所が必要です。彼らが保管できるように_<Stockpile>_を作りましょう。\n\n_<Stockpile>_は左下にある '_[ui/Architect]_' メニューの '_[Zone]_' 項にある。
+}
+{Forbidding
+	label:<<Forbid and allow??禁止と許可>>
+	helpText:_{Colonist}_は'_<Forbid>_'されているアイテムを無視する。\n\n'_<Forbid>_'されているアイテムには小さなX印が付いている。'_<Allow>_'するには'_<Forbid>_'されているアイテムを選択して、下の操作メニューを使う。
+}
+{GrowingFood
+	label:<<Growing zones??栽培ゾーン>>
+	helpText:作物を育てるには'_[Architect]_' メニューから_<Growing zone>_を設置する。\n\nこのゾーンは土の上にだけに設置できる。
+}
+{EquippingWeapons
+	label:<<Equipping weapons??武装>>
+	helpText:_{colonist}_は武器を持ってきているので、装備させましょう！\n\n_{colonist}_を選択して装備させたい武器を右クリックする。
+}
+{Alerts
+	label:<<Alerts??アラート>>
+	helpText:画面右端にあるアラートは何か注意を払った方が良い問題について教えてくれる。\n\nアラートを見逃さないようにしましょう。
+}
+{Mining
+	label:<<Mining??採掘>>
+	helpText:'_<ui/Architect>_'の'_<Orders>_'から採掘する場所を指定できる。\n\n採掘可能な岩によっては_[Steel]_、_[Gold]_、_[Plasteel]_などの有用な金属が得られる。
+}
+{WorkTab
+	label:<<Work settings??仕事の設定>>
+	helpText:画面左下の'_<Work>_'タブから_{colonist}_の仕事を設定できる。\n\n_<colonist>_は常に、見つけられた中で優先度が最も高い仕事だけを行う。\n\nある仕事が誰にも割り当てられていない、または、より優先度の高い仕事に掛かりきりになっている場合は、その仕事はいつまでも行われない。
+}
+{ForbiddingDoors
+	label:<<Forbidding doors??ドアの_{Forbid}_>>
+	helpText:ドアを'_<Forbid>_'にすると_{colonist}_や動物はそこを通らなくなる。\n\nこれはドアをロックするわけではない。ドアは常にロックされているので敵は通れない。'_<Forbidden>_'とは単に使わないように指示するだけで、_{colonist}_がおかしくなっているときは使うかもしれない。
+}
+{CoverAndShooting
+	label:<<Cover and shooting??カバーと射撃>>
+	helpText:銃撃戦で必ずやるべき事はカバーを使う事です。\n\nカバーは_{colonist}_に隣接して、かつ、敵との間にある場合だけ機能する。\n\n_{colonist}_を壁の角に配置することも出来る。この場合、_{colonist}_は身を乗り出して射撃する。\n\n殆どの物はカバーとして使えるが、いくつかの物は他よりも優れている。樹木に隠れるのは何もしないよりマシだが、_[Sandbags]_に隠れるほうがより良い。
+}
+{FormCaravan
+	label:<<Forming caravans??キャラバンの編成>>
+	helpText:この星を旅する人々のグループを送り出すためにキャラバンを編成できます！\n\n'_<World>_'タブから、本拠地を選択して'_<Re-Form caravan>_'ボタンを押す。
+}
+{AnimalTaming
+	label:<<Animal taming??動物の手懐け>>
+	helpText:'_<Tame>_'で_{colonist}_に野生の動物を手懐けさせられる。\n\n_{colonist}_は餌を与え手懐けようとする。\n\n注意:一部の動物は手懐けに失敗すると襲いかかってくる。
+}
+{AnimalTraining
+	label:<<Animal training??動物の訓練>>
+	helpText:動物に特定のスキルを教えるには'_<Traning>_'タブから指示できる。\n\n動物は連続して訓練を受けることは出来ない。間を置いて訓練する必要がある。
+}
+{InfoCard
+	label:<<Info card??情報画面を開く>>
+	helpText:情報画面はアイテム、人、建物の詳細を表示する。\n\n人やアイテムを選択して"i"を選択する。
+}
+{StorageTab
+	label:<<Storage tab??_{Storage}_タブ>>
+	helpText:_<Stockpiles>_や保管建物を選択して、左下のパネルの上にある'_<Storage>_'タブを押すと、これらの設定をすることが出来る。\n\n_<Stockpile>_では、カテゴリーを展開してアイテムの許可・不許可を設定できる。カテゴリー名の左にある三角形を押す。\n\n保管の優先順位を変えることが出来る。_{colonist}_は優先度が高い所を先に使う。また、優先度が低い所から高い所へ移動させる。
+}
+{HomeArea
+	label:_<Home area>_
+	helpText:_<Home area>_は_{colonist}_が掃除したり消火したりするエリアです。'_<Architect>_'メニューの'_[Zone]_'カテゴリから_<Home area>_を指定する。
+}
+{SpoilageAndFreezers
+	label:<<Spoilage and freezers??腐敗と冷凍>>
+	helpText:殆どの食物は割と早く腐る。\n\nこれを防ぐには冷凍倉庫を作る。\n\n冷凍倉庫を作るには、閉じた部屋を作り、一つか二つのクーラーを壁に付ける。クーラーの温度を零度以下に設定する。\n\n凍った食べ物は腐らない。
+}
+{Deterioration
+	label:<<Item deterioration??アイテムの劣化>>
+	helpText:アイテムを野ざらしにすると、ゆっくりと劣化する。\n\nアイテムを長く保管するためには屋根が付いた部屋に置くようにする。
+}
+{HostilityResponse
+	label:<<Hostility response modes??危険への対処方法>>
+	helpText:捕食動物などの危険に対して、_{colonist}_が自動で取る対処方法を設定できる。_[ASSIGN]_メニューから'_<FLEE>_'、'_<ATTACK>_'、'_<IGNORE>_'を選ぶ。
+}
+{AllowedAreas
+	label:_<Allowed areas>_
+	helpText:_{colonist}_と_{colony}_の動物に対して'_<Allowed areas>_'を指示することが出来る。\n\nこれは_<Allowed areas>_外への移動を禁止する。例えば、_{colonist}_が屋外へ出て行くのを禁止するのに使える。\n\n_<Allowed areas>_は複数作れ、それらを別々の_{colonist}_や動物へ指示することが出来る。\n\n_<Allowed areas>_の作成、削除、指定は'_<Restrict>_'タブから行う。\n\n_<Allowed areas>_をマップ上に設定するには、'_<Architect>_'タブから'_<Expand allowed area>_'と'_<Clear allowed area>_'を使う。
+}
+{MedicalOperations
+	label:_<Medical operations>_
+	helpText:臓器の摘出や義肢の装着などの手術をするには、_{colonist}_の'_<Health>_'タブを開いて、'_<Operations>_'タブへ切り替える。
+}
+{TimeAssignments
+	label:<<Time assignments??時間割>>
+	helpText:_{colonist}_が一日の内、何時、どのような活動を行うかを設定するには'_<Restrict>_'タブを使う。
+}
+{ManualWorkPriorities
+	label:<<Manual work priorities??仕事の優先順位の微調整>>
+	helpText:RimWorldにおける最も重要な事の一つは、_{colonist}_に合った仕事をさせる事です。\n\n設定が良くないと、重要ではない作業に時間を無駄に使い、重要な仕事がいつまで経っても終わらなくなる事もある。\n\n_{colonist}_にやらせる仕事を細かく制御するには、'_[Work]_'タブの'_<Manual priorities>_'モードを使う。\n\nこのモードでは、各_{colonist}_は各仕事ごとに優先度を持っている。_{colonist}_は優先度1の仕事を左から右へ行い、次に優先度2の仕事を左から右へ行い、以降も同じように行う。\n\n大きく、自動化された_{colony}_には、これらの設定を賢く使う事が必要不可欠です。
+}
+{GettingMoreTraders
+	label:<<Getting more traders??交易商を増やす>>
+	helpText:友好的な_{faction}_が増えれば、交易キャラバンが多く訪れる。\n\n友好的な_{faction}_がいないとキャラバンは訪れません！\n\n_[comms console]_ から_{faction}_を呼び出し、対価を払って交易キャラバンを送ってもらうことも出来る。
+}
+; 実際にはボタンのTipが表示されるだけなので、明確なボタン名はない。
+{InspectRoomStats
+	label:<<Room stats inspector??部屋の状態を見る>>
+	helpText:右下にあるボタンで部屋の豪華さ、富、美しさを見ることが出来る。
+}
+{Outfits
+	label:<<Outfits??服装>>
+	helpText:_{colonist}_はより新しい、高品質の服を自主的に着ようとする。\n\n手動で服を着させる必要はない。(やりたければ出来る。)\n\n_{colonist}_の服装を制限するには、'_[Assign]_'タブを開き、'_<Manage outfits>_'ダイアログボックスから新しい服装を作り、_{colonist}_に割り当てる。
+}
+{FirePreparation
+	label:<<Fire preparation??火の扱い>>
+	helpText:火事は簡単に_{colony}_を焼き払える。これを防ぐには、事が起こる前に準備しておく。\n\n次の設計指針は火事のダメージを減らすのに役立つ:\n1.一つの巨大な建物ではなく、間隔を開けて複数に分けて建てる。\n2.燃えやすい素材の使用を減らす。木材は安上がりだがとても燃えやすい。\n3.野火が建物へ近づかないように防火帯を作る。3か4セル幅のコンクリート床があれば大抵は延焼を防いでくれる。
+}
+{HistoryTab
+	label:<<History tab??歴史タブ>>
+	helpText:画面右下にある'_[History]_'タブから_{colony}_の興亡の記録を見られる。
+}
+{ClickingMessages
+	label:<<Clicking messages??メッセージをクリック>>
+	helpText:画面左上にある通知をクリックすれば、それらの対象を簡単に画面中央にすることが出来る。
+}
+{ShotAccuracyTooltip
+	label:<<Shot accuracy tooltip??射撃精度のヒント>>
+	helpText:射撃の命中率に関する正確な計算を見ることが出来る。\n\n射手を選択して、マウスを標的へ重ねる。命中率に加えて、命中率に影響する様々な乗数が詳細に表示される。
+}
+{FriendlyFireSafety
+	label:<<Friendly fire safety??安全な射撃>>
+	helpText:射手の直ぐ近くにいる味方には射手の攻撃は当たらない。例えば、射手の目の前に近接武器を持った者を安全に配置できる。射手は味方の肩越しに射撃する。これは近接と遠距離攻撃を組み合わせる良い方法です。
+}
+{TradeGoodsMustBeNearBeacon
+	label:<<Trade goods and trade beacons??売買とトレード・ビーコン>>
+	helpText:アイテムやシルバーを軌道交易商へ送るには、'_[Orbital trade beacon]_'を建てて、その近くにアイテムの_<stockpile>_を作る。
+}
+{ArrestingCreatesEnemies
+	label:<<Arresting worsens faction relations??逮捕による_{faction}_関係の悪化>>
+	helpText:警告: 大人しく捕まる人はいません。\n\n他の_{faction}_に属する人を逮捕すると、その_{faction}_全体が敵になる。
+}
+{SwitchFlickingDesignation
+	label:<<Flick designations only designate??スイッチ操作は指示しているだけ>>
+	helpText:注意: これは_{colonist}_にスイッチを操作するように指示しているだけにすぎない。\n\n_{colonist}_が実際にスイッチを操作するまでは何も起こらない。
+}
+{MaxNumberOfPlayerSettlements
+	label:<<Maximum number of player colonies??_{colony}_の最大数>>
+	helpText:警告:RimWorldは一つの_{colony}_で遊ぶように設計されている。複数の_{colony}_は実験目的でのみ使える。\n\n複数の_{colony}_はゲームバランスを崩して注意散漫なり、パフォーマンスも悪化します。少なくとも最初のうちは、一つの_{colony}_だけで遊ぶことをお勧めします。
+}
+{TradingRequiresPermit
+	label:<<Trading permit requirements??取引の条件>>
+	helpText:取引には {0} の肩書きが必要です。\n\n取引キャラバンには {0} 以上の肩書きを持つ人を含めます。
+}

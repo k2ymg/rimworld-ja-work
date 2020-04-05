@@ -1,0 +1,10 @@
+﻿{Party
+	label:_<party>_
+	letterTitle:_<Party>_
+	letterText:{ORGANIZER_labelShort} が_{party}_を始めた！参加した全ての人は娯楽と社交が満たされ、しばらく_{mood}_が良くなる。
+	calledOffMessage:_{party}_は中止になった。
+	finishedMessage:_{party}_は終わった。
+}
+{MarriageCeremony
+	label:<<marriage ceremony??結婚式>>
+}

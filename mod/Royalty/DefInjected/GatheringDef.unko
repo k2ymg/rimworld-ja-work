@@ -1,0 +1,13 @@
+﻿{Concert
+	label:_<concert>_
+	letterTitle:_<Concert>_
+	letterText:{ORGANIZER_labelShort} が_{concert}_を開いた！参加した全ての人は交流や音楽から娯楽と社交が満たされ、しばらく_{mood}_が良くなる。
+	calledOffMessage:_{concert}_はキャンセルされた。
+	finishedMessage:_{concert}_は閉幕した。
+}
+{ThroneSpeech
+	;もしかしたら、labelは訳さなくても良いのかもしれない。
+	label:ThroneSpeech
+	letterTitle:<<Speech from the throne??_{throne}_からのスピーチ>>
+	letterText:{ORGANIZER_labelShort} が_{throne}_からスピーチを始めた。\n\n上手くいけば、聞き手は感銘して、 {ORGANIZER_labelShort} を尊敬する。下手なら、スピーチは社交を悪化させる。結果は {ORGANIZER_labelShort} の社交能力に依存する。
+}

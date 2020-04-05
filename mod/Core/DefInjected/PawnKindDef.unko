@@ -1,0 +1,526 @@
+﻿{Grenadier_Destructive
+	label:_[grenadier]_
+}
+{Grenadier_EMP
+	label:_[EMP grenadier]_
+}
+{Grenadier_Smoke
+	label:_[smoke grenadier]_
+}
+{$MercenaryGunnerBase
+	label:_[mercenary gunner]_
+}
+{Mercenary_Gunner
+	$:MercenaryGunnerBase
+}
+{Mercenary_Gunner_Acidifier
+	$:MercenaryGunnerBase
+}
+{$MercenarySniperBase
+	label:_[mercenary sniper]_
+}
+{Mercenary_Sniper
+	$:MercenarySniperBase
+}
+{Mercenary_Sniper_Acidifier
+	$:MercenarySniperBase
+}
+{$MercenarySlasherBase
+	label:_[mercenary slasher]_
+}
+{Mercenary_Slasher
+	$:MercenarySlasherBase
+}
+{Mercenary_Slasher_Acidifier
+	$:MercenarySlasherBase
+}
+{Mercenary_Heavy
+	label:_[heavy mercenary]_
+	labelPlural:<<heavy mercenaries??_[heavy mercenary]_>>
+}
+{PirateBoss
+	label:_[boss]_
+	labelPlural:<<bosses??_[boss]_>>
+}
+{$MercenaryEliteBase
+	label:_[elite mercenary]_
+	labelPlural:<<elite mercenaries??_[elite mercenary]_>>
+}
+{Mercenary_Elite
+	$:MercenaryEliteBase
+}
+{Mercenary_Elite_Acidifier
+	$:MercenaryEliteBase
+}
+{Villager
+	label:_[villager]_
+}
+{Town_Guard
+	label:_[town guard]_
+}
+{Town_Trader
+	label:_[town trader]_
+}
+{Town_Councilman
+	label:_[town councilman]_
+	labelPlural:<<town councilmen??_[town councilman]_>>
+}
+{Drifter
+	label:_[drifter]_
+}
+{Scavenger
+	label:_[scavenger gunner]_
+}
+{Thrasher
+	label:_[scavenger thrasher]_
+}
+{Pirate
+	label:_[pirate gunner]_
+}
+{Colonist
+	label:_[colonist]_
+}
+{Tribesperson
+	label:_[member]_
+}
+{SpaceRefugee
+	label:_[space refugee]_
+}
+{SpaceRefugee_Clothed
+	label:_[space refugee]_
+}
+{AncientSoldier
+	label:_[ancient soldier]_
+}
+{Slave
+	label:_[slave]_
+}
+{WildMan
+	label:_[wild man]_
+	labelPlural:<<wild men??_[wild man]_>>
+	labelFemale:_[wild woman]_
+	labelFemalePlural:<<wild women??_[wild woman]_>>
+}
+{StrangerInBlack
+	label:_[stranger in black]_
+	labelMale:_[man in black]_
+	labelFemale:_[woman in black]_
+	labelPlural:<<strangers in black??_[stranger in black]_>>
+}
+{Tribal_Penitent
+	label:_[penitent]_
+}
+{Tribal_Archer
+	label:_[archer]_
+}
+{Tribal_Warrior
+	label:_[warrior]_
+}
+{%Tribal_Hunter
+	label:_[hunter]_
+}
+{Tribal_Trader
+	label:_[trader]_
+	$:Tribal_Hunter
+}
+{Tribal_Berserker
+	label:_[berserker]_
+}
+{Tribal_HeavyArcher
+	label:_[heavy archer]_
+}
+{Tribal_ChiefMelee
+	label:_[berserker chief]_
+}
+{Tribal_ChiefRanged
+	label:_[archer chief]_
+}
+{%Muffalo
+	label:_[muffalo]_
+	{lifeStages
+		{muffalo_calf
+			label:_[muffalo calf]_
+			labelPlural:<<muffalo calves??_[muffalo calf]_>>
+		}
+	}
+}
+{Gazelle
+	label:_[gazelle]_
+}
+{Iguana
+	label:_[iguana]_
+}
+{%Dromedary
+	label:_[dromedary]_
+	labelPlural:<<dromedaries??_[dromedary]_>>
+	{lifeStages
+		{dromedary_calf
+			label:_[dromedary calf]_
+			labelPlural:<<dromedary calves??_[dromedary calf]_>>
+		}
+	}
+}
+{Bear_Grizzly
+	label:_[grizzly bear]_
+}
+{Bear_Polar
+	label:_[polar bear]_
+}
+{Cougar
+	label:_[cougar]_
+}
+{Panther
+	label:_[panther]_
+}
+{Lynx
+	label:_[lynx]_
+	labelPlural:_[lynx]_
+	{lifeStages
+		{lynx_kitten
+			label:_[lynx kitten]_
+		}
+	}
+}
+{Cassowary
+	label:_[cassowary]_
+	labelPlural:<<cassowaries??_[cassowary]_>>
+}
+{Emu
+	label:_[emu]_
+}
+{Ostrich
+	label:_[ostrich]_
+	labelPlural:<<ostriches??_[ostrich]_>>
+}
+{Turkey
+	label:_[turkey]_
+}
+{Chicken
+	label:_[chicken]_
+	labelMale:_[rooster]_
+	labelFemale:_[hen]_
+	{lifeStages
+		{chick
+			label:_[chick]_
+		}
+		{cockerel
+			labelMale:_[cockerel]_
+		}
+	}
+}
+{Pig
+	label:_[pig]_
+	labelFemale:_[sow]_
+	{lifeStages
+		{piglet
+			label:_[piglet]_
+		}
+	}
+}
+{Cow
+	label:_[cow]_
+	labelMale:_[bull]_
+	{lifeStages
+		{calf
+			label:_[calf]_
+			labelPlural:<<calves??_[calf]_>>
+		}
+	}
+}
+{Alpaca
+	label:_[alpaca]_
+}
+{Duck
+	label:_[duck]_
+	{lifeStages
+		{duckling
+			label:_[duckling]_
+		}
+	}
+}
+{%Bison
+	label:_[bison]_
+	{lifeStages
+		{bison_calf
+			label:_[bison calf]_
+			labelPlural:<<bison calves??_[bison calf]_>>
+		}
+	}
+}
+{Goat
+	label:_[goat]_
+	labelFemale:_[goat doe]_
+	{lifeStages
+		{baby_goat
+			label:_[baby goat]_
+		}
+	}
+}
+{Goose
+	label:_[goose]_
+	labelPlural:<<geese??_[goose]_>>
+}
+{%Sheep
+	label:_[sheep]_
+	labelPlural:_[sheep]_
+	labelMale:_[ram]_
+	labelFemale:_[ewe]_
+	{lifeStages
+		{lamb
+			label:_[lamb]_
+			labelPlural:<<lambs??_[lamb]_>>
+		}
+	}
+}
+{%Horse
+	label:_[horse]_
+	labelMale:_[stallion]_
+	labelFemale:_[mare]_
+	{lifeStages
+		{foal
+			label:_[foal]_
+		}
+	}
+}
+{Yak
+	label:_[yak]_
+	labelMale:_[yak]_
+	{lifeStages
+		{yak_calf
+			label:_[yak calf]_
+			labelPlural:<<yak calves??_[yak calf]_>>
+		}
+	}
+}
+{GuineaPig
+	label:_[guinea pig]_
+}
+{%Donkey
+	label:_[donkey]_
+	{lifeStages
+		{donkey_foal
+			label:_[donkey foal]_
+		}
+	}
+}
+{Rhinoceros
+	label:_[rhinoceros]_
+	labelPlural:<<rhinoceroses??_[rhinoceros]_>>
+}
+{Elephant
+	label:_[elephant]_
+	{lifeStages
+		{elephant_calf
+			label:_[elephant calf]_
+		}
+	}
+}
+{Megasloth
+	label:_[megasloth]_
+}
+{Thrumbo
+	label:_[thrumbo]_
+	{lifeStages
+		{thrumbo_calf
+			label:_[thrumbo calf]_
+			labelPlural:<<thrumbo calves??_[thrumbo calf]_>>
+		}
+	}
+}
+{Hare
+	label:_[hare]_
+}
+{Snowhare
+	label:_[snowhare]_
+}
+{Megascarab
+	label:_[megascarab]_
+}
+{Spelopede
+	label:_[spelopede]_
+}
+{Megaspider
+	label:_[megaspider]_
+}
+{YorkshireTerrier
+	label:_[yorkshire terrier]_
+	{lifeStages
+		{yorkshire_terrier_puppy
+			label:_[yorkshire terrier puppy]_
+			labelPlural:<<yorkshire terrier puppies??_[yorkshire terrier puppy]_>>
+		}
+	}
+}
+{Husky
+	label:_[husky]_
+	labelPlural:<<huskies??_[husky]_>>
+	{lifeStages
+		{husky_puppy
+			label:_[husky puppy]_
+			labelPlural:<<husky puppies??_[husky puppy]_>>
+		}
+	}
+}
+{LabradorRetriever
+	label:_[labrador retriever]_
+	{lifeStages
+		{labrador_puppy
+			label:_[labrador puppy]_
+			labelPlural:<<labrador puppies??_[labrador puppy]_>>
+		}
+	}
+}
+{Cat
+	label:_[cat]_
+	{lifeStages
+		{kitten
+			label:_[kitten]_
+		}
+	}
+}
+{Squirrel
+	label:_[squirrel]_
+}
+{Alphabeaver
+	label:_[alphabeaver]_
+}
+{Capybara
+	label:_[capybara]_
+}
+{Chinchilla
+	label:_[chinchilla]_
+}
+{Boomrat
+	label:_[boomrat]_
+}
+{Raccoon
+	label:_[raccoon]_
+}
+{Rat
+	label:_[rat]_
+}
+{Deer
+	label:_[deer]_
+	labelPlural:_[deer]_
+	labelMale:_[buck]_
+	labelFemale:_[doe]_
+}
+{Ibex
+	label:_[ibex]_
+	labelPlural:<<ibexes??_[ibex]_>>
+	labelMale:_[ibex ram]_
+	labelFemale:_[ibex doe]_
+}
+{Elk
+	label:_[elk]_
+	labelPlural:_[elk]_
+	{lifeStages
+		{elk_calf
+			label:_[elk calf]_
+			labelPlural:<<elk calves??_[elk calf]_>>
+		}
+	}
+}
+{Caribou
+	label:_[caribou]_
+	labelPlural:_[caribou]_
+	{lifeStages
+		{caribou_calf
+			label:_[caribou calf]_
+			labelPlural:<<caribou calves??_[caribou calf]_>>
+		}
+	}
+}
+{WildBoar
+	label:_[wild boar]_
+}
+{Tortoise
+	label:_[tortoise]_
+}
+{Cobra
+	label:_[cobra]_
+}
+{Monkey
+	label:_[monkey]_
+}
+{Boomalope
+	label:_[boomalope]_
+	{lifeStages
+		{boomalope_calf
+			label:_[boomalope calf]_
+			labelPlural:<<boomalope calves??_[boomalope calf]_>>
+		}
+	}
+}
+{Warg
+	label:_[warg]_
+	{lifeStages
+		{warg_puppy
+			label:_[warg puppy]_
+			labelPlural:<<warg puppies??_[warg puppy]_>>
+		}
+	}
+}
+{Wolf_Timber
+	label:_[timber wolf]_
+	labelPlural:<<timber wolves??_[timber wolf]_>>
+	{lifeStages
+		{timber_wolf_puppy
+			label:_[timber wolf puppy]_
+			labelPlural:<<timber wolf puppies??_[timber wolf puppy]_>>
+		}
+	}
+}
+{Wolf_Arctic
+	label:_[arctic wolf]_
+	labelPlural:<<arctic wolves??_[arctic wolf]_>>
+	{lifeStages
+		{arctic_wolf_puppy
+			label:_[arctic wolf puppy]_
+			labelPlural:<<arctic wolf puppies??_[arctic wolf puppy]_>>
+		}
+	}
+}
+{Fox_Fennec
+	label:_[fennec fox]_
+	labelPlural:<<fennec foxes??_[fennec fox]_>>
+	{lifeStages
+		{fennec_fox_puppy
+			label:_[fennec fox puppy]_
+			labelPlural:<<fennec fox puppies??_[fennec fox puppy]_>>
+		}
+	}
+}
+{Fox_Red
+	label:_[red fox]_
+	labelPlural:<<red foxes??_[red fox]_>>
+	{lifeStages
+		{red_fox_puppy
+			label:_[red fox puppy]_
+			labelPlural:<<red fox puppies??_[red fox puppy]_>>
+		}
+	}
+}
+{Fox_Arctic
+	label:_[arctic fox]_
+	labelPlural:<<arctic foxes??_[arctic fox]_>>
+	{lifeStages
+		{arctic_fox_puppy
+			label:_[arctic fox puppy]_
+			labelPlural:<<arctic fox puppies??_[arctic fox puppy]_>>
+		}
+	}
+}
+{Mech_Centipede
+	label:_[centipede]_
+}
+{Mech_Lancer
+	label:_[lancer]_
+}
+{Mech_Scyther
+	label:_[scyther]_
+}
+{Mech_Pikeman
+	label:_[pikeman]_
+	labelPlural:<<pikemen??_[pikeman]_>>
+}

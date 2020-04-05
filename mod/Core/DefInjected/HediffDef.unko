@@ -1,0 +1,1207 @@
+﻿@bandaged:包帯
+@tended:手当
+@sutured:縫合
+@set:固定
+
+
+{AlcoholHigh
+	label:_[alcohol]_
+	labelNoun:<<drunkenness??_[alcohol]_ 中毒>>
+	description:血中のアルコール。人々を楽しませるが、能力が下がる。
+	{stages
+		{warm
+			label:<<warm??火照り>>
+		}
+		{tipsy
+			label:<<tipsy??ほろ酔い>>
+		}
+		{drunk
+			label:<<drunk??酩酊>>
+		}
+		{hammered
+			label:<<hammered??泥酔>>
+		}
+		{blackout
+			label:<<blackout??昏睡>>
+		}
+	}
+}
+{Hangover
+	label:<<hangover??二日酔い>>
+	labelNoun:<<a hangover??二日酔い>>
+	description:アルコール酔いで遅れてやってくる気持ち悪さ。
+	{stages
+		{slight
+			label:<<slight??少し>>
+		}
+		{strong
+			label:<<strong??強い>>
+		}
+		{pounding
+			label:<<pounding??ガンガン>>
+		}
+	}
+}
+{$DrugToleranceBase
+	{stages
+		{small-0
+			label:<<small??小>>
+		}
+		{small-1
+			label:<<small??小>>
+		}
+		{large
+			label:<<large??大>>
+		}
+		{massive
+			label:<<massive??極大>>
+		}
+	}
+}
+{AlcoholTolerance
+	label:<<alcohol tolerance??_[alcohol]_ 鈍化>>
+	description:アルコール鈍化の進行。悪化するほど、同じ効果を得るにはさらにアルコールが必要になる。
+	$:DrugToleranceBase
+}
+{AlcoholAddiction
+	label:_<alcohol addiction>_
+	description:アルコールの薬物中毒。長期にわたるアルコールの摂取は細胞レベルで神経順応が起こり、脳はドラッグ無しではちゃんと動かなくなる。\n\nアルコールを定期的に摂取しなければ、_{withdrawal}_症状が始まる。しかし、長く絶てば脳は元の状態に戻り、中毒から回復する。
+	{stages
+		{withdrawal
+			label:_<withdrawal>_
+		}
+	}
+}
+{AmbrosiaHigh
+	label:<<ambrosia warmth??_[ambrosia]_ 熱>>
+	description:血中の_[ambrosia]_の化学物質。_{mood}_を向上させる。
+}
+{AmbrosiaTolerance
+	label:<<ambrosia tolerance??_[ambrosia]_ 鈍化>>
+	description:_[ambrosia]_鈍化の進行。悪化するほど、同じ効果を得るにはさらに_[ambrosia]_が必要になる。
+	$:DrugToleranceBase
+}
+{AmbrosiaAddiction
+	label:_<ambrosia addiction>_
+	description:_[ambrosia]_の薬物中毒。_[ambrosia]_の長期使用は細胞レベルで神経適合を起こし、ドラッグ無しでは脳が適切に機能しなくなる。\n\n_[Ambrosia]_を適度に摂らなければ、_{withdrawal}_症状が始まる。しかし、長く絶てば脳は元の状態に戻り、中毒から回復する。
+	{stages
+		{withdrawal
+			label:_<withdrawal>_
+		}
+	}
+}
+{GoJuiceHigh
+	label:<<high on go-juice??_[go-juice]_ で高揚している>>
+	labelNoun:<<a go-juice high??_[go-juice]_ ハイ>>
+	description:血中の_[go-Juice]_。戦闘能力を過度に高める。
+}
+{GoJuiceTolerance
+	label:<<go-juice tolerance??_[go-juice]_ 鈍化>>
+	description:_[go-juice]_鈍化の進行。悪化するほど、同じ効果を得るにはさらに_[go-juice]_が必要になる。
+	$:DrugToleranceBase
+}
+{GoJuiceAddiction
+	label:_<go-juice addiction>_
+	description:_[go-juice]_の薬物中毒。_[go-juice]_の長期使用は細胞レベルで神経適合を起こし、ドラッグ無しでは脳が適切に機能しなくなる。\n\n_[Go-juice]_を適度に摂らなければ、_{withdrawal}_症状が始まる。しかし、長く絶てば脳は元の状態に戻り、中毒から回復する。
+	{stages
+		{withdrawal
+			label:_<withdrawal>_
+		}
+	}
+}
+{LuciferiumHigh
+	label:_[luciferium]_
+	description:体内で活性化している_[luciferium]_の_[mechanite]_。体のあらゆる機能を改善する。しかし、_[luciferium]_の追加摂取で定期的に補わなければ、統制が失われ、使用者を狂気に駆り立てる。
+}
+{LuciferiumAddiction
+	label:<<luciferium need??_[luciferium]_欲求>>
+	description:体内の_[luciferium]_の_[mechanite]_。_[Luciferium]_ _[mechanite]_は時間経過で結合が失われる。新たな_[luciferium]_を定期的に摂取するしか、これを止められない。\n\n_[luciferium]_が無ければ、_[mechanite]_の統制が限界に達して、使用者は狂って死ぬ。
+	{stages
+		{unmet
+			label:unmet
+		}
+	}
+}
+{PenoxycylineHigh
+	label:_[penoxycyline]_
+	description:特定の病気に対する、_[penoxycyline]_による免疫。これは新たな感染を防ぐだけで、例えまだ潜伏期間であっても、既に感染しているものには効果が無い。
+}
+{FlakeHigh
+	label:<<high on flake??_[flake]_ で高揚している>>
+	labelNoun:<<a flake high??_[flake]_ ハイ>>
+	description:血中で活性化している_[flake]_。多幸感と、消耗的な高揚感を生み出す。
+}
+{PsychiteTeaHigh
+	label:<<high on psychite tea??_[psychite tea]_ で高揚している>>
+	labelNoun:<<a psychite tea high??_[psychite tea]_ ハイ>>
+	description:血中で活性化している_[psychite tea]_。弱い多幸感を生み出す。
+}
+{YayoHigh
+	label:<<high on yayo??_[yayo]_ で高揚している>>
+	labelNoun:<<a yayo high??_[yayo]_ ハイ>>
+	description:血中で活性化している_[yayo]_。強い多幸感を生み出す。
+}
+{PsychiteTolerance
+	label:<<psychite tolerance??_[psychite]_ 鈍化>>
+	description:_[psychite]_鈍化の進行。悪化するほど、同じ効果を得るにはさらに_[yayo]_や_[flake]_などの_[psychite]_系のドラッグが必要になる。
+	$:DrugToleranceBase
+}
+{PsychiteAddiction
+	label:_<psychite addiction>_
+	description:_[psychite]_の薬物中毒。長期にわたる_[psychite]_の摂取は細胞レベルで神経順応が起こり、脳はドラッグ無しではちゃんと動かなくなる。\n\n_[yayo]_や_[flake]_などのドラッグから__[psychite]_を定期的に摂取しなければ、_{withdrawal}_症状が始まる。しかし、長く絶てば脳は元の状態に戻り、中毒から回復する。
+	{stages
+		{withdrawal
+			label:_<withdrawal>_
+		}
+	}
+}
+{SmokeleafHigh
+	label:<<stoned on smokeleaf??_[smokeleaf]_ に酔っている>>
+	labelNoun:<<a smokeleaf high??_[smokeleaf]_ ハイ>>
+	description:血中の_[Smokeleaf]_の活性化学物質。緩い幸福感を生み出す。
+}
+{SmokeleafTolerance
+	label:<<smokeleaf tolerance??_[smokeleaf]_ 鈍化>>
+	description:_[smokeleaf]_鈍化の進行。悪化するほど、同じ効果を得るにはさらに_[smokeleaf]_が必要になる。
+	$:DrugToleranceBase
+}
+{SmokeleafAddiction
+	label:_<smokeleaf dependence>_
+	description:_[smokeleaf]_の薬物中毒。長期にわたる_[smokeleaf]_の使用は細胞レベルで神経順応が起こり、脳はドラッグ無しではちゃんと動かなくなる。\n\n_[smokeleaf]_を定期的に摂取しなければ、_{withdrawal}_症状が始まる。しかし、長く絶てば脳は元の状態に戻り、中毒から回復する。
+	{stages
+		{withdrawal
+			label:_<withdrawal>_
+		}
+	}
+}
+{WakeUpHigh
+	label:<<high on wake-up??_[wake-up]_ で高揚している>>
+	labelNoun:<<a wake-up high??_[wake-up]_ ハイ>>
+	description:血中の_[Wake-up]_。脳を刺激して睡眠欲求を満たす。
+}
+{WakeUpTolerance
+	label:<<wake-up tolerance??_[wake-up]_ 鈍化>>
+	description:_[wake-up]_鈍化の進行。悪化するほど、同じ効果を得るにはさらに_[wake-up]_が必要になる。
+	$:DrugToleranceBase
+}
+{WakeUpAddiction
+	label:_<wake-up addiction>_
+	description:_[wake-up]_の薬物中毒。長期にわたる_[wake-up]_の摂取は細胞レベルで神経順応が起こり、脳はドラッグ無しではちゃんと動かなくなる。\n\n_[wake-up]_を定期的に摂取しなければ、_{withdrawal}_症状が始まる。しかし、長く絶てば脳は元の状態に戻り、中毒から回復する。
+	{stages
+		{withdrawal
+			label:_<withdrawal>_
+		}
+	}
+}
+{BloodLoss
+	label:<<blood loss??失血>>
+	description:正常血液量の減少。軽度の失血であれば影響は比較的小さいが、悪化すると酸素運搬が酷く損なわれ、動けなくなる。極度の失血は死ぬ。\n\n体がゆっくりと血液を生成するので、失血は時間経過により自然に回復する。
+	{stages
+		{minor-0
+			label:<<minor??軽度>>
+		}
+		{minor-1
+			label:<<minor??軽度>>
+		}
+		{moderate
+			label:<<moderate??中度>>
+		}
+		{severe
+			label:<<severe??重度>>
+		}
+		{extreme
+			label:<<extreme??極度>>
+		}
+	}
+}
+{Anesthetic
+	label:<<anesthetic??麻酔>>
+	description:血中の睡眠ドラッグ。麻酔は生物の意識を失わせる。
+	{stages
+		{wearing_off
+			label:<<wearing off??弱い>>
+		}
+		{woozy
+			label:<<woozy??目眩>>
+		}
+		{sedated
+			label:<<sedated??鎮静>>
+		}
+	}
+}
+{CatatonicBreakdown
+	label:_<catatonic breakdown>_
+	labelNoun:<<a catatonic breakdown??_{catatonic breakdown}_>>
+	description:何も出来なくなる精神ショック状態。倒れて、ほぼ気絶状態になる。
+}
+{PsychicShock
+	label:<<psychic shock??サイキック・ショック>>
+	labelNoun:<<a psychic shock??サイキック・ショック>>
+	description:頭と心が精神的に乱れている状態。精神攻撃や危険レベルの_{psychic entropy}_で起こり、原因が消えるまで衰弱させる。
+}
+{PsychicHangover
+	label:_{psychic hangover}_
+	labelNoun:<<a psychic hangover??_{psychic hangover}_>>
+	description:_{psychic entropy}_の後遺症。_{psychic hangover}_は面倒だが、危険ではない。
+	{stages
+		{forming
+			label:<<forming??幻覚>>
+		}
+		{buzzing
+			label:<<buzzing??幻聴>>
+		}
+	}
+}
+{BrainShock
+	label:_{brain shock}_
+	labelNoun:<<a brain shock??_{brain shock}_>>
+	description:脳への電気ショックの後遺症。これは普通、EMPパルスが当たった脳のインプラントからのフィードバックで起こる。
+}
+{CryptosleepSickness
+	label:<<cryptosleep sickness??_[cryptosleep]_ 症>>
+	description:_[Cryptosleep]_ポッドを使った後遺症。_[Cryptosleep]_は加齢や死を防ぐために身体機能を停止して置き換える。_[Cryptosleep]_から出た後、体は代謝機能を戻して安定させるのに時間がかかる。これが続いている間は、吐き気、目眩、意識散漫に悩まされる。
+}
+{FoodPoisoning
+	label:<<food poisoning??食中毒>>
+	description:劣化したり不衛生な食事で起こる胃腸病。腐った物を食べる、下手な調理による有毒な料理、危険な天然物を食べる、などで起こる。嘔吐と体調不良がしばらく続く。
+	{stages
+		{recovering
+			label:<<recovering??回復中>>
+		}
+		{major
+			label:<<major??重度>>
+		}
+		{initial
+			label:<<initial??初期>>
+		}
+	}
+}
+{ToxicBuildup
+	label:<<toxic buildup??毒蓄積>>
+	description:血中の毒。原因は複数あり、環境の毒、毒の噛みつき、毒の武器などがある。\n\n高い毒蓄積は致命的になる。例え低くても、癌になる可能性がある。\n\n毒蓄積で死んだ動物は食べられない。
+	{stages
+		{initial-0
+			label:<<initial??初期>>
+		}
+		{initial-1
+			label:<<initial??初期>>
+		}
+		{minor
+			label:<<minor??軽度>>
+		}
+		{moderate
+			label:<<moderate??中度>>
+		}
+		{serious
+			label:<<serious??重度>>
+		}
+		{extreme
+			label:<<extreme??極度>>
+		}
+	}
+}
+{Pregnant
+	label:<<pregnant??妊娠>>
+	labelNoun:<<pregnancy??妊娠>>
+	description:身ごもっている。妊娠期間が満ちれば出産する。飢えたり怪我をしたりすると、流産するかもしれない。
+	{comps
+		{HediffComp_Discoverable
+			discoverLetterLabel:<<{0} pregnant??{0} 妊娠>>
+			discoverLetterText:{0} が妊娠した！
+		}
+	}
+	{stages
+		{earlystage
+			label:<<early-stage??初期>>
+		}
+		{middlestage
+			label:<<middle-stage??中期>>
+		}
+		{latestage
+			label:<<late-stage??後期>>
+		}
+	}
+}
+{HeartAttack
+	label:_<heart attack>_
+	labelNoun:<<a heart attack??_<heart attack>_>>
+	description:心臓の鼓動の乱れ。_{heart attack}_は痛みで衰弱させる。悪化して死に至るか、回復する。
+	{stages
+		{painful
+			label:<<painful??苦痛>>
+		}
+		{debilitating
+			label:<<debilitating??衰弱>>
+		}
+		{fatal
+			label:<<fatal??致命的>>
+		}
+	}
+}
+{DrugOverdose
+	label:<<drug overdose??ドラッグ過剰摂取>>
+	labelNoun:<<a drug overdose??ドラッグの過剰摂取>>
+	description:血中のドラッグの過剰な濃度による全体的な毒の影響。
+	{comps
+		{HediffComp_Discoverable
+			discoverLetterLabel:<<Overdose: {0}??過剰摂取: {0}>>
+			discoverLetterText:{0} が過剰に摂取している！
+		}
+	}
+	{stages
+		{minor-0
+			label:<<minor??軽度>>
+		}
+		{minor-1
+			label:<<minor??軽度>>
+		}
+		{major
+			label:<<major??重度>>
+		}
+	}
+}
+{ResurrectionSickness
+	label:<<resurrection sickness??蘇生後遺症>>
+	description:_[Mechanite]_注入による蘇生による後遺症。人為的に起こされた体内活動が安定するには時間がかかる。
+}
+{Malnutrition
+	label:<<malnutrition??栄養失調>>
+	description:体脂肪と体重が異様に低い。普通は食糧不足で起こる。栄養失調は常にとても不愉快だが、初期症状は軽い。食物が無いと、栄養失調の生物は痩せ衰え、筋力を失う。栄養失調は死に至る。\n\n食べれば栄養失調は時と共に自然に治る。栄養失調の生物は通常よりも食欲が大きい。
+	{stages
+		{trivial
+			label:<<trivial??若干>>
+		}
+		{minor
+			label:<<minor??軽度>>
+		}
+		{moderate
+			label:<<moderate??中度>>
+		}
+		{severe
+			label:<<severe??重度>>
+		}
+		{extreme
+			label:<<extreme??極度>>
+		}
+	}
+}
+{Heatstroke
+	label:_<heatstroke>_
+	description:熱や太陽光に過剰に晒された事による身体機能の全体的な不調。目眩、虚弱、混乱を起こす。涼しい場所に一度入れば直ぐに治るが、熱への暴露が続けば、熱射病は死に至るまで悪化する。
+	{stages
+		{initial-0
+			label:<<initial??初期>>
+		}
+		{initial-1
+			label:<<initial??初期>>
+		}
+		{minor
+			label:<<minor??軽度>>
+		}
+		{serious
+			label:<<serious??重度>>
+		}
+		{extreme
+			label:<<extreme??極度>>
+		}
+	}
+}
+{Hypothermia
+	label:_<hypothermia>_
+	description:深部体温が危険なまでに低い。暖まらなければ悪化して死に至る。一度暖まれば直ぐに治る。寒い環境では、暖かい服を着れば防げる。
+	{stages
+		{shivering-0
+			label:<<shivering??初期>>
+		}
+		{shivering-1
+			label:<<shivering??初期>>
+		}
+		{minor
+			label:<<minor??軽度>>
+		}
+		{serious
+			label:<<serious??重度>>
+		}
+		{extreme
+			label:<<extreme??極度>>
+		}
+	}
+}
+{HypothermicSlowdown
+	label:<<hypothermic slowdown??低温性鈍化>>
+	description:特定の生物が極寒をしのぐための特殊な生体状態。暖かさを求める代わりに、とても低い温度でも内部が凍らないように科学的に適応する。身体機能は遅くなり、能力は制限されるが、寒さからダメージを受けなくなる。何人かの生物学者は、これを冬眠の覚醒形態と呼んでいる。
+	{stages
+		{minor-0
+			label:<<minor??軽度>>
+		}
+		{minor-1
+			label:<<minor??軽度>>
+		}
+		{moderate
+			label:<<moderate??中度>>
+		}
+		{serious
+			label:<<serious??重度>>
+		}
+		{extreme
+			label:<<extreme??極度>>
+		}
+	}
+}
+{BadBack
+	label:_<bad back>_
+	labelNoun:<<a bad back??_<bad back>_>>
+	description:脊柱とその周りの筋肉組織の衰え。動かしたり曲げたりするのが難しくなる。
+}
+{Frail
+	label:_<frail>_
+	labelNoun:<<frailty??_{frail}_>>
+	description:全体的な筋肉と骨密度の減少。
+}
+{Cataract
+	label:_<cataract>_
+	labelNoun:<<a cataract??_<cataract>_>>
+	description:眼の白濁。_{cataract}_は視力を損なう。
+}
+{Blindness
+	label:_<blindness>_
+	description:視力の完全喪失。
+}
+{HearingLoss
+	label:_<hearing loss>_
+	description:蝸牛の有毛細胞の衰えにより、小さな音を聞けない。
+}
+{Dementia
+	label:dementia
+	description:思考と記憶能力に欠損を起こす神経の衰え。_{dementia}_は加齢、特定の病気、毒などで起こる。
+}
+{Alzheimers
+	label:_<alzheimer's>_
+	description:一般的に加齢に伴う脳の病。_{alzheimer's}_の病気は思考と記憶能力に進行性の衰えを起こす。親近者を忘れたり、時に混乱して彷徨う事で知られている。
+	{stages
+		{minor-0
+			label:<<minor??軽度>>
+		}
+		{minor-1
+			label:<<minor??軽度>>
+		}
+		{major-0
+			label:<<major??重度>>
+		}
+		{major-1
+			label:<<major??重度>>
+		}
+	}
+}
+{Asthma
+	label:_<asthma>_
+	description:長期にわたる肺の気管支炎。症状を抑えるために定期的な看護が必要。
+	{stages
+		{minor
+			label:<<minor??軽度>>
+		}
+		{major-0
+			label:<<major??重度>>
+		}
+		{major-1
+			label:<<major??重度>>
+		}
+	}
+}
+{HeartArteryBlockage
+	label:_<artery blockage>_
+	labelNoun:<<an artery blockage??_<artery blockage>_>>
+	description:心臓の重要な動脈の一つの閉塞。_{artery blockage}_は不定期に_{heart attack}_を引き起こす。
+	{stages
+		{minor-0
+			label:<<minor??軽度>>
+		}
+		{minor-1
+			label:<<minor??軽度>>
+		}
+		{major-0
+			label:<<major??重度>>
+		}
+		{major-1
+			label:<<major??重度>>
+		}
+		{extreme
+			label:<<extreme??極度>>
+		}
+	}
+}
+{Carcinoma
+	label:_<carcinoma>_
+	labelNoun:<<a carcinoma??_<carcinoma>_>>
+	description:癌組織の塊。手当しないと、_{carcinoma}_は時と共に大きくなり、症状が悪化して死に至る。\n\n熟練の_{doctor}_は_{carcinoma}_を切除できる。そうでない_{doctor}_は単に_{carcinoma}_がある手足を切断できるかもしれない。contains the carcinoma.
+	{stages
+		{minor-0
+			label:<<minor??軽度>>
+		}
+		{minor-1
+			label:<<minor??軽度>>
+		}
+		{major-0
+			label:<<major??重度>>
+		}
+		{major-1
+			label:<<major??重度>>
+		}
+		{extreme-0
+			label:<<extreme??極度>>
+		}
+		{extreme-1
+			label:<<extreme??極度>>
+		}
+	}
+}
+{GutWorms
+	label:_<gut worms>_
+	description:腸内の寄生虫。嘔吐を引き起こす。また、食べ物を消費するので、空腹が早まる。
+}
+{MuscleParasites
+	label:_<muscle parasites>_
+	description:筋肉に規寄生する生物。虚弱と協調不全を起こす。
+}
+{FibrousMechanites
+	label:_<fibrous mechanites>_
+	description:筋組織に繊維状の繋がりを生じさせる、やや統制が取れている_[mechanite]_。筋力を強化するが、激しい痛みも伴う。筋力強化_[Mechanite]_の突然変異だろう。
+	{stages
+		{mild_pain
+			label:<<mild pain??弱い痛み>>
+		}
+		{intense_pain
+			label:<<intense pain??激しい痛み>>
+		}
+	}
+}
+{SensoryMechanites
+	label:_<sensory mechanites>_
+	description:神経系に潜む、やや統制が取れている_[mechanite]_。感覚を強化するが、激しい痛みも伴う。感覚強化_[Mechanite]_の突然変異だろう。
+	{stages
+		{mild_pain
+			label:<<mild pain??弱い痛み>>
+		}
+		{intense_pain
+			label:<<intense pain??激しい痛み>>
+		}
+	}
+}
+{WoundInfection
+	label:_<infection>_
+	labelNoun:<<an infection??_{infection}_>>
+	description:傷口の細菌感染。手当しないと、周りの組織を殺しながら増殖し、敗血症を起こし、死に至る。\n\n人類の長い闘争の歴史では、傷そのものよりも、感染で死ぬほうが多い。
+	{stages
+		{minor
+			label:<<minor??軽度>>
+		}
+		{major
+			label:<<major??重度>>
+		}
+		{extreme-0
+			label:<<extreme??極度>>
+		}
+		{extreme-1
+			label:<<extreme??極度>>
+		}
+	}
+}
+{Flu
+	label:_<flu>_
+	description:インフルエンザウィルスによる感染症。
+	{stages
+		{minor
+			label:<<minor??軽度>>
+		}
+		{major
+			label:<<major??重度>>
+		}
+		{extreme
+			label:<<extreme??極度>>
+		}
+	}
+}
+{Animal_Flu
+	label:_<flu>_
+	description:インフルエンザウィルスによる感染症。ヒト以外に感染するようになった変異種。
+	{stages
+		{minor
+			label:<<minor??軽度>>
+		}
+		{major
+			label:<<major??重度>>
+		}
+		{extreme
+			label:<<extreme??極度>>
+		}
+	}
+}
+{Plague
+	label:_<plague>_
+	description:細菌による感染症。
+	{stages
+		{minor
+			label:<<minor??軽度>>
+		}
+		{major
+			label:<<major??重度>>
+		}
+		{extreme-0
+			label:<<extreme??極度>>
+		}
+		{extreme-1
+			label:<<extreme??極度>>
+		}
+	}
+}
+{Animal_Plague
+	label:_<plague>_
+	description:細菌による感染症。ヒト以外に感染するようになった変異種。
+	{stages
+		{minor
+			label:<<minor??軽度>>
+		}
+		{major
+			label:<<major??重度>>
+		}
+		{extreme-0
+			label:<<extreme??極度>>
+		}
+		{extreme-1
+			label:<<extreme??極度>>
+		}
+	}
+}
+{Malaria
+	label:_<malaria>_
+	description:蚊を媒介する寄生虫による感染症。
+	{stages
+		{minor
+			label:<<minor??軽度>>
+		}
+		{major
+			label:<<major??重度>>
+		}
+		{extreme
+			label:<<extreme??極度>>
+		}
+	}
+}
+{SleepingSickness
+	label:_<sleeping sickness>_
+	description:虫を媒介する寄生虫による感染症。_{sleeping sickness}_は他の病気に比べれば致命的では無いが、進行が遅い。治るまでには長い時間がかかる。
+	{stages
+		{minor-0
+			label:<<minor??軽度>>
+		}
+		{minor-1
+			label:<<minor??軽度>>
+		}
+		{major
+			label:<<major??重度>>
+		}
+		{extreme-0
+			label:<<extreme??極度>>
+		}
+		{extreme-1
+			label:<<extreme??極度>>
+		}
+	}
+}
+{MissingBodyPart
+	label:<<missing body part??部位の欠損>>
+	labelNoun:<<a missing body part??部位の欠損>>
+	labelNounPretty:<<missing a {1}??{1}の欠損>>
+	description:体の部位が完全に無い。
+}
+{$InjuryBase
+	labelNounPretty:{1}の{0}
+}
+{Misc
+	label:<<misc??その他>>
+	labelNoun:<<an injury??怪我>>
+	description:その他の怪我。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<sutured>_
+			labelSolidTendedWell:_<set>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<scar??傷痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Destroyed??全壊した>>
+	}
+	$:InjuryBase
+}
+{Burn
+	label:<<burn??火傷>>
+	labelNoun:<<a burn??火傷>>
+	description:火傷。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<tended>_
+			labelSolidTendedWell:_<tended>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<burn scar??火傷痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Burned off??燃え落ちた>>
+		destroyedOutLabel:<<Burned out??燃え尽きた>>
+	}
+	$:InjuryBase
+}
+{ChemicalBurn
+	label:<<chemical burn??化学熱傷>>
+	labelNoun:<<a chemical burn??化学熱傷>>
+	description:化学熱傷。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<tended>_
+			labelSolidTendedWell:_<tended>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<chemical burn scar??化学熱傷痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Burned off (chemical)??燃え落ちた (化学)>>
+		destroyedOutLabel:<<Burned out (chemical)??燃え尽きた (化学)>>
+	}
+	$:InjuryBase
+}
+{Crush
+	label:<<crush??圧砕>>
+	labelNoun:<<a crush wound??圧砕>>
+	description:圧砕。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<sutured>_
+			labelSolidTendedWell:_<set>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<mangled scar??砕けた傷痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Crushed??圧壊した>>
+	}
+	$:InjuryBase
+}
+{Crack
+	label:<<crack??ひび>>
+	labelNoun:<<a crack wound??ひび>>
+	description:ひび。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<set>_
+			labelTendedWellInner:_<set>_
+			labelSolidTendedWell:_<set>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<permanent crack??ひび痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Shattered??砕けた>>
+	}
+	$:InjuryBase
+}
+{Cut
+	label:<<cut??切り傷>>
+	labelNoun:<<a cut??切り傷>>
+	description:切り傷。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<sutured>_
+			labelSolidTendedWell:_<set>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<cut scar??切り傷痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Cut off??切り離された>>
+		destroyedOutLabel:<<Cut out??切り取られた>>
+	}
+	$:InjuryBase
+}
+{SurgicalCut
+	label:<<surgical cut??手術傷口>>
+	labelNoun:<<a surgical cut??手術傷口>>
+	description:手術による傷口。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<sutured>_
+			labelSolidTendedWell:_<set>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<surgical scar??手術痕>>
+		}
+	}
+	$:InjuryBase
+}
+{Scratch
+	label:<<scratch??ひっかき傷>>
+	labelNoun:<<a scratch??ひっかき傷>>
+	description:擦り傷や裂傷。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<sutured>_
+			labelSolidTendedWell:_<set>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<scratch scar??ひっかき傷痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Torn off??千切れた>>
+		destroyedOutLabel:<<Torn out??抉り取られた>>
+	}
+	$:InjuryBase
+}
+{Bite
+	label:<<bite??噛み傷>>
+	labelNoun:<<a bite wound??噛み傷>>
+	description:噛み傷。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<sutured>_
+			labelSolidTendedWell:_<set>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<bite scar??噛み傷痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Bitten off??噛み切られた>>
+		destroyedOutLabel:<<Bitten out??噛み取られた>>
+	}
+	$:InjuryBase
+}
+{Stab
+	label:<<stab??刺し傷>>
+	labelNoun:<<a stab wound??刺し傷>>
+	description:刺し傷。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<sutured>_
+			labelSolidTendedWell:_<set>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<stab scar??刺し傷痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Cut off??切り落とされた>>
+		destroyedOutLabel:<<Cut out??切り取られた>>
+	}
+	$:InjuryBase
+}
+{Gunshot
+	label:<<gunshot??銃創>>
+	labelNoun:<<a gunshot wound??銃創>>
+	description:銃創。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<sutured>_
+			labelSolidTendedWell:_<set>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<old gunshot??銃創痕>>
+			instantlyPermanentLabel:<<permanent gunshot injury??消えない銃創痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Shot off??吹き飛ばされた>>
+		destroyedOutLabel:<<Shot out??えぐられた>>
+	}
+	$:InjuryBase
+}
+{Shredded
+	label:<<shredded??裂傷>>
+	labelNoun:<<a shredded wound??裂傷>>
+	description:引き裂かれた体の部位。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<sutured>_
+			labelSolidTendedWell:_<set>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<shredded scar??裂けた傷痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Torn off??千切れた>>
+		destroyedOutLabel:<<Torn out??抉り取られた>>
+	}
+	$:InjuryBase
+}
+{Bruise
+	label:<<bruise??打撲傷>>
+	labelNoun:<<a bruise??打撲傷>>
+	description:打撲傷。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<tended>_
+			labelSolidTendedWell:_<set>_
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Destroyed??全壊した>>
+	}
+	$:InjuryBase
+}
+{Frostbite
+	label:<<frostbite??凍傷>>
+	description:適切な保護が無い状態で寒さに晒されて凍結した組織。凍傷はとてもとても痛く、凍傷にかかった部位を失う事が多い。
+	{comps
+		{HediffComp_TendDuration
+			labelTendedWell:_<bandaged>_
+			labelTendedWellInner:_<tended>_
+			labelSolidTendedWell:_<tended>_
+		}
+		{HediffComp_GetsPermanent
+			permanentLabel:<<frostbite scar??凍傷痕>>
+		}
+	}
+	{injuryProps
+		destroyedLabel:<<Lost to frostbite??凍傷で失った>>
+	}
+	$:InjuryBase
+}
+{TraumaSavant
+	label:_<trauma savant>_
+	labelNoun:<<trauma??トラウマ>>
+	description:脳損傷による異常状態。傷ついたにも関わらず、脳の特定分野に著しい能力が生まれるが、言葉を失う。
+}
+{ChemicalDamageModerate
+	label:<<chemical damage??ドラッグ・ダメージ>>
+	description:細胞レベルでの化学ダメージ。
+}
+{ChemicalDamageSevere
+	label:<<chemical damage??ドラッグ・ダメージ>>
+	description:細胞レベルでの化学ダメージ。
+}
+{Cirrhosis
+	label:_<cirrhosis>_
+	description:アルコール消費により肝臓が変質する病。
+}
+{ResurrectionPsychosis
+	label:<<resurrection psychosis??蘇生精神病>>
+	description:統制を失った蘇生_[mechanite]_による思考回路の混乱。_{Resurrection psychosis}_は進行すると、完全な精神病になり、死に至る。\n\n蘇生した人は、細胞レベルでの身体機能を回復するために_[mechanite]_が必要。_[mechanite]_は統制を失う可能性が常にあり、もしそうなったら、中枢神経に大損害をもたらす。古い死体の蘇生にはより多くの_[mechanite]_の活動が必要なので、統制を失う可能性が大きくなる。
+	{stages
+		{early-0
+			label:<<early??初期>>
+		}
+		{early-1
+			label:<<early??初期>>
+		}
+		{moderate
+			label:<<moderate??中期>>
+		}
+		{advanced
+			label:<<advanced??後期>>
+		}
+		{severe
+			label:<<severe??深刻>>
+		}
+		{total
+			label:<<total??完全>>
+		}
+		{catatonic
+			label:_<catatonic>_
+		}
+	}
+}
+{SandInEyes
+	label:_<sand>_
+	labelNoun:_<sand>_
+	description:眼に入った_{sand}_。視力が悪くなるが、しばらくすれば戻る。
+	battleStateLabel:<<blind??目潰し>>
+}
+{DirtInEyes
+	label:_<dirt>_
+	labelNoun:_<dirt>_
+	description:目に入った_{dirt}_。視力が悪くなるが、しばらくすれば戻る。
+	battleStateLabel:<<blind??目潰し>>
+}
+{MudInEyes
+	label:_<mud>_
+	labelNoun:_<mud>_
+	description:目に入った_{mud}_。視力が悪くなるが、しばらくすれば戻る。
+	battleStateLabel:<<blind??目潰し>>
+}
+{GravelInEyes
+	label:_<gravel>_
+	labelNoun:_<gravel>_
+	description:目に入った_{gravel}_。視力が悪くなるが、しばらくすれば戻る。
+	battleStateLabel:<<blind??目潰し>>
+}
+{WaterInEyes
+	label:_<water>_
+	labelNoun:_<water>_
+	description:目に入った_{water}_。視力が悪くなるが、しばらくすれば戻る。
+	battleStateLabel:<<blind??目潰し>>
+}
+{ArchotechEye
+	label:_[archotech eye]_
+	labelNoun:<<an archotech eye??_[archotech eye]_>>
+	description:取り付けた _[archotech eye]_。
+}
+{ArchotechArm
+	label:_[archotech arm]_
+	labelNoun:<<an archotech arm??_[archotech arm]_>>
+	description:取り付けた _[archotech arm]_。
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{fist
+					label:_<fist>_
+				}
+			}
+		}
+	}
+}
+{ArchotechLeg
+	label:_[archotech leg]_
+	labelNoun:<<an archotech leg??_[archotech leg]_>>
+	description:取り付けた _[archotech leg]_。
+}
+{BionicEye
+	label:_[bionic eye]_
+	labelNoun:<<a bionic eye??_[bionic eye]_>>
+	description:取り付けた _[bionic eye]_。
+}
+{BionicArm
+	label:_[bionic arm]_
+	labelNoun:<<a bionic arm??_[bionic arm]_>>
+	description:取り付けた _[bionic arm]_。
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{fist
+					label:_<fist>_
+				}
+			}
+		}
+	}
+}
+{BionicLeg
+	label:_[bionic leg]_
+	labelNoun:<<a bionic leg??_[bionic leg]_>>
+	description:取り付けた _[bionic leg]_。
+}
+{BionicSpine
+	label:_[bionic spine]_
+	labelNoun:<<a bionic spine??_[bionic spine]_>>
+	description:取り付けた _[bionic spine]_。
+}
+{BionicHeart
+	label:_[bionic heart]_
+	labelNoun:<<a bionic heart??_[bionic heart]_>>
+	description:取り付けた _[bionic heart]_。
+}
+{BionicStomach
+	label:_[bionic stomach]_
+	labelNoun:<<a bionic stomach??_[bionic stomach]_>>
+	description:取り付けた _[bionic stomach]_。
+}
+{DeathAcidifier
+	label:_[death acidifier]_
+	labelNoun:<<a death acidifier??_[death acidifier]_>>
+	description:取り付けた _[death acidifier]_。
+}
+{BionicEar
+	label:_[bionic ear]_
+	labelNoun:<<a bionic ear??_[bionic ear]_>>
+	description:取り付けた _[bionic ear]_。
+}
+{PegLeg
+	label:_[peg leg]_
+	labelNoun:<<a peg leg??_[peg leg]_>>
+	description:取り付けた _[peg leg]_。
+}
+{WoodenHand
+	label:_[wooden hand]_
+	labelNoun:<<a wooden hand??_[wooden hand]_>>
+	description:取り付けた _[wooden hand]_。
+}
+{WoodenFoot
+	label:_[wooden foot]_
+	labelNoun:<<a wooden foot??_[wooden foot]_>>
+	description:取り付けた _[wooden foot]_。
+}
+{Denture
+	label:_[denture]_
+	labelNoun:<<a denture??_[denture]_>>
+	description:取り付けた _[denture]_。
+}
+{SimpleProstheticLeg
+	label:_[prosthetic leg]_
+	labelNoun:<<a prosthetic leg??_[prosthetic leg]_>>
+	description:取り付けた _[prosthetic leg]_。
+}
+{SimpleProstheticArm
+	label:_[prosthetic arm]_
+	labelNoun:<<a prosthetic arm??_[prosthetic arm]_>>
+	description:取り付けた _[prosthetic arm]_。
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{fist
+					label:_<fist>_
+				}
+			}
+		}
+	}
+}
+{SimpleProstheticHeart
+	label:_[prosthetic heart]_
+	labelNoun:<<a prosthetic heart??_[prosthetic heart]_>>
+	description:取り付けた _[prosthetic heart]_。
+}
+{CochlearImplant
+	label:_[cochlear implant]_
+	labelNoun:<<a cochlear implant??_[cochlear implant]_>>
+	description:取り付けた _[cochlear implant]_。
+}
+{PowerClaw
+	label:_[power claw]_
+	labelNoun:<<a power claw??_[power claw]_>>
+	description:取り付けた _[power claw]_。
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{claw
+					label:_<claw>_
+				}
+			}
+		}
+	}
+}
+{Joywire
+	label:_[joywire]_
+	labelNoun:<<a joywire??_[joywire]_>>
+	description:取り付けた _[joywire]_インプラント。
+}
+{Painstopper
+	label:_[painstopper]_
+	labelNoun:<<a painstopper??_[painstopper]_>>
+	description:取り付けた _[painstopper]_ インプラント。
+}

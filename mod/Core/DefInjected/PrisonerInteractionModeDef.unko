@@ -1,0 +1,15 @@
+﻿{NoInteraction
+	label:<<no interaction??交流しない>>
+}
+{AttemptRecruit
+	label:<<recruit??勧誘する>>
+}
+{ReduceResistance
+	label:<<reduce resistance??_{resistance}_をなくす>>
+}
+{Release
+	label:<<release??解放する>>
+}
+{Execution
+	label:<<execute??処刑する>>
+}

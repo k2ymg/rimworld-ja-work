@@ -1,0 +1,209 @@
+﻿{PsychicHarmonization
+	{stages
+		{psychic_harmony
+			label:<<psychic harmony??精神的同調>>: {HARMONIZER_labelShort}
+			description:_[psychic harmonizer]_ インプラントを使っている人が近くに居れば、その人の感情をいくらか感じられる。
+		}
+	}
+}
+{GainedTitle
+	{stages
+		{Recieved_title
+			label:<<Recieved {TITLE} title??_{title}_ {TITLE} を受け取った>>
+			description:{TITLE} を与えられた。私の身分が認められるのは良いことだ。
+		}
+	}
+}
+{LostTitle
+	{stages
+		{Lost_title
+			label:<<Lost {TITLE} title??_{title}_ {TITLE} を失った>>
+			description:_{title}_ {TITLE} を失った。
+		}
+	}
+}
+{TitleApparelRequirementNotMet
+	{stages
+		{want_specific_apparel
+			label:<<want {TITLE}-specific apparel??{TITLE} 特有の衣服が欲しい>>
+			description:私のような {TITLE} は、その身分にふさわしい衣服に包まれているべきだ:\n\n{0}
+		}
+	}
+}
+{TitleApparelMinQualityNotMet
+	{stages
+		{want_quality_apparel
+			label:<<want {TITLE}-quality apparel??{TITLE} 品質の衣服が欲しい>>
+			description:私のような {TITLE} は、 {QUALITY} 以上の品質の衣服を着るべきだ。
+		}
+	}
+}
+{TitleThroneroomRequirementsNotMet
+	{stages
+		{undignified_throneroom
+			label:<<undignified throneroom??威厳が無い_{throneroom}_>>
+			description:私は {TITLE} なのだから、私の_{throneroom}_には次のアイテムがあるべきだ:\n\n{0}
+		}
+	}
+}
+{TitleBedroomRequirementsNotMet
+	{stages
+		{undignified_bedroom
+			label:<<undignified bedroom??威厳が無い_{bedroom}_>>
+			description:私のような {TITLE} には次の要件を満たす_{bedroom}_がふさわしい:\n\n{0}
+		}
+	}
+}
+{TitleNoThroneRoom
+	{stages
+		{no_throne_room
+			label:<<no throne room??_{throne room}_ がない>>
+			description:_{throneroom}_が無い貴族ってなんだ？
+		}
+	}
+}
+{TitleNoPersonalBedroom
+	{stages
+		{no_personal_bedroom
+			label:<<no personal bedroom??個人用_{bedroom}_がない>>
+			description:{TITLE} は庶民と空間を共有するべきじゃない。
+		}
+	}
+}
+{AteFoodInappropriateForTitle
+	{stages
+		{ate_lowclass_food
+			label:<<ate low-class food??低級な物を食べた>>
+			description:その食事は私の身分より下だった。私の_{title}_の格式は常に尊重されるべきだ。
+		}
+	}
+}
+{ReignedInThroneroom
+	;形容詞は他の部屋と同じ
+	{stages
+		{awful_throneroom
+			label:<<awful throneroom??酷い_{throneroom}_>>
+			description:酷い_{throneroom}_で統治するしかなかった。下っ端から嫌がらせを受けているようだ。
+		}
+		{dull_throneroom
+			label:<<dull throneroom??さえない_{throneroom}_>>
+			description:さえない_{throneroom}_で統治するしかなかった。明らかに私の身分を落としている。
+		}
+		{mediocre_throneroom
+			label:<<mediocre throneroom??平凡な_{throneroom}_>>
+			description:平凡な_{throneroom}_で統治するしかなかった。私の身分を表していない。
+		}
+		{very_impressive_throneroom
+			label:<<very impressive throneroom??素晴らしい_{throneroom}_>>
+			description:素晴らしい_{throneroom}_で統治した。際立つ身分を表していた。
+		}
+		{extremely_impressive_throneroom
+			label:<<extremely impressive throneroom??豪華な_{throneroom}_>>
+			description:豪華な_{throneroom}_で統治した。私の身分を効果的に証明していた。
+		}
+		{unbelievably_impressive_throneroom
+			label:<<unbelievably impressive throneroom??信じられない_{throneroom}_>>
+			description:信じられない_{throneroom}_で統治した。庶民は私の高貴さに驚くだろう。
+		}
+		{wondrously_impressive_throneroom
+			label:<<wondrously impressive throneroom??幻想的な_{throneroom}_>>
+			description:天国のような_{throneroom}_で統治した。私の気品と気高さに合っている。
+		}
+	}
+}
+{DecreeMet
+	{stages
+		{decree_satisfied
+			label:<<decree satisfied??命令が満たされた>>
+			description:私の高貴な権威は当然尊敬された。
+		}
+	}
+}
+{DecreeFailed
+	{stages
+		{decree_failed
+			label:<<decree failed??命令 失敗>>
+			description:私の高貴な権威は尊敬されるべきだった。
+		}
+	}
+}
+{Disinherited
+	{stages
+		{disinherited
+			label:<<disinherited??剥奪>>
+			description:_{title}_を奪われた。奴らを打ちのめすべきなのか？
+		}
+	}
+}
+{ListeningToHarp
+	{stages
+		{listening_to_harp
+			label:<<listening to harp??_[harp]_ を聴いている>>
+			description:_[harp]_ はとても穏やかだ。
+		}
+	}
+}
+{ListeningToHarpsichord
+	{stages
+		{listening_to_harpsichord
+			label:<<listening to harpsichord??_[harpsichord]_ を聴いている>>
+			description:_[harpsichord]_ の複雑さが心を満たしている。
+		}
+	}
+}
+{ListeningToPiano
+	{stages
+		{listening_to_piano
+			label:<<listening to piano??_[piano]_ を聴いている>>
+			description:_[piano]_の音域は悲しさ、興奮、愉快さを同時に感じる。なんて音だ。
+		}
+	}
+}
+{NeedAuthority
+	{stages
+		{total_authority
+			label:<<total authority??完全な_{authority}_>>
+			description:ここの下々と何か共通点があるなんて誰も考えられないだろう。全員私の身分を認めている。充実している。
+		}
+		{strong_authority
+			label:<<strong authority??強い_{authority}_>>
+			description:庶民と良く離されている。このように徹底的に統治するのは良いことだ。
+		}
+		{uncertain_authority
+			label:<<uncertain authority??不確かな_{authority}_>>
+			description:私の立場が正しく理解されていないようだ。統治して、下々に私の身分を確立しなければならない。
+		}
+		{weak_authority
+			label:<<weak authority??弱い_{authority}_>>
+			description:最近統治する機会がほとんど無かった。皆は私が平民で無い事さえ知らない。ゆゆしき問題だ。
+		}
+		{no_authority
+			label:<<no authority??_{authority}_無し>>
+			description:私の身分が完全に無視されている！明けても暮れても平民のように振る舞わされている。これは屈辱だ！
+		}
+	}
+}
+{DecreeUnmet
+	{stages
+		{decree_ignored
+			label:<<decree ignored??命令無視>>
+			description:{0} もの長い間、私の命令が無視されている。
+		}
+	}
+}
+{PsychicEntropyOverloaded
+	{stages
+		{minor_psychic_breakdown
+			label:<<minor psychic breakdown??サイキック障害 小>>
+			description:目の裏に電気的な痛みがする。集中できない、考えられない。
+		}
+		{major_psychic_breakdown
+			label:<<major psychic breakdown??サイキック障害 中>>
+			description:心がかき混ぜられた。目眩、混乱、考えられない、常に痛い。
+		}
+		{total_psychic_breakdown
+			label:<<total psychic breakdown??サイキック障害 完全>>
+			description:回っている、痛い、目眩が、考え、考えられない、考えられない...
+		}
+	}
+}

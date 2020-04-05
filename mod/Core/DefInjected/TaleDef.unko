@@ -1,0 +1,2463 @@
+﻿;labelは基本訳す必要はないが、いくつかは歴史の統計に出てくる。
+{CaravanFormed
+	label:caravan formed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が冒険へ旅立った事
+			:tale_noun->[PAWN_nameDef]がキャラバンを編成した事
+
+			:image->[circumstance_group][PAWN_nameFull]が意識的に大きく踏み出している様子
+			:image->[circumstance_group][PAWN_nameFull]が水平線の向こうを見つめている様子
+			:image->[circumstance_group][PAWN_nameFull]が旅の荷造りをしている様子
+			:image->[circumstance_group][PAWN_nameFull]が旅の計画を練っている様子
+
+			:circumstance_phrase->戦いの装備を身につけた
+			:circumstance_phrase->サバイバルの装備を身につけた
+			:circumstance_phrase->探検の装備を身につけた
+			:circumstance_phrase->真剣な目つきの
+			:circumstance_phrase->[AdjectiveAny]目つきの
+
+			:desc_sentence->[Quantity_adjphrase]の[ally]が支度を見ている。
+			:desc_sentence->[Quantity_adjphrase]の[ally]が支度を手伝っている。
+			:desc_sentence->[Quantity_adjphrase]の[Enemy]がこの場面から遠ざかっている。
+			:desc_sentence->遠くに[TerrainFeature]が見えている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が遠くから見ている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が穏やかに歩いている。
+		}
+	}
+}
+{CaravanFled
+	label:caravan fled
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]のキャラバンが危険から逃げた事
+			:tale_noun->[PAWN_nameDef]のキャラバンが危険から逃れた事
+			:tale_noun->[PAWN_nameDef]のキャラバンがなんとか危険から逃れた事
+			:tale_noun->[PAWN_nameDef]のキャラバンが敵に追い払われた事
+
+			:image->[PAWN_nameFull]が[circumstance_group]必死に逃げている様子
+			:image->[PAWN_nameFull]が[circumstance_group]全速力で逃げている様子
+			:image->[PAWN_nameFull]が[circumstance_group]逃げようと[TerrainFeature]の影に身体を滑りこませて隠れている様子
+			:image->[PAWN_nameFull]が[circumstance_group]逃げ隠れせずに抵抗している様子
+			:image->[PAWN_nameFull]が[circumstance_group]ぶらぶらと歩き去っている様子
+
+			:circumstance_phrase->[quantity_adjphrase]の[Enemy]に追われながら
+			:circumstance_phrase->[quantity_adjphrase]の[Enemy]に行方を探されてる中で、
+			:circumstance_phrase->[quantity_adjphrase]の[Enemy]から
+			:circumstance_phrase->[quantity_adjphrase]の敵の[Animal]から
+			:circumstance_phrase->[huge][Enemy]から
+
+			:desc_sentence->[PAWN_nameDef]を追う者が[Weapon]を振りかざしている。
+			:desc_sentence->[PAWN_nameDef]を追う者に[Color]の煙が絡みついている。
+			:desc_sentence->[PAWN_nameDef]を追う者の顔に[AdjectiveAngsty]表情が浮かんでいる。
+			:desc_sentence->[PAWN_nameDef]を追う者達が[Weapon]を振りかざしている。
+			:desc_sentence->[PAWN_nameDef]は汗をかいている。
+			:desc_sentence->[PAWN_nameDef]の息が上がっている。
+		}
+	}
+}
+{CaravanAmbushDefeated
+	label:caravan ambush defeated
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]のキャラバンを守った事
+			:tale_noun->[PAWN_nameDef]のキャラバンが待ち伏せを返り討ちにした事
+
+			:image->[PAWN_nameFull]が[circumstance_group]反撃隊を編成している様子
+			:image->[PAWN_nameFull]が[circumstance_group]防御態勢で[Weapon]を扱っている様子
+			:image->[PAWN_nameFull]が[circumstance_group][Weapon]で反撃している様子
+			:image->[PAWN_nameFull]が[circumstance_group]仁王立ちしている様子
+			:image->[PAWN_nameFull]が[circumstance_group][AdjectiveBadass]表情を浮かべている様子
+			:image->[PAWN_nameFull]が[circumstance_group][AdjectiveBadass]表情を浮かべている様子
+
+			:circumstance_phrase->前進してくる群れに備えながら
+			:circumstance_phrase->回りを囲まれながら
+			:circumstance_phrase->勝利への雄叫びをあげながら
+			:circumstance_phrase->[Weapon]を振りかざしながら
+			:circumstance_phrase->[Gore]にまみれながら
+
+			:desc_sentence->[Quantity_adjphrase]の[Enemy]が[Weapon]を振りかざしながら向かってきている。
+			:desc_sentence->巨大な[Enemy]が[Weapon]を振りかざしながら向かってきている。
+			:desc_sentence->目に[AdjectiveBadass]光をたぎらせた[Quantity_adjphrase]の[Enemy]が向かってきている。
+			:desc_sentence->目に[AdjectiveAngsty]光をたぎらせた[Quantity_adjphrase]の[Enemy]が向かってきている。
+			:desc_sentence->目に[Color]の光をたぎらせた[Quantity_adjphrase]の[Animal]が向かってきている。
+			:desc_sentence->[Gore]にまみれた[Quantity_adjphrase]の[Animal]が向かってきている。
+			:desc_sentence->辺り一面が[Gore]まみれになっている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が逃げている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が逃げている。
+		}
+	}
+}
+{CaravanRemoteMining
+	label:caravan remote mining
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]のキャラバンが他の場所で豊富な[MATERIAL_label]鉱脈を掘った事
+
+			:image->[PAWN_nameFull]が[circumstance_group]掘削道具を使い[MATERIAL_label]岩肌で作業している様子
+			:image->[PAWN_nameFull]が[circumstance_group][MATERIAL_label]鉱石を持ち上げている様子
+			:image->[PAWN_nameFull]が[circumstance_group][MATERIAL_label]岩肌の前で休んでいる様子
+			:image->[PAWN_nameFull]が[circumstance_group]豊富な[MATERIAL_label]鉱脈の前で掘削チームをまとめている様子
+			:image->[pawn_nameFull]が[circumstance_group]豊富な[MATERIAL_label]鉱脈を注意深く調べている様子
+
+			:circumstance_phrase->汗だくになりながら
+			:circumstance_phrase->[AdjectiveFriendly]表情を浮かべながら
+			:circumstance_phrase->誇らしげに微笑みながら
+			:circumstance_phrase->顔に満足げな笑みを浮かべながら
+			:circumstance_phrase->危険に用心しながら
+
+			:desc_sentence->[Quantity_adjphrase]の[ally]が協力している。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が辺りをうろついている。
+			:desc_sentence->背景に間に合わせの隠れ家がある。
+			:desc_sentence->[Quantity_adjphrase]の、さらなる鉱脈も遠くに見えている。
+			:desc_sentence->遠くに[TerrainFeature]が見えている。
+			:desc_sentence->[PAWN_nameDef]は仕事で汗まみれになっている。
+		}
+	}
+}
+{CaravanAssaultSuccessful
+	label:caravan assault successful
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]のキャラバンが敵の拠点を攻略した事
+
+			:image->[PAWN_nameFull]が[circumstance_group][Enemy]へ突撃している様子
+			:image->[PAWN_nameFull]が[circumstance_group][Weapon]を扱っている様子
+			:image->[PAWN_nameFull]が[circumstance_group][Weapon]を振り回している様子
+			:image->[PAWN_nameFull]が[circumstance_group]仁王立ちしている様子
+
+			:circumstance_phrase->[AdjectiveBadass]目付きで
+			:circumstance_phrase->[AdjectiveAngsty]目付きで
+			:circumstance_phrase->勝利への雄叫びを上げながら
+			:circumstance_phrase->[Gore]にまみれながら
+
+			:desc_sentence->[Quantity_adjphrase]の[Enemy]が襲撃ですくんでいる。
+			:desc_sentence->[Quantity_adjphrase]の[Enemy]がここから逃げ出している。
+			:desc_sentence->[Quantity_adjphrase]の[Enemy]が明らかに怪我を負っている。
+			:desc_sentence->向こうの[Community]が燃えている。
+			:desc_sentence->向こうの[Community]が煙に包まれている。
+			:desc_sentence->辺り一面が[Gore]にまみれている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]がその場から逃げている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]がその場から逃げている。
+		}
+	}
+}
+{Captured
+	label:person captured
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[CAPTURER_nameDef]が[PRISONER_nameDef]を捕まえた事
+			:tale_noun->[PRISONER_nameDef]が[CAPTURER_nameDef]に捕まった事
+			:tale_noun->[PRISONER_nameDef]が捕まった事
+
+			:image->[CAPTURER_nameFull]が[circumstance_group][PRISONER_nameFull]を捕まえている様子
+			:image->[CAPTURER_nameFull]が[circumstance_group][PRISONER_nameFull]の手を縛っている様子
+			:image->[PRISONER_objective]を捕まえている時に、[CAPTURER_nameFull]が[circumstance_group][PRISONER_nameFull]をぶっている様子
+
+			:circumstance_phrase->地面でのたうっている
+			:circumstance_phrase->痛みに身をよじっている
+			:circumstance_phrase->専門的な動きで
+			:circumstance_phrase->素人っぽい雑さで
+			:circumstance_phrase->明らかに度を超えた力で
+			:circumstance_phrase->嬉々として
+			:circumstance_phrase->優越感に浸りながら
+
+			:desc_sentence->[CAPTURER_nameDef]は優越感に浸りながら[PRISONER_nameDef]の目を覗き込んでいる。
+			:desc_sentence->[PRISONER_nameDef]は怪我をして痛がっているようだ。
+			:desc_sentence->[PRISONER_nameDef]は運命に身を委ねているようだ。
+			:desc_sentence->[PRISONER_nameDef]は打ち負かされた怒りで歯を剥いている。
+			:desc_sentence->[CAPTURER_nameDef]は[PRISONER_nameDef]をぶって服従させている。
+			:desc_sentence->[CAPTURER_nameDef]は[PRISONER_nameDef]の耳をひねりあげている。
+			:desc_sentence->[CAPTURER_nameDef]は手錠で[PRISONER_nameDef]を拘留している。
+			:desc_sentence->[CAPTURER_nameDef]は[PRISONER_nameDef]の顔に唾を吐きかけている。
+			:desc_sentence->[CAPTURER_nameDef]は[PRISONER_nameDef]の目に涙があふれるのを見て笑っている。
+			:desc_sentence->[CAPTURER_nameDef]は理由もなしに[PRISONER_nameDef]を蹴飛ばしている。
+		}
+	}
+}
+{Recruited
+	label:person recruited
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[RECRUITER_nameDef]が[JOINER_nameDef]を勧誘した事
+			:tale_noun->[JOINER_nameDef]が[RECRUITER_nameDef]に勧誘された事
+			:tale_noun->[JOINER_nameDef]の誘拐
+
+			:image->[RECRUITER_nameFull]が[circumstance_group][JOINER_nameFull]を勧誘している様子
+			:image->[RECRUITER_nameFull]が[circumstance_group]、[JOINER_nameFull]が_{colonist}_になることを歓迎している様子
+			:image->[RECRUITER_nameFull]が[circumstance_group]、[JOINER_nameFull]が納得のいくように話している様子
+
+			:circumstance_phrase->好意的に
+			:circumstance_phrase->心暖かい握手をしながら
+			:circumstance_phrase->皆に微笑みながら
+			:circumstance_phrase->_{colony}_全体の前で
+			:circumstance_phrase->牢獄の中で
+
+			:desc_sentence->[JOINER_nameDef]は了承してうなずいている。
+			:desc_sentence->[JOINER_nameDef]は微笑みを浮かべてアイコンタクトをしている。
+			:desc_sentence->[JOINER_nameDef]はホッとしているようだ。
+			:desc_sentence->[JOINER_nameDef]は希望に満ちているようだ。
+		}
+	}
+}
+{Hunted
+	label:animal hunted
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[HUNTER_nameDef]が[PREY_nameDef]を狩った事
+			:tale_noun->[PREY_nameDef]が[HUNTER_nameDef]に狩られた事
+			:tale_noun->[HUNTER_nameDef]の狩り
+
+			:image->[circumstance_group]、[PREY_nameFull]が[HUNTER_nameDef]に狩られている様子
+			:image->[circumstance_group]、[HUNTER_nameDef]が遠くから[PREY_nameFull]に忍び寄っている様子
+			:image->[circumstance_group]、[HUNTER_nameDef]が[PREY_nameFull]を狩っている様子
+
+			:circumstance_phrase->[PREY_nameDef]が気を緩めいるときに
+			:circumstance_phrase->[PREY_nameDef]が移動しているときに
+			:circumstance_phrase->[PREY_nameDef]が餌を食べているときに
+
+			:desc_sentence->[PREY_nameDef]は全く気付いていないようだ。
+			:desc_sentence->[HUNTER_nameDef]は武器をしっかりと握っている。
+			:desc_sentence->[PREY_nameDef]は変わったことがないかと辺りに気を配っている。
+		}
+	}
+}
+{DidSurgery
+	label:surgery performed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[SURGEON_nameDef]による[PATIENT_nameDef]の手術
+			:tale_noun->[SURGEON_nameDef]が[PATIENT_nameDef]に手術した事
+			:tale_noun->[PATIENT_nameDef]の手術
+
+			:image->[circumstance_group]、[SURGEON_nameFull]が[PATIENT_nameFull]を麻酔で眠らせている様子
+			:image->[circumstance_group]、[SURGEON_nameFull]が手術中に[PATIENT_nameFull]の中に肘まで深く差し込んでいる様子
+			:image->[circumstance_group]、[SURGEON_nameFull]が手術中に[PATIENT_nameFull]を切り刻んでいる様子
+
+			:circumstance_phrase->患者が恐怖に震える中
+			:circumstance_phrase->執刀者の足元に血だまりを作りながら
+			:circumstance_phrase->見るも恐ろしい手術道具に囲まれている中で
+			:circumstance_phrase->即席だが効果的な道具を使って
+
+			:desc_sentence->[SURGEON_nameDef]はおびただしい汗をかいている。
+			:desc_sentence->[SURGEON_nameDef]は信じられないぐらい集中しているようにみえる。
+			:desc_sentence->[SURGEON_nameDef]の顔に血のりが付いている。
+			:desc_sentence->[PATIENT_nameDef]は首をふり、のたうち回っている。
+		}
+	}
+}
+{ExecutedPrisoner
+	label:prisoner executed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[executioner]が[PRISONER_nameDef]を処刑した事
+			:tale_noun->[PRISONER_nameDef]が[EXECUTIONER_nameDef]に処刑された事
+			:tale_noun->[PRISONER_nameDef]の処刑
+
+			:image->[EXECUTIONER_nameFull]が[circumstance_group][PRISONER_nameFull]を処刑している様子
+			:image->[EXECUTIONER_nameFull]が[circumstance_group][PRISONER_nameFull]を死の淵においやっている様子
+			:image->[EXECUTIONER_nameFull]が[circumstance_group][PRISONER_nameFull]の処刑の準備をしている様子
+			:image->[EXECUTIONER_nameFull]が牢獄に入り、[circumstance_group][PRISONER_nameFull]を処刑するために連れ出している様子
+
+			:circumstance_phrase->地面の上でのたうちまわっている
+			:circumstance_phrase->痛みに身をよじっている
+			:circumstance_phrase->恐怖で泣き叫んでいる
+			:circumstance_phrase->プロフェッショナルな手際の良さで
+			:circumstance_phrase->素人っぽい雑さで
+			:circumstance_phrase->明らかに必要以上の力で
+			:circumstance_phrase->見るからに楽しそうに
+			:circumstance_phrase->優越感に笑みを浮かべながら
+			:circumstance_phrase->目に涙を浮かべながら
+			:circumstance_phrase->全くの無関心な表情で
+			:circumstance_phrase->必要のない苦痛を与えながら
+			:circumstance_phrase->何か別のことを考えながら
+			:circumstance_phrase->より良い事のために
+
+			:desc_sentence->[EXECUTIONER_nameDef]はおびただしい汗をかいている。
+			:desc_sentence->[EXECUTIONER_nameDef]は少しヨダレをたらしている。
+			:desc_sentence->[EXECUTIONER_nameDef]の顔に血のりが付いている。
+			:desc_sentence->[PRISONER_nameDef]は首をふり、のたうち回っている。
+			:desc_sentence->[PRISONER_nameDef]は完全にあきらめているようだ。
+			:desc_sentence->[PRISONER_nameDef]は目を閉じて、神に祈っているようにみえる。
+			:desc_sentence->[PRISONER_nameDef]は挑戦的に見える。
+		}
+	}
+}
+{KidnappedColonist
+	label:colonist kidnapped
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[KIDNAPPER_nameDef]が[VICTIM_nameDef]を誘拐した事
+			:tale_noun->[VICTIM_nameDef]が[KIDNAPPER_nameDef]に誘拐された事
+			:tale_noun->[VICTIM_nameDef]の誘拐
+
+			:image->[KIDNAPPER_nameFull]が[circumstance_group][VICTIM_nameFull]を[KIDNAPPER_factionName]に連れ去っている様子
+			:image->[KIDNAPPER_factionName]の[KIDNAPPER_nameFull]が[circumstance_group][VICTIM_nameFull]を誘拐している様子
+			:image->[KIDNAPPER_nameFull]が[circumstance_group][VICTIM_nameFull]を誘拐している様子
+
+			:circumstance_phrase->痛みに身をよじっている
+			:circumstance_phrase->プロフェッショナルな手際の良さで
+			:circumstance_phrase->素人っぽい雑さで
+			:circumstance_phrase->明らかに必要以上の力で
+			:circumstance_phrase->見るからに楽しそうに
+			:circumstance_phrase->優越感に浸りながら
+			:circumstance_phrase->血と泥にまみれながら
+
+			:desc_sentence->[VICTIM_nameDef]は完全に諦めているようだ。
+			:desc_sentence->[VICTIM_nameDef]は目を閉じて、神に祈っているようだ。
+			:desc_sentence->[VICTIM_nameDef]は挑戦的に見える。
+			:desc_sentence->[VICTIM_nameDef]は怒りと恐怖で叫んでいる。
+			:desc_sentence->[VICTIM_nameDef]は精魂尽き果てたかのようにみえる。
+			:desc_sentence->[VICTIM_nameDef]はひどい怪我を負っているようだ。
+		}
+	}
+}
+{TamedAnimal
+	label:animal tamed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[TAMER_nameDef]による[ANIMAL_nameDef]の手懐け
+			:tale_noun->[TAMER_nameDef]が[ANIMAL_nameDef]を手懐けた事
+
+			:image->[TAMER_nameFull]が[circumstance_group][ANIMAL_nameFull]を手懐けている様子
+			:image->[TAMER_nameFull]が[circumstance_group][ANIMAL_nameFull]に餌をひとかけら与えている様子
+			:image->[TAMER_nameFull]が[circumstance_group]、驚きやすい[ANIMAL_nameFull]に小声で話しかけている様子
+			:image->[TAMER_nameFull]が[circumstance_group]、野性の[ANIMAL_nameFull]をなだめている様子
+
+			:circumstance_phrase->最大限の気配りと注意を払いながら
+			:circumstance_phrase->笑顔を浮かべながら
+			:circumstance_phrase->疲れているが、幸せに
+
+			:desc_sentence->[ANIMAL_nameDef]は攻撃的に歯を剥いている。
+			:desc_sentence->[ANIMAL_nameDef]は愛情に酔いしれて眠たそうにしている。
+			:desc_sentence->[ANIMAL_nameDef]に暗示の効果が現れている。
+			:desc_sentence->[ANIMAL_nameDef]は怖がりつつも興味を示しているように見える。
+			:desc_sentence->[ANIMAL_nameDef]の心を魅了したように見える。
+			:desc_sentence->[TAMER_nameDef]は[ANIMAL_nameDef]に力強い愛情を伝えている。
+		}
+	}
+}
+{KilledBy
+	label:death
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[KILLER_nameDef]が[VICTIM_nameDef]を殺した事
+			:tale_noun->[VICTIM_nameDef]が[KILLER_nameDef]に殺された事
+			:tale_noun->[KILLER_nameDef]による[VICTIM_nameDef]の殺害
+			:tale_noun->[VICTIM_nameDef]の殺害
+
+			:image->[VICTIM_nameFull]が[circumstance_group][KILLER_nameFull]に殺されている様子
+			:image->[KILLER_nameFull]が[circumstance_group][VICTIM_nameFull]を殺している様子
+			:image->[KILLER_nameFull]が[circumstance_group][VICTIM_nameFull]の人生を終わらせている様子
+			:image->[KILLER_nameFull]が[circumstance_group][VICTIM_nameFull]を残忍に殺している様子
+			:image->[VICTIM_nameFull]が[circumstance_group]殺されている様子
+
+			:circumstance_phrase->容赦なく
+			:circumstance_phrase->冷然と
+			:circumstance_phrase->激しい怒りと共に
+			:circumstance_phrase->無駄の無い動きで
+			:circumstance_phrase->冷徹に
+			:circumstance_phrase->後ろめたい理由により
+			:circumstance_phrase->卑劣で、冷淡な方法で
+
+			:desc_sentence->この場面を象徴的に表す太陽が後ろに描かれている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
+			:desc_sentence->[PersonJob]が[side_position]から静かに注目している。
+			:desc_sentence->[VICTIM_nameDef]の周りに血だまりができている。
+			:desc_sentence->[VICTIM_nameDef]の目は写実的に生気が失われたように描かれている。
+			:desc_sentence->[KILLER_nameDef]は歯を剥き出している。
+			:desc_sentence->[KILLER_nameDef]は満ち足りたように見える。
+			:desc_sentence->[KILLER_nameDef]は[KILLER_pronoun]がしたことを悩んでいる。
+			:desc_sentence->[KILLER_nameDef]はこの状況に満足しているようだ。
+			:desc_sentence->[KILLER_nameDef]は得意になっているようだ。
+		}
+	}
+}
+{SoldPrisoner
+	label:prisoner sold
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PRISONER_nameDef]が交易商に売られた事
+			:tale_noun->[SELLER_nameDef]が[PRISONER_nameDef]を奴隷として売った事
+			:tale_noun->[PRISONER_nameDef]が[SELLER_nameDef]に奴隷として売られた事
+
+			:image->[circumstance_group]、[TRADER_nameFull]が[PRISONER_nameFull]を[SELLER_nameFull]から買っている様子
+			:image->[circumstance_group]、[SELLER_nameFull]が[PRISONER_nameFull]を[TRADER_nameFull]に売っている様子
+
+			:circumstance_phrase->他の_{colonist}_が非難しているなか
+			:circumstance_phrase->[SELLER_nameDef]が金を数えている間
+			:circumstance_phrase->[PRISONER_nameDef]が悲しげな唸り声をあげているなか
+			:circumstance_phrase->[PRISONER_nameDef]が無念そうにしているなか、
+
+			:desc_sentence->[TRADER_nameDef]は悪魔の微笑みを浮かべている。
+			:desc_sentence->[SELLER_nameDef]はマニアックに笑っている。
+			:desc_sentence->[SELLER_nameDef]は[PRISONER_nameDef]をトレーダーに渋々渡している。
+			:desc_sentence->[PRISONER_nameDef]は反抗的な目で新しい主人を見ている。
+			:desc_sentence->[TRADER_nameDef]は鎖で[PRISONER_nameDef]を引きずっている。
+			:desc_sentence->[PRISONER_nameDef]は[SELLER_nameDef]を睨み付け、復讐を計画している。
+			:desc_sentence->[PRISONER_nameDef]は泣いている。
+			:desc_sentence->[PRISONER_nameDef]は[SELLER_nameDef]の顔に唾を吐きかけている。
+			:desc_sentence->[PRISONER_nameDef]は地面に倒れ伏している。
+			:desc_sentence->[SELLER_nameDef]は[PRISONER_nameDef]の鎖を[TRADER_nameDef]の手に素早く押しつけている。
+			:desc_sentence->絶望の空気があたりに満ちている。
+		}
+	}
+}
+{TrainedAnimal
+	label:animal trained
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[TRAINER_nameDef]が[ANIMAL_nameDef]を訓練
+			:tale_noun->[ANIMAL_nameDef]の訓練
+			:tale_noun->[TRAINER_nameDef]による[ANIMAL_nameDef]の訓練
+
+			:image->[circumstance_group]、[TRAINER_nameFull]が[ANIMAL_nameFull]に[TRAINABLE_label]を[train_syn]様子
+			:image->[circumstance_group]、[TRAINER_nameFull]が[ANIMAL_nameFull]に[TRAINABLE_label]を教えている様子
+			:image->[circumstance_group]、[TRAINER_nameFull]が[ANIMAL_nameFull]と[TRAINABLE_label]を練習している様子
+
+			:train_syn->訓練している
+			:train_syn->訓練している
+			:train_syn->指導している
+			:train_syn->教え込んでいる
+			:train_syn->教育している
+
+			:circumstance_phrase->他の者達が見ている中
+			:circumstance_phrase->野性の[Animal]があきれて見ている中
+			:circumstance_phrase->[ANIMAL_nameDef]が野生だった頃の単純な日々のことを考えながら
+			:circumstance_phrase->[TRAINER_nameDef]が今日のランチのことに気を取られながら
+			:circumstance_phrase->他の_{colonist}_がまともな作業をしているなか
+
+			:desc_sentence->[TRAINER_nameDef]は喜びをあらわにしている。
+			:desc_sentence->[TRAINER_nameDef]は微笑んでいる。
+			:desc_sentence->[TRAINER_nameDef]は飽きている。
+			:desc_sentence->[TRAINER_nameDef]は拳を威嚇的に振り回している。
+			:desc_sentence->[TRAINER_nameDef]は集中して眉にシワを寄せている。
+			:desc_sentence->[ANIMAL_nameDef]は困惑しているようだ。
+			:desc_sentence->[ANIMAL_nameDef]は口に武器を咥えている。
+			:desc_sentence->[ANIMAL_nameDef]は何か不満そうにしている。
+			:desc_sentence->[TRAINER_nameDef]は挫折感から頭を振っている。
+			:desc_sentence->[ANIMAL_nameDef]は恐怖に震えている。
+			:desc_sentence->[ANIMAL_nameDef]は[Vegetable]に変わりつつあるように見える。
+			:desc_sentence->[ANIMAL_nameDef]は電動道具の山として表現されている。
+			:desc_sentence->[ANIMAL_nameDef]は[Color]と[Color]の2色からなっている。
+			:desc_sentence->[TRAINER_nameDef]は鱗に被われている。
+			:desc_sentence->[TRAINER_nameDef]は[quantity]の腕で表現されている。
+			:desc_sentence->[TRAINER_nameDef]は[ANIMAL_ShortDefinite]のように見える。
+		}
+	}
+}
+{KilledColonist
+	label:colonist killed
+}
+{KilledColonyAnimal
+	label:colony animal killed
+}
+{DefeatedHostileFactionLeader
+	label:defeated hostile leader
+}
+{TradedWith
+	label:traded with someone
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[SELLER_nameFull]と[BUYER_nameFull]による取引
+
+			:image->[circumstance_group]、[BUYER_nameFull]が[SELLER_nameFull]からアイテムを買っている様子
+			:image->[circumstance_group]、[SELLER_nameFull]が[BUYER_nameFull]へアイテムを売っている様子
+
+			:circumstance_phrase->貪欲な意図で
+			:circumstance_phrase->[SELLER_nameDef]が[BUYER_shortNameDef]を見下しながら
+
+			:desc_sentence->[SELLER_nameDef]は[BUYER_nameDef]の商品を品定めしている。
+			:desc_sentence->[SELLER_nameDef]はアイテムを検討している。
+			:desc_sentence->[SELLER_nameDef]は値切り始めている。
+			:desc_sentence->[BUYER_nameDef]は[SELLER_nameDef]と話し合っている。
+			:desc_sentence->[SELLER_nameDef]と[BUYER_possessive]は価格に同意している。
+			:desc_sentence->[BUYER_nameDef]はアイテムの代金を支払っている。
+			:desc_sentence->[SELLER_nameDef]は受け取ったお金を数えている。
+			:desc_sentence->[BUYER_nameDef]は商品を手に取っている。
+		}
+	}
+}
+{BondedWithAnimal
+	label:bond developed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[HUMAN_nameDef]と[ANIMAL_nameDef]間の絆
+
+			:image->[HUMAN_nameFull]が[circumstance_group][ANIMAL_nameFull]と絆を結んだ様子
+			:image->[HUMAN_nameFull]が[circumstance_group][ANIMAL_nameFull]と深い絆を作った様子
+			:image->[HUMAN_nameFull]が[circumstance_group][ANIMAL_nameFull]を本当に愛している事に気付いている様子
+
+			:circumstance_phrase->他の動物たちが見ているなかで
+			:circumstance_phrase->[ANIMAL_nameDef]の目を覗き込みながら
+			:circumstance_phrase->満足感と共に
+
+			:desc_sentence->[ANIMAL_nameDef]が[HUMAN_nameDef]に擦り寄っている。
+			:desc_sentence->[ANIMAL_nameDef]は愛情に酔いしれて眠そうにしている。
+			:desc_sentence->[ANIMAL_nameDef]は堂々としていて、気高く見える。
+			:desc_sentence->[ANIMAL_nameDef]は積極的に反応している。
+		}
+	}
+}
+{BecameLover
+	label:became lover
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PURSUER_nameDef]と[ACCEPTER_nameDef]が恋人同士になった事
+
+			:image->[PURSUER_nameFull]が[circumstance_group][ACCEPTER_nameFull]の耳に甘い言葉を囁いている様子
+			:image->[PURSUER_nameFull]が[circumstance_group][ACCEPTER_nameFull]の手を取りベッドへ引き込んでいる様子
+			:image->[PURSUER_nameFull]が[circumstance_group][ACCEPTER_nameFull]とベッドの上ではしゃいでいる様子
+			:image->[PURSUER_nameFull]が[circumstance_group][ACCEPTER_nameFull]とディープキスをしている様子
+
+			:circumstance_phrase->非現実的に大きなベッドで
+			:circumstance_phrase->シーツに包まりながら
+			:circumstance_phrase->辺りに服を脱ぎ散らかした中で
+			:circumstance_phrase->二人共汗にまみれながら
+
+			:desc_sentence->[PURSUER_nameDef]が[ACCEPTER_nameDef]に擦り寄っている。
+			:desc_sentence->[PURSUER_nameDef]と[ACCEPTER_nameDef]が見つめ合っている。
+			:desc_sentence->[PURSUER_nameDef]が[ACCEPTER_nameDef]に息を吹きかけている。
+			:desc_sentence->[PURSUER_nameDef]が[ACCEPTER_nameDef]と結ばれている。
+			:desc_sentence->[PURSUER_nameDef]と[ACCEPTER_nameDef]が対称的に描かれている。
+			:desc_sentence->[PURSUER_nameDef]が[ACCEPTER_nameDef]に盛んに触れている。
+		}
+	}
+}
+{Breakup
+	label:breakup
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[DUMPER_nameDef]と[REJECTED_nameDef]の別れ
+
+			:image->[circumstance_group]、[DUMPER_nameFull]が嫌な話をするために[REJECTED_nameFull]を座らせている様子
+			:image->[circumstance_group]、[DUMPER_nameFull]が[REJECTED_nameFull]から距離をおいて立っている様子
+			:image->[circumstance_group]、[DUMPER_nameFull]が[REJECTED_nameFull]をベッドから追い出している様子
+			:image->[circumstance_group]、[DUMPER_nameFull]が[REJECTED_nameFull]からの抱擁を振りほどいている様子
+
+			:circumstance_phrase->大きな悲しみに包まれながら
+			:circumstance_phrase->他の者達がぎこちなく視線をそらしている中
+			:circumstance_phrase->他の者達が見ている中
+
+			:desc_sentence->[REJECTED_nameDef]が気持ちを抑えきれずにすすり泣いている。
+			:desc_sentence->[REJECTED_nameDef]が泣きながらあざ笑っている。
+			:desc_sentence->[REJECTED_nameDef]がショックのあまり無表情になっている。
+			:desc_sentence->[DUMPER_nameDef]が[REJECTED_nameDef]と別れている。
+			:desc_sentence->[REJECTED_nameDef]がわなわなと床に崩れ落ちている。
+			:desc_sentence->[REJECTED_nameDef]が[DUMPER_nameDef]に身振り手振りで怒りで伝えている。
+		}
+	}
+}
+{Marriage
+	label:marriage
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[SPOUSE1_nameDef]と[SPOUSE2_nameDef]の結婚
+
+			:image->[circumstance_group]、[SPOUSE1_nameFull]が[SPOUSE2_nameFull]と結婚している様子
+			:image->[circumstance_group]、[SPOUSE1_nameFull]が[SPOUSE2_nameFull]に結婚の誓いを述べている様子
+			:image->[circumstance_group]、[SPOUSE1_nameFull]が[SPOUSE2_nameFull]と一緒にバージンロードを歩いている様子
+			:image->[circumstance_group]、[SPOUSE1_nameFull]が[SPOUSE2_nameFull]と結婚式の間ずっと手をつないでいる様子
+
+			:circumstance_phrase->品位ある式の中
+			:circumstance_phrase->共に陽気に笑いながら
+			:circumstance_phrase->他の者達が式を見守る中
+
+			:desc_sentence->[SPOUSE1_nameDef]が[SPOUSE2_nameDef]に擦り寄っている。
+			:desc_sentence->[SPOUSE1_nameDef]と[SPOUSE2_nameDef]が見つめ合っている。
+			:desc_sentence->[SPOUSE1_nameDef]が[SPOUSE2_nameDef]に息を吹きかけている。
+			:desc_sentence->[SPOUSE1_nameDef]が[SPOUSE2_nameDef]と結ばれている。
+			:desc_sentence->[SPOUSE1_nameDef]と[SPOUSE2_nameDef]が対称的に描かれている。
+			:desc_sentence->[SPOUSE1_nameDef]が[SPOUSE2_nameDef]に盛んに触れている。
+		}
+	}
+}
+{LaunchedShip
+	label:launched ship
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が惑星から脱出した事
+			:tale_noun->[PAWN_nameDef]が宇宙船で旅立った事
+
+			:image->[PAWN_nameFull]が[circumstance_group]星々へと打ち上げられている様子
+			:image->[PAWN_nameFull]が[circumstance_group]天へ急いでいる様子
+			:image->[PAWN_nameFull]が[circumstance_group]脱出速度に向けて加速している様子
+			:image->[PAWN_nameFull]が[circumstance_group]ロケットを操縦している様子
+
+			:circumstance_phrase->[TerrainFeature]の前で
+			:circumstance_phrase->途方もない力で
+			:circumstance_phrase->塵や岩を吹き飛ばしながら
+			:circumstance_phrase->ロケットを劇的に噴射しながら
+			:circumstance_phrase->正確な離陸で
+
+			:desc_sentence->[PAWN_pronoun]は一心不乱に操作している。
+			:desc_sentence->[PAWN_pronoun]は自身に満ち溢れた様子で目を閉じている。
+			:desc_sentence->[PAWN_pronoun]は穏やかに目を閉じて眠っている。
+			:desc_sentence->[PAWN_pronoun]は薄気味悪い笑みをうかべている。
+			:desc_sentence->[PAWN_pronoun]は置かれている状況を完璧に把握しているようだ。
+			:desc_sentence->船の後には噴射流が残っている。
+			:desc_sentence->近くの[Animal]が驚いて見上げている。
+			:desc_sentence->[Animal]が発射を恐れて逃げ出している。
+			:desc_sentence->背景には[TerrainFeature]がある。
+			:desc_sentence->[PersonJob]が遠くから無言で眺めている。
+		}
+	}
+}
+{SocialFight
+	label:social fight
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[INITIATOR_nameDef]が[RESPONDER_nameDef][fight_name_present]事
+
+			:image->[INITIATOR_nameFull]が[RESPONDER_nameFull]を侮辱して、[circumstance_group]様子
+			:image->[INITIATOR_nameFull]が[RESPONDER_nameFull]を罵って、[circumstance_group]様子
+			:image->[INITIATOR_nameFull]が[RESPONDER_nameFull]を脅して、[circumstance_group]様子
+			:image->[INITIATOR_nameFull]が[RESPONDER_nameFull]を怖がらせて、[circumstance_group]様子
+			:image->[INITIATOR_nameFull]が[RESPONDER_nameFull]を攻撃して、[circumstance_group]様子
+			:image->[INITIATOR_nameFull]が[RESPONDER_nameFull]を襲って、[circumstance_group]様子
+			:image->[INITIATOR_nameFull]が[RESPONDER_nameFull]を殴って、[circumstance_group]様子
+			:image->[INITIATOR_nameFull]が[RESPONDER_nameFull]を蹴って、[circumstance_group]様子
+			:image->[INITIATOR_nameFull]が[RESPONDER_nameFull]からすくまされ、[circumstance_group]様子
+
+			:fight_name_present->を襲った
+			:fight_name_present->に攻撃した
+			:fight_name_present->と戦った
+
+			:circumstance_phrase->[RESPONDER_nameDef]は[INITIATOR_objective]を侮辱している
+			:circumstance_phrase->[RESPONDER_nameDef]は[INITIATOR_objective]を罵っている
+			:circumstance_phrase->[RESPONDER_nameDef]は[INITIATOR_objective]を脅している
+			:circumstance_phrase->[RESPONDER_nameDef]は[INITIATOR_objective]を怖がらせている
+			:circumstance_phrase->[RESPONDER_nameDef]は[INITIATOR_objective]を攻撃している
+			:circumstance_phrase->[RESPONDER_nameDef]は[INITIATOR_objective]を襲っている
+			:circumstance_phrase->[RESPONDER_nameDef]は[INITIATOR_objective]を殴っている
+			:circumstance_phrase->[RESPONDER_nameDef]は[INITIATOR_objective]を蹴っている
+			:circumstance_phrase->[RESPONDER_nameDef]は[INITIATOR_objective]からすくまされている
+
+			:desc_sentence->[target]は後悔していないように見える。
+			:desc_sentence->[target]が怒りを発散している。
+			:desc_sentence->[target]には何の感情も表情も見られない。
+			:desc_sentence->[target]の身体が[Gore]に覆われている。
+			:desc_sentence->[target]が猛烈に叫んでいる。
+			:desc_sentence->[target]が明らかに怪我をしている。
+			:desc_sentence->[target]の目が[Color]に染まっている。
+
+			:target->[INITIATOR_nameDef]
+			:target->[RESPONDER_nameDef]
+		}
+	}
+}
+{CollapseDodged
+	label:collapse dodged
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が崩落をよけた事
+			:tale_noun->[PAWN_nameDef]が落下物で潰されそうになった事
+
+			:image->[circumstance_group]崩れた岩の欠片から飛び退いている[PAWN_nameFull]
+			:image->[circumstance_group]崩落をなんとか避けている[PAWN_nameFull]
+			:image->[circumstance_group]落ちてきた天井を避けている[PAWN_nameFull]
+			:image->[circumstance_group]落石で死にそうになった[PAWN_nameFull]
+
+			:circumstance_phrase->破片と粉塵を巻き上げている
+			:circumstance_phrase->下の物全てを粉々にしている
+			:circumstance_phrase->凄まじい衝撃の
+
+			:desc_sentence->[PAWN_pronoun]は疲れて汗をかいている。
+			:desc_sentence->[PAWN_pronoun]は怯えているように見える。
+			:desc_sentence->[PAWN_pronoun]はひっかき傷で血を流している。
+			:desc_sentence->[PAWN_pronoun]はバランスを失っている。
+		}
+	}
+}
+{Wounded
+	label:wounded
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[VICTIM_nameDef]が[KILLER_nameDef]に[wound_name_past]た事
+			:tale_noun->[VICTIM_nameDef]が[KILLER_nameDef]に[WEAPON_label]で[wound_name_past]た事
+			:tale_noun->[VICTIM_nameDef]が[KILLER_nameDef]に[wound_name_past]た事
+			:tale_noun->[VICTIM_nameDef]が[WEAPON_label]で[wound_name_past]た事
+			:tale_noun->[VICTIM_nameDef]が[wound_name_past]た事
+
+			:image->[VICTIM_nameFull]が[KILLER_nameFull]に[with_weapon_optional][wound_name_past]ている様子
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を[wound_name_present]様子
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を残忍に[wound_name_present]様子
+			:image->[VICTIM_nameFull]が[with_weapon_optional][wound_name_past]ている様子
+
+			:wound_name_past->傷つけられ
+			:wound_name_past->害され
+			:wound_name_past->苦痛を与えられ
+			:wound_name_past->襲われ
+			:wound_name_past->攻撃され
+
+			:wound_name_present->傷つけている
+			:wound_name_present->害している
+			:wound_name_present->苦痛を与えている
+			:wound_name_present->襲っている
+			:wound_name_present->攻撃している
+
+			:with_weapon_optional->[WEAPON_label]で[circumstance_group]
+			:with_weapon_optional->[circumstance_group]
+
+			:circumstance_phrase->容赦なく
+			:circumstance_phrase->冷然と
+			:circumstance_phrase->激しい怒りで
+			:circumstance_phrase->無駄の無い動きで
+			:circumstance_phrase->冷徹に
+			:circumstance_phrase->必要もなく
+			:circumstance_phrase->卑劣に、冷淡なやり方で
+
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
+			:desc_sentence->[PersonJob]が[side_position]から静かに注意を向けている。
+			:desc_sentence->血だまりが[VICTIM_nameDef]の身体の周りにある。
+			:desc_sentence->[VICTIM_nameDef]は[Gore]にみまいれている。
+			:desc_sentence->[VICTIM_nameDef]は[AdjectiveAngsty]表情をしている。
+			:desc_sentence->[VICTIM_nameDef]は痛みにもだえている。
+			:desc_sentence->[VICTIM_nameDef]は苦痛にもだえている。
+			:desc_sentence->[KILLER_nameDef]は歯を剥きだしている。
+			:desc_sentence->[KILLER_nameDef]は満足気だ。
+			:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
+			:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
+			:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
+		}
+	}
+}
+{Downed
+	label:downed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[VICTIM_nameDef]が[KILLER_nameDef]に[wound_name_past]た事
+			:tale_noun->[VICTIM_nameDef]が[KILLER_nameDef]に[WEAPON_label]で[wound_name_past]た事
+			:tale_noun->[VICTIM_nameDef]が[KILLER_nameDef]に[wound_name_past]た事
+			:tale_noun->[VICTIM_nameDef]が[WEAPON_label]で[wound_name_past]た事
+			:tale_noun->[VICTIM_nameDef]が[wound_name_past]た事
+
+			:image->[VICTIM_nameFull]が[KILLER_nameFull]に[with_weapon_optional][wound_name_past]ている様子
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を[wound_name_present]様子
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を残忍に[wound_name_present]様子
+			:image->[VICTIM_nameFull]が[with_weapon_optional][wound_name_past]ている様子
+
+			:wound_name_past->動けなくさせられ
+			:wound_name_past->動けなくさせられ
+			:wound_name_past->気絶させられ
+			:wound_name_past->無力化させられ
+
+			:wound_name_present->動けなくしている
+			:wound_name_present->傷つけている
+			:wound_name_present->気絶させている
+			:wound_name_present->無力化させている
+
+			:with_weapon_optional->[WEAPON_label]で[circumstance_group]
+			:with_weapon_optional->[circumstance_group]
+
+			:circumstance_phrase->容赦なく
+			:circumstance_phrase->冷然と
+			:circumstance_phrase->激しい怒りで
+			:circumstance_phrase->無駄の無い動きで
+			:circumstance_phrase->冷徹に
+			:circumstance_phrase->必要もないのに
+			:circumstance_phrase->卑劣で冷淡なやり方で
+
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
+			:desc_sentence->[PersonJob]が[side_position]から静かに注意を向けている。
+			:desc_sentence->[VICTIM_nameDef]は[AdjectiveAngsty]表情をしている。
+			:desc_sentence->[VICTIM_nameDef]は目を閉じている。
+			:desc_sentence->[KILLER_nameDef]は歯を剥きだしている。
+			:desc_sentence->[KILLER_nameDef]は満足気だ。
+			:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
+			:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
+			:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
+		}
+	}
+}
+{KilledLongRange
+	label:killed at distance
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[KILLER_nameDef]が長距離から[VICTIM_nameDef]を[wound_name_past]事
+			:tale_noun->[KILLER_nameDef]が長距離から[WEAPON_label]で[VICTIM_nameDef]を[wound_name_past]事
+			;2,3は無理なので0,1と同じにした
+			:tale_noun->[KILLER_nameDef]が長距離から[VICTIM_nameDef]を[wound_name_past]事
+			:tale_noun->[KILLER_nameDef]が長距離から[WEAPON_label]で[VICTIM_nameDef]を[wound_name_past]事
+
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を狙っている様子
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を[wound_name_present]様子
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を冷静に[wound_name_present]様子
+
+			:wound_name_past->殺害した
+			:wound_name_past->殺した
+			:wound_name_past->打ちのめした
+			:wound_name_past->排除した
+
+			:wound_name_present->殺害している
+			:wound_name_present->殺している
+			:wound_name_present->打ちのめしている
+			:wound_name_present->排除している
+
+			:with_weapon_optional->[WEAPON_label]で[circumstance_group]
+			:with_weapon_optional->[circumstance_group]
+
+			:circumstance_phrase->容赦なく
+			:circumstance_phrase->冷然と
+			:circumstance_phrase->長距離から
+			:circumstance_phrase->高い所から
+			:circumstance_phrase->冷徹に
+			:circumstance_phrase->卑劣に、冷淡なやり方で
+
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
+			:desc_sentence->[PersonJob]が[side_position]から静かに注意を向けている。
+			:desc_sentence->[VICTIM_nameDef]は[AdjectiveAngsty]表情をしている。
+			:desc_sentence->[VICTIM_nameDef]は目を閉じている。
+			:desc_sentence->[VICTIM_nameDef]は[Gore]にまみれている。
+			:desc_sentence->[KILLER_nameDef]は歯を剥きだしている。
+			:desc_sentence->[KILLER_nameDef]は満足気だ。
+			:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
+			:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
+			:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
+		}
+	}
+}
+{KilledMelee
+	label:killed in melee
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[KILLER_nameDef]が[VICTIM_nameDef]を近接戦で[wound_name_past]した事
+			:tale_noun->[KILLER_nameDef]が[weapon_label]で[VICTIM_nameDef]を[wound_name_past]した事
+			;2,3は無理なので0,1と同じにした
+			:tale_noun->[KILLER_nameDef]が[VICTIM_nameDef]を近接戦で[wound_name_past]した事
+			:tale_noun->[KILLER_nameDef]が[weapon_label]で[VICTIM_nameDef]を[wound_name_past]した事
+
+			:image->[VICTIM_nameFull]が[KILLER_nameFull]に[with_weapon_optional][wound_name_past]されている様子
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を[wound_name_present]様子
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を残忍に[wound_name_present]様子
+			:image->[VICTIM_nameFull]が[with_weapon_optional][wound_name_past]されている様子
+
+			:wound_name_past->殺害
+			:wound_name_past->殺
+			:wound_name_past->打ちのめ
+			:wound_name_past->バラバラに
+
+			:wound_name_present->殺害している
+			:wound_name_present->殺している
+			:wound_name_present->打ちのめしている
+			:wound_name_present->バラバラにしている
+
+			:with_weapon_optional->[WEAPON_label]で[circumstance_group]
+			:with_weapon_optional->[circumstance_group]
+
+			:circumstance_phrase->容赦なく
+			:circumstance_phrase->冷然と
+			:circumstance_phrase->無駄の無い動きで
+			:circumstance_phrase->冷徹に
+			:circumstance_phrase->卑劣に、冷淡なやり方で
+
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
+			:desc_sentence->[PersonJob]が[side_position]から静かに注意を向けている。
+			:desc_sentence->[VICTIM_nameDef]は[AdjectiveAngsty]表情をしている。
+			:desc_sentence->[VICTIM_nameDef]は目を閉じている。
+			:desc_sentence->[VICTIM_nameDef]が[Gore]にまみれている。
+			:desc_sentence->[VICTIM_nameDef]と[KILLER_nameDef]が双方とも[Gore]にまみれている。
+			:desc_sentence->[KILLER_nameDef]が[Gore]にまみれている。
+			:desc_sentence->[KILLER_nameDef]が歯を剥きだしている。
+			:desc_sentence->[KILLER_nameDef]は満足気だ。
+			:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
+			:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
+			:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
+			:desc_sentence->[KILLER_nameDef]は野獣のような表情をしている。
+		}
+	}
+}
+{KilledMajorThreat
+	label:killed major threat
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[KILLER_nameDef]が[VICTIM_nameDef]を[wound_name_past]した事
+			:tale_noun->[KILLER_nameDef]が[WEAPON_label]で[VICTIM_nameDef]を[wound_name_past]した事
+			;2,3は無理なので0,1と同じにした
+			:tale_noun->[KILLER_nameDef]が[VICTIM_nameDef]を[wound_name_past]した事
+			:tale_noun->[KILLER_nameDef]が[WEAPON_label]で[VICTIM_nameDef]を[wound_name_past]した事
+
+			:image->[VICTIM_nameFull]が[KILLER_nameFull]に[with_weapon_optional][wound_name_past]されている様子
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を[wound_name_present]様子
+			:image->[KILLER_nameFull]が[with_weapon_optional][VICTIM_nameFull]を残忍に[wound_name_present]様子
+			:image->[VICTIM_nameFull]が[with_weapon_optional][wound_name_past]されている様子
+
+			:wound_name_past->殺
+			:wound_name_past->負か
+			:wound_name_past->圧倒
+
+			:wound_name_present->殺している
+			:wound_name_present->負かしている
+			:wound_name_present->圧倒している
+
+			:with_weapon_optional->[WEAPON_label]で[circumstance_group]
+			:with_weapon_optional->[circumstance_group]
+
+			:circumstance_phrase->冷然と
+			:circumstance_phrase->無駄の無い動きで
+			:circumstance_phrase->冷徹に
+			:circumstance_phrase->優れた英雄的行為で
+			:circumstance_phrase->信じがたい力で
+
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
+			:desc_sentence->[PersonJob]が[side_position]から静かに注意を向けている。
+			:desc_sentence->[VICTIM_nameDef]は[AdjectiveAngsty]表情をしている。
+			:desc_sentence->[VICTIM_nameDef]は目を閉じている。
+			:desc_sentence->[VICTIM_nameDef]が[Gore]にまみれている。
+			:desc_sentence->[VICTIM_nameDef]と[KILLER_nameDef]は双方とも[Gore]にまみれている。
+			:desc_sentence->[VICTIM_nameDef]の死体を[KILLER_nameDef]が見下ろしている。
+			:desc_sentence->[VICTIM_nameDef]の大きな死体が[TerrainFeature]に覆い被さっている。
+			:desc_sentence->[VICTIM_nameDef]の目が[Color]に染まっている。
+			:desc_sentence->[KILLER_nameDef]が[Gore]にまみれている。
+			:desc_sentence->[KILLER_nameDef]が歯を剥きだしている。
+			:desc_sentence->[KILLER_nameDef]は満足気だ。
+			:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
+			:desc_sentence->[KILLER_nameDef]は[AdjectiveBadass]表情をしている。
+			:desc_sentence->[KILLER_nameDef]は雄々しいオーラを放っている。
+		}
+	}
+}
+{KilledCapacity
+	label:killed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[KILLER_nameDef]が[VICTIM_nameDef]を[wound_name_past]事
+			:tale_noun->[KILLER_nameDef]が[WEAPON_label]で[VICTIM_nameDef]を[wound_name_past]事
+
+			; capacityには「運動」や「意識」などが入るが、～機能や～能力というのはどれも上手く合わないので、無視する
+			:image->[KILLER_nameFull]が[VICTIM_nameFull]の[CAPACITY_label]を[with_weapon_optional][cap_removal]いる様子
+			:image->[KILLER_nameFull]が[VICTIM_nameFull]の[CAPACITY_label]を[with_weapon_optional][cap_removal]、[wound_name_present]様子
+
+			:cap_removal->破壊して
+			:cap_removal->排除して
+			:cap_removal->絶って
+
+			:wound_name_past->殺した
+			:wound_name_past->処刑した
+			:wound_name_past->暗殺した
+			:wound_name_past->排除した
+
+			:wound_name_present->殺している
+			:wound_name_present->処刑している
+			:wound_name_present->暗殺している
+			:wound_name_present->排除している
+
+			:with_weapon_optional->[WEAPON_label]で[circumstance_group]
+			:with_weapon_optional->[circumstance_group]
+
+			:circumstance_phrase->容赦なく
+			:circumstance_phrase->冷然と
+			:circumstance_phrase->無駄の無い動きで
+			:circumstance_phrase->冷徹に
+
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が見ている。
+			:desc_sentence->[PersonJob]が[side_position]から静かに注意を向けている。
+			:desc_sentence->[VICTIM_nameDef]は[AdjectiveAngsty]表情をしている。
+			:desc_sentence->[VICTIM_nameDef]の目は閉じられている。
+			:desc_sentence->[KILLER_nameDef]は満足気だ。
+			:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
+			:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
+			:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
+		}
+	}
+}
+{KilledMortar
+	label:killed with mortar
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[KILLER_nameDef]が_[mortar]_で[VICTIM_nameDef]に[wound_name_present]を負わせた事
+			:tale_noun->[VICTIM_nameDef]が[KILLER_nameDef]に_[mortar]_で殺された事
+
+			:image->[circumstance_group][KILLER_nameFull]が慎重に砲身を調整している様子
+			:image->[circumstance_group][KILLER_nameFull]が遠くを見ている様子
+			:image->[circumstance_group][KILLER_nameFull]が計算をしている様子
+			:image->[circumstance_group][KILLER_nameFull]が風向きを確認している様子
+
+			:circumstance_phrase->[VICTIM_nameFull]が大爆発に巻き込まれながら、
+			:circumstance_phrase->[VICTIM_nameFull]へ放物線を描きながら落ちていく砲弾と、
+			:circumstance_phrase->[VICTIM_nameFull]が何も知らずに歩き回りながら、
+			:circumstance_phrase->全速力で走っている[VICTIM_nameFull]と、
+
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が傍観している。
+			:desc_sentence->[PersonJob]が[side_position]で静かに見ている。
+			:desc_sentence->[VICTIM_nameDef]は[AdjectiveAngsty]表情をしている。
+			:desc_sentence->[VICTIM_nameDef]が[Gore]にまみれている。
+			:desc_sentence->[VICTIM_nameDef]が爆発に囲まれている。
+			:desc_sentence->[VICTIM_nameDef]が爆発痕に囲まれている。
+			:desc_sentence->[KILLER_nameDef]は満足げだ。
+			:desc_sentence->[KILLER_nameDef]は自分がしたことを悩んでいるようだ。
+			:desc_sentence->[KILLER_nameDef]は現状に満足しているようだ。
+			:desc_sentence->[KILLER_nameDef]は勝ち誇っているかのようだ。
+		}
+	}
+}
+{Exhausted
+	label:exhausted
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が過労で倒れた事
+
+			:image->[circumstance_group][PAWN_nameFull]が地面に倒れている様子
+			:image->[circumstance_group][PAWN_nameFull]が地面に横たわっている様子
+			:image->[circumstance_group][PAWN_nameFull]がベッドに横たわっている様子
+			:image->[circumstance_group][PAWN_nameFull]がイスに座り込んでいる様子
+			:image->[circumstance_group][PAWN_nameFull]が穏やかに眠っている様子
+
+			:circumstance_phrase->目を閉じた
+			:circumstance_phrase->明らかに疲れている
+			:circumstance_phrase->汗にまみれた
+			:circumstance_phrase->体を動かせない
+
+			:desc_sentence->[PAWN_nameDef]の最後のプロジェクトが傍らにあり、完成している。
+			:desc_sentence->驚異的な建造物が[PAWN_nameDef]を囲んでいる。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が[PAWN_nameDef]の英雄的努力を感謝しているように見える。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が同じような状態で近くに横たわっている。
+			:desc_sentence->その場面はできたばかりの[Community]の中で起きている。
+		}
+	}
+}
+{IllnessRevealed
+	label:illness revealed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が[ILLNESS_label]に襲われた事
+
+			:image->[circumstance_group][PAWN_nameFull]が外でふらついている様子
+			:image->[circumstance_group][PAWN_nameFull]が地面に横たわっている様子
+			:image->[circumstance_group][PAWN_nameFull]が_[bed]_に横たわっている様子
+			:image->[circumstance_group][PAWN_nameFull]が_[hospital bed]_に横たわっている様子
+			:image->[circumstance_group][PAWN_nameFull]がイスに座り込んでいる様子
+			:image->[circumstance_group][PAWN_nameFull]が火の側にうずくまっている様子
+
+			:circumstance_phrase->抑えられないほどに汗をかいている
+			:circumstance_phrase->抑えられないほどに震えている
+			:circumstance_phrase->汗をかき、震えながら、
+			:circumstance_phrase->乾いた唇にひびが入っている
+			:circumstance_phrase->吐いている
+			:circumstance_phrase->発疹ができた
+			:circumstance_phrase->医者に手当てされている
+
+			:desc_sentence->ハエにまみれた[Quantity_adjphrase]の[Animal]の屍骸が辺りを囲んでいる。
+			:desc_sentence->ねじれた[Quantity_adjphrase]の[Color]の[TerrainFeature]が周りを囲んでいる。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が同じ苦しみに襲われている。
+			:desc_sentence->その場面は[TreeType]の森の中で起きている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]の屍骸が地面に倒れている。
+		}
+	}
+}
+{HeatstrokeRevealed
+	label:heatstroke revealed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が熱中症になった事
+			:tale_noun->[PAWN_nameDef]がオーバーヒートになった事
+
+			:image->[circumstance_group][PAWN_nameFull]が砂の上をトボトボと歩いている様子
+			:image->[circumstance_group][PAWN_nameFull]が[TerrainFeature]の日陰に身を隠している様子
+			:image->[circumstance_group][PAWN_nameFull]が水を探し求めている様子
+			:image->[circumstance_group][PAWN_nameFull]が日陰を求めている様子
+			:image->[circumstance_group][PAWN_nameFull]が日に焼けた大地をノロノロ進んでいる様子
+
+			:circumstance_phrase->日焼けした
+			:circumstance_phrase->汗にまみれた
+			:circumstance_phrase->乾いた唇にひびが入っている
+			:circumstance_phrase->吐いている
+
+			:desc_sentence->カラカラに乾いた[Quantity_adjphrase]の[Animal]の屍骸が辺りを囲んでいる。
+			:desc_sentence->[PAWN_nameDef]の衣服がボロボロにすり切れている。
+			:desc_sentence->背景に灼熱の太陽がぼんやりと見えている。
+			:desc_sentence->この場面は灼熱の砂漠の中で起きている。
+			:desc_sentence->この場面は屋内、_{heater}_の横で起きている。
+			:desc_sentence->動いていない[Quantity_adjphrase]の[Animal]が周りを囲んでいる。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]の屍骸が地面に倒れている。
+		}
+	}
+}
+{HypothermiaRevealed
+	label:hypothermia revealed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が低体温症になった事
+			:tale_noun->[PAWN_nameDef]が凍え死にそうになった事
+
+			:image->[circumstance_group][PAWN_nameFull]が雪の中をトボトボと歩いている様子
+			:image->[circumstance_group][PAWN_nameFull]が[TerrainFeature]の側で丸まっている様子
+			:image->[circumstance_group][PAWN_nameFull]が暖かい[Apparel]を探している様子
+			:image->[circumstance_group][PAWN_nameFull]が火の側にうずくまっている様子
+			:image->[circumstance_group][PAWN_nameFull]が火を点けようとしている様子
+
+			:circumstance_phrase->顔色をゆっくりと青ざめながら、
+			:circumstance_phrase->震えを抑えきれない
+			:circumstance_phrase->寒気に包まれながら、
+			:circumstance_phrase->白い息を口から吐きながら、
+
+			:desc_sentence->凍った[Quantity_adjphrase]の[Animal]の屍骸が周りを囲んでいる。
+			:desc_sentence->[PAWN_nameDef]の衣服がボロボロにすり切れている。
+			:desc_sentence->背景に青く冷たい月がぼんやりと見えている。
+			:desc_sentence->この場面は雪に覆われた[TreeType]の森で起きている。
+			:desc_sentence->この場面は冷凍倉庫の中で起きている。
+			:desc_sentence->震えている[Quantity_adjphrase]の[Animal]が場面を取り囲んでいる。
+			:desc_sentence->死んだ[Quantity_adjphrase]の[Animal]の屍骸が地面に倒れている。
+		}
+	}
+}
+{ToxicityRevealed
+	label:toxicity revealed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の身体が毒に侵された事
+			:tale_noun->[PAWN_nameDef]が毒物に犯された事
+
+			:image->[circumstance_group][PAWN_nameFull]が外でふらついている様子
+			:image->[circumstance_group][PAWN_nameFull]が地面に横たわっている様子
+			:image->[circumstance_group][PAWN_nameFull]がベッドに横たわっている様子
+			:image->[circumstance_group][PAWN_nameFull]が暖のそばにうずくまっている様子
+			:image->[circumstance_group][PAWN_nameFull]が火を起こそうとしている様子
+			:image->[circumstance_group][PAWN_nameFull]が愚かにも服を脱ごうとしている様子
+
+			:circumstance_phrase->抑えられないほど汗をかきながら、
+			:circumstance_phrase->抑えられないほど震えながら、
+			:circumstance_phrase->汗をかいて震えている
+			:circumstance_phrase->乾いた唇にひびが入っている
+			:circumstance_phrase->吐いている
+			:circumstance_phrase->発疹ができた
+
+			:desc_sentence->身をよじった[Quantity_adjphrase]の[Animal]の屍骸が周りを囲んでいる。
+			:desc_sentence->[PAWN_nameDef]の衣服がバラバラに落ちている。
+			:desc_sentence->空は[Color]に濁っている。
+			:desc_sentence->ねじれた[Quantity_adjphrase]の[Color]の[TerrainFeature]が周りを囲んでいる。
+			:desc_sentence->その場面はよじれた[TreeType]の森の中で起きている。
+			:desc_sentence->[Quantity_adjphrase]の死んだ[Animal]の屍骸が地面に倒れている。
+		}
+	}
+}
+{GaveBirth
+	label:gave birth
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[MOTHER_nameDef]が[CHILD_nameDef]を産んだ事
+
+			:image->[MOTHER_nameFull]が[circumstance_group]を産んでいる様子
+			:image->[MOTHER_nameFull]が[circumstance_group]を抱きかかえている様子
+			:image->[MOTHER_nameFull]が[circumstance_group]の横で寝ている様子
+			:image->[MOTHER_nameFull]が[circumstance_group]と椅子に座っている様子
+
+			:baby->赤ちゃん
+			:baby->新生児
+			:baby->赤ん坊
+
+			:circumstance_phrase->血まみれで泣いている[CHILD_nameFull]
+			:circumstance_phrase->[Color]に輝く[CHILD_nameFull]
+			:circumstance_phrase->もう既に周りにある物を引っ張ろうとする[CHILD_nameFull]
+			:circumstance_phrase->穏やかな表情で周りを見る[CHILD_nameFull]
+
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が近くで静かに寝ている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が覗き込んでいる。
+			:desc_sentence->[PersonJob]達が遠巻きに見ている。
+			:desc_sentence->その場面はできたばかりの[Community]の中で起きている。
+		}
+	}
+}
+{CaravanAmbushedByHumanlike
+	label:caravan ambushed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]のキャラバンが待ち伏せにあった事
+
+			:image->[PAWN_nameFull]が[circumstance_group]縮こまっている様子
+			:image->[PAWN_nameFull]が[circumstance_group]仲間を守るために動いている様子
+			:image->[PAWN_nameFull]が[circumstance_group]攻撃するために動いている様子
+			:image->[PAWN_nameFull]が[circumstance_group]攻撃している様子
+			:image->[PAWN_nameFull]が[circumstance_group]大声で叫んでいる様子
+			:image->[PAWN_nameFull]が[circumstance_group]走っている様子
+			:image->[PAWN_nameFull]が[circumstance_group]敵と取っ組みあっている様子
+			:image->[PAWN_nameFull]が[circumstance_group]自分たちを守っている様子
+
+			:circumstance_phrase->[AdjectiveBadass]表情を浮かべながら
+			:circumstance_phrase->[AdjectiveBadass]表情を浮かべながら
+			:circumstance_phrase->武器を振り回しながら
+			:circumstance_phrase->疲労で汗をかきながら
+
+			:desc_sentence->[TerrainFeature]の影から[Quantity_adjphrase]のかすかな人影が近寄ってきている。
+			:desc_sentence->遠くに[Quantity_adjphrase]の[Enemy]が認められる。
+			:desc_sentence->[Enemy]達によって[PAWN_nameDef]は殆ど囲まれている。
+			:desc_sentence->[PAWN_nameDef]が[Enemy]と対峙している。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が争いを恐れて逃げている。
+			:desc_sentence->遠くでは[PersonJob]が見張っている。
+		}
+	}
+}
+{CaravanAmbushedByManhunter
+	label:caravan ambushed by manhunter
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]のキャラバンが待ち伏せにあった事
+
+			:image->[PAWN_nameFull]が[circumstance_group]縮こまっている様子
+			:image->[PAWN_nameFull]が[circumstance_group]仲間を守るために動いている様子
+			:image->[PAWN_nameFull]が[circumstance_group]攻撃するために動いている様子
+			:image->[PAWN_nameFull]が[circumstance_group]攻撃している様子
+			:image->[PAWN_nameFull]が[circumstance_group]大声で叫んでいる様子
+			:image->[PAWN_nameFull]が[circumstance_group]走っている様子
+
+			:circumstance_phrase->[AdjectiveBadass]表情を浮かべながら
+			:circumstance_phrase->[AdjectiveBadass]表情を浮かべながら
+			:circumstance_phrase->武器を振り回しながら
+			:circumstance_phrase->疲労で汗をかきながら
+			:circumstance_phrase->[Gore]にまみれながら
+
+			:desc_sentence->[TerrainFeature]の影から[Quantity_adjphrase]の動物が近寄ってきている。
+			:desc_sentence->[Gore]が地面を覆いつくしている。
+			:desc_sentence->地面は大量の[Gore]で踏み潰されている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が争いを恐れて逃げている。
+			:desc_sentence->遠くでは[PersonJob]が見張っている。
+		}
+	}
+}
+{CaravanMeeting
+	label:caravan meeting
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]のキャラバンが人々と出会った事
+
+			:image->[PAWN_nameFull]が[circumstance_group][PersonJob]と挨拶を交わしている様子
+			:image->[PAWN_nameFull]が[circumstance_group][PersonJob]の素性を調べている様子
+			:image->[PAWN_nameFull]が[circumstance_group][PersonJob]に声をかけている様子
+			:image->[PAWN_nameFull]が[circumstance_group][PersonJob]に向かって歩き出している様子
+			:image->[PAWN_nameFull]が[circumstance_group]落ち着いて話している様子
+			:image->[PAWN_nameFull]が[circumstance_group]大きな声で叫んでいる様子
+			:image->[PAWN_nameFull]が[circumstance_group][PersonJob]と[Game]をしている様子
+
+			:circumstance_phrase->[AdjectiveFriendly]表情を浮かべながら
+			:circumstance_phrase->[AdjectiveFriendly]表情を浮かべながら
+			:circumstance_phrase->[VerbFriendly]ながら
+			:circumstance_phrase->他の者も立ち会いながら
+
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が[event]。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が[event]。
+			:desc_sentence->グループの周りに[Quantity_adjphrase]の[Animal]がいる。
+			:desc_sentence->[TerrainFeature]に陽が沈んでいる。
+			:desc_sentence->[TerrainFeature]から陽が昇っている。
+			:desc_sentence->[PersonJob]が遠くから見張っている。
+
+			:event->パーティを催している
+			:event->共有の食料を食べている
+			:event->最近の出来事を討論している
+			:event->古くからの旧交を温めている
+			:event->ためらいがちに話している
+		}
+	}
+}
+{CaravanDemand
+	label:caravan demand
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]のキャラバンが要求を突きつけられた事
+			:tale_noun->[PAWN_nameDef]のキャラバンが脅迫された事
+
+			:image->[PAWN_nameFull]が[circumstance_group]縮こまっている様子
+			:image->[PAWN_nameFull]が[circumstance_group]大声で叫んでいる様子
+			:image->[PAWN_nameFull]が[circumstance_group]考えている様子
+			:image->[PAWN_nameFull]が[circumstance_group]睨んでいる様子
+			:image->[PAWN_nameFull]が[circumstance_group][PersonJob]によって脅迫されている様子
+			:image->[PAWN_nameFull]が[circumstance_group][Weapon]を振りかざしている様子
+
+			:circumstance_phrase->[AdjectiveBadass]表情を浮かべながら
+			:circumstance_phrase->[AdjectiveAngsty]表情を浮かべながら
+			:circumstance_phrase->他の物が見守る中
+			:circumstance_phrase->[Enemy]達に脅迫されながら
+
+			:desc_sentence->[Enemy]達によって[PAWN_nameDef]は殆ど囲まれている。
+			:desc_sentence->[Quantity_adjphrase]の[Enemy]が近くで[action]。
+			:desc_sentence->[TerrainFeature]に陽が沈んでいる。
+			:desc_sentence->[TerrainFeature]から陽が昇っている。
+			:desc_sentence->[PersonJob]が遠くから見張っている。
+
+			:action->武器を研いでいる
+			:action->危険に気を配っている
+			:action->人質を守っている
+			:action->判断を待っている
+			:action->[PAWN_nameDef]をなじっている
+		}
+	}
+}
+{MeteoriteImpact
+	label:meteorite impact
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の[Community]の近くに隕石が落ちた事
+			:tale_noun->[PAWN_nameDef]の[Community]の近くに隕石が衝突した事
+
+			:image->[Color]の炎の尾を引いた[AdjectiveLarge]岩石が[airborne_circumstance]様子
+			:image->明るく輝く光点が[airborne_circumstance]様子
+			:image->[Color]の[AdjectiveLarge]火の玉が[airborne_circumstance]様子
+
+			:airborne_circumstance->空に燃えるような軌跡を残している
+			:airborne_circumstance->灰の煙を従えながら地面へ落ちている
+			:airborne_circumstance->石くずをまき散らしながら飛んでいる
+
+			:image->[AdjectiveLarge]一枚岩が[ground_circumstance]様子
+			:image->焼け焦げた[Color]の[AdjectiveLarge]岩石が[ground_circumstance]様子
+			:image->[Color]の柱状の岩が[ground_circumstance]様子
+
+			:ground_circumstance->灰と煙に包まれている
+			:ground_circumstance->熱により煙を上げている
+			:ground_circumstance->溶けたデブリに包まれている
+			:ground_circumstance->少し地面にめりこんでいる
+			:ground_circumstance->クレーターの中に横たわっている
+
+			:desc_sentence->[PAWN_nameDef]がびっくりして見ている。
+			:desc_sentence->[PAWN_nameDef]が興奮しながら見ている。
+			:desc_sentence->[PAWN_nameDef]が衝撃を受けながら見ている。
+			:desc_sentence->近くの[TerrainFeature]から[Quantity_adjphrase]の人影が近づいてきている。
+			:desc_sentence->[Quantity_adjphrase]の人影が道具と装備の準備をしている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が右往左往している。
+			:desc_sentence->周りは何も気付いていなかった。
+		}
+	}
+}
+{ToxicFallout
+	label:_[toxic fallout]_
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の[Community]に灰が降り注いだ事
+			:tale_noun->[PAWN_nameDef]の[Community]に近い大気が毒性化した事
+
+			:image->不気味な空[circumstance_group]様子
+			:image->濁り始めた大気[circumstance_group]様子
+			:image->穏やかに輝く地面[circumstance_group]様子
+			:image->原野の枯れ果てた植物[circumstance_group]様子
+			:image->[Quantity_adjphrase]の墓石[circumstance_group]様子
+
+			:circumstance_phrase->と、見渡す限り生物が居なくなっている
+			:circumstance_phrase->が発光する塵を纏っている
+			:circumstance_phrase->が骨を暗示させるように並んでいる
+			:circumstance_phrase->が毒が止むのを待っている
+
+			:desc_sentence->あり得ない角度に捻じれた[PAWN_nameDef]の体が地面に横たわっている。
+			:desc_sentence->[PAWN_nameDef]が[AdjectiveAngsty]表情で見つめながら近くの[TerrainFeature]に隠れている。
+			:desc_sentence->[PAWN_nameDef]がショックを受けているように見える。
+			:desc_sentence->顔に汗をかきながらも[PAWN_nameDef]は落ち着いて休んでいる。
+			:desc_sentence->死んだ[Quantity_adjphrase]の[Animal]が地面に倒れている。
+			:desc_sentence->死にかけている[Quantity_adjphrase]の[Animal]が地面に倒れている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が右往左往している。
+		}
+	}
+}
+{VolcanicWinter
+	label:_[volcanic winter]_
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の[Community]に_[volcanic winter]_が訪れた事
+
+			:image->暗く冷えた空[circumstance_group]様子
+			:image->灰で満たされた大気[circumstance_group]様子
+			:image->雪に覆われた不毛な[TerrainFeature][circumstance_group]様子
+			:image->[Quantity_adjphrase]の場所で灰に覆われた植物[circumstance_group]様子
+
+			:circumstance_phrase->と、見渡す限り生物が居なくなっている
+			:circumstance_phrase->が空からの細い光の筋で微かに照らされている
+			:circumstance_phrase->が青く冷たい光で浮き上がっている
+
+			:desc_sentence->[PAWN_nameDef]が火の側に集まっている。
+			:desc_sentence->暖を取るために[PAWN_nameDef]が[Quantity_adjphrase]の[Apparel]を着ている。
+			:desc_sentence->厳しい試練に疲れ果てた[PAWN_nameDef]が傍にへたり込んでいる。
+			:desc_sentence->[TerrainFeature]の近くに隠れた[PAWN_nameDef]が[AdjectiveAngsty]表情で見上げている。
+			:desc_sentence->餓死した[Quantity_adjphrase]の[Animal]が場面を囲んでいる。
+			:desc_sentence->震えている[Quantity_adjphrase]の[Animal]が場面を囲んでいる。
+			:desc_sentence->死にかけている[Quantity_adjphrase]の[Animal]が地面に散らばっている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が右往左往している。
+		}
+	}
+}
+{Aurora
+	label:_[aurora]_
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の[Community]の上にオーロラが現れた事
+			:tale_noun->[PAWN_nameDef]の[Community]の上に極光が現れた事
+			:tale_noun->[PAWN_nameDef]の[Community]がオーロラの光で照らされた事
+
+			:image->[Color]や[Color]の光で彩られた空が[circumstance_phrase]様子
+			:image->素晴らしいパターンの[Color]の光線が[circumstance_phrase]様子
+			:image->[Color]の光のネットワークが[circumstance_phrase]様子
+			:image->[Color]の舞い降りる弧が[Color]に鋭く輝きながら[circumstance_phrase]様子
+			:image->踊っている[Color]の光が[circumstance_group]様子
+
+			:circumstance_phrase->[TerrainFeature]の上に現れている
+			:circumstance_phrase->[TerrainFeature]を照らしている
+			:circumstance_phrase->[Community]の上に浮かんでいる
+			:circumstance_phrase->[TerrainFeature]と[TerrainFeature]を一つに包んでいる
+
+			:desc_sentence->その下では、[AdjectiveFriendly]様子の[PAWN_nameDef]が[Game]をしている。
+			:desc_sentence->畏敬の念の表情を浮かべた[PAWN_nameDef]が見ている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が見上げている。
+			:desc_sentence->[PAWN_nameDef]が[TerrainFeature]の近くで空を眺めている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が穏やかにうろついている。
+			:desc_sentence->ここには[Enemy]は見当たらない。
+		}
+	}
+}
+{Flashstorm
+	label:_[flashstorm]_
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の[Community]を脅かした_[flashstorm]_
+			:tale_noun->[PAWN_nameDef]の[Community]が恐ろしい_[flashstorm]_に脅かされた事
+
+			:image->[circumstance_phrase][Quantity_adjphrase]の落雷
+			:image->[circumstance_phrase]炎の壁[behavior]
+			:image->[circumstance_phrase][Color]の炎の壁[behavior]
+			:image->[circumstance_phrase]灰と煙の雲[behavior]
+			:image->[circumstance_phrase]炎の波[behavior]
+
+			:behavior->
+			:behavior->が向かってくる様子
+			:behavior->が近寄ってくる様子
+
+			:circumstance_phrase->[Community]へ迫っている
+			:circumstance_phrase->威圧的な雲の下にある
+			:circumstance_phrase->[TerrainFeature]を飲み込もうとしている
+			:circumstance_phrase->[Quantity_adjphrase]の[TerrainFeature]を飲み込もうとしている
+
+			:desc_sentence->[PAWN_nameDef]が怯えながら見ている。
+			:desc_sentence->畏敬の念の表情を浮かべた[PAWN_nameDef]が見ている。
+			:desc_sentence->[PAWN_nameDef]が防衛対策を指揮している。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が大急ぎで準備している。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]がここから逃げ出している。
+			:desc_sentence->すべての野生生物がここから離れている。
+		}
+	}
+}
+{Raid
+	label:raid
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の[Community]が襲撃さた事
+			:tale_noun->[PAWN_nameDef]の[Community]が急襲さた事
+			:tale_noun->[PAWN_nameDef]の[Community]が[Enemy]に攻撃された事
+
+			:image->[Quantity_adjphrase]の[Enemy]が[circumstance_phrase]様子
+			:image->軍隊が[circumstance_phrase]様子
+			:image->圧倒的な軍勢が[circumstance_phrase]様子
+			:image->侵略軍が[circumstance_phrase]様子
+			:image->[Color]で統一された旗の群れが[circumstance_phrase]様子
+			:image->強大な[Enemy]が[circumstance_phrase]様子
+
+			:circumstance_phrase->[TerrainFeature]を超えてきている
+			:circumstance_phrase->[Community]を完全に取り囲んでいる
+			:circumstance_phrase->[Quantity_adjphrase]の[PersonJob]を攻撃している
+			:circumstance_phrase->勝利の雄叫びを上げている
+			:circumstance_phrase->[Weapon]を振り回している
+			:circumstance_phrase->[Gore]にまみれている
+
+			:desc_sentence->[defender_circumstance]、[PAWN_nameDef]が抵抗部隊を編成している。
+			:desc_sentence->[defender_circumstance]、[PAWN_nameDef]が[Weapon]を扱っている。
+			:desc_sentence->[PAWN_nameDef]が傷を負って地面に横たわっている。
+			:desc_sentence->[defender_circumstance]、[PAWN_nameDef]が[Weapon]で応酬している。
+			:desc_sentence->[defender_circumstance]、[PAWN_nameDef]が仁王立ちしている。
+			:desc_sentence->[PAWN_nameDef]は[AdjectiveBadass]表情を浮かべている。
+			:desc_sentence->[PAWN_nameDef]は[AdjectiveAngsty]表情を浮かべている。
+			:desc_sentence->地面が[Gore]で覆われている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]がここから逃げ出している。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]がここから逃げ出している。
+
+			:defender_circumstance->勝ち誇ったように叫びながら
+			:defender_circumstance->[Color]に顔を紅潮させ
+			:defender_circumstance->反抗的に拳を突き上げながら
+			:defender_circumstance->筋肉をたぎらせながら
+		}
+	}
+}
+{Infestation
+	label:infestation
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の[Community]に巨大な昆虫が蔓延した事
+
+			:image->鞘翅目の群れが[circumstance_phrase]様子
+			:image->[Quantity_adjphrase]の_[megaspider]_が[circumstance_phrase]様子
+			:image->[Color]の昆虫の圧倒的な波が[circumstance_phrase]様子
+			:image->黒い濃密な霧が[circumstance_phrase]様子
+
+			:circumstance_phrase->[TerrainFeature]を超えてきている
+			:circumstance_phrase->[Community]を完全に取り囲んでいる
+			:circumstance_phrase->[Quantity_adjphrase]の[PersonJob]を攻撃している
+			:circumstance_phrase->地面から飛び出してきている
+			:circumstance_phrase->[Quantity_adjphrase]の[Animal]を屠っている
+
+			:desc_sentence->[PAWN_nameDef]が抵抗部隊を編成している。
+			:desc_sentence->[PAWN_nameDef]が[Weapon]を扱っている。
+			:desc_sentence->[PAWN_nameDef]が傷を負って地面に横たわっている。
+			:desc_sentence->[PAWN_nameDef]が[Weapon]で応酬している。
+			:desc_sentence->[PAWN_nameDef]が[AdjectiveBadass]表情を浮かべている。
+			:desc_sentence->[PAWN_nameDef]が[AdjectiveAngsty]表情を浮かべている。
+			:desc_sentence->地面が[Gore]で覆われている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]がここから逃げ出している。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]がここから逃げ出している。
+			:desc_sentence->すべての野生生物がここから離れている。
+		}
+	}
+}
+{ManhunterPack
+	label:manhunter pack
+	{rulePack
+		{?rulesStrings
+			:tale_noun->人狩り獣が[PAWN_nameDef]の[Community]を脅かした事
+			:tale_noun->[PAWN_nameDef]の[Community]が狂った野生動物に襲われた事
+
+			:image->[Animal]の群れが[circumstance_phrase]様子
+			:image->[Quantity_adjphrase]の[Animal]が[circumstance_phrase]様子
+			:image->[huge][Animal]が[circumstance_phrase]様子
+			:image->[Quantity_adjphrase]の正体がはっきりしない影が[circumstance_phrase]様子
+			:image->[Quantity_adjphrase]の正体がはっきりしない四足動物が[circumstance_phrase]様子
+
+			:circumstance_phrase->[TerrainFeature]を超えてきている
+			:circumstance_phrase->[Community]を完全に取り囲んでいる
+			:circumstance_phrase->[Quantity_adjphrase]の[PersonJob]を攻撃している
+			:circumstance_phrase->[Quantity_adjphrase]の[Animal]を屠っている
+			:circumstance_phrase->[hate_emotion]に取り憑かれている
+			:circumstance_phrase->[Gore]にまみれている
+
+			:hate_emotion->憎悪
+			:hate_emotion->怒り
+			:hate_emotion->憤怒
+
+			:desc_sentence->[PAWN_nameDef]が抵抗部隊を編成している。
+			:desc_sentence->[PAWN_nameDef]が[Weapon]を扱っている。
+			:desc_sentence->[PAWN_nameDef]が傷を負って地面に横たわっている。
+			:desc_sentence->[PAWN_nameDef]が[Weapon]で応酬している。
+			:desc_sentence->[PAWN_nameDef]が[AdjectiveBadass]表情を浮かべている。
+			:desc_sentence->[PAWN_nameDef]が[AdjectiveAngsty]表情を浮かべている。
+			:desc_sentence->地面が[Gore]で覆われている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]がここから逃げ出している。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]がここから逃げ出している。
+		}
+	}
+}
+{ShipPartCrash
+	label:<<ship part crash??船体墜落>>
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の[Community]の近くに古代の船の一部が墜落した事
+			:tale_noun->[PAWN_nameDef]の[Community]の近くに古代の船の一部が着地した事
+			:tale_noun->[PAWN_nameDef]の[Community]の近くに壊れた船の一部が着地した事
+
+			:image->[Mechanoid]の群れが[circumstance_phrase]様子
+			:image->[Mechanoid]の軍隊が[circumstance_phrase]様子
+			:image->[Quantity_adjphrase]の[Mechanoid]が[circumstance_phrase]様子
+			:image->[huge][Mechanoid]が[circumstance_phrase]様子
+			:image->[Quantity_adjphrase]の[Mechanoid]のシルエットが[circumstance_phrase]様子
+			:image->センサーを[Color]に光らせた[Quantity_adjphrase]の[Mechanoid]が[circumstance_phrase]様子
+
+			:circumstance_phrase->[TerrainFeature]を超えてきている
+			:circumstance_phrase->[Community]を完全に取り囲んでいる
+			:circumstance_phrase->[Quantity_adjphrase]の[PersonJob]を攻撃している
+			:circumstance_phrase->[Quantity_adjphrase]の[Animal]を屠っている
+			:circumstance_phrase->[Gore]にまみれている
+			:circumstance_phrase->へこんで火花が散っている
+
+			:desc_sentence->[defender_circumstance]、[PAWN_nameDef]が抵抗部隊を編成している。
+			:desc_sentence->[defender_circumstance]、[PAWN_nameDef]が[Weapon]を扱っている。
+			:desc_sentence->[PAWN_nameDef]が傷を負って地面に横たわっている。
+			:desc_sentence->[defender_circumstance]、[PAWN_nameDef]が[Weapon]で応酬している。
+			:desc_sentence->[defender_circumstance]、[PAWN_nameDef]が仁王立ちしている。
+			:desc_sentence->[PAWN_nameDef]が[AdjectiveBadass]表情を浮かべている。
+			:desc_sentence->[PAWN_nameDef]が[AdjectiveAngsty]表情を浮かべている。
+			:desc_sentence->地面が[Gore]で覆われている。
+			:desc_sentence->地面が鉄くずで覆われている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]がここから逃げ出している。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]がここから逃げ出している。
+
+			:defender_circumstance->勝ち誇ったように叫びながら
+			:defender_circumstance->[Color]に顔を紅潮させ
+			:defender_circumstance->反抗的に拳を突き上げ
+			:defender_circumstance->筋肉をたぎらせ
+		}
+	}
+}
+{Eclipse
+	label:eclipse
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の[Community]に日食がかかった事
+
+			:image->異常に暗い空と、[circumstance_phrase]
+			:image->薄暗い空と、[circumstance_phrase]
+			:image->太陽光で微かにリング状になった月と、[circumstance_phrase]
+			:image->暗闇の中を右往左往する[Quantity_adjphrase]の[Animal]達と、[circumstance_phrase]
+
+			:circumstance_phrase->静まりかえっている大気
+			:circumstance_phrase->薄明りに包まれている近くの[TerrainFeature]
+			:circumstance_phrase->薄明りに包まれている近くの[Quantity_adjphrase]の[TerrainFeature]
+			:circumstance_phrase->星が見えている様子
+
+			:desc_sentence->その下では、[AdjectiveFriendly]表情で[PAWN_nameDef]が[Game]をしている。
+			:desc_sentence->畏敬の念の表情を浮かべた[PAWN_nameDef]が見ている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が見上げている。
+			:desc_sentence->[PAWN_nameDef]が[TerrainFeature]の近くで空を眺めている。
+			:desc_sentence->見物人の[Community]が穏やかに空を見ている。
+			:desc_sentence->[Enemy]は見当たらない。
+		}
+	}
+}
+{EndGame_ShipEscape
+	label:journey offer
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が旧友から一通のメッセージを受け取った事
+			:tale_noun->[PAWN_nameDef]の[Community]にチャンスが到来した事
+
+			:image->[circumstance_group]、[PAWN_nameDef]が[delivery_method]によって運ばれてきた手紙を開けている様子
+			:image->[circumstance_group]、[PAWN_nameDef]が[delivery_method]によって運ばれてきたデータクリスタルを使っている様子
+			:image->[circumstance_group]、[PAWN_nameDef]が[delivery_method]によって運ばれてきた巻物を紐解いている様子
+			:image->[circumstance_group]、[PAWN_nameDef]が[transmission_source]送られた電送文を受信している様子
+			:image->[circumstance_group]、[PAWN_nameDef]が[transmission_source]送られたメッセージを受け取っている様子
+			:image->[circumstance_group]、[PAWN_nameDef]が[transmission_source]送られた通信メッセージを受け取っている様子
+
+			:delivery_method->[Animal]
+			:delivery_method->[PersonJob]
+			:delivery_method->[Quantity_adjphrase]の[Animal]
+
+			:transmission_source->滅多に使われないチャンネルで
+			:transmission_source->古代の送信機から
+			:transmission_source->低出力な信号によって
+			:transmission_source->長距離信号によって
+			:transmission_source->不可解な信号によって
+
+			:circumstance_phrase->[TerrainFeature]の傍に独りで立っているとき
+			:circumstance_phrase->[TerrainFeature]を散策しているとき
+			:circumstance_phrase->農作業をしているとき
+			:circumstance_phrase->[Animal]が傍を通り過ぎているとき
+			:circumstance_phrase->[Game]をしているとき
+
+			:desc_sentence->気づかないうちに[Quantity_adjphrase]の[Animal]が、そばを通り過ぎている。
+			:desc_sentence->読み始めた[PAWN_pronoun]が[VerbFriendly]始めている。
+			:desc_sentence->[PersonJob]の霊が雲から見ている。
+			:desc_sentence->[PAWN_nameDef]が[TerrainFeature]のそばに腰を下ろしている。
+			:desc_sentence->はるか遠くに[Community]が見えている。
+			:desc_sentence->はるか遠くに宇宙船が見えている。
+		}
+	}
+}
+;トルネードは使われていないと思われるが、警告がうざいので
+{Tornado
+	label:tornado
+	{rulePack
+		{?rulesStrings
+			:tale_noun->a tornado that touched down near [PAWN_nameDef]'s [Community]
+			:tale_noun->[PAWN_nameDef]'s [Community] being menaced by tornado
+			:image->[behavior] cone of twisting air [circumstance_phrase]
+			:image->[behavior] tornado [circumstance_phrase]
+			:image->[behavior] hurricane [circumstance_phrase]
+			:image->[behavior] [Color] cloud formation [circumstance_phrase]
+			:behavior->an advancing
+			:behavior->an approaching
+			:behavior->a quickly-moving
+			:behavior->a swirling
+			:circumstance_phrase->carrying debris with it
+			:circumstance_phrase->passing over a [TerrainFeature]
+			:circumstance_phrase->obscuring a [TerrainFeature]
+			:circumstance_phrase->enveloping a [TerrainFeature]
+			:desc_sentence->[PAWN_nameDef] watches with visible fright.
+			:desc_sentence->[PAWN_nameDef] watches with awe on [PAWN_possessive] face.
+			:desc_sentence->[PAWN_nameDef] is coordinating defensive measures.
+			:desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.
+			:desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.
+			:desc_sentence->All animal life has left the area.
+		}
+	}
+}
+{TornadoFromItem
+	label:tornado
+	{rulePack
+		{?rulesStrings
+			:tale_noun->a tornado that touched down near [COLONIST_nameDef]'s [Community]
+			:tale_noun->[COLONIST_nameDef]'s [Community] menaced by a tornado
+			:image->[behavior] cone of twisting air [circumstance_phrase]
+			:image->[behavior] tornado [circumstance_phrase]
+			:image->[behavior] hurricane [circumstance_phrase]
+			:image->[behavior] [Color] cloud formation [circumstance_phrase]
+			:behavior->an advancing
+			:behavior->an approaching
+			:behavior->a quickly-moving
+			:behavior->a swirling
+			:circumstance_phrase->carrying debris with it
+			:circumstance_phrase->passing over a [TerrainFeature]
+			:circumstance_phrase->obscuring a [TerrainFeature]
+			:circumstance_phrase->enveloping a [TerrainFeature]
+			:desc_sentence->[COLONIST_nameDef] watches with visible fright.
+			:desc_sentence(p=0.5)->[COLONIST_nameDef] watches with awe on [COLONIST_possessive] face.
+			:desc_sentence(p=0.5)->[ATTACKER_nameDef] watches with awe on [ATTACKER_possessive] face.
+			:desc_sentence->[COLONIST_nameDef] is coordinating defensive measures.
+			:desc_sentence->[ATTACKER_nameDef] cackles with glee.
+			:desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.
+			:desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.
+			:desc_sentence->All animal life has left the area.
+		}
+	}
+}
+{MinedValuable
+	label:mined valuable
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が[MATERIAL_label]の豊かな鉱脈を掘った事
+
+			:image->[PAWN_nameFull]が[circumstance_group]掘削道具を使って[MATERIAL_label]の岩肌で作業している様子
+			:image->[PAWN_nameFull]が[circumstance_group][MATERIAL_label]鉱石を持ち上げている様子
+			:image->[PAWN_nameFull]が[circumstance_group][MATERIAL_label]の岩肌の前で休んでいる様子
+			:image->[PAWN_nameFull]が[circumstance_group]豊富な[MATERIAL_label]鉱脈の前で掘削チームをまとめている様子
+			:image->[PAWN_nameFull]が[circumstance_group]豊富な[MATERIAL_label]鉱脈を注意深く調べている様子
+
+			:circumstance_phrase->汗だくになりながら
+			:circumstance_phrase->[AdjectiveFriendly]表情を浮かべながら
+			:circumstance_phrase->[AdjectiveFriendly]表情を浮かべながら
+			:circumstance_phrase->誇らしげに微笑みながら
+			:circumstance_phrase->満足げな笑みを浮かべながら
+
+			:desc_sentence->[Quantity_adjphrase]の[ally]が協力している。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が辺りをうろついている。
+			:desc_sentence->背景に[Community]がある。
+			:desc_sentence->[Quantity_adjphrase]の、さらなる鉱脈も遠くに見えている。
+			:desc_sentence->遠くに[TerrainFeature]が見えている。
+			:desc_sentence->[PAWN_nameDef]が仕事で汗まみれになっている。
+		}
+	}
+}
+{CompletedLongConstructionProject
+	label:completed long construction project
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が[OBJECT_label]を作り終えた事
+
+			:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]を作っている様子
+			:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]を組み立てている様子
+			:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の表面を磨いている様子
+			:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]に名前を刻み込んでいる様子
+
+			:circumstance_phrase->目を輝かせながら
+			:circumstance_phrase->額の汗を拭いながら
+			:circumstance_phrase->埃まみれになりながら
+			:circumstance_phrase->誇らしげに微笑みながら
+			:circumstance_phrase->満足げな笑みを浮かべながら
+
+			:desc_sentence->[PAWN_nameDef]の前に[OBJECT_label]がそびえ立っている。
+			:desc_sentence->[OBJECT_label]が滑らかな[Color]に輝いている。
+			:desc_sentence->[OBJECT_label]が細かく描かれている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が[OBJECT_label]に驚いている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が畏怖を感じながら見つめている。
+		}
+	}
+}
+{CompletedLongCraftingProject
+	label:completed long crafting project
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が[OBJECT_label]の作業を終えた事
+
+			:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の作業をしている様子
+			:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の表面を磨いている様子
+			:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]の表面の細部を作り込んでいる様子
+			:image->[PAWN_nameFull]が[circumstance_phrase][OBJECT_label]に名前を刻み込んでいる様子
+
+			:circumstance_phrase->目を輝かせながら
+			:circumstance_phrase->額の汗を拭いながら
+			:circumstance_phrase->埃まみれになりながら
+			:circumstance_phrase->誇らしげに微笑みながら
+			:circumstance_phrase->満足げな笑みを浮かべながら
+
+			:desc_sentence->[OBJECT_label]が柔らかな[Color]に輝いている。
+			:desc_sentence->[OBJECT_label]が細かく描かれている。
+			:desc_sentence->[PAWN_nameDef]が事も無げに[OBJECT_label]を掲げている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]がこの装置に驚いている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が畏怖を感じながら見つめている。
+		}
+	}
+}
+{AttendedParty
+	label:attended party
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[ATTENDER_nameDef]が[ORGANIZER_nameDef]の_{party}_に参加した事
+			:tale_noun->[ATTENDER_nameDef]が[ORGANIZER_nameDef]と_{party}_でリラックスした事
+
+			:image->[ATTENDER_nameFull]が[circumstance_group][ORGANIZER_nameFull]と話し合っている様子
+			:image->[ATTENDER_nameFull]が[circumstance_group][ORGANIZER_nameFull]から飲み物を受け取っている様子
+			:image->[ATTENDER_nameFull]が[circumstance_group][ORGANIZER_nameFull]と話している様子
+			:image->[ORGANIZER_nameFull]が[circumstance_group][ATTENDER_nameFull]を歓迎している様子
+			:image->[ORGANIZER_nameFull]が[circumstance_group][ATTENDER_nameFull]に友人を紹介している様子
+
+			:circumstance_phrase->満面の笑みで
+			:circumstance_phrase->笑いながら
+			:circumstance_phrase->[AdjectiveFriendly]笑顔で
+			:circumstance_phrase->大笑いしながら
+			:circumstance_phrase->[AdjectiveFriendly]
+
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が会話に入っている。
+			:desc_sentence->会場は[Color]や[Color]で彩られている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が近くで遊んでいる。
+		}
+	}
+}
+{Meditated
+	label:meditated
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が瞑想していた事
+
+			:image->[PAWN_nameFull]が[circumstance_group][TreeType]の根元に腰を下ろしている様子
+			:image->[PAWN_nameFull]が[circumstance_group]静かに腰を下ろしている様子
+			:image->[PAWN_nameFull]が[circumstance_group]遠くを眺めている様子
+			:image->[PAWN_nameFull]が[circumstance_group]目を閉じている様子
+
+			:circumstance_phrase->落ち着いた雰囲気で
+			:circumstance_phrase->安らかな笑みと共に
+			; 本当は「with a [VerbFriendly] smile」だけれど、似たような言葉が二重にかかるのでsmileは除いた
+			:circumstance_phrase->[VerbFriendly]ながら
+			:circumstance_phrase->柔らかく輝きながら
+			:circumstance_phrase->[Color]のオーラに包まれながら
+
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が[PAWN_pronoun]を見つめている。
+			:desc_sentence->[PAWN_pronoun]は[Quantity_adjphrase]の[Animal]に囲まれている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が安らかに休んでいる。
+			:desc_sentence->この場面を見た[Quantity_adjphrase]の[Enemy]が畏敬の念を起こしている。
+		}
+	}
+}
+{Prayed
+	label:prayed
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が祈っていた事
+			:tale_noun->[PAWN_nameDef]が高い次元へ祈っていた事
+
+			:image->[PAWN_nameFull]が[circumstance_group]遠くを見つめている様子
+			:image->[PAWN_nameFull]が[circumstance_group]目を閉じている様子
+			:image->[PAWN_nameFull]が[circumstance_group]両手を握りしめている様子
+			:image->[PAWN_nameFull]が[circumstance_group]空の彼方を覗き込んでいる様子
+
+			:circumstance_phrase->落ち着いた雰囲気で
+			:circumstance_phrase->優しくつぶやきながら
+			:circumstance_phrase->希望に満ちた表情を浮かべながら
+			:circumstance_phrase->柔らかく輝きながら
+			:circumstance_phrase->[Color]のオーラに包まれながら
+
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が[PAWN_pronoun]を見つめている。
+			:desc_sentence->[PAWN_pronoun]は[Quantity_adjphrase]の[Animal]に囲まれている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が安らかに休んでいる。
+			:desc_sentence->この場面を見た[Quantity_adjphrase]の[Enemy]が畏敬の念を起こしている。
+		}
+	}
+}
+{BuiltSnowman
+	label:built snowman
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が雪だるまを作った事
+			:tale_noun->[PAWN_nameDef]が雪で遊んだ事
+
+			:image->[circumstance_group][PAWN_nameFull]が雪玉を作っている様子
+			:image->[circumstance_group][PAWN_nameFull]が大きな雪玉を転がしている様子
+			:image->[circumstance_group][PAWN_nameFull]が人の顔のように[Vegetable]を置いている様子
+			:image->[circumstance_group][PAWN_nameFull]が雪の中に身を横たえている様子
+
+			:circumstance_phrase->[Quantity_adjphrase]のパーカーを着込んだ
+			:circumstance_phrase->雪がちらつく中で
+			:circumstance_phrase->仲間が砦を作っている中で
+			:circumstance_phrase->仲間が雪だるまファミリーを作っている中で
+
+			:desc_sentence->背景に[Color]のオーロラが輝いている。
+			:desc_sentence->遠くの[Community]が雪に覆われている。
+			:desc_sentence->雪の中に[Vegetable]畑がうっすらと見えている。
+			:desc_sentence->雪をかぶった[TerrainFeature]が遠くに見えている。
+		}
+	}
+}
+{VisitedGrave
+	label:visited grave
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[VISITOR_nameDef]が[CORPSE_nameDef]の墓に訪れた事
+			:tale_noun->[VISITOR_nameDef]が[CORPSE_nameDef]の墓に訪れた事
+
+			:image->[VISITOR_nameFull]が[circumstance_group][CORPSE_nameFull]の墓の側に立っている様子
+			:image->[VISITOR_nameFull]が[circumstance_group][CORPSE_nameFull]の墓の側に座っている様子
+			:image->[VISITOR_nameFull]が[circumstance_group][CORPSE_nameFull]の墓にもたれかかっている様子
+			:image->[VISITOR_nameFull]が[circumstance_group][CORPSE_nameFull]の墓の文章を読んでいる様子
+			:image->[VISITOR_nameFull]が[circumstance_group][CORPSE_nameFull]の墓に描かれた芸術作品を眺めている様子
+
+			:circumstance_phrase->[AdjectiveAngsty]表情を浮かべながら
+			:circumstance_phrase->思いに耽けながら
+			:circumstance_phrase->遠くの[TerrainFeature]を見つめながら
+			:circumstance_phrase->記憶の中の故人に語りかけながら
+
+			:desc_sentence->背景に[Color]のオーロラが輝いている。
+			:desc_sentence->遠くの[Community]が雪に覆われている。
+			:desc_sentence->[AdjectiveFriendly]表情を浮かべた[CORPSE_nameDef]の霊がその様子を見守っている。
+			:desc_sentence->[AdjectiveFriendly]表情を浮かべた[CORPSE_nameDef]の霊が[VISITOR_nameDef]の側に立っている。
+			:desc_sentence->[AdjectiveAngsty]表情を浮かべた[CORPSE_nameDef]の霊がその様子を見ている。
+			:desc_sentence->[AdjectiveAngsty]表情を浮かべた[CORPSE_nameDef]の霊が[VISITOR_nameDef]の側に立っている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が近くで休んでいる。
+		}
+	}
+}
+{PlayedGame
+	label:played game
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が[OBJECT_label]でくつろいだ事
+			:tale_noun->[PAWN_nameDef]が[OBJECT_label]を楽しんだ事
+
+			:image->[PAWN_nameFull]が[circumstance_group]椅子に座って待っている様子
+			:image->[PAWN_nameFull]が[circumstance_group][OBJECT_label]に身を乗り出している様子
+			:image->[PAWN_nameFull]が[circumstance_group][OBJECT_label]の前に座っている様子
+			:image->[PAWN_nameFull]が[circumstance_group][OBJECT_label]で勝っている様子
+			:image->[PAWN_nameFull]が[circumstance_group][OBJECT_label]で負けている様子
+
+			:circumstance_phrase->元気そうに
+			:circumstance_phrase->身体を楽にしながら
+			:circumstance_phrase->次の手を練りながら
+			:circumstance_phrase->穏やかに手首を揉みながら
+			:circumstance_phrase->[angstyverb]、[AdjectiveAngsty]表情で
+			:circumstance_phrase->[AdjectiveAngsty]様子で
+			:circumstance_phrase->[angstyverb]
+
+			:desc_sentence->[Color]のオーロラが背景に輝いている。
+			:desc_sentence->遠くに[Community]が見える。
+			:desc_sentence->遠くに[TerrainFeature]が見える。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]も遊んでいる。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が近くで遊んでいる。
+			:desc_sentence->[PAWN_nameDef]は[Color]のオーラに包まれている。
+			:desc_sentence->[PAWN_nameDef]の特徴が誇張されている。
+			:desc_sentence->[PAWN_nameDef]が場面に大きく描かれている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が負けこんでスランプに落ちている。
+		}
+	}
+}
+{BuriedCorpse
+	label:buried corpse
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[DIGGER_nameDef]が[CORPSE_nameDef]を埋葬した事
+			:tale_noun->[DIGGER_nameDef]が[CORPSE_nameDef]を棺に収めた事
+
+			:image->[DIGGER_nameFull]が[circumstance_group][CORPSE_nameFull]の墓の側に立っている様子
+			:image->[DIGGER_nameFull]が[circumstance_group][CORPSE_nameFull]の墓の前に座っている様子
+			:image->[DIGGER_nameFull]が[circumstance_group][CORPSE_nameFull]の墓にもたれかかっている様子
+			:image->[DIGGER_nameFull]が[circumstance_group][CORPSE_nameFull]の墓に文章を書いている様子
+			:image->[DIGGER_nameFull]が[circumstance_group][CORPSE_nameFull]の墓に芸術作品を描いている様子
+			:image->[DIGGER_nameFull]が[circumstance_group][CORPSE_nameFull]の遺体を安置している様子
+
+			:circumstance_phrase->[AdjectiveAngsty]表情を浮かべながら
+			:circumstance_phrase->思いに耽けながら
+			:circumstance_phrase->遠くの[TerrainFeature]を見つめながら
+			:circumstance_phrase->記憶の故人に語りかけながら
+
+			:desc_sentence->背景に[Color]のオーロラが輝いている。
+			:desc_sentence->遠くの[Community]が雪に覆われている。
+			:desc_sentence->[AdjectiveFriendly]表情を浮かべた[CORPSE_nameDef]の霊がその様子を見守っている。
+			:desc_sentence->[AdjectiveFriendly]表情を浮かべた[CORPSE_nameDef]の霊が[DIGGER_nameDef]の側に立っている。
+			:desc_sentence->[AdjectiveAngsty]表情を浮かべた[CORPSE_nameDef]の霊がその様子を見ている。
+			:desc_sentence->[AdjectiveAngsty]表情を浮かべた[CORPSE_nameDef]の霊が[DIGGER_nameDef]の側に立っている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が近くで休んでいる。
+		}
+	}
+}
+{EnteredCryptosleep
+	label:entered cryptosleep
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が仮死装置に入った事
+
+			:image->[PAWN_nameFull]が[circumstance_group]仮死装置の中に横たわっている様子
+			:image->[PAWN_nameFull]が[circumstance_group]空の仮死装置を開けている様子
+			:image->[PAWN_nameFull]が[circumstance_group]仮死装置へ仲間を入れている様子
+			:image->[PAWN_nameFull]が[circumstance_group]仮死装置の窓から別れる世界を見ている様子
+
+			:circumstance_phrase->[AdjectiveAngsty]表情を浮かべながら
+			:circumstance_phrase->思いに耽けながら
+			:circumstance_phrase->遠くの[TerrainFeature]を見つめながら
+			:circumstance_phrase->静かに会話を交わしながら
+
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が近くで休んでいる。
+			:desc_sentence->[Quantity_adjphrase]の[Enemy]が近づいてきている。
+			:desc_sentence->[PAWN_nameDef]は決意をみなぎらせている。
+			:desc_sentence->[PAWN_nameDef]は明らかに傷ついている。
+			:desc_sentence->背景に[Color]のオーロラが輝いている。
+			:desc_sentence->その場面は[Quantity_adjphrase]の仮死装置に囲まれている。
+		}
+	}
+}
+{PutIntoCryptosleep
+	label:put into cryptosleep
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[CARRIER_nameDef]が[SLEEPER_nameDef]を仮死装置に入れた事
+
+			:image->[CARRIER_nameFull]が[circumstance_group][SLEEPER_nameDef]を仮死装置に横たえている様子
+			:image->[CARRIER_nameFull]が[circumstance_group][SLEEPER_nameDef]を支えながら、空の仮死装置を開けている様子
+			:image->[CARRIER_nameFull]が[circumstance_group][SLEEPER_nameDef]を仮死装置へ入れている様子
+			:image->[CARRIER_nameFull]が[circumstance_group]立ち去る様子を[SLEEPER_nameDef]が仮死装置から見ている様子
+
+			:circumstance_phrase(p=3)->[AdjectiveAny]表情を浮かべながら
+			:circumstance_phrase->思いに耽けながら
+			:circumstance_phrase->遠くの[TerrainFeature]を見つめながら
+			:circumstance_phrase->明らかに緊張しながら
+
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が近くで休んでいる。
+			:desc_sentence->[Quantity_adjphrase]の[Enemy]が近づいてきている。
+			:desc_sentence->[CARRIER_nameDef]は決意をみなぎらせている。
+			:desc_sentence->[SLEEPER_nameDef]は目に見えて傷ついている。
+			:desc_sentence->[SLEEPER_nameDef]は疲れ切っているようだ。
+			:desc_sentence->その場面は[Quantity_adjphrase]の仮死装置に囲まれている。
+		}
+	}
+}
+{Stripped
+	label:stripped
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[TAKER_nameDef]が[STRIPPED_nameDef]の衣服を脱がせた事
+
+			:image->[TAKER_nameFull]が外で[circumstance_group][STRIPPED_nameFull]の衣服を脱がせている様子
+			:image->[TAKER_nameFull]が[circumstance_group][STRIPPED_nameFull]の衣服を脱がせている様子
+			:image->[TAKER_nameFull]が[circumstance_group]全裸の[STRIPPED_nameFull]の横に立ち、沢山の[Apparel]を抱えている様子
+			:image->[TAKER_nameFull]が[circumstance_group]辛抱強く[STRIPPED_nameFull]が服を脱ぐのを待っている様子
+
+			:circumstance_phrase->明確な目的を持って
+			:circumstance_phrase->恥じらいもなく
+			:circumstance_phrase->他人が見ている中で
+			:circumstance_phrase->明白な理由も無く
+			:circumstance_phrase->戸惑った動物たちが見ている中で
+
+			:desc_sentence->[STRIPPED_nameDef]は見るからに性的に興奮している。
+			:desc_sentence->[STRIPPED_nameDef]は妙な湯気に覆われている。
+			:desc_sentence->[STRIPPED_nameDef]は訳もないのに、荒い息遣いをしている。
+			:desc_sentence->[STRIPPED_nameDef]は陰毛を撫でまわしている。
+			:desc_sentence->[STRIPPED_nameDef]は[AdjectiveAngsty]表情だけを浮かべている。
+		}
+	}
+}
+{GainedMasterSkillWithPassion
+	label:gained master skill with passion
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が[SKILL_label]を極めた事
+
+			:image->[circumstance_group][SKILL_label]スキルの練習をしている[PAWN_nameFull]
+			:image->[circumstanse_group][SKILL_label]方法の大きな本を読んでいる[PAWN_nameFull]
+			:image->[circumstanse_group][SKILL_label]スキルの訓練を受けている[PAWN_nameFull]
+			:image->[circumstanse_group]無我夢中に作業をしている[PAWN_nameFull]
+			:image->[circumstanse_group]作業を終えている[PAWN_nameFull]
+
+			:circumstance_phrase->[AdjectiveFriendly]表情で
+			:circumstance_phrase->楽しげな表情で
+			:circumstance_phrase->[VerbFriendly]ながら
+			:circumstance_phrase->熱狂的な叫びをあげながら
+			:circumstance_phrase->汗にまみれながら
+			:circumstance_phrase->見るからに疲れながら
+
+			:desc_sentence->実験に失敗した[Quantity_adjphrase]の産物が主題を取り囲んでいる。
+			:desc_sentence->[Quantity_adjphrase]の本が主題を取り囲んでいる。
+			:desc_sentence->[PAWN_possessive]のスキルが作品に表れている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が驚きをもって見ている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が驚きをもって見ている。
+			:desc_sentence->[Quantity_adjphrase]の古の魂が天空から見守っている。
+		}
+	}
+}
+{GainedMasterSkillWithoutPassion
+	label:gained master skill
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が[SKILL_label]を極めた事
+
+			:image->[PAWN_nameFull]が[circumstanse_group][SKILL_label]スキルの練習をしている様子
+			:image->[PAWN_nameFull]が[circumstanse_group][SKILL_label]方法の大きな本を読んでいる様子
+			:image->[PAWN_nameFull]が[circumstanse_group][SKILL_label]スキルの訓練を受けている様子
+			:image->[PAWN_nameFull]が[circumstanse_group]無我夢中に作業をしている様子
+			:image->[PAWN_nameFull]が[circumstanse_group]作業を終えている様子
+
+			:circumstance_phrase->汗にまみれながら
+			:circumstance_phrase->見るからに疲労しつつ
+			:circumstance_phrase->[AdjectiveAngsty]表情をしつつ
+			:circumstance_phrase->うんざりした表情をしつつ
+
+			:desc_sentence->失敗した[Quantity_adjphrase]の試作品が、この場面を取り囲んでいる。
+			:desc_sentence->[Quantity_adjphrase]の本が、この場面を取り囲んでいる。
+			:desc_sentence->[PAWN_possessive]のスキルが作品に表れている。
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が驚きをもって見ている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が驚きをもって見ている。
+			:desc_sentence->[Quantity_adjphrase]の古の魂が天空から見守っている。
+		}
+	}
+}
+{IncreasedMenagerie
+	label:increased menagerie
+	{rulePack
+		{?rulesStrings
+			:tale_noun(p=3)->[HUMAN_nameDef]が[AnimalGroup]をさらに増やそうとした事
+			:tale_noun->[HUMAN_nameDef]が[AnimalGroup]に追い回された事
+			:tale_noun->[HUMAN_nameDef]が[ANIMAL_nameDef]を手懐けた事
+
+			:image->[HUMAN_nameFull]が[circumstanse_group][ANIMAL_nameFull]を手懐けている様子
+			:image->[HUMAN_nameFull]が[circumstanse_group][ANIMAL_nameFull]に一口分の食べ物で釣ろうとしている様子
+			:image->[HUMAN_nameFull]が[circumstanse_group]臆病な[ANIMAL_nameFull]に囁くように声をかけている様子
+			:image->[HUMAN_nameFull]が[circumstanse_group]野生の[ANIMAL_nameFull]をなだめている様子
+
+			:circumstance_phrase->たくさんの注意と配慮をもって
+			:circumstance_phrase->笑顔で
+			:circumstance_phrase->ヘトヘトだけど満足しながら
+			:circumstance_phrase->[AnimalGroup]と共に
+
+			:desc_sentence->[HUMAN_nameDef]は数えきれない[Animal]に囲まれている。
+			:desc_sentence->[ANIMAL_nameDef]は[AnimalGroup]に加わろうとしている。
+			:desc_sentence->その場面は[Animal]と[Animal]達で満ちている。
+			:desc_sentence->数えきれない[Animal]の列が[ANIMAL_nameDef]によって手懐けられるのを待っている。
+		}
+	}
+}
+{LandedInPod
+	label:landed in pod
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が_{drop pod}_で着陸した事
+
+			:image->[PAWN_nameFull]が乗る_{drop pod}_が[circumstance_group]着陸しようとしている様子
+			:image->[PAWN_nameFull]が乗る_{drop pod}_が[circumstance_group]着地しようとしている様子
+			:image->[PAWN_nameFull]が乗る_{drop pod}_が[circumstance_group]地表にぶつかろうとしている様子
+			:image->[PAWN_nameFull]が乗る_{drop pod}_が[circumstance_group]操作している様子
+
+			:circumstance_phrase->[TerrainFeature]の前に
+			:circumstance_phrase->驚くほどの力で
+			:circumstance_phrase->埃と岩を吹き上げながら
+			:circumstance_phrase->古典的なロケットを激しくふかしながら
+			:circumstance_phrase->正確な着陸をしながら
+
+			:desc_sentence->[PAWN_pronoun]は制御にひたすら集中している。
+			:desc_sentence->[PAWN_pronoun]は目を閉じて怖がっている。
+			:desc_sentence->[PAWN_pronoun]は気を失い、舌がはみ出し、よだれを垂らしている。
+			:desc_sentence->[PAWN_pronoun]は気味の悪い笑みを浮かべている。
+			:desc_sentence->[PAWN_pronoun]はもう何をしていいか分からないようだ。
+			:desc_sentence->[PAWN_pronoun]は目を閉じてシートに固定されている。望みは殆どないようだ。
+
+			:desc_sentence->_{pod}_の後ろに地面をなめるように炎の軌跡が伸びている。
+			:desc_sentence->近くにいた[Animal]が上を見上げて驚いてる
+			:desc_sentence->[Animal]が衝突の恐怖で逃げ出している。
+			:desc_sentence->背景に[TerrainFeature]がある。
+			:desc_sentence->[PersonJob]が離れた所から静かに見つめている。
+		}
+	}
+}
+{Vomited
+	label:vomited
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]のゲロ
+
+			:image->[PAWN_nameFull]が[circumstance_group]床にゲロを吐いている様子
+			:image->乾いたゲロにまみれている[PAWN_nameFull]が[circumstance_group]うんざりしている様子
+			:image->[PAWN_nameFull]が[circumstance_group]体をかがめて床に吐こうとしている様子
+			:image->[PAWN_nameFull]が[circumstance_group]床に膝をついて吐いている様子
+
+			:circumstance_phrase->苦しそうに
+			:circumstance_phrase->恥ずかしがりながら
+			:circumstance_phrase->他の者が見ている中で
+
+			:desc_sentence->[PAWN_pronoun]は周りがどうなっているのかまったく気付いていないようだ。
+			:desc_sentence->[PAWN_possessive]の顔が腫れているように見える。
+			:desc_sentence->[PAWN_pronoun]は気を失いかけ、舌がはみ出し、よだれを垂らしている。
+			:desc_sentence->[PAWN_pronoun]は激しく震えている。
+			:desc_sentence->[PAWN_pronoun]は恥ずかしそうにしている。
+			:desc_sentence->[PAWN_pronoun]はこんな状況にもかかわらず笑おうとしている。
+			:desc_sentence->[PAWN_pronoun]は激しい嘔吐で全てを吐き出してしまったかのように、しぼんで見える。
+			:desc_sentence->[PAWN_pronoun]は芸術的に描かれたゲロの光輪に囲まれている。
+			:desc_sentence->背景では[Animal]がゲロの後を追いながら食べている。
+		}
+	}
+}
+{Drunk
+	label:drunk
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の泥酔
+			:tale_noun->[PAWN_nameDef]が飲み過ぎた事
+
+			:image->[circumstance_group]、[PAWN_nameFull]が酔っ払って千鳥足になっている様子
+			:image->[circumstance_group]、[PAWN_nameFull]が酒をがぶ飲みしている様子
+			:image->[circumstance_group]、[PAWN_nameFull]が貪欲に酒瓶を集めている様子
+			:image->[circumstance_group]、[PAWN_nameFull]が酒を飲みすぎている様子
+
+			:circumstance_phrase->辺りを気にせずに
+			:circumstance_phrase->深く朦朧としながら
+			:circumstance_phrase->自分自身に問いかけながら
+			:circumstance_phrase->目に涙を溜めながら
+			:circumstance_phrase->気が狂ったようにクスクス笑いながら
+			:circumstance_phrase->すすり泣きながら
+			:circumstance_phrase->悲しそうな様子で
+			:circumstance_phrase->[PAWN_objective]の周りにいる人々を睨みつけながら
+			:circumstance_phrase->近くの人をいやらしい目つきで見ながら
+			:circumstance_phrase->服を脱ごうとしながら
+			:circumstance_phrase->口に指を突っ込みながら
+			:circumstance_phrase->吐き気をこらえながら
+			:circumstance_phrase->世の中の事なんて気にもせずに
+			:circumstance_phrase->いやらしい目つきで
+			:circumstance_phrase->昔に見たゴーストについて自説をときながら
+
+			:desc_sentence->[PAWN_pronoun]は周りがどうなっているのかまったく気付いていないようだ。
+			:desc_sentence->[PAWN_possessive]の顔は、むくんでいる。
+			:desc_sentence->[PAWN_pronoun]は気を失いかけ、舌がはみ出し、よだれを垂らしている。
+			:desc_sentence->[PAWN_pronoun]には幸せと悲しみが同居しているように見える。
+			:desc_sentence->[PAWN_pronoun]は前にシミを付けている。
+			:desc_sentence->[PAWN_objective]の後には飲み物の箱が点々と捨てられている。
+			:desc_sentence->[PAWN_possessive]のズボンに白いシミがついている。
+			:desc_sentence->[PAWN_pronoun]は靴を片方なくしているようだ。
+			:desc_sentence->[PAWN_possessive]の髪はほとんどくしゃくしゃだ。
+		}
+	}
+}
+{WasOnFire
+	label:on fire
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が燃えた事
+
+			:image->[circumstance_group]、[PAWN_nameFull]が半狂乱に身体についた炎を叩き消している様子
+			:image->[circumstance_group]、[PAWN_nameFull]が炎に包まれている様子
+			:image->[circumstance_group]、[PAWN_nameFull]が膝を折り、両手を頭に上げ、体の炎を消そうとしている様子
+			:image->[circumstance_group]、[PAWN_nameFull]が燃えながら床の上で転がっている様子
+
+			:circumstance_phrase->他の人が見ている中で
+			:circumstance_phrase->殆ど裸になりながら
+			:circumstance_phrase->必死な様子で
+
+			:desc_sentence->[PAWN_possessive]の肌は明らかに焦げている。
+			:desc_sentence->[PAWN_possessive]の目はパニックで大きく見開かれている。
+			:desc_sentence->[PAWN_pronoun]の意識はかすかにあるようだが、その目には生気がない。
+			:desc_sentence->[PAWN_possessive]の口は助けを叫びながら開いている。
+			:desc_sentence->炎が頭を包み込もうとしている。
+			:desc_sentence->炎を象徴化した光輪が顔を囲んでいる。
+			:desc_sentence->[PAWN_pronoun]は気が狂ったかのように笑っている。
+			:desc_sentence->[PAWN_pronoun]は我を失っているようだ。
+			:desc_sentence->[PAWN_objective]から煙が立ち上っている
+			:desc_sentence->[PAWN_pronoun]は死体のような技法で芸術的に描かれている。
+		}
+	}
+}
+{MentalStateBerserk
+	label:berserk rage
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]の狂暴化
+
+			:image->[circumstance_group]、[PAWN_nameFull]が突然凶暴化している様子
+			:image->[circumstance_group]、[PAWN_nameFull]の気が狂い、正気を失っている様子
+			:image->[circumstance_group]、[PAWN_nameFull]が病的な顔つきで、よろよろと歩いている様子
+
+			:circumstance_phrase->服を脱ごうとしながら
+			:circumstance_phrase->明らかな理由も無く
+			:circumstance_phrase->他の者が恐怖で身をちぢこまるなか
+			:circumstance_phrase->友人が逃げ出すなか
+			:circumstance_phrase->ストレスにより
+			:circumstance_phrase->死に際のように
+
+			:desc_sentence->[PAWN_pronoun]は激しい怒りで震えている。
+			:desc_sentence->恐ろしいうなり声で[PAWN_possessive]の歯がむき出しになっている。
+			:desc_sentence->[PAWN_possessive]の目には狂気にみちた光がやどっている。
+			:desc_sentence->激しい怒りで叫びながら[PAWN_possessive]の口から唾が飛んでいる。
+			:desc_sentence->[PAWN_pronoun]は服の一部分を失っている。
+			:desc_sentence->[PAWN_pronoun]は苦痛で顔をゆがめている。
+			:desc_sentence->[PAWN_pronoun]は狂気に満ちた薄笑いを浮かべている。
+			:desc_sentence->[PAWN_pronoun]は[Animal]のうなり顔で描かれている。
+			:desc_sentence->[PAWN_possessive]の頭の周りを[Animal]達が象徴的に取り囲んでいる。
+			:desc_sentence->[PAWN_pronoun]の目に残忍な光が宿っている。
+			:desc_sentence->[PAWN_possessive]の全身が憎悪に震えているようだ。
+			:desc_sentence->[PAWN_possessive]の顔がひねくれた穏やかさで固まっている。
+			:desc_sentence->一粒の涙が[PAWN_possessive]の顔からこぼれ落ちている。
+		}
+	}
+}
+{MentalStateGaveUp
+	label:gave up
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が絶望してギブアップした事
+
+			:image->[circumstance_group]、[PAWN_nameFull]が遂にストレスで全てを投げ出している様子
+			:image->[circumstance_group]、[PAWN_nameFull]が抑えきれずにすすり泣いている様子
+			:image->[circumstance_group]、[PAWN_nameFull]が絶望した顔つきで辺りをよろめき歩いている様子
+
+			:circumstance_phrase->服を脱ごうとしながら
+			:circumstance_phrase->明らかな理由も無く
+			:circumstance_phrase->他人に同情されながら
+			:circumstance_phrase->友が泣きながら
+			:circumstance_phrase->ストレスにより
+			:circumstance_phrase->死に際のように
+
+			:desc_sentence->[PAWN_pronoun]の顔から涙が滝のように流れている。
+			:desc_sentence->[PAWN_pronoun]は鬱のどん底で笑っている。
+			:desc_sentence->[PAWN_nameDef]は上から救いの手が差し伸べられているかのように上を見上げている。
+			:desc_sentence->[PAWN_pronoun]は自分の服に涙をこぼしている。
+			:desc_sentence->[PAWN_pronoun]は周りの事に気付いていないようだ。
+			:desc_sentence->[PAWN_pronoun]には幸せと悲しみが同居しているように見える。
+			:desc_sentence->[PAWN_pronoun]は前にシミを付けている。
+			:desc_sentence->[PAWN_pronoun]は靴を片方失っているようだ。
+			:desc_sentence->[PAWN_possessive]の髪はほとんどくしゃくしゃだ。
+		}
+	}
+}
+{WalkedNaked
+	label:walked naked
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が裸で歩き回っていた事
+
+			:image->[PAWN_nameFull]が[circumstance_group]ありのままの姿で[nude_action]様子
+			:image->[PAWN_nameFull]が[circumstance_group]裸で[nude_action]様子
+			:image->[PAWN_nameFull]が[circumstance_group]裸で[nude_action]様子
+			:image->[PAWN_nameFull]が[circumstance_group]一糸まとわぬ姿で[nude_action]様子
+
+			:nude_action->揚々と歩いている
+			:nude_action->浮かれている
+			:nude_action->はしゃいでいる
+			:nude_action->歩いている
+
+			:nude_action->アレを見せびらかしている
+			:nude_action->気取って歩いている
+			:nude_action->つま先立ちして歩いている
+			:nude_action->散策している
+			:nude_action->辺りを見渡している
+
+			:circumstance_phrase->明確な意志で
+			:circumstance_phrase->恥ずかしげもなく
+			:circumstance_phrase->他の人が見ている中で
+			:circumstance_phrase->明確な理由も無く
+			:circumstance_phrase->混乱した動物が見ている中で
+
+			:desc_sentence->[PAWN_nameDef]は明らかに興奮している。
+			:desc_sentence->[PAWN_nameDef]は説明のつかない湿気に包まれている。
+			:desc_sentence->[PAWN_nameDef]は明確な理由もないのに荒い息遣いをしている。
+			:desc_sentence->[PAWN_nameDef]は陰毛を撫で回している。
+		}
+	}
+}
+{AteRawHumanlikeMeat
+	label:raw humanlike meat eaten
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が人肉を食べた事
+
+			:image->[PAWN_nameFull]が[circumstance_group]仲間の人肉を[eat_gerund]様子
+			:image->[PAWN_nameFull]が[circumstance_group]人の腕のような肉を[eat_gerund]様子
+			:image->[PAWN_nameFull]が[circumstance_group]人の新鮮な肉を[eat_gerund]様子
+
+			:eat_gerund->食べている
+			:eat_gerund->摂っている
+			:eat_gerund->噛んでいる
+			:eat_gerund->良く噛んでいる
+			:eat_gerund->食べ尽くしている
+			:eat_gerund->丸呑みしている
+			:eat_gerund->共食いしている
+
+			:circumstance_phrase->明確な意志で
+			:circumstance_phrase->恥ずかしげもなく
+			:circumstance_phrase->恥ずかしげに
+			:circumstance_phrase->他の人が見ている中で
+			:circumstance_phrase->おいしさを噛みしめながら
+			:circumstance_phrase->半狂乱に、まるで命が掛かっているかのように
+
+			:desc_sentence->[PAWN_nameDef]の顔が血と汁にまみれている。
+			:desc_sentence->[PAWN_nameDef]が指をしゃぶっている。
+			:desc_sentence->[PAWN_nameDef]の前は血のりにまみれている。
+			:desc_sentence->[PAWN_nameDef]は血だまりの真ん中にいる。
+			:desc_sentence->[PAWN_nameDef]は近くの人を際どい目的で見つめている。
+			:desc_sentence->汁気がとても多い肉が、ギラギラと輝いている。
+			:desc_sentence->[PAWN_nameDef]の体から肉がこぼれ落ちている。
+		}
+	}
+}
+{CraftedArt
+	label:art crafted
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が[THING_indefinite]を作った事
+
+			:image->[PAWN_nameFull]は、[circumstance_group][THING_indefinite]を製作している。[quality_sentence][title_sentence]
+			:image->[PAWN_nameFull]は、[circumstance_group][THING_indefinite]の[PAWN_possessive]の作業を完成させている。[quality_sentence][title_sentence]
+			:image->[PAWN_nameFull]は、[circumstance_group][THING_indefinite]の作業をしている。[quality_sentence][title_sentence]
+			:image->[PAWN_nameFull]は、[circumstance_group][THING_indefinite]を作っている。[quality_sentence][title_sentence]
+
+			:circumstance_phrase->全神経を傾けながら
+			:circumstance_phrase->満足した笑みを浮かべながら
+			:circumstance_phrase->作業台で
+			:circumstance_phrase->大きな熱意をもって
+
+			:desc_sentence->道具が辺り一面に散らばっている。
+			:desc_sentence->[PAWN_pronoun]は作業の怪我で引っ掻き傷や傷痕が残っている。
+			:desc_sentence->[PAWN_pronoun]は汗だくになっている。
+			:desc_sentence->作業場はとても整理され、全ての道具は適切な位置へ収められている。
+			:desc_sentence->[PAWN_pronoun]は大げさな技法でより力強く見えるように描かれている。
+			:desc_sentence->[THING_definite]の重要さを強調するために、誇張された大きさで描かれている。
+			:desc_sentence->[THING_definite]に加えられた光が、天使のように輝いている。
+			:desc_sentence->新しく創造したものを強調するために、[PAWN_nameDef]は背景へ溶け込んでいる。
+			:desc_sentence->[Quantity_adjphrase]の見物人が[PAWN_objective]を取り囲んでいる。
+			:desc_sentence->喝采を送る群衆が背景にいる。
+
+			:quality_sentence->[THING_definite]は[THING_quality]品質になりそうだ。
+			:quality_sentence->[THING_definite]は[THING_quality]品質だ。
+			:quality_sentence->[PAWN_nameDef]の作品は[THING_quality]品質だ。
+			:title_sentence->[PAWN_nameDef]は、[THING_definite]の底面にこのようなタイトルを付けた:[THING_title]
+			:title_sentence->[THING_definite]は、そのタイトルで飾り立てられている:[THING_title]
+			:title_sentence->[THING_definite]のタイトル、[THING_title]が背景に掲げられている。
+		}
+	}
+}
+{StruckMineable
+	label:struck mineable
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が[THING_label]を掘り当てた事
+
+			:image->[PAWN_nameFull]が[circumstance_group][THING_label]を掘り当てている様子
+
+			:circumstance_phrase->採鉱している時に
+			:circumstance_phrase->掘っている時に
+			:circumstance_phrase->トンネルを掘削している時に
+			:circumstance_phrase->驚いて
+			:circumstance_phrase->満足げな表情で
+
+			:desc_sentence->[PAWN_nameDef]は額を拭っている。
+			:desc_sentence->[PAWN_nameDef]はジャンプしている喜んでいる。
+			:desc_sentence->[PAWN_nameDef]は仲間とハイタッチしている。
+			:desc_sentence->[PAWN_nameDef]は喜びの声を上げている。
+			:desc_sentence->[PAWN_nameDef]は抑えきれずに笑っている。
+			:desc_sentence->[PAWN_nameDef]は働いて汗と汚れにまみれている。
+			:desc_sentence->[PAWN_nameDef]は働いて汗と汚れにまみれている。
+		}
+	}
+}
+{FinishedResearchProject
+	label:research project finished
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[PAWN_nameDef]が[PROJECT_label]の研究を終わらせた事
+
+			:image->[PAWN_nameFull]が[circumstance_group][PROJECT_label]の研究計画で作業している様子
+			:image->[PAWN_nameFull]が[circumstance_group][PROJECT_label]の秘密を調べている様子
+			:image->[PAWN_nameFull]が[circumstance_group][PROJECT_label]を研究している様子
+
+			:circumstance_phrase->全神経を傾けて
+			:circumstance_phrase->一人作業台で
+			:circumstance_phrase->手に紙を持ちながら
+			:circumstance_phrase->夢中になりながら
+
+			:desc_sentence->[PAWN_nameDef]は汗をかいている。
+			:desc_sentence->その作業はとても複雑そうに見える。
+			:desc_sentence->[PAWN_nameDef]は道具や器具の並びに完全に囲まれている。
+			:desc_sentence->[PAWN_nameDef]は自分の発見に感嘆の眼差しを送っている。
+		}
+	}
+}
+{ButcheredHumanlikeCorpse
+	label:humanlike corpse butchered
+}

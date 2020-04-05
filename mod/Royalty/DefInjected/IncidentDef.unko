@@ -1,0 +1,12 @@
+﻿{CaravanArrivalTributeCollector
+	label:<<tribute collector caravan arrival??貢ぎ物収集キャラバン 到着>>
+}
+{GiveQuest_EndGame_RoyalAscent
+	label:<<royal ascent??貴族の上昇>>
+}
+{GiveQuest_Intro_Wimp
+	label:<<imperial wimp??_{imperial}_の弱虫>>
+}
+{GiveQuest_Intro_Deserter
+	label:<<imperial deserter??_{imperial}_の脱走者>>
+}

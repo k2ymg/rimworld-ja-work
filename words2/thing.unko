@@ -1,0 +1,47 @@
+plasteel:プラスチール
+
+sandstone:砂岩
+granite:花崗岩
+limestone:石灰岩
+slate:粘板岩
+marble:大理石
+
+sandstone tile:_<sandstone>_タイル
+granite tile:_<granite>_タイル
+limestone tile:_<limestone>_タイル
+slate tile:_<slate>_タイル
+marble tile:_<marble>_タイル
+
+turret:ターレット
+mortar:迫撃砲
+heavy charge blaster:ヘビー・チャージ・ブラスター
+inferno cannon:インフェルノ・キャノン
+
+crafting spot:工作場
+smithy:鍛冶台
+comms console:通信コンソール
+cryptosleep:クリプトスリープ
+cryptosleep casket:クリプトスリープ・キャスケット
+pod:ポッド
+transport pod:輸送_{pod}_
+drop pod:降下_{pod}_
+
+neurotrainer:ニューロトレイナー
+top hat:シルクハット
+insect jelly:インセクト・ジェリー
+advanced component:アドバンスド・コンポーネント
+
+shuttle:シャトル
+throne:王座
+mech drop beacon:メック・ドロップ・ビーコン
+psychic silencer:サイキック・サイレンサー
+psychic amplifier:サイキック・アンプリファイア
+sun blocker:サン・ブロッカー
+smoke spewer:スモーク・スペワー
+toxic spewer:トキシック・スペワー
+weather controller:ウェザー・コントローラ
+climate adjuster:クライメイト・アジャスター
+psychic droner:サイキック・ドロナー
+psychic suppressor:サイキック・サプレッサー
+EMI dynamo:EMIダイナモ
+

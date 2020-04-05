@@ -1,0 +1,58 @@
+﻿{Empire_Common_Lodger
+	label:[[imperial citizen??_{imperial}_市民]]
+}
+{Empire_Common_Trader
+	label:_[imperial trader]_
+}
+{Empire_Fighter_Trooper
+	label:_[trooper]_
+}
+{Empire_Fighter_Janissary
+	label:_[janissary]_
+}
+{Empire_Fighter_Champion
+	label:<<champion??チャンピオン>>
+}
+{Empire_Fighter_Cataphract
+	label:_[cataphract]_
+}
+{Empire_Fighter_StellicGuardRanged
+	label:<<stellic defender??ステリック・ディフェンダー>>
+}
+{Empire_Fighter_StellicGuardMelee
+	label:<<stellic warden??ステリック・ワーデン>>
+}
+{Empire_Royal_NobleWimp
+	label:<<noble??貴族>>
+}
+{Empire_Royal_Yeoman
+	label:_[yeoman]_
+}
+{Empire_Royal_Esquire
+	label:_[esquire]_
+}
+{Empire_Royal_Knight
+	label:_[knight]_
+	labelFemale:_[dame]_
+}
+{Empire_Royal_Praetor
+	label:_[praetor]_
+}
+{Empire_Royal_Baron
+	label:_[baron]_
+	labelFemale:_[baroness]_
+}
+{Empire_Royal_Count
+	label:_[count]_
+	labelFemale:_[countess]_
+}
+{Empire_Royal_Duke
+	label:_[duke]_
+	labelFemale:_[duchess]_
+}
+{Empire_Royal_Consul
+	label:_[consul]_
+}
+{Empire_Royal_Stellarch
+	label:_[stellarch]_
+}

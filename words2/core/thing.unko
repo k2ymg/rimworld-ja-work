@@ -1,0 +1,511 @@
+psychite:サイカイト
+psychoid:サイコイド
+smokeleaf:スモークリーフ
+joint:ジョイント
+;packing spot:荷造り地点
+
+tailor bench:裁縫台
+;nutrient dispenser:栄養供給機
+research bench:研究台
+;sculptor's table:彫刻台
+;ship part (psychic):船の一部 (サイキック)
+;ship part (poison):船の一部 (毒)
+;neurotrainer mech serum:_{neurotrainer}_・メック・シーラム
+hop:ホップ
+sculpture:彫像
+power armor:パワー・アーマー
+
+beer:ビール
+wort:麦汁
+ambrosia:アンブロージア
+go-juice:ゴージュース
+luciferium:ルシフェリウム
+penoxycyline:ペノキシリン
+flake:フレーク
+psychite tea:_{psychite}_・ティー
+yayo:イェイョ
+smokeleaf joint:_{smokeleaf}_・_{joint}_
+wake-up:ウェイクアップ
+archotech eye:アーコテック・アイ
+archotech arm:アーコテック・アーム
+archotech leg:アーコテック・レッグ
+bionic eye:バイオニック・アイ
+bionic arm:バイオニック・アーム
+bionic leg:バイオニック・レッグ
+bionic spine:バイオニック・スパイン
+bionic heart:バイオニック・ハート
+bionic stomach:バイオニック・ストマック
+death acidifier:デス・アシディフィアー
+bionic ear:バイオニック・イアー
+;heart -> body
+;lung -> body
+;kidney -> body
+;liver -> body
+prosthetic leg:義足
+prosthetic arm:義手
+prosthetic heart:人工心臓
+cochlear implant:人工内耳
+power claw:パワー・クロウ
+joywire:ジョイワイヤー
+painstopper:ペインストッパー
+ancient concrete barrier:古代の道路壁
+ancient lamppost:古代の照明灯
+urn:壺
+small sculpture:小さな_{sculpture}_
+large sculpture:大きな_{sculpture}_
+grand sculpture:堂々たる_{sculpture}_
+snowman:雪だるま
+ship part (psychic droner):船の一部 (サイキック・ドロナー)
+ship part (defoliator):船の一部 (枯れ葉)
+ship chunk:船の残骸
+sleeping spot:寝床
+double sleeping spot:二人用寝床
+bed:ベッド
+double bed:二人用ベッド
+royal bed:豪華なベッド
+hospital bed:病院用ベッド
+bedroll:携帯寝具
+double bedroll:二人用携帯寝具
+animal sleeping spot:動物用寝床
+animal sleeping box:動物用寝床
+animal bed:動物用ベッド
+stool:腰掛け
+dining chair:ダイニング・チェア
+armchair:アームチェア
+end table:エンド・テーブル
+table (1x2):テーブル (1x2)
+table (2x2):テーブル (2x2)
+table (2x4):テーブル (2x4)
+table (3x3):テーブル (3x3)
+plant pot:植木鉢
+torch lamp:たいまつ
+standing lamp:スタンディング・ランプ
+standing lamp (red):_{standing lamp}_ (赤)
+standing lamp (green):_{standing lamp}_ (緑)
+standing lamp (blue):_{standing lamp}_ (青)
+sun lamp:太陽灯
+shelf:棚
+dresser:ドレッサー
+horseshoes:ホースシューズ
+horseshoes pin:_{horseshoes}_・ピン
+hoopstone:フープストーン
+hoopstone ring:_{hoopstone}_・リング
+game of Ur:ゲーム・オブ・ウル
+game-of-Ur board:_{game of Ur}_盤
+chess:チェス
+chess table:_{chess}_盤
+poker:ポーカー
+poker table:_{poker}_台
+billiards:ビリヤード
+;billiard table:ビリヤード台
+billiards table:_{billiards}_台
+television:テレビ
+tube television:ブラウン管_{television}_
+flatscreen television:薄型_{television}_
+megascreen television:大画面_{television}_
+telescope:望遠鏡
+orbital trade beacon:軌道交易ビーコン
+;comms console -> common
+firefoam popper:消火装置
+moisture pump:モイスチャー・ポンプ
+ground-penetrating scanner:地下資源探知機
+long-range mineral scanner:長距離鉱物探知機
+pod launcher:ポッド射出機
+;transport pod -> common
+multi-analyzer:マルチ・アナライザー
+vitals monitor:バイタル・モニター
+tool cabinet:ツール・キャビネット
+grave:墓
+sarcophagus:サルコファガス
+;cryptosleep:クリプトスリープ
+;cryptosleep casket -> common
+ancient cryptosleep casket:古代の_{cryptosleep casket}_
+marriage spot:結婚式開催地点
+party spot:_{party}_開催地点
+caravan packing spot:キャラバン荷造り地点
+large stele:大きな石碑
+grand stele:巨大な石碑
+collapsed rocks:崩落した岩
+compacted steel:潰れた_{steel}_
+silver ore:銀鉱石
+gold ore:金鉱石
+uranium ore:ウラン鉱石
+compacted plasteel:潰れた_{plasteel}_
+jade:ヒスイ
+compacted machinery:潰れた機械
+steam geyser:蒸気間欠泉
+hive:巣
+glow pod:グロウ・ポッド
+raised rocks:持ち上がった岩
+power conduit:電線管
+waterproof conduit:防水管
+power switch:電源スイッチ
+wood-fired generator:木材火力発電機
+chemfuel powered generator:科学燃料発電機
+wind generator:風力発電機
+wind turbine:風力発電機
+battery:蓄電池
+solar panel:太陽光パネル
+solar generator:太陽光発電機
+geothermal generator:地熱発電機
+watermill generator:水力発電機
+;crafting spot -> common
+butcher spot:解体場
+art bench:芸術台
+butcher table:解体台
+hand tailor bench:手動式_{tailor bench}_
+electric tailor bench:電動式_{tailor bench}_
+fueled smithy:燃料式_{smithy}_
+electric smithy:電動式_{smithy}_
+machining table:機械加工台
+electric stove:電気式コンロ
+fueled stove:燃料式コンロ
+stonecutter's table:石切台
+brewery:醸造台
+drug lab:ドラッグ・ラボ
+electric smelter:電気炉
+biofuel refinery:バイオ燃料精製機
+fabrication bench:ファブリケーション・ベンチ
+simple research bench:簡易_{research bench}_
+hi-tech research bench:ハイテク_{research bench}_
+electric crematorium:電気火葬炉
+hydroponics basin:水耕栽培鉢
+fermenting barrel:発酵樽
+deep drill:ディープ・ドリル
+nutrient paste dispenser:栄養ペースト供給機
+hopper:ホッパー
+sandbags:土嚢
+barricade:バリケード
+spike trap:スパイク・トラップ
+IED trap:IEDトラップ
+IED incendiary trap:IED焼夷トラップ
+IED EMP trap:IED EMPトラップ
+IED firefoam trap:IED消化トラップ
+IED antigrain warhead trap:IED反物質弾頭トラップ
+mini-turret:小型ターレット
+mini-turret bullet:銃弾
+mini-turret gun:機関銃
+autocannon turret:機関砲ターレット
+autocannon shell:砲弾
+autocannon:機関砲
+uranium slug turret:ウラニウム・スラッグ・ターレット
+uranium slug:ウラニウム・スラッグ
+uranium slug cannon:ウラニウム・スラッグ・キャノン
+;mortar -> common
+ship structural beam:船体梁
+ship cryptosleep casket:シップ・クリプトスリープ・キャスケット
+ship computer core:シップ・コンピュータ・コア
+ship reactor:シップ・リアクター
+ship engine:シップ・エンジン
+sensor cluster:センサー・クラスター
+psychic emanator:サイキック・エマネイター
+vanometric power cell:ヴァノメトリック・パワー・セル
+infinite chemreactor:インフィニット・ケミリアクター
+door:ドア
+autodoor:自動ドア
+wall:壁
+column:柱
+campfire:たき火
+passive cooler:パッシブ・クーラー
+heater:ヒーター
+cooler:クーラー
+vent:ベント
+psychic insanity lance:サイキック・インサニティ・ランス
+psychic shock lance:サイキック・ショック・ランス
+psychic animal pulser:サイキック・アニマル・パルサー
+psychic soothe pulser:サイキック・スーズ・パルサー
+persona core:ペルソナ・コア
+healer mech serum:ヒーラー・メック・シーラム
+resurrector mech serum:リザレクター・メック・シーラム
+techprof subpersona core:テックプロフ・サブペルソナ・コア
+thrumbo horn:_{thrumbo}_の_{horn}_
+elephant tusk:_{elephant}_の_{tusk}_
+packaged survival meal:サバイバル食
+nutrient paste meal:栄養ペースト食
+simple meal:簡単な食事
+fine meal:手の込んだ食事
+lavish meal:豪華な食事
+kibble:キブル
+pemmican:ペミカン
+chocolate:チョコレート
+milk:ミルク
+;insect jelly -> common
+chicken egg (fert.):_{chicken}_の卵 (_{fert}_)
+chicken egg (unfert.):_{chicken}_の卵 (_{unfert}_)
+cobra egg (fert.):_{cobra}_の卵 (_{fert}_)
+iguana egg (fert.):_{iguana}_の卵 (_{fert}_)
+tortoise egg (fert.):_{tortoise}_の卵 (_{fert}_)
+cassowary egg (fert.):_{cassowary}_の卵 (_{fert}_)
+emu egg (fert.):_{emu}_の卵 (_{fert}_)
+ostrich egg (fert.):_{ostrich}_の卵 (_{fert}_)
+turkey egg (fert.):_{turkey}_の卵 (_{fert}_)
+duck egg (unfert.):_{duck}_の卵 (_{unfert}_)
+duck egg (fert.):_{duck}_の卵 (_{fert}_)
+goose egg (unfert.):_{goose}_の卵 (_{unfert}_)
+goose egg (fert.):_{goose}_の卵 (_{fert}_)
+herbal medicine:薬草
+medicine:メディシン
+glitterworld medicine:_{glitterworld}_・_{medicine}_
+component:コンポーネント
+;advanced component -> common
+neutroamine:ニュートロアミン
+chemfuel:科学燃料
+potatoes:ジャガイモ
+raw fungus:ロウ・フングス
+rice:コメ
+agave fruit:アガベ・フルーツ
+corn:コーン
+berries:ベリー
+hay:牧草
+hops:_{hop}_
+psychoid leaves:_{psychoid}_の葉
+smokeleaf leaves:_{smokeleaf}_の葉
+high-explosive shell:ハイ・エクスプローシブ・シェル
+incendiary shell:インセンディアリ・シェル
+EMP shell:EMPシェル
+firefoam shell:ファイアフォーム・シェル
+antigrain warhead:アンチグレイン・ウォーヘッド
+silver:銀
+gold:金
+steel:鋼鉄
+wood:木材
+uranium:ウラン
+cloth:布
+synthread:シンスレッド
+devilstrand:デビルストランド
+hyperweave:ハイパーウィーブ
+megasloth wool:_{megasloth}_の毛
+muffalo wool:_{muffalo}_の毛
+alpaca wool:_{alpaca}_の毛
+bison wool:_{bison}_の毛
+sheep wool:_{sheep}_の毛
+plainleather:革
+dog leather:イヌの革
+wolfskin:オオカミの皮
+panthera fur:_{panther}_の毛皮
+camelhide:_{camel}_の皮
+bluefur:青い毛皮
+bearskin:クマの皮
+guinea pig fur:_{guinea pig}_ の毛皮
+human leather:人間の皮
+pigskin:ブタの皮
+lightleather:軽い革
+birdskin:トリの皮
+chinchilla fur:_{chinchilla}_の毛皮
+foxfur:キツネの毛皮
+lizardskin:爬虫類の皮
+elephant leather:_{elephant}_の革
+heavy fur:頑丈な毛皮
+rhinoceros leather:_{rhinoceros}_の革
+thrumbofur:_{thrumbo}_の毛皮
+patchleather:パッチレザー
+unfinished sculpture:未完成の_[sculpture]_
+unfinished gun:未完成の銃
+unfinished weapon:未完成の武器
+unfinished armor:未完成の鎧
+unfinished apparel:未完成の衣服
+unfinished belt:未完成のベルト
+unfinished component:未完成の_[component]_
+minified thing:minified thing
+shield belt:シールド・ベルト
+smokepop belt:スモークポップ・ベルト
+cowboy hat:カウボーイ・ハット
+bowler hat:ボーラー・ハット
+tribal headdress:トライバル・ヘッドドレス
+tuque:チューク
+war mask:ウォー・マスク
+war veil:ウォー・ベイル
+simple helmet:シンプル・ヘルメット
+;advanced helmet:アドバンスト・ヘルメット
+flak helmet:フラック・ヘルメット
+marine helmet:マーリン・ヘルメット
+recon helmet:レコン・ヘルメット
+psychic foil helmet:サイキック・ホイル・ヘルメット
+tribalwear:トライバルウェア
+parka:パーカー
+pants:パンツ
+T-shirt:Tシャツ
+button-down shirt:ボタンダウン・シャツ
+duster:ダスター
+jacket:ジャケット
+plate armor:プレート・アーマー
+flak vest:フラック・ベスト
+flak pants:フラック・パンツ
+flak jacket:フラック・ジャケット
+marine armor:マーリン・アーマー
+recon armor:レコン・アーマー
+bombardment:爆撃
+power beam:パワー・ビーム
+;drop pod -> common
+blight:疫病
+tornado:竜巻
+;dirt:埃
+animal filth:動物の汚れ
+trash:ゴミ
+;sand:砂
+rock rubble:石ころ
+building rubble:建物くず
+scattered slag:鉄くず
+scattered sandbags:_<sandbags>_くず
+blood:血
+bugblood:虫の体液
+machine bits:機械くず
+amniotic fluid:羊水
+slime:ぬめり
+vomit:ゲロ
+firefoam:消火泡
+chemfuel puddle:燃料溜まり
+corpse bile:死体の体液
+ash:灰
+steel slag chunk:鉄くずの塊
+smoothed sandstone:滑らかな_{sandstone}_
+sandstone chunk:_{sandstone}_の塊
+sandstone blocks:_{sandstone}_のブロック
+smoothed granite:滑らかな_{granite}_
+granite chunk:_{granite}_の塊
+granite blocks:_{granite}_のブロック
+smoothed limestone:滑らかな_{limestone}_
+limestone chunk:_{limestone}_の塊
+limestone blocks:_{limestone}_のブロック
+smoothed slate:滑らかな_{slate}_
+slate chunk:_{slate}_の塊
+slate blocks:_{slate}_のブロック
+smoothed marble:滑らかな_{marble}_
+marble chunk:_{marble}_の塊
+marble blocks:_{marble}_のブロック
+mace:メイス
+gladius:グラディウス
+longsword:ロング・ソード
+club:クラブ
+knife:ナイフ
+ikwa:イクワ
+spear:スピア
+
+revolver bullet:銃弾
+revolver:リボルバー
+autopistol:オートピストル
+autopistol bullet:銃弾
+machine pistol:マシンピストル
+machine pistol bullet:銃弾
+incendiary launcher:焼夷弾投射器
+incendiary bolt:焼夷弾
+smoke launcher:スモーク・ランチャー
+smoke shell:スモーク・シェル
+smoke launcher shell:スモーク・ランチャー・シェル
+EMP launcher:EMP・ランチャー
+EMP launcher shell:EMP・ランチャー・シェル
+bolt-action rifle:ボルトアクション・ライフル
+bolt-action rifle bullet:銃弾
+pump shotgun:ポンプ・ショットガン
+shotgun blast:散弾
+chain shotgun:チェイン・ショットガン
+heavy SMG:ヘビーSMG
+heavy SMG bullet:銃弾
+LMG:ライトマシンガン
+LMG bullet:銃弾
+assault rifle:アサルト・ライフル
+assault rifle bullet:銃弾
+sniper rifle:スナイパー・ライフル
+sniper rifle bullet:銃弾
+minigun:ミニガン
+minigun bullet:銃弾
+triple rocket launcher:トリプル・ロケット・ランチャー
+rocket:ロケット
+doomsday rocket launcher:ドゥームズデイ・ロケット・ランチャー
+doomsday rocket:ドゥームズデイ・ロケット
+frag grenade:手榴弾
+molotov cocktail:火炎瓶
+molotov:火炎瓶
+EMP grenade:EMPグレネード
+EMP grenades:_<EMP grenade>_
+charge blaster shot:チャージ・ブラスター・ショット
+;heavy charge blaster -> common
+inferno cannon shell:インフェルノ・キャノン・シェル
+;inferno cannon -> common
+needle gun:ニードル・ガン
+needle shot:ニードル・ショット
+shortbow arrow:矢
+short bow:ショート・ボウ
+pila:投げ槍
+pilum:投げ槍
+recurve bow:リカーブ・ボウ
+recurve bow arrow:矢
+greatbow:グレート・ボウ
+greatbow arrow:矢
+charge rifle:チャージ・ライフル
+charge shot:チャージ・ショット
+charge lance:チャージ・ランス
+charge lance shot:チャージ・ランス・ショット
+orbital bombardment targeter:軌道爆撃照準器
+orbital power beam targeter:軌道パワー・ビーム照準器
+tornado generator:竜巻発生器
+glowstool:グロウスツール
+agarilux:アガリラックス
+bryolux:ブライオラックス
+rose:バラ
+daylily:デイリリー
+rice plant:_{rice}_
+potato plant:ジャガイモ
+corn plant:トウモロコシ
+strawberry plant:ストロベリー
+haygrass:牧草
+cotton plant:コットン
+healroot:ヒールルート
+hop plant:_{hop}_
+smokeleaf plant:_{smokeleaf}_
+psychoid plant:_{psychoid}_
+cocoa:ココア
+cocoa tree:_{cocoa}_
+burned tree:燃えた樹木
+ambrosia bush:_{ambrosia}_
+agave:アガベ
+pincushion cactus:ピンクッション・カクタス
+saguaro cactus:サウガロ・カクタス
+drago tree:ドラゴ・ツリー
+grass:草
+tall grass:背の高い草
+bush:灌木
+brambles:ブランブル
+wild healroot:野生の_<healroot>_
+willow:ヤナギ
+willow tree:_{willow}_
+cypress tree:イトスギ
+maple:メープル
+maple tree:_{maple}_
+chokevine:チョークパイン
+dandelions:タンポポ
+astragalus:レンゲソウ
+moss:コケ
+berry bush:ベリー・ブッシュ
+oak:オーク
+oak tree:_{oak}_
+poplar:ポプラ
+poplar tree:_{poplar}_
+pine:パイン
+pine tree:_{pine}_
+birch:シラカバ
+birch tree:_{birch}_
+low shrubs:やぶ
+alocasia:アロカシア
+clivia:クリビア
+giant rafflesia:ジャイアント・ラフレシア
+teak:チーク
+teak tree:_{teak}_
+cecropia:セクロピア
+cecropia tree:_{cecropia}_
+palm:ヤシ
+palm tree:_{palm}_
+
+;camelhair:_{camel}_の毛
+;yak wool:_{yak}_の毛
+cobra meat:コブラの肉
+fox meat:キツネの肉
+wolf meat:オオカミの肉
+bear meat:クマの肉
+beef:牛肉
+pork:豚肉
+bird meat:トリの肉
+venison:シカ肉
+insect meat:虫の肉
+horse meat:馬肉
+yak beef:ヤクの肉

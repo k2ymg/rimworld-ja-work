@@ -1,0 +1,18 @@
+﻿{TradeSettlement
+	label:<<trade with settlements??_{settlement}_と取引>>
+}
+{TradeOrbital
+	label:<<trade with orbital traders??軌道交易商と取引>>
+}
+{TradeCaravan
+	label:<<trade with caravans??キャラバンと取引>>
+}
+{CallMilitaryAidSmall
+	label:<<call trooper squad??_[trooper]_ 部隊を要請>>
+}
+{CallMilitaryAidLarge
+	label:<<call janissary squad??_[janissary]_ 部隊を要請>>
+}
+{CallMilitaryAidGrand
+	label:<<call cataphract squad??_[cataphract]_ 部隊を要請>>
+}

@@ -1,0 +1,265 @@
+﻿{InstallPsychicSilencer
+	label:_[psychic silencer]_ の取り付け
+	description:_[psychic silencer]_ を取り付ける。
+	jobString:_[psychic silencer]_ を取り付けている。
+}
+{RemovePsychicSilencer
+	label:_[psychic silencer]_ の取り外し
+	description:_[psychic silencer]_ を取り外す。
+	jobString:_[psychic silencer]_ を取り外している。
+}
+{InstallPsychicSensitizer
+	label:_[psychic sensitizer]_ の取り付け
+	description:_[psychic sensitizer]_ を取り付ける。
+	jobString:_[psychic sensitizer]_ を取り付けている。
+}
+{RemovePsychicSensitizer
+	label:_[psychic sensitizer]_ の取り外し
+	description:_[psychic sensitizer]_ を取り外す。
+	jobString:_[psychic sensitizer]_ を取り外している。
+}
+{InstallPsychicHarmonizer
+	label:_[psychic harmonizer]_ の取り付け
+	description:_[psychic harmonizer]_ を取り付ける。
+	jobString:_[psychic harmonizer]_ を取り付けている。
+}
+{RemovePsychicHarmonizer
+	label:_[psychic harmonizer]_ の取り外し
+	description:_[psychic harmonizer]_ を取り外す。
+	jobString:_[psychic harmonizer]_ を取り外している。
+}
+{InstallPsychicReader
+	label:_[psychic reader]_ の取り付け
+	description:_[psychic reader]_ を取り付ける。
+	jobString:_[psychic reader]_ を取り付けている。
+}
+{RemovePsychicReader
+	label:_[psychic reader]_ の取り外し
+	description:_[psychic reader]_ を取り外す。
+	jobString:_[psychic reader]_ を取り外している。
+}
+{DowngradePsychicAmplifier
+	label:_[psychic amplifier]_ の取り出し
+	description:脳から _[psychic amplifier]_ モジュールを一つ取り出す。\n\nこの繊細な脳外科手術は高確率で失敗する。必要で無い限り、また、高品質な設備がなければ試すべきではない。\n\nもし _[psychic amplifier]_ のレベルが1なら、完全に取り除かれる。それ以外の場合、1つダウングレードされる。取り出された _[psychic amplifier]_ は後でまた取り付けられる。
+	jobString:_[psychic amplifier]_ を取り出している。
+}
+{InstallNeurocalculator
+	label:_[neurocalculator]_ の取り付け
+	description:_[neurocalculator]_ を取り付ける。
+	jobString:_[neurocalculator]_ を取り付けている。
+}
+{RemoveNeurocalculator
+	label:_[neurocalculator]_ の取り外し
+	description:_[neurocalculator]_ を取り外す。
+	jobString:_[neurocalculator]_ を取り外している。
+}
+{InstallLearningAssistant
+	label:_[learning assistant]_ の取り付け
+	description:_[learning assistant]_ を取り付ける。
+	jobString:_[learning assistant]_ を取り付けている。
+}
+{RemoveLearningAssistant
+	label:_[learning assistant]_ の取り外し
+	description:_[learning assistant]_ を取り外す。
+	jobString:_[learning assistant]_ を取り外している。
+}
+{InstallGastroAnalyzer
+	label:_[gastro-analyzer]_ の取り付け
+	description:_[gastro-analyzer]_ を取り付ける。
+	jobString:_[gastro-analyzer]_ を取り付けている。
+}
+{RemoveGastroAnalyzer
+	label:_[gastro-analyzer]_ の取り外し
+	description:_[gastro-analyzer]_ を取り外す。
+	jobString:_[gastro-analyzer]_ を取り外している。
+}
+{InstallImmunoenhancer
+	label:_[immunoenhancer]_ の取り付け
+	description:_[immunoenhancer]_ を取り付ける。
+	jobString:_[immunoenhancer]_ を取り付けている。
+}
+{RemoveImmunoenhancer
+	label:_[immunoenhancer]_ の取り外し
+	description:_[immunoenhancer]_ を取り外す。
+	jobString:_[immunoenhancer]_ を取り外している。
+}
+{InstallCoagulator
+	label:_[coagulator]_ の取り付け
+	description:_[coagulator]_ を取り付ける。
+	jobString:_[coagulator]_ を取り付けている。
+}
+{RemoveCoagulator
+	label:_[coagulator]_ の取り外し
+	description:_[coagulator]_ を取り外す。
+	jobString:_[coagulator]_ を取り外している。
+}
+{InstallHealingEnhancer
+	label:_[healing enhancer]_ の取り付け
+	description:_[healing enhancer]_ を取り付ける。
+	jobString:_[healing enhancer]_ を取り付けている。
+}
+{RemoveHealingEnhancer
+	label:_[healing enhancer]_ の取り外し
+	description:_[healing enhancer]_ を取り外す。
+	jobString:_[healing enhancer]_ を取り外している。
+}
+{InstallToughskinGland
+	label:_[toughskin gland]_ の取り付け
+	description:_[toughskin gland]_ を取り付ける。
+	jobString:_[toughskin gland]_ を取り付けている。
+}
+{RemoveToughskinGland
+	label:_[toughskin gland]_ の取り外し
+	description:_[toughskin gland]_ を取り外す。
+	jobString:_[toughskin gland]_ を取り外している。
+}
+{InstallArmorskinGland
+	label:_[armorskin gland]_ の取り付け
+	description:_[armorskin gland]_ を取り付ける。
+	jobString:_[armorskin gland]_ を取り付けている。
+}
+{RemoveArmorskinGland
+	label:_[armorskin gland]_ の取り外し
+	description:_[armorskin gland]_ を取り外す。
+	jobString:_[armorskin gland]_ を取り外している。
+}
+{InstallStoneskinGland
+	label:_[stoneskin gland]_ の取り付け
+	description:_[stoneskin gland]_ を取り付ける。
+	jobString:_[stoneskin gland]_ を取り付けている。
+}
+{RemoveStoneskinGland
+	label:_[stoneskin gland]_ の取り外し
+	description:_[stoneskin gland]_ を取り外す。
+	jobString:_[stoneskin gland]_ を取り外している。
+}
+{InstallAestheticShaper
+	label:_[aesthetic shaper]_ の取り付け
+	description:_[aesthetic shaper]_ を取り付ける。
+	jobString:_[aesthetic shaper]_ を取り付けている。
+}
+{RemoveAestheticShaper
+	label:_[aesthetic shaper]_ の取り外し
+	description:_[aesthetic shaper]_ を取り外す。
+	jobString:_[aesthetic shaper]_ を取り外している。
+}
+{InstallAestheticNose
+	label:_[aesthetic nose]_ の取り付け
+	description:_[aesthetic nose]_ を取り付ける。
+	jobString:_[aesthetic nose]_ を取り付けている。
+}
+{RemoveAestheticNose
+	label:_[aesthetic nose]_ の取り外し
+	description:_[aesthetic nose]_ を取り外す。
+	jobString:_[aesthetic nose]_ を取り外している。
+}
+{InstallLoveEnhancer
+	label:_[love enhancer]_ の取り付け
+	description:_[love enhancer]_ を取り付ける。
+	jobString:_[love enhancer]_ を取り付けている。
+}
+{RemoveLoveEnhancer
+	label:_[love enhancer]_ の取り外し
+	description:_[love enhancer]_ を取り外す。
+	jobString:_[love enhancer]_ を取り外している。
+}
+{InstallDetoxifierStomach
+	label:_[detoxifier stomach]_ の取り付け
+	description:_[detoxifier stomach]_ を取り付ける。
+	jobString:_[detoxifier stomach]_ を取り付けている。
+}
+{InstallReprocessorStomach
+	label:_[reprocessor stomach]_ の取り付け
+	description:_[reprocessor stomach]_ を取り付ける。
+	jobString:_[reprocessor stomach]_ を取り付けている。
+}
+{InstallNuclearStomach
+	label:_[nuclear stomach]_ の取り付け
+	description:_[nuclear stomach]_ を取り付ける。
+	jobString:_[nuclear stomach]_ を取り付けている。
+}
+{InstallCircadianAssistant
+	label:_[circadian assistant]_ の取り付け
+	description:_[circadian assistant]_ を取り付ける。
+	jobString:_[circadian assistant]_ を取り付けている。
+}
+{RemoveCircadianAssistant
+	label:_[circadian assistant]_ の取り外し
+	description:_[circadian assistant]_ を取り外す。
+	jobString:_[circadian assistant]_ を取り外している。
+}
+{InstallCircadianHalfCycler
+	label:_[circadian half-cycler]_ の取り付け
+	description:_[circadian half-cycler]_ を取り付ける。
+	jobString:_[circadian half-cycler]_ を取り付けている。
+}
+{RemoveCircadianHalfCycler
+	label:_[circadian half-cycler]_ の取り外し
+	description:_[circadian half-cycler]_ を取り外す。
+	jobString:_[circadian half-cycler]_ を取り外している。
+}
+{InstallMindscrew
+	label:_[mindscrew]_ の取り付け
+	description:_[mindscrew]_ を取り付ける。
+	jobString:_[mindscrew]_ を取り付けている。
+}
+{InstallDrillArm
+	label:_[drill arm]_ の取り付け
+	description:_[drill arm]_ を取り付ける。
+	jobString:_[drill arm]_ を取り付けている。
+}
+{InstallFieldHand
+	label:_[field hand]_ の取り付け
+	description:_[field hand]_ を取り付ける。
+	jobString:_[field hand]_ を取り付けている。
+}
+{InstallHandTalon
+	label:_[hand talon]_ の取り付け
+	description:_[hand talon]_ を取り付ける。
+	jobString:_[hand talon]_ を取り付けている。
+}
+{RemoveHandTalon
+	label:_[hand talon]_ の取り外し
+	description:_[hand talon]_ を取り外す。
+	jobString:_[hand talon]_ を取り外している。
+}
+{InstallElbowBlade
+	label:_[elbow blade]_ の取り付け
+	description:_[elbow blade]_ を取り付ける。
+	jobString:_[elbow blade]_ を取り付けている。
+}
+{RemoveElbowBlade
+	label:_[elbow blade]_ の取り外し
+	description:_[elbow blade]_ を取り外す。
+	jobString:_[elbow blade]_ を取り外している。
+}
+{InstallKneeSpike
+	label:_[knee spike]_ の取り付け
+	description:_[knee spike]_ を取り付ける。
+	jobString:_[knee spike]_ を取り付けている。
+}
+{RemoveKneeSpike
+	label:_[knee spike]_ の取り外し
+	description:_[knee spike]_ を取り外す。
+	jobString:_[knee spike]_ を取り外している。
+}
+{InstallVenomFangs
+	label:_[venom fangs]_ の取り付け
+	description:_[venom fangs]_ を取り付ける。
+	jobString:_[venom fangs]_ を取り付けている。
+}
+{RemoveVenomFangs
+	label:remove venom fangs
+	description:_[venom fangs]_ を取り外す。
+	jobString:_[venom fangs]_ を取り外している。
+}
+{InstallVenomTalon
+	label:_[venom talon]_ の取り付け
+	description:_[venom talon]_ を取り付ける。
+	jobString:_[venom talon]_ を取り付けている。
+}
+{RemoveVenomTalon
+	label:_[venom talon]_ の取り外し
+	description:_[venom talon]_ を取り外す。
+	jobString:_[venom talon]_ を取り外している。
+}

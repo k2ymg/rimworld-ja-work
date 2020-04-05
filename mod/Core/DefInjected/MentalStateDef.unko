@@ -1,0 +1,141 @@
+﻿{Berserk
+	label:<<berserk??狂暴化>>
+	beginLetter:{0} が狂暴化した。見かけた者を手当たり次第に攻撃する。
+	recoveryMessage:{0} の怒りは終わりを迎えた。
+	baseInspectLine:<<Mental state: Berserk??精神状態: 狂暴化>>
+}
+{FireStartingSpree
+	label:<<fire starting spree??放火魔>>
+	beginLetter:{0} がふざけて放火し始めた。あちこちうろついて適当に火を放つ。
+	recoveryMessage:{0} はもう放火していない。
+	baseInspectLine:<<Mental state: Fire starting spree??精神状態: 放火魔>>
+}
+{%Binging_DrugExtreme
+	label:<<binging on drug??薬物中毒>>
+	baseInspectLine:<<Mental state: Binging on {0}??精神状態: {0} 薬物中毒>>
+}
+{Jailbreaker
+	label:<<inducing prisoner to escape??脱走のススメ>>
+	recoveryMessage:{0} はもうそそのかしていない。
+	beginLetterLabel:<<jailbreaker??脱獄扇動者>>
+	beginLetter:{0} が_{mental break}_になり、_{prisoner}_に脱走をそそのかしている。
+	baseInspectLine:<<Mental state: Jailbreaker??精神状態: 脱獄扇動者>>
+}
+{Slaughterer
+	label:<<slaughterer??屠殺者>>
+	recoveryMessage:{0} は動物を手当たり次第に屠殺するのを止めた。
+	beginLetter:{0} が_{mental break}_になり、怒りのはけ口を動物に向けようとしている。
+	baseInspectLine:<<Mental state: Slaughterer??精神状態: 屠殺者>>
+}
+{MurderousRage
+	label:<<murderous rage??殺意>>
+	recoveryMessage:{0} の殺意は収まった。
+	beginLetter:{0} がカッと殺意を抱き、{1} を殺そうとしている。
+	baseInspectLine:<<Mental state: Murderous rage??精神状態: 殺意>>
+}
+{GiveUpExit
+	label:<<giving up and leaving??諦めて離脱>>
+	beginLetterLabel:<<gave up??諦め>>
+	beginLetter:{0} がこの集団に愛想を尽かした。ここから離れてより良い生活を求める事にした。ここから離れたとして捕まえる事もできる。それか、またいつか会える日が来るかもしれない。
+	recoveryMessage:{0} は心変わりして_{colony}_に戻ってきている。
+	baseInspectLine:<<Mental state: Given up and leaving??精神状態: 諦めて離脱>>
+}
+{Binging_DrugMajor
+	$:Binging_DrugExtreme
+}
+{%Wander_Psychotic
+	label:<<wandering in psychosis??精神異常による徘徊>>
+	recoveryMessage:{0} はもう徘徊していない。
+	beginLetterLabel:<<daze??目眩い>>
+	beginLetter:{0} が精神異常により辺りを徘徊している。
+	baseInspectLine:<<Mental state: Psychotic wandering??精神状態: 精神異常による徘徊>>
+}
+{Wander_Psychotic_Short
+	$:Wander_Psychotic
+}
+{%Tantrum
+	label:<<tantrum??癇癪>>
+	recoveryMessage:{0} の癇癪は収まった。
+	beginLetter:{0} が癇癪を起こしている。適当な家具やアイテムや物を壊す。
+	baseInspectLine:<<Mental state: Tantrum??精神状態: 癇癪>>
+}
+{TargetedTantrum
+	beginLetter:{0} が癇癪を起こして、{1} を壊そうとしている。
+	$:Tantrum
+}
+{BedroomTantrum
+	beginLetter:{0} が癇癪を起こして自分の部屋にある物を壊そうとしている。
+	$:Tantrum
+}
+{SadisticRage
+	label:<<sadistic rage??嗜虐的激情>>
+	recoveryMessage:{0} の嗜虐的な激情は収まった。
+	beginLetter:{0} がカッと嗜虐的な激情に駆られて、怒りのはけ口を_{prisoner}_に向けようとしている。
+	baseInspectLine:<<Mental state: Sadistic rage??精神状態: 嗜虐的激情>>
+	$:Tantrum
+}
+{CorpseObsession
+	label:<<corpse obsession??死体への執着>>
+	recoveryMessage:{0} は死体に執着しなくなった。
+	beginLetter:{0} が生きる気力を失い、死体に執着するようになった。\n\n死体を掘り起こして皆に見せようとしている。
+	baseInspectLine:<<Mental state: Corpse obsession??精神状態: 死体への執着>>
+}
+{Binging_Food
+	label:<<binging on food??食べ過ぎ>>
+	beginLetterLabel:<<food binge??過食>>
+	beginLetter:{0} がガツガツ食べ始めた。
+	recoveryMessage:{0} はもうガツガツ食べていない。
+	baseInspectLine:<<Mental state: Pigging out??精神状態: 過食>>
+}
+{Wander_Sad
+	label:<<sad wandering??悲観による徘徊>>
+	beginLetterLabel:<<sad wander??悲観による徘徊>>
+	beginLetter:{0} が悲しみに打ちひしがれ、辺りを彷徨っている。
+	recoveryMessage:{0} はもう彷徨っていない。
+	baseInspectLine:<<Mental state: Sad wandering??精神状態: 悲観による徘徊>>
+}
+{Wander_OwnRoom
+	label:<<sitting alone??ひきこもり>>
+	beginLetterLabel:<<hide in room??ひきこもり>>
+	beginLetter:{0} が自分の部屋に隠れている。
+	recoveryMessage:{0} はもう部屋に隠れていない。
+	baseInspectLine:<<Mental state: Hiding in room??精神状態: ひきこもり>>
+}
+{%InsultingSpree
+	label:<<insulting spree??暴言>>
+	beginLetter:{0} が暴言を繰り返している。辺りをふらつきながら他人に暴言を吐きまくる。
+	recoveryMessage:{0} は暴言をやめた。
+	baseInspectLine:<<Mental state: Insulting spree??精神状態: 暴言>>
+}
+{TargetedInsultingSpree
+	beginLetter:{0} が激情を {1} へ向けた。{1} に付きまとい、暴言を浴びせる。
+	baseInspectLine:<<Mental state: Insulting spree against {0}??精神状態: {0} への暴言>>
+	$:InsultingSpree
+}
+{WanderConfused
+	label:<<confused wandering??混乱による徘徊>>
+	beginLetterLabel:<<confusion??混乱>>
+	beginLetter:{0} が衰弱により混乱して辺りを徘徊している。
+	recoveryMessage:{0} の混乱は収まった。
+	baseInspectLine:<<Mental state: Confused and wandering??精神状態: 混乱して徘徊>>
+}
+{PanicFlee
+	label:<<panic fleeing??パニック逃走>>
+	beginLetterLabel:<<flee??逃走>>
+	beginLetter:{0} がパニックになって逃げだした。
+	recoveryMessage:{0} のパニックは収まった。
+	baseInspectLine:<<Mental state: Fleeing in panic??精神状態: パニックにより逃走>>
+}
+{%Manhunter
+	label:<<manhunter??殺人鬼>>
+	beginLetter:{0} が殺人鬼になった！
+	recoveryMessage:{0} の殺人衝動は終わりを迎えた。
+	baseInspectLine:<<Maddened: Manhunter??発狂: 殺人鬼>>
+}
+{ManhunterPermanent
+	$:Manhunter
+}
+{SocialFighting
+	label:<<social fighting??ケンカ>>
+	baseInspectLine:<<Mental state: Social fighting??精神状態: ケンカ>>
+}

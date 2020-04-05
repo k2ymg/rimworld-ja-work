@@ -1,0 +1,233 @@
+﻿{Ambush
+	label:<<ambush??待ち伏せ>>
+	letterText:{0} が {2} の {1} に待ち伏せされた！
+	letterLabel:キャラバン 待ち伏せ
+}
+{ManhunterAmbush
+	label:<<manhunter ambush??人狩り待ち伏せ>>
+	letterText:{0} が人狩り {1} に待ち伏せされた！
+	letterLabel:キャラバン 待ち伏せ (人狩り)
+}
+{CaravanMeeting
+	label:<<caravan meeting??キャラバンとの遭遇>>
+}
+{CaravanDemand
+	label:<<payment demand??カツあげ>>
+}
+{$DiseaseIncident
+	letterText:{0} 人の{1}が {2} を発症した。\n\n医療用ベッドと医者が用意されているか確認する。適切な治療を受けさせ、できる限りベッドで過ごさせる。\n\n以下の {1} が病気になった:\n\n{3}
+}
+{Disease_Flu
+	label:_<flu>_
+	letterLabel:_<Disease>_: _<Flu>_
+	$:DiseaseIncident
+}
+{Disease_Plague
+	label:_<plague>_
+	letterLabel:_<Disease>_: _<Plague>_
+	$:DiseaseIncident
+}
+{Disease_Malaria
+	label:_<malaria>_
+	letterLabel:_<Disease>_: _<Malaria>_
+	$:DiseaseIncident
+}
+{Disease_SleepingSickness
+	label:_<sleeping sickness>_
+	letterLabel:_<Disease>_: _<Sleeping sickness>_
+	$:DiseaseIncident
+}
+{Disease_FibrousMechanites
+	label:_<fibrous mechanites>_
+	letterLabel:_<Disease>_: _<Fibrous mechanites>_
+	$:DiseaseIncident
+}
+{Disease_SensoryMechanites
+	label:_<sensory mechanites>_
+	letterLabel:_<Disease>_: _<Sensory mechanites>_
+	$:DiseaseIncident
+}
+{Disease_GutWorms
+	label:_<gut worms>_
+	letterLabel:_<Disease>_: _<Gut worms>_
+	$:DiseaseIncident
+}
+{Disease_MuscleParasites
+	label:_<muscle parasites>_
+	letterLabel:_<Disease>_: _<Muscle parasites>_
+	$:DiseaseIncident
+}
+{$DiseaseAnimalIncident
+	letterText:{0} 匹の動物が {2} を発症した。\n\n適切な治療を受けさせ、できる限り休ませる。\n\n以下の動物が病気になった:\n\n{3}
+	$:DiseaseIncident
+}
+{Disease_AnimalFlu
+	label:_<flu>_ (_<animals>_)
+	letterLabel:_<Animal disease>_: _<Flu>_
+	$:DiseaseAnimalIncident
+}
+{Disease_AnimalPlague
+	label:_<plague>_ (_<animals>_)
+	letterLabel:_<Animal disease>_: _<Plague>_
+	$:DiseaseAnimalIncident
+}
+{ResourcePodCrash
+	label:_<resource pod crash>_
+}
+{PsychicSoothe
+	label:_[psychic soothe]_
+}
+{SelfTame
+	label:_<self-tame>_
+}
+{AmbrosiaSprout
+	label:_<ambrosia sprout>_
+	letterLabel:_<Ambrosia sprout>_
+	letterText:近くの林で不思議な_[Ambrosia]_が発芽した！成長するまで待てば、美味しくて、大満足な、少し中毒性がある果物を収穫できる。
+}
+{FarmAnimalsWanderIn
+	label:<<farm animals wander in??迷い込んだ家畜>>
+}
+{WandererJoin
+	label:[[wanderer join??放浪者の加入]]
+	letterLabel:[[Wanderer joins: {PAWN_nameDef}??放浪者の加入: {PAWN_nameDef}]]
+	letterText:{PAWN_nameDef} という名の {PAWN_title} がやってきて、_{colony}_に加わった。\n\n{PAWN_pronoun}は協力的だが、自発的に出て行くことはない。邪魔なら追放する、奴隷として売る、または単に殺すなど出来る。しかし、他の_{colonist}_はその騒動に気付くだろう。
+}
+{RefugeePodCrash
+	label:<<transport pod crash??_[transport pod]_ 墜落>>
+}
+{ThrumboPasses
+	label:<<thrumbos pass??_[thrumbo]_ の通過>>
+}
+{RansomDemand
+	label:<<ransom demand??身代金要求>>
+	letterLabel:<<Ransom demand??身代金要求>>
+}
+{MeteoriteImpact
+	label:<<meteorite impact??隕石衝突>>
+	letterLabel:<<Meteorite??隕石>>
+	letterText:大きな隕石がこの地域に落下し、{0} の塊を残した。
+}
+{HerdMigration
+	label:<<herd migration??群れの移動>>
+	letterLabel:<<Animal migration: {0}??群れ移動: {0}>>
+	letterText:{0} の集団がこの地域を通過している。\n\n怒らせない限り攻撃してこない。
+}
+{WildManWandersIn
+	label:<<wild man wanders in??迷い込んだ野人>>
+	letterLabel:<<{PAWN_kind} wanders in??迷い込んだ {PAWN_kind}>>
+	letterText:野生動物と共に暮らしている人がここへ入り込んできた。{PAWN_pronoun}は {0} と名乗っている。\n\n{PAWN_objective}を手懐けるか_{arrest}_できる。
+}
+{PsychicDrone
+	label:_[psychic drone]_
+}
+{ToxicFallout
+	label:_[toxic fallout]_
+	letterLabel:_[Toxic fallout]_
+}
+{VolcanicWinter
+	label:_[volcanic winter]_
+	letterLabel:_[Volcanic winter]_
+}
+{HeatWave
+	label:_[heat wave]_
+	letterLabel:_[Heat wave]_
+}
+{ColdSnap
+	label:_[cold snap]_
+	letterLabel:_[Cold snap]_
+}
+{Flashstorm
+	label:_[flashstorm]_
+	letterLabel:_[Flashstorm]_
+}
+{ShortCircuit
+	label:_<short circuit>_
+}
+{CropBlight
+	label:<<crop blight??作物の_{blight}_>>
+}
+{Alphabeavers
+	label:_[alphabeavers]_
+}
+{ShipChunkDrop
+	label:<<ship chunk drop??船の残骸落下>>
+}
+{OrbitalTraderArrival
+	label:<<orbital trader arrival??軌道交易商到着>>
+}
+{TraderCaravanArrival
+	label:<<trader caravan arrival??交易キャラバン到着>>
+}
+{VisitorGroup
+	label:<<visitor group??訪問者>>
+}
+{TravelerGroup
+	label:<<traveler group??旅行者>>
+}
+{RaidFriendly
+	label:<<friendly raid??援軍到着>>
+}
+{StrangerInBlackJoin
+	label:[[man in black??黒服]]
+	letterLabel:[[Man in black??黒服]]
+	letterText:面倒事を探している、怪しい[PAWN_kind]がやってきた。\n\n[PAWN_pronoun]はこんなところで何をしているのだろうか？
+}
+{RaidEnemy
+	label:<<enemy raid??敵襲>>
+}
+{Infestation
+	label:_<infestation>_
+	letterLabel:_<Infestation>_
+	letterText:巨大な虫がトンネルを掘っている！\n\n数秒後に出てきて巣を作る。\n\nこの地域全体に蔓延させたくなければ、巣を破壊する必要がある。しかし、虫は自分達の巣を守ろうとするので注意する。
+}
+{DeepDrillInfestation
+	label:<<deep drill infestation??_{infestation}_ (ドリル)>>
+	letterLabel:<<Too deep: Infestation??深すぎ: _{infestation}_>>
+	letterText:地下の虫が_[deep drill]_の振動で怒ってしまい、報復するためにこちらへ穴を掘り始めた！\n\n注意 - 虫は怒っており、ここを破壊しようとしている。
+}
+{ManhunterPack
+	label:_<manhunter pack>_
+}
+{DefoliatorShipPartCrash
+	label:<<ship part crash (defoliator)??船の一部が墜落 (落葉剤)>>
+	letterLabel:<<Defoliator ship??落葉剤船>>
+	letterText:古代の船の大きな破片が近くに落ちた。\n\n周囲に広がる不思議な力が全ての植物を殺す。\n\n速やかに破壊するべきだ。注意 - これは自身を守るはずだ。
+}
+{PsychicEmanatorShipPartCrash
+	label:<<ship part crash (psychic)??船の一部が墜落 (サイキック)>>
+	letterLabel:<<Psychic ship??サイキック船>>
+	letterText:古代の船の大きな破片が近くに落ちた。\n\nこれは入植達の頭の中で、とても他人には言えないような事をするように暗示を掛けてきている。これにはサイキック放射能力を持つ機械人格があるに違いない。\n\nこの人格は友好的ではない。速やかに破壊するべきだ。注意 - これは自身を守るはずだ。
+}
+{AnimalInsanityMass
+	label:<<mass animal insanity??動物たちが発狂>>
+}
+{MechCluster
+	label:_[mech cluster]_
+	letterLabel:[[Mechanoid cluster??_{Mechanoid}_・クラスター]]
+	;RaidStrategyDefにほぼ同じ文がある
+	letterText:_[Mechanoid]_ の戦闘クラスターが近くに着陸した。\n\nクラスターは最初は休止しているため、時間をかけて攻撃方法を決められる。\n\n邪魔されるまで休止しているかもしれないが、タイマーか近接起動機能があるかもしれない。\n\n_[mech cluster]_ は休止状態でも安全では無い。休止集団は時々_[mechanoid]_ 攻撃隊を編成したり、いつかは対処しなければならない、広範囲に悪影響を与える機能をいくつか持っている。
+}
+{AnimalInsanitySingle
+	label:<<single animal insanity??動物が発狂>>
+}
+{Eclipse
+	label:_[eclipse]_
+	letterLabel:_[Eclipse]_
+}
+{SolarFlare
+	label:_[solar flare]_
+	letterLabel:_[Solar flare]_
+}
+{Aurora
+	label:_[aurora]_
+	letterLabel:_[Aurora]_
+}
+{GiveQuest_Random
+	label:<<quest??クエスト>>
+	letterLabel:<<Quest available??クエスト開始可能>>
+}
+{GiveQuest_EndGame_ShipEscape
+	label:<<journey offer??旅の提案>>
+	letterLabel:<<Journey offer??旅の提案>>
+}

@@ -1,0 +1,53 @@
+father:父
+mother:母
+son:息子
+daughter:娘
+brother:兄弟
+sister:姉妹
+; 性別の問題。「異父母兄弟姉妹」なのだが・・・長過ぎ。
+half-sibling:異兄弟
+HalfSibling/brother:異父母兄弟
+HalfSibling/sister:異父母姉妹
+grandfather:祖父
+grandmother:祖母
+grandson:孫息子
+granddaughter:孫娘
+nephew:甥
+niece:姪
+uncle:叔父
+aunt:叔母
+cousin:いとこ
+great grandfather:曾祖父
+great grandmother:曾祖母
+great grandson:曾孫息子
+great granddaughter:曾孫娘
+granduncle:おお叔父
+grandaunt:おお叔母
+grandnephew:兄弟姉妹の孫息子
+grandniece:兄弟姉妹の孫娘
+cousin once removed:いとこちがい
+second cousin:またいとこ
+kin:親族
+husband:夫
+wife:妻
+fiance:婚約者
+fiancée:婚約者
+lover:恋人
+stepfather:まま父
+stepmother:まま母
+stepson:まま子
+stepdaughter:まま娘
+father-in-law:義理の父
+mother-in-law:義理の母
+son-in-law:婿
+daughter-in-law:嫁
+ex-husband:元夫
+ex-wife:元妻
+ex-lover:元恋人
+bond:絆
+grandparent:祖父母
+grandchild:孫
+rival:ライバル
+friend:親友
+spouse:配偶者
+acquaintance:知人

@@ -1,0 +1,418 @@
+﻿; ここの verb は FloatMenu/CannotGenericWorkCustom の "Cannot {0}"などと組み合わされる
+; これは「～できない」となるので、これに合うようにする。
+{FightFires
+	label:<<fight fires??消火>>
+	verb:<<extinguish??消火>>
+	gerund:<<extinguishing??消火>>
+}
+{PatientGoToBedEmergencyTreatment
+	label:<<go to bed for emergency treatment??ベッドで緊急治療受ける>>
+	verb:<<receive treatment in??治療>>
+	gerund:<<receiving treatment in??治療>>
+}
+{PatientGoToBedTreatment
+	label:<<go to bed for treatment??ベッドで治療を受ける>>
+	verb:<<receive treatment in??治療>>
+	gerund:<<receiving treatment in??治療>>
+}
+{DoctorTendEmergency
+	label:<<tend to patients with urgent needs??急ぎの治療を行う>>
+	verb:<<tend to??看護>>
+	gerund:<<tending to??看護>>
+}
+{DoctorTendToHumanlikes
+	label:<<tend to patients??患者の看護>>
+	verb:<<tend to??看護>>
+	gerund:<<tending to??看護>>
+}
+{%DoctorTendToSelf
+	label:<<tend to self??自己治療>>
+	verb:<<tend to??看護>>
+	gerund:<<tending to??看護>>
+}
+{DoctorTendToSelfEmergency
+	$:DoctorTendToSelf
+}
+{DoctorFeedHumanlikes
+	label:<<feed patients??患者の給仕>>
+	verb:<<feed??給仕>>
+	gerund:<<feeding??給仕>>
+}
+{DoBillsMedicalHumanOperation
+	label:<<operate on humanlikes??人間の手術>>
+	verb:<<operate on??手術>>
+	gerund:<<operating on??手術>>
+}
+{DoctorRescue
+	label:<<rescue downed allies to bed??倒れた仲間をベッドへ救助>>
+	verb:<<rescue??救助>>
+	gerund:<<rescuing??救助>>
+}
+{DoctorTendToAnimals
+	label:<<tend to animals??動物の看護>>
+	verb:<<tend to??看護>>
+	gerund:<<tending to??看護>>
+}
+{%DoctorFeedAnimals
+	label:<<feed animals??動物の給餌>>
+	verb:<<feed??給餌>>
+	gerund:<<feeding??給餌>>
+}
+{DoBillsMedicalAnimalOperation
+	label:<<operate on animals??動物の手術>>
+	verb:<<operate on??手術>>
+	gerund:<<operating on??手術>>
+}
+{TakeToBedToOperate
+	label:<<take patients to bed for operations??手術する患者をベッドへ運ぶ>>
+	verb:<<take to operate??手術搬送>>
+	gerund:<<taking to operate??手術搬送>>
+}
+{VisitSickPawn
+	label:<<visit sick people??お見舞い>>
+	verb:<<visit??お見舞い>>
+	gerund:<<visiting??お見舞い>>
+}
+{PatientGoToBedRecuperate
+	label:<<recuperate in bed??ベッドで休む>>
+	verb:<<get bed rest in??休息>>
+	gerund:<<getting bed rest in??休息>>
+}
+{Flick
+	label:<<flick switches??スイッチの操作>>
+	verb:<<flick switch on??操作>>
+	gerund:<<flicking switch on??操作>>
+}
+{%ReleasePrisoner
+	label:<<release prisoners??_{prisoner}_の解放>>
+	verb:<<release??解放>>
+	gerund:<<releasing??解放>>
+}
+{BasicReleasePrisoner
+	$:ReleasePrisoner
+}
+{Open
+	label:<<open containers??コンテナを開ける>>
+	verb:<<open??開放>>
+	gerund:<<opening??開放>>
+}
+{DoExecution
+	label:<<execute prisoners??_{prisoner}_の処刑>>
+	verb:<<do execution on??処刑>>
+	gerund:<<doing execution on??処刑>>
+}
+{TakePrisonerToBed
+	label:<<take prisoners to bed??_{prisoner}_の拘束>>
+	verb:<<take to bed??拘束>>
+	gerund:<<taking to bed??拘束>>
+}
+{FeedPrisoner
+	label:<<feed prisoners??_{prisoner}_の給仕>>
+	verb:<<feed??給仕>>
+	gerund:<<feeding??給仕>>
+}
+{DeliverFoodToPrisoner
+	label:<<deliver food to prisoners??_{prisoner}_への配給>>
+	verb:<<deliver food for??配給>>
+	gerund:<<delivering food for??配給>>
+}
+{ChatWithPrisoner
+	label:<<chat with prisoners??_{prisoner}_と雑談>>
+	verb:<<chat with??雑談>>
+	gerund:<<chatting with??雑談>>
+}
+{HandlingFeedPatientAnimals
+	$:DoctorFeedAnimals
+}
+{Slaughter
+	label:<<slaughter animals??動物の屠殺>>
+	verb:<<slaughter??屠殺>>
+	gerund:<<slaughtering??屠殺>>
+}
+{Milk
+	label:<<milk animals??動物の搾乳>>
+	verb:<<milk??搾乳>>
+	gerund:<<milking??搾乳>>
+}
+{Shear
+	label:<<shear animals??動物の毛刈り>>
+	verb:<<shear??毛刈り>>
+	gerund:<<shearing??毛刈り>>
+}
+{Tame
+	label:<<tame animals??動物を手懐ける>>
+	verb:<<tame??手懐け>>
+	gerund:<<taming??手懐け>>
+}
+{Train
+	label:<<train animals??動物の訓練>>
+	verb:<<train??訓練>>
+	gerund:<<training??訓練>>
+}
+{DoBillsCook
+	label:<<cook meals at stove??コンロで調理>>
+	verb:<<cook??調理>>
+	gerund:<<cooking at??調理>>
+}
+{DoBillsCookCampfire
+	label:<<cook meals at campfire??焚き火で調理>>
+	verb:<<cook??調理>>
+	gerund:<<cooking at??調理>>
+}
+{DoBillsButcherFlesh
+	label:<<butcher creatures??動物の解体>>
+	verb:<<butcher??解体>>
+	gerund:<<butchering at??解体>>
+}
+{CookFillHopper
+	label:<<fill food hoppers??_[hopper]_に充填>>
+	verb:<<fill??充填>>
+	gerund:<<filling??充填>>
+}
+{DoBillsBrew
+	label:<<brew liquors??アルコール醸造>>
+	verb:<<brew??醸造>>
+	gerund:<<brewing at??醸造>>
+}
+{HunterHunt
+	label:<<hunt??狩猟>>
+	verb:<<hunt??狩猟>>
+	gerund:<<hunting??狩猟>>
+}
+{FixBrokenDownBuilding
+	label:<<fix broken-down buildings??壊れた設備の修理>>
+	verb:<<replace broken components in??修理>>
+	gerund:<<replacing broken components in??修理>>
+}
+{Uninstall
+	label:<<uninstall structures??撤去>>
+	verb:<<uninstall??撤去>>
+	gerund:<<uninstalling??撤去>>
+}
+{BuildRoofs
+	label:<<build roofs??屋根の設置>>
+	verb:<<build roof??屋根を設置>>
+	gerund:<<building roof??屋根の設置>>
+}
+{RemoveRoofs
+	label:<<remove roofs??屋根の除去>>
+	verb:<<remove roof??屋根を除去>>
+	gerund:<<removing roof??屋根の除去>>
+}
+{ConstructFinishFrames
+	label:<<construct placed frames??建設>>
+	verb:<<construct??建設>>
+	gerund:<<constructing??建設>>
+}
+{ConstructDeliverResourcesToFrames
+	label:<<deliver resources to frames??物資を施工場所へ運ぶ>>
+	verb:<<work on??作業>>
+	gerund:<<working on??作業>>
+}
+{ConstructDeliverResourcesToBlueprints
+	label:<<deliver resources to blueprints??物資を設計場所へ運ぶ>>
+	verb:<<work on??作業>>
+	gerund:<<working on??作業>>
+}
+{Deconstruct
+	label:<<deconstruct structures??解体>>
+	verb:<<deconstruct??解体>>
+	gerund:<<deconstructing??解体>>
+}
+{Repair
+	label:<<repair damaged things??壊れた物の修復>>
+	verb:<<repair??修復>>
+	gerund:<<repairing??修復>>
+}
+{ConstructRemoveFloors
+	label:<<remove floors??床の除去>>
+	verb:<<remove floor??床を除去>>
+	gerund:<<removing floor??床の除去>>
+}
+{ConstructSmoothFloors
+	label:<<smooth floors??床をならす>>
+	verb:<<smooth??平坦化>>
+	gerund:<<smoothing??平坦化>>
+}
+{ConstructSmoothWalls
+	label:<<smooth walls??壁をならす>>
+	verb:<<smooth??平坦化>>
+	gerund:<<smoothing??平坦化>>
+}
+{GrowerHarvest
+	label:<<harvest crops??作物の収穫>>
+	verb:<<harvest??収穫>>
+	gerund:<<harvesting??収穫>>
+}
+{GrowerSow
+	label:<<sow crops??作物の種まき>>
+	verb:<<sow??種まき>>
+	gerund:<<sowing??種まき>>
+}
+{Mine
+	label:<<mine??採掘>>
+	verb:<<mine??採掘>>
+	gerund:<<mining??採掘>>
+}
+{Drill
+	label:<<drill at deep drill??_[deep drill]_でドリル>>
+	verb:<<drill??ドリル>>
+	gerund:<<drilling??ドリル>>
+}
+{PlantsCut
+	label:<<cut plants??伐採>>
+	verb:<<cut??伐採>>
+	gerund:<<cutting??伐採>>
+}
+{DoBillsMakeWeapons
+	label:<<make weapons??武器製作>>
+	verb:<<smith??鍛冶>>
+	gerund:<<smithing at??鍛冶>>
+}
+{DoBillsMachiningTable
+	label:<<make things at machining table??_[machining table]_で何か作る>>
+	verb:<<work??作業>>
+	gerund:<<working at??作業>>
+}
+{DoBillsFabricationBench
+	label:<<fabricate things??製造>>
+	verb:<<fabricating things??製造>>
+	gerund:<<fabricating things at??製造>>
+}
+{DoBillsMakeApparel
+	label:<<make apparel??服を作る>>
+	verb:<<tailor??裁縫>>
+	gerund:<<tailoring at??裁縫>>
+}
+{DoBillsSculpt
+	label:<<make things at art bench??_[art bench]_ で何か作る>>
+	verb:<<sculpt??彫刻>>
+	gerund:<<sculpting at??彫刻>>
+}
+{DoBillsUseCraftingSpot
+	label:<<make things at crafting spot??_[crafting spot]_で何か作る>>
+	verb:<<craft??工作>>
+	gerund:<<crafting at??工作>>
+}
+{DoBillsRefinery
+	label:<<work at refinery??燃料精製設備での作業>>
+	verb:<<refine chemicals??燃料精製>>
+	gerund:<<refining chemicals at??燃料精製>>
+}
+{DoBillsProduceDrugs
+	label:<<synthesize drugs??ドラッグ精製>>
+	verb:<<produce drugs??ドラッグ製作>>
+	gerund:<<producing drugs at??ドラッグ製作>>
+}
+{DoBillsStonecut
+	label:<<make stone blocks??石切>>
+	verb:<<stonecut??ブロック製作>>
+	gerund:<<cutting stone blocks at??ブロック製作>>
+}
+{DoBillsSmelter
+	label:<<smelt items??アイテム製錬>>
+	verb:<<refine??製錬>>
+	gerund:<<refining at??製錬>>
+}
+{RearmTurrets
+	label:<<rearm turrets??_<Turret>_の再装填>>
+	verb:<<rearm??再装填>>
+	gerund:<<rearming??再装填>>
+}
+{Refuel
+	label:<<refuel fuelable buildings??燃料補給>>
+	verb:<<refuel??補給>>
+	gerund:<<refueling??補給>>
+}
+{UnloadCarriers
+	label:<<unload carriers??荷下ろし>>
+	verb:<<unload??荷下ろし>>
+	gerund:<<unloading??荷下ろし>>
+}
+{HelpGatheringItemsForCaravan
+	label:<<load caravan??キャラバンの荷積み>>
+	verb:<<load??荷積み>>
+	gerund:<<loading??荷積み>>
+}
+{LoadTransporters
+	label:<<load transporters??荷積み>>
+	verb:<<load??荷積み>>
+	gerund:<<loading??荷積み>>
+}
+{Strip
+	label:<<strip corpses??死体の脱衣>>
+	verb:<<strip??脱衣>>
+	gerund:<<stripping??脱衣>>
+}
+{HaulCorpses
+	label:<<haul corpses??死体の運搬>>
+	verb:<<haul??運搬>>
+	gerund:<<hauling??運搬>>
+}
+{DoBillsCremate
+	label:<<do cremation bills??火葬炉での作業>>
+	verb:<<cremate??焼却>>
+	gerund:<<cremating at??焼却>>
+}
+{DoBillsHaulCampfire
+	label:<<do bills at campfire??焚き火での作業>>
+	verb:<<work at??作業>>
+	gerund:<<working at??作業>>
+}
+{TakeBeerOutOfFermentingBarrel
+	label:<<take beer out of fermenting barrels??_<fermenting barrel>_から_<Beer>_を汲み出す>>
+	verb:<<take beer??_<beer>_取り出し>>
+	gerund:<<taking beer from??_<beer>_取り出し>>
+}
+{FillFermentingBarrel
+	label:<<fill fermenting barrels??_<fermenting barrel>_を満たす>>
+	verb:<<fill??充填>>
+	gerund:<<filling??充填>>
+}
+{HaulGeneral
+	label:<<haul general things??運搬>>
+	verb:<<haul??運搬>>
+	gerund:<<hauling??運搬>>
+}
+{DeliverResourcesToFrames
+	label:<<deliver resources to frames??_<frame>_へ物資を運ぶ>>
+	verb:<<deliver to??運搬>>
+	gerund:<<delivering to??運搬>>
+}
+{DeliverResourcesToBlueprints
+	label:<<deliver resources to blueprints??_<blueprint>_へ物資を運ぶ>>
+	verb:<<deliver to??運搬>>
+	gerund:<<delivering to??運搬>>
+}
+{HaulMerge
+	label:<<merge things??物をまとめる>>
+	verb:<<merge??整理>>
+	gerund:<<merging??整理>>
+}
+{CleanClearSnow
+	label:<<clear snow??除雪>>
+	verb:<<clear snow??除雪>>
+	gerund:<<clearing snow??除雪>>
+}
+{CleanFilth
+	label:<<clean filth??掃除>>
+	verb:<<clean??掃除>>
+	gerund:<<cleaning??掃除>>
+}
+{Research
+	label:<<do research??研究>>
+	verb:<<research??研究>>
+	gerund:<<researching at??研究>>
+}
+{LongRangeScan
+	; long range scanner と long-range mineral scanner で表記揺れ
+	label:<<operate long range scanner??_[long-range mineral scanner]_ を使う>>
+	verb:<<scan??探査>>
+	gerund:<<scanning at??探査>>
+}
+{GroundPenetratingScan
+	; round penetrating scanner と ground-penetrating scanner で表記揺れ
+	label:<<operate ground penetrating scanner??_[ground-penetrating scanner]_ を使う>>
+	verb:<<scan??探査>>
+	gerund:<<scanning at??探査>>
+}

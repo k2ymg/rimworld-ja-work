@@ -1,0 +1,64 @@
+﻿{AllowCorpsesColonist
+	label:<<allow colonist corpses??_{colonist}_の死体を許可>>
+	description:_{colonist}_の死体を許可する。
+}
+{AllowCorpsesStranger
+	label:<<allow stranger corpses??部外者の死体を許可>>
+	description:部外者や敵の死体を許可する。
+}
+{AllowRotten
+	label:<<allow rotten??腐った物を許可>>
+	description:腐った有機物を許可する。
+}
+{AllowFresh
+	label:<<allow fresh??新鮮な物を許可>>
+	description:まだ腐っていない有機物を許可する。
+}
+{AllowPlantFood
+	label:<<allow plant food??飼料を許可>>
+	description:干し草のような、食物と同等な植物を許可する。
+}
+{AllowSmeltableApparel
+	label:<<allow smeltable??製錬可能な物を許可>>
+}
+{AllowNonSmeltableApparel
+	label:<<allow non-smeltable??製錬不可能な物を許可>>
+}
+{AllowBurnableApparel
+	label:<<allow burnable??燃える物を許可>>
+}
+{AllowNonBurnableApparel
+	label:<<allow non-burnable??燃えない物を許可>>
+}
+{AllowSmeltable
+	label:<<allow smeltable??製錬可能な物を許可>>
+}
+{AllowNonSmeltableWeapons
+	label:<<allow non-smeltable??製錬不可能な物を許可>>
+}
+{AllowNonBurnableWeapons
+	label:<<allow non-burnable??燃えない物を許可>>
+}
+{AllowBurnableWeapons
+	label:<<allow burnable??燃える物を許可>>
+}
+{AllowBiocodedWeapons
+	label:<<allow biocoded weapons??認証武器を許可>>
+}
+{AllowNonBiocodedWeapons
+	label:<<allow non-biocoded weapons??非認証武器を許可>>
+}
+{AllowBiocodedApparel
+	label:<<allow biocoded apparel??認証衣服を許可>>
+}
+{AllowNonBiocodedApparel
+	label:<<allow non-biocoded apparel??非認証衣服を許可>>
+}
+{AllowNonDeadmansApparel
+	label:<<allow clean apparel??清潔な衣服を許可>>
+	description:死体が着ていなかった服を許可する。殆ど人は死体で穢れた服を不気味に感じる。また、交易商はこれを受け付けない。
+}
+{AllowDeadmansApparel
+	label:<<allow tainted apparel??穢れた衣服を許可>>
+	description:死体が着ていた服を許可する。殆ど人は死体で穢れた服を不気味に感じる。また、交易商はこれを受け付けない。
+}

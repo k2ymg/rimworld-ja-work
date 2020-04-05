@@ -1,0 +1,51 @@
+﻿{Inspect
+	label:_[inspect]_
+}
+{Architect
+	label:_[ui/architect]_
+	description:建造、栽培、アイテム保管の場所など、何処に何を作るか指示する。
+}
+{Work
+	label:_[work]_
+	description:どの_{colonist}_が、どのような作業を、どのような優先度で行うか決める。
+}
+{Restrict
+	label:_[restrict]_
+	description:_{colonist}_の一日の時間割を決めたり、活動範囲を制限する。
+}
+{Assign
+	label:_[assign]_
+	description:_{colonist}_が何を着るべきか、どのようにドラッグを摂るか、近くの敵にどう対処するかを割り当てる。
+}
+{Animals
+	label:_[animals]_
+	description:_{colony}_で飼われている動物たちの扱われ方を設定する。
+}
+{Wildlife
+	label:_[wildlife]_
+	description:このエリアにいる野生動物を表示し、狩りや手懐けを指示する。
+}
+{Research
+	label:_[research]_
+	description:研究プロジェクトについて見たり決めたりする。
+}
+{Quests
+	label:_[quests]_
+	description:開始可能、進行中、歴史的なクエストを見る。
+}
+{World
+	label:_[world]_
+	description:ワールドマップの表示、およびキャラバンの編成や管理をする。
+}
+{History
+	label:_[history]_
+	description:過去の記録を確認する。
+}
+{Factions
+	label:_[factions]_
+	description:他の_{faction}_とその関係を確認する。
+}
+{Menu
+	label:_[menu]_
+	description:オプションの変更、セーブ、ロード、およびゲームの終了。
+}

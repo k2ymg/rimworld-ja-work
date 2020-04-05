@@ -1,0 +1,3655 @@
+﻿{Beer
+	label:_[beer]_
+	description:_?ビール。?_水以外で初めて人類に普及した飲み物。旨さより酔うためのもの。飲み過ぎると気を失い徐々にアルコール中毒になる。
+	{ingestible
+		ingestCommandString:{0} を飲む
+		ingestReportString:{0} を飲んでいる。
+	}
+	{tools
+		{bottle
+			label:_<bottle>_
+		}
+		{neck
+			label:_<bottle/neck>_
+		}
+	}
+}
+{Wort
+	label:_[wort]_
+	description:麦汁(ばくじゅう)。発酵さていないビール。飲めるようにするには _[Fermenting barrel]_ で発酵させる。
+}
+{Ambrosia
+	label:_[ambrosia]_
+	description:_?アンブロージア。?_柔らかい、珍しい果物。味は素晴らしく、ほのかに_{mood}_を良くする科学的興奮を生じさせる。しかし、食べ過ぎると少しずつ病みつきになってしまう。
+}
+{$MakeableDrugPillBase
+	{ingestible
+		ingestCommandString:{0} を摂る
+		ingestReportString:{0} を摂っている。
+	}
+}
+{$DrugPillBase
+	{ingestible
+		ingestCommandString:{0} を摂る
+		ingestReportString:{0} を摂っている。
+	}
+}
+{GoJuice
+	label:_[go-juice]_
+	description:_?ゴージュース。?_惑星間戦争の初期に宇宙軍向けに開発された人工的な身体強化ドラッグ。_[Go-juice]_は痛みを抑え、動きも速くなり、近・遠距離攻撃能力を高める。\n\nこれを作った軍の化学者達は中毒症状を取り除くことができなかった。一部はこれを欠点と捉えたが、大多数は違った。
+	{ingestible
+		ingestCommandString:{0} を注射する
+		ingestReportString:{0} を注射している。
+	}
+}
+{Luciferium
+	label:_[luciferium]_
+	description:_?ルシフェリウム。?_体のあらゆる機能を劇的に改善する_[Mechanite]_の調合薬。失った手足は再生できないが、古傷や脳の損傷すら徐々に治す。残念なことに、5、6日毎に継続して摂取し、ある程度の効果を維持しなければ、_[Mechanite]_が統制を失い、怒りに囚われ続け、死に至る。\n\n投薬したが最後、_[Mechanite]_を取り除く方法はない。\n\n_[Urbworld]_では_[luciferium]_は'Devil's Bargain'と呼ばれている。魅惑的な赤い錠剤が切れたら、殺す以外に助ける方法はなかった。
+	$:DrugPillBase
+}
+{Penoxycyline
+	label:_[penoxycyline]_
+	description:_?ペノキシリン。?_感染症予防薬。_<Malaria>_、_<Sleeping sickness>_、_<Plague>_を防ぐ。効果を持続させるには5日ごとに摂取しなければならない。注意:この薬は新たな感染を防ぐだけである。既に感染しているものを、例えまだそれに気付いていないとしても、治すわけではない。
+	$:MakeableDrugPillBase
+}
+{Flake
+	label:_[flake]_
+	description:_?フレーク。?__[Psychite]_から作られる白い薄片状の物。短時間だが強い多幸感を感じられる。手軽に作れてかなり楽しめるが、中毒性がとても強い。_[Flake]_は生活、仲間関係、社会全体を壊すことで有名。
+	{ingestible
+		ingestCommandString:{0} を吸う
+		ingestReportString:{0} を吸っている。
+	}
+}
+{PsychiteTea
+	label:_[psychite tea]_
+	description:_?サイカイト・ティ。?__[Psychoid]_植物の葉を煎じた香ばしいお茶。飲むと微かに精神的多幸感を生じさせる。このお茶は調理場で簡単に作れるが、飲み過ぎると_[Psychite]_中毒になる。\n\n多くの_{tribe}_は日々のエネルギー源としても、人付き合いの一環としても、そして宗教的儀式としてこのお茶を嗜んでいる。
+	{ingestible
+		ingestCommandString:{0} を飲む
+		ingestReportString:{0} を飲んでいる。
+	}
+}
+{Yayo
+	label:_[yayo]_
+	description:_?イェイョ。?__[Psychite]_ドラッグを精製した粉状の物。鼻から吸うと直ぐさま多幸感を得られ、劇的に眠気を覚まし、痛みを抑える。粗悪な_[Flake]_ほどではないにせよ、_[Psychite]_を使った物の多くがそうであるように、これもまた中毒性がある。コストが高く見た目が良いので、多くの文化では_[Yayo]_と退廃的な富が結びついている。王室だろうが会議室だろうが、多くの愚かな政策が_[Yayo]_お楽しみパーティーの中から生み出されてきた。
+	{ingestible
+		ingestCommandString:{0} を鼻から吸う
+		ingestReportString:{0} を鼻から吸っている。
+	}
+}
+{SmokeleafJoint
+	label:_[smokeleaf joint]_
+	description:_?スモークリーフ・ジョイント。?__[Smokeleaf]_の葉を小さく巻いたタバコ。このドラッグは_{mood}_を良くするが、食欲が増え、集中力がなくなり、移動が遅くなる。_[Smokeleaf]_には依存性がある。_[Joint]_は_[Crafting spot]_で簡単に作れ、仕事に怠慢な文化の多くに定着している。
+	{ingestible
+		ingestCommandString:{0} を吸う
+		ingestReportString:{0} を吸っている。
+		ingestReportStringEat:{0} を食べている。
+	}
+}
+{WakeUp
+	label:_[wake-up]_
+	description:_?ウェイクアップ。?_合成興奮剤。_[Wake-up]_は眠気を覚まし、疲れることなく長時間働けるようになる。しかし、何度も使うと精神が不安定になる中毒になり、そして精神的な障害を引き起こす事もある。\n\n世界各地の競争が激しい大学や企業では、頑張り過ぎな成功者達が_[Wake-up]_中毒により時より精神異常を起こす事が知られている。
+	$:MakeableDrugPillBase
+}
+{$MoteBase
+	;TODO:後で消す
+	;訳す必要は全く無いと思うが、警告がうるさいので
+	label:<<Mote??モート>>
+}
+{Mote_SparkThrown
+	$:MoteBase
+}
+{Mote_SparkThrownFast
+	$:MoteBase
+}
+{Mote_SparkThrownFastBlue
+	$:MoteBase
+}
+{Mote_LongSparkThrown
+	$:MoteBase
+}
+{Mote_Splash
+	$:MoteBase
+}
+{Mote_SmokeJoint
+	$:MoteBase
+}
+{Mote_SmokeFlake
+	$:MoteBase
+}
+{Mote_ExtinguisherPuff
+	$:MoteBase
+}
+{$MoteFeedbackBase
+	$:MoteBase
+}
+{Mote_FeedbackGoto
+	$:MoteFeedbackBase
+}
+{Mote_FeedbackShoot
+	$:MoteFeedbackBase
+}
+{Mote_FeedbackMelee
+	$:MoteFeedbackBase
+}
+{Mote_FeedbackEquip
+	$:MoteFeedbackBase
+}
+{Mote_FeedbackExtinguish
+	$:MoteFeedbackBase
+}
+{Mote_Clean
+	$:MoteBase
+}
+{Mote_Sow
+	$:MoteBase
+}
+{Mote_Harvest
+	$:MoteBase
+}
+{Mote_ClearSnow
+	$:MoteBase
+}
+{Mote_Cards
+	$:MoteBase
+}
+{Mote_HealingCross
+	$:MoteBase
+}
+{Mote_SleepZ
+	$:MoteBase
+}
+{Mote_Heart
+	$:MoteBase
+}
+{Mote_IncapIcon
+	$:MoteBase
+}
+{Mote_Stun
+	$:MoteBase
+}
+{Mote_ColonistFleeing
+	$:MoteBase
+}
+{Mote_ColonistAttacking
+	$:MoteBase
+}
+{Mote_DrunkBubble
+	$:MoteBase
+}
+{Mote_BerserkBit
+	$:MoteBase
+}
+{$InteractionMoteBase
+	$:MoteBase
+}
+{Mote_Speech
+	$:InteractionMoteBase
+}
+{Mote_Thought
+	$:InteractionMoteBase
+}
+{$MoodMoteBase
+	$:MoteBase
+}
+{Mote_ThoughtGood
+	$:MoodMoteBase
+}
+{Mote_ThoughtBad
+	$:MoodMoteBase
+}
+{Mote_Text
+	$:MoteBase
+}
+{Mote_ProgressBar
+	$:MoteBase
+}
+{Mote_Footprint
+	$:MoteBase
+}
+{Mote_Horseshoe
+	$:MoteBase
+}
+{Mote_Stone
+	$:MoteBase
+}
+{Mote_TempRoof
+	$:MoteBase
+}
+{Mote_Danger
+	$:MoteBase
+}
+{Mote_ShotFlash
+	$:MoteBase
+}
+{Mote_SparkFlash
+	$:MoteBase
+}
+{Mote_YellowSparkFlash
+	$:MoteBase
+}
+{Mote_ExplosionFlash
+	$:MoteBase
+}
+{Mote_BloodSplash
+	$:MoteBase
+}
+{Mote_BodyImpact
+	$:MoteBase
+}
+{Mote_GrowingFlash
+	$:MoteBase
+}
+{Mote_PlainFlash
+	$:MoteBase
+}
+{Mote_ActivatorCountdownFlash
+	$:MoteBase
+}
+{Mote_ActivatorCountdownGlow
+	$:MoteBase
+}
+{Mote_ActivatorProximityGlow
+	$:MoteBase
+}
+{Mote_ShotHit_Spark
+	$:MoteBase
+}
+{Mote_ShotHit_Dirt
+	$:MoteBase
+}
+{Mote_Leaf
+	$:MoteBase
+}
+{Mote_SandInEyes
+	$:MoteBase
+}
+{Mote_BlastDry
+	$:MoteBase
+}
+{Mote_BlastEMP
+	$:MoteBase
+}
+{Mote_LineEMP
+	$:MoteBase
+}
+{Mote_BlastFlame
+	$:MoteBase
+}
+{Mote_ElectricalSpark
+	$:MoteBase
+}
+{Mote_BlastExtinguisher
+	$:MoteBase
+}
+{Mote_FireGlow
+	$:MoteBase
+}
+{%Mote_MicroSparks
+	$:MoteBase
+}
+{Mote_MicroSparksFast
+	$:Mote_MicroSparks
+}
+{Mote_HeatGlow
+	$:MoteBase
+}
+{Mote_LightningGlow
+	$:MoteBase
+}
+{$FoodBitBase
+	$:MoteBase
+}
+{Mote_FoodBitVegetarian
+	$:FoodBitBase
+}
+{Mote_FoodBitMeat
+	$:FoodBitBase
+}
+{Mote_StoneBit
+	$:FoodBitBase
+}
+{Mote_CookBit
+	$:FoodBitBase
+}
+{Mote_VomitBit
+	$:FoodBitBase
+}
+{Mote_AirPuff
+	$:MoteBase
+}
+{Mote_DustPuff
+	$:MoteBase
+}
+{Mote_DustPuffThick
+	$:MoteBase
+}
+{Mote_MetaPuff
+	$:MoteBase
+}
+{Mote_TornadoDustPuff
+	$:MoteBase
+}
+{Mote_Smoke
+	$:MoteBase
+}
+{Mote_DustSlow
+	$:MoteBase
+}
+{Mote_Bombardment
+	$:MoteBase
+}
+{Mote_PowerBeam
+	$:MoteBase
+}
+{Mote_GiantExplosion
+	$:MoteBase
+}
+{Mote_GiantExplosionInner
+	$:MoteBase
+}
+{%Mote_PsychicConditionCauserEffect
+	$:MoteBase
+}
+{Mote_PsychicEmanatorEffect
+	$:Mote_PsychicConditionCauserEffect
+}
+{%Mote_ForceJob
+	$:MoteBase
+}
+{Mote_ForceJobMaintained
+	$:Mote_ForceJob
+}
+{$MoteGlowDistortBackground
+	$:MoteBase
+}
+{Mote_PsycastPsychicEffect
+	$:MoteGlowDistortBackground
+}
+{Mote_PsycastPsychicLine
+	$:MoteGlowDistortBackground
+}
+{Mote_PsycastAreaEffect
+	$:MoteGlowDistortBackground
+}
+{$MoteWaterBase
+	$:MoteBase
+}
+{Mote_WaterSplash
+	$:MoteWaterBase
+}
+{ArchotechEye
+	label:_[archotech eye]_
+	description:_[Archotech]_により作られた義眼。電波、赤外線、可視光、エックス線、ガンマ線など、あらゆる電磁波を知覚できる。視力は20メートル離れた所から手書きの文字を十分に読み取れる程に正確。懐中電灯のように様々な波長を放射し、内部の下位人格AIが便利な視覚情報を強調してくれる。自分の意志で色を変えられる以外は、外観は人間本来の眼と変わらない。その内部構造は人類には理解不能である。
+}
+{ArchotechArm
+	label:_[archotech arm]_
+	description:_[Archotech]_により作られた義手。太くて硬い枝を素手でへし折るほどに強力く、米粒に詩を書けるほどに正確。普通の生身に見えるが、_[Plasteel]_よりも傷つきにくい。例え傷ついても、時と共に自己修復する。その内部構造は人類には理解不能である。
+}
+{ArchotechLeg
+	label:_[archotech leg]_
+	description:_[Archotech]_により作られた義足。普通の生身に見えるが、その両足を持つ者は平均的な車と同じほどに速く動け、_[Plasteel]_よりも傷つきにくい。例え傷ついても、時と共に自己修復する。その内部構造は人類には理解不能である。
+}
+{BionicEye
+	label:_[bionic eye]_
+	description:_?バイオニック・アイ。?_高度な義眼。バイオゲル神経接続、内部信号前処理、広帯域センサーにより、あらゆる面において生体の目よりも優れている。Lattice-dust修復システムによりダメージを回復できる。
+}
+{BionicArm
+	label:_[bionic arm]_
+	description:_?バイオニック・アーム。?_高度な義手。静かな小型サーボにより素晴らしい腕力を得られるうえに、バイオゲル神経接続により絶妙な制御もできる。Lattice-dust修復システムによりダメージを回復できる。あらゆる面において生体の腕より優れている。
+}
+{BionicLeg
+	label:_[bionic leg]_
+	description:_?バイオニック・レッグ。?_高度な義足。バイオゲル神経接続、強力な小型サーボ、Lattice-dust修復システムにより、あらゆる面において生体の脚よりも優れている。
+}
+{BionicSpine
+	label:_[bionic spine]_
+	description:_?バイオニック・スパイン。?_高度な人工脊椎。バイオゲル神経束が多関節の_[Plasteel]_芯を通り抜け、Lattice-dust修復システムに取り囲まれている。生体の脊髄と同等の性能を誇る。
+}
+{BionicHeart
+	label:_[bionic heart]_
+	description:_?バイオニック・ハート。?_高度な人工心臓。本物の鼓動を模倣するための人工筋繊維を備え、高負荷時に急速循環させる大流量ポンプも備えている。あらゆる面において生体の心臓よりも優れている。
+}
+{BionicStomach
+	label:_[bionic stomach]_
+	description:_?バイオニック・ストマック。?_高度な人工胃。センサーと化学合成器がエネルギーを生み出す食物ならなんでも効率的に殆ど消化する。統合されたLattice-dust修復システムが強酸により受けたダメージを自動的に修復する。あらゆる面において生体の胃よりも優れている。
+}
+{DeathAcidifier
+	label:_[death acidifier]_
+	description:_?デス・アシディフィアー。?_敵に取られた装備を使われないようにするための胴のインプラント。使用者が死ぬと、強力な薬品が放たれ、体に触れている装備を溶かす。他にはダメージを与えない。
+}
+{Mote_AcidCloud
+	$:MoteBase
+}
+{BionicEar
+	label:_[bionic ear]_
+	description:_?バイオニック・イアー。?_高度な人工内耳。皮下に隠されたマイクロホン群が音声を集め、聴覚神経に直結しているバイオゲル神経インターフェースに送信する。ネコが忍び寄る音が聞こえるほどに敏感だが、大きな雑音でも壊れず、五月蠅い環境から意味のある音を拾えるように自動的に調整される。
+}
+{Heart
+	label:_[heart]_
+	description:_?ハート。?_生体的な人間の心臓。全身に血液を送る。
+}
+{Lung
+	label:_[lung]_
+	description:_?ラング。?_生体的な人間の肺。これの二つの組が呼吸器系の核になっている。
+}
+{Kidney
+	label:_[kidney]_
+	description:_?キドニー。?_生体的な人間の腎臓。血液を濾過し、老廃物を取り除く。
+}
+{Liver
+	label:_[liver]_
+	description:_?レバー。?_生体的な人間の肝臓。代謝における重要な役割を担っている。
+}
+{SimpleProstheticLeg
+	label:_[prosthetic leg]_
+	description:_?プロセティック・レッグ。?_義足。神経インターフェースは無いが、内部関節の複雑な配置により自然な動きだと錯覚させられる。とはいえ、まだまだ本物の脚には劣る。
+}
+{SimpleProstheticArm
+	label:_[prosthetic arm]_
+	description:_?プロセティック・アーム。?_義手。神経インターフェースは無いが、内部関節の複雑な配置により自然な動きだと錯覚させられる。とはいえ、まだまだ本物の腕には劣る。
+}
+{SimpleProstheticHeart
+	label:_[prosthetic heart]_
+	description:人工的な心臓。血液を体へ滑らかに送る電動機が入っている。使用者はたまに疲れを訴えるが、何もしないよりはましである。
+}
+{CochlearImplant
+	label:_[cochlear implant]_
+	description:通常の聴覚を置き換えるインプラント。外部のマイクロホンが音声信号を内耳の聴覚神経を取り囲んでいる電極へ送信する。電極は音声に合わせて神経を刺激し、音を知覚させる。普通の耳より劣るが、何も聞こえないよりは圧倒的にましである。
+}
+{PowerClaw
+	label:_[power claw]_
+	description:_?パワー・クロウ。?_戦闘志向の義手で、各指にかぎ爪が付いている機械式の手。深く切り裂け、生身の手で卵を潰すように頭蓋骨を砕けるほどの力がある。爪は内部に収納できるので、戦闘以外の作業では生身の手と同じように使えるが、全体的に野暮ったいので、移動が少し遅くなる。
+
+}
+{Joywire
+	label:_[joywire]_
+	description:_?ジョイワイヤー。?_脳の快楽中枢を刺激する脳インプラント。使用者の_{mood}_を劇的に良くするが、幸福感に覆い尽くされ、現実世界の事に集中しにくくなる。_[Joywire]_は多くの世界で違法であり、文化を破壊することで知られている。
+}
+{Painstopper
+	label:_[painstopper]_
+	description:_?ペインストッパー。?_痛覚や苦悩を抑制する脳プラント。利用者は物事をより良く達成出来るようになるが、痛みは決して不要なものではない。もし痛みを感じなければ、いとも簡単に致命傷を受けてしまうだろう。
+}
+{AncientConcreteBarrier
+	label:_[ancient concrete barrier]_
+	description:_?エンシエント・コンクリート・バリア。?_大昔に交通を制御していた物。
+}
+{AncientLamppost
+	label:_[ancient lamppost]_
+	description:_?エンシエント・ランプポスト。?_大昔の道路照明灯。既に壊れている。
+}
+{Urn
+	label:_[urn]_
+    description:古代様式の装飾容器。
+}
+{SculptureSmall
+	label:_[small sculpture]_
+	description:_?スモール・スカルプチャ。?_胴体ほどの大きさの素材を芸術的に彫刻したもの。
+}
+{SculptureLarge
+	label:_[large sculpture]_
+	description:_?ラージ・スカルプチャ。?_人体ほどの大きさの素材を芸術的に彫刻したもの。
+}
+{SculptureGrand
+	label:_[grand sculpture]_
+	description:_?グランド・スカルプチャ。?_部屋を圧迫する巨大さの彫刻。
+}
+{Snowman
+	label:_[snowman]_
+	description:_?スノーマン。?_大きな雪玉を積み重ねて人に似せたもの。人々は楽しみのためにこれを作る。
+}
+{PsychicDronerShipPart
+	label:_[ship part (psychic droner)]_
+	description:身元不明の宇宙船からちぎれた、古い船の一部。数千年前の物かもしれない。\n\nこれには精神を乱す装置が入っている。理解不能なアーコテクノロジーによって、広い範囲内に、人々や動物を狂気に駆り立てる精神シグナルを発生している。
+}
+{DefoliatorShipPart
+	label:_[ship part (defoliator)]_
+	description:身元不明の宇宙船からちぎれた、古い船の一部。数千年前の物かもしれない。\n\nこれには、生物には直接影響を与えずに、近くの植物を死滅させる装置が入っている。このような武器は、地域を完全破壊せずに敵の食糧供給と隠れ場所を潰すために、時々農地や森に散らばっている。通常は軌道降下_{mechanoid}_軍の仲間である。
+}
+{ShipChunk
+	label:_[ship chunk]_
+	description:_?シップ・チャンク。?_宇宙艦艇の残骸。解体すれば役立つ資源が得られる。
+}
+{SleepingSpot
+	label:_[sleeping spot]_
+	description:_?スリーピング・スポット。?_人が地べたに寝る所を指定する。寝心地は悪い。
+}
+{DoubleSleepingSpot
+	label:_[double sleeping spot]_
+	description:_?ダブル・スリーピング・スポット。?_二人で地べたに寝る場所を指定する。寝心地は悪い。
+}
+{Bed
+	label:_[bed]_
+	description:_?ベッド。?_寝心地の良いマットレスとシーツを枠に乗せたもの。
+}
+{DoubleBed
+	label:_[double bed]_
+	description:_?ダブル・ベッド。?_簡素な二人用のベッド。
+}
+{RoyalBed
+	label:_[royal bed]_
+	description:_?ロイヤル・ベッド。?_高貴な生まれに似合う絢爛豪華なベッド。とても快適で美しく、それ自体が芸術品。二人用。
+}
+{HospitalBed
+	label:_[hospital bed]_
+	description:_?ホスピタル・ベッド。?_病院で使うための特製ベッド。患者に合わせて調整できる内臓装備が取り付けられ、普通のベッドよりも医療効果を良くする。
+}
+{Bedroll
+	label:_[bedroll]_
+	description:_?ベッドロール。?_大抵は布や皮で作られ、毛の裏地が付いている事が多い、地べたに敷く簡素なベッド。軽く、巻いて持ち運びやすいが、寝心地は普通のベッドほどではない。キャラバンは旅行中にベッドロールをより良い眠りのために使える。
+}
+{BedrollDouble
+	label:_[double bedroll]_
+	description:_?ダブル・ベッドロール。?_大抵は布や皮で作られ、毛の裏地が付いている事が多い、地べたに敷く簡素な二人用ベッド。軽く、巻いて持ち運びやすいが、寝心地は普通のベッドほどではない。キャラバンは旅行中にベッドロールをより良い眠りのために使える。
+}
+{AnimalSleepingSpot
+	label:_[animal sleeping spot]_
+	description:_?アニマル・スリーピング・スポット。?_動物が地べたに寝る所を指定する。
+}
+{AnimalSleepingBox
+	label:_[animal sleeping box]_
+	description:_?アニマル・スリーピング・ボックス。?_動物が寝る小屋。鶏、猫、小型犬などの小動物に合う。
+}
+{AnimalBed
+	label:_[animal bed]_
+	description:_?アニマル・ベッド。?_動物用の柔らかいベッド。全ての動物に合う。
+}
+{Stool
+	label:_[stool]_
+	description:_?スツール。?_座るための簡素な台。それほど心地よくないが、何も無いよりはマシ。机や作業場などで使える。
+}
+{DiningChair
+	label:_[dining chair]_
+	description:_?ダイニング・チェア。?_心地良く魅力的な椅子。机や作業場などで使える。
+}
+{Armchair
+	label:_[armchair]_
+	description:_?アームチェア。?_大きくて、柔らかで、心地良い腰掛け。くつろぐのに最適。机や作業場などで使える。
+}
+{$TableBase
+	description:椅子をテーブルに向かい合わせて置けば、人々はテーブルで食事をする。
+}
+{$TableGatherSpotBase
+	$:TableBase
+}
+{EndTable
+	label:_[end table]_
+	description:_?エンド・テーブル。?_隣のベッドを少しだけ快適にする、ベッド脇に置く小さなテーブル。ベッドの頭部側に隣接させなければならない。同じベッドに複数のエンド・テーブルを置いても効果は無い。
+	$:TableBase
+}
+{Table1x2c
+	label:_[table (1x2)]_
+	$:TableGatherSpotBase
+}
+{Table2x2c
+	label:_[table (2x2)]_
+	$:TableGatherSpotBase
+}
+{Table2x4c
+	label:_[table (2x4)]_
+	$:TableGatherSpotBase
+}
+{Table3x3c
+	label:_[table (3x3)]_
+	$:TableGatherSpotBase
+}
+{PlantPot
+	label:_[plant pot]_
+	description:_?プラント・ポット。?_観賞用の花を植えて、近くに居る人の_{mood}_を良くする。
+}
+{TorchLamp
+	label:_[torch lamp]_
+	description:_?トーチ・ランプ。?_辺りを照らすタイマツ。人々が最速で動いたり働いたりするには明かりが必要。木材が自動補給される。少し発熱する。
+}
+{StandingLamp
+	label:_[standing lamp]_
+	description:_?スタンディング・ランプ。?_辺りを照らす電灯。人々が最速で動いたり働いたりするには明かりが必要。
+}
+{StandingLamp_Red
+	label:_[standing lamp (red)]_
+	description:_?スタンディング・ランプ (レッド)。?_辺りを赤く照らす電灯。
+}
+{StandingLamp_Green
+	label:_[standing lamp (green)]_
+	description:_?スタンディング・ランプ (グリーン)。?_辺りを緑色に照らす電灯。
+}
+{StandingLamp_Blue
+	label:_[standing lamp (blue)]_
+	description:_?スタンディング・ランプ (ブルー)。?_辺りを青く照らす電灯。
+}
+{SunLamp
+	label:_[sun lamp]_
+	description:_?サン・ランプ。?_植物を育てるのに十分な明るさで辺りを照らす工業用電灯だが、消費電力が大きい。夜間は自動で消灯する。
+	{comps
+		{CompSchedule
+			offMessage:植物の休息時間帯のため消灯中
+		}
+	}
+}
+{Shelf
+	label:_[shelf]_
+	description:_?シェルフ。?_色々と何か置く棚。ここに置かれたアイテムは屋外でも劣化しない。
+}
+{Dresser
+	label:_[dresser]_
+	description:_?ドレッサー。?_近くのベッドを少しだけ快適にする。同じベッドに複数設置しても効果は無い。
+}
+{HorseshoesPin
+	label:_[horseshoes pin]_
+	description:__?ホースシューズ・ピン。?_蹄鉄と地面に立てた棒を使う昔ながらの遊び。離れたところから棒へ落ちるように蹄鉄を投げる。くつろげるうえに、_<shooting>_スキルを鍛えられる。
+}
+{HoopstoneRing
+	label:_[hoopstone ring]_
+	description:_?フープストーン・リング。?_石と地面に立てた大きな輪を使う昔ながらの遊び。離れたところから輪を通すように石を投げる。くつろげるうえに、_<shooting>_スキルを鍛えられる。
+}
+{GameOfUrBoard
+	label:_[Game-of-Ur board]_
+	description:_?ゲーム・オブ・ウル・ボード。?_紀元前2500年頃から伝わるこのボードゲームは一人か二人で遊べ、刺激的だが頭にくる。_<intellectual>_スキルを鍛えられる。
+}
+{ChessTable
+	label:_[chess table]_
+	description:_?チェス・テーブル。?_王達が嗜んだ古代のゲーム。何処でも、一人でも、数時間は楽しめる。_<intellectual>_スキルを鍛えられる。
+}
+{PokerTable
+	label:_[poker table]_
+	description:_?ポーカー・テーブル。?_ポーカーのようなカードを使う賭博をするためのテーブル。策略と少しばかりの運を試すにはもってこい。
+}
+{BilliardsTable
+	label:_[billiards table]_
+	description:_?ビリヤード・テーブル。?_様々なビリヤードを楽しめる、柔らかい上面と囲みがあるテーブル。_<shooting>_能力を鍛えられる。
+}
+{TubeTelevision
+	label:_[tube television]_
+	description:_?チューブ・テレビジョン。?_音付きの動画を映す陰極線管ディスプレイ。_[Rimworld]_であっても、多少は面白いものを放映している古い送信機がたまにある。
+}
+{FlatscreenTelevision
+	label:_[flatscreen television]_
+	description:_?フラットスクリーン・テレビジョン。?_くっきりとした画質と色彩豊かな、最先端の薄型テレビ。低画質なブラウン管テレビより楽しめる。古い衛星やよくあるデータカードから送信波を拾う。
+}
+{MegascreenTelevision
+	label:_[megascreen television]_
+	description:_?メガスクリーン・テレビジョン。?_大型の最先端テレビ。巨大で、スクリーンから飛び出るような躍動感にあふれる映像。とても楽しめる。古い衛星やよくあるデータカードから送信波を拾う。
+}
+{Telescope
+	label:_[telescope]_
+	description:_?テレスコープ。?_天体観測のための望遠鏡。好きな人にとってはくつろげる趣味になる。屋外でのみ使える。
+}
+{OrbitalTradeBeacon
+	label:_[orbital trade beacon]_
+	description:_?オービタル・トレード・ビーコン。?_軌道交易に必要。ビーコンの周りにある物のみ軌道交易商に売れる。屋内にも置ける。
+}
+{CommsConsole
+	label:_[comms console]_
+	description:_?コム・コンソール。?_無線で他の_{faction}_や軌道交易商へ連絡できる。
+}
+{FirefoamPopper
+	label:_[firefoam popper]_
+	description:_?ファイアフォーム・ポッパー。?_この安全装置は火を検知すると周囲に難燃性の泡をまき散らす。手動でも作動させられる。
+	{comps
+		{CompUsable
+			useLabel:_[firefoam popper]_ を作動させる
+		}
+	}
+}
+{MoisturePump
+	label:_[moisture pump]_
+	description:_?モイスチャー・ポンプ。?_周りの地面の湿度を非常にゆっくりと均一化し、沼や浅い水域を乾いた地面に、柔らかい砂地を普通の砂地に変える。深い水域には対応しない。
+}
+{GroundPenetratingScanner
+	label:_[ground-penetrating scanner]_
+	description:_?グラウンド・ペネテレーティング・スキャナー。?_研究者が地下資源を探すために使うセンサー。資源を見つける確率は使用者の研究能力に依存する。消費電力が高い。見つけた地下資源を見は _[deep drill]_ で掘り出す。屋根の下では使えない。
+}
+{LongRangeMineralScanner
+	label:_[long-range mineral scanner]_
+	description:_?ロング・レンジ・ミネラル・スキャナー。?_研究者がこの星全域から特定の鉱物を見つけるためにう水平センサー。源を見つける確率は使用者の研究能力に依存する。特定の資源を探すように調整できる。消費電力が高い。資源を見つけたら取りにいかないといけない。
+}
+{PodLauncher
+	label:_[pod launcher]_
+	description:_?ポッド・ランチャー。?__[Transport pod]_を射出するための火砲。複数の_[Pod launcher]_を一つにまとめて発射できるが、その場合は互いに隣接して配置しなければならない。\n\n(補足:まとめて発射したい場合は_[Transport pod]_を複数選択した状態で荷物の積み込みを行う事。)
+}
+{TransportPod
+	label:_[transport pod]_
+	description:_?トランスポート・ポッド。?_人、アイテム、動物などを乗せられる射出可能な弾道飛行貨物器。贈り物、人や物資の輸送、奇襲、増援に使える。\n\n(補足:まとめて発射したい場合は_[Transport pod]_を複数選択した状態で荷物の積み込みを行う事。)
+}
+{MultiAnalyzer
+	label:_[multi-analyzer]_
+	description:_?マルチ・アナライザー。?__[Hi-tech research bench]_の近くに置くと、研究速度が上がり、また、新しい研究プロジェクトが解除される。一つの_[Research bench]_は一つの_[Multi-analyzer]_だけ使える。
+}
+{VitalsMonitor
+	label:_[vitals monitor]_
+	description:_?バイタル・モニター。?__[Hospital bed]_の隣に置くことで、看護品質、手術の成功率、免疫獲得速度が向上する。_[Hospital bed]_のみに使え、普通の_[Bed]_には意味が無い。一つのベッドに複数の_[Vitals monitor]_を繋げても効果は無い。
+}
+{ToolCabinet
+	label:_[tool cabinet]_
+	description:_?ツール・キャビネット。?_作業台の近くに置くと作業速度を上げられる。一つの作業台は_[Tool cabinet]_を二つまで使える。
+}
+{Grave
+	label:_[grave]_
+	description:_?グレイブ。?_最後の安息の場所。入植達は思いに浸るために墓を訪れる。
+}
+{Sarcophagus
+	label:_[sarcophagus]_
+	description:_?サルコファガス。?_名誉ある死を遂げた者への、装飾された埋葬用の棺。
+}
+{CryptosleepCasket
+	label:_[cryptosleep casket]_
+	description:_?クリプトスリープ・キャスケット。?_人を何年も仮死状態にしておくための、自己動力がある棺。
+}
+{AncientCryptosleepCasket
+	label:_[ancient cryptosleep casket]_
+	description:_?エンシエント・クリプトスリープ・キャスケット。?_この_[Cryptosleep casket]_はとても長い間ここにあったようだ。何が入っていもおかしくない。
+}
+{MarriageSpot
+	label:_[marriage spot]_
+	description:_?マリッジ・スポット。?_結婚式が開かれる場所を指定する。参加者はどちら側からでも見ることができる。
+}
+{PartySpot
+	label:_[party spot]_
+	description:_?パーティ・スポット。?__{party}_が開かれる場所を指定する。
+}
+{CaravanPackingSpot
+	label:_[caravan packing spot]_
+	description:_?キャラバン・パッキング・スポット。?_キャラバンが準備する場所を指定する。_[Stockpiles]_の近くに置くと荷物の積み込みが速くなる。
+}
+{SteleLarge
+	label:_[large stele]_
+	description:側面に彫刻が施された、高く、厚い板。石碑は個人、戦、その他重要な出来事などを記念するために、古代から使われてきた。
+}
+{SteleGrand
+	label:_[grand stele]_
+	description:側面に彫刻が施された、高くそびえる石碑。石碑は個人、戦、その他重要な出来事などを記念するために、古代から使われてきた。
+}
+{CollapsedRocks
+	label:_[collapsed rocks]_
+	description:_?コラップスド・ロック。?_岩が崩落し、天井まで詰まっている。
+}
+{MineableSteel
+	label:_[compacted steel]_
+	description:_?コンパクテッド・スチール。潰れた鉄。?_古代の構造物の残骸。_[Steel]_が豊富。
+}
+{MineableSilver
+	label:_[silver ore]_
+	description:_?シルバー・オレ。銀鉱石。?__[Silver]_を少し含んでいる岩。
+}
+{MineableGold
+	label:_[gold ore]_
+	description:_?ゴールド・オレ。金鉱石。?__[Gold]_を少し含んでいる岩。
+}
+{MineableUranium
+	label:_[uranium ore]_
+	description:_?ウラニウム・オレ。ウラン鉱石。?__[Uranium]_を少し含んでいる岩。
+}
+{MineablePlasteel
+	label:_[compacted plasteel]_
+	description:_?コンパクテッド・プラスチール。潰れたプラスチール。?__<Plasteel>_を豊富に含む古代の潰れた瓦礫。
+}
+{MineableJade
+	label:_[jade]_
+	description:_?ジェード。翡翠。?__<Jade>_を少し含んでいる岩。
+}
+{MineableComponentsIndustrial
+	label:_[compacted machinery]_
+	description:_?コンパクテッド・マシナリー。潰れた機械。?_長い間に潰れた古代の機械。役立つ_[Component]_を採掘できる。
+}
+{SteamGeyser
+	label:_[steam geyser]_
+	description:_?スチーム・ガイザー。?_天然の高圧蒸気源。_[Geothermal generator]_がこの蒸気熱を利用できる。この上に部屋を作ると直ぐさま熱くなる。
+}
+{Hive
+	label:_[hive]_
+	description:_?ハイブ。?_巨大な虫の巣。活性化すると時間と共に虫が湧いて巣も増える。珍しい_<Insect jelly>_も出現する。
+}
+{GlowPod
+	label:_[glow pod]_
+	description:_?グロウ・ポッド。?_巨大な虫が作った生物発光器。自身の光で長時間輝いた後、自壊する。
+}
+{%RaisedRocks
+	label:_[raised rocks]_
+	description:瓦礫で作られた脆い壁。いずれ崩れる。
+}
+{%PowerConduit
+	label:_[power conduit]_
+	description:_?パワー・コンジット。?_辺りに電力を送るための電線を束ねた物。壁や建物の下を通せる。
+}
+{WaterproofConduit
+	label:_[waterproof conduit]_
+	description:_?ウォータープルーフ・コンジット。?_浅い水の下を通して電力を送れる工業用の電線。
+	$:PowerConduit
+}
+{PowerSwitch
+	label:_[power switch]_
+	description:_?パワー・スイッチ。?_電源をオン、オフするスイッチ。
+}
+{WoodFiredGenerator
+	label:_[wood-fired generator]_
+	description:_?ウッド・ファイヤード・ジェネレータ。?_木材を消費して発電する。定期的に人力で木材燃料を補給しなければならない。
+}
+{ChemfuelPoweredGenerator
+	label:_[chemfuel powered generator]_
+	description:_?ケミフューエル・パワード・ジェネレータ。?_化学燃料を消費して発電する。定期的に人力で補給しなければならない。
+}
+{WindTurbine
+	label:_[wind turbine]_
+	description:_?ウィンド・タービン。?_風力発電機。気流を最大限に生かすには、前後を広く空ける必要がある。
+}
+{Battery
+	label:_[battery]_
+	description:_?バッテリー。?_後で使うための電力を蓄える。充電された_<battery>_は雨や火に曝されると爆発する性質がある。
+}
+{SolarGenerator
+	label:_[solar generator]_
+	description:_?ソーラー・ジェネレータ。?_太陽光から発電する。暗闇や人工的な光では機能しない。
+}
+{GeothermalGenerator
+	label:_[geothermal generator]_
+	description:_?ジオサーマル・ジェネレータ。?__[Steam geyser]_の地熱から発電する。_[Steam geyser]_の上に配置する。
+}
+{WatermillGenerator
+	label:_[watermill generator]_
+	description:_?ウォーターミル・ジェネレータ。?_川から発電する。水車が流れる水に入るように設置する。それぞれの発電機を近づけすぎると乱流が生まれ、発電を邪魔して発電量が下がる。
+}
+{CraftingSpot
+	label:_[crafting spot]_
+	description:_?クラフティング・スポット。?_ナイフや弓などの簡単な物を作る場所。道具が無いので作るのは遅い。
+}
+{ButcherSpot
+	label:_[butcher spot]_
+	description:_?ブッチャー・スポット。?_動物を解体する場所。道具が無いので、肉と皮は70%しか得られない。
+}
+{TableSculpting
+	label:_[art bench]_
+	description:_?アート・ベンチ。?_芸術品を作るための作業台。
+}
+{TableButcher
+	label:_[butcher table]_
+	description:_?ブッチャー・テーブル。?_死んだ動物を肉へ解体するための大きな台。
+}
+{HandTailoringBench
+	label:_[hand tailor bench]_
+	description:_?ハンド・テーラー・ベンチ。?_手作業で服を作るための作業台。_[Electric tailor bench]_ の50%の速度で動く。
+}
+{ElectricTailoringBench
+	label:_[electric tailor bench]_
+	description:_?エレクトリック・テーラー・ベンチ。?_服を素早く仕立てられるミシン付き作業台。電力が無いと50%の速度になる。
+}
+{FueledSmithy
+	label:_[fueled smithy]_
+	description:_?フューエルッド・スミシー。?_非機械式武器や道具を作るための、木材燃料を使う作業台。
+}
+{ElectricSmithy
+	label:_[electric smithy]_
+	description:_?エレクトリック・スミシー。?_非機械式武器や道具を作るための、電力を使う作業台。
+}
+{TableMachining
+	label:_[machining table]_
+	description:_?マシニング・テーブル。?_銃や弾などの機械を組み立てたり、死んだ_<Mechanoid>_を分解する作業台。
+}
+{ElectricStove
+	label:_[electric stove]_
+	description:_?エレクトリック・ストーブ。?_食事を作るための台と電気コンロ。
+}
+{FueledStove
+	label:_[fueled stove]_
+	description:_?フューエルッド・ストーブ。?_木材を燃料とする、食事を作るための台とコンロ。
+}
+{TableStonecutter
+	label:_[stonecutter's table]_
+	description:_?ストーンカッターズ・テーブル。?_岩石を切って使いやすいブロックにするための、ノコギリとタガネを備えた作業台。
+}
+{Brewery
+	label:_[brewery]_
+	description:_?ブリューリ。?__[Wort]_を_[Beer]_へするために必要な器具を揃えた作業台。最終的に_[Wort]_を_[Beer]_にするには発酵させなければならない。
+}
+{DrugLab
+	label:_[drug lab]_
+	description:_?ドラッグ・ラボ。?_容器、加熱器、計測器を備えた、各種ドラッグを製造するための作業台。
+}
+{ElectricSmelter
+	label:_[electric smelter]_
+	description:_?エレクトリック・スメルタ。電気炉。?_鉄くずや鉄を含むアイテムから金属を製錬する。消費電力が高い。
+}
+{BiofuelRefinery
+	label:_[biofuel refinery]_
+	description:_?バイオフューエル・リファイナリ。バイオ燃料精製機。?_木材や植物のようなを生体物質を化学燃料に精製する。
+}
+{FabricationBench
+	label:_[fabrication bench]_
+	description:_?ファブリケーション・ベンチ。?_単純な素材から科学技術の粋を集めた物を作り出すための、高度な道具を備えた作業台。
+}
+{SimpleResearchBench
+	label:_[simple research bench]_
+	description:_?シンプル・リサーチ・ベンチ。?_筆記用具と簡易な計測器を備えた簡素な台。研究者は新しい事を見つけるためにここで働く。
+}
+{HiTechResearchBench
+	label:_[hi-tech research bench]_
+	description:_?ハイテク・リサーチ・ベンチ。?_コンピュータと電子計測器を備えた最先端の台。研究がより速くなり、高度な研究プロジェクトが解除される。
+}
+{ElectricCrematorium
+	label:_[electric crematorium]_
+	description:_?エレクトリック・クレマトリウム。電気火葬炉。?_石でできた大きな火葬炉。超高温で死体を蒸発させる。
+}
+{HydroponicsBasin
+	label:_[hydroponics basin]_
+	description:_?ハイドロポニックス・ベイスン。水耕栽培鉢。?_植物を育てる人口栄養槽。栄養供給ポンプは常に動いていないといけない。要するに、電力が切れると植物は枯れる。
+}
+{FermentingBarrel
+	label:_[fermenting barrel]_
+	description:_?ファーメンティング・バレル。発酵樽。?__[Wort]_を発酵させて_[Beer]_にする樽。
+}
+{DeepDrill
+	label:_[deep drill]_
+	description:_?ディープ・ドリル。?_地下から鉱物を掘り出すための深部地殻掘削装置。資源は _[Ground-penetrating scanner]_ を使って見つける。資源が無い場合は石を掘り出す。配置は自由に変えられる。
+}
+{NutrientPasteDispenser
+	label:_[nutrient paste dispenser]_
+	description:_?ニュートリエント・ペースト・ディスペンサ。?_隣接する_[Hopper]_に置かれた有機原料から食べられる栄養ペーストを合成する機械。他の調理方法よりも少ない材料と時間でできるが、誰もこれを好んで食べようとはしない。生の食べ物でも構わないが、_[Hay]_のような粗末な植物は使えない。
+}
+{Hopper
+	label:_[hopper]_
+	description:_?ホッパー。?__[Nutrient paste dispenser]_ のような機械で使う物資を保持する。
+}
+{Sandbags
+	label:_[sandbags]_
+	description:_?サンドバッグ。?_身を隠すために、そこら辺の土や砂を積み重ねたもの。_<Sandbags>_はみっともないが、他の低いモノよりはマシなカバーになる。
+}
+{Barricade
+	label:_[barricade]_
+	description:銃撃から身を守るための、腰高の障壁。_{barricade}_は見苦しいが、他の低い物よりは身を隠しやすい。
+}
+{TrapSpike
+	label:_[spike trap]_
+	description:_?スパイク・トラップ。?_接触式トリガーに接続し、張力を掛けた五本の棘。犠牲者がトリガーに触れると棘が飛び出して突き刺さる。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+}
+{TrapIED_HighExplosive
+	label:_[IED trap]_
+	description:_?IED トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[High-explosive shell]_ 。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+}
+{TrapIED_Incendiary
+	label:_[IED incendiary trap]_
+	description:_?IED インセンディアリ・トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[Incendiary shell]_ 。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+}
+{TrapIED_EMP
+	label:_[IED EMP trap]_
+	description:_?IED EMP トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[EMP shell]_ 。爆発すると_<Mechanoid>_を数秒間停止させる。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+}
+{TrapIED_Firefoam
+	label:_[IED firefoam trap]_
+	description:_?IED ファイアフォーム・トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[Firefoam shell]_ 。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+}
+{TrapIED_AntigrainWarhead
+	label:_[IED antigrain warhead trap]_
+	description:_?IED アンチグレイン・ウォーヘッド・トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した _[Antigrain warhead]_ 。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+}
+{Turret_MiniTurret
+	label:_[mini-turret]_
+	description:_?ミニ・ターレット。?_携帯式自動砲塔。ある程度使った後は_<Steel>_を消費して砲身を新品に交換しなければならない。壊れると爆発する可能性がある。これの賢くない思考AIは直接操作できないので、同士討ちに気を付ける。
+	{comps
+		{CompRefuelable
+			fuelLabel:<<Shots until barrel change??砲身交換までの発射数>>
+			fuelGizmoLabel:<<Barrel durability??砲身耐久度>>
+			outOfFuelMessage:発射不能: 新しい砲身が必要
+		}
+	}
+}
+{$BaseBullet
+	label:bullet
+}
+{Bullet_MiniTurret
+	label:_<mini-turret bullet>_
+	$:BaseBullet
+}
+{Gun_MiniTurret
+	label:_[mini-turret gun]_
+	description:_<Turret>_に載せて使う簡素な自動銃。
+}
+{Turret_Autocannon
+	label:_[autocannon turret]_
+	description:_?オートキャノン・ターレット。?_大型の自動砲塔。それなりの距離から大口径の砲弾で大ダメージを与えられるが、使った後は砲身を新品に交換しなければならない。近すぎる相手には撃てない。また、壊れると爆発する可能性がある。
+	{comps
+		{CompRefuelable
+			fuelLabel:<<Shots until barrel change??砲身交換までの発射数>>
+			fuelGizmoLabel:<<:Barrel durability??砲身耐久度>>
+			outOfFuelMessage:発射不能: 新しい砲身が必要
+		}
+	}
+}
+{Bullet_AutocannonTurret
+	label:_<autocannon shell>_
+	$:BaseBullet
+}
+{Gun_AutocannonTurret
+	label:_[autocannon]_
+	description:_<Turret>_に取り付けるように作られた自動装填、大口径の大砲。
+}
+{Turret_Sniper
+	label:_[uranium slug turret]_
+	description:_?ウラニウム・スラッグ・ターレット?_アーマーを貫通する自動砲塔。超高密度なウラニウム砲弾により重装甲に穴を開けられる。しかし、使った後は新しいウラニウム弾を再装填しなければならない。遠いほど命中率が良く、近距離では発射できない。壊れると爆発する可能性がある。
+	{comps
+		{CompRefuelable
+			fuelLabel:<<Shots until rearm??砲身交換までの発射数>>
+			fuelGizmoLabel:<<Barrel durability??砲身耐久度>>
+			outOfFuelMessage:発射不能: 新しい砲身が必要
+		}
+	}
+}
+{Bullet_TurretSniper
+	label:_<uranium slug>_
+	$:BaseBullet
+}
+{Gun_TurretSniper
+	label:_[uranium slug cannon]_
+	description:_<Turret>_に取り付けるように作られた自動装填式のウラニウム弾を放つ大砲。
+}
+{Turret_Mortar
+	label:_[mortar]_
+	description:_?モーター。?_全種の砲弾を撃てる手動操作の迫撃砲。_[Mortar]_は破壊的なダメージを与えられるが、基本的に命中率が悪いので、開けた場所にいる敵の一団を狙うよりも、大きな要塞を狙う方が効果的。
+}
+{Artillery_Mortar
+	label:_[mortar]_
+	description:_?モーター。?_迫撃砲。壁越しに砲撃する。精度に欠けるが長射程。
+}
+{Ship_Beam
+	label:_[ship structural beam]_
+	description:_?シップ・ストラクチャル・ビーム。?_恒星船を構成する梁。通信、電力、物質運搬に必要な電線や輸送パイプが全て含まれている。
+}
+{Ship_CryptosleepCasket
+	label:_[ship cryptosleep casket]_
+	description:_?シップ・クリプトスリープ・キャスケット。?_宇宙の危険性に対応するために強化された仮死装置。中の生命を宇宙環境で何百年も維持し、大気圏へ再突入できる。
+}
+{Ship_ComputerCore
+	label:_[ship computer core]_
+	description:_?シップ・コンピュータ・コア。?_恒星船を操作し、数十年に渡る旅の中で起こるあらゆる困難を突破できる機械人格を収めた主計算機。
+}
+{Ship_Reactor
+	label:_[ship reactor]_
+	description:_?シップ・リアクター。?_反応炉。宇宙航行における船の動力。発射には長い起動処理が必要で、敵を引き寄せる事になる。
+}
+{Ship_Engine
+	label:_[ship engine]_
+	description:_?シップ・エンジン。?_ジョンソン・タナカ無反動推進装置は船を軌道へ射出させ、星々が広がる空間をゆっくりと渡ることができる。
+}
+{Ship_SensorCluster
+	label:_[sensor cluster]_
+	description:_?センサー・クラスター。?_多機能なセンサーモジュール。通信、危険回避、偽装、妨害などの目的で、超空洞を探査しシグナルを送れる。
+}
+{PsychicEmanator
+	label:_[psychic emanator]_
+	description:_?サイキック・エマネイター。?_落ち着く精神場を周りに放射する古代の装置。近くの人の_{mood}_を良くする。壁を突き抜けて作用する。
+}
+{VanometricPowerCell
+	label:_[vanometric power cell]_
+	description:_?ヴァノメトリック・パワー・セル。?_燃料を使わず無限のエネルギーを生み出す。この技術は_[Archotech]_によって開発さたが、_[Glitterworld]_の常識を越えている。動作原理はよく分かっていないが、量子泡内の揺らぎからエネルギーを直接取り出しているらしい、と科学者達は考えている。
+}
+{InfiniteChemreactor
+	label:_[infinite chemreactor]_
+	description:_?インフィニット・ケミリアクター。?_空気中から取り出された元素を元に、複雑な手順の化学反応で、ゆっくりと化学燃料を生成する。
+}
+{Door
+	label:_[door]_
+	description:_?ドア。?_部屋を隔てるもの。単純な_[Door]_は自分で開け閉めしないといけないので遅くなる。どれほど遅くなるかは_[Door]_が何で作られているかによる。
+}
+{Autodoor
+	label:_[autodoor]_
+	description:_?オートドア。?_部屋を隔てるもの。自動化により止まらずに通れる。
+}
+{%Wall
+	label:_[wall]_
+	description:_?ウォール。?_通れない壁。屋根を支えられる。
+}
+{Column
+	label:_[column]_
+	description:_?カラム。?_屋根を支えられる柱。司会や移動を遮らず、見た目もとても良い。
+}
+{Campfire
+	label:_[campfire]_
+	description:_?キャンプファイヤー。?_食事を作れ、発熱し、数日で燃え尽きる。他の熱源と同じように、屋内に設置することで狭い範囲を温められる。補給可能。
+}
+{PassiveCooler
+	label:_[passive cooler]_
+	description:_?パッシブ・クーラー。?_電気ではなく、水の蒸発を利用した古典的な冷却器。定期的に木材を補給しなければならない。
+}
+{Heater
+	label:_[heater]_
+	description:_?ヒーター。?_電力を熱へ変換する装置。設定温度になると自動的に停止・再始動する。
+}
+{Cooler
+	label:_[cooler]_
+	description:_?クーラー。?_壁に埋め込む空気冷却機。片方から冷気を出し、もう片方から熱を排出する。夏場に部屋を冷ましたり、冷蔵倉庫を作るのに役立つ。
+}
+{Vent
+	label:_[vent]_
+	description:_?ベント。?_閉じた部屋同士の温度を均一にする通風口。
+}
+{$ArtifactBase
+	{comps
+		{CompUsable
+			useLabel:起動する
+		}
+	}
+}
+{PsychicInsanityLance
+	label:_[psychic insanity lance]_
+	description:_?サイキック・インサニティ・ランス。?_使い捨ての精神干渉器。対象者の精神を恐ろしい知覚変容で圧倒して狂乱状態にする。脳障害を起こす危険性がある。距離や壁に構わず効果がある。
+	$:ArtifactBase
+}
+{PsychicShockLance
+	label:_[psychic shock lance]_
+	description:_?サイキック・ショック・ランス。?_使い捨ての精神干渉器。対象者の精神に混沌としたイメージでショックを与え、一貫した理解力を阻害して自失状態にする。脳障害を起こす危険性がある。距離や壁に構わず効果がある。
+	$:ArtifactBase
+}
+{PsychicAnimalPulser
+	label:_[psychic animal pulser]_
+	description:_?サイキック・アニマル・パルサー。?_使い捨ての広域精神干渉器。サイキック・パルスが心を恐怖のイメージで満たし、使用した地域にいる全動物が人間を襲うようになる。現在制御下にある動物には影響しない。
+	$:ArtifactBase
+}
+{PsychicSoothePulser
+	label:_[psychic soothe pulser]_
+	description:_?サイキック・スーズ・パルサー。?_使い捨ての広域精神干渉器。サイキック・パルスが自己満足の知覚変容を引き起こし、使用した地域にいる全員の_{mood}_を一時的に良くする。
+	$:ArtifactBase
+}
+{AIPersonaCore
+	label:_[persona core]_
+	description:_?ペルソナ・コア。?_人類最高の人と同程度の知性を誇る人格を収めた超高度な計算機。単体では休止状態にあるが、適切な支援機構に組み込めば素晴らしい知性になり得る。
+}
+{MechSerumHealer
+	label:_[healer mech serum]_
+	description:_?ヒーラー・メック・シーラム。?_特定の健康状態を治すように改変した_[Mechanite]_を使った秘薬。使い捨て。_[Mechanite]_は今現在対象者に最も悪影響を与えている健康状態を一つだけ治す。他に手の施しようがない健康状態にも効く。_[Mechanite]_は有機物にすら変化でき、必要なら、新しい手足や臓器などを成形できる。
+	{comps
+		{CompUsable
+			useLabel:_[healer mech serum]_ を使う
+		}
+	}
+}
+{MechSerumResurrector
+	label:_[resurrector mech serum]_
+	description:_?リザレクター・メック・シーラム。?_死体を蘇生させるように改変した_[Mechanite]_を使った秘薬。使い捨て。死体に投与すると、_[Mechanite]_が壊れた組織を修復し、体を生き返らせる。しかし、時たま脳の損傷、盲目、進行性の精神病を伴って蘇生することがある。_[Mechanite]_をより新鮮な死体に投与すれば、結果もより良くなる。例え死んでから長い時間が経っていても、保存してあれば蘇生できる。
+	{comps
+		{CompUsable
+			useLabel:_[resurrector mech serum]_ を使う
+		}
+	}
+}
+{TechprofSubpersonaCore
+	label:_[techprof subpersona core]_
+	description:_?テックプロフ・サブペルソナ・コア。?_小さなAIコアに、技術を教えることに特化した、低級な副人格を収めたもの。使用すると、今研究している技術を、即座にタダで、AIが教えてくれる。一度しか使用できない。
+	{comps
+		{CompUsable
+			useLabel:_[techprof subpersona core]_ を使う
+		}
+	}
+}
+{ThrumboHorn
+	label:_[thrumbo horn]_
+	description:_?スランボ・ホーン。?_スランボの角。非常に鋭く、石のように固く、どこの市場でも値が付かない。真の戦利品であり、物騒な近接武器でもある。
+	{tools
+		{point
+			label:_<point>_
+		}
+		{base
+			label:_<base>_
+		}
+	}
+}
+{ElephantTusk
+	label:_[elephant tusk]_
+	description:_?エレファント・タスク。?_像の牙。とても丈夫で貴重。近接武器としてはちょっと扱いにくいが、物騒なことには変わりない。
+	{tools
+		{point
+			label:_<point>_
+		}
+		{base
+			label:_<base>_
+		}
+	}
+}
+{MealSurvivalPack
+	label:_[packaged survival meal]_
+	description:_?パッケージド・サバイバル・ミール。?_高品質な包装された食べ物。非常事態向けに作られたもの。腐ることはないが、屋外に放置すれば劣化する事には変わりはない。旅に最適。
+}
+{MealNutrientPaste
+	label:_[nutrient paste meal]_
+	description:_?ニュートリエント・ペースト・ミール。?_タンパク質、炭水化物、ビタミン、アミノ酸、ミネラルの混合物。体が必要とする物は全て入っているが、極めて不味い。
+}
+{MealSimple
+	label:_[simple meal]_
+	description:_?シンプル・ミール。?_一つの食材から手早く作られた食事。
+}
+{MealFine
+	label:_[fine meal]_
+	description:ファイン・ミール。数種の食材から丁寧に作られた食事。
+}
+{MealLavish
+	label:_[lavish meal]_
+	description:_?ラビッシュ・ミール。?_料理の傑作。体、心、魂も充足する。
+}
+{Kibble
+	label:_[kibble]_
+	description:_?キブル。?_肉と草を混ぜて作られた動物の餌。人も食べられるが、そんな事をしたいとは全く思っていない。
+}
+{Pemmican
+	label:_[pemmican]_
+	description:_?ペミカン。?_脂と植物を混ぜ合わせた保存食。淡泊だが、嫌な味ではない。冷蔵せずとも長持ちする。旅に最適。
+}
+{Chocolate
+	label:_[chocolate]_
+	description:_?チョコレート。?_カカオの種と、砂糖、バニラを一緒にすりつぶした美味しい加工品。娯楽欲求を満たせるが、栄養はあまりない。
+}
+{Milk
+	label:_[milk]_
+	description:_?ミルク。?_動物の乳。
+}
+{InsectJelly
+	label:_[insect jelly]_
+	description:_?インセクト・ゼリー。?_大型の虫が食べ物として蓄えているゼリー。なめらかで、味わい深く、食べた者は娯楽欲求を満たせる。独特な生物学的特徴により、殆どの生物が栄養を得られる。また、腐ることはない。
+}
+{EggChickenUnfertilized
+	label:_[chicken egg (unfert.)]_
+	description:_?チキン・エッグ(アンファート～)。?_鶏の無精卵。生でも食べられるが、焼いた方がもっと美味しい。
+}
+{EggChickenFertilized
+	label:_[chicken egg (fert.)]_
+	description:_?チキン・エッグ(ファート～)。?_鶏の有精卵。順調にいけば、孵化してヒヨコになるはず。生でも食べられるが、焼いた方がもっと美味しい。
+}
+{EggCobraFertilized
+	label:_[cobra egg (fert.)]_
+	description:_?コブラ・エッグ(ファート～)。?__[Cobra]_の有精卵。順調にいけば、孵化して_[Cobra]_の子になるはず。生でも食べられるが、焼いた方がもっと美味しい。
+}
+{EggIguanaFertilized
+	label:_[iguana egg (fert.)]_
+	description:_?イグアナ・エッグ(ファート～)。?_イグアナの有精卵。順調にいけば、孵化してイグアナの子になるはず。生でも食べられるが、焼いた方がもっと美味しい。
+}
+{EggTortoiseFertilized
+	label:_[tortoise egg (fert.)]_
+	description:_?トータス・エッグ(ファート～)。?_亀の有精卵。順調にいけば、孵化して亀の子になるはず。生でも食べられるが、焼いた方がもっと美味しい。
+}
+{EggCassowaryFertilized
+	label:_[cassowary egg (fert.)]_
+	description:_?カソワリ・エッグ(ファート～)。?__[Cassowary]_の有精卵。順調にいけば、孵化して_[Cassowary]_の子になるはず。生でも食べられるが、焼いた方がもっと美味しい。
+}
+{EggEmuFertilized
+	label:_[emu egg (fert.)]_
+	description:_?エミュー・エッグ(ファート～)。?__[Emu]_の有精卵。順調にいけば、孵化して_[Emu]_の子になるはず。生でも食べられるが、焼いた方がもっと美味しい。
+}
+{EggOstrichFertilized
+	label:_[ostrich egg (fert.)]_
+	description:_?オストリッチ・エッグ(ファート～)。?__[Ostrich]_の有精卵。順調にいけば、孵化して_[Ostrich]_の子になるはず。生でも食べられるが、焼いた方がもっと美味しい。
+}
+{EggTurkeyFertilized
+	label:_[turkey egg (fert.)]_
+	description:_?ターキー・エッグ(ファート～)。?__[Turkey]_の有精卵。順調にいけば、孵化して_[Turkey]_の子になるはず。生でも食べられるが、焼いた方がもっと美味しい。
+}
+{EggDuckUnfertilized
+	label:_[duck egg (unfert.)]_
+	description:_?ダック・エッグ(アンファート～)?__[duck]_の無精卵。生でも食べられるが、焼いたほうがもっともっと美味しい。
+}
+{EggDuckFertilized
+	label:_[duck egg (fert.)]_
+	description:_?ダック・エッグ(ファート～)?__[duck]_の有精卵。順調にいけば、孵化して_[duck]_の子になるはず。生でも食べられるが、焼いたほうがもっと美味しい。
+}
+{EggGooseUnfertilized
+	label:_[goose egg (unfert.)]_
+	description:_?グース・エッグ(アンファート～)?__[goose]_の無精卵。生でも食べられるが、焼いたほうがもっともっと美味しい。
+}
+{EggGooseFertilized
+	label:_[goose egg (fert.)]_
+	description:_?グース・エッグ(ファート～)?__[goose]_の有精卵。順調にいけば、孵化して_[goose]_の子になるはず。生でも食べられるが、焼いたほうがもっと美味しい。
+}
+{MedicineHerbal
+	label:_[herbal medicine]_
+	description:_?ハーバル・メディスン。?__[Healroot]_から摘んだ薬草の束。本格的な医薬品より効果は薄いが、何も無いよりはまし。
+}
+{MedicineIndustrial
+	label:_[medicine]_
+	description:_?メディスン。?_工業世代の医療器具の一揃え。基本的なドラッグ、手術や接骨道具、診断機器、各種絆創膏や軟膏などが含まれている。
+}
+{MedicineUltratech
+	label:_[glitterworld medicine]_
+	description:_?グリッターワールド・メディスン。?_恐らく、遠く離れた_[Glitterworld]_で製造されたと思われる、高度な医療品の一式。先進的な多型ドラッグ、ナノ診断・治療補助器、小型画像解析器、各種多機能道具が含まれている。
+}
+{ComponentIndustrial
+	label:_[component]_
+	description:_?コンポーネント。?_様々なギア、キャパシタ、サーキットボード、チューブ、ホイール、センサー、ワイヤー、チップ、プロセッサー、その他電子部品、工業部品など。複雑な機械や電子機器を組み立てるのに必要。
+}
+{ComponentSpacer
+	label:_[advanced component]_
+	description:_?アドバンスト・コンポーネント。?_高度な計算能力とエネルギー制御能力を持つ機械で、過酷な用途向けに小型化、強化されている。
+}
+{Neutroamine
+	label:_[neutroamine]_
+	description:_?ニュートロアミン。?_人工合成された化学物質。前駆体。単体では使えないが、多くのドラッグがこれを材料にしている。
+}
+{Chemfuel
+	label:_[chemfuel]_
+	description:_?ケミフューエル。?_揮発性の液化燃料。エンジンやロケットの燃料、飛翔体の推進剤、焼夷武器としても使われる。
+}
+{RawPotatoes
+	label:_[potatoes]_
+	description:_?ポテト。?_生の_[Potatoes]_。
+}
+{RawFungus
+	label:_[raw fungus]_
+	description:_?ロウ・フングス。?__[Raw fungus]_。
+}
+{RawRice
+	label:_[rice]_
+	description:_?ライス。?_生の_[Rice]_。
+}
+{RawAgave
+	label:_[agave fruit]_
+	description:_?アガベ・フルーツ。?_生の_[Agave fruit]_。
+}
+{RawCorn
+	label:_[corn]_
+	description:_?コーン。?_生の_[Corn]_。
+}
+{RawBerries
+	label:_[berries]_
+	description:_?ベリー。?_種々の_[Berries]_。生でも美味しい。
+}
+{Hay
+	label:_[hay]_
+	description:_?ヘイ。?_刈り取って保管のために纏められた、栄養豊富な草と新芽。_[Hay]_は優れた動物の餌だが、人は食べられない。
+}
+{RawHops
+	label:_[hops]_
+	description:_?ホップ。?_生の_[Hops]_。_[Beer]_作りに欠かせない香味料かつ保存料。
+}
+{PsychoidLeaves
+	label:_[psychoid leaves]_
+	description:_?サイコイド・リーフス。?__[Psychoid plant]_ から切り取った生の葉。各種_[Psychite]_ドラッグへ精製できる。
+}
+{SmokeleafLeaves
+	label:_[smokeleaf leaves]_
+	description:_?スモークリーフ・リーフス。?__[Smokeleaf plant]_から切り取った生の葉。  _[Crafting spot]_ で_[Joint]_にできる。
+}
+{Shell_HighExplosive
+	label:_[high-explosive shell]_
+	description:_?ハイ・エクスプローシブ・シェル。?_高性能爆薬を詰めた弾殻。_[Mortar]_で発射するか、罠として使える。壊れると爆発する。
+}
+{Bullet_Shell_HighExplosive
+	label:_[high-explosive shell]_
+	$:BaseBullet
+}
+{Shell_Incendiary
+	label:_[incendiary shell]_
+	description:_?インセンディアリ・シェル。?_可燃性ゲルと少量の炸薬を詰めた弾殻。破裂すると燃え始める。_[Mortar]_で発射するか、罠として使える。壊れると爆発する。
+}
+{Bullet_Shell_Incendiary
+	label:_[incendiary shell]_
+	$:BaseBullet
+}
+{Shell_EMP
+	label:_[EMP shell]_
+	description:_?EMPシェル。?_バッテリーとアンテナを詰めた弾殻で、破裂すると電磁パルスを発する。電磁パルスが電子機器や_<Mechanoid>_を一時的に停止させる。_<Mortar>_で発射するか、罠として使える。壊れると爆発する。
+}
+{Bullet_Shell_EMP
+	label:_[EMP shell]_
+	$:BaseBullet
+}
+{Shell_Firefoam
+	label:_[firefoam shell]_
+	description:_?ファイアフォーム・シェル。?_難燃性の泡を高圧充填した弾殻。_<Mortar>_で発射するか、罠として使える。壊れると爆発する。
+}
+{Bullet_Shell_Firefoam
+	label:_[firefoam shell]_
+	$:BaseBullet
+}
+{Shell_AntigrainWarhead
+	label:_[antigrain warhead]_
+	description:_?アンチグレイン・ウォーヘッド。?_反物質の一粒を使った超ハイテクな弾頭。主に宇宙艦艇や_[Glitterworld]_の戦争兵器で使われており、大爆発を起こし、周りに火を放つ。_[Mortar]_で発射するか、罠として使える。壊れると爆発する。
+}
+{Bullet_Shell_AntigrainWarhead
+	label:_[antigrain warhead]_
+	$:BaseBullet
+}
+{Silver
+	label:_[silver]_
+	description:_?シルバー。?_この金属は主に資源国通貨として使われる。装飾品を作るためにも使える。
+}
+{Gold
+	label:_[gold]_
+	description:_?ゴールド。?_最も魅惑的な金属。柔らかすぎて実用的でないが、とても美しく、全く変色しない。金への終わりなき渇望を満たすため、数え切れない人々が死んだ。
+	{stuffProps
+		stuffAdjective:_[golden]_
+	}
+}
+{Steel
+	label:_[steel]_
+	description:_?スチール。鋼鉄。?_鉄と炭素からなる合金で、多様な建物、武器、機械に使われている。
+}
+{Plasteel
+	label:_[plasteel]_
+	description:_?プラスチール。?_宇宙民族の化学力による先進的な建造素材。独特な分子構造によりとても頑丈。
+}
+{WoodLog
+	label:_[wood]_
+	description:_?ウッド。?_樹木や繊維質の植物から採れた木材。建物や武器に使える。_[Campfire]_や発電機などの燃料になり、精製して化学燃料にも出来る。緊急時には木の棒は武器や義足として使える。
+	{stuffProps
+		stuffAdjective:_[wooden]_
+	}
+	{tools
+		{log
+			label:_<log>_
+		}
+	}
+}
+{Uranium
+	label:_[uranium]_
+	description:_?ウラニウム。?_黒く、とても重い金属。核反応を利用した装置の燃料として有名だが、密度と硬度が非常に高いので、特定の武器や鎧、弾にも適している。
+}
+{Jade
+	label:_[jade]_
+	description:_?ジェード。ヒスイ(翡翠)。?_緑色の硬い石。この美しさと希少さから、置物や飾り物として使われることが多い。また、この硬度と密度の高さは鈍器の良い素材にもなる。
+}
+{Cloth
+	label:_[cloth]_
+	description:_?クロース。?_有機繊維から織られた布。
+}
+{Synthread
+	label:_[synthread]_
+	description:_?シンスレッド。?_宇宙民族の技術による普段着用の合成生地。柔らかく、軽く、丈夫で、断熱性に優れている。
+}
+{DevilstrandCloth
+	label:_[devilstrand]_
+	description:_?デビルストランド。?__[Devilstrand]_キノコから採れた微細繊維を紡いだ生地。とても頑丈で、断熱性が良く、並外れて炎に強い。
+}
+{Hyperweave
+	label:_[hyperweave]_
+	description:_?ハイパーウィーブ。?_専用の生産_[Mechanite]_を使って極細繊維を分子レベルで織り込んだ布。大抵の場合は自由に曲がるが、打撃を受けると硬くなって衝撃を吸収し、また、引き裂くのはとても難しい。生産方法は最も先進的な_[Glitterworld]_の世界だけに知られている。
+}
+{WoolMegasloth
+	label:_[megasloth wool]_
+	description:_?メガスロス・ウール。?_少し粗いが、毛足が長いためとても丈夫。かなり暖かい。
+}
+{WoolMuffalo
+	label:_[muffalo wool]_
+	description:_?マッファロ・ウール。?_柔らかく、軽く、優れた断熱性がある。これでできた服は極寒でも体温を保ってくれる。
+}
+{WoolAlpaca
+	label:_[alpaca wool]_
+	description:_?アルパカ・ウール。?_驚くほど柔らかく、とても暖かい。
+}
+{WoolBison
+	label:_[bison wool]_
+	description:_?バイソン・ウール。?__{bison}_の厚くて荒い毛。かなり温かい。
+}
+{WoolSheep
+	label:_[sheep wool]_
+	description:_?シープ・ウール。?__{sheep}_の毛。断熱性が良い。
+}
+{$LeatherBase
+	description:なめして、乾かして、磨いた皮。衣服やバッグの伝統的な素材。
+}
+{Leather_Plain
+	label:_[plainleather]_
+	$:LeatherBase
+}
+{Leather_Dog
+	label:_[dog leather]_
+	$:LeatherBase
+}
+{Leather_Wolf
+	label:_[wolfskin]_
+	description:狼系の動物から剥いだ柔らかい毛皮。突き通しにくく、冷気を良く防ぐ。
+	$:LeatherBase
+}
+{Leather_Panthera
+	label:_[panthera fur]_
+	description:大型のネコから剥いだ柔らかい毛皮。突き通しにくく、熱気を良く防ぐ。
+	$:LeatherBase
+}
+{Leather_Camel
+	label:_[camelhide]_
+	description:なめして、乾かして、磨いた_[Camel]_の皮。暑い気候での温度調整に優れている。
+	$:LeatherBase
+}
+{Leather_Bluefur
+	label:_[bluefur]_
+	description:_[Muffalo]_の毛皮。独特の青い色合いで直ぐにそれと判る。寒い気候での温度調整に優れている。
+	$:LeatherBase
+}
+{Leather_Bear
+	label:_[bearskin]_
+	description:_[Bear]_の強い毛皮。他の革と比べると、かなり丈夫で、あらゆる温度調整に少しだけ優れている。
+	$:LeatherBase
+}
+{Leather_GuineaPig
+	label:_[guinea pig fur]_
+	description:_[guinea pig fur]_の毛皮。繊細だが、豪華だ。
+	$:LeatherBase
+}
+{Leather_Human
+	label:_[human leather]_
+	description:なめして、乾かして、磨いた人の皮。殆どの人はこれを嫌がるが、一部の人は気に入る。一応革だが、_{armor}_も断熱も特に優れているわけでは無い。
+	$:LeatherBase
+}
+{Leather_Pig
+	label:_[pigskin]_
+	description:なめして、乾かして、磨いた_[Pig]_の皮。一応革だが、_{armor}_も断熱も特に優れているわけでは無い。
+	$:LeatherBase
+}
+{Leather_Light
+	label:_[lightleather]_
+	description:軽く、薄い革。恐らく小型の動物から剥いだもの。_{armor}_に関しては厚い革より劣る。
+	$:LeatherBase
+}
+{Leather_Bird
+	label:_[birdskin]_
+	description:なめして、乾かして、磨いた鳥の皮。とても繊細。羽が無いので暑さや寒さを殆ど防がない。
+	$:LeatherBase
+}
+{Leather_Chinchilla
+	label:_[chinchilla fur]_
+	description:なめして、乾かして、磨いた_[Chinchilla]_の皮。かなり贅沢で断熱性が良い事で知られており、非常に高価。
+	$:LeatherBase
+}
+{Leather_Fox
+	label:_[foxfur]_
+	description:_[Fox]_の毛皮。冷気を良く防ぎ、とても贅沢で、高値で売れる。
+	$:LeatherBase
+}
+{Leather_Lizard
+	label:_[lizardskin]_
+	description:なめした爬虫類の皮。そこそこ丈夫だが、断熱性は無い。
+	$:LeatherBase
+}
+{Leather_Elephant
+	label:_[elephant leather]_
+	description:なめして、乾かして、磨いた_[Elephant]_の皮。とても丈夫だが、断熱性は良くない。
+	$:LeatherBase
+}
+{Leather_Heavy
+	label:_[heavy fur]_
+	description:長く、硬くもつれた毛に覆われた厚い革。大型の逞しい動物から剥いだもの。厚い皮により_{armor}_も断熱性も優れている。
+	$:LeatherBase
+}
+{Leather_Rhinoceros
+	label:_[rhinoceros leather]_
+	description:なめして、乾かして、磨いた_[Rhinoceros]_の皮。戦闘では非常に丈夫だが、断熱性は殆ど無い。
+	$:LeatherBase
+}
+{Leather_Thrumbo
+	label:_[thrumbofur]_
+	description:_[Thrumbo]_の毛皮。贅沢で、非常に丈夫。その高い断熱性と丈夫さにより、最高級の品に使われる。
+	$:LeatherBase
+}
+{Leather_Patch
+	label:_[patchleather]_
+	description:各種革をばらして縫い合わせて作った弱い生地。どの革から作られたかに関わらず、不規則な縫い目により、他の革よりも丈夫さや断熱性が劣っている。
+	$:LeatherBase
+}
+{$UnfinishedBase
+	;継承されているが未使用
+	label:unfinished thing
+}
+{UnfinishedSculpture
+	label:_[unfinished sculpture]_
+	description:未完成の_[sculpture]_。
+	$:UnfinishedBase
+}
+{UnfinishedGun
+	label:_[unfinished gun]_
+	description:未完成の銃器。
+	$:UnfinishedBase
+}
+{UnfinishedWeapon
+	label:_[unfinished weapon]_
+	description:未完成の武器。
+	$:UnfinishedBase
+}
+{UnfinishedArmor
+	label:_[unfinished armor]_
+	description:未完成の簡素な鎧。
+	$:UnfinishedBase
+}
+{%UnfinishedTechArmor
+	label:_[unfinished armor]_
+	description:未完成のハイテク鎧。
+	$:UnfinishedBase
+}
+{UnfinishedMetallicTechArmor
+	label:_[unfinished armor]_
+	description:未完成の金属鎧。
+	$:UnfinishedTechArmor
+}
+{UnfinishedApparel
+	label:_[unfinished apparel]_
+	description:未完成の衣服。
+	$:UnfinishedBase
+}
+{UnfinishedBelt
+	label:_[unfinished belt]_
+	description:未完成のベルト。
+	$:UnfinishedBase
+}
+{UnfinishedComponent
+	label:_[unfinished component]_
+	description:未完成の_[component]_。
+	$:UnfinishedBase
+}
+{UnfinishedHealthItemProsthetic
+	label:<<unfinished prosthetic??未完成の補綴>>
+    description:未完成の補綴。
+	$:UnfinishedBase
+}
+{UnfinishedHealthItemBionic
+	label:<<unfinished bionic??未完成のバイオニック>>
+	description:未完成のバイオニック。
+	$:UnfinishedBase
+}
+{MinifiedThing
+	label:_[minified thing]_
+}
+{Apparel_ShieldBelt
+	label:_[shield belt]_
+	description:_?シールド・ベルト。?_飛翔体反発装置。飛んでくる飛翔体や散弾を止めようとするが、近接攻撃や熱に対しては何もしない。着用者からの射撃を妨げ、また、EMPが当たると簡単に無効化される。
+}
+{Apparel_SmokepopBelt
+	label:_[smokepop belt]_
+	description:_?スモークポップ・ベルト。?_使い捨ての自動式防御煙幕。着用者が撃たれると周囲に煙を放ち、狙いを曖昧にし、_<Turret>_からの照準を妨害する。
+}
+{%Apparel_CowboyHat
+	label:_[cowboy hat]_
+	description:_?カウボーイ・ハット。?_お洒落だが荒削りなこの帽子は、日差しや雨をしのげ、かぶった者は誰であろうと少しだけ魅力的になる。伝統的なウェスタン衣装には欠かせない。
+}
+{Apparel_BowlerHat
+	label:_[bowler hat]_
+	description:_?ボーラー・ハット。山高帽。?_少し都会的でカネの匂いを漂わせる、かっこ良い帽子。社交的な影響力が良くなる。
+	$:Apparel_CowboyHat
+}
+{Apparel_TribalHeaddress
+	label:_[tribal headdress]_
+	description:_?トライバル・ヘッドドレス。_{tribe}_の頭飾り。?_品がある伝統的な衣装で、宗教的な意味があることも。社交的な影響力が良くなる。
+}
+{Apparel_Tuque
+	label:_[tuque]_
+	description:_?チューク。ニット帽。?_柔らかい、厚手の帽子。冬の寒さに最適。
+}
+{Apparel_WarMask
+	label:_[war mask]_
+	description:_?ウォー・マスク。?_恐ろしさにこだわった戦闘用仮面。顔を隠すことで着用者をより大胆にさせる。
+}
+{Apparel_WarVeil
+	label:_[war veil]_
+	description:_?ウォー・ベイル。?_戦闘中に破れたかのように見せかけるため、裂いた強化布から作られている。勇気を与える力があると思われている。
+}
+{Apparel_SimpleHelmet
+	label:_[simple helmet]_
+	description:_?シンプル・ヘルメット。?_鋭い攻撃をそれなりに防いでくれる簡素なヘルメット。鈍器に対しては効果がない。
+}
+{Apparel_AdvancedHelmet
+	label:_[flak helmet]_
+	description:_?フラック・ヘルメット。?_軽量な戦闘用ヘルメット。複雑な作りで、_<Plasteel>_で強化されている。鈍器に対しては効果がない。
+}
+{Apparel_PowerArmorHelmet
+	label:_[marine helmet]_
+	description:_?マーリン・ヘルメット。?_ステータス・コンピューターを内蔵し、_<Plasteel>_積層装甲で作られている _[Marine armor]_ のヘルメット。\n\nこのような防具は帝国兵や強襲宇宙海兵隊が使っている。
+}
+{Apparel_ArmorHelmetRecon
+	label:_[recon helmet]_
+	description:_?レコン・アーマー。?_ステータス・コンピュータを内蔵し、_<Plasteel>_積層装甲で作られているハイテクな装甲ヘルメット。\n\nこのような防具は帝国偵察兵や_[glitterworld]_の警察部隊で使われている。
+}
+{Apparel_PsychicFoilHelmet
+	label:_[psychic foil helmet]_
+	description:_?サイキック・ホイル・ヘルメット。?_綿密に調整された精神波吸収膜が含まれている薄いヘルメット。精神感応波の影響力を減らす。
+}
+{Apparel_TribalA
+	label:_[tribalwear]_
+	description:_?トライバルウェア。_{tribe}_の服。?_石器時代の道具で作られた体全体を覆う衣。原始的に見えるが、断熱性は優れている。
+}
+{Apparel_Parka
+	label:_[parka]_
+	description:極寒の中でも暖かい_<Parka>_。
+}
+{Apparel_Pants
+	label:_[pants]_
+	description:_?パンツ。?_ただの_<Pants>_。
+}
+{Apparel_BasicShirt
+	label:_[T-shirt]_
+	description:_?Tシート。?_ただの_<T-shirt>_。
+}
+{Apparel_CollarShirt
+	label:_[button-down shirt]_
+	description:_?ボタン・ダウン・シート。?_襟にボタンがある、お洒落なシャツ。
+}
+{Apparel_Duster
+	label:_[duster]_
+	description:_?ダスター。?_屋外での太陽と砂埃を防ぐロング・コート。
+}
+{Apparel_Jacket
+	label:_[jacket]_
+	description:擦り傷や打ち傷を防ぐ丈夫なジャケットで、肌寒い日でも暖かい。
+}
+{Apparel_PlateArmor
+	label:_[plate armor]_
+	description:_?プレート・アーマー。?_首からつま先まで全て覆う、硬い板を重ねた鎧。
+}
+{Apparel_FlakVest
+	label:_[flak vest]_
+	description:_?フラック・ベスト。防弾チョッキ。?_前後に装甲板を入れたチョッキ。銃撃や殺傷攻撃を胴から効果的にそらせるが、それ以外の部位につては関係ない。
+}
+{Apparel_FlakPants
+	label:_[flak pants]_
+	description:_?フラック・パンツ。?_装甲板を縫い付けた_<pants>_。硬いアーマー程ではないが、あらゆる攻撃を効果的に防ぎ、着心地もまだ十分に保たれている。
+}
+{Apparel_FlakJacket
+	label:_[flak jacket]_
+	description:_?フラック・ジャケット。?_装甲板を縫い付けた頑丈な生地のジャケット。硬いアーマー程ではないが、あらゆる攻撃を効果的に防ぎ、着心地もまだ十分に保たれている。
+}
+{Apparel_PowerArmor
+	label:_[marine armor]_
+	description:_?マーリン・アーマー。?__{power armor}_のスーツ。弱い関節部分を除けば、_<Plasteel>_積層装甲が攻撃をとても効果的に防いでいる。ニューロ・メメティック補助装置により、重い鎧を着ても簡単に動けるようになっている。\n\nこのような防具は帝国の_{janissary}_や強襲宇宙海兵隊が使っている。
+}
+{Apparel_ArmorRecon
+	label:_[recon armor]_
+	description:_?レコン・アーマー。?_迅速な移動を可能にする、_軽量な準強化アーマーのスーツ。軽量な_<plasteel>_積層装甲が機動性を損なわずに攻撃を受け止め、また、下半身のニューロ・メメティック補助装置により、鎧を付けても簡単に動けるようになっている。\n\nこのような防具は帝国の偵察兵や _[glitterworld]_ の警官隊が使っている。
+}
+{Bombardment
+	label:_[bombardment]_
+}
+{PowerBeam
+	label:_[power beam]_
+}
+;多分見えない
+{SignalAction_Letter
+	label:signal action - letter
+}
+{SignalAction_Ambush
+
+	label:signal action - ambush
+}
+; この辺はワールドマップで見られるはず
+{DropPodIncoming
+	label:_<drop pod>_ (<<incoming??入>>)
+}
+{DropPodLeaving
+	label:_<drop pod>_ (<<leaving??出>>)
+}
+{ShipChunkIncoming
+	label:<<ship chunk (incoming)??船残骸 (入)>>
+}
+{CrashedShipPartIncoming
+	label:<<crashed ship part??墜落した船の一部>> (<<incoming??入>>)
+}
+{MeteoriteIncoming
+	label:<<meteorite (incoming)??隕石 (入)>>
+}
+;多分見えない
+{RectTrigger
+	label:rect trigger
+}
+{TriggerUnfogged
+	label:trigger unfogged
+}
+{Explosion
+	label:<<explosion??爆発>>
+}
+{Blight
+	label:_[blight]_
+}
+{Tornado
+	label:_<tornado>_
+}
+{TunnelHiveSpawner
+	label:<<tunnel??トンネル>>
+}
+{Filth_Dirt
+	label:_[dirt]_
+}
+{Filth_AnimalFilth
+	label:_[animal filth]_
+}
+{Filth_Trash
+	label:_[trash]_
+}
+{Filth_Sand
+	label:_[sand]_
+}
+{Filth_RubbleRock
+	label:_[rock rubble]_
+}
+{Filth_RubbleBuilding
+	label:_[building rubble]_
+}
+{SlagRubble
+	label:_[scattered slag]_
+}
+{SandbagRubble
+	label:_[scattered sandbags]_
+}
+{Filth_Blood
+	label:_[blood]_
+}
+{Filth_BloodInsect
+	label:_[bugblood]_
+}
+{Filth_MachineBits
+	label:_[machine bits]_
+}
+{Filth_AmnioticFluid
+	label:_[amniotic fluid]_
+}
+{Filth_Slime
+	label:_[slime]_
+}
+{Filth_Vomit
+	label:_[vomit]_
+}
+{Filth_FireFoam
+	label:_[firefoam]_
+}
+{Filth_Fuel
+	label:_[chemfuel puddle]_
+	description:可燃性の燃料溜まり。
+}
+{Filth_CorpseBile
+	label:_[corpse bile]_
+}
+{Filth_Ash
+	label:_[ash]_
+}
+{$BaseGas
+	label:gas
+}
+{Gas_Smoke
+	label:<<smoke??煙>>
+	$:BaseGas
+}
+{ActiveDropPod
+	label:_<drop pod>_
+}
+{Fire
+	label:<<fire??火事>>
+}
+{Spark
+	label:<<spark??火花>>
+}
+{$ChunkRockBase
+	description:岩の塊。利用可能なブロックに切り出せる。
+}
+{$StoneBlocksBase
+	; 継承されているが未使用
+	description:Blocks of stone. Mostly useful for building long-lasting, simple structures.
+}
+{ChunkSlagSteel
+	label:_[steel slag chunk]_
+	description:_?スチール・スラッグ・チャンク。?_くず鉄の塊。このままでは使えないが、_[Steel]_を製錬できる。
+}
+{%Sandstone
+	label:_[sandstone]_
+	description:_?サンドストーン。砂岩。?_砂の粒同士が固まってできた堆積岩。
+}
+{SmoothedSandstone
+	label:_[smoothed sandstone]_
+	description:_?スムースッド・サンドストーン。?_砂の粒同士が固まってできた堆積岩。砂の層が平らで滑らかな表面になるように磨かれている。
+	$:Sandstone
+}
+{ChunkSandstone
+	label:_[sandstone chunk]_
+	$:ChunkRockBase
+}
+{BlocksSandstone
+	label:_[sandstone blocks]_
+	description:_?サンドストーン・ブロック。?__[Sandstone]_のブロック。比較的柔らかい石で、簡単に削れる。
+	{stuffProps
+		stuffAdjective:_[sandstone]_
+	}
+	$:StoneBlocksBase
+}
+{%Granite
+	label:_[granite]_
+	description:_?グラナイト。花崗岩。?_とても硬い火成岩。
+}
+{SmoothedGranite
+	label:_[smoothed granite]_
+	description:_?スムースッド・グラナイト。?_とても硬い火成岩。光沢のある表面は黒、白、ピンクの斑点でモザイク模様を成している。
+	$:Granite
+}
+{ChunkGranite
+	label:_[granite chunk]_
+	$:ChunkRockBase
+}
+{BlocksGranite
+	label:_[granite blocks]_
+	description:_?グラナイト・ブロック。?__[Granite]_のブロック。非常に硬い。
+	{stuffProps
+		stuffAdjective:granite
+	}
+	$:StoneBlocksBase
+}
+{%Limestone
+	label:_[limestone]_
+	description:_?ライムストーン。石灰岩。?_古代の貝殻の残骸が固まってできた堆積岩。
+}
+{SmoothedLimestone
+	label:_[smoothed limestone]_
+	description:_?スムースッド・ライムストーン。?_古代の貝殻の残骸が固まってできた堆積岩。白色に柔らかく輝いており、内部に浮遊している不純物が光のパターンを作っている。
+	$:Limestone
+}
+{ChunkLimestone
+	label:_[limestone chunk]_
+	$:ChunkRockBase
+}
+{BlocksLimestone
+	label:_[limestone blocks]_
+	description:_?ライムストーン・ブロック。?__[Limestone]_のブロック。
+	{stuffProps
+		stuffAdjective:_[limestone]_
+	}
+	$:StoneBlocksBase
+}
+{%Slate
+	label:_[slate]_
+	description:_?スレート。粘板岩。?_暗い色の変成岩。細かい層がスレート劈開(へきかい)であることを象徴している。
+}
+{SmoothedSlate
+	label:_[smoothed slate]_
+	description:_?スムースッド・スレート。?_暗い色の変成岩。細かい層がスレート劈開(へきかい)であることを象徴している。磨かれた表面から内部の層が良く見える。
+	$:Slate
+}
+{ChunkSlate
+	label:_[slate chunk]_
+	$:ChunkRockBase
+}
+{BlocksSlate
+	label:_[slate blocks]_
+	description:_?スレート・ブロック。?__[Slate]_のブロック。削れやすく、ぱっとしない石。
+	{stuffProps
+		stuffAdjective:_[slate]_
+	}
+	$:StoneBlocksBase
+}
+{%Marble
+	label:_[marble]_
+	description:_?マーブル。大理石。?_柔らかい変成岩。
+}
+{SmoothedMarble
+	label:_[smoothed marble]_
+	description:_?スムースッド・マーブル。?_柔らかい変成岩。この半透明の岩はまるで自身で輝いているように見える。
+	$:Marble
+}
+{ChunkMarble
+	label:_[marble chunk]_
+	$:ChunkRockBase
+}
+{BlocksMarble
+	label:_[marble blocks]_
+	description:_?マーブル・ブロック。?__[Marble]_のブロック。柔らかく美しい石で、彫刻しやすい事で知られている。
+	{stuffProps
+		stuffAdjective:_[marble]_
+	}
+	$:StoneBlocksBase
+}
+{MeleeWeapon_Mace
+	label:_[mace]_
+	description:_?メイス。?__[Club]_を改良して、振りやすく、致命的な衝撃を与えるようにしたもの。
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{head
+			label:_<club/head>_
+		}
+	}
+}
+{MeleeWeapon_Gladius
+	label:_[gladius]_
+	description:_?グラディウス。?_古代様式の短剣。刺したり斬ったりするのに良い。軽くて扱いやすく、時に大型の武器を凌ぐこともある。
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{point
+			label:_<point>_
+		}
+		{edge
+			label:_<edge>_
+		}
+	}
+}
+{MeleeWeapon_LongSword
+	label:_[longsword]_
+	description:_?ロングソード。?_古代の王達の剣。斬ったり刺したりできる。
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{point
+			label:_<point>_
+		}
+		{edge
+			label:_<edge>_
+		}
+	}
+}
+{MeleeWeapon_Club
+	label:_[club]_
+	description:_?クラブ。?_敵を殴り殺すための、先端が重い棒状の物。この武器はかなり古くから人間生物学の一部になっている。進化生物学者によると、(他の霊長類が前後にしか動かせないのに対して)人間の手首が横へ曲げられる主な理由は、棍棒を上手く振るうためだという。
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{head
+			label:_<club/head>_
+		}
+	}
+}
+{MeleeWeapon_Knife
+	label:_[knife]_
+	description:_?ナイフ。?_人類最古の加工品の一つ。ナイフには様々な形があるが、基本的な作りは何も変わっていない。握るための柄と、切るための鋭い刃から構成されている。
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{blade
+			label:_<blade>_
+		}
+		{point
+			label:_<point>_
+		}
+	}
+}
+{MeleeWeapon_Ikwa
+	label:_[ikwa]_
+	description:_?イクワ。?_長い刃のような穂に短い柄を付けた槍。素早く突き出すことで、急所を刺せるように作られている。
+	{tools
+		{handle
+			label:_<handle>_
+		}
+		{head
+			label:_<spear/head>_
+		}
+		{edge
+			label:_<edge>_
+		}
+	}
+}
+{MeleeWeapon_Spear
+	label:_[spear]_
+	description:_?スピア。?_尖った先端を付けた棒状の武器。近接戦で相手を突き刺すためのもの。
+	{tools
+		{shaft
+			label:_<spear/shaft>_
+		}
+		{point
+			label:_<point>_
+		}
+	}
+}
+{Bullet_Revolver
+	label:_<revolver bullet>_
+	$:BaseBullet
+}
+{Gun_Revolver
+	label:_[revolver]_
+	description:_?リボルバー。?_古風なダブルアクション機構の回転式拳銃。強力ではないが、ピストルよりは射程が長く、素早く抜ける。
+	{tools
+		{grip
+			label:_<grip>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Gun_Autopistol
+	label:_[autopistol]_
+	description:_?オートピストル。?_古風なブローバック式自動拳銃。ストッピングパワーも射程も良くないが、素早く撃てる。
+	{tools
+		{grip
+			label:_<grip>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_Autopistol
+	label:_<autopistol bullet>_
+	$:BaseBullet
+}
+{Gun_MachinePistol
+	label:_[machine pistol]_
+	description:_?マシン・ピストル。?_小型のサブマシンガン。射程が短いが、とても扱いやすい。低威力だが、発射頻度の高さがそれを補っている。
+	{tools
+		{grip
+			label:_<grip>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_MachinePistol
+	label:_<machine pistol bullet>_
+	$:BaseBullet
+}
+{Gun_IncendiaryLauncher
+	label:_[incendiary launcher]_
+	description:_?インセンディアリ・ランチャー。?_太い銃身の焼夷弾投射器。この筒は小さな可燃性の爆発を起こし、火事を起こす。
+	{tools
+		{stock
+			label:_<stock>_
+		}
+		{barrel
+			label:_<cannon/barrel>_
+		}
+	}
+}
+{Bullet_IncendiaryLauncher
+	label:_<incendiary bolt>_
+	$:BaseBullet
+}
+{Gun_SmokeLauncher
+	label:_[smoke launcher]_
+	description:_[smoke shell]_ を放つ大砲。弾は衝撃を受けと辺りに煙を放ち、銃撃を隠し、_{turret}_のロックオンを防ぐ。
+	{tools
+		{stock
+			label:_<stock>_
+		}
+		{barrel
+			label:_<cannon/barrel>_
+		}
+	}
+}
+{Bullet_SmokeLauncher
+	label:_<smoke launcher shell>_
+	$:BaseBullet
+}
+{Gun_EmpLauncher
+	label:_[EMP launcher]_
+	description:_[EMP shell]_ を放つ大砲。弾は衝撃を受けると電磁エネルギーを爆発させ、機械の標的(_[mechanoid]_, _[turret]_, _[mortar]_)を麻痺させる。また、影響範囲内のシールドを枯渇させる。
+	{tools
+		{stock
+			label:_<stock>_
+		}
+		{barrel
+			label:_<cannon/barrel>_
+		}
+	}
+}
+{Bullet_EMPLauncher
+	label:_<EMP launcher shell>_
+	$:BaseBullet
+}
+{Gun_BoltActionRifle
+	label:_[bolt-action rifle]_
+	description:_?ボルト・アクション・ライフル。?_古風なボルトアクション式小銃。長射程、低発射頻度のため動物の反撃を受けにくい。そのため、狩りの武器として好まれている。
+	{tools
+		{stock
+			label:_<stock>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_BoltActionRifle
+	label:_<bolt-action rifle bullet>_
+	$:BaseBullet
+}
+{Gun_PumpShotgun
+	label:_[pump shotgun]_
+	description:_?ポンプ・ショットガン。?_小球を高密度に噴射する古風な散弾銃。強力だが、射程が短い。
+	{tools
+		{stock
+			label:_<stock>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_Shotgun
+	label:_<shotgun blast>_
+	$:BaseBullet
+}
+{Gun_ChainShotgun
+	label:_[chain shotgun]_
+	description:_?チェイン・ショットガン。?_弾倉式全自動散弾銃。普通の散弾銃より射程が短いが、連射により恐ろしい威力を発揮する。
+	{tools
+		{stock
+			label:_<stock>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Gun_HeavySMG
+	label:_[heavy SMG]_
+	description:_?ヘビー SMG。?_大口径のスラッグ弾を発射するSMG。とても短射程だが、強力なうえ、とても扱いやすい。
+	{tools
+		{grip
+			label:_<grip>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_HeavySMG
+	label:_<heavy SMG bullet>_
+	$:BaseBullet
+}
+{Gun_LMG
+	label:_[LMG]_
+	description:_?ライト・マシンガン。?_ガス式の軽機関銃。少し扱いにくく命中率も悪いが、長続きする連射は敵の集団に効果的。
+	{tools
+		{stock
+			label:_<stock>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_LMG
+	label:_<LMG bullet>_
+	$:BaseBullet
+}
+{Gun_AssaultRifle
+	label:_[assault rifle]_
+	description:_?アサルト・ライフル。?_市街戦などで使う多目的のガス式突撃銃。優れた射程、そこそこな威力、優れた命中率。
+	{tools
+		{stock
+			label:_<stock>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_AssaultRifle
+	label:_<assault rifle bullet>_
+	$:BaseBullet
+}
+{Gun_SniperRifle
+	label:_[sniper rifle]_
+	description:_?スナイパー・ライフル。?_古風な精密狙撃銃。ボルトアクション式。極めて長い射程、素晴らしい命中率と優秀な威力を持つ。とても扱いにくいので、近距離では他の武器のほうが遙かに優れている。
+	{tools
+		{stock
+			label:_<stock>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_SniperRifle
+	label:_<sniper rifle bullet>_
+	$:BaseBullet
+}
+{Gun_Minigun
+	label:_[minigun]_
+	description:_?ミニガン。?_多銃身式機関銃。扱いにくいが、一度発射され始めれば高速に発射される。殆どの自動装填式銃は火薬を動力にしているが、この銃は実包を電動モーターで銃の中を通しながら、高速に入れ替えている。
+	{tools
+		{barrels
+			label:<<barrels??_{barrel}_>>
+		}
+	}
+}
+{Bullet_Minigun
+	label:_<minigun bullet>_
+	$:BaseBullet
+}
+{Gun_TripleRocket
+	label:_[triple rocket launcher]_
+	description:_?トリプル・ロケット・ランチャー。?_大型の爆破ロケットを3発発射する使い捨てのロケットランチャー。硬い標的の小さな集団に対して効果的。\n\n取り回しが悪く、一度しか使えない上に、大破壊を引き起こすので、こんな武器を使うヤツはちょっとやばいヤツだと言われる。
+	{tools
+		{barrel
+			label:_<cannon/barrel>_
+		}
+	}
+}
+{Bullet_Rocket
+	label:_<rocket>_
+	$:BaseBullet
+}
+{Gun_DoomsdayRocket
+	label:_[doomsday rocket launcher]_
+	description:_?ドゥームズデイ・ロケット・ランチャー。?_巨大な爆発を起こす弾を発射する使い捨てのロケットランチャー。柔らかい標的の大きな一団に対して効果的。火を放つ。\n\n取り回しが悪く、一度しか使えない上に、大破壊を引き起こすので、こんな武器を使うヤツはちょっとやばいヤツだと言われる。
+	{tools
+		{barrel
+			label:_<cannon/barrel>_
+		}
+	}
+}
+{Bullet_DoomsdayRocket
+	label:_<doomsday rocket>_
+	$:BaseBullet
+}
+{$BaseGrenadeProjectile
+	label:projectile
+}
+{Weapon_GrenadeFrag
+	label:_[frag grenade]_
+	description:_?フラッグ・グレネード。?_昔ながらの破片手榴弾。近くの爆発させたい所へ投げて、その周囲にある物や人にダメージを与えられる。
+	{verbs
+		{throw_frag_grenade
+			label:_[frag grenade]_ を投げる
+		}
+	}
+}
+{Proj_GrenadeFrag
+	label:_[frag grenade]_
+	$:BaseGrenadeProjectile
+}
+{Weapon_GrenadeMolotov
+	label:_[molotov cocktail]_
+	description:_?モロトフ・カクテル。?_細口のガラス瓶に可燃性の液体を入れ、燃えやすい布を瓶首に詰めたもの。暴徒や辺境を渡り歩く命知らずの戦士達に愛されている武器。
+	{verbs
+		{throw_molotov
+			label:_[molotov]_ を投げる
+		}
+	}
+}
+{Proj_GrenadeMolotov
+	label:_<molotov cocktail>_
+	$:BaseGrenadeProjectile
+}
+{Weapon_GrenadeEMP
+	label:_[EMP grenades]_
+	description:_?EMP グレネード。?_電子機器を損傷させる電磁パルス手榴弾。
+	{verbs
+		{throw_EMP_grenade
+			label:_[EMP grenade]_ を投げる
+		}
+	}
+}
+{Proj_GrenadeEMP
+	label:_<EMP grenade>_
+	$:BaseGrenadeProjectile
+}
+{Bullet_ChargeBlasterHeavy
+	label:_<charge blaster shot>_
+	$:BaseBullet
+}
+{$Gun_ChargeBlasterHeavyBase
+	label:_[heavy charge blaster]_
+	description:_?ヘビー・チャージ・ブラスター。?_エリア制圧射撃に使われるパルスチャージ高速連射ブラスター。長い冷却が、長く、致命的な連射を可能にする。
+	{tools
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Gun_ChargeBlasterHeavy
+	$:Gun_ChargeBlasterHeavyBase
+}
+{Bullet_InfernoCannon
+	label:_<inferno cannon shell>_
+	$:BaseBullet
+}
+{$Gun_InfernoCannonBase
+	label:_[inferno cannon]_
+	description:_?インフェルノ・キャノン。?_焼夷弾を放つ小型の野戦砲。大型の焼夷弾頭を発射する。
+	{tools
+		{barrel
+			label:_<cannon/barrel>_
+		}
+	}
+}
+{Gun_InfernoCannon
+	$:Gun_InfernoCannonBase
+}
+{Gun_Needle
+	label:_[needle gun]_
+	description:_[Mechanoid]_が使う長射程武器。針のような飛翔体から名付けられたそれは、とても正確な一撃を放つ。威力はチャージ武器より弱いが、とても遠くまで届く。
+	{tools
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_NeedleGun
+	label:_<needle shot>_
+	$:BaseBullet
+}
+{$BaseProjectileNeolithic
+	;継承しているが未使用
+	label:arrow
+}
+{Bow_Short
+	label:_[short bow]_
+	description:_?ショート・ボウ。?_一本の木材から作られた簡素な短弓。
+	{tools
+		{limb
+			label:_<limb>_
+		}
+	}
+}
+{Arrow_Short
+	label:_<shortbow arrow>_
+	$:BaseProjectileNeolithic
+}
+{Pila
+	label:_[pila]_
+	description:_?ピラ。?_投げやり。投げるのが遅いが、一発で大打撃を与えられる。この武器は_[Pila]_の束になっており、何度も投げられる。pilaの単数形はpilum。
+	{tools
+		{shaft
+			label:_<spear/shaft>_
+		}
+		{point
+			label:_<spear/point>_
+		}
+	}
+}
+{Pilum_Thrown
+	label:_<pilum>_
+	$:BaseProjectileNeolithic
+}
+{Bow_Recurve
+	label:_[recurve bow]_
+	description:_?リカーブ・ボウ。?_バネのように働く構造により、より効率的に力を蓄え、より速い矢を撃ち出す。
+	{tools
+		{limb
+			label:_<limb>_
+		}
+	}
+}
+{Arrow_Recurve
+	label:_<recurve bow arrow>_
+	$:BaseProjectileNeolithic
+}
+{Bow_Great
+	label:_[greatbow]_
+	description:_?グレートボウ。?_強力な弓。重い矢を遠くまで撃てる。
+	{tools
+		{limb
+			label:_<limb>_
+		}
+	}
+}
+{Arrow_Great
+	label:_<greatbow arrow>_
+	$:BaseProjectileNeolithic
+}
+{Gun_ChargeRifle
+	label:_[charge rifle]_
+	description:_?チャージ・ライフル。?_チャージ・ショットを撃てる突撃銃。パルス・チャージ技術により、銃身から放たれる各ショットに不安定なエネルギーをチャージする。チャージされたエネルギーが衝突時に解放され、大きなダメージを与える。
+	{tools
+		{stock
+			label:_<stock>_
+		}
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_ChargeRifle
+	label:_<charge shot>_
+	$:BaseBullet
+}
+{Gun_ChargeLance
+	label:_[charge lance]_
+	description:_?チャージ・ランス。?_パルス・チャージで槍を発射する武器。単発のショットを高速で発射し、加速レールから放たれる時に不安定なエネルギーをチャージする。
+	{tools
+		{barrel
+			label:_<barrel>_
+		}
+	}
+}
+{Bullet_ChargeLance
+	label:_<charge lance shot>_
+	$:BaseBullet
+}
+{OrbitalTargeterBombardment
+	label:_[orbital bombardment targeter]_
+	description:_?オービタル・ボンバードメント・ターゲッター。?_衛星軌道爆撃システム用の古代の照準器。目標を定めると、そこの座標を衛星ネットワークへ送り、運動エネルギー弾で目標の領域を爆撃する。非認証ユーザーでも使えるように再プログラムされているが、一度でも使うと、ネットワークは侵入を検知し、二度とリンクできないようにする。
+}
+{OrbitalTargeterPowerBeam
+	label:_[orbital power beam targeter]_
+	description:_?オービタル・パワー・ビーム・ターゲッター。?_パワー収集衛星ネットワーク用の古代の照準器。いったん照準を定めると、古代の衛星群に対して電磁エネルギーの巨大な円柱内へ収束したパワーを送り始めるように命令する。このパワーは巨大な吸収アンテナで回収できる。このアンテナはないので、代わりに照準を敵へ合わせれば、パワー円柱は内部を一千度の地獄に変える。これは衛星群が危険な照準行為を検知するまで続き、その場合、自身を停止させ、照準器を二度と使えなくする。
+}
+{TornadoGenerator
+	label:_[tornado generator]_
+	description:天候制御衛星ネットワーク用の古代の制御端末。この端末は特定の安全機構が無効にされ、巨大な乱気流を引き起こせるようになっている。これにより、指定した場所に竜巻を作り出すことが出来る。使った後は気候衛星が不正な侵入を検知して端末は締め出される。しかし、竜巻はエネルギーを消化するために残されたままになる。
+}
+{Glowstool
+	label:_[glowstool]_
+	description:_?グロウスツール。?_洞窟でよく見つかる小さな茶色いキノコ。腐った_[Muffalo]_の胃から取り出した古くて汚い雑巾のような匂いがするが、焼けば驚くほどに旨い。光に晒すと死ぬ。
+}
+{Agarilux
+	label:_[agarilux]_
+	description:_?アガリラックス。?_巨大な紫色のキノコ。その大きさと輝く突起が、この菌類を際立たせている。光に晒すと死ぬ。
+}
+{Bryolux
+	label:_[bryolux]_
+	description:_?ブライオラックス。?_深く暗い洞窟でよく見つかる青いコケ。絡み合った繊維が粘つき、上を歩くと遅くなる。光に晒すと死ぬ。
+}
+{Plant_Rose
+	label:_[rose]_
+	description:_?ローズ。?_美しい園芸用の花。_[Rose]_は_[Earth]_の古代から愛の象徴になっている。
+}
+{Plant_Daylily
+	label:_[daylily]_
+	description:_?デイリリー。?_花びらが大きく、寿命が短い園芸用の花。とても美しいが頻繁に植え直す必要がある。
+}
+{Plant_Rice
+	label:_[rice plant]_
+	description:_?ライス・プラント。?_背が低く、育ちが早い作物で、食べられる小さな粒が収穫できる。栄養価が高く、簡単に栽培できるため、多くの巨大文明で経済の核になっている。育ちが早いとは言え、肥沃度に敏感なので貧しい土地では良い食糧に成り得ない。
+}
+{Plant_Potato
+	label:_[potato plant]_
+	description:_?ポテト・プラント。?_栄養価が高い芋。多少痩せた土壌でも良く育ち、油で揚げると外側がパリパリになって、とても美味しくなる。
+}
+{Plant_Corn
+	label:_[corn plant]_
+	description:_?コーン・プラント。?_穂に柔らかくて食べられる実を付ける背の高い穀類植物。成長に時間がかかるが、他の作物と比べて沢山収穫できる。収穫した_[Corn]_は長持ちする。
+}
+{Plant_Strawberry
+	label:_[strawberry plant]_
+	description:_?ストロベリー・プラント。?_背の低い灌木のような植物で、傷みやすいが美味しい_[Strawberry]_が収穫できる。他の作物のようなカロリー指向ではないが、生で食べても美味しい。
+}
+{Plant_Haygrass
+	label:_[haygrass]_
+	description:_?ヘイグラス。?_大量の干し草を生み出す、栄養豊富な牧草。人ではなく、動物が食べるもの。
+}
+{Plant_Cotton
+	label:_[cotton plant]_
+	description:_?コットン・プラント。?_細くて白い木綿繊維を生み出す中程度の高さの作物。布を作るために使われている。
+}
+{Plant_Devilstrand
+	label:_[devilstrand]_
+	description:_?デビルストランド。?_引き裂きにくい絹の網を生み出すように遺伝子操作された繊細なキノコ。このキノコの成長はとても遅いが、これから採れる_[Devilstrand]_繊維より優れているのは珍しい超ハイテクな織物だけである。\n\n名前の由来については、色が赤いからだと言う人もいるが、人々の欲深さから来ていると殆どの人は考えている。
+}
+{Plant_Healroot
+	label:_[healroot]_
+	description:_?ヒールルート。?__[Herbal medicine]_ が収穫できる、成長が遅い植物。繊細な若枝のために、植えるのも収穫するのも労働集約的作業になる。\n\n何世紀にも渡って_{settler}_達によって品種改良されてきた。五つの優れた薬効により、原住民からは "healer's hand" というあだ名で呼ばれることもある。
+}
+{Plant_Hops
+	label:_[hop plant]_
+	description:_?ポップ・プラント。?_花を付ける作物で、_[Hops]_を収穫できる。_[Beer]_に欠かせない材料。
+}
+{Plant_Smokeleaf
+	label:_[smokeleaf plant]_
+	description:_?スモークリーフ・プラント。?_葉に含まれている化学物質の精神的効果を目当てに栽培されている葉が多い作物。_[Smokeleaf leaves]_ は _[Crafting spot]_ で _[Joint]_ にできる。_[Smokeleaf]_ は使用者を落ち着かせるが、やる気が無くなり、中毒になる事もある。
+}
+{Plant_Psychoid
+	label:_[psychoid plant]_
+	description:_?サイコイド・プラント。?_葉が多い植物で、_[Psychite]_化学化合物を生み出す。元々は草食動物を払い除けるために、刺激を与えて気持ち悪くさせる防御機構として進化したものだが、_[Psychite]_ドラッグは抽出して様々な形態に精製でき、娯楽用途に使うことが出来る。これには中毒性がある。
+}
+{Plant_TreeCocoa
+	label:_[cocoa tree]_
+	description:_?ココア・ツリー。?_甘い_[Chocolate]_を生み出すように遺伝子操作された熱帯の樹木で、少し寒い気候でも育つ。
+}
+{BurnedTree
+	label:_[burned tree]_
+	description:_?バーント・ツリー。?_燃えた樹木の残骸。見苦しく、使える木材はとれない。
+}
+{Plant_Ambrosia
+	label:_[ambrosia bush]_
+	description:_?アンブロージア・ブッシュ。?__[Ambrosia]_の実を付ける珍しい野生の灌木。_[Ambrosia]_の実は美味で、ドラッグのように_{mood}_を良くする。栽培出来ないので、野生の_[Ambrosia]_の林はとても貴重である。この果物の珍しさ、美しさ、望ましさが、古代ギリシアの神々の食べ物の名前が付けられている理由である。
+}
+{Plant_Agave
+	label:_[agave]_
+	description:_?アガベ。?_花と茎が食べられる、葉が大きな砂漠の植物。
+}
+{Plant_PincushionCactus
+	label:_[pincushion cactus]_
+	description:_?ピンクッション・カクタス。?_背の低いサボテン。針山に似ていることからこの名前が付けられている。
+}
+{Plant_SaguaroCactus
+	label:_[saguaro cactus]_
+	description:_?サウガロ・カクタス。?_乾燥地帯固有の大きなサボテン。これは樹木ではないが、木材のように使える繊維状の素材が採れる。
+}
+{Plant_TreeDrago
+	label:_[drago tree]_
+	description:_?ドラゴ・ツリー。?_てっぺんに尖った葉を分厚く生やす、砂漠の逞しい樹木。
+}
+{Plant_Grass
+	label:_[grass]_
+	description:_?グラス。?_雑草。わずかな明かりと栄養があれば何処にでも生える。
+}
+{Plant_TallGrass
+	label:_[tall grass]_
+	description:_?トール・グラス。?_背の高い雑草。ここを歩くと遅くなる。
+}
+{Plant_Bush
+	label:_[bush]_
+;todo:保留/ただのジョークらしいが、意味不明
+	description:_?ブッシュ。?_背の低い灌木。Does not typically talk.
+}
+{Plant_Brambles
+	label:_[brambles]_
+	description:_?ブランブル。?_葉に覆われ、絡み合い、刺々しい枝。固まって生えるため、ここを歩くと遅くなる。
+}
+{Plant_HealrootWild
+	label:_[wild healroot]_
+	description:_?ワイルド・ヒールルート。?_薬草が採れる、ゆっくりと成長する植物。\n\n野生の_[Healroot]_は家庭用よりも寒さに強いが、栽培するのは難しすぎる。寒冷地の_{tribesman}_に重宝されている。
+}
+{Plant_TreeWillow
+	label:_[willow tree]_
+	description:_?ウィロウ・ツリー。柳。?_美しい樹冠をつくる、最も速く成長する陰樹の一種。木材は殆ど得られない。
+}
+{Plant_TreeCypress
+	label:_[cypress tree]_
+	description:_?サイプレス・ツリー。糸杉。?_沼地でよく見つかる背の高い針葉樹。成長が遅いとはいえ、木材がとても沢山採れるので、労力も少なく、長期的な投資として植える価値がある。
+}
+{Plant_TreeMaple
+	label:_[maple tree]_
+	description:_?メイプル・ツリー。楓。?_よく見かける、中型の樹木。三つに尖った特徴的な葉により簡単に見分けられる。
+}
+{Plant_Chokevine
+	label:_[chokevine]_
+	description:_?チョークバイン。(首絞め蔓。)?_コードのように絡みついた塊、棘だらけの蔓が地面に大きなとぐろを巻いて固まっている。ここを歩くとかなり遅くなる。夜になる前に子供達を家へ帰らせるために、夜になると_[Chokevine]_が子共を絞め殺すという作り話を複数の_{tribe}_がそれぞれ異なった形で生み出している。
+}
+{Plant_Dandelion
+	label:_[dandelions]_
+	description:_?ダンデリオン。タンポポ。?_広く群生する小さくて黄色い花。雑草と思われがちだが、花が咲いた_[Dandelions]_は普通に美しい。
+}
+{Plant_Astragalus
+	label:_[astragalus]_
+	description:_?アストラガルス。レンゲソウ。?_高山性気候で育つ、多年生の小さい野生の花。
+}
+{Plant_Moss
+	label:_[moss]_
+	description:_?モス。?_薄暗く低温の場所に群生する野生のコケ。成長は遅いが、霜にとても強い。
+}
+{Plant_Berry
+	label:_[berry bush]_
+	description:_?ベリー・ブッシュ。野イチゴ。?_赤い_<Berries>_が採れるもじゃもじゃした野生の植物。_<Berries>_は調理できるが、生のまま食べても美味しい。
+}
+{Plant_TreeOak
+	label:_[oak tree]_
+	description:_?オーク・ツリー。?_広葉樹。育ちにくいが、これから採れる木材はとても硬いので、「oak(オーク)」は多くの文化で強さの象徴になっている。
+}
+{Plant_TreePoplar
+	label:_[poplar tree]_
+	description:_?ポプラ・ツリー。?_とても早く育つ針葉樹。しかし、広葉樹に比べると採れる木材は弱く、量も少ない。
+}
+{Plant_TreePine
+	label:_[pine tree]_
+	description:_?パイン・ツリー。松。?_とげとげした松の実に覆われた大きな針葉樹。特徴的な円錐形の形に育つ。
+}
+{Plant_TreeBirch
+	label:_[birch tree]_
+	description:_?バーチ・ツリー。シラカバ。?_紙のように薄くて白い樹皮で知られている、温暖な気候の樹木。
+}
+{Plant_ShrubLow
+	label:_[low shrubs]_
+	description:_?ロウ・シュラブ。?_葉が大きい雑多な低い灌木。群生しているので通りにくい。
+}
+{Plant_Alocasia
+	label:_[alocasia]_
+	description:_?アロカシア。クワズイモ。?_熱帯植物。非常に大きな葉は熱帯性の森を特徴付ける物として広く認識されている。
+}
+{Plant_Clivia
+	label:_[clivia]_
+	description:_?クリビア。?_背が高く、綺麗な花を付ける珍しい植物。'bush lily'とも呼ばれる。
+}
+{Plant_Rafflesia
+	label:_[giant rafflesia]_
+	description:_?ジャイアント・ラフレシア。?_湿ったジャングルの奥深くで見つかる珍しい巨大な花。大きな花はさぞ見物だろうと思うかもしれないが、これの見た目と匂いは腐った肉のようである。
+}
+{Plant_TreeTeak
+	label:_[teak tree]_
+	description:_?チーク・ツリー。?_暖かい気候で育つ、並外れて硬い針葉樹。頑丈で水に強いため、昔は木造帆船の竜骨に使われていた。
+}
+{Plant_TreeCecropia
+	label:_[cecropia tree]_
+	description:_?セクロピア・ツリー。?_熱帯雨林で頻繁に見かける樹木の一つ。とても早く育つが、木材はあまり採れない。
+}
+{Plant_TreePalm
+	label:_[palm tree]_
+	description:_?パーム・ツリー。ヤシ。?_高い剥き出しの幹の上に大きな葉が生い茂っている熱帯の樹木。残念なことに、この種は食べられる実を付けない。
+}
+{Plant_TreeBamboo
+	label:_[bamboo tree]_
+	description:_?バンブー・ツリー。竹。?_密林に生える、育ちが早い木のような植物。木材として伐採できる。この植物自体は美しくない。
+}
+{Muffalo
+	label:_[muffalo]_
+	description:_?マッファロー。?_群れで暮らす大型の草食動物。寒い環境にも暑い環境にも適応した水牛の子孫。怒らせると怖いが、飼い慣らせば従順で、_{pack animal}_として使える。\n\nなぜ青いのか詳しいことは誰も知らないが、初期の遺伝子操作のテストがそのまま残されただけなのだろう。
+	{tools
+		{head
+			label:_<head>_
+		}
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+	}
+}
+{Gazelle
+	label:_[gazelle]_
+	description:_?ガゼル。?_小型で素早いウシ科の動物。大きく跳ねることで有名。
+	{tools
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Iguana
+	label:_[iguana]_
+	description:_?イグアナ。?_普段は植物を食べている大型のトカゲ。しかし、怒らせると、硬い皮膚と鋭い爪が脅威になる。\n\n休んでいる時は頭を高く上げており、それが変に「得意げ」に見える。しかし、得意げになっているわけではない。敵を見張っているだけであり、だからこそ食べられないのだ。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Dromedary
+	label:_[dromedary]_
+	description:_?ドロメダリー。ヒトコブラクダ。?_乾燥した環境に適応した大型の陸生哺乳類。大昔から家畜化されており、毛と革は両方とも砂漠の熱に対して素晴らしい耐熱性があり、ミルクには栄養が十分含まれている。_{pack animal}_としても使える。しかし、弾むような足取りは遠出には全く向いていない。\n\n大きなコブに水を溜め、また、吐き出した息から水分を回収することで、数週間水なしで生きていける。
+	{tools
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{$BaseBear
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Bear_Grizzly
+	label:_[grizzly bear]_
+	description:_?グリズリー・ベア。?_寒い気候に適応した、大型で雑食性の哺乳類。冬場は厚い脂肪と毛が体温を保っている。\n\n普段は魚、ベリー、蜂蜜、死肉を食べているが、強烈な力と鋭い爪で生きた獲物を殺すこともできる。図体の割には驚くほど素早い。
+	{race
+		meatLabel:_[bear meat]_
+	}
+	$:BaseBear
+}
+{Bear_Polar
+	label:_[polar bear]_
+	description:_?ポーラー・ベア。?_極寒の気候に適応した巨大な白い熊。冬場は厚い脂肪と毛が体温を保っている。\n\n普段は魚と死肉を食べているが、強烈な力と鋭い爪で生きた獲物を殺すこともできる。図体の割には驚くほど素早い。
+	$:BaseBear
+}
+{$BigCatThingBase
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Cougar
+	label:_[cougar]_
+	description:_?クーガー。ピューマ。?_最も危険な大型猫の一種。長くて鋭い牙と爪を使い単独で狩りをする。隠れた場所から獲物に忍びより襲いかかる。\n\n人間は食い物の対象ではないが、弱そうなやつなら話は別だ。
+	$:BigCatThingBase
+}
+{Panther
+	label:_[panther]_
+	description:_?パンサー。ヒョウ。?_ジャングルに生息する素早くて力強い大型猫。単独で待ち伏せする肉食獣としては右に出る者がいない。しなやかな動きに目を奪われがちだが、近寄られた瞬間に頭蓋骨を砕く力を知るはめになる。
+	$:BigCatThingBase
+}
+{Lynx
+	label:_[lynx]_
+	description:_?リンクス。オオヤマネコ。?_家猫よりは大きいが、クーガーよりは小さい野生の猫。小さい鳥や動物を食べて生きている。容赦なく寒い極寒の地域に生息しているが、とても暖かい毛が守ってくれている。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Cassowary
+	label:_[cassowary]_
+	description:_?カソワリ。ヒクイドリ。?_色鮮やかな羽根を持つ、大きくて飛べない鳥。見た目は良いが、蹴りが凶悪。傷つけられたり、下手な手懐けをされると直ぐに怒ることで知られている。
+	{race
+		meatLabel:_[bird meat]_
+	}
+	{tools
+		{claws
+			label:<<claws??_{claw}_>>
+		}
+		{beak
+			label:_<beak>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Emu
+	label:_[emu]_
+	description:_?エミュー。?_不細工な顔につぶらな瞳を持つ、大きくて飛べない鳥。挙動がおかしいので自然界の間抜けとされる。邪魔すると確実にやり返される。
+	{tools
+		{claws
+			label:<<claws??_{claw}_>>
+		}
+		{beak
+			label:_<beak>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Ostrich
+	label:_[ostrich]_
+	description:_?オストリッチ。ダチョウ。?_自然界で最大級の鳥類。足の速さ、デカい卵、強烈な蹴りで有名。怒りやすい。
+	{tools
+		{claws
+			label:<<claws??_{claw}_>>
+		}
+		{beak
+			label:_<beak>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Turkey
+	label:_[turkey]_
+	description:_?ターキー。シチメンチョウ。?_短躯で太った飛べない鳥。ゲラゲラ笑いのような鳴き声で知られる。昔から家畜化されているが、野生にもいる。
+	{tools
+		{claws
+			label:<<claws??_{claw}_>>
+		}
+		{beak
+			label:_<beak>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Chicken
+	label:_[chicken]_
+	description:_?鶏。?_最も伝統的な家禽(かきん)。卵や肉のために育てられる。とても早く成長し、卵を頻繁に産む。
+	{tools
+		{claws
+			label:<<claws??_{claw}_>>
+		}
+		{beak
+			label:_<beak>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Pig
+	label:_[pig]_
+	description:_?ピッグ。豚。?_最初に家畜化された動物の一つ。普通は肉のために育てられる。雑食性のため飼いやすい。自己中心的気質だが、訓練すれば複雑な作業も出来るようになる。
+	{tools
+		{head
+			label:_<head>_
+		}
+	}
+	{race
+		meatLabel:_[pork]_
+	}
+}
+{Cow
+	label:_[cow]_
+	description:_?牛。?_家畜化された大きな有蹄類。大量のミルク、肉、革を生み出すために数千年に渡って飼育されてきた。非常におとなしい生物で、何度傷つけられようが、襲いかかってこない。家畜としての生活に慣れきっているので、自然界では生き残れない。
+	{tools
+		{head
+			label:_<head>_
+		}
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+	}
+	{race
+		meatLabel:_<beef>_
+	}
+}
+{Alpaca
+	label:_[alpaca]_
+	description:_?アルパカ。?_中型の有蹄類で、ラマの近縁。殆どの場合、抜群に柔らかくて断熱性に優れた毛糸のために育てられる。また、古代北アメリカの荒れた山道で荷物運んで以来、_{pack animal}_としても使われている。
+	{tools
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Duck
+	label:_[duck]_
+	description:_?ダック。?_自然でも見かけるが、とてもありふれた家禽で、旨い肉のために育てられる。とても早く育つが、タマゴは滅多に産まない。
+	{tools
+		{claws
+			label:<<claws??_{claw}_>>
+		}
+		{beak
+			label:_<beak>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Bison
+	label:_[bison]_
+	description:_?バイソン。?_熱帯の原野で見かける大きな草食の哺乳類。飼い慣らしやすいが、短気で危険。
+	{tools
+		{head
+			label:_<head>_
+		}
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+	}
+}
+{Goat
+	label:_[goat]_
+	description:_?ゴート。?_元来好奇心が強い_[goat]_は、人類が家畜化した中でも人なつっこい生き物の一つだ。
+	{tools
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Goose
+	label:_[goose]_
+	description:_?グース。?_肉や卵のための家禽として人間達に飼われていた家畜化された鳥。卵を良く産むが、孵化には時間がかかる。
+	{tools
+		{claws
+			label:<<claws??_{claw}_>>
+		}
+		{beak
+			label:_<beak>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Sheep
+	label:_[sheep]_
+	description:_?シープ。?__{sheep}_の飼育は人が住むところであれば何処でも行われているが、_{rimworld}_にはつい最近持ち込まれた。家畜の_{sheep}_は比較的小さな草食動物で、黄みがかった毛と中型の角を持つ。
+	{tools
+		{head
+			label:_<head>_
+		}
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+	}
+}
+{Horse
+	label:_[horse]_
+	description:_?ホース。?_短い毛、長いたてがみ、長い尾を持つ、大型の有蹄哺乳類。_{horse}_は大昔から家畜化されてきた。
+	{tools
+		{head
+			label:_<head>_
+		}
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+	}
+	{race
+		meatLabel:_[horse meat]_
+	}
+}
+{Yak
+	label:_[yak]_
+	description:_?ヤク。?__{yak}_は、太い体躯、短く太い足、雪をかき分けて進むのに適した丸く割れた蹄を持つ、逞しい牛。
+	{tools
+		{head
+			label:_<head>_
+		}
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+	}
+	{race
+		meatLabel:_[yak beef]_
+	}
+}
+{GuineaPig
+	label:_[guinea pig]_
+	description:_?ギニア・ピッグ。?_ブタでもギニア(Guinea)の生物でもないこの小さな齧歯類は室内ペットとしても美味しい食事としても育てられている。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Donkey
+	label:_[donkey]_
+	description:_?ドンキー。?_小型の馬で、農作業のために家畜化された。そのマヌケな呼び名はウザくも愛らしい。
+	{tools
+		{head
+			label:_<head>_
+		}
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+	}
+}
+{Rhinoceros
+	label:_[Rhinoceros]_
+	description:_?ライノセラス。サイ。?_草食だが、非常に怒りっぽい大型の哺乳類。一度怒り出すと、強烈な力と鋭い角で相手を無残な姿に変える。片足の筋力だけで全力を振り絞った人間よりも強い。
+	{tools
+		{horn-0
+			label:_<horn>_
+		}
+		{horn-1
+			label:_<horn>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Elephant
+	label:_[elephant]_
+	description:_?エレファント。像。?_自然界では最大の陸生動物。長い鼻で物を動かし、鋭い牙で敵を血まみれにする。死んだ象を解体すると貴重な牙が手に入る。\n\n複雑な社会関係性を持つ賢い動物であり、_{pack animal}_としても使え、訓練して複雑な作業をさせる事もできる。
+	{tools
+		{tusk
+			label:_<tusk>_
+		}
+		{left_foot
+			label:_<left foot>_
+		}
+		{right_foot
+			label:_<right foot>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Megasloth
+	label:_[megasloth]_
+	description:_?メガスロス。?_単独行動を好む巨大な草食動物で、敵を追い払うための巨大な爪を二本持っている。アメリカ大陸の原住民により一掃されてから長い間絶滅していたが、先進的なクローン技術と人口妊娠器により後に復活した。厚い皮は非常に強く絶縁性があり、冬用の服に最適な革を作れる。何もしなければ大人しいが、邪魔すると巨大な爪で引き裂かれる。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Thrumbo
+	label:_[thrumbo]_
+	description:_?スランボ。?_素性がわからない超巨大で優美な生物。おとなしい気質だが、怒ると非常に危険。長い毛は並外れて美しいが、皮は非常にダメージ耐性が高い。鋭い角は高額で売れる。\n\n年老いたスランボはこの世で最も賢い生物だと言い伝えられているが・・・口をきいてはくれないようだ。
+	{tools
+		{horn
+			label:_<horn>_
+		}
+		{left_foot
+			label:_<left foot>_
+		}
+		{right_foot
+			label:_<right foot>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{$BaseHare
+	{tools
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Hare
+	label:_[hare]_
+	description:_?ヘア。野兎。?_単独行動を好む小型の草食動物。危険から素早く飛び退けられる。
+	$:BaseHare
+}
+{Snowhare
+	label:_[snowhare]_
+	description:_?スノウヘア。カンジキウサギ。?_冬に強い動物。雪に穴を掘り、下にある食べられる植物を探して、生息地での厳しい冬を生き延びている。
+	$:BaseHare
+}
+{Megascarab
+	label:_[megascarab]_
+	description:_?メガスカラベ。?_遺伝子操作された巨大な昆虫。_[Mechanoid]_の侵略に対抗するために作られた、_[Insectoid]_の人工生態系における労働階級だが、最も危険な_[Insectoid]_だということは良く忘れ去られている。とはいえ、その体格と堅い殻は今でも危ないことには変わりはない。真性社会性の昆虫で、個体ごとに繁殖することはない。
+	{tools
+		{mandibles
+			label:_<mandibles>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Spelopede
+	label:_[spelopede]_
+	description:_?スピロピード。?_生物工学で生み出された中型の_[Insectoid]_。羊と同じくらいの大きさ。巣の中では中級階級で、ほとんどの作業を担当し、穴掘り用の爪で戦うこともある。戦闘では危険だが、開けた場所では遅い。
+	{tools
+		{head_claw
+			label:_<head claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Megaspider
+	label:_[megaspider]_
+	description:_?メガスパイダー。?_本物の蜘蛛ではない、遺伝子操作された大型の_[Insectoid]_。熊と同じくらいの大きさ。重労働と戦闘のために作られた。分厚いキチン質の鎧、さらに、長い鋭利な刃により、狭い場所で倒すのは困難を極める。しかし、開けた場所ではけっこう遅い。
+	{tools
+		{head_claw
+			label:_<head claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+	{race
+		meatLabel:_[insect meat]_
+	}
+}
+{YorkshireTerrier
+	label:_[yorkshire terrier]_
+	description:_?ヨークシャー・テリア。?_おとなしい小型犬。元はネズミを取らせるために飼育されていたが、後に見世物やペットとして飼われるようになった。役立たずだと思われているが、すり寄りによる_{mood}_向上は、餌代より価値がある。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{cute_little_teeth
+			label:_<cute little teeth>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Husky
+	label:_[husky]_
+	description:_?ハスキー。?_活発な大型犬。厚い毛皮により極寒の環境でも快適なままでいられる。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{LabradorRetriever
+	label:_[labrador retriever]_
+	description:_?ラブラドール・レトリバー。?_とても賢い中型犬。元は狩りで撃ち落とした鳥を拾わせるために飼育されていたが、番犬としても、遊び相手としても、そして家族の一員としても素晴らしい役割を果たす。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Cat
+	label:_[cat]_
+	description:_?キャット。?_人類が最初にペットにした動物の一つで、害獣を狩る小型の哺乳類。つれない態度で知られるが、それでも、気ままな性格、物静かさ、素敵な毛並みのため人気がある。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Squirrel
+	label:_[squirrel]_
+	description:_?スクイレル。リス。?_逞しく賢い齧歯類の一種。人類の拡散に合わせて何処にでもついて行く。ふさふさした尻尾で知られており、天気が悪いときはそれを傘のように使う。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Alphabeaver
+	label:_[alphabeaver]_
+	description:_?アルファビーバー。?_木材を機械並の効率で集めるめに、遺伝子操作により派生した大型のビーバー似の生物。専用の餌がなくなると、全ての樹木を食べ尽くしたい衝動に駆られる。邪魔されると襲いかかってくる傾向がある。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Capybara
+	label:_[capybara]_
+	description:_?カピパラ。?_自然界最大の齧歯類で、熱帯雨林環境に上手く適応している。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Chinchilla
+	label:_[chinchilla]_
+	description:_?チンチラ。?_小さくて、すばしっこい齧歯類。他のどれよりも柔らかい毛を持っており、とても高値で取引される。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Boomrat
+	label:_[boomrat]_
+	description:_?ボムラット。?_遺伝子操作で意図的に兵器化されたのか、それとも珍妙な防御機構なのか、いずれにせよ、この齧歯類のような生物は死ぬと炎を伴う大爆発を起こす。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Raccoon
+	label:_[raccoon]_
+	description:_?ラクーン。アライグマ。?_逞しい小型の動物で、森林地帯から灌木地帯まで生息範囲は広い。ゴミ箱やキッチンに嬉々として侵入し、何でも食べる。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Rat
+	label:_[rat]_
+	description:_?ラット。?_台所を汚し疾病を蔓延させることで知られる、誰もが嫌っている齧歯類で、人の後を何処までもついて行く。何でも食べて、何処にでも居る。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Deer
+	label:_[deer]_
+	description:_?鹿。?_群れで行動する中型の草食動物で、森や平地が混在する場所を好んで住んでいる。とてもすばしっこい。
+	{tools
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+		{teeth
+			label:_<teeth>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+	{race
+		meatLabel:_[venison]_
+	}
+}
+{Ibex
+	label:_[ibex]_
+	description:_?アイベックス。?_飼い慣らされた山羊の祖先にあたる野生種。殆どのアンテロープが生きていけない限られた地域に住んでおり、地衣類や乏しい高山植物を食べている。岩肌が露出した崖を巧みに跳んで渡ることで有名・・・強烈な体当たり攻撃でも有名。
+	{tools
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Elk
+	label:_[elk]_
+	description:_?エルク。ヘラジカ。?_シカ科の大きな動物。寒冷な気候での生活にうまく適応している。家畜化するとミルクを採れるが、荷物は運ばない。
+	{tools
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Caribou
+	label:_[caribou]_
+	description:_?カリブー。?_シカ科の大きな動物。寒冷な気候での生活にうまく適応している。家畜化するとミルクを採れるが、荷物は運ばない。
+	{tools
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{WildBoar
+	label:_[wild boar]_
+	description:_?ワイルド・ボア。イノシシ。?_逃げ出したブタが野生化して進化した毛深い雑食動物。\n\n牙により家畜化されたブタよりは強い。複雑な事を訓練させるのは難しい。
+	{tools
+		{tusk
+			label:_<tusk>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Tortoise
+	label:_[tortoise]_
+	description:_?トータス。亀。?_重々しい甲羅で覆われた陸生の爬虫類。足の遅さと、かみ癖の悪さで知られている。生まれ持った装甲により殺しにくく、近接での持久戦ではそれが強い武器になる。
+	{tools
+		{beak
+			label:_<beak>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Cobra
+	label:_[cobra]_
+	description:_?コブラ。?_捕食性の大きな蛇。刺激すると非常に攻撃的になり、噛みついて毒を犠牲者に注入する。
+	{tools
+		{venomfangs
+			label:_<venom-fangs>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+	{race
+		meatLabel:_[cobra meat]_
+	}
+}
+{Monkey
+	label:_[monkey]_
+	description:_?モンキー。?_小型の霊長目。巻いた尻尾で枝を掴め、空いた両手は自由に使える。猿は利己的だが賢く、それなりの作業をさせるように訓練できる。
+	{tools
+		{left_fist
+			label:_<left fist>_
+		}
+		{right_fist
+			label:_<right fist>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Boomalope
+	label:_[boomalope]_
+	description:_?ボマロープ。?_化学物質を生産するために生み出され、揮発性の物質が詰まった大きなコブを背中に生やす。図体の割には弱くて脆いにもかかわらず、他の動物はこいつを避けることを覚えた。死んだら大爆発するからだ。_[Chemfuel]_を絞れるが、気を付けてね。
+	{tools
+		{head
+			label:_<head>_
+		}
+		{left_hoof
+			label:_<left hoof>_
+		}
+		{right_hoof
+			label:_<right hoof>_
+		}
+	}
+}
+{Warg
+	label:_[warg]_
+	description:_?ワーグ。?_狼に似たマッチョな生物。不自然に危険な爪と馬鹿げた程に噛む力が強い。死体しか食べない。野生の個体を邪魔すると、ほぼ確実に襲われる。人口抑制のために作られた、兵器化した軍用動物の子孫だと、化学者達は言っている。迷信深い人達は怒った神の手先だと見なしている。
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{razorfangs
+			label:_<razorfangs>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{$ThingBaseWolf
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Wolf_Timber
+	label:_[timber wolf]_
+	description:_?ティンバー・ウフル。?_荒々しい肉食獣。長い間、多くの古代_[Earth]_文化で恐れられていた。群れをなす狩人なので、複雑な社会生活を送り、また、とても賢い。
+	{race
+		meatLabel:_[wolf meat]_
+	}
+	$:ThingBaseWolf
+}
+{Wolf_Arctic
+	label:_[arctic wolf]_
+	description:_?アークティック・ウルフ。?__[Earth]_の古い狼が寒冷地に適応した変種。群れをなす狩人なので、複雑な社会生活を送り、また、とても賢い。
+	$:ThingBaseWolf
+}
+{$ThingBaseFox
+	{tools
+		{left_claw
+			label:_<left claw>_
+		}
+		{right_claw
+			label:_<right claw>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Fox_Fennec
+	label:_[fennec fox]_
+	description:_?フェネック・フォックス。?_小型の狐。_[Earth]_のアフリカ大陸の北部が原産。小さな生物を狩り、暑さの中で自身を冷やせるとても大きな耳がある。
+	{race
+		meatLabel:_[fox meat]_
+	}
+	$:ThingBaseFox
+}
+{Fox_Red
+	label:_[red fox]_
+	description:_?レッド・フォックス。?_単独行動を好む小型の犬種。温帯で小型の獲物を狩るように進化した。鶏小屋を数分で壊滅できので養鶏家は狐を嫌っている。
+	$:ThingBaseFox
+}
+{Fox_Arctic
+	label:_[arctic fox]_
+	description:_?アークティック・フォックス。?_寒い気候に適応した小型の肉食獣。普段はネズミなどの小動物を狩っており、獲物を狙って雪を1メートルほど掘ることもある。
+	$:ThingBaseFox
+}
+{Human
+	label:_[human]_
+	description:平均的な人類。遺伝子工学による改変は行われておらず、非_[Earth]_惑星における進化圧力による変化もない。
+	{tools
+		{left_fist
+			label:_<left fist>_
+		}
+		{right_fist
+			label:_<right fist>_
+		}
+		{teeth
+			label:_<teeth>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Mech_Centipede
+	label:_[centipede]_
+	description:_?センチピード。?_多数の小さな足で滑るように動く重装備の戦闘_[Mechanoid]_。厚い甲皮と高い火力が寄り集まって動こうとしない守備隊に対して高い威力を発揮する。動き回るヒット・アンド・ラン戦法に少し弱い。
+	{tools
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Mech_Lancer
+	label:_[lancer]_
+	description:_?ランサー。?_中・長距離戦闘用に作られた、素早い人間大の戦闘_[Mechanoid]_。体が軽いため、特に近接戦では、壊れやすい。
+	{tools
+		{left_fist
+			label:_<left fist>_
+		}
+		{right_fist
+			label:_<right fist>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Mech_Scyther
+	label:_[scyther]_
+	description:_?サイザー。?_速く、細身な、人間並みの大きさの戦闘_[Mechanoid]_。素早い接近と近接戦に特化している。体は棘と刃に覆われているが、腕のような二本の刃で犠牲者の手足や内臓を切り落とす事のほうが多い。
+	{tools
+		{left_blade
+			label:_<left blade>_
+		}
+		{right_blade
+			label:_<right blade>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}
+{Mech_Pikeman
+	label:_[pikeman]_
+	description:_?パイクマン。?_長射程兵器用の砲座に特殊化された無骨な多脚戦闘_{mechanoid}_。離れていれば有用だが、近距離の戦闘や近接戦には弱い。\n\n多くの場合、_{mechanoid}_戦のベテランは_[Pikeman]_の周りで安全に居るには、それに接する事だと知っている。
+	{tools
+		{front_left_leg
+			label:_<front left leg>_
+		}
+		{front_right_leg
+			label:_<front right leg>_
+		}
+		{head
+			label:_<head>_
+		}
+	}
+}

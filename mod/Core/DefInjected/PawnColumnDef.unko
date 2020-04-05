@@ -1,0 +1,48 @@
+﻿{Slaughter
+	headerTip:屠殺
+}
+{FollowDrafted
+	headerTip:主人が_<Draft>_されている間も追従する。
+}
+{FollowFieldwork
+	headerTip:主人が野外活動(狩猟、手懐け)している間も追従する。
+}
+{Hunt
+	headerTip:狩猟者が動物を狩るように指示する。
+}
+{Tame
+	headerTip:野生動物を手懐ける。
+}
+{Bond
+	headerTip:絆
+}
+{Info
+	headerTip:情報
+}
+{Age
+	label:<<age??年齢>>
+}
+{Master
+	label:<<master??主人>>
+}
+{MedicalCare
+	headerTip:医療
+}
+{AllowedArea
+	label:_<allowed area>_
+}
+{AllowedAreaWide
+	label:_<allowed area>_
+}
+{HostilityResponse
+	headerTip:交戦対応
+}
+{Outfit
+	label:<<current outfit??現在の服装>>
+}
+{DrugPolicy
+	label:_<drug policy>_
+}
+{FoodRestriction
+	label:_<food restriction>_
+}

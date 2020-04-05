@@ -1,0 +1,280 @@
+﻿;Namerは全て放置
+{NamerFactionEmpire
+	{rulePack
+		{?rulesStrings
+			:r_name(p=2)->[empire] of [ofThing]
+			:r_name(p=2)->The [empire] of [ofThing]
+			:r_name->The Exodus [empire]
+			:r_name->The Refugee [empire]
+			:r_name->The Broken [empire]
+			:r_name->The Shattered [empire]
+			:r_name->The Fallen [empire]
+			:r_name->The [Color_e] [empire]
+			:empire(p=4)->Empire
+			:empire->Commonwealth
+			:empire->Imperium
+			:empire->Dominion
+			:empire->Sovereignty
+			:ofThing(p=4)->[WordImperial]
+			:ofThing->the Sun
+			:ofThing->the Moon
+			:ofThing->the Universe
+			:ofThing->God
+			:ofThing->Perfection
+			:ofThing->Eternity
+			:ofThing->the Spirit
+		}
+	}
+}
+{NamerSettlementEmpire
+	{rulePack
+		{?rulesStrings
+			:r_name->[townname_wordgen]
+			:r_name->[townname_fixed]
+			:townname_wordgen->[WordImperial]
+			:townname_wordgen->[WordImperial][townend]
+			:townend(p=3)->ium
+			:townend(p=3)->ior
+			:townend(p=3)->polis
+			:townend->nor
+			:townend->lan
+			:townend->lax
+			:townend->lix
+			:townend->lin
+			:townend->lian
+			:townend->phrum
+			:townend->phor
+			:townend->teor
+			:townend->ople
+			:townend->opium
+			:townend->or
+			:townend->aetor
+			:townend->aeum
+			:townend->aetium
+			:townend->am
+			:townend->aeum
+		}
+		;{?rulesFiles
+		;	:townname_fixed->Names/EmpireTown
+		;}
+	}
+}
+{NamerPersonEmpire
+	{rulePack
+		{?rulesStrings
+			:r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]
+			:r_name(p=2)->[ImperialNameFirstMale] [WordImperial]
+			:r_name(p=2)->[WordImperial] [WordImperial]
+		}
+	}
+}
+{NamerPersonEmpireFemale
+	{rulePack
+		{?rulesStrings
+			:r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]
+			:r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]
+			:r_name(p=2)->[WordImperial] [WordImperial]
+		}
+	}
+}
+{QuestConstructionNameCommon
+	{rulePack
+		{?rulesStrings
+			:questName-><<[constAdj] [construction]??[constAdj][construction]>>
+			:questName-><<A [constAdj] [construction]??[constAdj][construction]>>
+			:questName-><<The [constAdj] [construction]??[constAdj][construction]>>
+
+			:constAdj(p=20)->[AdjectiveLarge]
+			:constAdj-><<terrible??酷い>>
+			:constAdj-><<great??大きな>>
+			:constAdj-><<grand??大きな>>
+			:constAdj-><<dangerous??危険な>>
+			:constAdj-><<monumental??歴史的>>
+			:constAdj-><<extravagant??過剰な>>
+			:constAdj-><<foreboding??予言の>>
+			:constAdj-><<frightening??物騒な>>
+			:constAdj-><<dreadful??恐ろしい>>
+			:constAdj-><<fearful??恐ろしい>>
+			:constAdj-><<awesome??凄い>>
+			:constAdj-><<prophetic??予言の>>
+			:constAdj-><<harrowing??悲痛な>>
+			:constAdj-><<glittering??華麗な>>
+			:constAdj-><<shining??輝く>>
+			:constAdj-><<amazing??見事な>>
+
+			:construction(p=3)-><<construction??建設>>
+			:construction(p=2)-><<structure??構造物>>
+			:construction(p=2)-><<building??建物>>
+			:construction-><<monument??モニュメント>>
+			:construction-><<edifice??建物>>
+			:construction-><<blueprint??計画>>
+			:construction-><<assembly??建築>>
+		}
+	}
+}
+{QuestConstructionDescriptionCommon
+	{rulePack
+		{?rulesStrings
+			:questDescription(askerIsNull==true)->不思議なメッセージが届いた。名乗らない機械人格から送られてきたようだ。メッセージは特別なモニュメントを作るように頼んでいる。\n\n[commonEnding]
+			:questDescription(asker_factionLeader==True)->[asker_faction_name] の [asker_faction_leaderTitle] [asker_nameFull] が[buildReason]モニュメントを作るように要求している。\n\n[commonEnding]
+			:questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] の [asker_royalTitleInCurrentFaction] [asker_nameFull] が[buildReason]モニュメントを作るように要求している。\n\n[commonEnding]
+
+			:asker2(askerIsNull==true)->the archotech
+			:asker2(asker_factionLeader==True)->[asker_nameDef]
+			:asker2(asker_royalInCurrentFaction==True)->the [asker_royalTitleInCurrentFaction]
+
+			:buildReason->[asker_possessive]の[PersonFamily]の[PersonalCharacteristic]を記念する
+			:buildReason->[asker_possessive]の[PersonalCharacteristic]を記念する
+			:buildReason->[asker_possessive]のライバルの[PersonalCharacteristic]を屈辱する
+			:buildReason->民衆の中にある[ConceptAngsty]な感情を減らす
+			:buildReason->[asker_pronoun]がいかに[AdjectiveBadass]かを示す
+			:buildReason->[asker_possessive]の[asker_faction_pawnsPlural]の戦死者を記念する
+			:buildReason->[asker_possessive]の[PersonFamily]を称える
+			:buildReason->[PersonJob]の作品を称える
+			:buildReason->[asker_possessive]の[glory]を全土に知らしめる
+
+			:glory->栄光
+			:glory->軍事名誉
+			;martial honor いまいち
+			:glory->勝利
+			:glory->王位
+			:glory->凄い船
+			:glory->富
+			:glory->一族
+
+			; 下に全く同じ文がある
+			:failLetterEndingCommon(askerIsNull==true,priority=1)->クエスト '[resolvedQuestName]' に失敗した。
+			:failLetterEndingCommon->クエスト '[resolvedQuestName]' に失敗した。\n\n[asker_faction_name] との関係は [goodwillPenalty] 下がった。
+		}
+	}
+}
+{QuestHospitalityCommon
+	{rulePack
+		{?rulesStrings
+			:allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]
+
+			:lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]
+			:lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]
+			:lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]
+			:lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]
+
+			:healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] は傷ついて歩けないかもしれない。
+			:healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] は傷ついて歩けないかもしれない。
+			:healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] は [lodgersDisease_label] にかかっている。
+			:healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] は [lodgersDisease_label] にかかっている。
+			:healthInfo->
+
+			:specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] は優れた戦士だ。
+			:specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural] は優れた戦士だ。
+			:specialSkillsInfo->
+
+			:minMoodInfo(priority=1,lodgersCount==1)->[lodgers0_possessive]の_{mood}_を [lodgersMoodThreshold_percent] 以上に保たねばならない。
+			:minMoodInfo(priority=1,lodgersCount>=2)->[lodgersLabelPlural]の_{mood}_を [lodgersMoodThreshold_percent] 以上に保たねばならない。
+			:minMoodInfo->
+
+			:commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]
+
+			:enemyGroupsParagraph->襲撃はおおよそ [threatsIntervalTicks_duration] ごとにやってくる。襲撃の規模は次と同様:\n\n[threatExample]
+
+			:shuttleWillComeParagraph(lodgersCount==1)->[shuttleDelayTicks_duration] 後、シャトルが [lodgers0_nameDef] を取りに来る。到着したシャトルに[lodgers0_objective]を乗せれば、[allRewardsDescriptions]
+			:shuttleWillComeParagraph(lodgersCount>=2)->[shuttleDelayTicks_duration] 後、シャトルが [lodgersLabelPlural] を取りに来る。到着したシャトルに乗せれば、[allRewardsDescriptions]
+
+			:mustKeepOnMapParagraph(lodgersCount==1)->[lodgers0_nameDef] を [map_definite] に留めて、何処も行かせてはならない。
+			:mustKeepOnMapParagraph(lodgersCount>=2)->[lodgers0_nameDef] を [map_definite] に留めて、何処も行かせてはならない。
+
+			:threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] が最近、 [mechViolation]、軌道上の_[mechanoid]_の群れに標的にされてしまった。[lodgers0_nameDef] が居る限り、[map_definite] に _[mechanoid]_ の戦闘クラスターが落ちてくる。
+			:threatsInfoMechClustersMultiPrisoners->_{prisoner}_が最近、 [mechViolation]、軌道上の_[mechanoid]_の群れに標的にされてしまった。_{prisoner}_が居る限り、[map_definite] に _[mechanoid]_ の戦闘クラスターが落ちてくる。
+			:threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] が最近、 [mechViolation]、 _[mechanoid hive]_ に標的にされてしまった。[lodgers0_nameDef] が居る限り、 _[mechanoid]_ の襲撃を送り出してくる。
+			:threatsInfoMechRaidsMultiHuman->彼らは最近、 [mechViolation]、 _[mechanoid hive]_ に標的にされてしまった。彼らがいる限り、 _[mechanoid]_ の襲撃を送り出してくる。
+
+			:mechViolation->なぜか機械人格を怒らせてしまい
+			:mechViolation->古代のスーパーコンピュータのターミナルへ侵入してしまい
+			:mechViolation->_[archotech]_ が気に入っている子供を殺してしまい
+			:mechViolation->_[mechanoid]_ の制御ノードをハックしようとして
+			:mechViolation->古代の貯蔵地区で盗みを働こうとして
+
+			:letterSubject->{SUBJECT_definite}
+			;使わない
+			:lodgersHasHave(lodgersCount==1)->has
+			:lodgersHasHave(lodgersCount>=2)->have
+
+			:remainingWillNowLeave(lodgersCount==1)->
+			:remainingWillNowLeave(lodgersCount>=2)->残り全ての [lodgersLabelPlural] は去り始めた。
+
+			:failLetterEndingCommon(askerIsNull==true,priority=1)->クエスト '[resolvedQuestName]' に失敗した。
+			:failLetterEndingCommon->クエスト '[resolvedQuestName]' に失敗した。\n\n[asker_faction_name] との関係は [goodwillPenalty] 下がった。
+		}
+	}
+}
+{Gathering_Concert
+	{rulePack
+		{?rulesStrings
+			:circumstance_phrase->目を閉じながら
+			:circumstance_phrase->満足げに笑いながら
+
+			:desc_sentence->陽気な雰囲気が漂っている。
+		}
+	}
+}
+{NamerWeaponBladelink
+	{rulePack
+		{?rulesStrings
+			:r_weapon_name(p=3)->[noun][verber]
+			:r_weapon_name(p=2)->[beginSyl][middleSyl][endSyl]
+			:r_weapon_name(p=1)->[beginSyl][middleSyl][middleSyl][endSyl]
+			:r_weapon_name(p=1)->[beginSyl][endSyl]
+			:r_weapon_name(p=1)->[NamePerson]
+			:r_weapon_name(p=1)->[nameAnimal]
+			:nameAnimal->[NameAnimalUnisex]
+			:nameAnimal->[NameAnimalMale]
+			:nameAnimal->[NameAnimalFemale]
+			:noun->oath
+			:noun->promise
+			:noun->death
+			:noun->pain
+			:noun->blood
+			:noun->doom
+			:noun->murder
+			:noun->justice
+			:noun->fear
+			:noun->terror
+			:noun->chaos
+			:noun->order
+			:noun->war
+			:noun->silence
+			:noun->debt
+			:verber->keeper
+			:verber->bringer
+			:verber->sender
+			:verber->giver
+			:verber->maker
+			:verber->crusher
+			:verber->breaker
+			:verber->smasher
+			:verber->bender
+			:verber->knower
+			:verber->doer
+			:beginSyl->vi
+			:beginSyl->na
+			:beginSyl->lo
+			:beginSyl->ra
+			:beginSyl->to
+			:beginSyl->ger
+			:beginSyl->xan
+			:beginSyl->kel
+			:middleSyl->ser
+			:middleSyl->gar
+			:middleSyl->lor
+			:middleSyl->ven
+			:middleSyl->zan
+			:middleSyl->xal
+			:endSyl->ys
+			:endSyl->or
+			:endSyl->ar
+			:endSyl->sum
+			:endSyl->dor
+			:endSyl->mar
+			:endSyl->gur
+		}
+	}
+}

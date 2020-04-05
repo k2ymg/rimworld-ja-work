@@ -1,0 +1,3852 @@
+ClickToJumpToProblem:問題の場所を見る
+
+BreakRiskMinor:<<Minor break risk??_{mental/break}_(小)の恐れ>>
+BreakRiskMajor:<<Major break risk??_{mental/break}_(中)の恐れ>>
+BreakRiskExtreme:<<Extreme break risk??_{mental/break}_(大)の恐れ>>
+BreakRiskMinorDesc:次の_{colonist}_は_{mood}_が悪いので、いつでも_{mental break}_(小)を起こすかもしれない:\n\n{0}
+BreakRiskMajorDesc:次の_{colonist}_は_{mood}_がとても悪いので、いつでも_{mental break}_(中)を起こすかもれない:\n\n{0}
+BreakRiskExtremeDesc:次の_{colonist}_は危険なまでにストレスがかかっており、今にも(恐らく暴力的な)_{mental break}_(大)を起こすかもしれない:\n\n{0}
+BreakRiskDescEnding:これらの_{colonist}_の_<Needs>_タブを見れば何に悩まされているか分かる。\n\n_{colonist}_の_{mood}_を良くするには、上等な食事を作る、一日あたりの娯楽の時間や娯楽設備を増やす、綺麗な環境に住まわせ、ビールやタバコを嗜ませる、等々できる。
+
+ColonistNeedsRescue:<<Colonist needs rescue??_{colonist}_が助けを呼んでいる>>
+ColonistsNeedRescue:<<Colonists need rescue??_{colonist}_が助けを呼んでいる>>
+ColonistsNeedRescueDesc:次の_{colonist}_は動けなくて倒れている。\n\n{0}\n他の_{colonist}_を救助に向かわせてベッドに運ばせよう。\n\n(救助するには、他の_{colonist}_を選択して犠牲者を右クリックし、_<Rescue>_を選択する。)
+
+NeedDefenses:<<Need defenses??防御設備が必要>>
+NeedDefensesDesc:ここに来て時間がたったので、もう気付かれているだろう。しばらくすれば賊が襲ってくる。\n\n_[Sandbags]_やトラップなどの防御を準備したほうがいいだろう。
+
+NeedDoctor:<<Need doctor??_{Doctor}_が必要>>
+NeedDoctorDesc:次の_{colonist}_は治療が必要だが、医者を担当している健康な_{colonist}_がいない。\n\n{0}\n_<Doctor>_の仕事に健康な_{colonist}_を割り当てよう。治療せずにいると、傷は上手く治らず、痕が残るかもしれない。
+
+NeedMiner:<<Need miner??_{Miner}_が必要>>
+NeedMinerDesc:岩を掘るように指示しているが、_<Mine>_を担当している_{colonist}_がいない。\n\n_<Mine>_の仕事に_{colonist}_を割り当てよう。
+
+NeedWarden:<<Need warden??_<Warden>_が必要>>
+NeedWardenDesc:_{prisoner}_がいるが、_<Warden>_を担当している_{colonist}_がいない。\n\n_<Warden>_の仕事に_{colonist}_を割り当てよう。
+LowFood:<<Low food??食料が少ない>>
+LowFoodDesc:食料が危険なまでに少ない。\n\n    備蓄量: {0}\n    _{colonist}_と_{prisoner}_の消費量: {1}\n    尽きるまでの日数: {2}\n\n食料を栽培する、買う、見つける、狩るなどしよう。
+
+LowMedicine:<<Low medicine??薬が少ない>>
+LowMedicineDesc:薬が {0} 個しか備蓄されていない。\n\n_{trader}_からもっと薬を買おう。
+NoMedicineDesc:薬が何も備蓄されていない。\n\n_{trader}_からもっと薬を買おう。
+
+NeedColonistBeds:<<Need colonist beds??_{colonist}_用ベッドが必要>>
+NeedColonistBedsDesc:_{colonist}_用ベッドより_{colonist}_のほうが多くなっているため、誰かが寝る場所を失う。\n\nもっとベッドを作るか、_{prisoner}_用ベッドを_{colonist}_用に変えよう。物資が無いときは、物資不要ですぐさま設置できる _[sleeping spot]_ が使える。
+
+AlertColonistLeftUnburied:_{colonist}_が埋葬されていない
+AlertColonistLeftUnburiedDesc:_{colonist}_が埋葬されていない。\n\nこれは_{colonist}_の_{mood}_に悪影響を与える。
+
+HunterLacksWeapon:<<Hunter lacks ranged weapon??_<Hunter>_が遠距離武器を持っていない>>
+HunterLacksWeaponDesc:_<Hunter>_に割り当てられている_{colonist}_が遠距離武器を装備していない。\n\n遠距離武器を装備するまで_<Hunt>_は行われない。
+
+AlertTatteredApparel:<<Tattered apparel??ぼろぼろな衣服>>
+AlertTatteredApparelDesc:次の_{colonist}_はボロを着ているため悲しんでいる。\n\n{0}\nあまり傷んでいない衣服を与えよう。\n\n_[crafting spot]_ や _[Tailor bench]_ で作るか、_{trader}_から買える。
+
+AlertUnhappyNudity:<<Unhappy nudity??全裸の憂鬱>>
+AlertUnhappyNudityDesc:次の_{colonist}_は裸で悲しんでいる。\n\n{0}\n服を与えよう。 _[crafting spot]_ や_[Tailor bench]_ で作るか、_{trader}_から買える。
+
+Starvation:<<Starvation??飢え>>
+StarvationDesc:次の_{colonist}_は飢えている:\n\n{0}\n\n何か食べ物を手に入れさせよう。
+
+StarvationAnimals:<<Animal starvation??動物の飢え>>
+StarvationAnimalsDesc:次の_{colony}_の動物が飢えている:\n\n{0}\n何か食べ物を手に入れさせよう。
+
+Exhaustion:<<Exhaustion??疲労>>
+ExhaustionDesc:次の_{colonist}_は疲れており休息を必要としている:\n\n{0}\n休ませよう。_{colonist}_用ベッドが必要。また、_<Draft>_していないか確認する。
+
+NeedFoodHopper:<<Need food hopper??食材_<Hopper>_が必要>>
+NeedFoodHopperDesc:_[nutrient paste dispenser]_ があるが、隣に _[hopper]_ が付けられていない。\n\nディスペンサーを動かすには、生の食材で満たされた隣の _[hopper]_ から取り込ませる必要がある。\n\n_[hopper]_ をディスペンサーの隣に作ろう。
+
+NeedMealSource:<<Need meal source??調理手段が必要>>
+NeedMealSourceDesc:生の食材からちゃんとした食事を作る手段がない。\n\nストーブ、_[Campfire]_、_[nutrient paste dispenser]_ などを作ろう。\n\n(_{colonist}_が使えなくなるので、これらを_{prison cell}_に置かないこと。)
+
+NeedJoySource:<<Need recreation variety??娯楽の種類>>
+NeedJoySourceDesc:{1}には{0}種類の異なる娯楽しかないが、現在の期待度({2})では、_{colonist}_が満足し続けるには{3}種類の異なる娯楽が必要。新しく、異なる娯楽の種類を与えるために、異なる娯楽を提供する。\n\n{4}\n\n{5}\n\n補足: アイテムのステータス画面('i'のボタン)で種類を調べられる。
+
+AvailableRecreationTypes:利用可能な娯楽の種類
+MissingRecreationTypes:与えられていない娯楽の種類
+CurrentExpectationsAndRecreation:現在の期待({0})では、毎日 {1} 鈍化する。{2} 種類用意するのを推奨。
+bored:<<bored??退屈した>>
+
+Boredom:<<Boredom??退屈>>
+BoredomDesc:これらの人々には娯楽の欲求を満たすか、娯楽に割り当てる必要があるが、現在の娯楽には退屈している:\n\n{0}\n\nもっと多くの娯楽の種類を増やす。\n\n現在 {PAWN_labelShort} が行える娯楽の種類は:\n\n{2}
+
+NeedBatteries:<<Need batteries??_[Battery]_が必要>>
+NeedBatteriesDesc:_{solar panel}_や_{wind generator}_があるが、_[Battery]_がない。これは、日が沈んだり風が弱くなるたびに停電することを意味している。\n\n電力を持続させるために_[Battery]_を一つか二つ作ろう。
+
+BrawlerHasRangedWeapon:<<Brawler has ranged weapon??_<Brawler>_に遠距離武器>>
+BrawlerHasRangedWeaponDesc:_<Brawler>_の特徴を持っている_{colonist}_が遠距離武器を装備している。これは本人をとても不愉快にさせる。
+
+ShieldUserHasRangedWeapon:<<Shield user has ranged weapon??シールド使用者に遠距離武器>>
+ShieldUserHasRangedWeaponDesc:_[Shield belt]_ を使っている_{colonist}_が遠距離武器を装備している。シールド越しに武器を発射することはできない。(既に接触している標的を除く。)
+
+NeedResearchProject:<<Need research project??研究計画が必要>>
+NeedResearchProjectDesc:研究設備があるのに計画が選択されていない。\n\n'_[Research]_'メニューを開いて計画を選択しよう。
+
+ColonistsIdle:<<{0} colonists idle??_{colonist}_ {0} 人が暇>>
+ColonistsIdleDesc:次の_{colonist}_は暇そうにぶらついている:\n\n{0}\n何か生産的な仕事を見つけてあげよう。
+
+CaravanIdle:<<Caravan idle??キャラバンが暇>>
+CaravanIdleDesc:次のキャラバンは次の目的地が決まるのを待っている:\n\n{0}
+
+ColonistNeedsTreatment:<<Colonist needs treatment??_{colonist}_に治療が必要>>
+ColonistNeedsTreatmentDesc:次の_{colonist}_は治療を必要としている。放置していると、傷により死んだり、傷が残ったりする。\n\n{0}\n医療用ベッドに連れて行こう。\n\n(まず、ベッドを選択して医療用ベッドに切り替える。次に、傷ついた_{colonist}_を選択して、医療用ベッドを右クリックし、休ませる。)
+
+AlertHypothermia:_<Hypothermia>_
+AlertHypothermiaDesc:次の_{colonist}_は_<Hypothermia>_に苦しんでいる:\n\n{0}\n季節に見合った服装をしているか、屋内が適度に暖められているか確認しよう。
+
+PatientsAwaitingMedicalOperation:<<{0} patients await medical operation??{0} 人の患者が手術待ち>>
+PatientsAwaitingMedicalOperationDesc:次の患者は手術を待っている:\n\n{0}\n治療に必要な道具と手が空いている医者がいることを確認しよう。
+
+FireInHomeArea:<<Fire!??火事だ!>>
+FireInHomeAreaDesc:_<Home area>_ 内で火災が発生している。
+
+PawnsWithLifeThreateningDisease:<<Medical emergency??緊急医療>>
+PawnsWithLifeThreateningDiseaseDesc:重病により死にそうな人がいる:\n\n{0}\nできる限り最高の治療を受けさせよう。
+PawnsWithLifeThreateningDiseaseAmputationDesc:重病により死にそうな人がいる:\n\n{0}\n_{colonist}_を生かし続けるために、可能なら、感染した四肢の切断や移植を検討しよう。
+
+BilliardsNeedsSpace:<<Billiards needs space??_[Billiards]_に空間が必要>>
+BilliardsNeedsSpaceDesc:障害物に隣接しているため_{colonist}_が遊べない _[Billiards table]_ がある。\n\n_[Billiards table]_ の周りは完全に空けないと使えない。
+
+HunterHasShieldAndRangedWeapon:<<Hunter has shield and ranged weapon??シールドと遠距離武器を持った_{hunter}_>>
+HunterHasShieldAndRangedWeaponDesc:遠距離攻撃を阻害する _[Shield belt]_ を身につけながら遠距離武器を装備している_{hunter}_がいる。シールドを脱がない限り狩りはできない。
+
+NeedWarmClothes:<<Need warm clothes??防寒着が必要>>
+NeedWarmClothesDesc1:冬が訪れたとき、少なくとも _{colonist}_ {0} 人分の防寒着が足りなくなる。
+NeedWarmClothesDesc1All:冬が訪れたとき、_{colonist}_全員分の防寒着が足りなくなる。
+NeedWarmClothesDesc2:屋外の気温は {0} に達する予定。 _[Tailor bench]_ で防寒着を作るか、_{trader}_から買える。
+
+ImmobileCaravan:<<Immobile caravan??キャラバン行動不能>>
+ImmobileCaravanDesc:荷物が多すぎて動けないキャラバンがいる。\n\n'_<Items>_'タブからいくつかアイテムを捨てることで、また動けるようになる。
+
+BuildingCantBeUsedRoofed:<<Building unusable due to roof??屋根のため建物使用不可>>
+BuildingCantBeUsedRoofedDesc:屋根があると使えない建物が一つ以上ある。屋根を取り払うまでそれらは使えない。
+
+AlertHeatstroke:_{Heatstroke}_
+AlertHeatstrokeDesc:次の人は_[heatstroke]_で苦しんでいる:\n\n{0}\n涼しい場所を与えよう。_[passive cooler]_ や電動 _[cooler]_ で部屋を涼しくできる。ドアで隔てられていれば、深い地下は自然と涼しい。
+
+QuestPartMoodBelowThreshold:<<Guest unhappy??不満なゲスト>>
+QuestPartMoodBelowThresholdDesc:クエスト {0} はこの人物の_{mood}_を良くしておかないといけないが、悪くなっている。何か気分を良くする行動を起こそう。:\n\n{1}
+
+QuestPartShuttleLeaveDelay:<<Shuttle leaving in {0}??シャトル出発まで後 {0}>>
+QuestPartShuttleLeaveDelayDesc:シャトルは後 {1} で出発する。クエスト {0} はシャトル発射までに次の人やアイテムを乗せないといけない:\n\n{2}
+
+DisallowedBuildingInsideMonument:<<Monument will be destroyed??モニュメントが壊れる>>
+DisallowedBuildingInsideMonumentDesc:モニュメントの中に不許可の建物を建てた。モニュメントは後 {0} で自動的に壊れる。
+
+ActivatorCountdown:<<Countdown activator {0}??カウントダウン起動 {0}>>
+ActivatorCountdownDesc:カウントダウンが進んでいる、近くの目覚める_[mechanoid]_に備えろ。
+ActivatorCountdownMultiple:<<{0} countdown activators??カウントダウン起動 {0}>>
+ActivatorCountdownDescMultiple:{0} のカウントダウンがが進んでいる、近くの目覚める_[mechanoid]_に備えろ。
+
+QuestExpiresSoon:<<Quest expires in {0}??クエスト終了まであと {0}>>
+QuestExpiresSoonDesc:クエスト '{0}' の終了まであと {1} 。
+
+; クレジットなので訳さなくて良い
+MainPageCredit:A story generator by Tynan Sylvester
+Credits_Developers:Developers
+Credit_DirectionVarious:Direction, design, code, art
+Credit_MusicAndSound:Audio
+Credit_Code:Code
+Credit_GameArt:Art
+Credit_MenuArt:Menu art
+Credit_AdditionalCode:Additional code
+Credits_AdditionalDevelopment:Additional development
+Credit_SpecialThanks:Special thanks
+Credits_TitleCommunity:Community volunteers
+Credit_Tester:Tester
+Credit_ModDonation:Mod donor
+Credit_WritingDonation:Writing donor
+Credit_Moderator:Moderator
+Credit_WikiMaster:Wiki master
+Credits_TitleLanguage:{0} language
+Credit_Writer:Writer
+Credit_Translator:Translator
+Credit_OpenSourceLibraries:Open source libraries
+Credit_NoiseGeneration:Noise generation
+ThanksForPlaying:Thanks for playing!
+
+ClockTime:<<Time??時刻>>
+ClockDate:<<Date??日付>>
+ClockYear:<<Year??星歴>>
+DateReadoutTip:到着後からの経過日数: {0}\n現在の節: {4}\n季節: {2}\n\n一年は各 {3} 日の四節に分けられる。\n節はどこでも同じだが、季節は場所によって異なる。\n\n各節における季節:\n{5}
+FullDate:<<{0} of {1}, {2}??{2} 年 {1} 節 {0} 日>>
+ShortDate:<<{0} {1} {2}??{2}/{1}/{0}>>
+DateReadout:<<{0} of {1}, {2}??{2} 年 {1} 節 {0} 日>>
+SeasonFullDate:<<{0} of {1}??{1} 節 {0} 日>>
+WholeYear:<<Whole year??一年中>>
+
+DesignatorCancel:<<Cancel??キャンセル>>
+DesignatorCancelDesc:建設、採掘、運搬、収穫などの指示を取り消す。
+
+DesignatorCutPlants:<<Cut plants??刈り取り>>
+DesignatorCutPlantsDesc:植物を刈り取る。印を付けられた植物は完全に取り除かれ、食材などが採れるのなら収穫される。
+
+DesignatorDeconstruct:<<Deconstruct??解体>>
+DesignatorDeconstructDesc:解体して物資を部分的に回収する。
+
+DesignatorUninstall:<<Uninstall??撤去>>
+DesignatorUninstallDesc:撤去すれば移動、売却、別の場所へ配置できる。
+
+DesignatorHarvest:<<Harvest??収穫>>
+DesignatorHarvestDesc:植物から食材などを収穫する。
+
+DesignatorHarvestWood:_<Chop wood>_
+DesignatorHarvestWoodDesc:樹木を切り倒して木材にする。
+
+DesignatorHaulThings:<<Haul things??運搬>>
+DesignatorHaulThingsDesc:石の塊や他のアイテムを廃棄ゾーンに運ばせる。食材や死体などの常に運ばれる物には必要ない。
+MustHaulHaulables:運べるが自動で運ばない物(、岩の塊など、)だけ指定できる。
+
+DesignatorHunt:<<Hunt??狩る>>
+DesignatorHuntDesc:_{hunter}_に動物を狩らせる。
+
+DesignatorMine:_<Mine>_
+DesignatorMineDesc:岩を採掘する。
+
+DesignatorSmoothSurface:<<Smooth surface??表面をならす>>
+DesignatorSmoothSurfaceDesc:粗い岩の地面や壁を滑らかにする。
+
+DesignatorPlan:<<Plan??予定地>>
+DesignatorPlanDesc:予定地を設置する。これは将来の拡張計画を助けるだけで、何も行わない。
+
+DesignatorPlanRemove:<<Remove plans??予定地削除>>
+DesignatorPlanRemoveDesc:予定地を取り除く。
+
+DesignatorForbid:_<Forbid>_
+DesignatorForbidDesc:アイテムを禁止する。_{colonist}_は指定されたアイテムには関われなくなる。
+
+DesignatorUnforbid:_<Allow>_
+DesignatorUnforbidDesc:アイテムの禁止を解除する。_{colonist}_は指定されたアイテムに関われるようになる。
+
+DesignatorAreaHomeExpand:_<Expand home area>_
+DesignatorAreaHomeExpandDesc:_{colonist}_は _<Home area>_ 内でだけ建物を補修し、床を掃除し、消火する。
+
+DesignatorAreaHomeClear:<<Clear home area??_{home}_削除>>
+DesignatorAreaHomeClearDesc:_<Home area>_ を取り除く。_{colonist}_は掃除、補修、消火しなくなる。
+
+DesignatorAreaBuildRoofExpand:_<Build roof area>_
+DesignatorAreaBuildRoofExpandDesc:_{colonist}_はこのエリアに屋根を設置する。
+
+DesignatorAreaNoRoofExpand:<<Remove roof area??屋根除去>>
+DesignatorAreaNoRoofExpandDesc:_{colonist}_はこのエリアの屋根を除去する。(取り除けない山の天井を除く。)
+
+DesignatorAreaIgnoreRoofExpand:<<Ignore roof area??屋根無視>>
+DesignatorAreaIgnoreRoofExpandDesc:_{colonist}_はこのエリアの屋根を無視する。
+
+DesignatorAreaSnowClearExpand:<<Expand snow clear area??除雪拡張>>
+DesignatorAreaSnowClearExpandDesc:_{colonist}_が除雪するエリアを指定する。
+
+DesignatorAreaSnowClearClear:<<Clear snow clear Area??除雪削除>>
+DesignatorAreaSnowClearClearDesc:除雪エリアを削除する。_{colonist}_は除雪しなくなる。
+
+DesignatorExpandAreaAllowed:<<Expand allowed area??許可拡張>>
+DesignatorExpandAreaAllowedDesc:_<Allowed area>_ を広げる。\n\n_<Allowed area>_は_{colonist}_に割り当てられる。_{colonist}_は_<Allowed area>_外で作業をしたり欲求を満たしたりしない。
+
+DesignatorClearAreaAllowed:<<Clear allowed area??許可削除>>
+DesignatorClearAreaAllowedDesc:_<Allowed area>_を削除する。\n\n_<Allowed area>_は_{colonist}_に割り当てられる。_{colonist}_は_<Allowed area>_外で作業をしたり欲求を満たしたりしない。
+ManageAreas:<<Manage areas...??エリアを編集...>>
+
+DesignatorGrowingZoneDesc:_{colonist}_が特定の植物を栽培するゾーンを作る。
+
+DesignatorZoneCreateStorageResourcesDesc:_{colonist}_が物資を貯める_{stockpile}_を作る。\n既存の_{stockpile}_を広げることもできる。
+DesignatorZoneCreateStorageDumpingDesc:_{colonist}_がガラクタを貯める_{stockpile}_を作る。\n既存の_{stockpile}_を広げることもできる。
+DesignatorZoneDelete:<<Shrink zones??ゾーン縮小>>
+DesignatorZoneDeleteSingular:<<Shrink zone??ゾーンを削る>>
+DesignatorZoneDeleteDesc:_<Stockpile zone>_ や _<Growing zone>_ を削除する。
+DesignatorZoneExpand:<<Expand zone??ゾーン拡張>>
+
+DesignatorClaim:<<Claim??占有>>
+DesignatorClaimDesc:古代の遺跡や放棄された攻撃基地などの、中立の構造物を占有する。占有した構造物は_{colonist}_が補修し維持できるようになる。
+
+DesignatorRemoveFloor:<<Remove floor??床を除去>>
+DesignatorRemoveFloorDesc:床を剥がして地面を露出させる。
+
+DesignatorRemoveBridge:<<Remove bridge??橋を除去>>
+DesignatorRemoveBridgeDesc:橋を剥がして地面を露出させる。
+
+DesignatorStrip:<<Strip??脱がす>>
+DesignatorStripDesc:死体や怪我人から衣服を脱がす。
+
+DesignatorOpen:<<Open??開ける>>
+DesignatorOpenDesc:容器を開ける。
+
+DesignatorSlaughter:<<Slaughter??屠殺>>
+DesignatorSlaughterDesc:動物を屠殺する。
+
+DesignatorTame:<<Tame??手懐ける>>
+DesignatorTameDesc:野生動物を手懐ける。
+
+UnchosenStuff:素材が選ばれていない
+TooCloseToMapEdge:マップの端に近すぎる。
+OutOfBounds:範囲外。
+CannotPlaceInUndiscovered:未知の場所には設置できない。
+InteractionSpotBlocked:{1_labelShort} によって作用場所が塞がれている。
+InteractionSpotOutOfBounds:作用場所が範囲外。
+InteractionSpotWillBeBlocked:{1_labelShort} によって作用場所が塞がれる。
+WouldBlockInteractionSpot:{0} が {1} の作用場所を塞ごうとしている。
+TerrainIsAlready:ここの地面は既に {0} だ。
+SurfaceBeingSmoothed:表面を滑らかにするように既に指示されている。
+IdenticalThingExists:同じ物が既にある。
+IdenticalBlueprintExists:同じ設計が既にある。
+; 水の上も対象なので、「地面」は良くない。
+TerrainCannotSupport:この地形に {0_label} は作れない。
+TerrainCannotSupport_TerrainAffordance:{0_label} には次をサポートする地形が必要: {1_label}
+TerrainCannotSupport_TerrainAffordanceFromStuff:({2_label} で作られている) {0_label} には次をサポートする地形が必要: {1_label}
+SpaceAlreadyOccupied:既に塞がっている。
+SpaceBeingSmoothed:ここは滑らかにしようとしている。
+TerrainMustBeRemovable:剥がせる床を指定する。
+MustBeOnMovingWater:水車は流れる水の上に置く。
+InteractionSpotWillOverlap:作用場所が {1_labelShort} のそれと重なる。
+InteractionSpotOverlaps:作用場所が {1_labelShort} のそれと重なっている。
+MonumentAdjacentToBuilding:モニュメントのマーカーは建物の隣に置けない。
+
+ExpandOrCreateZone:{0} を拡張するか\n新しく {1} を作る。
+CreateNewZone:新しく {0} を作る。
+
+TransmitsPower:送電
+ConstructionNeeded:必要建設スキル
+NoColonistWithSkillTip:このスキルを持っている{0}がいない。
+SkillNeededForConstructing:{0} が必要
+
+NoColonistWithAllSkillsForConstructing:必要なスキルを全て持っている{0}がいない
+AllColonistsWithSkillHaveDisabledConstructingTip:このスキルを持っている{0}が{1}に割り当てられていない。
+
+Confirm:<<Confirm??はい>>
+GoBack:<<Go back??戻る>>
+OK:OK
+Close:_<Close>_
+
+GameUpdatedToNewVersionInitial:RimWorld はバージョン {0} から {1} に更新されました。
+GameUpdatedToNewVersionSavesIncompatible:これにより、保存したゲームや古いバージョンのMODは動かなくなるかもしれません。
+GameUpdatedToNewVersionSavesCompatible:古いバージョンで保存されたゲームは互換性があるはずですが、いくつかのMODは動かなくなるかもしれません。
+GameUpdatedToNewVersionNonSteam:この RimWorld はDRMフリーなので別の場所へコピーすることができ、それにより、新旧両方ののバージョンを遊ぶことができます。
+GameUpdatedToNewVersionSteam:古いバージョンで遊び続けたいのなら、Steamの「ベータ」機能が使えます。\n\n1. Steam の「ライブラリ」で RimWorld を右クリックする。\n\n2. 「プロパティ」をクリックする。\n\n3. 「ベータ」タブをクリックする。\n\n4. 遊びたいバージョンをドロップダウンメニューから選ぶ。
+
+RecoveredFromErrorsDialogTitle:互換性か壊れたMODのエラーから復帰しました。
+RecoveredFromErrorsText:有効化されているMODのうち、いくつかがエラーを起こしているようです。\n\nMOD間で互換性がない、RimWorldの別のバージョン向け、または単に壊れているかもしれません。\n\n全てのMODは無効化されたので、MODダイアログから再び有効化できます。
+
+ErrorWhileLoadingAssetsTitle:アセット読み込みエラー
+ErrorWhileLoadingAssets:アセット読み込み中にエラーが発生しました。詳細はエラーログを見てください。
+ErrorWhileLoadingAssets_ModsInfo:現在カスタムMODが動いています。MODが問題を引き起こしている可能性もあります。
+ErrorWhileGeneratingMapTitle:マップ生成エラー
+ErrorWhileGeneratingMap:新しいマップを生成中にエラーが発生しました。詳細はエラーログを見てください。
+ErrorWhileLoadingMapTitle:マップ読み込みエラー
+ErrorWhileLoadingMap:マップ読み込み中にエラーが発生しました。詳細はエラーログを見てください。
+
+ModsChanged:MODリストが変更されました。ゲームを自動的に再起動します。
+FailedToRestart:ゲーム再起動中に何か不具合が発生しました。MODによる変更は完全に取り除くことはできないので、無効化したMODの変更は残ったままです。MODを正常に読み込ませるために、一旦ゲームを終了して再起動することをお勧めします。
+Restarting:再起動中
+
+SteamClientMissing:Steam API を初期化できませんでした。考えられる原因:\n\nSteam が起動していない。\n\nsteam_appid.txt が置かれていない状態で、Steam 外から起動した。\n\nSteam のクライアントとは異なる権限で起動した(例:管理者権限)。\n\n殆どの場合、PCを再起動すると直ります。\n\nSteam 無しで遊ぶことはできますが、Steam のプレイ統計は記録されず、 Steam の機能も使えません。
+
+InitializingInterface:<<Initializing interface??インターフェースを初期化中>>
+UnloadingUnusedAssets:<<Unloading unused assets??未使用のアセットをアンロード中>>
+LoadingAllActiveMods:<<Loading all active mods??有効なMODをロード中>>
+LoadingDefs:<<Loading defs??defs をロード中>>
+LoadingAssets:<<Loading assets??アセットをロード中>>
+Initializing:<<Initializing??初期化中>>
+LoadingWorld:<<Loading world??ワールドをロード中>>
+LoadingMap:<<Loading map??マップをロード中>>
+InitializingGame:<<Initializing game??ゲームを初期化中>>
+SpawningAllThings:<<Spawning things??オブジェクトを配置中>>
+SpawningColonists:<<Spawning colonists??_{colonist}_を配置中>>
+
+SaveGameButton:<<Save??セーブ>>
+LoadGameButton:<<Load??ロード>>
+OverwriteButton:<<Overwrite??上書き>>
+ConfirmDelete:本当に {0} を 削除しますか？
+DeleteThisSavegame:このセーブデータを削除します。
+SavedAs:{0} という名前で保存しました。
+NeedAName:名前を入力してください。
+LoadingLongEvent:<<Loading??ロード中>>
+SavingLongEvent:<<Saving??セーブ中>>
+PermadeathModeSaveSuffix:<<(Permadeath)??(パーマデス)>>
+SaveIsFromDifferentGameVersion:実行中のバージョンは {0} ですが、セーブデータは {1} で、これは完全に異なるバージョンです。\n\nこのデータを読み込んでもほぼ動作しません。
+SaveIsFromDifferentGameBuild:実行中のバージョンは {0} ですが、セーブデータは {1} で、これは異なるビルドです。\n\nこのデータを読み込んでも動作します。
+SaveIsFromThisGameBuild:セーブデータはこのゲームバージョンで保存されており、問題なく動きます。
+SaveIsUnknownFormat:セーブデータが未知の形式なので正しく読み込むことは不可能です。
+ProblemSavingFile:セーブ中に問題がありました。{0}:\n\n{1}\n詳細はエラーログを見てください。
+LoadAnyway:<<Load anyway??強制ロード>>
+;このテキストはボタンに入りきらないので短めにする
+ChangeLoadedMods:<<Load mod list from save??セーブのMODリストを使う>>
+MissingMods:いくつかのMODがないので、インストールしてください。
+OfficialContent:<<Official content??公式コンテント>>
+ContentActive:<<Active??有効>>
+ContentInstalledButNotActive:インストールされているが、有効にはなっていない
+ContentNotInstalled:インストールされていない
+
+NamePlayerFactionMessage:しばらくここに居るようなので、{0}が_{faction}_の名前を決めるべきだと考えている。あなたの_{faction}_を何と呼びますか？
+PlayerFactionGainsName:あなたの_{faction}_は {0} と名乗ります。
+PlayerFactionNameIsInvalid:その名前は適切ではありません。
+
+NamePlayerFactionBaseMessage:あなたが_{settlement}_の名前を決めるべきだと {0} が考えている。この_{settlement}_を何と呼びますか？
+PlayerFactionBaseGainsName:このコミュニティは {0} と名乗ります。
+PlayerFactionBaseNameIsInvalid:その名前は適切ではありません。
+
+NamePlayerFactionBaseMessage_NameFactionContinuation:_{settlement}_の名前もあなたが決めるべきだと {0} が考えている。この_{settlement}_を何と呼びますか？
+PlayerFactionAndBaseGainsName:あなたの_{faction}_は {0} と名乗り、このコミュニティは {1} と名乗ります。
+
+NameIsInvalid:適切な名前を入力してください。
+NameIsInUse:この名前は既に使われています。
+ZoneGainsName:このゾーンを {0} という名前にした。
+
+PawnGainsName:この人物のニックネームは {0} になった。{PAWN_possessive}の肩書きは{PAWN_title}だ。
+AnimalGainsName:この動物の名前は {0} になった。
+
+VersionMismatch:バージョンの不一致
+SaveGameIncompatibleWarningText:このゲームはバージョン {0} で保存されています。\n実行中のバージョンは {1} です。\n\nこのデータを読み込むとバグやクラッシュを起こすかもしれません。
+WorldFileVersionMismatch:このワールドデータはバージョン {0} で生成されたものです。\n実行中のバージョンは {1} です。\n\nこのデータを読み込むとバグやクラッシュを起こすかもしれません。新規にワールドを生成したほうがよいです。
+FileIncompatibleWarning:このファイルはバージョン {0} で保存されています。実行中のバージョンは {1} です。\n\nこのファイルを読み込むとバグやクラッシュを起こすかもしれません。
+ModsMismatchWarningTitle:MODの不一致
+ModsMismatchWarningText:このファイルは現在動作しているMODの組み合わせとは別の組み合わせで保存されています。何か問題が起こるかもしれませんが、それはMODが何をしているかに完全に依存します。\n\nセーブファイルのMOD(とロード順):\n\n{0}\n\n現在のMOD(とロード順):\n\n{1}
+
+ConfirmResolutionChange:画面設定を変更しました。新しい設定で問題ないですか？\n\n自動復帰まであと {0} 秒...
+ResolutionKeep:決定
+ResolutionRevert:戻す
+
+ConfirmPermanentlyDisableDevMode:本当にこのコンピュータで開発者モードを恒久的に無効にしますか？\n\nこれは、通常プレイで有利になるために開発者用ツールを使いたくなる誘惑を無くして、純粋に遊びたい人向けのオプションです。\n\n開発者モードは再度有効にできますが、設定ファイルを自分でいじる必要があります。やり方はネットで調べてください。
+MapTemperatureDangerWarning:警告: あなたは極寒環境から始めようとしている。生存は難しいか、ほぼ不可能です。極めて難しい挑戦をするつもりがないのなら、他の場所や季節を選びます。
+MapSizePerformanceWarning:このゲームは中サイズのマップで遊ぶように設計されています。これらのサイズには十分なスペースがあります！\n\n大サイズのマップはパフォーマンスが悪くなるだけでなく、ゲーム設計も確実に壊してしまいます。AIは馬鹿な決定をするようになり、ゲームバランスはあらゆる所から悪影響を受けるようになります。これらのサイズは互換性とテスト用なので、特に理由が無ければ使わないで下さい。
+
+MapSize:<<Map size??マップの大きさ>>
+MapSizeDesc:<<{0}x{0} ({1} cells)??{0}x{0} (総セル数 {1})>>
+MapSizeSmall:<<Small??小>>
+MapSizeMedium:<<Medium??中>>
+MapSizeLarge:<<Large??大>>
+MapSizeExtreme:<<Extreme (test)??極大(テスト)>>
+MapStartSeason:<<Starting season??開始時の季節>>
+MapStartSeasonDefault:<<Auto??自動>>
+Notice:<<Notice??警告>>
+
+;レシピ周り
+Suspended:<<Suspended??停止中>>
+NotSuspended:<<Not suspended??稼働中>>
+SuspendedAllCaps:<<SUSPENDED??停止中>>
+RepeatCount:<<Repeat:??繰り返し回数:>>
+Forever:<<Forever??常時>>
+Details:<<Details??詳細>>
+IngredientSearchRadius:<<Ingredient radius??材料を取りに行く半径>>
+CurrentlyHave:<<Currently have??所持数>>
+CountingProducts:<<Counting??数える>>
+Infinite:<<Infinit??無限に>>
+AllowedSkillRange:<<Allowed {0} skill:??{0}スキル許可範囲:>>
+IncompatibleLower:<<incompatible??非該当>>
+AnyWorker:<<Any worker??あらゆる作業者>>
+Unlimited:<<Unlimited??無制限>>
+
+RecipeCannotHaveTargetCount:(このレシピの結果物は複数か予測不能なので目標数を決められない。)
+WorkAmount:<<Work amount??工数>>
+MinimumSkills:<<Minimum skills:??必要スキル:>>
+BillRequires:<<Requires {0} {1}??必要 {0} {1}>>
+BillRequiresNutrition:<<Requires {0} nutrition??必要な栄養 {0}>>
+BillRequiresMayVary:注意: 金のような希少材料は {0} 倍必要。
+ThisIsSmallVolume:これは貴重な材料です。つまり、1単位が普通の材料の 1 / {0} に相当する。なので、同じ量を満たすには、通常の {0} 倍必要になる。
+UsableIngredients:<<ingredients??材料>>
+BillRepeatTargetCountShort:<<To {0}??{0} 回>>
+
+PauseWhenSatisfied:<<Pause when satisfied??満足したら一時停止>>
+UnpauseWhenYouHave:<<Unpause at??一時停止解除>>
+Paused:<<Paused??一時停止>>
+Unpause:<<Unpause??停止解除>>
+
+IncludeEquipped:<<Count equipped??装備を含める>>
+IncludeTainted:<<Count tainted??穢れたものを含める>>
+LimitToAllowedStuff:<<Only allowed ingredients??材料のみ許可>>
+IncludeFromAll:<<Look everywhere??全ての場所を見る>>
+IncludeSpecific:<<Look in {0}??{0}を見る>>
+
+Damage:<<Damage??ダメージ>>
+ArmorPenetration:_<Armor penetration>_
+ArmorPenetrationExplanation:この武器が標的に当たるごとに無効化する_<Armor>_。\n\nもし、_<Armor penetration>_が標的の_<Armor>_を超えた場合、防御していないのと同じになる。それ以外は、標的の_<Armor>_からこの値が引かれる。
+Accuracy:<<Accuracy??精度>>
+BurstShotCount:<<Burst shot count??一回の発射数>>
+WarmupTime:<<Warmup??ワームアップ>>
+MeleeWarmupTime:<<Melee warmup??近接ワームアップ>>
+CooldownTime:<<Cooldown??クールダウン>>
+DisarmedTime:<<Disarmed??武装解除>>
+ShutDown:<<Shut down??シャットダウン>>
+ChargingTime:<<Charging??チャージ>>
+ChargingNext:<<Next recharge (for {1}) in: {0}\nCharge cycle: {2}??次のチャージ ({1}) まであと: {0}\nチャージサイクル: {2}>>
+BurstShotFireRate:<<Fire rate??発射速度>>
+Range:<<Range??射程>>
+StoppingPower:<<Stopping power??ストッピング・パワー>>
+StoppingPowerExplanation:この武器で撃たれた相手はよろめき、数秒間動きが遅くなる。\n\nストッピング・パワーを超える体格には効果が無い。
+DirectHitChance:<<Direct hit chance??直接命中率>>
+MissRadius:<<Miss radius??ミス半径>>
+
+GrowsWild:<<Grows wild??野生の植物>>
+Harvestable:<<Harvestable??収穫可能>>
+LimitedLifespan:<<Limited lifespan??寿命あり>>
+GrowingTime:<<Growing time??成長時間>>
+HarvestYield:<<Harvest yield??収穫量>>
+MinGrowthTemperature:<<Min growth temperature??成長下限温度>>
+MaxGrowthTemperature:<<Max growth temperature??成長上限温度>>
+GrowingTimeDesc:植物は一日のうちの特定の時間かつ、光が当たっている時だけ成長する。\n\nこの値は植物が最大限まで育つために実際に必要な時間の総計を表している。\n大抵、実際の成長時間は約2倍かかる。\n低温時でも植物の成長は遅くなる。
+Days:<<days??日>>
+MinGrowingSkillToSow:<<Minimum growing skill to sow??必要な栽培スキル>>
+FertilityRequirement:<<Fertility requirement??必要な肥沃度>>
+FertilitySensitivity:<<Fertility sensitivity??肥沃度への感度>>
+LightRequirement:<<Light requirement??必要な光量>>
+Attributes:<<Attributes??性質>>
+LifeSpan:<<Lifespan??寿命>>
+Nutrition:<<Nutrition??栄養>>
+Joy:<<Recreation??娯楽>>
+FoodQuality:<<Food quality??食材の品質>>
+WalkSpeedProperty:<<Walk speed??移動速度>>
+MinFoodQuality:<<Min. food quality??食べられる食材の最低品質>>
+Diet:<<Diet??食性>>
+NutritationEatenPerDay:<<Nutrition need per day??一日毎の必要栄養>>
+LeatherType:<<Leather type??皮の種類>>
+BodySize:<<Body size??体格>>
+RecruitDifficulty:<<Recruit difficulty??説得の難度>>
+MarketValue:<<Base price??基本価格>>
+Covers:_<Covers>_
+CreatedAt:<<Created at??作成場所>>
+Layer:_<Layer>_
+CoverEffectiveness:<<Cover effectiveness??カバー効力>>
+CoverEffectivenessExplanation:銃撃戦でこれに身を隠したときの効力。\n\n数値が高いほど銃弾を多く防ぐ。
+MedicineXpGainFactor:<<Experience gain factor??経験獲得因子>>
+MoodChange:<<Mood change??_{mood}_の変化>>
+Wildness:<<Wildness??野性>>
+WildnessExplanation:より野性的な生物の手懐、訓練、扱いは難しい。
+TrainingDecayInterval:<<Training decay interval??訓練が衰える間隔>>
+TamenessWillNotDecay:<<Tameness will never decay.??従順性は衰えない。>>
+AnimalFilthRate:<<Animal filth rate??床を汚す度合い>>
+AnimalFilthRateExplanation:動物が歩いた床は汚れる。\n\nこの値は、この動物が {0} セル歩くごとに床を汚す平均量を表している。\n\n大きな動物やペット向きではない動物はより汚す。
+TimeRecordsCategory:<<Time??時間>>
+MiscRecordsCategory:<<Misc??その他>>
+Addictiveness:<<Addictiveness??中毒>>
+PackAnimal:_<Pack animal>_
+PackAnimalExplanation:この動物が長旅をするキャラバンでアイテムを運ぶのに適しているかどうか。
+
+Skill:<<Skill??スキル>>
+SurgerySuccessChanceFactor:<<Success rate multiplier??成功率乗数>>
+SurgeryDeathOnFailChance:<<Death chance on fail??失敗時死亡率>>
+WorkSpeedStat:<<Work speed governed by??作業速度に影響する能力>>
+EfficiencyStat:<<Output quantity governed by??産出数に影響する能力>>
+
+SkillRequiredToBuild:<<{0} skill required??{0} スキルが必要>>
+SkillRequiredToBuildExplanation:建設に必要な {0} のレベル
+
+NuzzleInterval:<<Nuzzle interval??すり寄りの間隔>>
+NuzzleIntervalExplanation:動物が_{colonist}_にすり寄る平均的な間隔。\n\nすり寄りは、鼻や鼻面を親しい者に押しつけることで愛情を示す、様々な動物が共通に持っている行動。\n大抵の人はコレの可愛さに気付き、しばらく良い_{mood}_になる。
+
+HarmedRevengeChance:<<Revenge chance on harm??危害による反撃確率>>
+HarmedRevengeChanceExplanation:攻撃者がライフルの射程からこの生物を傷つけた場合に、この生物が反撃する確率。\n\nこの確率は攻撃者が近づくほど高まり、かなり近くで攻撃した場合は三倍以上になる。\nこの確率はダメージを与えるたびに判定されるので、射撃間隔が長く、高威力な武器ほど反撃されにくくなる。\n生物が反撃する可能性を最小限にするには、ライフルの射程から射撃間隔が長い武器で攻撃する。
+TameFailedRevengeChance:<<Revenge chance on tame fail??手懐け失敗による反撃確率>>
+TerrainRequirement:<<Terrain requirement??地形要件>>
+Supports:<<Supports??サポート>>
+TrapArmorPenetration:<<Trap armor penetration??トラップの_{armor penetration}_>>
+RearmCost:<<Rearm cost??再装填コスト>>
+RearmCostExplanation:この_{turret}_の再装填にかかるコスト (難易度で変動)。
+ShotsBeforeRearm:<<Shots before rearm??発射残数>>
+ShotsBeforeRearmExplanation:再装填するまでに発射できる回数。
+PowerConsumption:<<Power consumption??消費電力量>>
+Target:<<Target??対象>>
+TargetHuman:_{Human}_
+TargetAnimal:_{Animal}_
+TargetSelf:<<Self??自分>>
+TargetGround:<<Ground??地面>>
+ClickToLearnMore:詳細はクリック。
+ClickToViewFactions:_{factions}_を見るにはクリック。
+
+PositiveBuysNegativeSells:<<Positive numbers buy.\nNegative numbers sell.??正の数は"買い"\n負の数は"売り">>
+BuyPriceDesc:購入価格。
+SellPriceDesc:売却価格。
+PriceTypeDesc:これの価格は {0}。
+ColonyCount:_{colony}_が取引できるアイテム数\n\n_<Orbital trade beacon>_ の近くにあるアイテムだけ軌道交易商に売ることができる。
+TraderCount:交易商が持っている取引可能なアイテム数
+AcceptButton:_<Accept>_
+ResetButton:_<Reset>_
+CancelButton:_<Cancel>_
+CloseButton:_<Close>_
+YourTradeableSilver:<<Your tradeable silver: {0}??取引可能な_[Silver]_: {0}>>
+YourTradeableSilverTip:_<Orbital trade beacon>_ の近くにある_[Silver]_のみ取引に使える。
+TraderHasNoMore:<<Trader has no more.??交易商はこれ以上持っていない。>>
+ColonyHasNoMore:<<No more to sell.??これ以上売れない。>>
+TraderWillNotTrade:<<Trader is not willing to buy this.??交易商はこれを買いたくない。>>
+Negotiator:<<Negotiator??交渉人>>
+NegotiatorTradeDialogInfo:<<Negotiator: {0} (+{1})??交渉人: {0} (+{1})>>
+;前者は会話能力が、後者は聴力が下がっているときに表示されるが
+;それらが下がる原因は様々なので、曖昧な言い方にする。
+NegotiatorTalkingImpaired:交渉人 {1_labelShort} はあまり健康ではないので、ちゃんと話せない。
+NegotiatorHearingImpaired:交渉人 {1_labelShort} はあまり健康ではないので、ちゃんと聞けない。
+NegotiatorCapacityImpaired:これは取引価格に影響する。\n\nもっと健康な交渉人を使おう。
+ConfirmTraderShortFunds:交易商はこの売買に必要な_[Silver]_を持っていない。構わず続けますか？
+SortBy:<<Sort by??並び替え>>
+TraderTypePrice:<<trader type??取引種別>>
+Selling:<<selling??売り>>
+Buying:<<buying??買い>>
+ItemSellPriceFactor:<<item sell price multiplier??アイテム売却価格乗数>>
+
+DifficultyLevel:<<difficulty level??難易度>>
+PostCurve:<<global post-process curve??グローバル・ポストプロセス・カーブ>>
+YourNegotiatorBonus:<<Your negotiator bonus??交渉人ボーナス>>
+TradeWithFactionBaseBonus:<<Trading with faction base bonus??_{faction}_ボーナス>>
+minimum:<<minimum??最小値>>
+FinalPrice:<<Final price??最終価格>>
+GiftModeTip:贈り物モード - {0} へ贈り物を申し出る。
+TradeModeTip:取引モードへ戻る。
+TradeCaravanRequestDeniedDueTitle:{NEGOTIATOR_nameDef} は必要な_{title}_ {TITLE} を持っていないので、 {FACTION_name} はキャラバンを送らない。
+SellableItemsTitle:<<Things this trader will buy??この交易商が買う物>>
+TraderNotVisitedYet:<<Never visited - stock unknown??未訪問 - 在庫不明>>
+TraderRestockedSinceLastVisit:<<Restocked since your last visit??前回の訪問から補充済み>>
+NextTraderRestock:<<Next restock: {0} days??次の補充まで: {0} 日>>
+PawnsTabShort:<<Creatures??生物>>
+
+FormCaravan:<<Form caravan??キャラバンを編成>>
+FormCaravanColonyThingCountTip:<<Number available to send with the caravan.??キャラバンへ渡せる個数。>>
+PawnsTab:<<People and animals??人と動物>>
+ItemsTab:<<Items??アイテム>>
+CaravanMustHaveAtLeastOneColonist:少なくとも一人は倒れていない_{colonist}_が必要。
+CaravanCouldNotFindExitSpot:選択した出発エリア({0})は通行不能。
+CaravanCouldNotFindPackingSpot:有効な _[caravan packing spot]_ を見つけられない。出発エリア({0})に到達可能か確認する。
+CaravanCouldNotFindReachableExitSpot:警告: 割り当てられた_{colonist}_のうちの何人かが出発エリア({0})にたどり着けない。
+CaravanPawnIsUnreachable:{1_labelShort} は割り当てられた_{colonist}_の誰にも到達できない。
+CaravanItemIsUnreachableSingle:{0} に到達できる割り当てられた_{colonist}_は誰もいない。
+CaravanItemIsUnreachableMulti:{0}x{1} に到達できる割り当てられた_{colonist}_は誰もいない。
+TooBigCaravanMassUsage:キャラバンはそんなに運べない。
+CaravanMassUsageTooltip:持ち物と装備を含む。運ぶ量が最大より少ない場合は移動が速くなる。
+CaravanVisibilityTip:視認性はキャラバンがどれほど注意を引きつけるかを表している。\n\nこれはキャラバンが襲われる確率に掛けられる。\n\n視認性は何かモノを見つける能力には影響しない。\n\n視認性はキャラバンの全ての人と動物の体格を合算したモノに基づいている。
+DaysWorthOfFood:<<Days of food??食糧日数>>
+DaysWorthOfFoodInfoRot:<<rot in {0}??腐敗まで {0}>>
+InfiniteDaysWorthOfFoodInfo:<<Unlimited??無期限>>
+DaysWorthOfFoodTooltip:少なくとも一人の人間、または一匹の動物の食糧が切れるまでの、おおよその日数。食性は種族によって異なるので、ある種が他よりも早く食料を食べ尽くす事がある。この値は経路を選んだ後に、より正確に計算される。\n\n影響するのは:\n  - 現在の持ち物\n  - 持っている食料の種類と量\n  - キャラバンのメンバーとその食性\n  - _{Foraging}_量\n  - 動物が草を食べられるかどうか\n  - 食料が腐るまでの時間\n  - 暑い気候は食料をより早く腐らせる
+DaysWorthOfFoodTooltip_OnlyFirstWaypoint:(最初のウェイポイントのみ計算に含まれている)
+DaysWorthOfFoodWarningDialog:キャラバンは {0} 日分の食料しか持っていないので早めに飢える。
+DaysWorthOfFoodWarningDialog_NoFood:キャラバンは食料を持っていないので直ぐに飢える。
+ForagedFoodPerDayTip:人々が一日あたりに_{forage}_する平均量。この値は_{forage}_量が異なるバイオームを移動するにつれて変化する。
+ForagedFoodPerDay:<<Forage per day??一日あたりの_{forage}_>>
+CaravanFoodWillRotSoonWarningDialog:キャラバンの食料の大部分は直ぐに腐る。
+CaravanIncapableOfSocial:キャラバンに外交や取引ができるメンバーがいない。
+CaravanAreYouSure:このキャラバンを本当に編成しますか?
+MessageMustChooseRouteFirst:キャラバンの経路を先に決める。
+MessageNoValidExitTile:キャラバンがこのエリアから出られない。少なくとも一辺に到達できるようする。
+ItemWeightTip:<<Weight of this item.??このアイテムの重量。>>
+MarketValueTip:<<Market value??市場価格>>
+DaysUntilRotTip:この地域の平均気温を元にした、このアイテムが腐り始めるまでの日数。
+ItemNutritionTip:この食べ物に含まれる栄養量。\n\n例えば: 大人は一日あたり {0} の栄養が必要。
+AnimalCanGrazeTip:この動物は持っている食料の代わりに草を食べられる。植食はいくつかのバイオームと気温範囲でのみ可能。
+NutritionForagedPerDayTip:一日ごとに_{foraged}_される栄養。実際の_{foraged}_量はバイオームの_{forageability}_にも影響される。\n\n{0}
+NutritionEatenPerDayTip:一日ごとに消費する栄養。参考として、 _[Simple meal]_ は {0} の栄養がある。\n\n食べられる物: {2}\n\n略字の意味:\n{1}
+MassCarriedSimple:<<Mass carried??持ち物の重量>>
+MassCapacity:<<Mass capacity??最大重量>>
+Mass:<<Mass??重量>>
+CaravanMass:<<Caravan mass??キャラバンの重量>>
+EquipmentAndApparelMass:<<Equipment and apparel mass??衣服や装備品の重量>>
+InventoryMass:<<Inventory mass??荷物の重さ>>
+CaravanFormationProcessStarted:今から_{colonist}_がアイテムを集めて、ここから離れる。
+ReformCaravan:_<Reform caravan>_
+ColonistsSection:<<Colonists??_{colonist}_>>
+PrisonersSection:<<Prisoners??_{prisoner}_>>
+CaptureSection:<<Capture??確保>>
+AnimalsSection:<<Animals??動物>>
+ChooseRouteButton:<<Choose route??経路を選択>>
+AbandonButton:<<Abandon??解散>>
+CaravanMovementSpeed:<<Movement speed??移動速度>>
+TilesPerDay:<<tiles/day??タイル/日>>
+CaravanMovementSpeedTip:移動速度は、動物を含む全員の平均的な速度、持ち物の重量、地形の歩きやすさに依存する。
+AnimalsWillBeAbleToGraze:<<Animals will be able to graze??動物は草を食べられるか>>
+AnimalsCanGraze:<<Animals can graze??動物は草を食べられる。>>
+PossibleToGrazeFor:<<(for {0} more days)??({0} 日以上)>>
+PossibleToGrazeForever:<<(forever)??(一年中)>>
+CantGrazeBecauseOfBiome:({0})
+CantGrazeBecauseOfTemp:<<(too cold for {0} more days)??(寒さのため {0} 日以上)>>
+TotalNutrition:<<Total nutrition??栄養の合計>>
+CaravanNotMoving:<<Not moving??動いていない>>
+ForagedNutritionPerDay:<<Foraged nutrition per day??一日に_{foraged}_される栄養>>
+FactionType:<<Faction type??_{faction}_タイプ>>
+TotalBodySize:<<Total body size??体格の合計>>
+
+SplitCaravan:<<Split caravan??キャラバンの分割>>
+SourceCaravanMustHaveAtLeastOneColonist:少なくとも一人は倒れていない_{colonist}_を残す必要がある。
+SplitCaravanThingCountTip:元のキャラバンから新しいキャラバンに持たせられる、このアイテムの数。
+
+ConfirmAttackFriendlyFaction:{0} を本当に攻撃しますか？\n\nこれにより {1} は敵対し、あなたの_{colony}_を襲うようになります！
+
+LoadTransporters:<<Load {0}??{0} に積み込み>>
+TooBigTransportersMassUsage:指定された人とアイテムは _[Transport pod]_ には重すぎる。
+TooBigTransporterSingleMassUsage:指定された人とアイテムは _[Shuttle]_ には重すぎる。
+CantSendEmptyTransportPods:空の _[Transport pod]_ は発進できない。
+CantSendEmptyTransporterSingle:空の _[Shuttle]_ は発進できない。
+PawnCantReachTransporters:{1_labelShort} は _[Transport pod]_ にたどり着けない。
+PawnCantReachTransporterSingle:{1_labelShort} は _[Shuttle]_ にたどり着けない。
+TransporterItemIsUnreachableSingle:_[Transport pod]_ と {0} の間にパスがない。
+TransporterSingleItemIsUnreachableSingle:_[Shuttle]_ と {0} の間にパスがない。
+TransporterItemIsUnreachableMulti:_[Transport pod]_ と {0}x {1} の間にパスがない。
+TransporterSingleItemIsUnreachableMulti:_[Shuttle]_ と {0}x {1} の間にパスがない。
+
+SocialSkillIs:<<Social skill: {0}??社交スキル: {0}>>
+
+ResearchFinished:研究が完了した: {0}
+ResearchScreen:<<Research Screen??研究画面>>
+
+HistoryUploadMessage:あなたがゲームをどう遊んだかというプレイ情報をRimWorldサーバーに送って、開発者がゲームバランスを良くする手助けをしませんか？同意すると、情報を{0}日ごとに送ります。(ゲーム終了などの珍しい状況時にも送ります。)プライバシーの設定は、オプションメニューでいつでも変えられます。
+HistoryUploadMessagePlayerName:履歴は匿名で送られますが、名前を付けることも出来ます。
+HistoryUploadYes:プレイ情報をアップロードする
+HistoryUploadNo:プレイ情報をアップロードしない
+HistoryUploadYesOnce:今回だけアップロードする
+HistoryUploadNoOnce:今回はアップロードしなが、また後で
+
+Outfit:<<Outfit??服装>>
+SelectOutfit:<<Select outfit...??服装を選択...>>
+NewOutfit:<<New outfit??服装を作る>>
+DeleteOutfit:<<Delete outfit...??服装を削除...>>
+OutfitInUse:<<Outfit is in use by {0}.??この服装は {0} が使用している。>>
+NoOutfitSelected:<<No outfit selected??服装未選択>>
+
+DrugPolicy:_<Drug policy>_
+SelectDrugPolicy:<<Select policy...??ポリシーを選択...>>
+NewDrugPolicy:<<New policy??ポリシーを作る>>
+DeleteDrugPolicy:<<Delete policy...??ポリシーを削除...>>
+DrugPolicyInUse:<<Drugs policy is in use by {0}.??ドラッグのポリシーは {0} が使用している。>>
+FoodRestrictionInUse:<<Food restriction is in use by {0}.??_<food restriction>_は {0} が使用している。>>
+SocialDrugs:<<Social drugs??たしなみ程度>>
+NoDrugs:<<No drugs??ドラッグ不使用>>
+OneDrinkPerDay:<<One drink per day??一日一回>>
+Unrestricted:<<Unrestricted??無制限>>
+NoDrugPolicySelected:<<No drug policy selected??ポリシー未選択>>
+AddDrug:<<Add drug...??ドラッグを追加...>>
+DrugColumnLabel:<<Drug??ドラッグ>>
+DrugUsageColumnLabel:<<Usage??使用目的>>
+FrequencyColumnLabel:<<Frequency??頻度>>
+MoodThresholdColumnLabel:<<Only if mood below??_{mood}_が次を下回った場合のみ>>
+JoyThresholdColumnLabel:<<Only if recreation below??娯楽が次を下回った場合のみ>>
+TakeToInventoryColumnLabel:<<Take to inventory??携帯数>>
+NoDrugsBrackets:<<(no drugs)??(ドラッグ無し)>>
+EveryDay:<<Every day??毎日>>
+TimesPerDay:<<{0} times per day??一日 {0} 回>>
+EveryDays:<<Every {0} days??{0} 日ごとに一回>>
+NoDrugUseRequirement:<<Any??いつでも>>
+DeleteDrugTooltip:<<Delete this drug.??このドラッグを削除する。>>
+DrugNameColumnDesc:ドラッグの名前。
+DrugUsageColumnDesc:ドラッグの使用目的。
+FrequencyColumnDesc:_{colonist}_がドラッグを使用する頻度。
+MoodThresholdColumnDesc:_{colonist}_の_{mood}_レベルがこの閾値を下回った場合のみドラッグを使う。
+JoyThresholdColumnDesc:_{colonist}_の娯楽レベルがこの閾値を下回った場合のみドラッグを使う。
+TakeToInventoryColumnDesc:何度も_{stockpile}_に行かないように、消費時にドラッグを余分に取る数。
+DrugUsageTipForAddiction:中毒者用。\n\nこのドラッグを既に中毒状態の欲求を満たすために使う。\n\n例え無効でも、特定の特徴を持っていたり_{mental break}_しているキャラクターは、無視して使うかもしれない。
+DrugUsageTipForJoy:娯楽用。\n\nこのドラッグを娯楽や人付き合いのために使う。\n\n例え無効でも、特定の特徴を持っていたり_{mental break}_しているキャラクターは、無視して使うかもしれない。
+DrugUsageTipScheduled:定期的。\n\nこのドラッグを定期的に、特定の条件で使う。
+
+FoodRestriction:_<Food restriction>_
+FoodRestrictionLavish:<<Lavish??無制限>>
+FoodRestrictionFine:<<Fine??_[food/Fine]_まで>>
+FoodRestrictionSimple:<<Simple??_[food/Simple]_まで>>
+FoodRestrictionPaste:<<Paste??_[food/Paste]_まで>>
+FoodRestrictionRaw:<<Raw??生のみ>>
+FoodRestrictionNothing:<<Nothing??全て禁止>>
+SelectFoodRestriction:<<Select food restriction??_<food restriction>_を選択>>
+NewFoodRestriction:<<New food restriction??_<food restriction>_を作る>>
+DeleteFoodRestriction:<<Delete food restriction??_<food restriction>_を削除>>
+NoFoodRestrictionSelected:<<No food restriction selected??_<food restriction>_未選択>>
+
+MedGroupDefaults:<<Defaults??初期値>>
+MedGroupColonist:_<Colonist>_
+MedGroupImprisonedColonist:<<Imprisoned colonist??逮捕された_{colonist}_>>
+MedGroupColonyAnimal:<<Colony animal??_{colony}_の動物>>
+MedGroupNeutralAnimal:<<Neutral animal??野生の動物>>
+MedGroupNeutralFaction:<<Neutral faction??中立_{faction}_>>
+MedGroupHostileFaction:<<Hostile faction??敵対_{faction}_>>
+
+NoGrowerCanPlant:{0} を植えるにはスキルが {1} 必要。\n\nこのスキルを持っている動ける人はいないので、誰もこの植物を植えられない。
+
+ConfirmAbandonHomeWithColonyPawns:_{colonist}_や動物がまだこのエリアに居ます。本当に放棄しますか？\n\n次の人々と動物が置き去りにされる:\n\n{0}
+ConfirmAbandonHomeNegativeThoughts:{0} を見捨てると次の人々がこのような思いを抱く:
+ConfirmAbandonHomeNegativeThoughts_Everyone:全員:
+
+ConfirmMoveAutoJoinableCaravan:動物や_{prisoner}_がキャラバンに合流しようとしている。もし移動すると、もう合流できなくなる。\n\n倒れていない_{colonist}_がいないマップに置き去りにされた動物、_{prisoner}_、倒れた_{colonist}_は放棄されたと見なされ、敵に連れ去られる可能性がある。\n\n本当にキャラバンを移動させますか？
+
+ConfirmBanishPawnDialog:本当に {1_label} を追放しますか？
+ConfirmBanishPawnDialog_LeftToDie:{1_labelShort} は恐らく死ぬでしょう。
+ConfirmBanishPawnDialog_Items:{1_labelShort} は次のアイテムを持っていく:
+ConfirmBanishPawnDialog_AllColonistsThoughts:_{colonist}_は全員次の思いを抱く:
+ConfirmBanishPawnDialog_IndividualThoughts:{1_labelShort} を追放すると、次の人々はこのような思いを抱く:
+
+ConfirmSendNotCompletelyLoadedPods:_[Pod]_のグループは荷積みが終わっていない。{1_labelShort} がない。それでも発射しますか？
+
+ConfirmSettleNearFactionBase:この場所は他の_{faction}_の拠点から {0} タイル以内なので侵略されたと受け止められ、_{faction}_との関係が {1} 日ごとに悪くなる。\n\nどうしても、ここに入植しますか？
+
+ConfirmCleanupTranslationFiles:{0}言語の翻訳ファイルを全て消しますか？\n\n以下の事を行います\n - 存在しないkeyed、def、backstorieのプレースホルダを追加する。\n - 翻訳されていないテキストを追加または更新する。\n - 全てのkeyedとdefを適切なXMLファイルへ移動する。\n - XMLファイルを自動整形する。\n - 古いdefNameを更新する。\n - XMLのコメントを全て削除する。(full-listの所を除く)\n - XMLではないファイルはそのまま。\nこのツールを実行する前に、言語ファイルを変更した後はデータを再読込させるためにゲームを再起動してください。\n\nこれを実行する前に、全てのファイルを必ずバックアップしてください。
+ConfirmCleanupTranslationFiles_Confirm:はい。バックアップしてあります
+
+TransportersCaravanWillBeImmobile:_[Pod]_を空のタイルに送るとキャラバンが動けなくなる。本当に続けますか？
+
+ConfirmCancelMonumentMarker:モニュメントのマーカーを本当に消しますか？
+
+AbilityRequiresLOS:<<Line of sight required??視認が必要>>
+AbilityEntropyGain:<<Entropy gain??増加エントロピー>>
+AbilityDuration:<<Effect duration??効果持続時間>>
+AbilityEffectRadius:<<Effect radius??効果範囲>>
+AbilityCastingTime:<<Casting time??キャスト時間>>
+AbilityCannotHitTarget:目標を視認できない。
+AbilityOccupiedCells:{0} は開いた場所を狙わないといけない。
+AbilityUnwalkable:{0} は移動可能な場所を狙わないといけない。
+
+Tool:<<Tool??部位>>
+DamageLower:<<damage??ダメージ>>
+SecondsPerAttackLower:<<seconds per attack??攻撃ごとの秒数>>
+
+StatsReport_BaseValue:<<Base value??基本値>>
+StatsReport_RelevantTraits:<<Relevant traits??関連する特徴>>
+StatsReport_RelevantGear:<<Relevant gear??関連する装備>>
+StatsReport_RelevantHediffs:<<Relevant health conditions??関連する健康状態>>
+StatsReport_LifeStage:<<Life stage??ライフ・ステージ>>
+StatsReport_Material:<<Material??素材>>
+StatsReport_CharacterQuality:<<Character quality??キャラクタ品質>>
+StatsReport_Skills:<<Skills??スキル>>
+StatsReport_OtherStats:<<Post-process - other stats??ポストプロセス、その他の状態>>
+StatsReport_Health:<<Health??健康>>
+HealthFactorPercentImpact:<<{0} importance??影響度 {0}>>
+HealthOffsetScale:<<{0} impact??効果 {0}>>
+HealthFactorMaxImpact:<<{0} max??最大 {0}>>
+HealthFactorAllowedDefect:<<if below {0}??もし {0} 未満なら>>
+StatsReport_PostProcessed:<<Post-process curve??ポストプロセス・カーブ>>
+StatsReport_FinalValue:<<Final value??最終値>>
+StatsReport_MarketValueFromStuffsAndWork:<<Materials and labor??材質と労力>>
+StatsReport_QualityMultiplier:<<Quality multiplier??品質乗数>>
+;市場価格に品質乗数が掛けられた後に、抑えられる＊上昇分＊
+StatsReport_MaxGain:<<Max gain??増加上限>>
+StatsReport_AgeMultiplier:<<Multiplier for age {0}??年齢による乗数 {0}>>
+;healthとなっているが、実際にはHPを指している
+StatsReport_HealthMultiplier:<<Multiplier for health {0}??劣化度による乗数 {0}>>
+StatsReport_MoodMultiplier:<<Multiplier for mood {0}??_{mood}_による乗数 {0}>>
+StatsReport_LightMultiplier:<<Multiplier for light {0}??明るさによる乗数 {0}>>
+StatsReport_DifficultyMultiplier:<<Multiplier for difficulty {0}??難易度による乗数 {0}>>
+StatsReport_InBed:<<In bed??ベッド使用>>
+;ベッドエンドやキャビネットのこと
+StatsReport_Facilities:<<Facilities??設備>>
+StatsReport_BodySize:<<Multiplier for body size {0}??体格による乗数 {0}>>
+StatsReport_MeleeDPSExplanation:<<DPS = Melee damage * Melee hit chance / Cooldown in seconds??DPS = 近接ダメージ * 近接ヒット率 / クールダウン秒>>
+StatsReport_MeleeDamage:<<Melee damage??近接ダメージ>>
+StatsReport_Cooldown:<<Cooldown??クールダウン秒>>
+StatsReport_MeleeHitChance:<<Melee hit chance??近接ヒット率>>
+StatsReport_CooldownFormat:<<{0} s??{0} 秒>>
+StatsReport_LifeExpectancy:<<Life expectancy??平均寿命>>
+StatsReport_MissingBodyParts:<<Multiplier for missing body parts??部位欠損による乗数>>
+StatsReport_GearAndInventoryMass:<<Gear and inventory??装備と所持品>>
+StatsReport_WornByCorpse:<<Multiplier for worn by corpse??遺服による乗数>>
+AverageOfAllAttacks:<<average of all attacks??全攻撃の平均値>>
+StatsReport_ScenarioFactor:<<Scenario??シナリオ>>
+StatsReport_IngredientsMass:<<Ingredients??材料>>
+StatsReport_PermanentlyDisabled:<<Permanently disabled.??不能。>>
+StatsReport_Inspiration:{0}
+StatsReport_AddedBodyPartsMass:<<Added body parts??追加身体パーツ>>
+StatsReport_StuffEffectMultiplier:<<Material effect multiplier??素材効果乗数>>
+StatsReport_Resting:<<Resting??休憩>>
+StatsReport_JoyKind:<<recreation type??娯楽種別>>
+StatsReport_WorkToUninstall:<<work to uninstall??撤去工数>>
+StatsReport_PlantGrowth:<<Multiplier for growth {0}??成長度による乗数 {0}>>
+StatsReport_PlantGrowth_Wild:<<scaled because wild??野生種による調整済み>>
+StatsReport_NotFlesh:<<Not flesh??肉はでない>>
+StatsReport_NotFresh:<<Not fresh??新鮮ではない>>
+StatsReport_WildMan:<<Wild man??野生人>>
+StatsReport_NonToolAttack:<<Attack??攻撃>>
+
+Stat_MineableThing_Name:<<Mined item??採掘アイテム>>
+Stat_MineableThing_Desc:採掘で得られるアイテム。
+Stat_SourceSpecies_Name:<<Source species??元種>>
+Stat_SourceSpecies_Desc:入手元の動物の種類。
+Stat_Stuff_Name:<<Stuff??材料>>
+Stat_Stuff_Desc:作った材料。武器のダメージ、衣服の_{armor}_と絶縁、アイテムと建物のヒットポイント、美しさ、市場価格等々様々な状態に影響する。
+Stat_Weapon_Name:<<Weapon??武器>>
+Stat_Weapon_Desc:この_{turret}_で使われる武器。
+Stat_HitPoints_Desc:壊れるまでに受けられるダメージ量。
+Stat_Thing_WorkToUninstall_Desc:撤去にかかる工数。
+Stat_Thing_CreatedAt_Desc:これを作れる設備。
+Stat_Thing_Damage_Desc:武器が与えるダメージ。\n\n目標の_{armor}_により避けられたり減ったりする。
+Stat_Thing_Drug_MedicineXpGainFactor_Desc:これで患者の看護をしたときに得られる_{doctor}_の経験への乗数。
+Stat_Thing_Plant_Attributes_Desc:この植物の属性。
+Stat_Thing_Apparel_Covers_Desc:これがカバーする部分。\n\n_{armor}_はカバーされていない部分は守らない。
+Stat_Thing_Apparel_Layer_Desc:これが占める衣服の_{layer}_。\n\n一つの体の部位につき、各_{layer}_に一つの衣服だけ着られる。
+Stat_Thing_Plant_FertilityRequirement_Desc:この植物が育つために必要な最小の肥沃さ。
+Stat_Thing_Plant_FertilitySensitivity_Desc:この植物の肥沃さへの感度。\n\n低い感度は土壌の豊かさにかかわらず同じ速度で成長する。高い感度は貧しい土壌では遅くなるが、豊かな土壌では速くなる。
+Stat_Thing_Plant_LightRequirement_Desc:この植物の成長に必要な光の量。
+Stat_Thing_Plant_LifeSpan_Desc:この植物の寿命。\n\n例え収穫しなくても、植物はある程度まで成長すると自然死する。
+Stat_Thing_Plant_HarvestYield_Desc:この植物を収穫したときに得られる量。
+Stat_Thing_Plant_MinGrowthTemperature_Desc:この植物が生きられる最低気温。\n\n気温がこれを下回っている間はダメージを受ける。
+Stat_Thing_Plant_MaxGrowthTemperature_Desc:この植物が生きられる最高気温。\n\n気温がこれを上回っている間はダメージを受ける。
+Stat_Thing_Plant_MinGrowingSkillToSow_Desc:この植物の栽培に必要な最小スキル。
+Stat_Race_Diet_Desc:この動物が食べられる食物の種類。\n\n食べられる: {0}
+Stat_Race_LeatherType_Desc:この動物を解体したときに得られる皮の種類。
+Stat_Race_Animal_TameFailedRevengeChance_Desc:この動物への手なずけが失敗したときに攻撃される確率。
+Stat_Race_Trainability_Desc:訓練に対するこの動物の全般的な賢さ。賢さと注意力の組み合わせ。何を訓練できるかはこれで決まる。
+Stat_Race_LifeExpectancy_Desc:この動物の平均寿命。
+Stat_Thing_Ingestible_Joy_Desc:これから得られる娯楽の値。大きければ娯楽欲求をより満たせる。
+Stat_Race_BodySize_Desc:平均的な大人の人間に対する、この動物の大きさ。
+Stat_Thing_Weapon_MeleeWarmupTime_Desc:近接攻撃でこの武器を使い始めてから当たるまでにかかる時間。
+Stat_Thing_Weapon_BurstShotCount_Desc:発砲毎にこの武器が発射する弾数。
+Stat_Thing_Weapon_BurstShotFireRate_Desc:この武器の発砲ごとの発射速度。
+Stat_Thing_Weapon_Range_Desc:この武器の最大射程。
+Stat_Thing_Weapon_MissRadius_Desc:この武器の射撃がランダムに広がる範囲。\n\n大きいと飛翔体が標的の周りにランダムに広がる。
+Stat_Thing_Weapon_DirectHitChance_Desc:射撃が標的に直接当たる確率。遮られたり、避けられたり、止められたりしなかった場合。
+Stat_Thing_MoodChange_Desc:この体の部位が_{mood}_に与える影響。
+Stat_Recipe_Skill_Desc:このレシピで主に使われるスキル。\n\nこれは品質に影響し、またレシピの実行中に習得する。
+Stat_Recipe_Ingredients_Desc:このレシピに必要な材料。
+Stat_Recipe_SkillRequirements_Desc:このレシピに必要なスキル。
+Stat_Recipe_Products_Desc:このレシピでできるもの。
+Stat_Recipe_WorkSpeedStat_Desc:このレシピの作業速度を左右するキャラクタの能力値。\n\n作業者のこの値が高いほど早く終わる。
+Stat_Recipe_EfficiencyStat_Desc:品質や産出量を左右する能力値。\n\n作業者のこの値が高いほど、高品質、高収率になる。
+Stat_Thing_Surgery_SuccessChanceFactor_Desc:この手術の成功率への乗数。難しいほど低くなる。\n\n実際の成功率は医者、設備、薬品の使用にも影響される。
+Stat_Thing_Surgery_SuccessChanceFactor_CantFail:<<Can't fail??失敗しない>>
+Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc:この手術を患者に行っても安全。
+Stat_Thing_Surgery_DeathOnFailChance_Desc:この手術の失敗で患者が死ぬ確率。
+Stat_Thing_Drug_Addictiveness_Desc:このドラッグの中毒性。
+Stat_Hediff_TotalBleedFactor_Name:<<Total bleed factor??総出血因数>>
+Stat_Hediff_TotalBleedFactor_Desc:全ての出血速度への乗数。
+Stat_Hediff_NaturalHealingFactor_Name:<<Natural healing factor??自然治癒因数>>
+Stat_Hediff_NaturalHealingFactor_Desc:全ての自然治癒速度への乗数。
+Stat_Hediff_FoodPoisoningChanceFactor_Name:食中毒発生率の因数
+Stat_Hediff_FoodPoisoningChanceFactor_Desc:食中毒になる確率への乗数。
+Stat_Hediff_BleedingRate_Desc:この状態の出血速度。
+Stat_Hediff_Pain_Desc:この状態の痛みの量。
+Stat_Hediff_PartEfficiency_Desc:これの影響を受ける身体部位の効率へのオフセット。
+Stat_Hediff_Affects_Desc:これの影響を受ける精神能力。
+Stat_Hediff_HungerRateOffset_Name:<<Hunger rate offset??_{hunger rate}_へのオフセット>>
+Stat_Hediff_HungerRateFactor_Desc:食事欲求の減少速度への乗数。
+Stat_Hediff_HungerRateOffset_Desc:食事欲求の減少速度へのオフセット。
+Stat_Hediff_TirednessOffset_Name:<<Rest fall rate??休憩の減少速度>>
+Stat_Hediff_TirednessOffset_Desc:休憩欲求の減少速度へのオフセット。
+Stat_Hediff_TirednessFactor_Desc:休憩欲求の減少速度への乗数。
+Stat_Hediff_PreventsInfection_Desc:これが感染を防ぐかどうか。
+Stat_Thing_Terrain_Supports_Desc:この地形がサポートするもの。
+Stat_Thing_TerrainRequirement_Desc:これらの地形にのみ置ける。
+Stat_Thing_Terrain_Fine_Name:<<Considered??配慮>>
+Stat_Thing_Terrain_Fine_Value:<<Fine??上品>>
+Stat_Thing_Terrain_Fine_Desc:この床は素晴らしい配慮で、王族に適している。
+Stat_Thing_PowerConsumption_Desc:この建物が電力網から使用する電力量。
+Stat_Thing_BodyPartEfficiency_Desc:この身体部位の全体的な効率。
+Stat_Thing_Biocoded_Name:<<Biocoding??生体認証>>
+Stat_Thing_Biocoded_Desc:このアイテムは特定の個人の生体識別だけ受け付けるように設定されている。
+
+FactionGreetingHostile:{0} はマイクに向かって罵声を飛ばし、切断した。
+FactionGreetingHostileAppreciative:{0} は{0_possessive}の_{settlement}_の一つに貢ぎ物を贈ったり、{0_possessive}の_{faction}_の_{prisoner}_を無傷で解放するなどの友好的な態度を要求してきた。それまでは{0_pronoun}は話をしたくない。\n\n{0_pronoun}は罵りながら切断した。
+FactionGreetingWary:{0} は {NEGOTIATOR_labelShort} に挨拶して、どのようなビジネスをしたいか尋ねた。
+FactionGreetingWarm:{0} は {NEGOTIATOR_labelShort} に心から挨拶して、{LEADER_pronoun}が出来る事について尋ねた。
+
+WorkTypeDisablesOption:{0} しない
+Disconnect:<<Disconnect??切断>>
+
+OfferGift:<<Offer gift??贈り物>>
+MustBeAlly:同盟でなければならない
+NeedGoodwill:友好度が {0} 必要
+NeedSilverLaunchable:_[orbital trade beacon]_ のそばに {0} _[Silver]_が必要。
+NotEnoughSilver:_[Silver]_が足りない。
+SilverForGoodwill:{0} _[Silver]_で友好度が {1} 上がる
+SilverGiftSent:{0} ありがとう。\n\n(友好度が {1} 上がった)
+
+RequestTrader:交易キャラバンの派遣を要請する。(代価: {0} 友好度)
+ChooseTraderKind:{0} は交易キャラバンの種別を尋ねている。
+TraderSent:{0} は交易キャラバンを送ることに合意した。数日以内に到着する。
+WaitTime:到着まで {0}
+
+RequestAICoreInformation:{0} がある場所を尋ねる (代価: {1} _[Silver]_)
+RequestAICoreInformationResult:{0} は尋ねられた情報について答え、幸運を祈った。
+NoKnownAICore:これ以上の場所は知らない
+
+RequestMilitaryAid:今すぐ援軍を要請する。(代価: {0} 友好度)
+MilitaryAidConfirmMutualEnemy:{0} は敵対していない_{faction}_との戦いを助けることはない。これには、現在の脅威である {1} も含まれている。それでも援軍を要請しますか？
+CallConfirm:はい、とにかく呼んでくれ。
+CallCancel:いや、気にしないでくれ。
+MilitaryAidSent:{0} はあなたを助けるために戦士達を送ると合意した。
+CantSendMilitaryAidInTime:{0}は時間内に到着できないとすまなそうに答えた。\n\n(この_{faction}_の技術レベルは _<transport pod>_ を使えるほど高くない)
+HostileVisitorsPresent:敵対している訪問者達がいる
+
+Dark:<<Dark??暗い>>
+Lit:<<Lit??明るい>>
+LitBrightly:<<Brightly lit??とても明るい>>
+
+PriceTypeVeryCheap:<<very cheap??とても安い>>
+PriceTypeCheap:<<cheap??安い>>
+PriceTypeNormal:<<normal??普通>>
+PriceTypeExpensive:<<expensive??高い>>
+PriceTypeExorbitant:<<exorbitant??法外>>
+
+StoragePriorityUnstored:<<unstored??禁止>>
+StoragePriorityLow:<<low??低い>>
+StoragePriorityNormal:<<normal??普通>>
+StoragePriorityPreferred:<<preferred??高い>>
+StoragePriorityImportant:<<important??重要>>
+StoragePriorityCritical:<<critical??最重要>>
+
+FoodTypeFlags_VegetableOrFruit:<<vegetables??野菜>>
+FoodTypeFlags_Meat:<<raw meat??生肉>>
+FoodTypeFlags_Corpse:<<corpses??屍肉>>
+FoodTypeFlags_Seed:<<seeds??種子>>
+FoodTypeFlags_AnimalProduct:<<animal products??畜産物>>
+FoodTypeFlags_Plant:<<live plants??植物>>
+FoodTypeFlags_Tree:<<live trees??樹木>>
+FoodTypeFlags_Meal:<<meals??食事>>
+FoodTypeFlags_Processed:<<processed foods??加工食品>>
+FoodTypeFlags_Liquor:<<liquor??酒類>>
+FoodTypeFlags_Kibble:<<kibble??餌>>
+
+QualityCategory_Awful:_{awful}_
+QualityCategory_Poor:_{poor}_
+QualityCategory_Normal:_{normal}_
+QualityCategory_Good:_{good}_
+QualityCategory_Excellent:_{excellent}_
+QualityCategory_Masterwork:_{masterwork}_
+QualityCategory_Legendary:_{legendary}_
+QualityCategoryShort_Awful:_{awfl}_
+QualityCategoryShort_Poor:_{poor}_
+QualityCategoryShort_Normal:_{norm}_
+QualityCategoryShort_Good:_{good}_
+QualityCategoryShort_Excellent:_{exc}_
+QualityCategoryShort_Masterwork:_{mast}_
+QualityCategoryShort_Legendary:_{legd}_
+
+HungerLevel_Starving:<<Starving??餓死寸前>>
+HungerLevel_UrgentlyHungry:<<Urgently hungry??飢餓>>
+HungerLevel_Hungry:<<Hungry??空腹>>
+HungerLevel_Fed:<<Fed??摂食>>
+
+HungerLevel_Exhausted:<<Exhausted??疲労困憊>>
+HungerLevel_VeryTired:<<Very tired??とても疲れた>>
+HungerLevel_Tired:<<Tired??疲れた>>
+HungerLevel_Rested:<<Rested??休息>>
+
+Hilliness_Flat:<<flat??平地>>
+Hilliness_SmallHills:<<small hills??小さな丘陵>>
+Hilliness_LargeHills:<<large hills??大きな丘陵>>
+Hilliness_Mountainous:<<mountainous??山岳>>
+Hilliness_Impassable:<<impassable??通行不能>>
+
+WorkshopInteractStage_CreatingItem:<<Creating??作成中>>
+WorkshopInteractStage_SubmittingItem:<<Submitting??提出中>>
+EItemUpdateStatus_k_EItemUpdateStatusInvalid:<<Invalid??無効>>
+EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig:<<Preparing config data??コンフィグデータの準備>>
+EItemUpdateStatus_k_EItemUpdateStatusPreparingContent:<<Preparing content files??コンテンツファイルの準備>>
+EItemUpdateStatus_k_EItemUpdateStatusUploadingContent:<<Uploading content??コンテンツのアップロード>>
+EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile:<<Uploading preview file??プレビューのアップロード>>
+EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges:<<Committing changes??更新しています>>
+
+ContentSource_OfficialModsFolder:<<official content??公式コンテント>>
+ContentSource_ModsFolder:<<local folder??ローカルフォルダー>>
+ContentSource_SteamWorkshop:Steam Workshop
+
+MedicalCareCategory_NoCare:<<No medical care??看護しない>>
+MedicalCareCategory_NoMeds:<<Doctor care, but no medicine??看護するが、薬は使わない>>
+MedicalCareCategory_HerbalOrWorse:<<Herbal medicine or worse??_[Herbal medicine]_ 以下>>
+MedicalCareCategory_NormalOrWorse:<<Industrial-tech medicine or worse??_[Medicine]_ 以下>>
+MedicalCareCategory_Best:<<Best quality medicine??最高の医薬品>>
+
+HostilityResponseMode_Ignore:<<Ignore??無視>>
+HostilityResponseMode_Attack:<<Attack??攻撃>>
+HostilityResponseMode_Flee:<<Flee??逃走>>
+
+HediffGrowthMode_Growing:<<growing??増大>>
+HediffGrowthMode_Stable:<<stable??安定>>
+HediffGrowthMode_Remission:<<remission??沈静>>
+
+TechLevel_Animal:[[animal??動物]]
+TechLevel_Neolithic:[[neolithic??新石器]]
+TechLevel_Medieval:[[medieval??中世]]
+TechLevel_Industrial:[[industrial??工業]]
+TechLevel_Spacer:[[spacer??宇宙]]
+TechLevel_Ultra:[[ultra??超越]]
+TechLevel_Archotech:_[archotech]_
+
+PlayerPawnsArriveMethod_Standing:<<Standing??徒歩>>
+PlayerPawnsArriveMethod_DropPods:[[Drop pods??_{drop pod}_]]
+
+PawnGenerationContext_All:<<all characters??全人物>>
+PawnGenerationContext_PlayerStarter:<<player starting characters??プレイヤーの開始時の人物>>
+PawnGenerationContext_NonPlayer:<<non-player characters??プレイヤー以外の人物>>
+
+ShowAnimalNames:<<Show animal names??動物の名前表示>>
+AnimalNameDisplayMode_TameNamed:<<Tame (named only)??名前を持つ者のみ>>
+AnimalNameDisplayMode_TameAll:<<Tame (all)??全部>>
+
+Celsius:<<Celsius??摂氏>>
+Fahrenheit:<<Fahrenheit??華氏>>
+Kelvin:<<Kelvin??絶対温度>>
+
+Direction8Way_North_Short:<<N??北>>
+Direction8Way_NorthEast_Short:<<NE??北東>>
+Direction8Way_East_Short:<<E??東>>
+Direction8Way_SouthEast_Short:<<SE??南東>>
+Direction8Way_South_Short:<<S??南>>
+Direction8Way_SouthWest_Short:<<SW??南西>>
+Direction8Way_West_Short:<<W??西>>
+Direction8Way_NorthWest_Short:<<NW??北西>>
+
+DietCategory_NeverEats:<<Never eats??食べない>>
+DietCategory_Herbivorous:<<Herbivorous??草食>>
+DietCategory_Dendrovorous:<<Dendrovorous??樹木食>>
+DietCategory_Ovivorous:<<Ovivorous??卵食>>
+DietCategory_Omnivorous:<<Omnivorous??雑食>>
+DietCategory_Carnivorous:<<Carnivorous??肉食>>
+DietCategory_NeverEats_Short:-
+DietCategory_Herbivorous_Short:<<H??草>>
+DietCategory_Dendrovorous_Short:<<D??樹>>
+DietCategory_Ovivorous_Short:<<Ov??卵>>
+DietCategory_Omnivorous_Short:<<O??雑>>
+DietCategory_Carnivorous_Short:<<C??肉>>
+
+FoodPoisonCause_IncompetentCook:下手な調理
+FoodPoisonCause_FilthyKitchen:汚い調理場
+FoodPoisonCause_Rotten:腐った食物
+FoodPoisonCause_DangerousFoodType:危険な食物
+
+PsychicDroneLevel_None:<<none??無>>
+PsychicDroneLevel_GoodMedium:<<medium??中>>
+PsychicDroneLevel_BadLow:<<low??弱>>
+PsychicDroneLevel_BadMedium:<<medium??中>>
+PsychicDroneLevel_BadHigh:<<high??強>>
+PsychicDroneLevel_BadExtreme:<<extreme??極>>
+
+AutomaticPauseMode_Never:<<Never??しない>>
+AutomaticPauseMode_MajorThreat:<<Major threats??大きな脅威>>
+AutomaticPauseMode_AnyThreat:<<Any threat??全ての脅威>>
+AutomaticPauseMode_AnyLetter:<<Any letter??全ての手紙>>
+
+PainCategory_LowPain:<<itchy??かゆみ>>
+PainCategory_MediumPain:<<aching??うずき>>
+PainCategory_HighPain:<<painful??辛い>>
+
+ExtraFactionType_HomeFaction:<<home faction??元の_{faction}_>>
+ExtraFactionType_HostFaction:<<remote host faction??リモートホストの_{faction}_>>
+
+CallOnRadio:<<Call {0}??{0}を呼び出す>>
+CannotUseReason:<<Cannot use: {0}??使用できない: {0}>>
+CannotUseSolarFlare:<<Cannot use: EMP??使用できない: EMP>>
+CannotUseNoPower:<<Cannot use: No power??使用できない: 電気がない>>
+CannotUseNoPath:<<Cannot use: No path??使用できない: パスがない>>
+CannotUseReserved:<<Cannot use: Reserved??使用できない: 予約済>>
+CannotUseFull:<<Cannot use: full??使用できない: 満載>>
+LeaderUnavailable:<<leader {1_labelShort} is unavailable??リーダー {1_labelShort} は存在しない>>
+LeaderUnavailableNoLeader:<<leader is unavailable??リーダーは存在しない>>
+NotAllowed:<<Not allowed??不許可>>
+
+FireAt:<<Fire at {1_label}??{1_label} に発射>>
+
+OutOfRange:範囲外
+TooClose:近すぎる
+CannotHitTarget:対象に命中しない
+IsIncapableOfViolenceLower:{1_labelShort} は暴力行為ができない
+IncapableOfViolenceLower:暴力行為ができない
+IsNotDraftedLower:{1_labelShort} は_<Draft>_されていない
+CannotOrderNonControlledLower:操作していないユニットには指示できない
+CannotAttackSelf:自分自身には攻撃できない
+
+OrderManThing:{1_labelShort} に配置
+
+MeleeAttack:{1_label} に近接攻撃
+MeleeAttackToDeath:{1_label} を近接攻撃で殺害する
+NoPath:パスがない
+Burying:埋める
+
+ForbiddenLower:_<forbidden>_
+ForbiddenOutsideAllowedAreaLower:_<Allowed area>_外
+NotInHomeArea:_<Home area>_に無い
+BurningLower:炎上中
+NoEmptyPlaceLower:これを保管できる、近くて、空いている場所が無い
+NoMergeTarget:合わせられるスタックが無い
+AlreadyFilledLower:すでに満杯になっている
+MissingMaterials:材料がない
+UnderRequiredSkill:必要スキル {0} より低い
+UnderAllowedSkill:許可スキル {0} より低い
+AboveAllowedSkill:許可スキル {0} より高い
+MissingRequiredSkillLevel:必要なスキルレベルが無い
+AnimalInteractedTooRecently:動物への訓練間隔が短い
+NoUsableFood:エサがない
+NoFood:エサがない
+FoodBelowTitleRequirements:{0} の要件を下回っている
+AnimalsSkillTooLow:動物スキルが低すぎる - {0} 必要
+CantInteractAnimalDowned:動物は倒れている
+CantInteractAnimalAsleep:動物は寝ている
+CantInteractAnimalBusy:動物は別のことをしている
+SkillTooLowForConstruction:{0} スキルが低すぎる
+NoComponentsToRepair:_[Component]_が必要
+NoFuelToRefuel:{0} が必要
+NoWort:_[Wort]_が必要
+TheOnlyAvailableFoodIsInStorageOfHigherPriority:利用可能な食材は、より優先順位の高い倉庫にある
+NoFoodToFillHopper:適した食材がない
+SelfTendDisabled:自己治療が無効
+ReservedForPrisoners:_{prisoner}_用に予約済み
+CannotReach:到達できない
+NotSurgeryReady:手術の準備ができていない
+SkillDisabled:スキル無効
+CantSowCavePlantBecauseOfLight:明るすぎる
+CantSowCavePlantBecauseUnroofed:屋根がない
+IncapableOfDeconstruction:解体不能
+IncapableOfMining:採掘できない
+AngersFaction:_{faction}_を怒らせる
+InstallImplantNoBodyPart:体の部位が無い
+InstallImplantNotAllowedForNonColonists:_{Colonist}_ でない
+InstallImplantAlreadyInstalled:インストール済み
+InstallImplantAlreadyMaxLevel:レベル上限
+UpgradeImplant:{0} をレベル {1} へアップグレード
+
+ConsumeThing:<<Consume {1_labelShort}??{1_labelShort} を食べる>>
+
+CannotGoNoPath:ここには行けない: パスがない
+GoHere:<<Go here??ここに移動する>>
+
+Arrest:<<Arrest {0}??{0} を_{arrest}_する>>
+TryToArrest:<<Try to arrest {1_label} ({2} chance)??{1_label} の_{arrest}_を試みる (成功率 {2})>>
+CannotArrest:<<Cannot arrest??_{arrest}_できない>>
+
+Capture:<<Capture {1_label}??{1_label} を_{Capture}_する>>
+CannotCapture:<<Cannot capture??_{Capture}_できない>>
+
+Rescue:<<Rescue {1_label}??{1_label} を_{Rescue}_する>>
+CannotRescue:<<Cannot rescue??_{Rescue}_できない>>
+
+CarryToCryptosleepCasket:<<Carry {1_label} to cryptosleep casket??{1_label} を _[Cryptosleep casket]_ に運ぶ>>
+CannotCarryToCryptosleepCasket:<<Cannot carry to cryptosleep casket??_[Cryptosleep casket]_ に運べない>>
+CarryToShuttle:<<Carry {0_label} to shuttle??{0_label} を _[shuttle]_ へ運ぶ>>
+
+NoCryptosleepCasket:<<No available cryptosleep casket.??使える _[cryptosleep casket]_ がない。>>
+CryptosleepCasketGuestsNotAllowed:<<Temporary faction members not allowed.??一時_{faction}_メンバーは不可。>>
+NoPrisonerBed:到達でき、使われておらず、閉じられた空間にあり、適温な環境にある_{prisoner}_用のベッドがない。
+NoNonPrisonerBed:到達でき、使われておらず、適温な環境にある非_{prisoner}_用のベッドがない。
+NoAnimalBed:到達でき、使われておらず、適温な環境にある動物用ベッドがない。
+Reserved:他の誰かが使用している。
+ReservedBy:{1_labelShort} が使用している
+IsReservedBy:{0} は {1} が使用している。
+TooHeavy:重すぎる
+
+Incapable:<<incapable??能力が無い>>
+IncapableOfCapacity:<<incapable of {0}??{0} をする能力が無い>>
+
+MinSkill:<<min skill??最小スキル>>
+
+Equip:<<Equip {0}??{0} を装備する>>
+EquipWarningBrawler:<<(brawler will be unhappy)??(_<Brawler>_は不機嫌になる)>>
+CannotEquip:<<Cannot equip {0}??{0} を装備できない>>
+CannotManThing:<<Cannot man {1_labelShort}??{1_labelShort} 出来ない>>
+
+ForceWear:<<Force wear {1_labelShort}??{1_labelShort} を着る>>
+CannotWear:<<Cannot wear {1_label}??{1_label} を着られない>>
+CannotWearBecauseOfMissingBodyParts:<<missing body parts??部位欠損>>
+
+CannotPickUp:<<Cannot pick up {1_label}??{1_label} を拾えない>>
+CannotPickUpAll:<<Cannot pick up {1_label} (all)??{1_label} を拾えない (全て)>>
+PickUp:<<Pick up {1_label}??{1_label} を拾う>>
+PickUpAll:<<Pick up {1_label} (all)??{1_label} を拾う (全て)>>
+PickUpSome:<<Pick up {1_labelShort}...??{1_labelShort} を拾う...>>
+PickUpCount:<<Pick up {1_labelShort} x{{0}}??{1_labelShort} を {{0}} 個拾う>>
+
+CannotGiveToPackAnimal:{1_label} を_{pack animal}_に積めない
+CannotGiveToPackAnimalAll:{1_label} を_{pack animal}_に積めない (全て)
+GiveToPackAnimal:<<Load {1_label} onto pack animal??{1_label} を_{pack animal}_に積む>>
+GiveToPackAnimalAll:<<Load {1_label} (all) onto pack animal??{1_label} を_{pack animal}_に積む (全て)>>
+GiveToPackAnimalSome:<<Load {1_labelShort} onto pack animal...??{1_labelShort} を_{pack animal}_に積む...>>
+GiveToPackAnimalCount:<<Load {1_labelShort} x{{0}} onto pack animal??{1_labelShort} を {{0}} 個_{pack animal}_に積む>>
+
+CannotLoadIntoCaravan:{1_label} をキャラバンに積み込めない
+CannotLoadIntoCaravanAll:{1_label} を(全て)キャラバンに積み込めない
+LoadIntoCaravan:<<Load {1_label} into caravan??{1_label} をキャラバンに積み込む>>
+LoadIntoCaravanAll:<<Load {1_label} (all) into caravan??{1_label} を(全て)キャラバンに積み込む>>
+LoadIntoCaravanSome:<<Load {1_labelShort} into caravan...??{1_labelShort} をいくつかキャラバンに積み込む...>>
+LoadIntoCaravanCount:<<Load {1_labelShort} x{{0}}??{1_labelShort} を {{0}} 個積み込む>>
+OverweightLower:<<overweight??重量オーバー>>
+
+CannotCarryToExit:{1_label} を運んでこのエリアから離れられない
+CarryToExit:<<Carry {1_label} and leave the area??{1_label} を運んでこのエリアから離れる>>
+CarryToExitAndCapture:<<Capture {1_label} and leave the area??{1_label} を_{Capture}_してこのエリアから離れる>>
+
+Strip:<<Strip {1_label}??{1_label} を脱がす>>
+CannotStrip:<<Cannot strip {1_label}??{1_label} を脱がせられない>>
+CannotDrop:<<Cannot drop {1_label}??{1_label} を落とせない>>
+QuestRelated:<<temporary faction member??一時的な_{faction}_メンバー>>
+QuestRelated_Outfit:<<Cannot change outfits on temporary faction members??一時的な_{faction}_メンバーの衣服は変えられない>>
+WouldReplaceLockedApparel:<<would replace locked apparel??固定の衣服が変わった>>
+
+SelfDestructHere:<<Self-destruct here??ここで自壊>>
+
+Drop:<<Drop {1_label}??{1_label} を落とす>>
+
+UseMedicalBed:<<Rest until healed??完治するまで休む>>
+NotInjured:<<not injured??傷は無い>>
+SomeoneElseSleeping:<<occupied by {0}??{0} が所有している>>
+
+TradeWith:<<Trade with {0}??{0} と取引する>>
+CannotTrade::<<Cannot trade??取引できない>>
+
+Open:<<Open {0_label}??{0_label} を開ける>>
+CannotOpen:<<Cannot open {0_label}??{0_label} を開けられない>>
+
+EnterMap:<<Enter {0}??{0} に入る>>
+VisitSettlement:<<Visit {0}??{0} に訪れる>>
+VisitPeaceTalks:<<Visit {0}??{0} に訪れる>>
+VisitEscapeShip:<<Visit {0}??{0} に訪れる>>
+AttackSettlement:<<Attack {0}??{0} を攻撃する>>
+ApproachSite:<<Approach {0}??{0} に近づく>>
+ApproachingSite:<<Approaching {0}??{0} に近づいている>>
+OfferGifts:<<Offer gifts??贈り物を申し出る>>
+TradeWithSettlement:<<Trade with {0}??{0} と交換>>
+
+EnterCryptosleepCasket:<<Enter cryptosleep casket??_[Cryptosleep casket]_ に入る>>
+OpenCryptosleepCasket:<<Open cryptosleep casket??_[Cryptosleep casket]_ を開ける>>
+EnterShuttle:<<Get in shuttle??_[Shuttle]_ に入る>>
+
+CannotGenericWork:<<Cannot {0} {1}??{1} を {0} できない>>
+CannotGenericWorkCustom:<<Cannot {0}??{0} できない>>
+
+CannotMissingHealthActivities:<<Cannot prioritize: incapable of {0}??優先できない: {0} 能力が無い>>
+
+CannotGenericAlreadyAm:<<Already {0} {2_labelShort}??{2_labelShort} はすでに {0} している>>
+CannotGenericAlreadyAmCustom:CannotGenericAlreadyAmCustom:<<Already {0}??既に {0} している>>
+
+CannotPrioritizeWorkTypeDisabled:<<Cannot prioritize: will never do {0}??優先できない: {0} はできない>>
+CannotTradeMissingTitleAbility:<<Cannot trade: lacking necessary title??取引できない: 必要な資格が無い>>
+
+CannotPrioritizeWorkGiverDisabled:<<Cannot prioritize: will never {0}??優先できない: {0} はできない>>
+WillNever:<<will never {0}??{0}は不可能>>
+
+CannotPrioritizeNotAssignedToWorkType:<<Cannot prioritize: not assigned to {0}??優先できない: {0}に未割当>>
+NotAssigned:<<not assigned??未割当>>
+
+CannotPrioritizeResearch:<<Cannot prioritize: research is a long-term task??優先できない: 研究は長時間作業のため>>
+CannotPrioritizeForbidden:<<Cannot prioritize: {1_label} is forbidden??優先できない: {1_label} は_{forbidden}_されている>>
+CannotPrioritizeCellForbidden:<<Cannot prioritize: forbidden??優先できない: _{forbidden}_されている>>
+CannotPrioritizeForbiddenOutsideAllowedArea:<<Outside allowed area??_<Allowed area>_から外れている>>
+
+PrioritizeGeneric:<<Prioritize {0} {1}??{1} の {0} を優先>>
+
+DropAtEdge:<<Drop at edge??端に落とす>>
+DropInCenter:<<Drop in center??中央に落とす>>
+AttackAndDropAtEdge:<<Attack {0}: Drop at edge??{0} を攻撃: 端に落とす>>
+AttackAndDropInCenter:<<Attack {0}: Drop in center??{0} を攻撃: 中央に落とす>>
+
+VomitingLower:<<vomiting??吐いている>>
+NotInterruptibleLower:<<not interruptible??割り込めない>>
+
+AddWaypoint:<<Add a new waypoint here??ここにウェイポイントを追加>>
+RemoveWaypoint:<<Remove this waypoint??このウェイポイントを削除>>
+
+RemoveAllDesignations:<<Cancel all designations??全ての指示を取り消す>>
+DesignateAll:<<Designate all??全て指示する>>
+CountToDesignate:<<{0} affected??{0} つ>>
+ForbidAllItems:<<Forbid all items??全てのアイテムを禁止>>
+UnforbidAllItems:<<Unforbid all items??全てのアイテムを解除>>
+
+LandInExistingMap:<<Zoom in and choose a landing spot in {0}??{0} にズームインして着地点を選ぶ>>
+TransportPodsContentsWillBeLost:<<The contents will be lost??内容物は失われる>>
+FormCaravanHere:<<Form caravan here??ここでキャラバンを編成>>
+GiveToCaravan:<<Give to {0}??{0} へ与える>>
+GiveGiftViaTransportPods:<<Give as a gift to {0} ({1})??贈り物として {0} へ与える ({1})>>
+
+FreePrisoner:<<Free prisoner??_{prisoner}_を解放>>
+OfferHelp:<<Offer help??助けを申し出る>>
+ApplyTechprint:<<apply {0}??{0} を適用>>
+
+CommandForbid:_<Forbid>_
+CommandAllow:_<Allow>_
+CommandForbiddenDesc:禁止状態: _{colonist}_はこれと関われる。クリックすると許可する。
+CommandNotForbiddenDesc:許可状態: _{colonist}_はこれと関われる。クリックすると禁止する。
+
+CommandTogglePowerLabel:<<Toggle power??電源>>
+CommandTogglePowerDesc:電源スイッチの切り替え。
+
+CommandDesignateTogglePowerLabel:<<Designate toggle power??電源>>
+CommandDesignateTogglePowerDesc:これの電源スイッチを操作するように指示する。しばらくすると_{colonist}_がスイッチを切り替える。
+
+CommandTryReconnectLabel:<<Reconnect??配線替え>>
+CommandTryReconnectDesc:接続範囲内にある別の電力網に切り替える。これは、停電している電力網に接続されているときに、近くに通電している電力網がある場合に便利。
+
+CommandGatherSpotToggleLabel:<<Gather spot??集合ポイント>>
+CommandGatherSpotToggleDescActive:有効 - _{colonist}_はこの周りに集まる。
+CommandGatherSpotToggleDescInactive:無効 - _{colonist}_はこの周りに集まらない。
+
+CommandDraftLabel:_<Draft>_
+CommandUndraftLabel:_<Undraft>_
+CommandToggleDraftDesc:徴兵を切り替える。\n\n徴兵された人は命令を受けて戦う。作業、食事、休憩はしない。
+IsIncapped:{1_labelShort} は歩けない。
+
+CommandFireAtWillLabel:<<Fire at will??発砲許可>>
+CommandFireAtWillDesc:発砲許可を切り替える。\n\n無効にすると、遠距離の敵へ自動的に射撃しなくなる。近接戦には影響しない。
+
+CommandClearPrioritizedWork:<<Clear prioritized work??優先作業をクリア>>
+CommandClearPrioritizedWorkDesc:指定された優先作業を止め、通常の自立行動へ戻る。
+
+CommandCancelConstructionLabel:_<Cancel>_
+CommandCancelConstructionDesc:建設を止める。
+
+CommandGetOutOfBedLabel:<<Get out of bed??起床>>
+CommandGetOutOfBedDesc:ベッドから起きる。
+
+CommandThingSetOwnerLabel:<<Set owner??所有>>
+CommandBedSetOwnerDesc:ベッドの所有者を指定する。
+CommandThroneSetOwnerDesc:_[Throne]_の所有者を指定する。
+CommandGraveAssignColonistLabel:<<Assign colonist??割り当て>>
+CommandGraveAssignColonistDesc:この墓に入る_{colonist}_を指定する。
+BuildingAssign:<<Assign??指定>>
+BuildingReassign:<<Reassign??再指定>>
+BuildingUnassign:<<Unassign??解除>>
+CommandBedSetForPrisonersLabel:<<For prisoners??_{prisoner}_用ベッドに設定>>
+CommandBedSetForPrisonersDesc:この部屋にあるベッドは全て_{prisoner}_が使う。
+CommandBedSetForPrisonersFailOutdoors:閉ざされた空間にあるベッドだけ_{prisoner}_用にできる。
+CommandBedSetAsMedicalLabel:<<Medical??医療用ベッドに設定>>
+CommandBedSetAsMedicalDesc:医療用ベッドとして割り当てる。
+TurningOnPrisonerBedWarning:_{prisoner}_用への切り替えは部屋全体に影響する。(_{prisoner}_と_{colonist}_は同じ部屋で寝られないので。)\n\nこれらの人々はベッドの所有権を失う:
+TurningOffPrisonerBedWarning:_{prisoner}_用からの切り替えは部屋全体に影響する。(_{prisoner}_と_{colonist}_は同じ部屋で寝られないので。)\n\nこれらの人々はベッドの所有権を失う:
+AreYouSure:本当に実行してよいですか？
+
+CommandDetonateLabel:<<Detonate??起爆>>
+CommandDetonateDesc:起爆カウントダウンを開始する。
+
+CommandRenameZoneLabel:<<Rename??名前の変更>>
+CommandRenameZoneDesc:ゾーンの名前を変える。
+
+CommandHideZoneLabel:<<Hide??非表示>>
+CommandUnhideZoneLabel:<<Unhide??表示>>
+CommandHideZoneDesc:ゾーンの非表示、再表示。
+
+CommandDeleteZoneLabel:<<Delete??削除>>
+CommandDeleteZoneDesc:ゾーンを削除する。
+
+CommandCopyZoneSettingsLabel:<<Copy settings??設定のコピー>>
+CommandCopyZoneSettingsDesc:このゾーンの設定をクリップボードにコピーし、別のゾーンにペーストできる。
+
+CommandPasteZoneSettingsLabel:<<Paste settings??設定のペースト>>
+CommandPasteZoneSettingsDesc:クリップボードにコピーしてある設定でこのゾーンの設定を上書きする。
+
+CommandAllowSow:<<Allow sowing??種蒔きの許可>>
+CommandAllowSowDesc:不許可なら、_{colonist}_はこのゾーンに植物を植えない。作物の収穫は行う。
+
+CommandSetForceAttackTarget:<<Set forced target??集中攻撃の指定>>
+CommandSetForceAttackTargetDesc:可能な限り攻撃させ続ける対象を設定する。
+CommandStopForceAttack:<<Stop forced attack??集中攻撃の解除>>
+CommandStopForceAttackDesc:集中攻撃を解除し、_<Turret>_に発砲を任せる。
+CommandStopAttackFailNotForceAttacking:集中攻撃できない。
+CommandExtractShell:<<Extract shell??弾を取り出す>>
+CommandExtractShellDesc:装填中の弾を取り出せば弾の種類を変えられる。
+MessageTargetBeyondMaximumRange:標的が遠すぎる。
+MessageTargetBelowMinimumRange:標的が近すぎる。
+MessageTurretWontFireBecauseHoldFire:警告: "発砲禁止"なっているので撃てない。
+
+CommandShipLaunch:<<Launch ship??船を発射する>>
+CommandShipLaunchDesc:現在の設定で船の発進シーケンスを始める。
+CommandShipLaunchReport:<<Show launch report??発射レポートを表示>>
+CommandShipLaunchReportDesc:船の発射能力に関する準備状況を表示する。
+CommandShipStartup:<<Start ship??船を起動>>
+CommandShipStartupDesc:休止状態の船体のコンポーネントを起動する。
+
+CommandPodEject:<<Eject sleeper??仮死状態者を出す>>
+CommandPodEjectDesc:仮死状態者を起こして出す。
+CommandPodEjectFailEmpty:誰もいない。
+
+CommandToggleDoorForbid:<<Passage forbidden??通行禁止>>
+CommandToggleDoorForbidDesc:禁止にすると、_{colonist}_と仲間は通れなくなる。敵や動物には影響しない。
+CommandToggleDoorHoldOpen:<<Hold open??開放>>
+CommandToggleDoorHoldOpenDesc:有効にすると、_{colonist}_は通った後にドアを閉めない。
+
+CommandResetTemp:_<Reset>_
+CommandResetTempDesc:設定温度を部屋温度へリセットする。
+CommandRaiseTempDesc:設定温度を上げる。
+CommandLowerTempDesc:設定温度を下げる。
+
+CommandInstall:<<Install??設置>>
+CommandInstallDesc:現在このアイテムは保管と移動のために梱包されている。このコマンドで配置できる。
+CommandReinstall:<<Reinstall at...??再設置>>
+CommandReinstallDesc:このアイテムを梱包し、別の場所へ設置する。
+
+CommandMakeBeaconStockpileDesc:ビーコンの範囲と全く同じ形状の_{stockpile}_を作る。
+CommandMakeBeaconStockpileLabel:<<Create stockpile??_{stockpile}_を作る>>
+
+CommandSunLampMakeGrowingZoneDesc:照明範囲と全く同じ形状の栽培ゾーンを作る。
+CommandSunLampMakeGrowingZoneLabel:<<Create growing zone??栽培ゾーンを作る>>
+
+CommandAutoRearm:<<Auto Rearm??自動再装填>>
+CommandAutoRearmDesc:有効にすると、トラップが発動した後、自動で再配置される。
+
+CommandReleaseAnimalsLabel:<<Release animals??獲物を指示>>
+CommandReleaseAnimalsDesc:有効にすると、主人がいる動物を放ち、離れた獲物を攻撃させる。無効の場合、近くで主人を守る。
+CommandReleaseAnimalsFail_NoAnimals:リリースできる動物がいない。
+
+CommandSquadAttack:<<Attack??攻撃>>
+CommandSquadAttackDesc:選択されている_{colonist}_に指定した標的を攻撃させる。
+
+CommandMeleeAttack:<<Melee attack??近接攻撃>>
+CommandMeleeAttackDesc:選択されている_{colonist}_に指定した標的を拳や近接武器で攻撃させる。
+
+CommandHoldFire:<<Hold fire??射撃禁止>>
+CommandHoldFireDesc:攻撃を中止する。
+
+CommandSelectPlantToGrowMulti:<<Select plant to grow??栽培する植物を選択>>
+CommandSelectPlantToGrow:<<Plant: {0}??植物: {0}>>
+CommandSelectPlantToGrowDesc:ここに植える植物を決める。
+
+CommandSelectMineralToScanFor:<<Tuned to??探査対象>>
+
+CommandBuildCopy:<<Build copy??複製>>
+CommandBuildCopyDesc:同じものを作る。
+
+CommandFormCaravan:<<Form caravan??キャラバンを編成>>
+CommandFormCaravanDesc:新しい場所へ旅に行ける_{colonist}_のグループを編成する。_{colonist}_は指定された荷物と動物を集め、この地を離れ、次の命令を待つ。
+
+CommandReformCaravan:_<Reform caravan>_
+CommandReformCaravanDesc:_{colonist}_のグループを再編して、現在地を出て、次の命令を待つ。
+CommandReformCaravanFailHostilePawns:このエリアにはまだ敵がいる。
+
+CommandSplitCaravan:<<Split??分割>>
+CommandSplitCaravanDesc:キャラバンを二つに分ける。十分に近ければ、後で一つに合流することもできる。
+
+CommandMergeCaravans:<<Merge??合流>>
+CommandMergeCaravansDesc:選択しているキャラバンを合流させる。
+CommandMergeCaravansFailCaravansNotSelected:合流させるキャラバンを選択する。キャラバンはお互いに十分近くなければならない。
+
+CommandSettle:<<Settle??入植>>
+CommandSettleDesc:この地に入植する。_{colonist}_はこの地に入り、新しい建物を建てられるようになる。
+CommandSettleFailAlreadyHaveBase:あなたの_{faction}_は一つだけしか本拠地を持てない。
+CommandSettleFailReachedMaximumNumberOfBases:_{colony}_が最大に達した。
+CommandSettleFailNoColonists:ここを占有している人は誰もいない。
+CommandSettleFailEnemies:ここには敵がいる。
+
+CommandAbandonHome:<<Abandon??放棄>>
+CommandAbandonHomeDesc:このエリアを放棄する。このエリアはアクセス不能になり、二度と戻れない。_{home}_を捨てた後、キャラバンは新しいエリアに入植できる。
+CommandAbandonHomeFailAllColonistsThere:_{colonist}_全員が集合している。
+
+CommandCancelFormingCaravan:<<Cancel forming caravan??キャラバン編成のキャンセル>>
+CommandCancelFormingCaravanDesc:編成作業を終了させる。
+
+CommandRemoveFromCaravan:<<Remove from caravan??キャラバンから外す>>
+CommandRemoveFromCaravanDesc:この人や動物をキャラバンから外す。
+
+CommandAddToCaravan:<<Add to caravan??キャラバンに加える>>
+CommandAddToCaravanDesc:この人や動物を編成中のキャラバンに加える。
+
+CommandShowMap:<<Zoom in??ズームイン>>
+CommandShowMapDesc:このエリアを表示する。
+
+CommandTrade:<<Trade??取引>>
+CommandTradeDesc:この_{faction}_と取引する。
+CommandTradeFailNoNegotiator:意識のしっかりした、まともな交渉人がいない。
+CommandTradeFailNeedPermit:必要な_{faction}_の権限を持った人がいない: {0}
+
+CommandOfferGifts:<<Offer gifts??贈り物を申し出る>>
+CommandOfferGiftsDesc:この_{faction}_に贈り物を申し出る。
+
+CommandFulfillTradeOffer:<<Fulfill trade offer??取引提案に応える>>
+CommandFulfillTradeOfferDesc:この_{settlement}_が要求している物を渡して、報酬を受け取る。
+CommandFulfillTradeOfferFailInsufficient:この取引提案に応えるにはキャラバンが{0}を持っていなければならない。
+CommandFulfillTradeOfferConfirm:{0}を渡しますか？
+
+CommandTakeOff:<<Take off??離陸>>
+CommandTakeOffDesc:船に乗り込み、この星から離脱する。
+CommandTakeOffConfirmation:本当に船を発進させますか？\n\nこのエリアの全員が星から脱出し、それ以外は置き去りにされます。
+
+CommandSetTargetFuelLevel:<<Set target fuel level??燃料搭載量の設定>>
+CommandSetTargetFuelLevelDesc:燃料搭載量を設定する。_{colonist}_は燃料搭載量まで補給しようとする。
+
+CommandToggleAllowAutoRefuel:<<Toggle automatic refuel??自動補給切替>>
+CommandToggleAllowAutoRefuelDesc:自動補給するかどうかの設定。
+
+CommandCancelLoad:<<Cancel load??荷積みをキャンセル>>
+CommandCancelLoadDesc:人やアイテムの荷積みをキャンセルして、既に積んであるものを下ろす。
+
+CommandLaunchGroup:<<Launch group??グループを発射>>
+CommandLaunchGroupDesc:_[Transport pod]_ のグループを発射するために目標設定処理を開始する。次に目標を選ぶ。_[Pod]_は発射され一緒に着陸する。
+CommandLaunchGroupFailNotConnectedToFuelingPort:一部の _[Transport pod]_ が給油口に接続されていない。
+CommandLaunchGroupFailNoFuel:一部の _[Pod launcher]_ に燃料がない。
+CommandLaunchGroupFailUnderRoof:一部の _[Pod launcher]_ が屋根の下にある。
+
+CommandLoadTransporter:<<Load launch group of {0}??発射グループ({0}個)の荷積み>>
+CommandLoadTransporterDesc:選択されている _[Transport pod]_ (群)を発射グループに設定する。「荷積み」ダイアログを開いて誰と何を運ぶのか決められる。
+CommandLoadTransporterFailNotConnectedToFuelingPort:_[Transport pod]_ は給油口に接続されていない。
+CommandLoadTransporterFailNoFuel:_[Pod launcher]_ に燃料がない。
+
+CommandLoadTransporterSingle:<<Load??積み込み>>
+CommandLoadTransporterSingleDesc:荷積みダイアログを開いて積み込むモノを決める。
+
+CommandSetToLoadTransporter:<<Set to load??積み込む>>
+CommandSetToLoadTransporterDesc:荷積みダイアログを開いて積み込むモノを決める。
+
+CommandAutoloadTransporters:<<Autoload??自動積み込み>>
+CommandAutoloadTransportersDesc:必要な積み荷が揃い次第自動的に積み込むかの切替。
+
+CommandSelectPreviousTransporter:<<Select previous in launch group??発射グループの前を選択>>
+CommandSelectPreviousTransporterDesc:発射グループ内の前の _[Transport pod]_ を選択する。
+
+CommandSelectAllTransporters:<<Select launch group??発射グループを選択>>
+CommandSelectAllTransportersDesc:発射グループ内の全ての _[Transport pod]_ を選択する。
+
+CommandSelectNextTransporter:<<Select next in launch group??発射グループの次を選択>>
+CommandSelectNextTransporterDesc:発射グループ内の次の _[Transport pod]_ を選択する。
+
+CommandDesignateOpenCloseVentLabel:<<Designate open/close??開/閉を指示>>
+CommandDesignateOpenCloseVentDesc:換気口の開閉を指示する。_{colonist}_が直ぐに行う。
+
+CommandRemoveWaypointLabel:<<Remove??削除>>
+CommandRemoveWaypointDesc:ウェイポイントを削除。
+
+CommandPauseCaravan:<<Rest??休憩>>
+CommandToggleCaravanPauseDesc:休憩する。これには次の利点がある:\n\n  - 人々が社交を行える\n  - _{forage}_が {0} 倍速くなる\n  - 視認性に {1} 掛けられる
+
+CommandShowSellableItems:<<Show what will buy??買う物を表示>>
+CommandShowSellableItemsDesc:この交易商が買いたい物を全て表示する。
+
+CommandAttackSettlement:<<Attack??攻撃>>
+CommandAttackSettlementDesc:この_{settlement}_を攻撃する。
+
+CommandSendShuttle:<<Send??出発>>
+CommandSendShuttleDesc:離陸して目的地まで_[shuttle]_を飛ばす。
+CommandSendShuttleFailUnderRoof:_[shuttle]_は屋根の下にある。
+CommandSendShuttleFailMissingRequiredThing:必要なアイテムか人が見つからない。
+
+CommandPlaceBlueprints:<<Place blueprints??_{blueprint}_を置く>>
+CommandPlaceBlueprintsDesc:可能なら必要な全ての_{blueprint}_を置く。
+CommandCancelMonumentMarker:_<Cancel>_
+CommandCancelMonumentMarkerDesc:モニュメントのマーカーを完全に消す。
+
+CommandViewQuest:<<View quest: {0}??クエストを見る: {0}>>
+CommandViewQuestDesc:このクエストをクエストタブで見る。
+CommandOpenLinkedQuest:<<Open linked quest??関連クエストを開く>>
+CommandOpenLinkedQuestDesc:関連クエストをクエストタブで開く。
+
+IndefiniteArticle:
+DefiniteArticle:
+IndefiniteForm:{0}
+DefiniteForm:{0}
+
+Proits:その
+Prohis:彼
+Proher:彼女
+ProitsCap:その
+ProhisCap:彼
+ProherCap:彼女
+
+ProitObj:その
+ProhimObj:彼
+ProherObj:彼女
+ProitObjCap:その
+ProhimObjCap:彼
+ProherObjCap:彼女
+
+Prohe:彼
+Proshe:彼女
+Proit:その
+ProheCap:彼
+ProsheCap:彼女
+ProitCap:その
+
+;どうやっても自然にはならないので、「と」でつなげないように。
+ClauseSequence2:{0}。{1}。
+ClauseSequence3:{0}。{1}。{2}。
+ClauseSequence4:{0}。{1}。{2}。{3}。
+ClauseSequence5:{0}。{1}。{2}。{3}。{4}。
+ClauseSequence6:{0}。{1}。{2}。{3}。{4}。{5}。
+ClauseSequence7:{0}。{1}。{2}。{3}。{4}。{5}。{6}。
+ClauseSequence8:{0}。{1}。{2}。{3}。{4}。{5}。{6}。{7}。
+XorY:{0} か {1}
+
+LetterLabelAnimalInsanitySingle:<<Mad {ANIMAL_labelShort}??{ANIMAL_labelShort} の凶暴化>>
+AnimalInsanitySingle:一匹の {ANIMAL_label} が狂った。目に入る者は全て攻撃する。
+LetterLabelAnimalInsanityMultiple:<<Mad {0}??{0} の凶暴化>>
+AnimalInsanityMultiple:ある種の精神波がこの地に吹き荒れた。_{colonist}_は大丈夫だが、しかし・・・\n\nここの {0} 達は狂気に駆り立てられたようだ。
+
+LetterLabelCropBlight:_<Blight>_: {PLANTDEF_labelPlural}
+LetterCropBlight:{PLANTDEF_labelPlural}で_{blight}_が見つかった！\n\n蔓延する前に、侵された作物を刈り取るか焼却するべきだ。
+
+LetterLabelMiracleHeal:<<Miracle??奇跡>>
+MiracleHeal:{0} は奇跡的に回復した！
+
+EnemyRaidLeaderPresent:{LEADER_labelShort} は_{faction}_ {LEADER_factionPawnsPlural} のリーダーだ。
+FriendlyRaidLeaderPresent:{LEADER_labelShort} は_{faction}_ {LEADER_factionPawnsPlural} のリーダーだ。
+
+LetterLabelRefugeePodCrash:<<Transport pod crash??_[Transport pod]_ 墜落>>
+RefugeePodCrash:{PAWN_nameDef} という {PAWN_titleIndef} が _[Transport pod]_ で墜落してきた。この衝撃でも生き残っているのなら、かなり重傷だろう。
+RefugeePodCrash_Factionless:{PAWN_nameDef} はどこの_{faction}_にも属していない。{PAWN_objective}を救助して本人の好きにさせるか、それとも勧誘や奴隷目的で捕まえることもできる。
+RefugeePodCrash_Hostile:{PAWN_nameDef} は敵の {PAWN_factionName} から来た。勧誘や奴隷目的で捕まえられる。
+RefugeePodCrash_NonHostile:{PAWN_nameDef} は {PAWN_factionName} から来た。助けると仲間になるかもしれない。それか、元いた場所へ帰り、あなたの善意を伝え広めるかもしれない。\n\n勧誘や奴隷目的で捕まえることもできるが、その場合は{PAWN_possessive}の_{faction}_を怒らせること になる。
+
+LetterLabelCargoPodCrash:[[Cargo pods??_{Cargo pod}_]]
+CargoPodCrash:_{Cargo pod}_の墜落を近くに確認した。\n\n残骸から何か役立つ物が見つかるかもしれない。
+
+AnElectricalConduit:電気配管
+ShortCircuit:{0} が故障し、ショートした。
+ShortCircuitStartedFire:{0} が故障し、ショートして火災が発生した。
+ShortCircuitDischargedEnergy:電気による爆発により、_[Battery]_に繋がっていた {0} Wd のエネルギーが全て放電した。
+ShortCircuitWasLarge:大量の電気により大爆発が起きた。
+ShortCircuitWasHuge:かなりの大爆発だ。ワーオ。
+
+TraderArrival:商船が近くを通り過ぎようとしている。\n\n彼らは {0} という名で、{1} をしている。\n\n{2}
+TraderArrivalFromFaction:彼らは {FACTION_name} に属している。
+TraderArrivalNoFaction:彼らはどの_{faction}_にも属していない。
+
+SingleTravelerPassing:{1} の {PAWN_title} が通り過ぎようとしている。{PAWN_pronoun}は {PAWN_nameFull} と名乗っている。
+GroupTravelersPassing:{0} の 旅行者達が通り過ぎようとしている。
+
+LetterLabelSingleVisitorArrives:<<Visitor??訪問者>>
+SingleVisitorArrives:{1} の {PAWN_titleIndef} が_{colony}_を訪問している。\n\n{PAWN_pronoun}は {PAWN_nameFull} と名乗っている。{3}{4}
+SingleVisitorArrivesTraderInfo:{PAWN_pronoun}は持っているアイテムをいくつかトレードしたがっている。
+SingleVisitorArrivesLeaderInfo:{PAWN_pronoun}は_{faction}_のリーダーだ。
+LetterLabelGroupVisitorsArrive:<<Visitors??訪問者達>>
+GroupVisitorsArrive:{0} の一団が_{colony}_を訪問している。{1}{2}
+GroupVisitorsArriveTraderInfo:彼らは持っているアイテムをいくつかトレードしたがっている。
+GroupVisitorsArriveLeaderInfo:訪問者達のうち、{1_labelShort} は_{faction}_のリーダーだ。
+VisitorsLeaving:{0} の訪問者は去ろうとしている。
+
+LetterLabelManhunterPackArrived:_<Manhunter pack>_
+ManhunterPackArrived:{0} の_{manhunter pack}_がやって来た。この地域をうろつき、人間狩りを行う。\n\n誰かがドアを通るのを見ない限り、ドアを攻撃することはない。中に隠れていれば安全だ。また、動いていない_<Turret>_も攻撃しないので、_<Turret>_を守りたいならオフにする。\n\n{0}は一日か二日でここから出て行く。出て行くまで隠れても良いし、戦っても良い。
+
+MessageAnimalInsanityPulse:{SOURCE_label} が近くの動物達を狂気へと駆り立てる精神パルスを放射した。
+LetterShipPartDroveColonistInsane:墜落した船の一部が_{colonist}_ {0} に対して狂気へと駆り立てる精神パルスを放射した。
+AwokeDaysAgo:目覚めてから {0} 日経過
+ActivatedDaysAgo:起動してから {0} 日経過
+OpenedDaysAgo:開けてから {0} 日経過
+PsychicDroneLevel:<<Psychic drone level: {0}??サイキック・ドローンのレベル: {0}>>
+LetterLabelPsychicDroneLevelIncreased:<<Drone intensifies??唸り増加>>
+LetterPsychicDroneLevelIncreased:墜落した船の一部がより強力なサイキック・ドローンの一種を放射している。この地域の全人間はより不安、恐怖、疑念を感じている。
+LetterLabelAgentRevealed:<<Agent??スパイ>>
+LetterAgentRevealed:{0} は敵対する {1} のスパイだったと白状した。\n\nすでに逃げだそうとしている。
+
+LetterLabelBeaversArrived:<<Beavers!??ビーバー！>>
+BeaversArrived:腹を空かせたアルファービーバーの群れが現れた。この地域の木材源を全部食い荒らされる前に駆除しよう。
+
+LetterLabelAnimalSelfTame:<<{1_kind} self-tamed??{1_kind} が勝手に懐いた>>
+LetterAnimalSelfTame:{0} がペットになった。
+LetterAnimalSelfTameAndNameNumerical:{0} がペットになった。{ANIMAL_nameFull} と名付けた。
+LetterAnimalSelfTameAndName:{0} がペットになった。_{colonist}_は {ANIMAL_nameFull} と呼ぶことに決めた。
+
+LetterLabelFarmAnimalsWanderIn:<<{0} join??{0} が加わった>>
+LetterFarmAnimalsWanderIn:見捨てられたか、迷子になった {0} のグループが迷い込んできた。\n\n人に慣れているようで、_{colony}_に加わった。
+
+LetterLabelThrumboPasses:<<Rare thrumbos??希少な_[Thrumbo]_>>
+LetterThrumboPasses:_[Thrumbo]_の小さな群れがこの地域に彷徨ってきた。\n\n基本的には大人しいが、相手にする場合は非常に危険な生物。交易商達はこの生物の貴重な皮と角に喜んで沢山支払う。\n\n_[Thrumbo]_は数日でここから離れる。
+
+LetterLabelTraderCaravanArrival:<<{1} from {0}??{0} からの {1}>>
+LetterTraderCaravanArrival:{0} から来たキャラバンが接触してきた。彼らは {1} だ。
+
+LetterCaravanArrivalCommonWarning:ここを離れるまでの間しばらく、この_{colony}_でぶらつく。彼らを襲うこともできるが、彼らの_{faction}_を怒らせることになる！
+
+RansomDemandTitle:<<Ransom demand at {0}??{0} からの身代金要求>>
+RansomDemand:{1} が無線で呼びかけてきている。彼らは元_{colonist}_の {PAWN_labelShort} を人質にしている。\n\n{PAWN_objective}は {2} _[Silver]_と引き換えに解放される。
+RansomDemand_Accept:_<Accept>_
+RansomDemand_Reject:_<Reject>_
+
+EscapeShipFoundLabel:<<Ship found??船の発見>>
+EscapeShipFound:<Name>Charlon Whitestone</Name> から送られてきた座標に到着し、隠されていた船を発見した。\n\n船の反応炉はまだ深い休止状態にあるため、飛ぶことはまだ出来ない。コンピュータコアと対話することで起動させられる。\n\n<Name>Charlon Whitestone</Name> の忠告によると、起動処理はおよそ15日かかり、エネルギー特性は遠くからでも検知される。この種のエネルギー特性は星間飛行能力があることを示しており、略奪者集団や凶悪な_[Mechanoid]_群れを引き寄せることになる。防御をしっかりと整えること。
+EscapeShipFoundPeaceful:<Name>Charlon Whitestone</Name> から送られてきた座標に到着し、隠されていた船を発見した。\n\n船の反応炉はまだ深い休止状態にあるため、飛ぶことはまだ出来ない。コンピュータコアと対話することで起動させられる。\n\n<Name>Charlon Whitestone</Name> の忠告によると、起動処理はおよそ15日かかる。
+
+EscapeShipLostLabel:<<Ship destroyed??船は破壊された>>
+EscapeShipLost:<Name>Charlon Whitestone</Name> がメッセージを送ってきた。\n\n着陸した船の制御を失っていることを確認した。これが悪者の手に渡らないように、自爆装置を強制作動した。船は今やクレーターとなった。\n\nこの星から出るための別の方法を探す必要がある。
+
+CaravanMeetingTitle:<<Caravan meeting by {0}??{0} のキャラバン会合>>
+CaravanMeeting:{0} は {1} からのキャラバンと平和的に出会った。このキャラバンの構成:\n\n{2}
+CaravanMeeting_Trade:<<Trade??取引>>
+CaravanMeeting_Attack:<<Attack??攻撃>>
+CaravanMeeting_MoveOn:<<Move on??先へ進む>>
+CaravanMeeting_TradeIncapable:取引できるメンバーがいない
+CaravanMeeting_NoPermit:{1_name} に {0} の資格を持つトレーダーが必要
+
+LetterLabelCaravanRequest:<<Caravan request??キャラバン派遣要請>>
+LetterCaravanRequest:近くの_{settlement}_ {0} から特別な取引要求を持ちかけられた。\n\n欲しい物:\n\n {1} (価値 {2})\n\n見返り:\n\n {3} (価値 {4})\n\n期限: {5}\n\n取引したいのなら、要求された物資を持たせたキャラバンを送り出す。この旅にかかるおおよその時間は {6}。この提案を再確認する場合はワールドマップで {0} を選択する。
+CaravanRequestInfo:<<Requesting: {0} ({2}) ({1} left)??要求: {0} ({2}) (残り {1})>>
+NormalQualityOrBetter:<<_{normal}_ quality or better??_{normal}_品質以上>>
+NotTainted:<<not tainted??穢れた物は不可>>
+
+CaravanDemandTitle:<<Caravan demand by {0}??{0} によるキャラバン喝上げ>>
+CaravanDemand:{0} が {1} からの {2} 人の {4} の一団に待ち伏せされた。以下を渡さないと攻撃してくる:\n\n{3}
+CaravanDemand_Give:<<Give and pass??渡して通る>>
+CaravanDemand_Fight:<<Refuse and fight??拒否して戦う>>
+
+LetterLabelSiteNoLongerHostile:クエストは無くなった
+LetterLabelSiteNoLongerHostileMulti:クエストは無くなった
+LetterSiteNoLongerHostile:{0} と敵対しなくなったので、場所 {1} はもうない。
+LetterSiteNoLongerHostileMulti:{0} と敵対しなくなったので、次の場所はもうない
+
+LetterLabelQuestAskerFactionHostile:<<Quest failed??クエスト失敗>>
+LetterQuestAskerFactionHostile:{FACTION_name} が敵対したのでクエストは達成不能になった。
+
+LetterLabelQuestAskerCaptured:<<Quest failed??クエスト失敗>>
+LetterQuestAskerCaptured:{SUBJECT_definite} が誘拐されたのでクエストは達成不能になった。
+
+LetterLabelQuestAskerDied:<<Quest failed??クエスト失敗>>
+LetterQuestAskerDied:{SUBJECT_definite} が死んだのでクエストは達成不要になった。
+
+TabBills:_<Bills>_
+TabGrowing:<<Growing??栽培>>
+TabCharacter:<<Bio??人物>>
+TabTraining:<<Training??訓練>>
+TabPrisoner:_<Prisoner>_
+TabGuest:_<Guest>_
+TabGear:<<Gear??装備>>
+TabNeeds:_<Needs>_
+TabStorage:_<Storage>_
+TabShells:<<Shells??装弾>>
+TabHealth:_<Health>_
+TabRace:<<Race??種族>>
+TabBasics:<<Basics??基本>>
+TabStats:<<Stats??状態>>
+TabRecords:<<Records??記録>>
+TabArt:<<Art??芸術>>
+TabSocial:<<Social??社交>>
+TabLog:<<Log??履歴>>
+TabFormingCaravan:<<Caravan??キャラバン>>
+TabTransporterContents:_<Contents>_
+TabCasketContents:_<Contents>_
+
+AddBill:_<Add bill>_
+RecipeRequiresSkills:{0} のレシピは以下のスキルが必要。これらのスキルを持っている_{colonist}_がいないので、この_{bill}_は誰も実行できない。
+MinimumSkill:<<Min skill??最少スキル値>>
+SuspendedCaps:<<SUSPENDED??停止中>>
+BoundWorkerIs:<<Worker: {1_labelShort}??作業者: {1_labelShort}>>
+; 動詞か？未使用なので放置
+PlantVerb:<<Plant??植物>>
+ClipboardBillNotAvailableHere:コピーされた_{bill}_をここにペーストできない。
+ReorderBillUpTip:上げる
+ReorderBillDownTip:下げる
+DeleteBillTip:削除
+CopyBillTip:クリップボードへコピー
+SuspendBillTip:一時停止
+PasteBillTip:ペースト
+PasteBillTip_LimitReached:これ以上追加できない
+
+RecruitmentResistance:<<Resistance remaining??残りの_{resistance}_度>>
+RecruitmentDifficulty:<<Recruitment difficulty??勧誘の難易度>>
+RecruitmentChance:<<Recruitment chance??勧誘成功率>>
+RecruitmentChanceExplanation:<<Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2}??勧誘難易度因数: {0}\n_{Mood}_因数: {1}\n総合基本成功率: {2}>>
+RecruitmentChanceWithLastRecruiterExplanationPart:<<\n----------------\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7}??\n----------------\n直近の勧誘試行\n勧誘者: {3}\n交渉能力因数: {4}\n評価因数: {5} ({6})\n対象への最終成功率 {3}: {7}>>
+RecruitmentLastRecruiterResistanceReduceExplanationPart:<<\nResistance reduction: {0}??\n_{resistance}_削減: {0}>>
+PrisonerReleasePotentialRelationGains:<<Relations gain on release??解放時の関係上昇>>
+PrisonerReleaseRelationGainsDesc:_{prisoner}_を解放したときに向上する_{faction}_関係。これは_{prisoner}_の健康や精神状態の影響を受ける。
+PrisonBreakMTBDays:<<Prison break interval??脱獄間隔>>
+PrisonBreakMTBDaysDescription:脱獄を企む平均日数。_{Mood}_、機動性、最後の脱獄からの時間の影響を受ける。\n\nこの値は睡眠時間を含まないので、実際の脱獄間隔は通常長くなる。
+Never:<<Never??無し>>
+SlavePrice:<<Slave price??奴隷価格>>
+GetsFood:<<Gets food??食べ物を与える>>
+DoctorsCare:<<Doctors care??医者に診せる>>
+GetsMedicine:<<Gets medicine??薬を与える>>
+ShouldTryToRecruit:<<Try to recruit??勧誘>>
+ConsideredGuilty:<<Considered guilty (expires in {0})??有罪 (期限 {0})>>
+
+MoveSpeed:<<Move speed??移動速度>>
+Efficiency:<<Efficiency??効率>>
+PartEfficiency:<<Part efficiency??部位効率>>
+BodyPartEfficiency:<<Body part efficiency??身体部位効率>>
+MissingBodyPart:<<Gone??失われた>>
+DestroyedBodyPart:<<Destroyed??破壊された>>
+ShatteredBodyPart:<<Shattered??粉砕された>>
+RemovedBodyPart:<<Removed??外された>>
+Healthy:<<Healthy??健康>>
+InPain:<<In pain??痛み>>
+PainLevel:<<Pain??痛みの強さ>>
+Injured:<<Injured??怪我>>
+UntendedInjury:<<Untended injury??未手当の怪我>>
+NoHealthConditions:<<no health conditions??健康状態なし>>
+WholeBody:<<Whole body??全身>>
+DataProcessing:<<Data processing??データ処理>>
+Communication:<<Communication??コミュニケーション>>
+Affects:<<Affects??影響>>
+BleedingRate:<<Bleeding??出血>>
+TimeToDeath:<<death in {0}??死亡まであと {0}>>
+WontBleedOutSoon:<<no immediate danger??まだそれほど危険ではない>>
+HealthOverview:<<Overview??概要>>
+MedicalOperationsShort:_<Operations>_ ({0})
+MedicalOperationsMechanoidsShort:_<Modifications>_ ({0})
+MedicalOperations:_<Medical operations>_
+Amputate:<<amputate??切断手術>>
+; todo:この二つが同時に出るのだろうか？だとすると区別がつかない
+HarvestOrgan:<<harvest??摘出>>
+RemoveOrgan:<<remove??摘出>>
+MemoryLower:<<memory??記憶>>
+SocialInteractionsLower:<<social interactions??社会的相互関係>>
+HungerRate:_<Hunger rate>_
+Tiredness:<<Tiredness??疲れ>>
+PainFactor:<<Pain??苦痛>>
+PreventsInfection:<<Prevents infection??感染予防>>
+SelfTend:<<Self-tend??自己治療>>
+SelfTendTip:{0} の自己治療を有効にすると、通常の{1}の効率で、その場で自分自身を治療する。
+
+None:<<None??なし>>
+VeryPoor:<<Very poor??とても悪い>>
+Poor:<<Poor??悪い>>
+Weakened:<<Weakened??弱っている>>
+GoodCondition:<<OK??良好>>
+Enhanced:<<Enhanced??強化>>
+SeriouslyImpaired:<<Seriously impaired??深刻な障害>>
+Impaired:<<Impaired??障害>>
+SlightlyImpaired:<<Slightly impaired??わずかな障害>>
+NoPain:<<None??無痛>>
+LittlePain:<<Little??少しの痛み>>
+MediumPain:<<Medium??痛い>>
+SeverePain:<<Severe??激しい痛み>>
+ExtremePain:<<Extreme??猛烈な痛み>>
+
+Trainability:_<Trainability>_
+CannotTrainNotSmartEnough:<<Requires {0} trainability.??必要な_{Trainability}_ {0}。>>
+CannotTrainTooSmall:この訓練をするには {1_labelShort} は小さすぎる。
+
+TrainingNeedsPrerequisite:<<Prerequisite needed: {0}??前提: {0}>>
+
+NoRelationships:<<(no relationships)??(関係無し)>>
+Kidnapped:<<Kidnapped??誘拐>>
+Lent:{FACTION_name} に貸し、 {1} で戻る
+Missing:<<Missing??消息不明>>
+Slave:<<Slave??奴隷>>
+FactionLeader:<<Faction leader??_{faction}_のリーダー>>
+OpinionOf:<<Opinion of {1_labelShort}??{1_labelShort} への評価>>
+SomeonesOpinionOfMe:<<{1_labelShort}'s opinion of me??{1_labelShort} の私への評価>>
+IAmDead:<<I'm dead??私は死んだ>>
+IAmPsychopath:<<I'm a psychopath??私はサイコパス>>
+
+OverallArmor:<<Overall armor??_{armor}_合計>>
+MassCarried:<<Mass carried??重量>>: {0} / {1} _[kg]_
+ComfyTemperatureRange:<<Comfortable temperature range??快適な温度範囲>>
+ArmorBlunt:<<Blunt??打撲>>
+ArmorSharp:<<Sharp??尖鋭>>
+ArmorHeat:<<Heat??熱>>
+
+ShowAll:<<Show all??全て表示>>
+ShowCombat:<<Show combat??戦闘を表示>>
+ShowSocial:<<Show social??社交を表示>>
+NoRecentEntries:<<no recent entries??直近の履歴なし>>
+CopyLogTip:ログをクリップボードへコピー。
+
+FormingCaravanStatus_GatheringAnimals:<<Gathering animals??動物を集めている>>
+FormingCaravanStatus_GatheringAnimals_Pause:<<Gathering animals (waiting)??動物を集めている (待機)>>
+FormingCaravanStatus_GatheringItems:<<Gathering items??アイテムを集めている>>
+FormingCaravanStatus_GatheringItems_Pause:<<Gathering items (waiting)??アイテムを集めている (待機)>>
+FormingCaravanStatus_GatheringSlaves:<<Gathering slaves??奴隷を集めている>>
+FormingCaravanStatus_GatheringSlaves_Pause:<<Gathering slaves (waiting)??奴隷を集めている (待機)>>
+
+FormingCaravanStatus_GatheringDownedPawns:<<Gathering downed people??倒れている人を集めている>>
+FormingCaravanStatus_GatheringDownedPawns_Pause:<<Gathering downed people (waiting)??倒れている人を集めている (待機)>>
+
+FormingCaravanStatus_Leaving:<<Leaving??離れている>>
+FormingCaravanStatus_Leaving_Pause:<<Leaving (waiting)??離れている (待機)>>
+FormingCaravanStatus_Waiting:<<Waiting??待機中>>
+
+CaravanMembers:<<Members??人員>>
+CaravanAnimals:<<Animals??動物>>
+ItemsToLoad:<<Items to load??積み込むアイテム>>
+LoadedItems:<<Loaded items??積み込んだアイテム>>
+PackAnimalsCountLower:<<pack animals??_{pack animal}_数>>
+InMentalStateCountLower:<<mentally broken??_{mental break}_数>>
+
+RemoveSliderText:外す {{0}}x {0}
+ContainedItems:<<Contained items??含まれるアイテム>>
+ConfirmRemoveItemDialog:本当に {0} を外しますか？
+
+DismissQuest:クエストを閉じて_<Historical>_タブへ移す。\n\nクエストはいつでも開ける。影響や期限は変わらず進む。閉じたクエストから通知は来ない。
+UnDismissQuest:クエストを開く。\n\nクエストを可能か有効のタブへ戻し、通知が有効になる。
+QuestDismissed:閉じたクエストはここにある。\n\n期限までなら開ける。
+DeleteQuest:クエストを消して一覧から永久に削除する。
+
+JumpToLocation:<<Jump to location??その場所を見る>>
+PostponeLetter:<<Postpone??後回し>>
+RejectLetter:_<Reject>_
+ReadMore:<<Read more??もっと読む>>
+
+LetterLabelFirstSummerWarning:<<Summer??夏>>
+FirstSummerWarning:夏が来た！そして冬も迫ってきている。\n\n作物は冬の寒さでは育たないので、生きるのに必要な量の食料をしっかりと保存する。\n\n食料が腐らないように、冷蔵倉庫を作れる。また、_[Parka]_を買うか、盗むか、作るかしないと、外に出ると凍死する。
+
+LetterRelationsChange_Hostile:{0} との関係が完全に終わり、これから敵対するようになった。\n\nこの_{faction}_はあなたの_{colony}_やキャラバンを定期的に襲うようになり、交易を拒否する。関係を改善したいのなら、キャラバンや _[Transport pod]_ を使って贈り物を申し出ることが出来る。\n\nこの変化は友好度({1})が {2} を下回ったために起こった。中立関係に戻すには、友好度を {3} まで上げなければならない。
+LetterRelationsChange_NeutralFromHostile:{0} との関係は好転した。この_{faction}_はあなたを中立と見なして、これ以上の攻撃を止めた。\n\nこの変化は友好度({1})が {2} を上回ったために起こった。もし友好度が {3} を下回ると、{0} はまた敵対するようになる。もし友好度が {4} を超えると同盟になり、共に戦うようになる。
+LetterRelationsChange_NeutralFromAlly:{0} との関係は冷めた。この_{faction}_はあなたを同盟ではなく中立と見なすようになった。\n\nお互いに平和な関係であることには変わらないが、あなたが攻撃されても援軍を送らなくなった。\n\nこの変化は友好度({1})が {2} を下回ったために起こった。もし友好度が {3} を下回ると {0} は敵対するようになる。もし友好度が {4} を上回ればまた同盟になる。
+LetterRelationsChange_Ally:{0} との関係はとても親しいものになった。この_{faction}_はこれから同盟になる。\n\n同盟は時々、あなたが攻撃されている時に援軍を送ってくれる。また、友好度を消費して、いつでも助けを呼ぶことができる。\n\n友好度({1})が {2} を上回ったために同盟になった。もし友好度が {3} を下回ると中立の関係に戻る。
+
+goodwill:<<goodwill??友好度>>
+Neutral:<<Neutral??中立>>
+Death:<<Death??死亡>>
+
+ShortCircuitRain:{1_label} が雨で_{short circuit}_して発火した。
+
+LetterLabelAreaRevealed:<<Area revealed??空間の発見>>
+AreaRevealed:新しい空間が見つかった。
+AreaRevealedWithMechanoids:新しい空間が見つかった。敵対する古代の_[Mechanoid]_がいる。
+
+RoofCollapsed:支えが遠すぎたため天井が崩落した。
+TheseThingsCrushed:崩落の被害:
+NothingCrushed:何も潰されなかった。
+LetterLabelRoofCollapsed:<<Roof collapse??天井の崩落>>
+
+RecruitSuccess:{0} は {1} の引き抜きに成功した。(成功率 {2})
+RecruitFail:{0} は {1} の引き抜きに失敗した。(成功率 {2})
+
+RelatedPawnInvolvedInQuest:{PAWN_nameDef} は {RELATIVE_labelShort} の {1} なので、 {PAWN_nameDef} が死ぬと長く苦しむことになる。逆に、 {PAWN_nameDef} を救えば、暫くの間とても幸せになる。
+
+LetterLabelBirthday:<<Birthday??誕生日>>
+BirthdayChronological:今日は {0} の誕生日！生物学的には {1} は {3} 歳になる。\n\n暦上では、{1} は {2} 歳になった。\n\n補足:仮死状態中は年を取らないので、暦上の年齢と生物学的年齢は区別されている。
+BirthdayBiologicalAgeInjuries:{0_nameFull} が生物学的 {1} 歳になった。\n\n残念なことに、 {0_nameFull} は年を取ったことで次の病気を発症した:\n{2}
+
+LetterLabelNewDisease:_<Disease>_
+NewDisease:{PAWN} が {1} にかかった。\n\n医療用ベッドと医者が用意されているか確認する。{PAWN_definite} に適切な治療を受けさせ、できる限りベッドで過ごさせる。
+NewPartDisease:{PAWN} が {3} にかかった。感染源は{PAWN_possessive}の{1}。\n\n医療用ベッドと医者が用意されているか確認する。 {PAWN_definite} に適切な治療を受けさせ、できる限りベッドで過ごさせる。
+NewDiseaseAnimal:{PAWN_labelShort} が病気になった: {1}
+NewPartDiseaseAnimal:{PAWN_labelShort} が病気になった: {3} が {1} に発症した
+
+PawnWasFormerlyColonist:{0} は_{faction}_の元一員だった。
+PawnWasFormerlyLodger:以前 {0} をもてなした。
+PawnHasTheseRelationshipsWithColonists:{1_labelShort} は_{colonist}_と次のような関係を持っている:
+
+LetterLabelAncientShrineWarning:<<Ancient danger??古代の脅威>>
+AncientShrineWarning:{PAWN_nameDef} は古代の壁に近づくにつれて嫌な予感に襲われた。根拠は無いが、この古びた建物には大きな危険があると感じている。
+
+StruckMineable:{0}の鉱脈に突き当たった!
+
+LetterLabelAnimalManhunterRevenge:<<{0} revenge??{0} の反撃>>
+AnimalManhunterFromDamage:{1_indefinite} が傷つけられて攻撃してきた!\n\n近くの人を襲う。寝ると落ち着く。
+AnimalManhunterFromTaming:{1_indefinite} が下手な手懐けをされて攻撃してきた！
+AnimalManhunterOthers:近くにいた他の {1_kindBasePlural} も怒りだした！
+
+LetterFriendlyTrapSprungLabel:<<{1_labelShort} hit trap??{1_labelShort} が罠にはまった>>
+LetterFriendlyTrapSprung:{1_labelShort} が罠をうっかり作動させて怪我をした。
+
+LetterHealthComplications:{PAWN_labelShort} が次を発症した:\n\n  {1}\n\nこれは {2} による。
+LetterHealthComplicationsLabel:{PAWN_labelShort}: {1}
+
+LetterHediffFromRandomHediffGiver:{PAWN_labelShort} が {1} を発症した。
+LetterHediffFromRandomHediffGiverLabel:{PAWN_labelShort}: {1}
+
+LetterLeadersDeathLabel:<<{1} died: {0}??{1} が死亡: {0}>>
+LetterLeadersDeath:{1} の {3} である {OLDLEADER_nameFull} が死んだ。\n\n新しい {3} は {NEWLEADER_nameFull} になった。
+
+LetterLeaderChangedLabel:<<New {1}: {0}??新しい {1}: {0}>>
+LetterLeaderChanged:{OLDLEADER_nameFull} が {1} の {3} ではなくなった。\n\n新しい {3} は {NEWLEADER_nameFull} になった。
+
+FinalStraw:我慢の限界を破ったのは: {0}
+MentalStateReason_Mood:_{mood}_が悪いので起こった。
+MentalStateReason_Trait:次の特徴により起こった: {0}。
+MentalStateReason_Hediff:次の理由により起こった: {0}。
+MentalStateReason_BondedHumanDeath:{0_definite} の死により起こった。
+LastFactionRelationsEvent:最後のイベントは
+
+ViewRelatedQuest:<<View related quest??関連クエストを見る>>
+ViewQuest:<<View quest??クエストを見る>>
+LastEventsInLife:<<The last events in {PAWN_definite}'s life??{PAWN_definite} の人生最後の出来事>>
+
+LetterLabelNoticedRelatedPawns:<<Relationship??縁故関係>>
+LetterRelatedPawnsRaidEnemy:到着した {1} の一団に{0}か_{prisoner}_と縁故関係がある人々がいる。\n\n_{faction}_関係が悪いので、たとえ関係があるとしても、お互いに攻撃し合うことには変わらない。\n\nそれらの人々:
+LetterRelatedPawnsRaidFriendly:到着した友好的な {1} の一団に{0}か_{prisoner}_と縁故関係がある人々がいる:
+LetterRelatedPawnsNeutralGroup:到着した一団に{0}か_{prisoner}_と縁故関係がある人々がいる:
+LetterRelatedPawnsTradeShip:軌道交易商が{0}か_{prisoner}_と縁故関係がある人々を売っている:
+LetterRelatedPawnsTradingWithSettlement:この_{settlement}_が{0}か_{prisoner}_と縁故関係がある人々を売っている:
+LetterRelatedPawnsTradingWithOtherCaravan:キャラバンが{0}か_{prisoner}_と縁故関係がある人々を売っている:
+LetterRelatedPawnsGroupGeneric:この一団に{0}か_{prisoner}_と縁故関係がある人々がいる:
+LetterRelatedPawnsInMapWherePlayerLanded:{0}が着地した場所に{0}か_{prisoner}_と縁故関係がある人々がいる。
+LetterRelatedPawnsSettlement:この_{settlement}_には{0}か_{prisoner}_と縁故関係がある人々がいる:
+LetterRelatedPawnsSite:このエリアには{0}か_{prisoner}_と縁故関係がある人々がいる:
+
+RelationshipAppendedLetterSuffix:<<relationship??縁故関係>>
+RelationshipAppendedLetterTextColonist:{PAWN_nameDef} はある_{colonist}_と縁故関係にある。{PAWN_pronoun}は {RELATIVE_labelShort} の {1}。
+RelationshipAppendedLetterTextPrisoner:{PAWN_nameDef} は_{prisoner}_の一人と縁故関係にある。[PAWN_pronoun]は {RELATIVE_labelShort} の {1}。
+
+LetterLabelAffair:<<Affair??浮気>>
+LetterAffair:{SPOUSE_labelShort} と結婚している {PAWN1_labelShort} が {PAWN2_labelShort} と浮気を始めた。
+LetterLabelNewLovers:<<New lovers??新しい恋人達>>
+LetterNewLovers:{PAWN1_labelShort} と {PAWN2_labelShort} が一緒に寝たくなった。二人用のベッドを与えられないか検討する。
+LetterNoLongerLovers:{PAWN1_labelShort} と {PAWN2_labelShort} が別れた。
+LetterNoLongerLovers_BackToBirthName:{PAWN_labelShort} はラストネームを元に戻した。
+
+LetterLabelBreakup:<<Breakup??振られた>>
+LetterLabelAcceptedProposal:<<Marriage is on!??プロポーズ成功>>
+LetterLabelRejectedProposal:<<Rejected proposal??プロポーズ失敗>>
+LetterAcceptedProposal:数日か、あるいは、いくつか節が過ぎた頃に結婚式が行われ、全ての_{colonist}_が招待される。式が行われる場所を指定したいのなら、 _[Marriage spot]_ を設置する。
+LetterAcceptedProposal_NameChange:{PAWN_label} はラストネームを {1} に変えた。
+LetterRejectedProposal:{INITIATOR_nameFull} はこれにより悲しむだろう。
+
+LetterLabelRelationsChange_Hostile:<<Hostile: {0}??敵対: {0}>>
+LetterLabelRelationsChange_Ally:<<Allied: {0}??同盟: {0}>>
+LetterLabelRelationsChange_NeutralFromHostile:<<Enemy now neutral: {0}??敵が中立になった: {0}>>
+LetterLabelRelationsChange_NeutralFromAlly:<<Ally now neutral: {0}??同盟が中立になった: {0}>>
+LetterLabelShortCircuit:<<Zzztt...??バチバチ...>>
+
+LetterLabelSuffixBondedAnimalDied:<<bonded??絆で結ばれた>>
+LetterPartBondedAnimalDied:{ANIMAL_definite} は {HUMAN_labelShort} と絆を結んでいた。これは {HUMAN_labelShort} の_{mood}_に影響する。
+LetterPartBondedAnimalDiedMulti:これは次の人々の_{mood}_に影響する:\n\n{0}
+
+LetterLabelPrisonBreak:<<Prison break??脱獄>>
+LetterPrisonBreak:_{prisoner}_が脱獄を仕組んでいた！どうにかしてドアの鍵を破り逃げ道を作ったようだ。武器を探し、戦い、逃げようとするだろう。以下の_{prisoner}_が関与している:\n\n{0}\n\n_{prisoner}_が多かったり健康的だとより脱獄を企むようになる。
+
+LetterLabelNewlyAddicted:<<{0} addiction??{0} 中毒>>
+LetterNewlyAddicted:{PAWN_labelShort} が {1} 中毒になった。\n\n{PAWN_possessive}の {1} 欲求状態は'_<Needs>_'タブで確認できる。{PAWN_pronoun}は欲求を満たすために勝手にドラッグを消費する。もし {1} を手に入れられなければ、'_<Withdrawal>_'状態になる。
+
+LetterLabelDrugBinge:<<{0} binge??{0} 乱用>>
+LetterDrugBinge:{2_label} が {1} を乱用するようになった。
+
+LetterLabelAllCaravanColonistsDied:<<Caravan destroyed??キャラバン 全滅>>
+LetterAllCaravanColonistsDied:{0} が全員死んだ。
+
+LetterLabelCaravanEnteredMap:<<Caravan arrived at {0_label}??キャラバンが {0_label} に到着>>
+LetterCaravanEnteredMap:{0} は {1_definite} に到着した。
+
+LetterLabelCaravanEnteredEnemyBase:<<Attack begun??戦闘開始>>
+LetterCaravanEnteredEnemyBase:{0} は {1} に到着し、攻撃準備が整った。
+
+LetterLabelTransportPodsLandedInEnemyBase:<<Attack begun??戦闘開始>>
+LetterTransportPodsLandedInEnemyBase:_[Transport pod]_ が {0} に到着した。
+
+LetterLabelFactionBaseDefeated:<<Base destroyed??本拠地 破壊>>
+LetterFactionBaseDefeated:敵の本拠地 {0} を破壊した。\n\nあと {1} でキャラバンは再編成される。ワールド画面でこの破壊した基地を選択して'_<Reform caravan>_'を選べば今すぐキャラバンを再編成できる。
+LetterFactionBaseDefeated_FactionDestroyed:ここは {0} の最後の本拠地だった、つまり、この_{faction}_は全滅した。
+
+LetterLabelDefeatAllEnemiesQuestCompleted:<<Quest completed??クエスト完了>>
+LetterDefeatAllEnemiesQuestCompleted:敵の前哨基地を制圧した!\n\n{0} から報酬が届き、_{faction}_関係が {1} 良くなった。
+
+LetterLabelFoundPreciousLump:<<Distant resource scanned??遠くの資源を探知>>
+LetterFoundPreciousLump:{WORKER_labelShort} が _[Long-range mineral scanner]_ で {0} の塊を少し離れた所に発見した。\n\n残念だが、これはいつまでもあるわけではない。{1} 日後には他の誰かが採掘してしまう。\n\n{2}。
+
+LetterLabelDeepScannerFoundLump:<<Scanned underground??地下を探査した>>
+LetterDeepScannerFoundLump:{FINDER_nameDef} が _[ground-penetrating scanner]_ で埋まっている {0} の塊を発見した！
+
+LetterLabelAmbushInExistingMap:<<Ambush??待ち伏せ>>
+LetterAmbushInExistingMap:{0} は待ち伏せされた!
+
+LetterLabelPeaceTalks_Disaster:<<Peace talks disaster??和平交渉 決裂>>
+LetterPeaceTalks_Disaster:交渉は決裂した。代表団は始めの挨拶こそ辛うじてやり過ごしたものの、協議は屈辱と罵り合いの場へと瓦解した。\n\nキャラバンが急いで出発した後、{1} の {0} が追撃してきた！\n\n{1} との関係: {2}。
+
+LetterLabelPeaceTalks_Backfire:<<Peace talks backfire??和平交渉 逆効果>>
+LetterPeaceTalks_Backfire:交渉は裏目に出た。いくつかの社交辞令を交わしたにも拘わらず、代表団は重要な課題について進展させられず、さらに、いくつかの声明は屈辱とみなされた。\n\n{0} との関係: {1}。
+
+LetterLabelPeaceTalks_TalksFlounder:<<Peace talks flounder??和平交渉 平行線>>
+LetterPeaceTalks_TalksFlounder:交渉は平行線に終わった。代表団は失礼にならない程度の敬意を払いながら明確に話そうとしたが、本命の課題については進展させられなかった。\n\n{0} との関係は変わらなかった。
+
+LetterLabelPeaceTalks_Success:<<Peace talks success??和平交渉 成功>>
+LetterPeaceTalks_Success:交渉は成功した。代表団は幾つかの重要な課題について新たに理解し合えた。\n\n{0} との関係は {1} 良くなった。
+
+LetterLabelPeaceTalks_Triumph:<<Peace talks triumph??和平交渉 大勝利>>
+LetterPeaceTalks_Triumph:交渉は大勝利に終わった！代表団はすぐに親密になり、現在で最も難しい課題におけるお互いの価値観を真に理解し合えるようになった。\n\n{0} との関係は {1} 良くなった。\n\nキャラバンが出発するとき、{0} は贈り物を申し出た:\n\n {2}
+
+PeaceTalksSocialXPGain:交渉人 {PAWN_labelShort} は社交の経験値を {1} 得た。
+
+LetterRunWildMentalBreak:{0} が文化的な事に疲れ果てた。\n\n{PAWN_pronoun}は野生動物はいつも自由だと気付いたので、あなたの_{faction}_から離れて動物たちと暮らすことに決めた。\n\n{PAWN_objective}を手懐けるか_{arrest}_して戻るように説得できる。
+
+LetterCatatonicMentalBreak:完全な_{mental break}_に苦しんだ {0} が緊張性状態になった。{PAWN_pronoun}は数日後に元に戻る。
+
+LetterLabelAICoreOffer:<<Persona Core Offer??ペルソナ・コアの申し出>>
+LetterAICoreOffer:{1} の {PAWN_definite} がある情報の提供について連絡してきた: 宇宙船建造に必要な _[persona core]_ がある場所について。これはとても貴重なもので、厳重に守られていると教えてくれた。\n\n興味があるのなら _[Comms console]_ でこの_{faction}_と話す。
+
+LetterCraftedLegendaryLabel:<<Legendary Work??極上の作品>>
+LetterCraftedLegendaryMessage:{WORKER_labelShort} が {CRAFTED_labelShort} を作った。\n\nこの価値ある工芸品のニュースは世界を駆け巡るだろう。
+LetterCraftedLegendaryMessageArt:{WORKER_labelShort} が {CRAFTED_labelShort} を作った。\n\n{0}\n\nこの価値ある工芸品のニュースは世界を駆け巡るだろう。
+
+LetterCraftedMasterworkLabel:<<Masterwork??傑作>>
+LetterCraftedMasterworkMessage:{WORKER_labelShort} が {CRAFTED_labelShort} を作った。
+LetterCraftedMasterworkMessageArt:{WORKER_labelShort} が {CRAFTED_labelShort} を作った。\n\n{0}
+
+LetterLabelPawnsLostBecauseMapClosed_Caravan:<<Caravan lost??キャラバン消滅>>
+LetterPawnsLostBecauseMapClosed_Caravan:キャラバンが消えた。次の人々や動物たちも一緒にいなくなった
+LetterLabelPawnsLostBecauseMapClosed_Home:<<Inhabitants abandoned??見捨てられた住民>>
+LetterPawnsLostBecauseMapClosed_Home:次の人や動物は見捨てられた
+
+LetterLabelHibernateComplete:<<Reactor ready??反応炉準備完了>>
+LetterHibernateComplete:<Name>Charlon Whitestone</Name> が反応炉の復帰処理を完了させ、離陸するパワーを出せるようになった。
+LetterHibernateCompleteStandalone:反応炉の復帰処理が完了し、離陸するパワーを出せるようになった。
+
+LetterLabelVisitorsGaveGift:<<Gift from {0}??{0} からの贈り物>>
+LetterVisitorsGaveGift:{PAWN_factionName} の {0} が 贈り物を置いていった:\n\n{1}
+
+LetterLabelFactionBaseProximity:<<Faction base proximity??_{faction}_の本拠地に接近>>
+LetterFactionBaseProximity:他の_{faction}_の拠点に近すぎるため、これらの_{faction}_は縄張りを荒らされていると感じている。\n\n以前の節と比べて、_{faction}_との友好度は次のように減少した:
+
+LetterLabelCaravansBattlefieldVictory:<<Caravan battle won??キャラバン 勝利>>
+LetterCaravansBattlefieldVictory:キャラバンは戦闘に勝った。\n\nワールド画面でこの戦場を選択して'_<Reform caravan>_'を選べば今すぐキャラバンを再編成できる。\n\nアイテムはキャラバンの編成で簡単に集められるので、手動で集める必要はない。\n\nあと {0} でキャラバンは自動的に再編成される。
+
+LetterLabelRescueQuestFinished:<<Rescuee joins??救助により加入>>
+LetterRescueQuestFinished:助けたので {PAWN_nameDef} が仲間に加わった。\n\nこのエリアを選んで '_<Reform caravan>_' を選び、キャラバンを再編成すれば{PAWN_objective}を連れて行ける。
+
+LetterLabelPredatorHuntingColonist:<<{PREDATOR_labelShort} hunting {PREY_definite}??{PREDATOR_labelShort} が {PREY_definite} を襲っている>>
+LetterPredatorHuntingColonist:{PREDATOR} が {PREY_definite} を捕食しようとしている！
+
+LetterDisease_Blocked:{0} が {1} を防いだ: {2}。
+LetterLabelTraitDisease:_<Disease>_: {0}
+LetterTraitDisease:{PAWN_label} が {1} にかかった。\n\n医療用ベッドと医者が用意されているか確認する。{PAWN_pronoun}に適切な治療を受けさせ、できる限りベッドで過ごさせる。
+
+LetterQuestBecameAvailable:新しいクエストが開始可能になった。'{0}' と呼ばれる。
+LetterQuestRequiresAcceptance:{0} 以内に受けないと期限切れになる。
+LetterQuestBecameActive:新しいクエストが進行中になった。'{0}' と呼ばれる。
+LetterQuestAutomaticallyAcceptedTitle:<<Quest active: {0}??クエスト有効: {0}>>
+LetterQuestActiveNowTime:期限切れまで {0}。
+
+LetterLabelQuestDropPodsArrived:<<Pods arrived??_{Pod}_到着>>
+LetterQuestDropPodsArrived:次を含む _[Transport pod]_ が到着:\n\n{0}
+
+LetterLabelRefugeeJoins:<<{PAWN_nameDef} joins??{PAWN_nameDef} 加入>>
+LetterRefugeeJoins:{PAWN_nameDef} という {PAWN_title} が到着して_{colony}_に加わった。
+
+LetterLabelRescueeJoins:<<{PAWN_nameDef} joins??{PAWN_nameDef} 加入>>
+LetterRescueeJoins:{PAWN_nameDef} は救出に感謝している。{PAWN_pronoun}は去らずに、_{colony}_に加わる事にした。
+
+LetterLabelPawnsArriveAndJoin:<<People join??人々が加わった>>
+LetterPawnsArriveAndJoin:次の人々が到着して_{colony}_に加わった:\n\n{0}
+
+LetterLabelPawnsArrive:<<People arrived??人々が到着した>>
+LetterPawnsArrive:次の人々が到着した:\n\n{0}
+
+LetterLabelPawnLeaving:<<{0} leaving??{0} が去った>>
+LetterPawnLeaving:{0} が去った。
+
+LetterLabelPawnsLeaving:<<{0} leaving??{0} が去った>>
+LetterPawnsLeaving:{0} が去った。
+
+LetterLabelPawnsKidnapped:<<{PAWN_nameDef} kidnapped??{PAWN_nameDef} がさらわれた>>
+LetterPawnsKidnapped:{PAWN_nameDef} が {FACTION_name} にさらわれた！\nしかし、永遠の別れではない。{PAWN_objective}を救う機会は数日か数年後かに訪れるかもしれない。
+
+LetterTechprintAppliedLabel:<<Techprint applied: {PROJECT_label}??_[Techprint]_適用: {PROJECT_label}>>
+LetterTechprintAppliedPartIntro:研究プロジェクトに_[techprint]_が適用された: {PROJECT_label}。
+LetterTechprintAppliedPartJustUnlocked:プロジェクトの_[techprint]_要求が全て完了した！研究者は技術の実際の使い方を _[research bench]_ で研究を始められる。
+LetterTechprintAppliedPartNotUnlockedYet:このプロジェクトの_[techprint]_要求を満たしていない。{0} の_[techprint]_が適用済み。プロジェクトは全部で {1} 必要。
+LetterTechprintAppliedPartAlreadyUnlocked:このプロジェクトの_[techprint]_要求は満たされている。追加の _[techprint]_が {PROJECT_label} の研究努力を進めた。研究の残り半分、{0} ポイント、は完了した。
+LetterTechprintAppliedPartAlreadyResearched:このプロジェクトは既に十分研究したので、_[techprint]_はこれ以上知識を深めない。
+LetterTechprintAppliedPartExpAwarded:_[techprint]_を適用して、 {PAWN_labelShort} は {1} スキルの経験を {0} 得た。
+
+LetterQuestCompletedLabel:<<Quest completed??クエスト 完了>>
+LetterQuestFailedLabel:<<Quest failed??クエスト 失敗>>
+LetterQuestConcludedLabel:<<Quest concluded??クエスト 終了>>
+LetterQuestCompletedSuccess:クエスト '{0}' を達成した！
+LetterQuestCompletedFail:クエスト '{0}' は失敗した。
+LetterQuestCompletedConcluded:クエスト '{0}' を終わらせた。
+
+LetterBladelinkWeaponBondedLabel:<<Bladelink bond: {PAWN_labelShort}??_[Bladelink]_ 繋がり: {PAWN_labelShort}>>
+LetterBladelinkWeaponBonded:{PAWN_labelShort} は {WEAPON_labelShort} の人格と堅く結ばれた。\n\nこれ以降、{WEAPON_labelShort} は {PAWN_labelShort} しか振るえない。
+
+LetterLabelMechClusterArrived:<<Mechanoids arrived??_[mechanoid]_ 到着>>
+LetterMechClusterArrived:_[mechanoid]_ が到着した。
+
+ManualPriorities:_<Manual priorities>_
+HigherPriority:<<higher priority??優先度 高>>
+LowerPriority:<<lower priority??優先度 低>>
+RelevantSkills:<<Relevant skills: {0}\nAverage of relevant skills: {1} / {2}??該当スキル: {0}\n該当スキルの平均値: {1} / {2}>>
+ClickToJumpTo:<<Click to jump to:??クリックで移動:>>
+CannotDoThisWork:{1_labelShort} はこの作業ができない。
+NoneBrackets:<<(none)??(なし)>>
+IncapableOfWorkTypeBecauseOfCapacities:この_{colonist}_は健康上の理由によりこのタイプの作業を行えない。
+EmergencyWorkMarker:<<E??緊急>>
+SelectedWorkTypeWithVeryBadSkill:警告: 該当スキルの平均がとても低い。
+PriorityOneDoneFirst:優先度1 が最初に実行される。優先度4が最後に実行される。
+Priority0:<<Will not do??実行されない>>
+Priority1:<<Top priority??優先度 最高>>
+Priority2:<<High priority??優先度 高>>
+Priority3:<<Normal priority??優先度 普通>>
+Priority4:<<Low priority??優先度 低>>
+
+ManageOutfits:_<Manage outfits>_
+Unchangeable:<<Unchangeable??変更不可>>
+ClearForcedApparel:<<Clr. forced??強制を解除>>
+ApparelForcedLower:<<forced??強制>>
+ApparelLockedLower:<<locked??固定>>
+ForcedApparel:<<Forced apparel??服装を強制する>>
+AssignTabEdit:<<Edit...??編集...>>
+ManageDrugPolicies:_<Manage drug policies>_
+ManageFoodRestrictions:<<Manage food restrictions??_<food restriction>_を編集>>
+
+Copy:<<Copy??コピー>>
+Paste:<<Paste??ペースト>>
+AllowedArea:_<Allowed area>_
+
+Master:<<Master??主人>>
+PregnantIconDesc:<<Pregnant ({0} / {1})??受胎 ({0} / {1})>>
+BondedTo:<<Bonded to??絆の相手>>
+IsPredator:この生物は捕食者なので腹が空くとより小型の生物、往々にして人も含まれる、を狩る。
+IsInMentalState:この生物は現在精神異常: {0}
+
+Hostile:<<Hostile??敵対>>
+Ally:<<Ally??同盟>>
+DefeatedLower:<<defeated??滅亡>>
+HostileTo:<<Enemy of {0}??{0} と 敵対>>
+EnemyOf:<<Enemy of: ??敵対: >>
+CurrentGoodwillTip:この_{faction}_との現在の友好度と関係。
+CurrentGoodwillTip_PermanentEnemy:この_{faction}_とは常に敵対しており、あなたの_{settlement}_とキャラバンを襲撃する。_{faction}_関係はいかなる理由でも良くならない。
+CurrentGoodwillTip_Ally:この_{faction}_とは同盟になっており、援軍を送ることもある。もし友好度が {0} を下回ると中立に変わる。
+CurrentGoodwillTip_Neutral:この_{faction}_とは中立なので、交易や話を自由にできる。もし友好度が {0} を下回ると敵対する。もし友好度が {1} を上回ると同盟になり、積極的に助けてくれるようになる。
+CurrentGoodwillTip_Hostile:この_{faction}_とは敵対しており、あなたの_{settlement}_とキャラバンを襲撃する。もし友好度が {0} を上回ると中立になる。
+CurrentGoodwillTip_NaturalGoodwill:この_{faction}_の友好度は {0} から {1} の間に収まろうとする。もし友好度が {1} を上回ると、日ごとに {3} 下がる。もし友好度が {0} を下回ると、日ごとに {2} 上がる。
+
+Friend:_<Friend>_
+Rival:_<Rival>_
+Acquaintance:_<Acquaintance>_
+
+Graph:<<Graph??グラフ>>
+Messages:<<Messages??メッセージ>>
+Statistics:<<Statistics??統計>>
+
+SelectGraph:<<Select graph??グラフを選択>>
+Last30Days:<<Last 30 days??直近の30日>>
+Last100Days:<<Last 100 days??直近の100日>>
+Last300Days:<<Last 300 days??直近の300日>>
+
+AllDays:<<All??すべて>>
+Value:<<Value??値>>
+;todo:未使用？
+External:External
+
+ShowLetters:<<Show letters??通知を表示>>
+ShowMessages:<<Show messages??メッセージを表示>>
+PinArchivableTip:このメッセージを固定する。\n\nメッセージ数が {0} 件に達すると、固定されていない一番古いメッセージはリストから自動的に削除される。
+NoMessages:<<no messages??メッセージ無し>>
+
+Playtime:<<Play time??プレイ時間>>
+Storyteller:_<Storyteller>_
+ThisMapColonyWealthTotal:<<Colony wealth (this map)??_{Colony}_の価値 (このマップ)>>
+ThisMapColonyWealthItems:<<Colony wealth (items) (this map)??_{Colony}_の価値 (アイテム) (このマップ)>>
+ThisMapColonyWealthBuildings:<<Colony wealth (buildings) (this map)??_{Colony}_の価値 (建物) (このマップ)>>
+ThisMapColonyWealthColonistsAndTameAnimals:<<Colony wealth (people and animals) (this map)??_{Colony}_の価値 (人々と動物) (このマップ)>>
+NumThreatBigs:<<Major threats??大きな脅威>>
+NumEnemyRaids:<<Enemy raids??敵の襲撃>>
+ThisMapDamageTaken:<<Damage taken (this map)??総ダメージ量 (このマップ)>>
+ColonistsKilled:<<Colonists killed??殺された_{colonist}_の数>>
+ColonistsLaunched:<<Colonists launched into space??宇宙へ飛び立った_{colonist}_の数>>
+
+Research:_{Research}_
+Researched:<<Researched??研究済み>>
+Unresearched:<<Unresearched??未研究>>
+Finished:<<Finished??完了>>
+InProgress:<<In Progress??途中>>
+Locked:<<Locked??未解放>>
+ResearchPrerequisites:<<Research prerequisites??前提研究>>
+ResearchTechprintRequirement:<<Techprints required {0} / {1}??必要_[techprint]_ {0} / {1}>>
+InsufficientTechprintsApplied:<<Insufficient techprints applied ({0} / {1})??適用済み部分_[techprint]_ ({0} / {1})>>
+PrerequisitesNotCompleted:<<Prerequisite(s) not completed??前提が未完了>>
+RequiredResearchBench:<<Required research bench??_[research bench]_ が必要>>
+RequiredResearchBenchFacilities:<<Required research bench facilities??_[research bench]_ の設備が必要>>
+ResearchCostComparison:あなたの技術レベルにより、プロジェクトの基本コストは {0} から {1} になった。
+ResearchTechprintsFromFactions:_[Techprint]_ はこれらの_{faction}_との取引やクエストで得られる:
+TechLevelTooLow:あなたの_{faction}_の技術レベルは {0} だが、このプロジェクトのレベルは {1} です。研究速度は {2} 倍になる。
+
+AvailableQuests:<<Available??開始可>>
+ActiveQuests:<<Active??進行中>>
+HistoricalQuests:_<Historical>_
+NoQuestSelected:<<no quest selected??クエスト未選択>>
+AppearedDaysAgo:<<Appeared {0} days ago??{0} 日前に登場>>
+AppearedOn:<<Appeared on {0}??{0} に登場>>
+AcceptedAgo:<<Accepted {0} ago??{0} 前に受けた>>
+AcceptedOn:<<Accepted on {0}??{0} に受けた>>
+AcceptedAgoBy:<<Accepted {0} ago by {1}??{0} 前に {1} が受けた>>
+AcceptedOnBy:<<Accepted on {0} by {1}??{0} に {1} が受けた>>
+QuestExpiresIn:<<Expires in {0}??期限切れまで {0}>>
+QuestExpiresOn:<<Expires on {0}??{0} に期限切れ>>
+ShuttleArrivesIn:<<Shuttle arrives in {0}??_[Shuttle]_ 到着まで {0}>>
+ShuttleArrivesOn:<<Shuttle arrives on {0}??{0} に _[Shuttle]_ 到着>>
+ShuttleDepartsIn:<<Shuttle departs in {0}??_[Shuttle]_ 出発まで {0}>>
+ShuttleDepartsOn:<<Shuttle departs on {0}??{0} に _[Shuttle]_ 出発>>
+QuestFinishedAgo:<<Finished {0} ago??{0} 前に完了>>
+AcceptQuest:<<Accept quest??クエストを受ける>>
+AcceptWith:<<Accept with {0_labelShort}??{0_labelShort} で受ける>>
+QuestOutcomeInfo_OfferExpired:申し出の期限は切れた。
+QuestOutcomeInfo_UnknownOrSuccess:このクエストは完了した。
+QuestOutcomeInfo_Failed:このクエストは失敗した。
+JumpToTargetCustom:<<Jump to {0}??{0} へ移動>>
+SelectHiveTargets:<<Select hives??巣を選択>>
+QuestChallengeRatingTip:難度評価: クエストの難しさとあなたの現在の強さを比べた概略評価。より難しいクエストはより大きな報酬を与える。\n\n1: 普通\n2: 難しい\n3: かなり難しい\n4: 究極
+
+QuestAcceptanceRequirementsDescription:このクエストを受ける条件:
+QuestBedroomRequirementsUnsatisfied:_{title}_の要件を満たす、空いている_{bedroom}_:
+QuestBedroomRequirementsUnsatisfiedSingle:_{title}_の要件を満たす、空いている_{bedroom}_:
+QuestNoColonistWithTitle:{0} の_{title}_を持つ_{colonist}_。
+AcceptRoyalFavor:<<Accept {FACTION_royalFavorLabel}??{FACTION_royalFavorLabel} を受ける>>
+AcceptRoyalFavorDesc:{FACTION_name} の {FACTION_royalFavorLabel} で報酬を受けたいかどうか。\n\n無効なら {FACTION_name} は別の報酬を申し出る。\n\nこの設定は新しく到着したクエストにのみ影響する。
+RoyalFavorOn:現在 {FACTION_royalFavorLabel} を受け取る設定になっている。
+RoyalFavorOff:現在 {FACTION_royalFavorLabel} を受け取らない設定になっている。
+
+Tutorial:<<Tutorial??チュートリアル>>
+NewColony:<<New colony??新しくはじめる>>
+BackToGame:<<Back to game??ゲーム再開>>
+ReviewScenario:<<Review scenario??シナリオ表示>>
+Save:<<Save??セーブ>>
+LoadGame:<<Load game??ロード>>
+Options:_<Options>_
+Mod:<<Mod??MOD>>
+Mods:<<Mods??MOD>>
+SaveTranslationReport:<<Save translation report??翻訳リポートを保存>>
+GeneratingTranslationReport:<<Generating translation report??翻訳リポートを生成しています>>
+CleanupTranslationFiles:<<Cleanup translation files??翻訳ファイルの整理>>
+CleaningTranslationFiles:<<Cleaning translation files??翻訳ファイルを整理しています>>
+Credits:<<Credits??クレジット>>
+QuitToMainMenu:<<Quit to main menu??タイトルに戻る>>
+SaveAndQuitToMainMenu:<<Save and quit to menu??セーブしてタイトルに戻る>>
+QuitToOS:<<Quit to OS??終了>>
+SaveAndQuitToOS:<<Save and quit to OS??セーブして終了>>
+FictionPrimer:<<Fiction primer??世界観の解説>>
+LudeonBlog:<<Ludeon blog??Ludeon のブログ>>
+Forums:<<Forums??フォーラム>>
+OfficialWiki:<<Official wiki??公式 wiki>>
+TynansTwitter:<<Tynan's twitter??Tynan の twitter>>
+TynansDesignBook:<<Tynan's design book??Tynan の 書籍>>
+HelpTranslate:<<Help translate RimWorld??RimWorld の翻訳を手伝う>>
+BuySoundtrack:<<Buy soundtrack??サウンドトラックの購入>>
+CreateWorld:<<Create world??ワールドを作る>>
+
+TranslationThanks:RimWorldの翻訳は全てファンによって作られています。これらの翻訳は次の素晴らしいボランティア達によって作られました:\n\n{0}
+TranslationHowToContribute:あなたも協力できます。詳細は以下をクリックしてください。(ブラウザが開きます。)
+LearnMore:<<Learn more??詳細>>
+
+;開発用なので訳す必要なし。
+DevBuildWarning:警告: これは不安定な開発ビルドです。 This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version.
+
+
+ReviewWorld:<<Review world??ワールドを確認>>
+WorldGenerate:_<Generate>_
+WorldSaveAndFinish:<<Save and finish??保存して終了>>
+Reset:_<Reset>_
+PlanetCoverage:<<Globe coverage??球の有効範囲率>>
+PlanetRainfall:<<Overall rainfall??平均降水量>>
+PlanetTemperature:<<Overall temperature??平均気温>>
+PlanetPopulation:<<Population??人口>>
+PlanetRainfall_Low:<<Low??少>>
+PlanetRainfall_Normal:<<Normal??普通>>
+PlanetRainfall_High:<<High??多>>
+PlanetTemperature_Low:<<Low??低>>
+PlanetTemperature_Normal:<<Normal??普通>>
+PlanetTemperature_High:<<High??高>>
+PlanetPopulation_Low:<<Sparse??過疎>>
+PlanetPopulation_Normal:<<Normal??普通>>
+PlanetPopulation_High:<<Crowded??過密>>
+WorldSeed:<<Seed??シード値>>
+RandomizeSeed:<<Randomize seed??シード値をランダム生成>>
+PlanetCoverageTip:惑星は常に同じ直径だが、プレイに必要な面積よりかなり大きい。このため、生成にとても時間がかかるので、表面全体を生成しない。この値は生成したい表面の割合を示している。
+WorldFactionsTab:_<Factions>_
+
+SelectWorld:<<Select world??ワールドを選択>>
+WorldChooseButton:<<Select??選択>>
+NoWorldsFilesFound:ワールドのファイルがありません。先にワールドを作ってください。
+
+BuildNowAvailable:新しいバージョン {0} があります。ludeon.com で情報を確認してください。
+BuildUpToDate:最新バージョン です。
+ErrorGettingVersionInfo:バージョン情報取得中にエラーが発生した: {0}
+LoadingVersionInfo:バージョン情報を読み込んでいます...
+
+GenerateWorld:<<Generate world??ワールドを生成>>
+
+OpenSteamWorkshop:<<Open Steam Workshop??Steam Workshop を開く>>
+GetModsFromForum:<<Get mods from forum??MOD用のフォーラムを見る>>
+OpenModsDataFolder:<<Open mods data folder??MODデータのフォルダを開く>>
+ShowModsDataLocation:<<Show mods data location??MODデータの位置を表示>>
+ConfirmDisableCoreMod:本当に基本MODを無効にしますか？基本機能を全て置き換えるMODを用意しない限りゲームは全く動かなくなります。\n\n基本MODの「def」は「defName」を同じにした他のMODで上書き出来ます。
+ConfirmDeleteMod:{0} コンテンツの全てを削除しようとしています。よろしいですか？
+ResolveModOrder:<<Auto-sort mods??MOD自動整列>>
+Unsubscribe:<<Unsubscribe??サブスクライブを解除>>
+ConfirmUnsubscribe:{0} のサブスクライブを解除します。よろしいですか？
+Author:<<Author??作者>>
+WorkshopPage:<<Workshop page??Workshop のページ>>
+UploadToSteamWorkshop:<<Upload to Steam Workshop??Steam Workshop へアップロード>>
+UpdateOnSteamWorkshop:<<Update on Steam Workshop??Steam Workshop で更新>>
+UploadAlreadyInProgress:既にアップロード中です。
+WorkshopSubmissionFailed:Workshop への提出失敗。\n\n理由: {0}
+WorkshopUploadSucceeded:アップロード成功 {0}。
+Downloading:<<Downloading??ダウンロード中>>
+ModDisplayFulfilledRequirements:<<Display fulfilled requirements??MODの動作条件を表示>>
+ModClickToSelect:クリックして選択。
+ModClickToGoToWebsite:クリックしてウェブサイトへ。
+Source:<<Source??入手元>>
+ModTargetVersion:<<For game version(s)??対応バージョン>>
+ModPackageId:ID
+ModMustLoadBefore:<<This must be loaded before: {0}.??次よりも前にロードする: {0}。>>
+ModMustLoadAfter:<<This must be loaded after: {0}.??次よりも後にロードする: {0}。>>
+ModDependsOn:<<Depends on: {0}??次に依存: {0}>>
+ModIncompatibleWith:<<Incompatible with: {0}??次と非互換: {0}>>
+ModIncompatibleWithTip:このMODは次と互換性がありません: {0}。
+ModOrderingWarning:このMODは関係する他のMODに対して間違った順でロードされています。_{auto-sort}_ボタンを使うか自分で並び替えて下さい。
+ModWithSameIdAlreadyActive:他の有効なMODが同じIDを使っています: {0}。
+ModCyclicDependency:MODの循環参照が起きています。開始: {0}
+ModUnsatisfiedDependency:これは次のMODを要求しています: {0}。
+ModNotMadeForThisVersion:このMODは起動中のRimWorldのバージョン向けに作られていないので、正しく動かないかもしれません。
+ModNotMadeForThisVersion_Newer:このMODは起動中のRimWorldより新しいもの向けに作られており、ほぼ正しく動きません。
+MessageModNeedsWellFormattedTargetVersion:MODはAbout.xmlに次のような形式でサポートするバージョンを明確に示す必要があります。: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> は非推奨になりました。詳細はログを見て下さい。
+MessageModNeedsWellFormattedPackageId:MODは唯一の、正しく整形された packageId が About.xml に必要です。これは次の要件を満たさなければなりません:\n\n  - 英数字とドットのみ。\n  - 空白は不可。\n  - ドットを最低一つ含む。\n  - 連続するドットは不可、最初と最後のドットも不可。\n  - 60文字以下。\n  - "Ludeon"を含めない。\n\n例:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId>
+ModHadLoadFolderIssues:このMODは LoadFolders.xml に問題があります。アップロード前に解決して下さい:
+ModLoadFolderDoesntExist:バージョン {1} で指定されたフォルダー {0} がありません。
+ModLoadFolderMalformedVersion:バージョン文字列 '{0}' は不正です。正しい書式は Major.Minor (例 1.1)
+ModLoadFolderListEmpty:バージョン {0} の読み込みフォルダのリストが空です。
+ModLoadFolderRepeatingFolder:バージョン {0} が同じフォルダをリストしています: {1}
+ModLoadFolderOutOfOrder:バージョンの順序が不正です: {0} は {1} の前です。
+ModLoadFolderOutOfOrderDefault:バージョンの順序が不正です: 'default' は最初に定義します。
+ModLoadFolderDefinesUnsupportedGameVersion:バージョン {0} はロードフォルダにリストされているが、About.xml の 'supportedVersions' にリストされていない。
+DragToReorder:順を変えるにはドラッグする
+
+ChooseScenario:<<Choose scenario??シナリオを選択>>
+ScenariosCustom:<<Custom??カスタム>>
+ScenariosSteamWorkshop:Steam Workshop
+ScenarioEditor:<<Scenario editor??シナリオ・エディター>>
+Delete:<<Delete??削除>>
+
+Seed:<<seed??シード>>
+Load:<<Load??ロード>>
+EditMode:<<edit mode??エディット・モード>>
+Summary:<<Summary??概略>>
+AddPart:<<Add part??パーツを追加>>
+TextFieldsMustBeFilled:全てのテキストフィールドに入力してください。
+ConfirmSteamWorkshopUpload:これを本当に Steam Workshop にアップロードしますか？\n\nSteam Workshop の利用規約に同意しなければなりません。全文はここにあります。\n\n http://steamcommunity.com/sharedfiles/workshoplegalagreement
+ConfirmContentAuthor:必ず自分自身で作成したコンテンツだけをアップロードしてください。このコンテンツはあなた自身が作成したものですか？
+Incompatible:適合しません
+TooMany:多すぎます (最大 {0}):
+CanBeUpdatedOnWorkshop:あなたが作者なので Workshop で更新することができます。
+
+ChooseAIStoryteller:<<Choose AI Storyteller??AI_{Storyteller}_の選択>>
+HowStorytellersWork:AI_{Storyteller}_は賊の襲撃、物資の落下、動物の攻撃などのイベントを作り出す。彼らの選択があなたの_{colony}_の物語に影響を与える。これらの設定はいつでも変えられます。
+MustChooseDifficulty:難易度を選択してください。
+Difficulty:<<Difficulty??難易度>>
+CommitmentMode:_<Commitment mode>_
+ReloadAnytimeMode:_<Reload anytime mode>_
+MustChoosePermadeath:'_<Commitment mode>_'か'_<Reload anytime mode>_'のどちらかを選んで下さい。
+ReloadAnytimeModeInfo:いつでもセーブとロードが出来ます。\n\nこれは、まだこのゲームに慣れていない、個人的な遊び方に合っている、不安定なMODを使っている、自分自身で制限を付けながら遊ぶ、などには合っています。
+PermadeathModeInfo:ゲームを終えるときにだけセーブ出来ます。\n\nRimWorldはストーリージェネレーターなので、例え全てを失って一人きりになっても、ゲームは終わりではありません。それも物語の一部なのです。このゲームは損失の後には回復できるように促します。\n\n困難な状況を乗り切ることで、悲劇と勝利の両方の物語が完成します。RimWorldはそのように遊ぶように作られています。\n\nLuke Skywalkerは家族が殺されても逃げ出してリロードしなかったのには理由があります。損失と回復はドラマチックだからです
+
+CanChangeStorytellerSettingsDuringPlay:_{storyteller}_と難易度はいつでも変えられます。
+
+UnlockExtremeDifficulty:_<Merciless mode>_
+ConfirmUnlockExtremeDifficulty:_<Merciless mode>_はあらゆる挑戦が極端に難しくなる特別なモードです。\n\n_<Merciless mode>_はある段階に達すると自動で解除されます。ですが、今すぐ解除できます。\n\nこのオプションは、高難易度を何度か遊んだことがあり、さらに、絶体絶命な状況でも最後まで諦めない人にのみ向いています。
+
+SelectStartingSite:<<Select starting site??開始地点を選択>>
+SelectRandomSite:<<Select random site??ランダムに選択>>
+SelectSite:<<Select site??決定>>
+MustSelectStartingSite::開始地点を選んで下さい。
+CannotLandBiome:このバイオームでは開始できない: {0}
+BiomeNotImplemented:このバイオームは未実装
+CannotLandImpassableMountains:通り抜けられない山には降りられない。
+BaseAlreadyThere:すでに {0} の本拠地になっている。
+YourBaseAlreadyThere:すでに本拠地です。
+TileOccupied:このタイルは占領されている。
+FactionBaseAdjacent:_{Settlement}_はお互いに接することはできない。
+Biome:<<Biome??バイオーム>>
+Terrain:_<Terrain>_
+Road:<<Road??道>>
+River:<<River??川>>
+Elevation:<<Elevation??高度>>
+Fertility:<<Fertility??肥沃>>
+AvgTemp:<<Average temperature??年平均気温>>
+Rainfall:<<Rainfall??降雨量>>
+; 地形の特徴
+SpecialFeatures:<<Special features??特徴>>
+HasCoast0:<<northern coast??北海岸>>
+HasCoast1:<<eastern coast??東海岸>>
+HasCoast2:<<southern coast??南海岸>>
+HasCoast3:<<western coast??西海岸>>
+HasCaves:<<caves??洞窟>>
+
+FactionBase:<<Faction base??本拠地>>
+StoneTypesHere:<<Stone types??主な地質>>
+TimeZone:<<Time zone??タイムゾーン>>
+MovementDifficulty:<<Movement difficulty??移動の難しさ>>
+AnimalsCanGrazeNow:<<Animals can graze now??現在動物は草を食べられるか>>
+AverageDiseaseFrequency:<<Average disease frequency??疾病 平均頻度>>
+PerYear:<<per year??年毎>>
+Forageability:_<Forageability>_
+ConfirmRequiredWorkTypeDisabledForEveryone:選ばれている人々は次の作業が出来ません:\n\n{0}\n\nこれは通常より難しいゲームになります。このまま続けますか？
+
+CreateCharacters:<<Create characters??キャラクターの作成>>
+FirstNameDesc:キャラクターの名。\n\nこれは特定のメニューだけで表示される。
+ShortIdentifierDesc:キャラクターの略称。\n\nこれは常に表示される。姓や名にもできるし、完全に別のニックネームにもできる。
+LastNameDesc:キャラクターの姓。\n\nこれは特定のメニューだけで表示される。
+Randomize:_<Randomize>_
+AgeIndicator:<<age {0}??{0} 歳>>
+PawnSummary:{PAWN_race}, {PAWN_ageFull} 歳
+PawnSummaryWithGender:{PAWN_race} の {PAWN_gender}, {PAWN_ageFull} 歳
+Backstory:<<Backstory??生い立ち>>
+IncapableOf:<<Incapable of??できない事>>
+Abilities:<<Abilities??能力>>
+IncapableOfTooltipBackstory:生い立ちにより: {0}
+IncapableOfTooltipTitle:肩書きにより: {0}
+IncapableOfTooltipTrait:特徴により: {0}
+IncapableOfTooltipHediff:次により: {0}
+IncapableOfTooltipWorkTypes:無効な作業タイプ:
+Traits:<<Traits??特徴>>
+PermanentMoodEffect:<<Permanent mood effect??永続的な_{mood}_影響>>
+Skills:<<Skills??スキル>>
+NoneLower:<<none??なし>>
+Adulthood:<<Adulthood??成年期>>
+Childhood:<<Childhood??幼年期>>
+Current:<<Current??現在>>
+Male:[[male??男性]]
+Female:[[female??女性]]
+MaleAnimal:[[male??オス]]
+FemaleAnimal:[[female??メス]]
+Pain:<<Pain??痛み>>
+Health:<<Health??健康>>
+Relations:<<Relations??縁故関係>>
+TeamSkills:<<Team skills??チームスキル>>
+StartingPawnsSelected:<<Selected??選択済み>>
+StartingPawnsLeftBehind:<<Left behind??置き去り>>
+
+Start:_<Start>_
+Advanced:<<Advanced??高度な設定>>
+Next:_<Next>_
+Back:<<Back??戻る>>
+ShowMaterials:<<Show Materials??素材を表示>>
+Gameplay:<<Gameplay??ゲームの設定>>
+ConfirmQuit:本当に終了しますか？セーブしていないデータは失われます。
+EveryoneNeedsValidName:各個人に適切な名前を付けてください。
+RequiredWorkTypeDisabledForEveryone:選ばれている人々では次の作業が出来ない
+Quit:<<Quit??終了>>
+Ignore:<<Ignore??無視>>
+
+GeneratingWorld:<<Generating world??ワールドを生成しています>>
+GeneratingPlanet:<<Generating planet??プラネットを生成しています>>
+GeneratingMap:<<Generating map??マップを生成しています>>
+GeneratingMapForNewEncounter:<<Generating map for new encounter??新しい交戦のためにマップを生成しています>>
+
+ClickForMoreInfo:詳細はクリック
+
+SaveButton:<<Save??セーブ>>
+ClearBinding:<<Clear??クリア>>
+ResetBinding:<<Reset to default??デフォルトに戻す>>
+BindingButtonToolTip:左クリックでキーを割り当て、右クリックでオプションを選択
+PressAnyKeyOrEsc:設定したいキーを押すか、またはESCキーで中止...
+KeyBindingOverwritten:キー設定を上書き: {0}
+
+Audiovisuals:<<Audiovisuals??画面・音声>>
+GameVolume:<<Game volume??ゲーム全体の音量>>
+MusicVolume:<<Music volume??音楽の音量>>
+AmbientVolume:<<Ambient volume??環境音の音量>>
+Antialiasing:<<Anti-aliasing??アンチ-エイリアス>>
+
+EdgeScreenScroll:<<Screen-edge mouse scroll??画面端カーソルで移動>>
+PauseOnLoad:<<Pause on load??ロード後に一時停止>>
+PauseOnUrgentLetter:<<Pause on urgent letter??緊急メッセージ時に一時停止>>
+AutomaticPauseModeSetting:<<Pause on??一時停止条件>>
+CustomCursor:<<Custom cursor??ゲーム用カーソル>>
+HatsShownOnlyOnMap:<<Hats shown only on game map??マップでのみ帽子を表示>>
+UIScale:<<UI scale??UI 拡大率>>
+KeyboardConfig:<<Keyboard configuration??キーボード設定>>
+ChooseLanguage:<<Choose language??言語選択>>
+ResetAdaptiveTutor:<<Reset learning helper??ラーニングヘルパーをリセットする>>
+AdaptiveTutorIsReset:リセットされました。全てのレッスンを最初から受け直すようになりました。
+RunInBackground:<<Run in background??バックグラウンド実行>>
+DevelopmentMode:<<Development mode??開発モード>>
+ResetModsConfigOnCrash:<<Auto-reset mods config on crash??クラッシュ時にMODをリセットする>>
+LogVerbose:<<Verbose logging??詳細なログを記録>>
+OpenSaveGameDataFolder:<<Open save data folder??セーブデータのフォルダを開く>>
+ShowSaveGameDataLocation:<<Show save data location??セーブデータの位置を表示>>
+OpenLogFileFolder:<<Open log file folder??ログファイルのフォルダを開く>>
+ShowLogFileLocation:<<Show log file location??ログファイルの場所を表示>>
+NamesYouWantToSee:お気に入りのプレイヤー作成のキャラクター。これらのキャラクターはゲーム中にランダムに登場する確率が上がる:
+AddName:<<Add name??名前を追加>>
+TypeFirstNickOrLastName:姓、ニックネーム、名を入力してください。
+MessageAlreadyPreferredName:この名前は既に使われています。
+ChangeStoryteller:_<Storyteller settings>_
+AutosaveInterval:<<Autosave interval??自動保存間隔>>
+TemperatureMode:<<Temperature mode??温度単位>>
+ShowRealtimeClock:<<Show realtime clock??実時刻を表示>>
+MaxNumberOfPlayerSettlements:<<Maximum number of colonies: {0}??_<colony>_の最大数: {0}>>
+MapDragSensitivity:<<Map mouse drag sensitivity??マップのマウスドラッグの感度>>
+PlantWindSway:<<Plant wind sway??植物がなびく効果>>
+EnableTestMapSizes:<<Enable test map sizes??テスト用のマップサイズを有効にする>>
+MaxPermadeathAutosaveIntervalInfo:<<Maximum autosave interval in permadeath mode is {0} day.??パーマデス・モードでのオートセーブ間隔は {0} 日です。>>
+ModSettings:<<Mod Settings??MOD 設定>>
+PermanentlyDisableDevMode:<<Permanently disable development mode??開発者モードを恒久的に無効にする>>
+
+Resolution:<<Resolution??解像度>>
+Fullscreen:<<Fullscreen??フルスクリーン>>
+SelectMod:<<Select mod...??MODを選択...>>
+NoConfigurableMods:設定可能なMODがロードされていない。
+
+RestoreToDefaultSettings:<<Restore to default settings??初期設定に戻す>>
+ResetAndRestart:オプションが再設定されたので、自動的に再起動します。
+ResetAndRestartConfirmationDialog:全ての設定はデフォルトへ再設定され、ゲームは再起動します。セーブされていない全ての状態は失われます！\n\n続けますか？
+
+MessageSiegersAssaulting:包囲攻撃部隊 {1} の {0} が_{colony}_へ襲撃してきている。
+
+MessageRaidersBeginningAssault:{1} の {0} は襲撃を開始した。
+MessageRaidersDetectedEarlyAssault:{1} の {0} はこちらを発見したので攻撃を早めた。
+MessageRaidersKidnapping:{1} の {0} は誰かを誘拐して離れることにした。
+MessageRaidersStealing:{1} の {0} は何かを略奪して離れることにした。
+
+MessageRaidersLeaving:{1} の {0} は離れている。
+MessageRaidersGivenUpLeaving:{1} の {0} は諦めて離れようとしている。
+MessageRaidersSatisfiedLeaving:{1} の {0} は成果に満足して離れている。
+
+MessageFightersFleeing:{1} の {0} は逃げている。
+MessageFriendlyFightersLeaving:味方の {1} の {0} は離れている。
+
+MessageVisitorsTakingWounded:{1} の {0} は怪我をした_{guest}_を運ぼうとしている。
+MessageVisitorsTrappedLeaving:{1} の {0} は閉じ込められ脱出しようとしている。
+MessageVisitorsDangerousTemperature:{1} の {0} は危険な気温のため離れている。
+
+MessageWornApparelDeterioratedAway:{1_nameFull} が身に着けていた {0} は朽ち果てた。
+MessageDeterioratedAway:{0} が倉庫で朽ち果てた。
+
+MessageSeasonBegun:{0} が始まる。
+
+MessageShipHasLeftCommsRange:{0} は通信範囲から離れた。
+
+MessageNeedBeaconToTradeWithShip:船と取引するには通電している _[orbital trade beacon]_ が必要。
+
+MessageConditionCauserDespawned:{0} は破壊された。
+
+MessageBillComplete:_{bill}_完了：{0}
+
+MessageFullyHealed:{1_label} の怪我は治った。
+
+MessagePrisonerIsEscaping:_{prisoner}_ {1_labelShort} が逃げている。
+
+MessageOutOfNearbyShellsFor:{PAWN_labelShort} は {GUN_label} に使う砲弾を近くで見つけられない。
+
+MessageAnimalsGoPsychoHunted:警告: {ANIMAL_kindBasePlural} は危害を加えられると {1} の基本確率で襲ってくる。確率は距離と _<Hunting stealth>_ に依存する。
+
+MessageAnimalManhuntsOnTameFailed:警告: {ANIMAL_kindBasePlural} は手懐行為が失敗すると反撃するかもしれない (確率 {1})。
+
+LetterLabelMessageRecruitSuccess:<<New recruit??新人>>
+MessageRecruitSuccess:{RECRUITER_nameFull} は {RECRUITEE_nameFull} の勧誘に成功した (成功率 {2})。
+MessageTameSuccess:{RECRUITER_labelShort} は {1} の手懐けに成功した (成功率 {2})。
+MessageTameAndNameSuccess:{RECRUITER_labelShort} は {1} の手懐けに成功した (成功率 {2})。そして {RECRUITEE_nameFull} と呼ぶようになった。
+
+MessageColonyCannotAfford:この取引を行える余裕がない。
+MessageColonyNotEnoughSilver:取引をするための十分な_[Silver]_がない。
+
+MessageCriticalAlert:<<Critical alert: {0}??緊急警報: {0}>>
+
+MessageMustDesignateHarvestable:十分に成長した収穫可能な植物を指定する。
+MessageMustDesignateHarvestableWood:十分に成長した木材を生み出す植物を指定する。
+MessageMustDesignatePlants:植物を指定する。
+MessageMustDesignateHaulable:運搬可能なアイテムを指定する。いくつかのアイテムは常に運ばれるので指定できない。
+MessageMustDesignateMineable:採掘可能な岩を指定する。
+MessageMustDesignateHuntable:狩猟可能な動物を指定する。
+MessageMustDesignateTameable:手懐けられる動物を指定する。
+MessageMustDesignateClaimable:放棄された人工構造物を指定する。
+MessageMustDesignateDeconstructibleMechCluster:解体するには先に _[mech cluster]_ を倒す。
+MessageMustDesignateSmoothableSurface:粗い面を指定する。
+MessageNothingCanRemoveThickRoofs:厚い天井は取り除けない。
+MessageAlreadyInStorage:既に貯蔵所にある。必要ならより優先度の高い貯蔵所へ移動できる。
+MessageMustDesignateStrippable:脱がせられる衣服を着た、死体や倒れている人物を指定する。
+MessageMustDesignateSlaughterable:_{colony}_に属している手懐けられている動物を指定する。
+MessageMustDesignateOpenable:中身が入っている墓地や容器を指定する。
+MessageMustDesignateForbiddable:禁止されていないアイテムを指定する。
+MessageMustDesignateUnforbiddable:禁止されているアイテムを指定する。
+
+MessageRefusedArrest:{1_labelShort} は_{arrest}_されるのを拒否した。
+
+MessageNoMedicalBeds:利用可能な医療用ベッドがない。
+MessageNoAnimalBeds:利用可能な動物用ベッドがない。
+MessageTooLowMedCare:手術には {0} 以上が必要だが、{PAWN_labelShort} の現在の治療レベルは"{2}"になっている。
+
+PawnDiedBecauseOf:{PAWN_labelShort} が死んだ。原因: {1}。
+PawnDied:{1_labelShort} が死んだ。
+
+MessageNoLongerDowned:{1_label} は歩けるようになった。
+
+MessageInvoluntarySleep:{1_labelShort} が極度の疲労によって倒れた。
+
+MessageMedicalOperationFailureMinor:{SURGEON_labelShort} は {PATIENT_labelShort} ({RECIPE_label}) の手術で少し失敗した。
+MessageMedicalOperationFailureCatastrophic:{SURGEON_labelShort} は {PATIENT_labelShort} ({RECIPE_label}) の手術で大失敗した。
+MessageMedicalOperationFailureRidiculous:{SURGEON_labelShort} は {PATIENT_labelShort} ({RECIPE_label}) の手術で間抜けな失敗をした。
+MessageMedicalOperationFailureFatal:{SURGEON_labelShort} は {PATIENT_labelShort} の手術で致命的なミスを犯した。特別な挑戦のため: {2}
+
+MessageMedicalOperationWillAngerFaction:この手術は {0} を怒らせる。
+MessageMiscarriedStarvation:{0} が飢えにより流産した。
+MessageMiscarriedPoorHealth:{0} が体調不良により流産した。
+MessageGaveBirth:{0} が出産した。
+
+MessagePsychicAmplifierNoSensitivity:{PAWN_labelShort} は精神感応が無いので _[psychic amplifier]_ を使えなかった。
+MessageLostImplantLevelFromHediff:{PAWN_labelShort} は {2} によりインプラントのレベルが {1} 下がった。
+
+MessageReceivedBrainDamageFromHediff:{PAWN_labelShort} は {2} により {1} ポイントの脳ダメージで苦しんでいる。
+MessageWentOverPsychicEntropyLimit:{PAWN_labelShort} は精神エントロピーの安全限界をを超えた。
+
+MessageNuzzledPawnGaveNameTo:{1} が懐いたので {NAMER_nameFull} が {NAMEE_nameFull} と名付けた。
+
+MessageNoHandlerSkilledEnough:{ANIMAL_kindBase} は誰も手懐けられない。(必要レベル {1} / {2}、最も高い {HANDLER_labelShort} は {4})。
+
+MessageEatenByPredator:{EATEN_labelShort} が {PREDATOR} に喰われた。
+MessageAttackedByPredator:{PREY_labelShort} が {PREDATOR} に襲われている！
+
+MessageHiveReproduced:虫の巣が自己増殖した。
+
+MessageTraderCaravanLeaving:{0} からの交易キャラバンは離れている。
+
+MessageCantSelectDeadPawn:{1_labelShort} は死んでいる。
+MessageCantSelectOffMapPawn:{1_labelShort} はマップの外にいる。
+
+MessageSocialFight:{PAWN1_labelShort} が {PAWN2_labelShort} とケンカを始めた。
+
+MessageNewMarriageCeremony:_{colonist}_は {PAWN1_labelShort} と {PAWN2_labelShort} の 結婚を祝うために集った。
+MessageMarriageCeremonyStarts:{PAWN1_labelShort} と {PAWN2_labelShort} が結婚式を始めた！
+MessageMarriageCeremonyCalledOff:{PAWN1_labelShort} と {PAWN2_labelShort} の結婚式は取りやめになった。
+MessageNewlyMarried:{PAWN1_labelShort} と {PAWN2_labelShort} は結婚した。_{colonist}_はこの出来事を喜んでいる。
+MessageMarriageCeremonyAfterPartyFinished:{PAWN1_labelShort} と {PAWN2_labelShort} の結婚式は終わった。
+
+MessageNewBondRelation:{HUMAN_labelShort} と {ANIMAL_labelShort} は絆で結ばれた。
+MessageNewBondRelationNewName:{HUMAN_labelShort} と {1} は絆で結ばれた。{HUMAN_labelShort} は {ANIMAL_nameFull} と名付けた。
+
+MessageBondedAnimalMentalBreak:{ANIMAL} が {HUMAN_labelShort} の死により_{mental break}_を起こした。
+MessageNamedBondedAnimalMentalBreak:{ANIMAL_label} と名づけられた {ANIMAL_kindIndef} が {HUMAN_labelShort} の死により_{mental break}_を起こした。
+MessageBondedAnimalsMentalBreak:{0} 匹の動物達が {HUMAN_labelShort} の死により_{mental break}_を起こした。
+
+MessageSuccessfullyRemovedHediff:{SURGEON_labelShort} は {PATIENT_labelShort} の {HEDIFF} を取り除いた。
+
+MessageShipChunkDrop:宇宙船の残骸が近くに衝突した。解体すれば物資を得られる。
+
+MessageCannotSellItemsReason:いくつかのアイテムは次の理由により取引できない:
+
+MessageConstructionFailed:{WORKER_labelShort} は {0} の建造に失敗し、いくつかの物資が無駄になった。
+
+MessageScreenshotSavedAs:スクリーンショットを次の名前で保存した: {0}
+
+MessageNoLongerSocialFighting:{PAWN1_labelShort} と {PAWN2_labelShort} はケンカを止めた。
+
+MessageNoLongerBingingOnDrug:{2_labelShort} は {1} の乱用を止めた。
+
+MessageNoLongerOnTargetedInsultingSpree:{PAWN_labelShort} は {TARGET_label} への暴言を止めた。
+
+MessageRottedAwayInStorage:{1_label} が貯蔵所で腐った。
+
+MessageFoodPoisoning:{PAWN_labelShort} が {FOOD_labelShort} で食中毒になった。原因: {2}。
+
+MessagePawnLostWhileFormingCaravan:{0} がキャラバンから外された。
+MessagePawnLostWhileFormingCaravan_AllLost:キャラバンの編成は中止された。
+MessageCaravanFormationPaused:全員が_{mental break}_から回復すれば、キャラバンの編成は続けられる。
+MessageCaravanFormationUnpaused:_{colonist}_はキャラバン編成を再開した。
+
+MessageCaravanMemberHasExtremeMentalBreak:キャラバンの一人が_{mental break}_した。
+MessageMaxPlanetCoveragePerformanceWarning:警告: 惑星全体を生成するには非常に長い時間がかかる。
+
+MessagePlantDiedOfCold:{0} が凍死した。
+MessagePlantDiedOfRot_LeftUnharvested:{0} が収穫されずに腐って死んだ。
+MessagePlantDiedOfRot_ExposedToLight:{0} が光に当たって死んだ。
+MessagePlantDiedOfRot:{0} が腐って死んだ。
+MessagePlantDiedOfPoison:{0} が毒で死んだ。
+MessagePlantDiedOfBlight:{1_label} が_{blight}_で死んだ。
+
+MessagePawnBeingBurned:{1_labelShort} が高温の空気で火傷している。
+
+MessageAccidentalOverdose:{INGESTER} が {DRUG_labelShort} を誤って過剰摂取した！
+
+MessageCaravanArrivedAtDestination:{0} は目的地に到達した。
+
+MessagePawnLeftMapAndCreatedCaravan:{1_labelShort} はこのエリアを離れてキャラバンを編成した。
+MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin:動物が加わろうとしている。
+
+MessageSettledInExistingMap:新しいエリアに入植できた。
+
+MessagePermanentWoundHealed:{PAWN_labelShort} の {2} は治った。原因: {0}
+
+MessageRescueeDidntJoin:[PAWN_nameDef] は回復して、去ることにした。
+
+MessageTransporterUnreachable:いくつかの _[Transport pod]_ は到達できない。
+MessageTransportersNotAdjacent:選択している _[Transport pod]_ に接続されている全ての _[Pod launcher]_ は隣接していなければならない。
+
+MessageTransportersLoadCanceled_TransporterDestroyed:_[Transport pod]_ の一つが破壊されたので、荷積み作業は中止された。
+MessageTransporterSingleLoadCanceled_TransporterDestroyed:_[Shuttle]_ が破壊されたので荷積み作業は中止された。
+MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned:_[Pod launcher]_ の一つが破壊されたので、荷積み作業は中止された。
+MessageTransportersLoadingProcessStarted:指定されたアイテムや人が今から _[Transport pod]_ に積み込まれる。
+MessageTransporterSingleLoadingProcessStarted:指定されたアイテムや人が今から _[shuttle]_ に積み込まれる。
+MessageTransportPodsArrived:_[Transport pod]_ が到着した。
+MessageTransportPodsArrivedAndLost:_[Transport pod]_ が到着したが、_{colonist}_が一人も乗っていなかったので荷物が失われた。
+MessageTransportPodsArrivedAndAddedToCaravan:_[Transport pod]_ が到着した。中身は {0} に加えられた。
+MessageFinishedLoadingTransporters:_[Transport pod]_ の荷積みは完了した。た。準備できたら発射する。
+MessageFinishedLoadingTransporterSingle:_[Shuttle]_ は必要な貨物を積み終え、準備ができたら発射できる。
+MessageCantLoadMoreIntoTransporters:{1} は _[Transport pod]_ への積み込みを終えられない。アイテムか人が得られなくなったため。 ({2_labelShort})。
+MessageTransportPodsDestinationIsInvalid:選択された目的地が不正。
+MessageTransportPodsDestinationIsTooFar:_[Transport pod]_ をその距離まで飛ばすには、各 _[Pod launcher]_ に最低でも {0} の燃料が必要。
+
+MessageReformedCaravan:キャラバンは再編成した。
+
+MessageCantBanishLastColonist:最後の_{colonist}_は追放できない。
+MessageCantEquipCustom:装備できない: {0}。
+
+MessageCantEquipIncapableOfViolence:装備不能: {1_labelShort} は暴力をふるえない。
+MessageCantEquipIncapableOfManipulation:装備不能: できない。
+MessageCantWearApparelMissingBodyParts:装備不能: {1_labelShort} は必要な体の部位を失っている。
+MessageCantUnequipLockedApparel:この人はこれを外す事を拒否している。
+MessageWouldReplaceLockedApparel:装備不可: 外せない {1_labelShort} を置き換えようとしている。
+
+MessageSlaughteringBondedAnimal:絆があるので、{DESIGNATED_labelShort} を屠殺すると {BONDED_labelShort} が不満になる。
+
+MessageCaravanRanOutOfFood:{0} の食料が尽きた ({PAWN_label})。
+
+MessageCaravanDeathCorpseAddedToInventory:{PAWN_definite} の死体はキャラバンに拾われた。重くて移動不可になるかもしれないが、キャラバンの_<Items>_タブから置き去りにできる。
+
+MessageSelectOwnBaseToFormCaravan:キャラバンを編成するには自分の_{colony}_か人々がいる場所を選択する。
+
+MessageScreenResTooSmallForUIScale:この解像度とUIスケールではゲームインターフェースがはみ出します。UIスケールを下げるか、解像度を上げましょう。
+
+MessageYouHaveToReformCaravanNow:今すぐキャラバンを編成しなければならない。後に残された人は全て見捨てられる。
+
+MessageDefendersAttacking:{1} の {0} が {2} を攻撃している。
+MessageMechanoidsAssembled:_[mechanoid]_集まってきて、攻撃を始めた。
+MessageMechanoidsReinforcementsDrop:近くの _[drop pod]_ から _[Mech drop beacon]_ が増援を呼んだ。
+
+MessageSelfTendUnsatisfied:自己治療をするには、{1_labelShort} に医者の仕事も割り当てる必要がある。
+MessageCannotSelfTendEver:{1_labelShort} は_<Doctor>_の仕事ができないので、自己治療はできない。
+
+MessageCantAddWaypointBecauseImpassable:このタイルは通れない。
+MessageCantAddWaypointBecauseUnreachable:最後のウェイポイントから、このタイルに到達できない。
+MessageCantAddWaypointBecauseLimit:{0} 以上のウェイポイントは追加できない。
+MessageCantRemoveWaypointBecauseFirst:このウェイポイントは削除できない。
+
+MessageCantDoExecutionBecauseNoWardenCapableOfViolence:暴力行為を行える_<Warden>_が一人もいないので、処刑できなかった。
+
+MessageSiteCountdownBecauseNoMoreEnemies:すべての敵を倒した。残り {0} で、キャラバンは自動的に再編成される。
+MessageSiteCountdownBecauseNoEnemiesInitially:残り {0} で、キャラバンは自動的に再編成される。ワールド画面で今すぐ再編成することもできる。
+
+MessageCantBanishDownedPawn:{1_labelShort} は歩けないので追放できない。
+MessageSleepingPawnsWokenUp:{0} は目を覚ました。
+MessageMechClusterDefeated:_[Mech cluster]_ の建物は破壊された。
+MessageCompSpawnerSpawnedItem:アイテムが生成された: {0}。
+MessageHediffCuredByItem:健康状態が回復した: {0}。
+MessageBodyPartCuredByItem:身体パーツを再生した: {0}。
+MessageResearchProjectFinishedByItem:テクノロジーが与えられた: {0}。
+MessagePawnResurrected:{0} は息を吹き返した！
+MessageFailedToRescueRelative:{PAWN_labelShort} を救えなかった。{RELATIVE_labelShort} が悲しむ。
+MessageRescuedRelative:{PAWN_labelShort} を救えた。{RELATIVE_labelShort} が喜ぶ。
+
+MessageTornadoLeftMap:竜巻は去った。
+MessageTornadoDissipated:竜巻は散り散りになった。
+MessagePeaceTalksNoDiplomat:意識も、外交能力も無い。
+MessageWarningCavePlantsExposedToLight:警告: {0} は光に当たると生きていけない。
+
+MessageTargetedTantrumChangedTarget:{PAWN_labelShort} は {OLDTARGET_label} へ行けないので代わりに {TARGET_label} へ怒りを向けた。
+
+MessageTargetedInsultingSpreeChangedTarget:{PAWN_labelShort} は {OLDTARGET_label} へ行けないので代わりに {TARGET_label} へ怒りを向けた。
+
+MessageMurderousRageChangedTarget:{PAWN_labelShort} は怒りの矛先を {TARGET_label} へ変えた。
+MessagePlantIncompatibleWithRoof:{0} は屋根の下では成長できない。
+MessageRoofIncompatibleWithPlant:{0} の上に屋根は作れない。
+
+MessageChoseRoute:キャラバンは最初のウェイポイントへ自動的に移動する。
+
+MessagePlayerTriedToLeaveMapViaExitGrid_CanReform:ここから離れるには、ワールド画面の'_<Reform caravan>_'ボタンを使う。
+MessagePlayerTriedToLeaveMapViaExitGrid_CantReform:今はここから離れられない。
+
+MessageGoodwillChanged:{0} との関係が {1} から {2} に変わった。
+MessageGoodwillChangedWithReason:{0} との関係が {1} から {2} に変わった。({3})。
+GoodwillChangedReason_AttackedPawn:{1_labelShort} を攻撃した
+GoodwillChangedReason_UsedItem:{TARGET_labelShort} に {ITEM_labelShort} を使った
+GoodwillChangedReason_UsedAbility:{1} に {0} を使った
+GoodwillChangedReason_RemovedBodyPart:{0} を取り外した
+GoodwillChangedReason_RemovedImplant:{0} を取り外した
+GoodwillChangedReason_DowngradedImplant:{0} をダウングレードした
+GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart:{0} を無闇に移植した
+GoodwillChangedReason_CapturedPawn:{1_labelShort} を捕まえた
+GoodwillChangedReason_PawnCrushed:{1_labelShort} が潰れた
+GoodwillChangedReason_PawnDied:{1_labelShort} が死んだ
+GoodwillChangedReason_Traded:交易した
+GoodwillChangedReason_AttackedCaravan:キャラバンを襲った
+GoodwillChangedReason_NaturallyOverTime:時間経過で {0} になる性質
+GoodwillChangedReason_ExitedMapHealthy:{1_labelShort} が元気に出て行った
+GoodwillChangedReason_Tended:{1_labelShort} を看護した
+GoodwillChangedReason_ReceivedGift:贈り物を受け取った
+GoodwillChangedReason_FulfilledTradeRequest:取引要請を達成した
+GoodwillChangedReason_FinishedQuest:クエストを終えた
+GoodwillChangedReason_UsedForbiddenThing:{PAWN_labelShort} が {CULPRIT} を使った
+GoodwillChangedReason_SoldPawn:{0_labelShort} を売った
+GoodwillChangedReason_EuthanizedPawn:{PAWN_labelShort} を安楽死させた
+GoodwillChangedReason_RequestedMilitaryAid:援軍を要請した
+GoodwillChangedReason_RequestedTrader:交易キャラバンを要請した
+
+MessageGiftGivenButNotAppreciated:{0} は贈り物を受け取ったが、満足しなかった。
+
+MessageCantGiveGiftBecauseCantCarryEncumbered:キャラバンは既に過重しており、これ以上運べない。
+MessageCantGiveGiftBecauseCantCarry:キャラバンはあまり運べない。贈り物の重さは {0} だがキャラバンはあと {1} しか運べない。
+
+MessageFormedCaravan:{0} は編成を終えて、ワールドマップへ移動し始めた。
+MessageFormedCaravan_Orders:命令
+
+MessageBillValidationStoreZoneDeleted:{1} の "{0}" は消された_{stockpile}_ {2} へ運べなくなった。
+MessageBillValidationStoreZoneUnavailable:{1} の "{0}" は利用不可な_{stockpile}_ {2} へ運べなくなった。
+MessageBillValidationPawnUnavailable:{0} は {2} で "{1}" の作業をしなくなった。制限は解除された。
+MessageBillValidationIncludeZoneDeleted:{1} の "{0}" は消された_{stockpile}_ {2} のアイテムを数えられなくなった。
+MessageBillValidationIncludeZoneUnavailable:{1} の "{0}" は利用不可な_{stockpile}_ {2} のアイテムを数えられなくなった。
+MessageBillValidationStoreZoneInsufficient:{1} の "{0}" は全ての生産物を_{stockpile}_ {2} へ運べなくなった。
+
+MessageAnimalReturnedWild:継続的な飼い慣らしを怠ったので、{1_labelShort} は野生に帰った。
+MessageAnimalLostSkill:継続的な訓練を怠ったので、{ANIMAL_labelShort} はスキルを失った: {1}
+
+MessageTranslationReportSaved:翻訳リポートを出力しました: {0}
+
+MessageCaravanArrivalActionNoLongerValid:{0} は目的地へたどり着けない。
+MessageEnterCooldownBlocksEntering:{0} 日間は再入場できない。
+MessagePermitCooldownFinished:{0_labelShort} が "{1}" を自由に使えるようになった。
+MessagePredatorHuntingPlayerAnimal:{PREDATOR} が {PREY_definite} を捕食しようとしている！
+
+MessagePrisonerResistanceBroken:_{prisoner}_ {PRISONER_labelShort} の_{resistance}_は {WARDEN_labelShort} により砕かれた。
+MessagePrisonerResistanceBroken_RecruitAttempsWillBegin:勧誘出来るようになった。
+
+MessageModWithPackageIdAlreadyEnabled:パッケージID {0} のMODが既に有効になっています。これを有効にする前に {1} を無効にして下さい。
+
+MessageDisableModsBeforeCleaningTranslationFiles:このツールを使う前には、全てのMODを無効にして下さい。
+MessageUnpackBeforeCleaningTranslationFiles:このツールを使う前に、この言語を展開して、圧縮されている翻訳ファイルを全て削除して下さい。
+MessageTranslationFilesCleanupDone:完了。処理したフォルダ: {0}
+
+MessageCantCleanupTranslationFilesBeucaseOfXmlError:翻訳ファイル({0})が読み込めませんでした。先にXMLのパースエラーを直して下さい。
+
+MessageCapturingWillAngerFaction:警告: {PAWN_nameDef} を捕まえると_{faction}_ {PAWN_factionName} が怒る。
+MessageCantShootInMelee:近接戦闘状態では撃てない。
+
+MessageNoColonistCanAcceptQuest:今このクエストを受けられる {0} がいない。
+MessageCannotAcceptQuest:このクエストは受けられない。
+MessageQuestAccepted:{0_definite} はクエストを受け付けた: {1}
+MessagePawnLeaving:{0} は去った。
+MessagePawnsLeaving:{0} は去った。
+
+MessageMonumentDestroyedBecauseOfDisallowedBuilding:内部に不許可の建物を建てたので、モニュメントは破壊された。
+
+MessageNoResearchBenchForTechprint:適用できない: 未使用かつ到達可能な _[research bench]_ が無い。 
+NoValidDestinationFound:{0} の適切な目的地が見つからなかった。
+MessageResearchMenuWithoutBench:警告: _[research bench]_ を作るまで研究は行われない。
+MessageActivatorProximityTriggered:{0_indefinite} が近接アクティベーターを作動させた。
+MessageCannotSelectInvisibleStat:{0_label} は現在隠れている。
+
+Autosaving:<<Autosaving??自動保存中>>
+
+GameStartDialog:警報と金属が引き裂かれる音により、私達三人は仮死状態から目覚めた。船がバラバラになる前になんとか_{escape pod}_に間に合った私達は、しばらくして、見知らぬ_[RimWorld]_に着陸した。\n\n周りに落ちている宇宙船の残骸を使って、生き残る計画を立てよう。
+Colony:_<Colony>_
+ChangeLanguageFromMainMenu:言語はメインメニューのオプションからのみ変更できます。
+
+; 「A, B, and C」と使われるので、何をしても無駄。
+AndLower:and
+DisabledLower:<<disabled??無効>>
+
+; デバッグ情報
+VersionIndicator:Version {0}
+GameVersionIndicator:Game version
+DevelopmentBuildLower:development build
+CompiledOn:Compiled {0}
+LoggedIntoSteamAs:Logged into Steam as {0}
+
+ToCommaListAnd:{0} と {1}
+
+Yes:<<Yes??はい>>
+No:<<No??いいえ>>
+New:<<new??新規>>
+Gender:<<Gender??性別>>
+min:<<min??最小>>
+max:<<max??最大>>
+chance:<<chance??確率>>
+context:<<context??対象>>
+multiplier:<<multiplier??乗数>>
+damage:<<damage??ダメージ>>
+radius:<<radius??半径>>
+expired:<<expired??終了>>
+durationDays:<<duration (days)??持続 (日)>>
+intervalDays:<<interval (days)??間隔 (日)>>
+repeat:<<repeat??繰り返し>>
+default:<<default??初期値>>
+distance:<<distance??距離>>
+YesUppercase:<<YES??はい>>
+NoUppercase:<<NO??いいえ>>
+kg:_[kg]_
+Day:<<Day??日>>
+day:<<day??日>>
+Default:<<Default??既定>>
+Average:<<Average??平均>>
+Cause:<<Cause??原因>>
+MoneyFormat:${0}
+
+MeatLabel:_[{0} meat]_
+MeatDesc:さばいた生肉。調理するか、生で食べられる。
+MeatInsectDesc:さばいた生肉。必要なら、調理するか、生で食べられる。極めて不味い。
+MeatHumanDesc:さばいた生肉。調理するか、生で食べられるが、大抵の人間はこれを良いことだとは思わない。
+
+TechprintLabel:_[techprint]_ ({PROJECT_label})
+TechprintDesc:これは研究プロジェクト '{PROJECT_label}' の _[techprint]_ です。\n_[techprint]_ の物理的な形は図形が描かれた紙くずから、高度な自己完結型教育機械まで様々だが、形状にかかわらず役目は同じだ。研究者にアイデアは実現可能だという自信を与え、より確立された社会で使われるデザインの大まかなアイデアを与える。\n研究者は与えられた技術を何処から開始するべきか知るために_[techprint]_で示される基礎知識を必要としている。_[techprint]_が十分に適用されて初めて、研究者は状況に応じた技術の利用方法を詳しく理解出来るようになる。\n条件を満たしたプロジェクトに_[techprint]_を適用すると、研究進捗を半分まで満たせる。また、たとえ完了した技術でも、_[techprint]_を適用したときに研究者は_{intellectual}_スキルを上げられる。
+Unlocks:<<Unlocks??解放>>
+
+CorpseLabel:<<{0} corpse??{0} の死骸>>
+CorpseDesc:{0} の死骸。
+DeadLabel:{1_label} (<<dead??死亡>>)
+
+RoughStoneTerrainLabel:<<rough??粗い>> {0}
+RoughStoneTerrainDesc:粗い、天然の {0}。
+RoughHewnStoneTerrainLabel:<<rough-hewn??粗削りの>> {0}
+RoughHewnStoneTerrainDesc:粗く切り取られている天然の {0} の床。
+SmoothStoneTerrainLabel:<<smooth??滑らかな>> {0}
+SmoothStoneTerrainDesc:滑らかな天然の {0} の床。
+
+BlueprintLabelExtra:<< (blueprint)?? (設計)>>
+FrameLabelExtra:<< (building)?? (施工)>>
+
+FactionUnaffiliated:<<Unaffiliated??無所属>>
+
+;アイテム名が先に来た方がソート時に都合が良い
+ThingMadeOfStuffLabel:{1} ({0})
+
+SomeonesRoom:<<{PAWN_labelShort}'s {1}??{PAWN_labelShort} の {1}>>
+CouplesRoom:<<{PAWN1_labelShort} and {PAWN2_labelShort}'s {2}??{PAWN1_labelShort} と {PAWN2_labelShort} の {2}>>
+VariousLabel:<<(various)??(混在)>>
+
+ColonistDied:<<Colonist died??_{colonist}_が死んだ>>Colonist died
+
+North:<<North??北>>
+South:<<South??南>>
+West:<<West??西>>
+East:<<East??東>>
+
+ApplyingTechprint:_[techprint]_ を適用 ({0})
+
+HitPointsBasic:<<hit points??ヒットポイント>>
+WorkLeft:<<Work left??残り工数>>
+;トランスポートポッドで使われている
+Contents:_<Contents>_
+ContainedResources:<<Contained resources??構成>>
+ForPrisonerUse:<<For prisoner use??_{prisoner}_用>>
+InPrisonCell:<<In prison cell: For prisoner use??_{prison cell}_の中: _{prisoner}_用>>
+ForColonistUse:<<For colonist use??_{colonist}_用>>
+MedicalBed:<<Medical??医療用>>
+Owner:<<Owner??所有者>>
+Owners:<<Owners??所有者>>
+AssignedColonist:<<Assigned colonist??担当者>>
+DiedOn:<<Died on the {0}??{0} に死亡>>
+Nobody:<<Nobody??無し>>
+Unowned:<<Unowned??空き>>
+DeadTime:<<Dead for {0}??死後 {0}>>
+WalkSpeed:<<walk speed {0}??移動速度 {0}>>
+FertShort:<<fert.??肥沃度>>
+DyingLower:<<dying??瀕死>>
+FilthOnFeet:<<Filth on feet:??足跡:>>
+NotEnoughStoredLower:<<not enough stored??十分な蓄えがない>>
+NothingLower:<<nothing??なし>>
+Nothing:<<Nothing??なし>>
+Adapted:<<Adapted??耐性を得た>>
+FreshMissingBodyPart:<<fresh??生傷>>
+DevelopedImmunityLower:<<developed immunity??免疫獲得>>
+NeedsTendingNow:<<Needs tending now??すぐに看護が必要>>
+CanTendNow:<<Can tend now??すぐに看護できる>>
+TreatmentExpiresIn:<<Tending expires in {0}??看護の期限 {0}>>
+NextTendIn:<<Can be tended in {0}??看護できるまであと {0}>>
+TendQuality:<<Tend quality??看護品質>>
+MissingMedicalBillIngredient:<<no {0}??{0} がない>>
+Immunity:<<Immunity??免疫>>
+DaysToRecover:<<{0} days to recover??回復まで {0} 日>>
+Ineffective:<<Ineffective??無効??>>
+Illegal:<<illegal??違法>>
+DetectionChance:<<detection chance??探知確率>>
+Race:<<Race??種族>>
+Description:<<Description??概要>>
+Equipment:<<Equipment??装備>>
+Apparel:<<Apparel??衣服>>
+Inventory:_<Inventory>_
+ThingInfo:<<Information??情報>>
+DropThing:<<Drop??落とす>>
+DropThingLodger:一時的な_{faction}_メンバーはアイテムを落とさない。
+DropThingLocked:この人物はこれを落とすのを拒否した。
+Rename:<<Rename??改名>>
+RenameAnimal:<<Rename animal??動物の改名>>
+RenameColonist:<<Rename colonist??_{colonist}_の改名>>
+RenounceTitle:<<Renounce title??_{title}_を放棄>>
+TitleOfFaction:{0} of {1}
+RenounceTitleDescription:これは {PAWN_nameDef} の_{title}_ {TITLE} を失う。_{title}_を放棄しても代わりになるものは何も得られない。\n\nこれは次の影響がある:\n\n{EFFECTS}
+RenounceTitleWillLoosePermits:<<{PAWN_possessive} will lose these permissions??{PAWN_possessive}は次の権限を失う>>
+UnknownLower:<<unknown??不明>>
+On:_[On]_
+Off:_[Off]_
+PowerSwitch_Power:<<Power??電源>>
+JoyTolerances:<<Recreation type tolerances??娯楽の種類への鈍化>>
+MilkFullness:<<Milk fullness??乳量>>
+WoolGrowth:<<Wool growth??毛長さ>>
+EggProgress:<<Egg progress??卵成長>>
+Fertilized:<<Fertilized??受精した>>
+ProgressStoppedUntilFertilized:<<Progress stopped until fertilized??受精するまで停止中>>
+SkillTooLow:{0}スキルが {2} 必要, 現在 {1}
+Freezing:<<Freezing??冷凍>>
+Overheating:<<Overheating??オーバーヒート>>
+RuinedByTemperature:<<Ruined by temperature.??温度によりダメになった。>>
+CorpsePercentMissing:<<Missing body parts??身体欠損率>>
+HiveReproducesIn:<<Reproduces in??増殖まであと>>
+DormantHiveNotReproducing:<<Dormant: Not reproducing.??休眠状態: 繁殖していない。>>
+NextSpawnedItemIn:<<Next {0} in??次の {0} まであと>>
+NextSpawnedResourceIn:<<Next resource in??次の資源まであと>>
+BrokenDown:<<Broken down??故障中>>
+BondBrackets:<<(bond)??(絆)>>
+Fuel:<<Fuel??燃料>>
+FuelLevelGizmoLabel:<<Fuel??燃料>>
+SetTargetFuelLevel:燃料積載量を {0} に設定
+SetPodLauncherTargetFuelLevel:燃料積載量を {0} に設定\n最大距離: {1} タイル
+ConfiguredTargetFuelLevel:<<Target fuel level: {0}??積載燃料の上限: {0}>>
+Enemies:<<enemies??敵>>
+TimePassed:<<time passed??経過時間>>
+CurrentRadius:<<current radius??現在の範囲>>
+RadiusExpandsIn:<<radius expands in??範囲拡大まであと>>
+Permanent:<<permanent??永続>>
+CaravanResting:<<Resting??休憩中>>
+UsingBedroll:<<using 1 bedroll??_[bedroll]_ を 1 個使っている>>
+UsingBedrolls:<<using {0} bedrolls??_[bedroll]_ を {0} 個使っている>>
+CaravanEstimatedTimeToDestination:<<Est. time to destination: {0} days??到着推定時間: {0} 日>>
+CaravanEstimatedDaysToDestination:<<Estimated days to arrive: {0}??到着推定日数: {0}>>
+CaravanImmobilizedByMass:<<Immobilized: Too much weight.??移動不能: 重すぎ。>>
+CaravanOutOfFood:<<Out of food.??食料切れ。>>
+CaravanDaysOfFood:<<Days of food: {0}??食糧: {0} 日分>>
+CaravanDaysOfFoodRot:<<Days of food: {0} (rot in {1} days)??食糧: {0} 日分 (腐敗まであと {1} 日)>>
+AllCaravanMembersDowned:<<Stopped because: Everyone is downed.??停止理由: 全員が行動不能。>>
+AllCaravanMembersMentalBreak:<<Stopped because: Everyone is in a mental break.??停止理由: 全員が_{mental break}_。>>
+CaravanColonistsCount:<<{0} {1}??{0} 人の{1}>>
+
+CaravanAnimal:<<1 animal??1 匹の動物>>
+CaravanAnimalsCount:<<{0} animals??{0} 匹の動物>>
+CaravanPrisoner:<<1 prisoner??1 人の_{prisoner}_>>
+CaravanPrisonersCount:<<{0} prisoners??{0} 人の_{prisoner}_>>
+CaravanPawnsInMentalState:<<{0} in mental state??{0} 人が精神異常>>
+CaravanPawnsDowned:<<{0} downed??{0} 人が行動不能>>
+CaravanTraveling:<<Traveling.??移動中。>>
+CaravanWaiting:<<Waiting.??待機中>>
+BeingCarriedDueToIllness:<<Being carried due to illness??病気のため運ばている>>
+UsingBedrollsDueToIllness:<<Using bedrolls due to illness??病気のため_[bedroll]_を使っている>>
+CurrentTileMovementTime:<<Current tile movement time??現タイルの移動時間>>
+Visibility:<<Visibility??視認性>>
+Temperature:<<Temperature??温度>>
+BadTemperature:<<bad temperature??温度が適していない>>
+IdealFermentingTemperature:<<Ideal fermenting temperature??理想的な発酵温度>>
+DrugEffectMultiplier:<<{0} effect multiplier: {1}??{0} 効果率: {1}>>
+CaravanVisiting:<<Visiting {0}.??{0} に移動中。(訪問)>>
+CaravanEntering:<<Entering {0}.??{0} に移動中。>>
+CaravanAttacking:<<Attacking {0}.??{0} に移動中。(攻撃)>>
+CaravanOfferingGifts:<<Offering gifts to {0}.??{0} へ贈り物を届けている。>>
+CaravanTrading:<<Trading with {0}??{0} と取引中>>
+WasWornByCorpse:<<Tainted from being worn by a corpse.??死体が着ていたので穢れている。>>
+WornByCorpseChar:<<T??汚>>
+
+DeterioratingUnroofed:<<unroofed??屋根無し>>
+DeterioratingOutdoors:<<outdoors??屋外>>
+DeterioratingBecauseOf:<<Deteriorating because of??次の理由により劣化中>>
+Map:<<Map??マップ>>
+ForceExitAndRemoveMapCountdown:<<{0} until leaving??出発まであと {0}>>
+ForceExitAndRemoveMapCountdownTip:_{colonist}_は自動的にキャラバンを再編成して、あと {0} でここから離れる。
+
+Room:<<Room??部屋>>
+BeautyHere:<<Beauty here??ここの美しさ>>
+NoPower:<<No power??電力喪失>>
+WorkSpeedPenalty:<<Work speed penalty??作業速度低下>>
+DisabledCommand:<<DISABLED??無効>>
+ReadyForLaunch:<<Ready for launch.??発射できる。>>
+NotReadyForLaunch:<<Not ready for launch??発射できない>>
+NotAllInGroupConnectedToFuelingPort:<<no fueling port??燃料口に繋がっていない>>
+NotAllFuelingPortSourcesInGroupHaveAnyFuel:<<no fuel??燃料切れ>>
+TransportPodInGroupHasSomethingLeftToLoad:<<loading in progress??積み込み中>>
+TransportPodDestinationBeyondMaximumRange:<<Beyond maximum range??最大距離を超えている>>
+TransportPodNotEnoughFuel:<<Not enough fuel??燃料不足>>
+SettlementTrader:<<{0} of {1}??{1} の {0}>>
+RoomSurgerySuccessChanceFactor:<<Surgery success chance multiplier from room??部屋から影響される手術成功率乗数>>
+RoomInfectionChanceFactor:<<Infection chance multiplier from room??部屋から影響される感染率乗数>>
+VentClosed:<<Closed??閉じている>>
+WornBy:<<worn by {1_labelShort}??{1_labelShort} が着ている>>
+EquippedBy:<<equipped by {1_labelShort}??{1_labelShort} が装備している>>
+QuestTargetDestroyInspectString:<<{0} wants this destroyed.\n    Reward: {1} ({2})??{0} が破壊を求めている。\n    報酬: {1} ({2})>>
+QuestTargetDestroyInspectStringShort:<<{0} wants this destroyed.??{0} がこれの破壊を求めている。>>
+ShuttleDelayInspectString:<<Departing on shuttle in {0}??_[Shuttle]_ 出発まであと {0}>>
+ShuttleLeaveDelayInspectString:<<Departing in {0}??出発まであと {0}>>
+ShouldDepartOnShuttleInspectString:<<Should depart on shuttle??_[Shuttle]_で出発するべき>>
+WorldObjectTimeout:<<Time left: {0}??残り時間: {0}>>
+ClickToSortByThisColumn:クリックするとこの列でソート。
+WorkPriorityShiftClickTip:Shift + クリック:優先順位を上げる\nShift + 右クリック: 優先順位を下げる
+WorkPriorityShiftClickEnableDisableTip:Shift + クリック: 全て有効\nShift + 右クリック: 全て無効
+AllowedAreaShiftClickTip:Shift + クリック: 全て_{home}_へ\nShift + 右クリック: 全て無制限へ
+CheckboxShiftClickTip:Shift + クリック: 全て選択\nShift + 右クリック: 全て解除
+KnownSiteThreatEnemyCountAppend:{0} {1}
+SkillRequirements:<<Skill Requirements??必要スキル>>
+Products:<<Products??生成物>>
+Relationship:<<{0} of {1}??{1} の {0}>>
+Prisoner:_<Prisoner>_
+Refugee:<<Refugee??亡命者>>
+TileMovementDifficulty:<<Terrain movement difficulty??地形の移動の難しさ>>
+Impassable:<<Impassable??通行不能>>
+CaravanMovementSpeedFull:<<Caravan movement speed??キャラバン移動速度>>
+DownedLower:<<downed??倒れた>>
+Carried:<<resting??安静>>
+AverageCaravanMemberMoveSpeed:<<Avg. person move speed??人の平均速度>>
+MultiplierForCarriedMass:<<Multiplier for carried mass: {0}??運搬重量による乗数: {0}>>
+FinalCaravanPawnsMovementSpeed:<<Caravan members speed??キャラバンメンバーの速度>>
+FinalCaravanMovementSpeed:<<Final speed??最終速度>>
+Winter:<<Winter??冬>>
+MovementDifficultyOffsetInWinter:<<{0} in winter??{0} は冬>>
+RangeTo:<<to??から>>
+NoDietCategoryLetter:<<No letter??表記無し>>
+ExpiresIn:<<Expires in??期限切れまで残り>>
+CaravanLeaderCaravanName:<<{1_labelShort}'s caravan??{1_labelShort} のキャラバン>>
+Reason:<<Reason??理由>>
+RelationsWith:<<Relations with {0}??{0} との関係>>
+capturedBy:<<captured by {0}??{0} により確保>>
+yourCaravan:<<your caravan??あなたのキャラバン>>
+CreatureWildness:<<{0} wildness??{0} 野生>>
+CreatureTrainability:{0} _<trainability>_
+ProximitySingleGoodwillChange:<<{0} with {1}??{0} {1}>>
+EnterCooldown:{0} 日までは再入場できない。
+Caravan:<<Caravan??キャラバン>>
+HiddenOrNoSitePartDescription:恐らく何らかの危険がある。
+PreciousLumpLabel:<<lump of {0}??{0} の塊>>
+NoActiveResearchProjectToFinish:<<no active research project??研究可能なプロジェクトはない>>
+CannotResearchNoBench:<<Cannot research: No research bench??研究不可: _[research bench]_ が無い>>
+Turret:_<turret>_
+Turrets:<<turrets??_[turret]_>>
+Mortar:_<mortar>_
+Mortars:<<mortars??_[mortar]_>>
+Enemy:<<enemy??敵>>
+Location:<<location??場所>>
+AnimalsLower:<<animals??動物>>
+FilthLabel:{0} x{1}
+FilthLabelWithSource:<<{0} of {1} x{2}??{1} の {0} x{2}>>
+Required:<<Required??必要>>
+GiveGiftViaTransportPodsTradeRequestWarning:警告: _[transport pod]_ で取引要求は完了できない。\nモノを送ると、対象の_{settlement}_はそれを贈り物として受け取るが、報酬は貰えない。\n\n取引するなら、キャラバンで行きましょう！\n\n積み荷を贈り物としてこの_{faction}_へ送りますか？
+PrisonerLower:_<prisoner>_
+PrisonersLower:<<prisoners??_{prisoner}_>>
+Complete:<<Complete??完了>>
+ClickToViewInQuestsTab:このクエストを_[quests]_タブでみる
+Mood:_{Mood}_
+Quest:_[Quest]_
+BringsRaidsEvery:<<Brings raids every {0}??{0} ごとに襲撃をもたらす>>
+GeneratesResourcesEvery:<<Generates {0} every {1}??{0} を {1} ごとに生成>>
+FoliageKillRadius:<<Foliage kill radius??植物の殺害範囲>>
+RadiusExpandRate:<<Radius expand rate??範囲拡大速度>>
+ViewHyperlink:<<View: {0}??見る: {0}>>
+DetonationCountdown:<<Detonates in {0} days??爆破まで {0} 日>>
+ExplosionOnDamageWarning:<<Large explosion if damaged??ダメージで大爆発>>
+MechCluster:_[Mech cluster]_
+SpawningNextPawnIn:<<Spawning in {0}??生まれるまで {0}>>
+MechAssemblyCompleteIn:<<{0} assembly completes in {1}??{0} 組み立て完了まで {1}>>
+ThingsProduced:<<produced??生産>>
+PlantsHarvested:<<harvested??収穫??>>
+PawnsKilled:<<{0} killed??{0} 殺害>>
+PawnsLent:<<Sent {0}, will return in {1}??{0} を送った、戻るまであと {1}>>
+DormantCompInactive:<<Dormant??休止>>
+DormantCompSealed:<<Sealed??密閉>>
+DormantCompBeacon:<<Ready to drop mechanoids??_{Mechanoid}_降下準備完了>>
+DormantCompExpired:<<Expired??中止>>
+InitiatesIn:<<Initiates in??開始>>
+SendSignalOnCountdownCompTime:<<Activates in {0}??作動まであと {0}>>
+PsychicEntropy:_<Psychic entropy>_
+PsychicEntropyPainFocus:<<{0} pain focus??痛による集中 {0}>>
+ConditionCauserRadius:<<radius {0}??範囲 {0}>>
+DurationLeft:<<{0} left??残り {0}>>
+AnyOf:<<Any of??いずれか>>
+
+UserScanAbility:<<User scanning speed??探査速度>>
+ScanAverageInterval:<<Random find interval??ランダム発見間隔>>
+ScanningProgressToGuaranteedFind:<<Progress to guaranteed find??確実に発見するまでの進捗>>
+
+ContainsWort:<<Contains {0} / {1} wort.??内容物 {0} / {1} _[wort]_。>>
+ContainsBeer:<<Contains {0} / {1} beer.??内容物 {0} / {1} _[beer]_。>>
+Fermented:<<Fermented??発酵した>>
+FermentationProgress:<<Progress: {0} ({1} left)??発酵中: {0} (残り {1})>>
+FermentationBarrelOutOfIdealTemperature:<<Non-ideal temperature. Fermentation speed: {0}??温度が適していない。発酵速度: {0}>>
+
+Headshot:<<Headshot??ヘッドショット>>
+TextMote_TreatSuccess:<<Treatment success!\n{0} chance??治療に成功!\n成功率 {0}>>
+TextMote_TreatFailed:<<Treatment failed\n{0} chance??治療に失敗\n成功率 {0}>>
+TextMote_HarvestFailed:<<Harvest\nbotched??収穫\n台無しにした>>
+TextMote_YieldWasted:<<Yield\nwasted??作物\n無駄になった>>
+TextMote_ProductWasted:<<Product\nwasted??生産物\n無駄になった>>
+TextMote_RecruitFail:<<Recruit failed!\n{0} chance??勧誘に失敗\n成功率 {0}>>
+TextMote_ResistanceReduced:<<Resistance\n{0} to {1}??_{resistance}_\n{0} から {1}>>
+TextMote_TameFail:<<Tame failed\n{0} chance??手懐け失敗\n成功率 {0}>>
+TextMote_TameSuccess:<<Tamed!\n{0} chance??手懐けた!\n成功率 {0}>>
+TextMote_TrainFail:<<Failed training: {0}\n{1} chance??訓練に失敗: {0}\n成功率 {1}>>
+TextMote_TrainSuccess:<<Trained: {0}\n{1} chance??訓練に成功!: {0}\n成功率 {1}>>
+TextMote_FixBrokenDownBuildingFail:<<Repair\nbotched??補修し損なった>>
+TextMote_ConstructionFail:<<Construction\nbotched??建設し損なった>>
+TextMote_Dodge:<<Dodge??回避>>
+TextMote_Immune:<<Immune??免疫>>
+TextMote_Tended:<<{0} tended??{0} 看護された>>
+lowMood:<<low mood??低_{mood}_>>
+lowOpinion:<<low opinion??低評価>>
+
+Home:_<Home>_
+BuildRoof:<<Build roof??屋根建造>>
+NoRoof:<<No roof??屋根無し>>
+SnowClear:<<Snow clear??除雪済み>>
+AreaDefaultLabel:<<Area {0}??エリア {0}>>
+NoAreaAllowed:<<Unrestricted??無制限>>
+NewArea:<<New area??新しいエリア>>
+InvertArea:<<Invert??反転>>
+
+CannotOrderNonControlled:<<Cannot order characters you do not control.??操作できないユニットには命令できない。>>
+IsIncapableOfViolence:<<{1_labelShort} is incapable of violence.??{1_labelShort} は野蛮なことはできない。>>
+IsIncapableOfViolenceShort:<<incapable of violence??野蛮なことはできない>>
+IsNotDrafted:<<{1_labelShort} is not drafted.??{1_labelShort} は_<Draft>_されていない。>>
+
+SnowNone:<<No snow??雪なし>>
+SnowDusting:<<Snow (dusting)??積雪 (疎ら)>>
+SnowThin:<<Snow (thin)??積雪 (薄い)>>
+SnowMedium:<<Snow (medium)??積雪 (普通)>>
+SnowThick:<<Snow (thick)??積雪 (厚い)>>
+
+GunInstalled:<<Installed??武装>>
+MinimumRange:<<Minimum range??最小半径>>
+CanFireIn:<<Can fire in??発射開始まであと>>
+CannotFire:<<Cannot fire??発射できない>>
+Roofed:<<roofed??屋根>>
+ShellLoaded:<<Shell loaded: {1_label}??装填済み: {1_label}>>
+ShellNotLoaded:<<Not loaded??未装填>>
+
+ReportHaulingTo:<<hauling {THING_label} to {DESTINATION}.??{THING_label} を {DESTINATION} に運んでいる。>>
+ReportHaulingToGrave:<<burying {THING_label} in {DESTINATION}.??{THING_label} を {DESTINATION} に埋めている。>>
+ReportHauling:<<hauling {1_label}.??{1_label} を運んでいる。>>
+ReportHaulingUnknown:<<hauling.??運んでいる。>>
+ReportSleeping:<<sleeping.??寝ている。>>
+ReportResting:<<resting.??休んでいる。>>
+WatchingSunrise:<<watching the sunrise.??日の出を眺めている。>>
+CloudWatching:<<cloudwatching.??流れる雲を眺めている。>>
+WatchingSunset:<<watching the sunset.??日の入りを眺めている。>>
+Stargazing:<<stargazing.??星の瞬きを眺めている>>
+WatchingEclipse:<<watching the eclipse.??日食を眺めている。>>
+WatchingAurora:<<watching the aurora.??オーロラを眺めている。>>
+UsingVerb:<<using {0} on {1}.??{1} に {0} を使う>>
+AreaLower:<<area??エリア>>
+ReportCowering:<<cowering.??縮こまっている。>>
+ReportStanding:<<standing.??立っている。>>
+ReportExtinguishingFire:<<extinguishing fire.??火を消している。>>
+ReportExtinguishingFireOn:<<extinguishing fire on {TARGET_label}.??{TARGET_label} の火を消している。>>
+ReportDiggingUpCorpse:<<digging up corpse.??死体を掘り起こしている。>>
+
+LordReportAttendingMarriageCeremony:<<Attending marriage ceremony??結婚式に参加している>>
+LordReportAttendingParty:<<Attending party??_{party}_に参加している>>
+LordReportAttendingConcert:<<Attending concert??_{concert}_に参加している>>
+LordReportHoldingConcert:<<Holding a concert??_{concert}_を開いている>>
+LordReportGivingSpeech:<<Giving a speech??_{speech}_している>>
+LordReportListeningSpeech:<<Listening to {ORGANIZER_labelShort}'s speech??{ORGANIZER_labelShort} の_{speech}_を聞いている>>
+LordReportFormingCaravan:<<Forming caravan??キャラバンを編成している>>
+
+WeaponMissRadius:<<Weapon miss radius??攻撃ミス半径>>
+ShootReportShooterAbility:<<Shooter??射手の命中率>>
+ShootReportWeapon:<<Weapon??武器>>
+Darkness:<<Darkness??暗がり>>
+TargetProne:<<Target lying down??標的は伏せている>>
+TargetSize:<<Target size??標的の大きさ>>
+Weather:<<Weather??天候>>
+ShootingCover:_<Cover>_
+CoverThingBlocksPercentOfShots:<<{COVER_label} stops {1}??{COVER_label} は {1} 低下させる>>
+NoCoverLower:<<no cover??_{cover}_無し>>
+Execution:<<Execution??処刑>>
+
+RecipeMake:<<make {0}??{0} を作る>>
+RecipeMakeDescription:{0} を作る。
+RecipeMakeJobString:<<Making {0}.??{0} を作っている。>>
+RecipeAdminister:<<administer {0}??{0} を投与する>>
+RecipeAdministerJobString:<<Administering {0}.??{0} を投与している。>>
+TeetotalerUnhappy:<<teetotaler will be unhappy??_<teetotaler>_ は不機嫌になる>>
+ProsthophobeUnhappy:<<body purist will be unhappy??_<body purist>_ は不機嫌になる>>
+
+ThoughtExpiresIn:<<Expires in: {0}??残り日数: {0}>>
+ThoughtNullifiedBy:<<thought disabled by??思いは無効>>
+ThoughtStartsExpiringIn:<<Starts expiring in: {0}??残り日数: {0}>>
+ThoughtFinishesExpiringIn:<<Finishes expiring in: {0}??有効日数: {0}>>
+MentalBreakThresholdExtreme:<<Extreme break threshold??_{mental break}_(大)閾値>>
+MentalBreakThresholdMajor:<<Major break threshold??_{mental break}_(中)閾値>>
+MentalBreakThresholdMinor:<<Minor break threshold??_{mental break}_(小)閾値>>
+
+PawnMainDescGendered:{PAWN_gender} {1}
+PawnMainDescFactionedWrap:<<{0} of {1}??{1} の {0}>>
+PawnTitleDescWrap:<<{0} in {1}??{1} の {0}>>
+PawnMainDescUnderFactionedWrap:<<{0} under {1}??{1} 下の {0}>>
+PawnMainDescTempFactionedWrap:<<{0} under {1}\nHome faction: {2}??{1} 下の {0}\nホーム_{faction}_: {2}>>
+PawnMainDescLifestageWrap:{2_lifeStageAdjective} {0}
+Faction:_<Faction>_
+FactionDesc:{PAWN_labelShort} が現在所属している_{faction}_。
+ExtraFactionDesc:{PAWN_labelShort} が以前所属していた_{faction}_。現在の_{faction}_から出れば元の_{faction}_に戻れる。
+Equipped:<<Equipped??装備品>>
+EquippedNothing:<<nothing??素手>>
+Dead:<<Dead??死亡>>
+Unconscious:<<Unconscious??意識不明>>
+PainShock:<<In shock due to pain??痛みでショック状態>>
+PainShockShort:<<Pain shock??激痛>>
+Incapacitated:<<Incapacitated??倒れている>>
+;todo:保留/一体何がslowedなのか意味不明
+InRestraints:<<In restraints (slowed)??拘束中 (移動速度減)>>
+Carrying:<<Carrying??運搬中>>
+AffectedBy:<<Affected by:??原因:>>
+Queued:<<Queued??待機中>>
+State:<<State??状態>>
+StunLower:<<stun??麻痺>>
+
+SelectNextInSquareTip:同じマスにある別のモノを選択する。\n\nショートカットキー: {0}\n\nこれは同じマスを間隔を置いてクリックした時とおなじ動作。
+DefInfoTip:情報を表示する。
+
+HostilityReponseTip:この人物が_{draft}_されていない時に近くの敵にどう対処するかを変更する。
+HostilityResponseCurrentMode:<<Current mode??現在のモード>>
+
+;これは 'Blood of John' のように使われるが、語順が変わらないので訳せない
+OfLower:of
+
+PowerNotConnected:<<Not connected to power.??電力断。>>
+PowerConnectedRateStored:<<Grid excess/stored: {0} W / {1} Wd??送電網の余剰/蓄電: {0} W / {1} Wd>>
+PowerNeeded:<<Power needed??消費>>
+PowerOutput:<<Power output??出力>>
+PowerBatteryStored:<<Stored??蓄電量>>
+PowerBatteryEfficiency:<<Efficiency??効率>>
+SelfDischarging:<<Self-discharging??自然放電>>
+
+TargetTemperature:<<Target temperature??設定温度>>
+PowerConsumptionMode:<<Current power use??消費電力>>
+PowerConsumptionHigh:<<high??高>>
+PowerConsumptionLow:<<low??低>>
+
+Indoors:<<Indoors??屋内>>
+IndoorsUnroofed:<<Unroofed??天井なし>>
+Outdoors:<<Outdoors??屋外>>
+
+RotStateFresh:<<Fresh??新鮮>>
+RotStateRotting:<<Rotting??腐敗>>
+RotStateDessicated:<<Dessicated??乾燥>>
+CurrentlyFrozen:<<Frozen (won't spoil)??冷凍 (傷まない)>>
+CurrentlyRefrigerated:<<Refrigerated (spoils in {0})??冷蔵 (腐敗まで {0})>>
+NotRefrigerated:<<Not refrigerated (spoils in {0})??常温 (腐敗まで {0})>>
+OverADecade:<<over a decade??10年以上>>
+LessThanADay:<<less than a day??一日未満>>
+
+ShotBy:<<Shot by {1_labelShort}??{1_labelShort} の射撃>>
+CannotHit:<<Cannot hit target.??命中しない。>>
+ManhunterPerHit:<<Manhunter chance per hit??命中ごとの殺人鬼になる確率>>
+
+Ingredients:<<Ingredients??材料>>
+
+PercentGrowth:<<{0} grown??成長率 {0}>>
+GrowthRate:<<Growth rate??成長速度>>
+FullyGrownIn:<<Fully grown in {0} of growth.??成長率 {0} で収穫可能>>
+PlantNeedsLightLevel:<<Needs light level??必要な光量>>
+PlantResting:<<Resting??休息中>>
+OutOfIdealTemperatureRange:<<Non-ideal temperature. Temperature growth multiplier: {0}%??適温範囲外。成長速度乗数: {0}%>>
+OutOfIdealTemperatureRangeNotGrowing:<<Non-ideal temperature. Not growing.??適温範囲外。成長できない。>>
+ReadyToHarvest:<<Ready to harvest.??収穫できる。>>
+Mature:<<Mature.??十分成長した。>>
+OutdoorGrowingPeriod:<<Growing period??成長可能期間>>
+NoGrowingPeriod:<<Never??なし>>
+GrowYearRound:<<Year-round??一年中>>
+GrowSeasonHereNow:<<Growing season here now.??栽培時期になった。>>
+CannotGrowBadSeasonTemperature:<<Cannot grow (bad seasonal temperature).??成長不可能 (季節の温度が不適合)。>>
+Blighted:[[Blighted??_{blight}_]]
+DyingBecauseExposedToLight:<<Dying because exposed to light??光に晒されているため、死につつある>>
+
+Zone:<<Zone??ゾーン>>
+GrowingZone:_<Growing zone>_
+Stockpile:_<Stockpile zone>_
+DumpingStockpile:_<Dumping stockpile zone>_
+Priority:<<Priority??優先度>>
+ClearAll:<<Clear all??全てクリア>>
+AllowAll:<<Allow all??全て許可>>
+
+HitPoints:<<{0} hit points??{0} ヒットポイント>>
+AnyQuality:<<any quality??全ての品質>>
+OnlyQuality:<<{0} only??{0} のみ>>
+
+Undiscovered:<<Undiscovered??未知>>
+
+ShowLearningHelperWhenEmptyToggleButton:ラーニングヘルパーが空のときでも表示する。\n\n学ぶべき項目がある場合はラーニングヘルパーは常に表示される。何も無いときには非表示にできる。
+ZoneVisibilityToggleButton:ゾーンを可視化する。
+ShowBeautyToggleButton:美しさを表示する。\n\nマウスで指した所にキャラクタが居る場合に感じる周りの美しさを表示する。
+ShowRoomStatsToggleButton:部屋の状態を表示する。\n\nマウスで指した部屋の状態を表示する。
+ShowColonistBarToggleButton:_{colonist}_バーを表示する。\n\n_{colonist}_全員のアイコンと基本ステータスを画面上部に沿うように表示する。\n\n右クリックしてドラッグすると並べ替えられる。
+AutoHomeAreaToggleButton:新しい建造物の周りを自動的に _<Home area>_ にする。
+AutoRebuildButton:_<Home area>_ 内の破壊された建物を自動的に建造する。
+CategorizedResourceReadoutToggleButton:物資情報の分類方法を切り替える。
+ShowAnimalNamesToggleButton:手懐けた動物の名前を表示する。
+ShowRoofOverlayToggleButton:屋根を表示する。
+ShowFertilityOverlayToggleButton:肥沃度の表示切替。\n\n土地がどれくらい肥沃か表示する。肥沃さはどのような植物を植えられ、速く育つかに影響する。
+ShowTerrainAffordanceOverlayToggleButton:地形のアフォーダンスの表示切り替え。\n\nどの建物が建てられるか示している。\n\n例えば、いくつかの地面は軽い、または中型の建物だけ受付、重いものは受け付けない。_[Bridge]_ は水の上だけに作れる。
+LockNorthUpToggleButton:北が常に上になるようにカメラの回転を固定する。
+UsePlanetDayNightSystemToggleButton:惑星ビューの夜間表現の切り替え。
+ShowExpandingIconsToggleButton:離れているオブジェクトを拡大アイコンで表示する。
+ShowWorldFeaturesToggleButton:地形の名前を表示する。
+
+FireOn:<<fire on {1_label}??{1_label} が 燃えている>>
+Burning:<<Burning??炎上中>>
+FireSizeLower:<<fire size {0}??炎上サイズ {0}>>
+
+GameConditionsTip:この地域に今すぐ影響を及ぼす特殊な条件。
+TimeLeft:<<time left??残り時間>>
+ImpactDate:<<impact date??衝突日>>
+SourceUnknown:<<Source unknown.??発生元不明。>>
+ClickToJumpToSource:<<Click to jump to the source.??クリックで発生元へ移動>>
+CausedByQuest:<<Caused by quest: {0}??クエストによって起こされた: {0}>>
+
+NoStuffsToBuildWith:これを作るのに必要な素材が無い。
+
+WillGetWorkSpeedPenalty:{0} の作業速度が低下
+MustPlaceUnroofed:屋根の下には設置できない。
+MustPlaceHeadOnShipBeam:_[Ship beam]_ の先端に配置する。
+MustPlaceNextToHopperAccepter:_[Hopper]_ が必要な設備の隣に配置する。
+MustPlaceOnSteamGeyser:_[Steam geyser]_ に直接配置する。
+MustPlaceCoolerWithFreeSpaces:_[Cooler]_ の冷気側、暖気側ともに空ける。
+MustPlaceVentWithFreeSpaces:風が通るように両側を開ける必要がある。
+MustPlaceAdjacentStandable:全周に人が立てるスペースが必要。
+MustPlaceNearFuelingPort:_[Pod launcher]_ の燃料口の隣に配置する。
+MustPlaceOnDrillable:ドリルで掘れる資源の近くに配置する。
+CannotPlaceAdjacentTrap:罠の隣には置けない。
+
+WindTurbine_WindPathIsBlockedBy:次の物が邪魔している
+WindTurbine_WindPathIsBlockedByRoof:屋根が邪魔している。
+
+Watermill_WaterUsedTwice:流れが損なわれている: 他の _[watermill generator]_ により乱されている
+
+CasketContains:<<Contains??内容物>>
+CasketWarning:警告！\n\n{PAWN_nameDef} は最後の_{colonist}_です！ {PAWN_nameDef} をキャスケットに入れるとゲームを続けられなくなる。本当に続行しますか？
+
+ShipReportCannotLaunch:発射できない。
+ShipReportCanLaunch:発射準備完了。
+ShipReportMissingPart:必須コンポーネントが足りない。
+ShipReportMissingPartRequires:必要物
+ShipReportNoFullPods:_[Cryptosleep casket]_ に空きがある
+ShipReportHibernating:休止コンポーネント
+ShipReportNotReady:コンポーネント準備不足
+HibernateWarning:<Name>Charlon Whitestone</Name> は反応炉の休止状態復帰処理を行える準備ができた。彼の忠告によると、起動処理はおよそ15日かかり、エネルギー特性は遠くからでも検知される。\n\nこの種のエネルギー特性は星間飛行能力があることを示しており、略奪者集団や凶悪な_[Mechanoid]_の群れを引き寄せることになる。\n\nかつてない程の強さで襲われる。まずは防御をしっかり整えよう。
+HibernateWarningStandalone:反応炉を動かす準備が出来た。\n\n起動処理はおよそ15日かかり、エネルギー特性は遠くからでも検知される。この種のエネルギー特性は星間飛行能力があることを示しており、略奪者集団や凶悪な_[Mechanoid]_の群れを引き寄せることになる。\n\nかつてない程の強さで襲われる。まずは防御をしっかり整えよう。
+HibernateWarningPacifist:<Name>Charlon Whitestone</Name> は反応炉の休止状態復帰処理を行える準備ができた。彼はこの処理はおよそ15日掛かると忠告した。
+HibernateWarningStandalonePacifist:反応炉を動かす準備が出来た。この処理にはおおよそ15日かかる。
+
+SkillNeurotrainerLabel:_[neurotrainer]_ ({0})
+SkillNeurotrainerUseLabel:<<Use skill neurotrainer to learn {0}??スキル _[neurotrainer]_ で {0} を身につける>>
+SkillNeurotrainerDescription:特定のスキルを鍛える_[Mechanite]_の使い切りの薬。\n\n薬は眼窩から投与される。患者の脳に放たれた_[Mechanite]_は必要に応じて神経組織へ変化し、特定分野の技能を素早く上達させる。
+SkillNeurotrainerUsed:{USER_labelShort} は_[Neurotrainer]_を使って、{1}のスキルが {2} から {3} になった。
+
+Installed:<<Installed??設置済み>>
+NotInstalled:<<Not installed??未設置>>
+
+Title:<<Title??題名>>
+Untitled:<<Untitled??無題>>
+
+UnfinishedItem:<<Unfinished {0}??未完の {0}>>
+UnfinishedItemWithStuff:<<Unfinished {0} {1}??未完の {0} {1}>>
+
+Quality:<<Quality??品質>>
+QualityDescription:アイテムがどの位良く作られたか。
+QualityIs:<<Quality: {0}??品質: {0}>>
+
+Mood_MentalState:<<mental state??精神状態>>
+Mood_AboutToBreak:<<about to break??_{mental/break}_寸前>>
+Mood_OnEdge:<<on edge??不安>>
+Mood_Stressed:<<stressed??ストレス気味>>
+Mood_Neutral:<<neutral??普通>>
+Mood_Content:<<content??満足>>
+Mood_Happy:<<happy??幸せ>>
+
+GameOverEveryoneDead:みんな亡くなったか、去ったか、いずれにせよ、この物語は終わった。\n\n恐らく誰かがこの廃墟の使い道を見つけてくれるだろう。
+GameOverPlanetkillerImpact:亜光速まで加速された対惑星兵器が水素爆弾一兆個に相当する威力で地面へ激突した。水風船をライフルで撃ったかのように、この世界は衝撃により液状化し、溶けた中心部は宇宙空間へ飛び散っていった。{0}の一部は今や小惑星帯になっている。残りは溶けて、放射能の地獄と化し、数キロメートルの高さにもなる惑星級地震により絶えず波打っている。生き残る事は出来なかった。
+GameOverShipLaunchedIntro:船を打ち上げた！
+GameOverShipLaunchedEnding:機械ペルソナは船を安全な地へ導こうとしている。この星系内の繁栄している惑星を探すかもしれないし、数世紀もかかるような遠い星へ行くための準備を始めるかもしれない。もしかしたら、小惑星の氷に数千年隠れ、誰かがここに新しい_[Glitterworld]_を作るのを待つかもしれない。\n\n目覚めたときに何が起こったのか分かるだろう。
+GameOverColonistsEscaped:次の_{colonist}_は脱出した:\n\n{0}
+GameOverColonistsLeft:次の_{colonist}_は後に残された:\n\n{0}
+GameOverInMemoryOf:記憶:\n
+GameOverKeepPlaying:<<Keep playing??ゲームを続ける>>
+GameOverMainMenu:<<Main menu??メニューに戻る>>
+
+LifespanExpiry:<<Expires in:??寿命まで:>>
+InactiveFacility:<<inactive??無効>>
+
+DiseaseGrowthModeChanged_Growing:<<{PAWN_labelShort}'s {1} is now growing.??{PAWN_labelShort} の {1} は進行している。>>
+DiseaseGrowthModeChanged_Stable:<<{PAWN_labelShort}'s {1} is now stable.??{PAWN_labelShort} の {1} は安定している。>>
+DiseaseGrowthModeChanged_Remission:<<{PAWN_labelShort}'s {1} is now in remission.??{PAWN_labelShort} の {1} は治癒した。>>
+
+MarriageSpotUsable:<<Usable now.??使用可能。>>
+MarriageSpotNotUsable:<<Not usable: {0}.??使用不可: {0}。>>
+MarriageSpotNotStandable:<<blocked??塞がれている>>
+MarriageSpotDangerous:<<too dangerous for {1_labelShort}??{1_labelShort} のため非常に危険>>
+MarriageSpotForbidden:<<forbidden for {1_labelShort}??{1_labelShort} のため禁止>>
+MarriageSpotReserved:<<reserved??予約済>>
+MarriageSpotUnreachable:<<unreachable for {1_labelShort}??{1_labelShort} のため到達できない>>
+MarriageSpotInPrisonCell:<<in prison cell??牢獄の中にある>>
+NotEnjoyableOutsideTemperature:<<uncomfortable temperature??不快な温度>>
+
+ActivityIconMedicalRest:<<Medical rest??治療中>>
+ActivityIconSleeping:<<Sleeping??睡眠中>>
+ActivityIconFleeing:<<Fleeing??逃亡中>>
+ActivityIconAttacking:<<Fighting??戦闘中>>
+ActivityIconIdle:<<Idle??暇>>
+ActivityIconBurning:<<Burning??火だるま>>
+ActivityIconFormingCaravan:<<Forming a caravan??キャラバン編成中>>
+
+;CompProperties_Maintainable
+DueForMaintenance:<<Due for maintenance.??手入れが必要。>>
+DeterioratingDueToLackOfMaintenance:<<Deteriorating due to lack of maintenance.??手入れ不足により劣化中。>>
+
+ProgressToNextLump:<<Progress to next lump??次の塊への到達進度>>
+ResourceBelow:<<Resource below??下にある資源>>
+ProgressToNextPortion:<<Progress to next portion??次の部分への到達進度>>
+DeepDrillNoResources:<<No resources below.??下に資源がない。>>
+DeepDrillExhausted:_[Deep drill]_ の資源が枯渇したので、ドリルは自動的に禁止になった。解除すると {0} を採掘するようになる。
+DeepDrillExhaustedNoFallback:_[Deep drill]_ の資源が枯渇した。
+
+LearningHelper:<<Learning helper??ラーニングヘルパー>>
+MarkLearned:<<Mark as learned??学習済みにする>>
+AlreadyLearned:<<Already learned??学習済み>>
+Filter:<<Filter??フィルター>>
+
+CompassTip:北極への向きを示している。クリックすると北極が上になるようにカメラが回転する。
+
+RoutePlannerButtonTip:クリックするとウェイポイント間の距離を計算できる計画モードになる。
+RoutePlannerAddTwoOrMoreWaypoints:二つ以上のウェイポイントを追加する。
+RoutePlannerAddOneOrMoreWaypoints:一つ以上のウェイポイントを追加する。
+RoutePlannerEstTimeToFinalDest:<<Total route time: {0}??推定所要時間: {0}>>
+;Note: この辺のテキストは折り返しされないので、長すぎると切れる
+RoutePlannerUsingAverageTicksPerMoveWarning:デフォルトの速度で計算しているので、実際には少し異なる。
+RoutePlannerUsingTicksPerMoveOfCaravan:<<Calculating for: {0}??計算: {0}>>
+RoutePlannerPressRMBToAddAndRemoveWaypoints:右クリック: ウェイポイントの追加と削除。
+RoutePlannerPressEscapeToExit:ESC: 計画モードを抜ける。
+RoutePlannerPressEscapeToReturnToCaravanFormationDialog:ESC: キャラバン編成ダイアログに戻る。
+EstimatedTimeToWaypoint:<<Est. travel time: {0}??推定時間: {0}>>
+EstimatedTimeToWaypointFromPrevious:<<Est. travel time (from previous waypoint): {0}??推定区間時間: {0}>>
+EstimatedTimeToTile:<<Est. travel time: {0}??推定移動時間: {0}>>
+ForagedFoodAmount:_<Foraged food amount>_
+
+OutfitAnything:<<Anything??なんでも>>
+OutfitWorker:<<Worker??作業者>>
+OutfitSoldier:<<Soldier??戦闘員>>
+OutfitNudist:_<Nudist>_
+
+HibernatableHibernating:<<Hibernating??休止中>>
+HibernatableStartingUp:<<Starting up??再起動中>>
+
+ClickToSeeAvailableOrders_WorldObject:<<{0}: See available orders...??{0}: 可能な命令を見る...>>
+ClickToSeeAvailableOrders_Empty:<<See available orders...??可能な命令を見る...>>
+
+PawnTooltipWithDescAndPrimaryEquip:{0} ({1})\n{2}\n{3}
+PawnTooltipWithDescNoPrimaryEquip:{0} ({1})\n{2}
+PawnTooltipWithPrimaryEquipNoDesc:{0}\n{1}\n{2}
+PawnTooltipNoDescNoPrimaryEquip:{0}\n{1}
+PawnTooltipPsychicEntropy:_{Psychic entropy}_: {0}/{1}\n減少速度: {2}/{3}秒(ゼロまで {4}秒)\n\n_{Psychic entropy}_は_{psycast}_実行後に増える。\n安全限界を超えると長期的な健康被害に繋がる可能性がある。\nエントロピーがゼロになるたびに、サイキック酔いが残る。
+PawnTooltipPsychicEntropyPainFocus:痛みが心を集中させ、 _[psychic entropy]_ からより早く回復させる。\n\n痛みレベル: {0}\n_[psychic entropy]_ 回復へのボーナス: {1}
+PawnTooltipPsychicEntropyLimit:_{Psychic entropy}_ のリミッターの切替。\n\n_{Psychic entropy}_の限界を超えると、長期の_{psychic breakdown}_などの重大な健康被害や、加齢に影響する脳損傷さえも起こす。
+
+PawnTooltipGenderAndKindLabel:{0} {1}
+
+; これはandで繋がるので名詞にする。
+Reward_Pawn_DropPod:{0_nameDef} という {0_age} 歳の {0_title} が _[transport pod]_ で到着する {0_relationInfoInParentheses}
+Reward_Pawn_WalkIn:{0_nameDef} という {0_age} 歳の {0_title} が到着して加わる {0_relationInfoInParentheses}
+Reward_Pawn_Caravan:{0_nameDef} という {0_age} 歳の {0_title} が加わる {0_relationInfoInParentheses}
+Reward_Items:次の物資が_[transport pod]_で届く (総額 {1}):\n\n{0}
+Reward_Items_Caravan:次を受け取る (総額 {1}):\n\n{0}
+Reward_Goodwill:{0_name} との_{faction}_関係が {1} 向上する
+
+
+BondedWith:<<Bonded to: {0}??絆: {0}>>
+NotBonded:まだ結ばれていない
+BladelinkBondedToSomeoneElse:<<bonded to someone else??他と結ばれている>>
+
+Biocoded:<<biocoded {0}??生体認証 {0}>>
+CodedFor:<<Biocoding: {0}??生体認証: {0}>>
+BiocodedCodedForSomeoneElse:<<biocoded??生体認証>>
+
+InterceptsProjectilesEvery:<<Intercepts {0} every {1}??{1} 毎に {0} を妨害>>
+InterceptsProjectiles:<<Intercepts {0}??{0} を妨害>>
+InterceptsProjectiles_GroundProjectiles:<<ground projectiles??地面飛翔体>>
+InterceptsProjectiles_AerialProjectiles:<<aerial projectiles??空中飛翔体>>
+
+AffectedGender:<<Affected gender??影響する性別>>
+
+Wiki:Wiki
+WikiTip:Webブラウザを開いて RimWorld の Wiki を見て、遊び方を調べる。
+Menu:<<Menu??メニュー>>
+
+ScenPart_PlayerFaction:あなたの_{faction}_は {0} になります。
+ScenPart_StartWithPawns:<<Start with {0} people, chosen from {1}.??{1} 人の中から {0} 人を選んで始めます。>>
+ScenPart_StartWithPawns_OutOf:<<chosen from??候補人数>>
+RandomPet:<<random pet??ランダムなペット>>
+ScenPart_StartingResearchFinished:<<Start with research: {0}??開始時で研究済み: {0}>>
+ScenPart_ArriveInDropPods:<<Arrive in drop pods.??_{Drop pod}_で到着する。>>
+ScenPart_StatFactor:<<The stat "{0}" will be universally multiplied by {1}.??"{0}" は常に {1} 倍になる。>>
+ScenPart_PawnsHaveHediff:<<{0} have a {1} chance to start with {2}.??{0} は {1} の確率で {2} を持って始まる。>>
+ConfigurableSeverity:<<severity: {0}??深刻度: {0}>>
+ScenPart_SetNeed:<<{0} have a {1} chance to have their {2} set between {3} and {4}.??{0} は {1} の確率で {2} が {3} から {4} になる。>>
+ConfigurableLevel:<<level: {0}??レベル: {0}>>
+ScenPart_PawnsHaveTrait:<<{0} have a {1} chance to start with trait: {2}??{0} は {1} の確率で次の特徴を持って始まる: {2}>>
+ScenPart_OnPawnDeathExplode:<<Characters and creatures explode on death ({0}, radius {1}).??キャラクターや生物が死ぬときに爆発する ({0}、半径 {1})。>>
+ScenPart_PawnsAreNaked:<<{0} start naked.??{0} は真っ裸で始まる。>>
+ScenPart_StartingPawnAgeMin:<<Your people will be at least {0} years old.??人々の最少年齢は {0}才 になる。>>
+ScenPart_StartingPawnAgeMax:<<Your people will be at most {0} years old.??人々の最大年齢は {0}才 になる。>>
+ScenPart_StartingPawnAgeRange:<<Your people will be between {0} and {1} years old.??人々の年齢は {0} から {1} 才になる。>>
+ScenPart_StartWith:<<Start with??開始時の所持品>>
+ScenPart_MapScatteredWith:<<Map is scattered with??マップ上に散らばっている物>>
+ScenPart_PermaGameCondition:<<Permanent game condition(s)??永続するゲーム状態>>
+ScenPart_DisableIncident:<<Incident(s) disabled??起きない出来事>>
+ScenPart_CreateIncident:<<Incident created??起こされた出来事>>
+ScenPart_DisallowBuilding:<<Can never build??建造できない物>>
+
+Level:<<Level??レベル>>
+ProgressToNextLevel:<<Progress to next level??次のレベルまで>>
+Experience:<<Experience??経験値>>
+Passion:<<Passion??熱意>>
+PassionNone:<<None\n   -Learns {0}??なし\n   -習得率 {0}>>
+PassionMinor:<<Interested\n   -Learns {0}??関心\n   -習得率 {0}>>
+PassionMajor:<<Burning\n   -Learns {0}??熱心\n   -習得率 {0}>>
+LearnedMaxToday:<<Learned max today ({0}/{1}, further learning multiplied by {2})??今日は最大限学んだ ({0} / {1}、 以降の習得は {2} になる)>>
+EffectsAtLevel:<<Effects at level {0}??レベル {0} の効果>>
+SkillMax:<<MAX??最大>>
+Skill0:<<Barely heard of it??無知>>
+Skill1:<<Utter beginner??ド素人>>
+Skill2:<<Beginner??初心者>>
+Skill3:<<Basic familiarity??基礎知識あり>>
+Skill4:<<Some familiarity??ある程度の知識あり>>
+Skill5:<<Significant familiarity??十分な知識あり>>
+Skill6:<<Capable amateur??できるアマチュア>>
+Skill7:<<Weak professional??未熟なプロ>>
+Skill8:<<Employable professional??まともなプロ>>
+Skill9:<<Solid professional??信頼できるプロ>>
+Skill10:<<Skilled professional??熟練のプロ>>
+Skill11:<<Very skilled professional??凄腕のプロ>>
+Skill12:<<Expert??達人>>
+Skill13:<<Strong expert??優れた達人>>
+Skill14:<<Master??師範>>
+Skill15:<<Strong master??優れた師範>>
+Skill16:<<Region-known master??地方で名高い師範>>
+Skill17:<<Region-leading master??地方随一の師範>>
+Skill18:<<Planet-known master??惑星で名高い師範>>
+Skill19:<<Planet-leading master??惑星随一の師範>>
+Skill20:<<Legendary master??伝説の師範>>
+
+LetterDay:<<d??日>>
+LetterHour:<<h??時>>
+LetterMinute:<<m??分>>
+LetterSecond:<<s??秒>>
+LetterYear:<<y??年>>
+DaysLower:<<days??日>>
+HoursLower:<<hours??時>>
+SecondsLower:<<seconds??秒>>
+SeasonSpring:<<spring??春>>
+SeasonSummer:<<summer??夏>>
+SeasonFall:<<fall??秋>>
+SeasonWinter:<<winter??冬>>
+SeasonPermanentSummer:<<permanent summer??常夏>>
+SeasonPermanentWinter:<<permanent winter??常冬>>
+QuadrumAprimay:<<Aprimay??第一>>
+QuadrumJugust:<<Jugust??第二>>
+QuadrumSeptober:<<Septober??第三>>
+QuadrumDecembary:<<Decembary??第四>>
+QuadrumAprimay_Short:<<Apr??一>>
+QuadrumJugust_Short:<<Jug??2二>>
+QuadrumSeptober_Short:<<Sep??三>>
+QuadrumDecembary_Short:<<Dec??四>>
+Born:<<Born: {0}??生年月日: {0}>>
+AgeChronological:<<Chronological age: {0} years, {1} quadrums, {2} days??暦上の年齢: {0} 歳 {1} {2} 日>>
+AgeBiological:<<Biological age: {0} years, {1} quadrums, {2} days??生物学的年齢: {0} 歳 {1} {2} 日>>
+Period1Year:<<1 year??1 年>>
+PeriodYears:<<{0} years??{0} 年>>
+Period1Quadrum:<<1 quadrum??1 節>>
+PeriodQuadrums:<<{0} quadrums??{0} 節>>
+Period1Day:<<1 day??1 日>>
+PeriodDays:<<{0} days??{0} 日>>
+Period1Hour:<<1 hour??1 時間>>
+PeriodHours:<<{0} hours??{0} 時間>>
+Period1Second:<<1 second??1 秒>>
+PeriodSeconds:<<{0} seconds??{0} 秒>>
+Started:<<Started??開始>>
+Lasted:<<Lasted??継続>>
+OccurredTimeAgo:<<occurred {0} ago??{0} 前>>
+
+TabTerrain:<<Terrain??地形>>
+TabPlanet:<<Planet??惑星>>
+TabCaravanSocial:<<Social??社交>>
+TabCaravanHealth:<<Health??健康>>
+TabCaravanNeeds:_<Needs>_
+TabCaravanGear:<<Gear??装備>>
+TabCaravanItems:_<Items>_
+AbandonSliderText:<<Abandon {{0}}x {0}??破棄 {{0}}x {0}>>
+ConfirmAbandonItemDialog:本当に {0} を破棄しますか？\n\n破棄されたアイテムは消滅して回収できません。
+AbandonTip:<<Abandon??破棄>>
+BanishTip:<<Banish??追放>>
+AbandonSpecificCountTip:<<Abandon specific count??指定個数を破棄>>
+AbandonAllTip:<<Abandon (all)??破棄 (全て)>>
+AbandonItemTipExtraText:破棄されたアイテムは消滅して回収できません。
+BanishTipWillDie:{1_labelShort} はほぼ確実に死ぬでしょう。
+CaravanColonists:<<Colonists??_{colonist}_>>
+CaravanPrisonersAndAnimals:<<Prisoners and animals??_{prisoner}_と動物>>
+CaravanItems:_<Inventory>_
+OpenSpecificTabButtonTip:より詳細なタブを表示
+CaravanPrisoners:<<Prisoners??_{prisoner}_>>
+CaravanWeaponsAndApparel:<<Equippable items??装備可能アイテム>>
+NoneCapable:<<None capable??能力なし>>
+GainingJoyBecauseCaravanNotMoving:<<Caravan not moving??キャラバンは動いていない>>
+DragToRearrange:再調整するにはドラッグ。
+AssignDrugPolicies:<<Assign drug policies??ドラッグ・ポリシーの割り当て>>
+BeCarriedIfSickTip:人か動物かに関わらず、病気になったときに他のメンバーが運ぶかどうか。\n\n運ばれているメンバーはキャラバンが動いていても休めるが、移動速度は遅くなる。
+PlanetSeed:<<Seed??シード値>>
+PlanetCoverageShort:<<Coverage??カバレッジ>>
+
+WorkTagNone:<<none??なし>>
+WorkTagIntellectual:_<intellectual>_
+WorkTagManualDumb:<<dumb labor??単純労働>>
+WorkTagManualSkilled:<<skilled labor??労働>>
+WorkTagViolent:<<violent??戦闘>>
+WorkTagCaring:<<caring??看護>>
+WorkTagSocial:<<social??社交>>
+WorkTagAnimals:_<animals>_
+WorkTagArtistic:_<artistic>_
+WorkTagCrafting:_<crafting>_
+WorkTagCooking:_<cooking>_
+WorkTagFirefighting:<<firefighting??消火>>
+WorkTagCleaning:<<cleaning??清掃>>
+WorkTagHauling:<<hauling??運搬>>
+WorkTagPlantWork:<<plant work??栽培>>
+WorkTagMining:_<mining>_
+WorkTagHunting:<<hunting??狩り>>
+WorkTagCommoner:<<commoner work??一般作業>>

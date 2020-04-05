@@ -1,0 +1,2804 @@
+﻿{Sentence_RecruitAttemptAccepted
+	{rulePack
+		{?rulesStrings
+			:sent->[RECIPIENT_nameDef]は[INITIATOR_nameDef]の仲間になることを受け入れた。
+		}
+	}
+}
+{Sentence_RecruitAttemptRejected
+	{rulePack
+		{?rulesStrings
+			:sent->[RECIPIENT_nameDef]は断った。
+		}
+	}
+}
+{Sentence_RomanceAttemptAccepted
+	{rulePack
+		{?rulesStrings
+			:sent->[RECIPIENT_nameDef]は魅了されて[INITIATOR_nameDef]の恋人になった。
+			:sent->[RECIPIENT_nameDef]は良い返事をして[INITIATOR_nameDef]の恋人になった。
+			:sent->[RECIPIENT_nameDef]は興味を引かれて[INITIATOR_nameDef]の恋人になることに同意した。
+		}
+	}
+}
+{Sentence_RomanceAttemptRejected
+	{rulePack
+		{?rulesStrings
+			:sent->[RECIPIENT_nameDef]は進展を断った。
+			:sent->[RECIPIENT_nameDef]は進展を無視した。
+			:sent->[RECIPIENT_nameDef]は背を向けた。
+			:sent->[RECIPIENT_nameDef]は避けた。
+			:sent->[RECIPIENT_nameDef]は最小限の返事をした。
+			:sent->[RECIPIENT_nameDef]は返事をしなかった。
+			:sent->[RECIPIENT_nameDef]は[INITIATOR_objective]を押しのけた。
+		}
+	}
+}
+{Sentence_MarriageProposalAccepted
+	{rulePack
+		{?rulesStrings
+			:sent->[RECIPIENT_nameDef]は受け入れて二人は結ばれた。
+		}
+	}
+}
+{Sentence_MarriageProposalRejected
+	{rulePack
+		{?rulesStrings
+			:sent->[RECIPIENT_nameDef]はプロポーズを断った。
+		}
+	}
+}
+{Sentence_MarriageProposalRejectedBrokeUp
+	{rulePack
+		{?rulesStrings
+			:sent->これ以上関係を続けるのは限界だったので、二人は別れた。
+		}
+	}
+}
+{Sentence_SocialFightStarted
+	{rulePack
+		{?rulesStrings
+			:sent->これは[RECIPIENT_nameDef]を怒らせて、ケンカになった！
+		}
+	}
+}
+{ArtDescriptionRoot_HasTale
+	{rulePack
+		{?rulesStrings
+			:r_art_description->[physical_description_root][context_sentence]
+			:circumstance_group->[circumstance_phrase]
+			:desc_sentence_group->[desc_sentence][style_group]
+			:context_sentence->この[depiction]は、[DATE]にあった、[tale_noun]について触れている。
+			:context_sentence->この[depiction]は、[DATE]にあった、[tale_noun]に関連している。
+			:context_sentence->この[depiction]は、[DATE]にあった、[tale_noun]を伝えている。
+		}
+	}
+}
+{ArtDescriptionRoot_Taleless
+	{rulePack
+		{?rulesStrings
+			:r_art_description->[physical_description_root]
+			:desc_sentence_group->[style_group]
+		}
+	}
+}
+{ArtDescriptionUtility_Global
+	{rulePack
+		{?rulesStrings
+			:style_group->[artextra_clause]。[style_clause]。
+			:style_group->[style_clause]。[artconjunction][artextra_clause]。
+			:style_group->[style_clause]。
+			:style_group->[artextra_clause]。
+			:style_group->
+
+			:artconjunction(p=6)->
+			:artconjunction->面白い対比として、
+			:artconjunction->これを完璧にしているのは、
+			:artconjunction->更に、
+			:artconjunction->際立つことに、
+			:artconjunction->刺激的なのは、
+			:artconjunction->この手の作品には珍しいことに、
+			:artconjunction->誰もあまり気に掛けないが、
+			:artconjunction->それの他に、
+
+			;～ある、～いるの判別不能
+			:artextra_clause->イメージは[subimageplural]で縁取られている
+			:artextra_clause->イメージの端に[subimageplural]がある
+			:artextra_clause->[subimagesingle]が[side_position]にある
+			:artextra_clause->主題は[subimageany]の前にある
+			:artextra_clause->イメージの下側は[subimageany]で占められている
+			:artextra_clause->そのシーンは[Community]の中央で起きている
+			:artextra_clause->そのシーンは[Community]の外縁で起きている
+			:artextra_clause->そのシーンは[TerrainFeature]の近くにある[Community]の中で起きている
+			:artextra_clause->[Character]が[side_position][idles]いる
+			:artextra_clause->[PAWN_adj][Character]が[side_position][idles]いる
+			:artextra_clause->[Quantity_adjphrase]の[Character]が[side_position]から現れている
+			:artextra_clause->[Quantity_adjphrase]の[PAWN_adj][Character]が[side_position]から現れている
+			:artextra_clause->[Animal]が[side_position][idles]いる
+			:artextra_clause->目を細めて見ると、イメージの[composition]構成が[subimageany]の輪郭を表している
+			:artextra_clause->[PAWN_adj][PersonJob]の[emotional_expression]顔が全体を見渡している
+			; 本当は「笑いながら、見渡している」なんだけれど、無理なので。パターンを増やせばいいが、こだわるところではない。
+			:artextra_clause->[PAWN_adj][PersonJob]が全体を見渡しながら[emotional_expression]
+			:artextra_clause->[PAWN_adj][PersonJob]の顔が全体を見渡している
+			:artextra_clause->イメージ全体に[subimageplural]が丁寧に配置されて描かれている
+
+			:subimageany->[subimagesingle]
+			:subimageany->[subimageplural]
+			:subimagesingle(p=4)->[Character]
+			:subimagesingle->[TerrainFeature]
+			:subimagesingle->[Community]
+			:subimagesingle->[TreeType]の樹木
+			:subimagesingle->[Vegetable]
+			:subimagesingle->[Animal]の[AnimalGroup]
+			:subimageplural(p=3)->[Quantity_adjphrase]の[Character]
+			:subimageplural->[Quantity_adjphrase]の[Vegetable]
+			:subimageplural->[Quantity_adjphrase]の[Shape]
+
+			:pawn_adj->死んだ
+			:pawn_adj->死にそうな
+			:pawn_adj->怪我をした
+			:pawn_adj->寝ている
+			:pawn_adj->立っている
+			:pawn_adj->座っている
+			:pawn_adj->いかれた
+			:pawn_adj->若い
+			:pawn_adj->年老いた
+			:pawn_adj->[Gore]にまみれた
+			:pawn_adj->汚れている
+			:pawn_adj->[Apparel]を着ている
+			:pawn_adj->[Weapon]を振り回している
+			:pawn_adj->[Vegetable]を食べている
+
+			:emotional_expression->微笑んでいる
+			:emotional_expression->顔をしかめている
+			:emotional_expression->にらんでいる
+			:emotional_expression->笑っている
+			:emotional_expression->見つめている
+			:emotional_expression->泣いている
+			:emotional_expression->叫んでいる
+			:emotional_expression->大喜びしている
+
+			;side_positionとの組み合わせ
+			:idles->に座って
+			:idles->に立って
+			:idles->でじっとして
+			:idles->で笑って
+			:idles->で横になって
+			:idles->でポーズを決めて
+			:idles->に現れて
+			:idles->へ姿を現そうとして
+			:idles->へ姿を消そうとして
+			:idles->に浮いて
+
+			:side_position->偏った位置
+			:side_position->背景
+			:side_position->遠く
+			:side_position->イメージの下側
+			:side_position->イメージの上側
+			:side_position->主要なシーンの左側
+			:side_position->主要なシーンの右側
+			:side_position->イメージの縁
+			:side_position->主題の近く
+			:side_position->主題から遠く離れた所
+			:side_position->主題の下
+			:side_position->焦点の下
+
+			:style_clause(p=4)->この作品は[ConceptAny][symbolizes]
+			:artextra_clause->[side_position]にある[subimagesingle]が[ConceptAny][symbolizes]
+			:style_clause->この作品は[ConceptAny]のアイデアが注ぎ込まれ、[artstyle_adj]様式になっている
+			:style_clause->この作品は[artstyle_adj]様式で作られている
+			:style_clause->主要なシーンの[artstyle_adj]様式が[artstyle_adj]様式の背景描写で台無しになっている
+			:style_clause->この作品には[artstyle_adj]様式と[composition]構成がある
+			:style_clause->全体的な構成は[composition]構造になっている
+			:style_clause->[artstyle_adj]様式に[artstyle_adj]要素がある
+			:style_clause->このイメージには何らかの方法で[ConceptAny]とConceptAnyconcept]の両方が表現されている
+			;これも語順の問題・・・faq
+			:style_clause->イメージは[ConceptAny]と[ConceptAny]を対照させている
+			:style_clause->イメージの[composition]構成は[artstyle_adj]様式と殆どぶつかり合っている
+			:style_clause->この作品の色相は、[Color]から[Color]へと次第に変化している
+			:style_clause->イメージにあるほとんどの形状は[composition]構造になっているように見える
+
+			:symbolizes->を抽象化している
+			:symbolizes->を抽象化しているように見える
+			:symbolizes->を表現している
+			:symbolizes->を表現しているように見える
+			:symbolizes->を表しているように見える
+			:symbolizes->の景色を思い起こされる
+			:symbolizes->の感情を伝えている
+			:symbolizes->の事を考えさせられる
+			; 本当は「作者の～を～している」だが、クソ語順のせいで無理
+			:symbolizes->を表している
+			:symbolizes->の概念を想起させる
+
+			:depicts->を描写している
+			:depicts->を示している
+			:depicts->を人物描写している
+			:depicts->に似せている
+			:depicts->を図解している
+			:depicts->を表している
+			:depicts->のように形作られている
+
+			:depiction->描写
+			:depiction->イメージ
+			:depiction->肖像
+			:depiction->表現
+			:depiction->イラスト
+			:depiction->アートワーク
+
+			:composition->三角形状の
+			:composition->長方形状の
+			:composition->正方形状の
+			:composition->不安定な
+			:composition->よく釣り合いがとれた
+			:composition->動的な
+			:composition->静的な
+			:composition->垂直的な
+			:composition->水平的な
+			:composition->焦点を合わせた
+
+			:artstyle_adj->独創的でない
+			:artstyle_adj->簡素な
+			:artstyle_adj->複雑で写実的な
+			:artstyle_adj->シュールリアリズム的な
+			:artstyle_adj->古典的な
+			:artstyle_adj->現代的な
+			:artstyle_adj->シンボリックな
+			:artstyle_adj->素人っぽいが魅力的な
+			:artstyle_adj->細部にこだわった
+			:artstyle_adj->ずんぐりとした
+			:artstyle_adj->立体派の
+			:artstyle_adj->印象派の
+			:artstyle_adj->表現派の
+			:artstyle_adj->写真のような
+			:artstyle_adj->バロック調の
+			:artstyle_adj->ダダイストの
+			:artstyle_adj->グリッチアートの
+			:artstyle_adj->ピクセル調の
+			:artstyle_adj->フォーブ派の
+			:artstyle_adj->庶民派の
+			:artstyle_adj->比喩的な
+			:artstyle_adj->曲がりくねったような
+			:artstyle_adj->幾何学的な
+			:artstyle_adj->抽象的な
+			:artstyle_adj->超実写主義的な
+			:artstyle_adj->ポップアートのような
+			:artstyle_adj->ミニマルアートのような
+			:artstyle_adj->ネオ・クラシカルの
+			:artstyle_adj->セル・シェードの
+			:artstyle_adj->ポスト印象派の
+			:artstyle_adj->純粋主義的な
+			:artstyle_adj->ロココ調のような
+			:artstyle_adj->ロマネスク調のような
+			:artstyle_adj->空想的な
+			:artstyle_adj->落書きのような
+			:artstyle_adj->エロティックな
+			:artstyle_adj->官能的な
+			:artstyle_adj->心象派の
+		}
+	}
+}
+{ArtDescription_Sculpture
+	{rulePack
+		{?rulesStrings
+			:physical_description_root->この[sculpture]は、[image][depicts]。[desc_sentence_group]
+			:physical_description_root->この[sculpture]には、[image]の[depiction]が含まれている。[desc_sentence_group]
+			:physical_description_root->これは、[image]の[depiction]を[sculpture]にしている。[desc_sentence_group]
+
+			:sculpture->彫像
+			:sculpture->作品
+			:sculpture->作品
+			:sculpture->彫刻
+		}
+	}
+}
+{ArtDescription_WeaponMelee
+	{rulePack
+		{?rulesStrings
+			:physical_description_root->この武器には[image]の[depiction]が彫られている。[desc_sentence_group]
+			:physical_description_root->この武器には[image]の[depiction]が含まれている。[desc_sentence_group]
+			:physical_description_root->この武器にある彫刻は[image][depicts]。[desc_sentence_group]
+		}
+	}
+}
+{ArtDescription_WeaponGun
+	{rulePack
+		{?rulesStrings
+			:physical_description_root->この銃には[image]の[depiction]が彫られている。[desc_sentence_group]
+			:physical_description_root->この銃には[image]の[depiction]が含まれている。[desc_sentence_group]
+			:physical_description_root->この銃にある彫刻は[image][depicts]。[desc_sentence_group]
+		}
+	}
+}
+{ArtDescription_Furniture
+	{rulePack
+		{?rulesStrings
+			:physical_description_root->この家具には[image]の[depiction]が彫られている。[desc_sentence_group]
+			:physical_description_root->この家具には[image]の[depiction]が含まれている。[desc_sentence_group]
+			:physical_description_root->この家具にある彫刻は[image][depicts]。[desc_sentence_group]
+		}
+	}
+}
+{ArtDescription_SarcophagusPlate
+	{rulePack
+		{?rulesStrings
+			:physical_description_root->この棺には[image]の[depiction]が彫られている。[desc_sentence_group]
+			:physical_description_root->この棺には[image]の[depiction]が含まれている。[desc_sentence_group]
+			:physical_description_root->この棺には[image]の[depiction]が彫られている。[desc_sentence_group]
+			:physical_description_root->この棺にある彫刻は[image][depicts]。[desc_sentence_group]
+		}
+	}
+}
+{TalelessImages
+	{rulePack
+		{?rulesStrings
+			; imageは名詞文にすること。また、desc_pawnは空の場合もある。
+			;Characterは人とは限らない。
+			:image->[desc_pawn][Character]
+			:image->[desc_pawn][TerrainFeature]の近くにいる[Character]
+			:image->[desc_pawn][Community]の近くにいる[Character]
+			;順番の問題。元がクソなのでどうしようもない。
+			:image->[desc_pawn][Character]達に囲まれている[Character]
+			:image->[Game]をしている[Character]達
+			;順番の問題。元がクソなのでどうしようもない。
+			:image->[desc_pawn][Quantity_adjphrase]の[Character]と[Game]をしている[Character]
+			:image->[desc_pawn][Weapon]を携えた[Character]
+			:image->[desc_pawn][Vegetable]を食べている[Character]
+			:image->[Vegetable]を一緒に食べている[Quantity_adjphrase]の[PersonJob]と[PersonJob]
+			:image->[desc_pawn]少し有名な[NamePerson]
+			; 「帽子を着ている」とは言わないので、代わりに「身につけている」を使う
+			:image->[desc_pawn][Apparel]を身につけている[Character]
+
+			:image->[Community]
+			:image->[TerrainFeature]
+
+			:image->[Weapon]
+			:image->[TreeType]の樹木
+			:image->[NaturalObject]
+			:image->[Quantity_adjphrase]の[Weapon]
+			:image->[Quantity_adjphrase]の[Vegetable]
+			:image->[Apparel]
+
+			:depiction->描写
+			:depiction->イメージ
+			:depiction->肖像
+			:depiction->表現
+			:depiction->イラスト
+			:depiction->アートワーク
+
+			:image->[Shape]
+			;順番の問題。元がクソなのでどうしようもない。
+			:image->[Shape]に囲まれている[Shape]
+			:image->抽象化された[ConceptAny]
+			; 原文と違うが「～な」という形容詞になっているので、何か付けないといけない
+			:image->[AdjectiveAny]感情を抽象化した形状
+
+			:desc_pawn(p=12)->
+			:desc_pawn->空を飛んでいる、
+			:desc_pawn->宙に浮いている、
+			:desc_pawn->左へ移動している、
+			:desc_pawn->右へ移動している、
+			:desc_pawn->テーブルに着いている、
+			:desc_pawn->鏡越しに見えている、
+			:desc_pawn->シルエットとして描かれている、
+			:desc_pawn->[Apparel]を身につけた[Animal]に乗っている、
+			:desc_pawn->[AdjectiveAny]表情をしている、
+			:desc_pawn->[Gore]にまみれている、
+		}
+	}
+}
+{Battle_Solo
+	{rulePack
+		{?rulesStrings
+			:r_battlename-><<[PARTICIPANT1_nameDef]'s report??[PARTICIPANT1_nameDef] の報告>>
+		}
+	}
+}
+{Battle_Duel
+	{rulePack
+		{?rulesStrings
+			:r_battlename-><<[PARTICIPANT1_nameDef] vs [PARTICIPANT2_nameDef]??[PARTICIPANT1_nameDef] 対 [PARTICIPANT2_nameDef]>>
+		}
+	}
+}
+{Battle_Internal
+	{rulePack
+		{?rulesStrings
+			:r_battlename-><<[FACTION1_name] internal conflict??[FACTION1_name] の内部抗争>>
+		}
+	}
+}
+{Battle_War
+	{rulePack
+		{?rulesStrings
+			:r_battlename-><<[FACTION1_name] vs [FACTION2_name]??[FACTION1_name] 対 [FACTION2_name]>>
+		}
+	}
+}
+{Battle_Brawl
+	{rulePack
+		{?rulesStrings
+			:r_battlename-><<Free-for-all??乱戦>>
+		}
+	}
+}
+{Combat_MeleeIncludes
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[action][result]。
+			:r_logentry(priority=-10)->[action]。
+
+			:implement(IMPLEMENTOWNER_type==weapon,p=2)->[WEAPON_label]の[TOOL_label]
+			:implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label]
+			:implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label]の[TOOL_label]
+			:implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_label]
+
+			:implement(IMPLEMENTOWNER_type==bodypart,p=2)->[TOOL_label]
+			:implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_label]の[TOOL_label]
+
+			:implement(IMPLEMENTOWNER_type==hediff,p=1)->[TOOL_label]
+
+			:targetlist(recipient_part_count==1)->[recipient_part0_label]
+			:targetlist(recipient_part_count==2)->[recipient_part0_label]、[recipient_part1_label]
+			:targetlist(recipient_part_count==3)->[recipient_part0_label]、[recipient_part1_label]、[recipient_part2_label]
+			:targetlist->[recipient_part0_label]、[recipient_part1_label]、[recipient_part2_label]、[recipient_part3_label]
+
+			:damaged_present(deflected!=True)->傷つけて
+			:damaged_present(deflected!=True)->怪我させて
+
+			:destroyed(p=0.5)->壊した
+			:destroyed(p=0.5)->粉砕した
+			:destroyed(p=0.5)->潰した
+			:destroyed(p=0.5)->破壊した
+
+			:wince(recipient_flesh==Normal)->怯んでいる
+			:wince(recipient_flesh==Normal)->顔をゆがめている
+			:wince(recipient_flesh==Normal)->萎縮している
+			:wince(recipient_flesh==Normal)->うめいている
+			:wince(recipient_flesh!=Mechanoid)->悲鳴を上げている
+			:wince(recipient_flesh!=Mechanoid)->叫んでいる
+			:wince->後ずさっている
+			:wince->よろめいている
+
+			:painstate->に包まれながら
+			:painstate->で
+			:painstate->で
+
+			:painevent(recipient_flesh!=Mechanoid)->痛み[painstate]
+			:painevent(recipient_flesh!=Mechanoid)->苦痛[painstate]
+			:painevent(recipient_flesh==Normal)->苦しみで
+			:painevent->怪我で
+			:painevent->傷で
+
+			:to->へと
+			:to->へと
+		}
+	}
+}
+{Combat_MeleeDamageIncludes
+	{rulePack
+		{?rulesStrings
+			:result(p=1)->。[targetlist]を[damaged_present]いる
+			:result(p=0.2)->。[targetlist]を[flavortext_consequence][damaged_present]いる
+			:result(p=0.1)->。[strikeAdv][targetlist]を[damaged_present]いる
+
+			:strikeAdv->痛々しく
+			:strikeAdv->おぞましく
+			:strikeAdv->荒々しく
+			:strikeAdv->嫌らしく
+
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->嫌な傷を残している
+			:flavortext_consequence->恐ろしい傷を残している
+
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->[painevent][wince]
+			:flavortext_consequence(p=0.2)->体勢が整っていない[RECIPIENT_objective]を投げ飛ばしている
+		}
+	}
+}
+{Combat_WoundIncludes
+	{rulePack
+		{?rulesStrings
+			:destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]
+			:destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label]、[recipient_part_destroyed1_label]
+			:destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label]、[recipient_part_destroyed1_label]、[recipient_part_destroyed2_label]
+			:destroyed_targets->[recipient_part_destroyed0_label]、[recipient_part_destroyed1_label]、[recipient_part_destroyed2_label]、[recipient_part_destroyed3_label]
+
+			:damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]
+			:damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label]、[recipient_part_damaged1_label]
+			:damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label]、[recipient_part_damaged1_label]、[recipient_part_damaged2_label]
+			:damaged_targets->[recipient_part_damaged0_label]、[recipient_part_damaged1_label]、[recipient_part_damaged2_label]、[recipient_part_damaged3_label]
+		}
+	}
+}
+{Combat_SkillIncludes
+	{rulePack
+		{?rulesStrings
+			:skillDescMelee->[WEAPON_label]を[skillAdv][wielding]
+			:skillDescMelee->[implement]を[skillAdv][using]
+
+			:wielding(p=4)->振るって
+			:wielding(p=3)->使って
+			:wielding(p=2)->扱って
+			:wielding->振り回して
+			:wielding->操り
+
+			:using(p=4)->使って
+			:using->操って
+			:using->突き出して
+			:using->活用して
+			:using->動かして
+
+			:skillAdv(INITIATOR_skill<=3)->でたらめに
+			:skillAdv(INITIATOR_skill<=3)->拙く
+			:skillAdv(INITIATOR_skill<=3)->雑に
+			:skillAdv(INITIATOR_skill<=3)->むやみに
+			:skillAdv(INITIATOR_skill<=3)->力任せに
+			:skillAdv(INITIATOR_skill<=4)->ぎこちなく
+			:skillAdv(INITIATOR_skill<=4)->不器用に
+			:skillAdv(INITIATOR_skill<=5)->怯えながら
+			:skillAdv(INITIATOR_skill<=5)->たどたどしく
+			:skillAdv(INITIATOR_skill<=5)->考え無しに
+			:skillAdv(INITIATOR_skill<=6)->ためらいがちに
+			:skillAdv(INITIATOR_skill<=6)->だらだらと
+			:skillAdv(INITIATOR_skill<=6)->ゆっくりと
+			:skillAdv(INITIATOR_skill<=6)->なんとなく
+			:skillAdv(INITIATOR_skill<=6)->大雑把に
+			:skillAdv(INITIATOR_skill<=6)->素人っぽく
+			:skillAdv(INITIATOR_skill<=6)->恐る恐る
+			:skillAdv(INITIATOR_skill<=8)->勇ましく
+			:skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->上手に
+			:skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->適切に
+			:skillAdv(INITIATOR_skill>=8)->手際よく
+			:skillAdv(INITIATOR_skill>=8)->素早く
+			:skillAdv(INITIATOR_skill>=8)->適切に
+			:skillAdv(INITIATOR_skill>=8)->賢く
+			:skillAdv(INITIATOR_skill>=8)->器用に
+			:skillAdv(INITIATOR_skill>=8)->巧みに
+			:skillAdv(INITIATOR_skill>=10)->そつなく
+			:skillAdv(INITIATOR_skill>=10)->難なく
+			:skillAdv(INITIATOR_skill>=12)->無駄なく
+			:skillAdv(INITIATOR_skill>=12)->正確に
+			:skillAdv(INITIATOR_skill>=14)->見事に
+			:skillAdv(INITIATOR_skill>=16)->鮮やかに
+			:skillAdv(INITIATOR_skill>=16)->優雅に
+
+			:skillAdv(initiator_flesh==Mechanoid)->機械的に
+			:skillAdv(initiator_flesh==Mechanoid)->ロボットのように
+			:skillAdv(initiator_flesh==Mechanoid)->ためらいなく
+		}
+	}
+}
+{Combat_FailIncludes
+	{rulePack
+		{?rulesStrings
+			:action->[INITIATOR_definite]が[RECIPIENT_definite]を[damaged_inf][tried]
+			:action->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf][tried]
+			:action->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf][tried]
+			:action->[INITIATOR_definite]が[RECIPIENT_definite]へ[WEAPON_label]を振り下ろした
+			:action(p=0.3)->[INITIATOR_definite]が[implement]を[RECIPIENT_definite][towardsat][verb_genericattack]
+			:action(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite][towardsat][verb_genericattack]
+			:action(p=0.3)->[INITIATOR_definite]が[implement]を[verb_genericattack]
+
+			:towardsat->へ
+			:towardsat->に
+
+			:verb_genericattack->振るった
+			:verb_genericattack->叩きつけた
+			:verb_genericattack->打ち付けた
+
+			:tried->しようとした
+			:tried->しようとした
+		}
+	}
+}
+
+;近接・遠距離共有なので、曖昧な感じに。また、挿入先のoffをこちらへ取り込む感じで。
+;「～た。」か「～て、」の形になるように。presentは受動態っぽく。pastは自動型。
+;近接では使っていない
+{Combat_DeflectIncludes
+	{rulePack
+		{?rulesStrings
+			;「アーマー～」
+			:scraped_present->をかすめ
+			:scraped_present->から跳ね
+			:scraped_present->をこすっ
+			:scraped_present->から跳ね返っ
+			:scraped_present->にそらされ
+			:scraped_present->を滑っ
+
+			;「({武器}は)～、
+			:scraped_past->かすめ
+			:scraped_past->跳ね
+			:scraped_past->こすれ
+			:scraped_past->跳ね返っ
+			:scraped_past->それ
+			:scraped_past->滑っ
+		}
+	}
+}
+{Combat_Hit
+	{rulePack
+		{?rulesStrings
+			:r_logentry(p=1.0)->[INITIATOR_definite]が[RECIPIENT_definite]の[recipient_part0_label]を[damaged_past]。
+			:r_logentry(p=0.4)->[INITIATOR_definite]が[RECIPIENT_definite]の[recipient_part0_label]を[strikeAdv][damaged_past]。
+			:r_logentry(p=0.4)->[INITIATOR_definite]が[RECIPIENT_definite]の[recipient_part0_label]を[damaged_past]。[flavortext_consequence]。
+			:r_logentry(p=0.4)->[INITIATOR_definite]が、[skillDescMelee]、[RECIPIENT_definite]の[recipient_part0_label]を[damaged_past]。
+			:r_logentry(p=0.2)->[INITIATOR_definite]が、[skillDescMelee]、[RECIPIENT_definite]の[recipient_part0_label]を[strikeAdv][damaged_past]。
+
+			:r_logentry(p=0.4)->[INITIATOR_definite]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]た。
+			:r_logentry(p=0.4)->[INITIATOR_definite]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]て、[destroyed_suffix]。
+			:r_logentry(p=0.4)->[INITIATOR_definite]が[RECIPIENT_definite]の[destroyed_targets]を[implement]で[destroyed_past]た。
+
+			:r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_past]。
+			:r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[skillAdv][damaged_past]。
+
+			:result(p=1,recipient_part_damaged_count==0)->。[destroyed_targets]を[destroyed_present]いる
+			:result(p=1,recipient_part_destroyed_count==0)->。[damaged_targets]を[damaged_present]いる
+			:result(p=1)->。[destroyed_targets]を[destroyed_present]、[damaged_targets]を[damaged_present]いる
+
+			:action(p=1.0)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_past]
+			:action(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]を[damaged_past]
+			:action(p=0.3)->[INITIATOR_definite]が、[skillDescMelee]、[RECIPIENT_definite]を[damaged_past]
+			:action(p=0.3)->[INITIATOR_definite]が[implement]の[damaged_inf]を[RECIPIENT_definite]に当てた
+			:action(p=0.3)->[INITIATOR_definite]が、[skillDescMelee]、[implement]の[damaged_inf]を[RECIPIENT_definite]に当てた
+			:action(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[damaged_inf]した
+			;本来は形容詞はimplementのほう
+			:action(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[skillAdv][damaged_inf]した
+		}
+	}
+}
+{Combat_Deflect
+	{rulePack
+		{?rulesStrings
+			;[atMaybe]は使わない
+			:r_logentry(p=0.5)->[INITIATOR_definite]が[RECIPIENT_definite]の[recipient_part0_label]を[damaged_past][deflected_result]。
+			:r_logentry(p=0.3)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[skillAdvMaybe][damaged_past][deflected_result]。
+			:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]を[skillAdvMaybe][damaged_past][deflected_result]。
+			:r_logentry(p=0.1)->[INITIATOR_definite]が、[skillDescMelee]、[RECIPIENT_definite]の[recipient_part0_label]を[damaged_past][deflected_result]。
+			:r_logentry(p=0.1)->[INITIATOR_definite]が[implement]の[damaged_inf]を[RECIPIENT_definite]に当てた[deflected_result]。
+			;本来は形容詞はimplementのほう
+			:r_logentry(p=0.1)->[INITIATOR_definite]が[implement]で[RECIPIENT_definite]を[skillAdvMaybe][damaged_inf]した[deflected_result]。
+
+			:skillAdvMaybe->
+			:skillAdvMaybe->[skillAdv]
+
+			;格助詞は必須なので使わない
+			:atMaybe->
+			:atMaybe->at
+
+			:deflected_result->が、[TOOL_label]は[deflected][harmlessly_opt]
+			:deflected_result->が、アーマーが[deflecting][harmlessly_opt]
+
+			:harmlessly_opt(p=4)->た
+			:harmlessly_opt->て、[harmlessly]
+
+			:harmlessly->無傷だった
+			:harmlessly->無駄だった
+
+			; 適当
+			:deflected->そらされ
+			:deflected->そらされ
+			:deflected->受け流され
+			:deflected->受け流され
+			:deflected->はじかれ
+			:deflected->はじかれ
+
+			:deflecting->そらし
+			:deflecting->そらし
+			:deflecting->受け流し
+			:deflecting->受け流し
+			:deflecting->はじい
+			:deflecting->はじい
+		}
+	}
+}
+{Combat_Miss
+	{rulePack
+		{?rulesStrings
+			:r_logentry(p=0.3)->[RECIPIENT_definite]が[INITIATOR_definite]の[WEAPON_label]による[damaged_inf]を避けた。
+			:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]への[implement]の[damaged_inf]を外した。
+			:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]を[implement]で[damaged_inf]しようとしたが、[failtype]。
+			:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]を[damaged_inf]しようとしたが、[failtype]。
+			:r_logentry(p=0.3)->[INITIATOR_definite]が[RECIPIENT_definite]を[skillAdvMaybe][damaged_inf]しようとしたが、[failtype]。
+
+			:skillAdvMaybe->
+			:skillAdvMaybe->[skillAdv]
+
+			:failtype(p=5)->失敗した
+			:failtype->つまづいた
+			:failtype->よろめいた
+			:failtype->空振りした
+			:failtype->もたついた
+
+			:result(p=4)->が、失敗した
+			:result->が、空を切った
+			:result->が、大きく空振りした
+			:result->が、最後の瞬間につまずいた
+			:result(initiator_flesh!=Mechanoid)->が、最後の瞬間に躊躇した
+		}
+	}
+}
+{Combat_Dodge
+	{rulePack
+		{?rulesStrings
+			:r_logentry(p=0.5)->[RECIPIENT_definite]が[implement]からの[INITIATOR_definite]の[damaged_inf]を[skillAdvMaybe]よけた。
+			:r_logentry(p=0.5)->[RECIPIENT_definite]が[INITIATOR_definite]の[damaged_inf]を[skillAdvMaybe]よけた。
+
+			:skillAdvMaybe->
+			:skillAdvMaybe->[skillAdv]
+
+			:result->が、[RECIPIENT_definite]は飛び退いた
+			:result->が、[RECIPIENT_definite]のフェイントにダマされた
+			:result->が、攻撃は巧みによけられた
+		}
+	}
+}
+{Combat_RangedFire
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]に[WEAPON_label]を[shotat]。
+			:r_logentry->[INITIATOR_definite]が[WEAPON_label]を[RECIPIENT_definite]に[shot]。
+			:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]を[shotat]。
+			:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]に[WEAPON_projectile_label]を[burst][shot_a]。
+			:r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]が[WEAPON_projectile_label]を[shot_a]。
+			:r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]が[WEAPON_label]を[shot]。
+
+			:shot_a(p=2)->[verb_shot]
+			:shot_a->[skillAdv][verb_shot]
+
+			:shot(p=2)->[verb_shot]
+			:shot->[skillAdv][verb_shot]
+
+			:shotat->[aburst]撃った
+			:shotat->[skillAdv][aburst]撃った
+			:shotat(p=0.5)->[aburst]撃ってみた
+			:shotat(p=0.3)->撃った
+			:shotat(p=0.2)->[skillAdv]撃った
+			:shotat->[aburst]撃った
+			:shotat->[skillAdv][aburst]撃った
+			:shotat(p=0.5)->狙って[aburst]撃った
+			:shotat(p=0.5)->狙って[skillAdv][aburst]撃った
+			:shotat(p=0.3)->撃ち始めた
+
+			:aburst->
+			:aburst(BURST==True,p=3)->連続して
+
+			:burst->
+			:burst(BURST==True,p=3)->連続して
+
+			:verb_shot->撃った
+			:verb_shot->撃った
+			:verb_shot(p=0.2)->放った
+		}
+	}
+}
+{Combat_RangedFire_Thrown
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[INITIATOR_definite]が[WEAPON_projectile_label]を[RECIPIENT_definite]へ[threw]。
+			:r_logentry->[INITIATOR_definite]が[WEAPON_projectile_label]を[RECIPIENT_definite]へ[threw_a]。
+			:r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]が[WEAPON_projectile_label]を[threw]。
+			:r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite]が[WEAPON_projectile_label]を[threw_a]。
+
+			:threw_a->[adverb_threw][verb_threw]
+			:threw_a(p=2)->[verb_threw]
+
+			:threw(p=2)->[verb_threw]
+			:threw->[adverb_threw][verb_threw]
+
+			:verb_threw->投げた
+			:verb_threw->投げつけた
+			:verb_threw->投射した
+
+			:adverb_threw->慎重に
+			:adverb_threw->素早く
+			:adverb_threw->正確に
+			:adverb_threw->落ち着いて
+			:adverb_threw(initiator_flesh!=Mechanoid)->恐る恐る
+			:adverb_threw->正確に
+			:adverb_threw(initiator_flesh!=Mechanoid)->油断なく
+
+			:adjective_threw->慎重に
+			:adjective_threw->素早く
+			:adjective_threw->落ち着いて
+			:adjective_threw->正確に
+			:adjective_threw(initiator_flesh!=Mechanoid)->油断なく
+		}
+	}
+}
+{Combat_RangedDamage
+	{rulePack
+		{?rulesStrings
+			; [to]は未使用。
+			:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]た。
+			:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]て、[destroyed_suffix]。
+
+			:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]た。
+			:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_present]いる。
+			; 次の三つは、元は受動態だが、面倒なので能動態にする。(上と被っている)
+			:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]た。
+			:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]て、[destroyed_suffix]。
+
+			:r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
+			:r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
+			:r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[damaged_targets]を[damaged_present]いる。
+			; 次の二つは、元は受動態だが、面倒なので能動態にする。(上と被っている)
+			:r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
+
+			:r_logentry(p=3)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]て、さらに、[damaged_targets]を[damaged_past]。
+			:r_logentry(p=6)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]の[destroyed_targets]を[destroyed_present]、さらに、[damaged_targets]を[damaged_present]いる。
+
+			:r_logentry(p=0.2)->[INITIATOR_definite]が[RECIPIENT_definite]に[WEAPON_projectile_label]を当てた。
+			:r_logentry(p=0.2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]に当たった。
+			; 「Aが外した」「Aの弾が外れた」となるので、「Aの弾が～」に統一する。
+			:r_logentry(p=0.4)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]に当たった。
+			:r_logentry(p=0.4)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]て、[RECIPIENT_definite]に当たった。
+			:r_logentry(p=0.2)->[ORIGINALTARGET_definite]を狙った[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]に当たった。
+
+			:weapon_projectile_label(p=0.05)->ショット
+
+			;「～が～を～た(て)」の形にすること
+			;「弾が頭を貫いた」など
+			:destroyed_past->粉々にし
+			:destroyed_past->潰し
+			:destroyed_past->吹き飛ばし
+			:destroyed_past->ダメにし
+			:destroyed_past->貫い
+			:destroyed_past->貫い
+			:destroyed_past->穴だらけにし
+
+			;「～ている」「～て」の形
+			:destroyed_present->粉々にして
+			:destroyed_present->潰して
+			:destroyed_present->吹き飛ばして
+			:destroyed_present->ダメにして
+			:destroyed_present->貫いて
+			:destroyed_present->貫いて
+			:destroyed_present->穴だらけにして
+
+			; 本来は名詞だが、自然さ重視で。
+			:destroyed_suffix->バラバラにした
+			:destroyed_suffix->粉々にした
+			:destroyed_suffix->木っ端微塵にした
+			:destroyed_suffix->破片にした
+			:destroyed_suffix(p=0.5)->蜂の巣にした
+			:destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->挽肉にした
+
+			:damaged_past->傷つけた
+			:damaged_past->怪我させた
+			:damaged_past->貫いた
+			:damaged_past->傷つけた
+			:damaged_past->打った
+
+			:damaged_present->傷つけて
+			:damaged_present->怪我させて
+			:damaged_present->貫いて
+			:damaged_present->傷つけて
+			:damaged_present->打って
+
+			:damaged_suffix->汚いやり方で
+			:damaged_suffix(recipient_flesh!=Mechanoid)->血しぶきを上げながら
+			:damaged_suffix(recipient_flesh!=Mechanoid)->生々しく
+
+			; 未使用。destroyed_suffixに統合
+			:to->to
+			:to->into
+
+			:missed->外れ
+			:missed->僅かに外れ
+		}
+	}
+}
+{Combat_RangedDeflect
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite]の[damaged_target]を[damaged_past]が、[deflected_result]。
+			:r_logentry(p=2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]れて、[RECIPIENT_definite][damaged_target_possessive_opt]を[damaged_past]が、[deflected_result]。
+			:r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt]が[INITIATOR_definite]の[WEAPON_projectile_label]で[damaged_past]が、[deflected_result]。
+
+			:r_logentry(p=0.2)->[INITIATOR_definite]が[RECIPIENT_definite][damaged_target_possessive_opt]に[WEAPON_projectile_label]を当てたが、[deflected_result]。
+			:r_logentry(p=0.2)->[INITIATOR_definite]の[WEAPON_projectile_label]が[RECIPIENT_definite][damaged_target_possessive_opt]に当たったが、[deflected_result]。
+			:r_logentry(p=0.4)->[INITIATOR_definite]が[ORIGINALTARGET_definite]への[WEAPON_projectile_label]を[missed]し、[RECIPIENT_definite][damaged_target_possessive_opt]に当たったが、[deflected_result]。
+			:r_logentry(p=0.4)->[INITIATOR_definite]の[WEAPON_projectile_label]が[ORIGINALTARGET_definite]から[missed]れて、[RECIPIENT_definite][damaged_target_possessive_opt]に当たったが、[deflected_result]。
+			:r_logentry(p=0.2)->[ORIGINALTARGET_definite]を狙った[INITIATOR_definite]の[WEAPON_projectile_label]は[RECIPIENT_definite][damaged_target_possessive_opt]に当たったが、[deflected_result]。
+
+			:weapon_projectile_label(p=0.05)->ショット
+
+			:damaged_target_possessive_opt->
+			:damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->の[recipient_part_damaged0_label]
+
+			:deflected_result->[adverb_deflected]
+			:deflected_result->[deflected_consequence]
+
+			:adverb_deflected_opt(p=4)->た
+			:adverb_deflected_opt->て、[adverb_deflected]
+
+			:adverb_deflected->無傷だった
+			:adverb_deflected->無駄だった
+
+			:deflected_consequence->[scraped_past][adverb_deflected_opt]
+			:deflected_consequence->アーマー[scraped_present][adverb_deflected_opt]
+
+			; see Combat_DeflectIncludes
+			:scraped_past->から跳ね飛ばされ
+
+			; see Combat_DeflectIncludes
+			:scraped_present->跳ね飛ばされ
+
+			;人の場合は「外して、外した」物の場合は「外れて、外れた」
+			:missed->外
+			:missed->僅かに外
+		}
+	}
+}
+{Combat_RangedMiss
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[INITIATOR_definite]の[WEAPON_projectile_label]が[missed]。
+			:r_logentry->[INITIATOR_definite]は[ORIGINALTARGET_definite]を逃した。
+			:r_logentry->[ORIGINALTARGET_definite]は[avoidance]、[INITIATOR_definite]の[WEAPON_projectile_label]は[missing]。
+
+			:missed(p=4)->外れた
+			:missed(p=2)->僅かに外れた
+			:missed(p=2)->大きく外れた
+			:missed->当たらなかった
+			:missed->空へ飛んでいった
+			:missed->空高く飛んでいった
+			:missed->地面を穿った
+			:missed->地面に跳ねて消えた
+			:missed->地面を削り取った
+			:missed(p=0.2)->[ORIGINALTARGET_definite]の数ミリ先をかすめた
+			:missed->[ORIGINALTARGET_definite]の数センチ先をかすめた
+			:missed->[ORIGINALTARGET_definite]の数十センチ先をかすめた
+			:missed->何処かへ飛んでいった
+
+			:missing->外れた
+			:missing->僅かに外れた
+			:missing->大きく外れた
+			:missing->当たらなかった
+			:missing->空へ飛んでいった
+			:missing->空高く飛んでいった
+			:missing->地面を穿った
+			:missing->地面に跳ねて消えた
+			:missing->地面を削り取った
+			:missing(p=0.2)->[ORIGINALTARGET_definite]の数ミリ先をかすめた
+			:missing->[ORIGINALTARGET_definite]の数センチ先をかすめた
+			:missing->[ORIGINALTARGET_definite]の数十センチ先をかすめた
+			:missing->何処かへ飛んでいった
+
+			:avoidance(ORIGINALTARGET_mobile==True,p=2)->最後の[moment]横へ身を[moved]
+			:avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[COVER_definite]の後ろへ[ducked]
+
+			:moved->動かし
+			:moved->引き
+			:moved->倒し
+			:moment->瞬間に
+			:moment->数秒で
+			:moment->一瞬で
+			:ducked->飛び込んで
+			:ducked->うずくまり
+			:ducked->身をかがめ
+			:ducked->隠れ
+		}
+	}
+}
+{Combat_ExplosionImpact
+	{rulePack
+		{?rulesStrings
+			:prefix->[INITIATOR_definite]の[WEAPON_projectile_label][fromof][blast]
+			:prefix->[INITIATOR_definite]の[WEAPON_label][fromof][blast]
+			:prefix->[INITIATOR_definite]の[WEAPON_projectile_label][fromof][blast]
+			:prefix->[INITIATOR_definite]の[WEAPON_label][fromof][blast]
+			:prefix->[INITIATOR_definite]の[blast]
+			:prefix->[INITIATOR_definite]の[WEAPON_projectile_label]の[blast]
+			:prefix->[INITIATOR_definite]の[WEAPON_label]の[blast]
+			:prefix->[INITIATOR_definite]の[WEAPON_projectile_label]
+			:prefix->[INITIATOR_definite]の[WEAPON_label]
+
+			:r_logentry->[prefix]が[RECIPIENT_definite]を[injured]。
+
+			:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。
+			:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[strikeAdv][destroyed_past]。
+			:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[strikeAdv][destroyed_past]。
+			:r_logentry->[prefix]が[RECIPIENT_definite]の[destroyed_targets]を[destroyed_past]。[damaged_targets]を[damaged_past]。
+			:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[damaged_past]。
+			:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[strikeAdv][damaged_past]。
+			:r_logentry(recipient_part_destroyed_count==0)->[prefix]が[RECIPIENT_definite]の[damaged_targets]を[strikeAdv][damaged_past]。
+
+			;受動態は止める。が、三つ目はどうしても無理。
+			:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]を[damaged_past]。
+			:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]を[strikeAdv][damaged_past]。
+			:r_logentry->[RECIPIENT_definite]を[damaged_past]。
+
+			:r_logentry(p=0.001)->[RECIPIENT_definite]が爆発に巻き込まれた。
+			:r_logentry(p=0.001)->[RECIPIENT_definite]が爆発に打たれた。
+
+			:blast->爆発
+			:blast->爆風
+			:blast->衝撃波
+			:blast->爆轟
+			:blast->爆裂
+			:blast->衝撃
+
+			:fromof->からの
+			:fromof->による
+		}
+	}
+}
+;変えないが、警告がうざいので
+{TribalWordUtility
+	{rulePack
+		{?rulesStrings
+			:WordTribal(p=3)->[tribal_word_file]
+			:WordTribal(p=3)->[SylG][SylG]
+			:WordTribal(p=2)->[SylG][SylG][SylG]
+			:WordTribal->[SylG][SylG][SylG][SylG]
+		}
+;		{?rulesFiles
+;			:tribal_word_file->Words/Foreign/Tribal
+;		}
+	}
+}
+{OutlanderPlaceNameUtility
+	{rulePack
+		{?rulesStrings
+			:PlaceOutlander->[SylE][place_end]
+			:PlaceOutlander->[SylE][place_end]
+			:PlaceOutlander->[SylE][place_end]
+			:PlaceOutlander->[SylE][SylE][place_end]
+			:PlaceOutlander->[SylE][SylE][place_end]
+			:PlaceOutlander->[SylE][SylE][SylE][place_end]
+		}
+;		{?rulesFiles
+;			:place_end->WordParts/PlaceEndings
+;		}
+	}
+}
+{Damage_Bomb
+	{rulePack
+		{?rulesStrings
+			:damaged_past(p=2)->吹き飛ばした
+			:damaged_past(p=2)->爆破した
+			:damaged_past->怪我させた
+			:damaged_past->傷つけた
+			:damaged_past->傷つけた
+			:damaged_past->痛めつけた
+
+			;「～を～した」
+			:destroyed_past->砕いた
+			:destroyed_past->潰した
+			:destroyed_past->消し飛ばした
+			:destroyed_past->全壊させた
+			:destroyed_past->吹き飛ばした
+		}
+	}
+}
+{Damage_Flame
+	{rulePack
+		{?rulesStrings
+			;「～を～した」の形式にすること
+			:damaged_past(p=2)->吹き飛ばした
+			:damaged_past(p=2)->焦がした
+			:damaged_past(p=2)->燃やした
+			:damaged_past(p=2)->ただれさせた
+			:damaged_past(p=2)->発火させた
+			:damaged_past(p=2)->火傷させた
+			:damaged_past->怪我させた
+			:damaged_past->傷つけた
+			:damaged_past->傷つけた
+			:damaged_past->痛めつけた
+
+			:damaged_present(p=2)->吹き飛ばして
+			:damaged_present(p=2)->焦がして
+			:damaged_present(p=2)->燃やして
+			:damaged_present(p=2)->ただれさせて
+			:damaged_present(p=2)->火を付けて
+			:damaged_present(p=2)->火傷させて
+			:damaged_present->怪我させて
+			:damaged_present->ダメージを負わせて
+			:damaged_present->傷つけて
+			:damaged_present->痛めつけて
+
+			:destroyed_past->焼いた
+			:destroyed_past->灰にした
+			:destroyed_past->黒焦げにした
+			:destroyed_past->蒸発させた
+			:destroyed_past->燃やし尽くした
+			:destroyed_past->吹き飛ばした
+
+			:destroyed_present->焼いている
+			:destroyed_present->灰にしている
+			:destroyed_present->黒焦げにしている
+			:destroyed_present->蒸発させている
+			:destroyed_present->燃やし尽くしている
+			:destroyed_present->吹き飛ばしている
+		}
+	}
+}
+{Damage_Extinguish
+	{rulePack
+		{?rulesStrings
+			:damaged_past->消した
+			:damaged_past->水浸しにした
+			:damaged_past->泡で消した
+			:damaged_past->冷やした
+
+			:destroyed_past->[damaged_past]
+		}
+	}
+}
+{Damage_Stun
+	{rulePack
+		{?rulesStrings
+			:damaged_past->気絶させた
+			:damaged_past->混乱させた
+			:damaged_past->停止させた
+			:damaged_past->ふらつかせた
+
+			:destroyed_past->[damaged_past]
+		}
+	}
+}
+{Damage_EMP
+	{rulePack
+		{?rulesStrings
+			:damaged_past->感電させた
+			:damaged_past->麻痺させた
+			:damaged_past->痺れさせた
+
+			:destroyed_past->[damaged_past]
+		}
+	}
+}
+{Damage_Smoke
+	{rulePack
+		{?rulesStrings
+			:damaged_past->煙に巻いた
+			:damaged_past->霧に包んだ
+			:damaged_past->雲で覆った
+
+			:destroyed_past->[damaged_past]
+		}
+	}
+}
+;destroyed_presentは「～て、」「～た。」
+{DamageEvent_Include
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[RECIPIENT_nameDef][damage_source]。[destroyed_targets]を[destroyed_present]た。
+			:r_logentry->[RECIPIENT_nameDef][damage_source]。[destroyed_targets]を[destroyed_present]て、[damaged_targets][damaged_present]。
+			:r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_nameDef][damage_source]。[damaged_targets][damaged_present]。
+			:r_logentry(p=0.1)->[RECIPIENT_nameDef][damage_source]。
+		}
+	}
+}
+{DamageEvent_Ceiling
+	{rulePack
+		{?rulesStrings
+			:damage_source->の上に[roof]が[collapsed]
+
+			:roof->屋根
+			:roof->屋根
+			:roof->天井
+
+			:collapsed->崩れ落ちた
+			:collapsed->落ちた
+			:collapsed->崩れ落ちた
+
+			:damaged_present->に打ちつけている
+			:damaged_present->に叩きつけている
+			:damaged_present->を痛めつけている
+			:damaged_present->を切り裂いている
+
+			:destroyed_present->粉々にし
+			:destroyed_present->潰し
+			:destroyed_present->磨りつぶし
+			:destroyed_present->破壊し
+			:destroyed_present->引き裂い
+		}
+	}
+}
+{DamageEvent_Fire
+	{rulePack
+		{?rulesStrings
+			:damage_source->が[fire]に焼かれた
+
+			:fire(p=3)->火
+			:fire(p=3)->火
+			:fire(p=3)->火
+			:fire->熱
+			:fire->大火
+			:fire->劫火
+
+			:damaged_present->を焦がされている
+			:damaged_present->を炙られている
+			:damaged_present->を焼かれている
+			:damaged_present->を焦がされている
+
+			:destroyed_present->黒焦げにし
+			:destroyed_present->炙っ
+			:destroyed_present->焼い
+			:destroyed_present->燃やし
+		}
+	}
+}
+{DamageEvent_TrapSpike
+	{rulePack
+		{?rulesStrings
+			:damage_source->に[spiketrap]が刺さった
+			:damage_source->に[spiketrap]が当たった
+			:damage_source->に[spiketrap]が放たれた
+
+			:spiketrap(p=3)->スパイク・トラップ
+			:spiketrap(p=3)->スパイク・トラップ
+			:spiketrap->棘
+			:spiketrap->鋭利な罠
+			:spiketrap->尖った罠
+
+			:damaged_present->を刺されている
+			:damaged_present->に刺さっている
+			:damaged_present->を突き通している
+			:damaged_present->に突き刺さっている
+
+			:destroyed_present->引き裂い
+			:destroyed_present->砕い
+			:destroyed_present->引きちぎっ
+			:destroyed_present->潰し
+		}
+	}
+}
+{DamageEvent_PowerBeam
+	{rulePack
+		{?rulesStrings
+			:damage_source->の上の[sky]が切り開かれた
+			:damage_source->が凄まじい[power]のビームで[damaged_past]
+			:damage_source->[light]の柱が[damaged_past]
+
+			:sky->空
+			:sky->雲
+			:sky->天国
+
+			:power->パワー
+			:power->エネルギー
+			:power->熱
+
+			:light->光
+			:light->熱
+			:light->炎
+			:light(p=0.2)->白熱光
+		}
+	}
+}
+{DamageEvent_Tornado
+	{rulePack
+		{?rulesStrings
+			:damage_source->を[spiraling]竜巻が[enveloped]
+
+			:destroyed_present(p=3)->引きちぎっている
+
+			:spiraling->螺旋状の
+			:spiraling->渦巻いている
+			:spiraling->グルグルと回る
+			:spiraling(p=10)->
+
+			:enveloped(p=8)->包み込んだ
+			:enveloped->飲み込んだ
+			:enveloped->取り囲んだ
+		}
+	}
+}
+{Event_Stun
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[SUBJECT_definite]が攻撃で[stunned]。
+			:r_logentry->[SUBJECT_definite]が[INITIATOR_definite]の攻撃で[stunned]。
+
+			:stunned(p=3)->気絶した
+			:stunned->よろめいた
+			:stunned->クラクラした
+			:stunned->混乱した
+
+			:r_logentry->[SUBJECT_definite]が[staggered]。
+			:r_logentry->[SUBJECT_definite]が攻撃で[staggered]。
+			:r_logentry->[SUBJECT_definite]が[INITIATOR_definite]の攻撃で[staggered]。
+
+			:staggered(p=3)->よろめいた
+			:staggered->つまずいた
+			:staggered->ぐらついた
+			:staggered->ふらついた
+
+			:r_logentry->朦朧とした[SUBJECT_definite]が[stumbled]。
+			:r_logentry->[SUBJECT_definite]が混乱して[stumbled]。
+
+			:stumbled(p=3)->つまずいた
+			:stumbled->ふらついた
+			:stumbled->ぐらついた
+			:stumbled->よろめいた
+		}
+	}
+}
+{Event_AbilityUsed
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[INITIATOR_definite]は[SUBJECT_definite]に[ABILITY_label]を使った。
+		}
+	}
+}
+
+{GameplayTips
+	; 警告対策
+	{rulePack
+		{?rulesStrings
+			:r_tip->[tip_text]
+		}
+;		{?rulesFiles
+;			:tip_text->Misc/Tips
+;		}
+	}
+}
+{GlobalUtility
+	{rulePack
+		{?rulesStrings
+			; 名前にに使われるので、訳さない
+			:Trans->of
+			:Trans->for
+			:Trans->by
+			:Trans->with
+
+			:Character(p=6)->[PersonJob]
+			:Character(p=4)->[Animal]
+			:Character(p=3)->[Enemy]
+			:Character->[Mechanoid]
+			:Quantity_adjphrase->二つ
+			:Quantity_adjphrase->三つ
+			:Quantity_adjphrase->四つ
+			:Quantity_adjphrase->五つ
+			:Quantity_adjphrase->六つ
+			:Quantity_adjphrase->七つ
+			:Quantity_adjphrase->八つ
+			:Quantity_adjphrase->九つ
+			:Quantity_adjphrase->十
+			:Quantity_adjphrase->いくつか
+			;本当はgroupなんだけれど、「グループのネコ」となってしまうので、別の表現にしている。
+			:Quantity_adjphrase->多く
+			:Quantity_adjphrase->多数
+			:Quantity_adjphrase->何十も
+			:Quantity_adjphrase->何百も
+			:Quantity_adjphrase->一千も
+			:Quantity_adjphrase->数千も
+			:Shape->三角形
+			:Shape->正方形
+			:Shape->矩形
+			:Shape->円錐
+			:Shape->直線
+			:Shape->ハート形
+			:Shape->星形
+			:Shape->円形
+			:Shape->楕円
+			:AdjectiveAny->[AdjectiveBadass]
+			:AdjectiveAny->[AdjectiveAngsty]
+			:AdjectiveAny->[AdjectiveFriendly]
+			:AdjectiveAny->[AdjectiveNatural]
+			:ConceptAny->[ConceptPositive]
+			:ConceptAny->[ConceptBadass]
+			:ConceptAny->[ConceptAngsty]
+			:PersonalCharacteristic(p=0.15)->性器
+			:PersonalCharacteristic(p=0.15)->陰毛
+			:PersonalCharacteristic(p=0.15)->体毛
+			:PersonalCharacteristic(p=0.15)->排泄習慣
+			:PersonalCharacteristic(p=0.15)->性的な腕前
+			:PersonalCharacteristic(p=0.15)->性的な嗜好
+			:PersonalCharacteristic(p=0.15)->性的な経験
+			; 英語用に追加
+			:Character_e(p=6)->[PersonJob_e]
+			:Character_e(p=4)->[Animal_e]
+			:Character_e(p=3)->[Enemy_e]
+			:Character_e->[Mechanoid]
+			:AdjectiveAny_e->[AdjectiveBadass_e]
+			:AdjectiveAny_e->[AdjectiveAngsty_e]
+			:AdjectiveAny_e->[AdjectiveFriendly_e]
+			:AdjectiveAny_e->[AdjectiveNatural_e]
+			:ConceptAny_e->[ConceptPositive_e]
+			:ConceptAny_e->[ConceptBadass_e]
+			:ConceptAny_e->[ConceptAngsty_e]
+			:PersonalCharacteristic_e(p=0.15)->genitals
+			:PersonalCharacteristic_e(p=0.15)->pubic hair
+			:PersonalCharacteristic_e(p=0.15)->body hair
+			:PersonalCharacteristic_e(p=0.15)->toilet habits
+			:PersonalCharacteristic_e(p=0.15)->sexual prowess
+			:PersonalCharacteristic_e(p=0.15)->sexual preferences
+			:PersonalCharacteristic_e(p=0.15)->sexual experience
+		}
+		{?rulesFiles
+			:RomanNumeral->Words/Misc/Numbers_SmallRoman
+			:Direction->Words/Adjectives/CompassDirections
+			:Letter->WordParts/CapitalLetters
+			:SylB->WordParts/Syllables_Byzantinian
+			:SylE->WordParts/Syllables_English
+			:SylG->WordParts/Syllables_Galician
+			:Color->Words/Nouns/Colors
+			:ColorBadass->Words/Nouns/Colors_Badass
+			:Vegetable->Words/Nouns/Vegetables
+			:Game->Words/Nouns/Games
+			:Animal->Words/Nouns/Animals
+			:AnimalBadass->Words/Nouns/Animals_Badass
+			:AnimalGroup->Words/Nouns/AnimalGroups
+			:Weapon->Words/Nouns/Weapons
+			:TerrainFeature->Words/Nouns/TerrainFeatures
+			:NaturalObject->Words/Nouns/NaturalObject
+			:TreeType->Words/Nouns/TreeTypes
+			:PersonJob->Words/Nouns/People_Jobs
+			:PersonFamily->Words/Nouns/People_Family
+			:PersonAlly->Words/Nouns/People_Allies
+			:PersonBadass->Words/Nouns/People_Badass
+			:Enemy->Words/Nouns/Enemies
+			:Apparel->Words/Nouns/Apparel
+			:Gore->Words/Nouns/Gore
+			:Mechanoid->Words/Nouns/Mechanoid
+			:ConceptPositive->Words/Nouns/Concepts_Positive
+			:ConceptBadass->Words/Nouns/Concepts_Badass
+			:ConceptAngsty->Words/Nouns/Concepts_Angsty
+			:Community->Words/Nouns/Communities
+			:BodyPart->Words/Nouns/Bodyparts
+			:AdjectiveLarge->Words/Adjectives/Large
+			:AdjectiveBadass->Words/Adjectives/Badass
+			:AdjectiveAngsty->Words/Adjectives/Angsty
+			:AdjectiveFriendly->Words/Adjectives/Friendly
+			:AdjectiveNatural->Words/Adjectives/Natural
+			:VerbFriendly->Words/Verbs/Friendly
+			:PersonalCharacteristic->Words/Nouns/PersonalCharacteristics
+			; 英語用に追加
+			:Animal_e->English/Words/Nouns/Animals
+			:AnimalBadass_e->English/Words/Nouns/Animals_Badass
+			:TerrainFeature_e->English/Words/Nouns/TerrainFeatures
+			:NaturalObject_e->English/Words/Nouns/NaturalObject
+			:TreeType_e->English/Words/Nouns/TreeTypes
+			:PersonJob_e->English/Words/Nouns/People_Jobs
+			:Enemy_e->English/Words/Nouns/Enemies
+			:Gore_e->English/Words/Nouns/Gore
+			:Apparel_e->English/Words/Nouns/Apparel
+			:Bodypart_e->English/Words/Nouns/Bodyparts
+			:AdjectiveBadass_e->English/Words/Adjectives/Badass
+			:AdjectiveAngsty_e->English/Words/Adjectives/Angsty
+			:AdjectiveFriendly_e->English/Words/Adjectives/Friendly
+			:AdjectiveNatural_e->English/Words/Adjectives/Natural
+			:ConceptPositive_e->English/Words/Nouns/Concepts_Positive
+			:ConceptBadass_e->English/Words/Nouns/Concepts_Badass
+			:ConceptAngsty_e->English/Words/Nouns/Concepts_Angsty
+			:Weapon_e->English/Words/Nouns/Weapons
+			:Color_e->English/Words/Nouns/Colors
+			:Vegetable_e->English/Words/Nouns/Vegetables
+			:Game_e->English/Words/Nouns/Games
+			:Community_e->English/Words/Nouns/Communities
+			:PersonalCharacteristic_e->English/Words/Nouns/PersonalCharacteristics
+		}
+	}
+}
+{TalkTopicsUtility
+	{rulePack
+		{?rulesStrings
+			:TalkTopicAny->[TalkTopicLight]
+			:TalkTopicAny->[TalkTopicHeavy]
+
+			:TalkTopicHeavy->[talktopicheavyfile]
+			:TalkTopicHeavy(p=0.08)->[talktopicheavyfile]と[talktopicheavyfile]の関連
+			:TalkTopicHeavy(p=0.08)->[talktopicheavyfile]と[talktopicheavyfile]のつながり
+			:TalkTopicHeavy(p=0.08)->[talktopicheavyfile]と[talktopicheavyfile]の関係
+
+			:TalkTopicLight(p=25)->[talktopiclightfile]
+			:TalkTopicLight->[Vegetable]
+			:TalkTopicLight->[Vegetable]の食べ方
+			:TalkTopicLight->[Vegetable]を使った調理
+			:TalkTopicLight->[Game]
+			:TalkTopicLight->[Game]の遊び方
+			:TalkTopicLight->[Game]の練習
+			:TalkTopicLight->[Game]の勉強
+			:TalkTopicLight->[Animal]
+			:TalkTopicLight->[Animal]の訓練
+			:TalkTopicLight->[Animal]の手懐け方
+			:TalkTopicLight->[Animal]との戦い方
+			:TalkTopicLight->狂った[Animal]
+			:TalkTopicLight->[Weapon]
+			:TalkTopicLight->[Weapon]の扱い
+			:TalkTopicLight->[Weapon]を使った練習
+			:TalkTopicLight->[TerrainFeature]
+			:TalkTopicLight->[NaturalObject]
+			:TalkTopicLight->[TreeType]の樹木
+			:TalkTopicLight->[PersonJob]
+			:TalkTopicLight->味方の[PersonJob]
+			:TalkTopicLight->敵の[PersonJob]
+			:TalkTopicLight->[Enemy]
+			:TalkTopicLight->[Enemy]との戦い方
+			:TalkTopicLight->[Apparel]
+			:TalkTopicLight->[Apparel]の着方
+			:TalkTopicLight->[Apparel]の作り方
+			:talktopicheavyfile(p=0.15)->セックス
+			:talktopicheavyfile(p=0.15)->ナンパ
+			:talktopicheavyfile(p=0.15)->動物の性
+			:talktopicheavyfile(p=0.15)->性的フェチ
+		}
+		;変えない
+		;{?rulesFiles
+		;	:talktopicheavyfile->Words/Nouns/TalkTopics_Heavy
+		;	:talktopiclightfile->Words/Nouns/TalkTopics_Light
+		;}
+	}
+}
+{Maneuver_Slash
+	{rulePack
+		{?rulesStrings
+			:damaged_inf(p=4)->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf(deflected!=True)->攻撃
+
+			;「～た(が)」の形で終わる事。
+			:damaged_past(p=4)->斬った
+			:damaged_past->切った
+			:damaged_past->切り刻んだ
+			:damaged_past->叩き切った
+			:damaged_past->切り裂いた
+			:damaged_past(deflected!=True)->抉った
+
+			; 「～て」「～ている」の形にすること
+			:damaged_present->斬って
+			:damaged_present->切って
+			:damaged_present->切り裂いて
+			:damaged_present(deflected!=True)->抉って
+			:damaged_present(deflected!=True)->引き裂いて
+			:damaged_present(deflected!=True)->切り裂いて
+
+			:woundname->傷
+			:woundname(p=0.3)->裂け目
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織を露わにしている
+			:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器を露わにしている
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残している
+
+			; ～た、～て
+			:destroyed_past->真っ二つにし
+			:destroyed_past->細切れにし
+			:destroyed_past->切り落とし
+			:destroyed_past->切り離し
+			:destroyed_past->引き裂い
+
+			;「～て(いる)」で統一すること
+			:destroyed_present->真っ二つにして
+			:destroyed_present->細切れにして
+			:destroyed_present->半分にして
+			:destroyed_present->切り離して
+			:destroyed_present->切り裂いて
+
+			:destroyed_suffix->綺麗にバラバラになった
+			; cleanlyは無理なので適当
+			:destroyed_suffix->綺麗な切り口を残した
+			:destroyed_suffix(target_part_destroyed_count==1)->内部機構がむき出しになった
+			:destroyed_suffix(target_part_destroyed_count==1)->二つに分かれた
+		}
+	}
+}
+{Maneuver_Stab
+	{rulePack
+		{?rulesStrings
+			:damaged_inf(p=4)->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf(deflected!=True)->攻撃
+			:damaged_inf(deflected!=True)->攻撃
+			:damaged_inf(deflected!=True)->攻撃
+
+			;「～た(が)」の形で終わる事。
+			:damaged_past(p=4)->刺した
+			:damaged_past->突き刺した
+			:damaged_past(deflected!=True)->刺し通した
+			:damaged_past(deflected!=True)->刺した
+			:damaged_past(deflected!=True)->串刺しにした
+
+			; 「～を」～「～て」「～ている」の形にすること
+			:damaged_present(deflected!=True)->刺し通して
+			:damaged_present(deflected!=True)->刺して
+			:damaged_present(deflected!=True)->穿って
+			:damaged_present(deflected!=True)->串刺しにして
+
+			:woundname->穴
+			:woundname->創傷
+			:woundname->裂け目
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残している
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->裂けた[woundname]を残している
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->出血している[woundname]を残している
+
+			; ～た、～て
+			:destroyed_past->刺し貫い
+			:destroyed_past->貫通し
+			:destroyed_past->串刺しにし
+
+			;「～て(いる)」で統一すること
+			:destroyed_present->刺し貫いて
+			:destroyed_present->貫通して
+			:destroyed_present->串刺しにして
+
+			;straight through は無理なので適当
+			:destroyed_suffix->綺麗な穴が空いた
+			:destroyed_suffix->綺麗な穴が空いた
+			:destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->血糊が出た
+			:destroyed_suffix(target_part_destroyed_count==1)->謎の液体が出た
+		}
+	}
+}
+{Maneuver_Smash_Damage
+	{rulePack
+		{?rulesStrings
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+
+			;「～た」「～たが」「～て」の形で終わる事。
+			; AがBを～た
+			:damaged_past->殴った
+			:damaged_past->打った
+			:damaged_past->殴った
+			:damaged_past->打ち付けた
+			:damaged_past->打った
+			:damaged_past->叩いた
+
+			; 「～て」「～ている」の形にすること
+			:damaged_present->打って
+			:damaged_present->殴って
+			:damaged_present(deflected!=True)->へこまして
+
+			; ～た、～て
+			:destroyed_past->粉々にし
+			:destroyed_past->潰し
+			:destroyed_past->破壊し
+
+			;「～て(いる)」で統一すること
+			:destroyed_present->粉々にして
+			:destroyed_present->潰して
+			:destroyed_present->壊して
+		}
+	}
+}
+{Maneuver_Smash
+	{rulePack
+		{?rulesStrings
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->大きな打撲傷を残している
+			:flavortext_consequence->明らかな変形を残している
+			:flavortext_consequence->ぐらついている[RECIPIENT_objective]を殴っている
+			:flavortext_consequence->[RECIPIENT_objective]を横殴りしている
+
+			:destroyed_suffix->バラバラになった
+			:destroyed_suffix->粉々になった
+			:destroyed_suffix(recipient_flesh!=Mechanoid)->木っ端微塵になった
+			:destroyed_suffix->破片になった
+		}
+	}
+}
+{Maneuver_Scratch_Damage
+	{rulePack
+		{?rulesStrings
+			:damaged_inf(p=4)->攻撃
+			:damaged_inf(deflected!=True)->攻撃
+			:damaged_inf(deflected!=True)->攻撃
+			:damaged_inf->攻撃
+
+			;「～た(が)」の形で終わる事。
+			:damaged_past(p=4)->引っ掻いた
+			:damaged_past(deflected!=True)->切り裂いた
+			:damaged_past(deflected!=True)->引き裂いた
+			:damaged_past->切った
+
+			; 「～て」「～ている」の形にすること
+			:damaged_present->引っ掻いて
+			:damaged_present(deflected!=True)->切り裂いて
+			:damaged_present(deflected!=True)->引き裂いて
+			:damaged_present->切って
+
+			; ～た、～て
+			:destroyed_past->引っ掻い
+			:destroyed_past->切り裂い
+			:destroyed_past->引きちぎっ
+			:destroyed_past->ズタズタに裂い
+			:destroyed_past->引き裂い
+
+			;「～て(いる)」で統一すること
+			:destroyed_present->引っ掻いて
+			:destroyed_present->引き裂いて
+			:destroyed_present->引きちぎって
+			:destroyed_present->ズタズタに裂いて
+			:destroyed_present->引き裂いて
+		}
+	}
+}
+{Maneuver_Scratch
+	{rulePack
+		{?rulesStrings
+			:woundname->傷
+			:woundname(p=0.3)->傷口
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織を露わにしている
+			:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器を露わにしている
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->血まみれの[woundname]を残している
+
+			;[to]は使わない
+			:destroyed_suffix(recipient_flesh!=Mechanoid)->ズタズタになった
+			:destroyed_suffix->細切れになった
+			:destroyed_suffix(recipient_flesh!=Mechanoid)->ズタズタになった
+			:destroyed_suffix->バラバラになった
+			:destroyed_suffix->破片になった
+			:destroyed_suffix(recipient_flesh!=Mechanoid)->血糊の塊になった
+		}
+	}
+}
+{Maneuver_Poke
+	{rulePack
+		{?rulesStrings
+			:damaged_inf(p=2)->攻撃
+			:damaged_inf(p=2)->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+
+			;「～た(が)」の形で終わる事。
+			:damaged_past(p=2)->突いた
+			:damaged_past(p=2)->突き刺した
+			:damaged_past->突き刺した
+			:damaged_past->突き刺した
+			:damaged_past->刺した
+
+			; 「～て」「～ている」の形にすること
+			:damaged_present(p=2)->突いて
+			:damaged_present(p=2)->突き刺して
+			:damaged_present->突き刺して
+			:damaged_present->突き刺して
+			:damaged_present->刺して
+
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->大きな打撲傷を残している
+			:flavortext_consequence->明らかに変形させている
+			:flavortext_consequence->ふらついている[RECIPIENT_objective]を殴っている
+			:flavortext_consequence->[RECIPIENT_objective]を横殴りしながら
+
+			; ～た、～て
+			:destroyed_past->砕い
+			:destroyed_past->潰し
+			:destroyed_past->壊し
+			:destroyed_past->壊し
+			:destroyed_past->壊し
+
+			;「～て(いる)」で統一すること
+			:destroyed_present->砕いて
+			:destroyed_present->潰して
+			:destroyed_present->壊して
+			:destroyed_present->壊して
+			:destroyed_present->壊して
+
+			;[to]は使わない
+			:destroyed_suffix->バラバラになった
+			:destroyed_suffix->粉々になった
+			:destroyed_suffix(recipient_flesh!=Mechanoid)->木っ端微塵になった
+			:destroyed_suffix->破片になった
+		}
+	}
+}
+{Maneuver_Bite
+	{rulePack
+		{?rulesStrings
+			:damaged_inf->攻撃
+			:damaged_inf->攻撃
+			:damaged_inf(p=0.5)->攻撃
+
+			; 「Aを～」になるように。
+			;「～た(が)」の形で終わる事。
+			:damaged_past->噛んだ
+			:damaged_past->かじった
+			:damaged_past->喰らった
+			:damaged_past->噛みきった
+			:damaged_past(deflected!=True)->引き裂いた
+
+			; 「～て」「～て-いる」の形にすること
+			:damaged_present->噛んで
+			:damaged_present->かじって
+			:damaged_present->喰らって
+			:damaged_present->噛みきって
+			:damaged_present(deflected!=True)->引き裂いて
+
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->皮下組織を露わにしている
+			:flavortext_consequence(recipient_flesh==Mechanoid)->内部機器を露わにしている
+			:flavortext_consequence(recipient_flesh!=Mechanoid)->皮膚に容赦ない傷を残している
+			:flavortext_consequence(recipient_flesh==Mechanoid)->装甲に容赦ない傷を残している
+
+			; ～た、～て
+			:destroyed_past->ちぎっ
+			:destroyed_past->引きちぎっ
+			:destroyed_past->嚙みちぎっ
+
+			;「～て(いる)」で統一すること
+			:destroyed_present->ちぎって
+			:destroyed_present->引きちぎって
+			:destroyed_present->噛みちぎって
+
+			; 本来は名詞だが、自然さ重視で。[to]は未使用。
+			:destroyed_suffix->バラバラになった
+			:destroyed_suffix->粉々になった
+			:destroyed_suffix->断片になった
+			:destroyed_suffix(recipient_flesh!=Mechanoid)->ボロボロになった
+			:destroyed_suffix(recipient_flesh!=Mechanoid)->細切れになった
+			:destroyed_suffix(recipient_flesh!=Mechanoid)->ズタズタになった
+			:destroyed_suffix(recipient_flesh!=Mechanoid)->ぐちゃぐちゃな肉塊になった
+		}
+	}
+}
+{Maneuver_KickMaterialInEyes_MeleeHit
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]の目に[TOOL_label]を蹴り上げた。
+			:r_logentry(p=0.2)->[INITIATOR_definite]が[RECIPIENT_definite]の目に[TOOL_label]を霧状に蹴り上げた。
+		}
+	}
+}
+{Maneuver_KickMaterialInEyes_MeleeMiss
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]の目に[TOOL_label]を蹴り上げようとしたが失敗した。
+		}
+	}
+}
+{Maneuver_KickMaterialInEyes_MeleeDodge
+	{rulePack
+		{?rulesStrings
+			:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]の目に[TOOL_label]を蹴り上げたが、[RECIPIENT_definite]はそれを避けた。
+			:r_logentry->[INITIATOR_definite]が[RECIPIENT_definite]の目に[TOOL_label]を蹴り上げたが、[RECIPIENT_definite]はそれを遮った。
+		}
+	}
+}
+;Namerは名前なので訳さないが、英語に気をつける
+;{NamerAnimalUtility
+;	{rulePack
+;		{?rulesFiles
+;			:NameAnimalUnisex->Names/Animal_Unisex
+;			:NameAnimalMale->Names/Animal_Male
+;			:NameAnimalFemale->Names/Animal_Female
+;		}
+;	}
+;}
+{NamerAnimalGenericMale
+	{rulePack
+		{?rulesStrings
+			:r_name(p=6)->[NameAnimalUnisex]
+			:r_name(p=6)->[NameAnimalMale]
+			:r_name(p=6)->[NamePersonMale]
+			:r_name->[exoticname]
+
+			:exoticname(p=2)->[AdjectiveBadass_e]
+			:exoticname(p=2)->[PersonBadass_e]
+			:exoticname->[Enemy_e]
+			:exoticname->[ConceptAny_e]
+			:exoticname->[Color_e]
+		}
+	}
+}
+{NamerAnimalGenericFemale
+	{rulePack
+		{?rulesStrings
+			:r_name(p=6)->[NameAnimalUnisex]
+			:r_name(p=6)->[NameAnimalFemale]
+			:r_name(p=6)->[NamePersonFemale]
+			:r_name->[exoticname]
+
+			:exoticname(p=2)->[AdjectiveBadass_e]
+			:exoticname(p=2)->[PersonBadass]
+			:exoticname->[Enemy_e]
+			:exoticname->[ConceptAny_e]
+			:exoticname->[Color_e]
+		}
+	}
+}
+;{ArtNameUtility
+;	{rulePack
+;		{?rulesFiles
+;			:Artwork->Words/Nouns/Artworks
+;		}
+;	}
+;}
+{NamerArtCommon
+	{rulePack
+		{?rulesStrings
+			:r_art_name(p=4)->[Artwork] [Trans] [ConceptAny_e]
+			:r_art_name(p=4)->[maybe_a] [maybe_adjective] [Artwork]
+			:r_art_name->[maybe_a] [maybe_adjective] [ConceptAny_e]
+			:r_art_name->[maybe_a] [maybe_adjective] [TerrainFeature_e]
+			:r_art_name->[maybe_a] [maybe_adjective] [Vegetable_e]
+			:r_art_name->[maybe_a] [maybe_adjective] [Game_e]
+			:r_art_name->[maybe_a] [maybe_adjective] [Animal_e]
+			:r_art_name->[maybe_a] [maybe_adjective] [Gore_e]
+			:r_art_name->[maybe_a] [maybe_adjective] [NaturalObject_e]
+			:r_art_name->[maybe_a] [maybe_adjective] [PersonFamily_e]
+			:r_art_name->[maybe_a] [maybe_adjective] [Enemy_e]
+			:r_art_name(p=2)->[Artwork] No. [art_name_numeric]
+			:r_art_name->No. [art_name_numeric]
+			:r_art_name->[art_name_numeric]
+			:r_art_name->[Artwork] [art_name_numeric]
+			:r_art_name->[ConceptAny_e] No. [art_name_numeric]
+			:r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]
+			:r_art_name(p=6)->[ANYPAWN_nameIndef]'s [Artwork]
+			:r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color_e]
+			:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonalCharacteristic_e]
+			:r_art_name(p=3)->[PersonalCharacteristic_e] of [ANYPAWN_nameIndef]
+			:r_art_name(p=3)->[ConceptAny_e] [Trans] [ANYPAWN_nameIndef]
+			:r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef]
+
+			:art_name_numeric->[maybe_letter][Digit][maybe_letter]
+			:art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]
+			:art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]
+			:art_name_numeric->[maybe_letter][RomanNumeral][maybe_letter]
+			:art_name_numeric->[maybe_letter][RomanNumeral][Digit][maybe_letter]
+			:art_name_numeric->[maybe_letter][Digit][RomanNumeral][maybe_letter]
+			:art_name_numeric->[maybe_letter][Digit][RomanNumeral][Digit][maybe_letter]
+			:art_name_numeric->[maybe_letter][RomanNumeral][Digit][RomanNumeral][maybe_letter]
+			:art_name_numeric->[maybe_letter][RomanNumeral][Digit][Digit][RomanNumeral][maybe_letter]
+
+			:maybe_letter(p=8)->
+			:maybe_letter->[Letter]
+			:maybe_letter->[Letter][Letter]
+
+			:maybe_a(p=3)->
+			:maybe_a->a
+
+			:maybe_adjective(p=5)->
+			:maybe_adjective(p=2)->[AdjectiveAngsty_e]
+			:maybe_adjective->[AdjectiveBadass_e]
+			:maybe_adjective->[Color_e]
+		}
+	}
+}
+{NamerArtWeapon
+	{rulePack
+		{?rulesStrings
+			:r_art_name->[ConceptBadass_e]
+			:r_art_name->The [AnimalBadass_e]
+			:r_art_name->[AdjectiveBadass_e] [AnimalBadass_e]
+			:r_art_name->[ColorBadass_e] [AnimalBadass_e]
+			:r_art_name->[ConceptBadass_e] [ColorBadass_e]
+			:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [ConceptBadass_e]
+			:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [AnimalBadass_e]
+			:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonBadass_e]
+			:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonAlly]
+			:r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonFamily_e]
+			:r_art_name(p=3)->[ConceptBadass_e] of [ANYPAWN_nameIndef]
+			:r_art_name(p=3)->[ColorBadass_e] [ANYPAWN_nameIndef]
+		}
+	}
+}
+{NamerInitialSettlementColony
+	{rulePack
+		{?rulesStrings
+			:r_name->Colony
+		}
+	}
+}
+{NamerInitialSettlementTribe
+	{rulePack
+		{?rulesStrings
+			:r_name->Village
+		}
+	}
+}
+{NamerFactionOutlander
+	{rulePack
+		{?rulesStrings
+			:r_name(p=3)->[nearnameinitial]
+			:r_name->[nearnameinitial] [political_union_outlander]
+			:r_name->[nearnameinitial] [political_adjective] [political_union_outlander]
+			:r_name->[political_union_outlander] of [nearnameinitial]
+			:r_name->[political_adjective] [political_union_outlander] of [nearnameinitial]
+			:nearnameinitial(p=3)->[PlaceOutlander]
+			:nearnameinitial->[Direction] [PlaceOutlander]
+		}
+;		{?rulesFiles
+;			:political_union_outlander->Words/Nouns/PoliticalUnions_Outlander
+;			:political_adjective->Words/Adjectives/PoliticalUnions
+;		}
+	}
+}
+{NamerSettlementOutlander
+	{rulePack
+		{?rulesStrings
+			:r_name(p=12)->[townname_wordgen]
+			:r_name(p=6)->[townname_fixed]
+			:r_name(p=4)->[townname_combo]
+			:r_name->[townname_near]
+
+			:topicalnoun->[Vegetable_e]
+			:topicalnoun->[Game_e]
+			:topicalnoun->[BodyPart_e]
+
+			:townname_combo->[topicalnoun] [TerrainFeature_e]
+			:townname_combo->[topicalnoun] [Community_e]
+			:townname_combo->[topicalnoun]'s [TerrainFeature_e]
+			:townname_combo->[topicalnoun]'s [Community_e]
+			:townname_combo(p=2)->[concept_positive]'s [TerrainFeature_e]
+			:townname_combo(p=2)->[concept_positive] [TerrainFeature_e]
+			:townname_combo(p=2)->[concept_positive] [Community_e]
+			:townname_combo(p=3)->[Character_e]'s [TerrainFeature_e]
+			:townname_combo(p=3)->[Character_e]'s [Community_e]
+
+			:townname_near->[nearnameinitial]-at-the-[TerrainFeature_e]
+			:townname_near->[nearnameinitial]-by-the-[TerrainFeature_e]
+			:townname_near->[nearnameinitial]-on-the-[TerrainFeature_e]
+
+			:nearnameinitial->[townname_wordgen]
+			:nearnameinitial->[Community_e]
+
+			:townname_wordgen(p=2)->[SylE][SylE]
+			:townname_wordgen(p=2)->[SylE][SylE][SylE]
+			:townname_wordgen(p=2)->[SylE][townend]
+			:townname_wordgen(p=2)->[SylE][SylE][townend]
+			:townname_wordgen->[TerrainFeature_e][townend]
+			:townname_wordgen->[topicalnoun][townend]
+
+			:townend->ville
+			:townend->town
+			:townend->hurst
+			:townend->bourne
+			:townend->brad
+			:townend->dale
+			:townend->hope
+			:townend->ing
+			:townend->ness
+			:townend->mere
+			:townend->shaw
+			:townend->wick
+			:townend->ton
+			:townend->ston
+			:townend->os
+			:townend->den
+			:townend->tas
+			:townend->wood
+			:townend->land
+			:townend->worth
+			:townend->roon
+			:townend->ron
+			:townend->well
+		}
+;		{?rulesFiles
+;			:townname_fixed->Names/OutlanderTown
+;			:concept_positive->Words/Nouns/Concepts_Positive
+;		}
+	}
+}
+{NamerFactionTribal
+	{rulePack
+		{?rulesStrings
+			:r_name->[WordTribal] [political_union_tribal]
+			:r_name->The [WordTribal] [political_union_tribal]
+			:r_name->The [Color_e] [TerrainFeature_e] [political_union_tribal]
+			:r_name->[political_union_tribal] of [WordTribal]
+			:r_name->The [Color_e] [Animal_e] [WordTribal]
+			:r_name->The [WordTribal] of the [TerrainFeature_e]
+		}
+;		{?rulesFiles
+;			:political_union_tribal->Words/Nouns/PoliticalUnions_Tribal
+;		}
+	}
+}
+{NamerSettlementTribal
+	{rulePack
+		{?rulesStrings
+			:r_name(p=2)->[WordTribal]
+			:r_name->[Color_e] [WordTribal]
+			:r_name->[Color_e] [TerrainFeature_e]
+			:r_name->[WordTribal] [TerrainFeature_e]
+		}
+	}
+}
+{NamerFactionPirate
+	{rulePack
+		{?rulesStrings
+			:r_name->The [AnimalBadass_e]s
+			:r_name->The [AnimalBadass_e] Men
+			:r_name->The [AnimalBadass_e]s of [ConceptBadass_e]
+			:r_name->The [PersonBadass_e]s of [ConceptBadass_e]
+			:r_name->The [PersonBadass_e]s
+			:r_name->The [Enemy_e]s
+			:r_name->The [Weapon_e] Men
+			:r_name->The [Weapon_e]s
+			:r_name->The [Weapon_e] [AnimalBadass_e]s
+			:r_name->The [Weapon_e] [Enemy_e]s
+			:r_name->The [ColorBadass_e] [Weapon_e]s
+			:r_name->The [ColorBadass_e] [AnimalBadass_e]s
+			:r_name->The [ColorBadass_e] [PersonBadass_e]s
+			:r_name->The [ColorBadass_e] [Enemy_e]s
+			:r_name->The [PersonBadass] [groupname]
+			:r_name->The [Enemy_e] [Enemy_e]s
+			:r_name->The [AdjectiveBadass_e] [groupname]
+			:r_name->The [AdjectiveBadass_e] [AnimalBadass_e]s
+			:r_name->The [AdjectiveBadass_e] [Enemy_e]s
+			:r_name->The [AdjectiveBadass_e] [PersonBadass_e]s
+			:r_name->The [PersonAlly]s of [ConceptBadass_e]
+			:r_name(p=0.4)->The Eaters of [Gore]
+			:r_name->[NamePerson]'s [Enemy_e]s
+			:r_name->[NamePerson]'s [AnimalBadass_e]s
+			:r_name->[NamePerson]'s [Weapon_e]s
+			:r_name->[Weapon_e] [groupname]
+			:r_name->[ConceptBadass_e] [groupname]
+		}
+;		{?rulesFiles
+;			:groupname->Words/Nouns/GroupNames
+;		}
+	}
+}
+{NamerSettlementPirate
+	{rulePack
+		{?rulesStrings
+			:r_name(p=4)->[townname_combo]
+			:r_name->[townname_wordgen]
+			:townname_combo->[AnimalBadass_e] [geography]
+			:townname_combo->[AnimalBadass_e]'s [geography]
+			:townname_combo->[ConceptBadass_e] [geography]
+			:townname_combo->[ConceptBadass_e]'s' [geography]
+			:townname_combo->[PersonBadass_e] [geography]
+			:townname_combo->[PersonBadass_e]'s [geography]
+			:townname_combo->[Enemy_e]'s [geography]
+			:townname_combo->[Enemy_e] [geography]
+			:townname_combo->[Weapon_e]'s [geography]
+			:townname_combo->[Weapon_e] [geography]
+			:townname_combo->[ColorBadass_e] [geography]
+
+			:geography(p=2)->[TerrainFeature_e]
+			:geography->[Community_e]
+
+			:townname_wordgen(p=2)->[SylE][SylE]
+			:townname_wordgen(p=2)->[SylE][SylE][SylE]
+			:townname_wordgen(p=2)->[SylE][townendevil]
+			:townname_wordgen(p=2)->[SylE][SylE][townendevil]
+
+			:townendevil->vast
+			:townendevil->varg
+			:townendevil->vix
+			:townendevil->tor
+			:townendevil->tear
+			:townendevil->cut
+			:townendevil->lop
+			:townendevil->oze
+			:townendevil->ozzle
+			:townendevil->latch
+			:townendevil->lock
+			:townendevil->burn
+			:townendevil->sear
+			:townendevil->shank
+			:townendevil->hurt
+			:townendevil->vash
+			:townendevil->warg
+			:townendevil->wug
+			:townendevil->thot
+			:townendevil->thard
+			:townendevil->thad
+		}
+	}
+}
+{NamerFactionMechanoid
+	{rulePack
+		{?rulesStrings
+			:r_name->[msyl][msyl] [mechhive]
+			:mechhive->mechhive
+			:msyl->nyar
+			:msyl->alg
+			:msyl->xan
+			:msyl->zel
+			:msyl->kil
+			:msyl->len
+			:msyl->lax
+			:msyl->alph
+			:msyl->ome
+			:msyl->iri
+			:msyl->slin
+			:msyl->toth
+			:msyl->arth
+			:msyl->unth
+			:msyl->ox
+			:msyl->arm
+			:msyl->murd
+			:msyl->zen
+			:msyl->yoth
+			:msyl->lite
+		}
+	}
+}
+{NamerPersonTribal
+	{rulePack
+		{?rulesStrings
+			:r_name(p=2)->[WordTribal] [WordTribal]
+			:r_name->[WordTribal] '[AnimalBadass_e]' [WordTribal]
+			:r_name->[Color_e] [WordTribal]
+			:r_name->[WordTribal] [Animal_e]
+			:r_name->[Animal_e] [WordTribal]
+			:r_name->[Color_e] [Animal_e]
+		}
+	}
+}
+{EmpireNameUtility
+	{rulePack
+		{?rulesStrings
+			:WordImperial(p=4)->[SylB][SylB]
+			:WordImperial(p=2)->[SylB][SylB][SylB]
+			:WordImperial(p=0.2)->[SylB][SylB][SylB][SylB]
+		}
+;		{?rulesFiles
+;			:ImperialNameFirstMale->Names/Imperial_First_Male
+;			:ImperialNameFirstFemale->Names/Imperial_First_Female
+;			:ImperialNameLast->Names/Imperial_Last
+;		}
+	}
+}
+{NamerQuestDefault
+	{rulePack
+		{?rulesStrings
+			:defaultQuestName->[adjectiveCurious] [quest]
+		}
+;		{?rulesFiles
+;			:quest->Words/Nouns/Quests
+;			:adjectiveCurious->Words/Adjectives/Curious
+;		}
+	}
+}
+{NamerScenario
+	{rulePack
+		{?rulesStrings
+			:r_name->[story] [Trans] the [Weapon_e]
+			:r_name->[story] [Trans] the [Animal_e]
+			:r_name->[story] [Trans] the [TerrainFeature_e]
+			:r_name->[story] [Trans] [PersonJob_e]s
+			:r_name->[story] [Trans] [ConceptAny_e]
+			:r_name->[ConceptAny_e] [story]
+			:r_name->[story] [Trans] a [Community_e]
+			:r_name->a [AdjectiveAny_e] [story]
+			:r_name->[story] [Trans] the [Game]
+			:r_name->[story] in [Color_e] and [Color_e]
+			:r_name->[Color_e] [story]
+			:r_name->[story] [RomanNumeral]
+		}
+;		{?rulesFiles
+;			:story->Words/Nouns/Stories
+;		}
+	}
+}
+{NamerTraderGeneral
+	{rulePack
+		{?rulesStrings
+			:r_name(p=4)->[businessname] [businesstype]
+			:r_name->[NamePerson] [businesstype]
+			:r_name->[maybe_adjective] [Animal_e] [businesstype]
+			:r_name->[Letter][Letter] [businesstype]
+			:r_name(p=0.5)->[PersonAlly_e] [businesstype]
+			:r_name(p=0.5)->[AdjectiveFriendly_e] [businesstype]
+			:r_name(p=0.5)->[AdjectiveBadass_e] [businesstype]
+			:r_name(p=0.3)->[PersonFamily_e] [businesstype]
+			:r_name(p=0.3)->[maybe_adjective] [NaturalObject_e] [businesstype]
+			:r_name(p=0.2)->[maybe_adjective] [TreeType_e] [businesstype]
+			:r_name(p=0.2)->[maybe_adjective] [Vegetable_e] [businesstype]
+			:r_name(p=0.2)->[Direction] [businesstype]
+
+			:maybe_adjective->
+			:maybe_adjective->[Color_e]
+			:maybe_adjective->[AdjectiveFriendly_e]
+			:maybe_adjective->[AdjectiveBadass_e]
+		}
+;		{?rulesFiles
+;			:businessname->Names/Business
+;			:businesstype->Words/Nouns/BusinessTypes
+;		}
+	}
+}
+{WorldFeatureNamerCommon
+	{rulePack
+		{?rulesStrings
+			:r_name->[narrative_name] [terrain_word]
+			:r_name(p=0.05)->[storyname] [terrain_word]
+
+			:narrative_name(p=12)->[WordTribal_e]
+			:narrative_name(p=12)->[PlaceOutlander_e]
+			:narrative_name->[Color_e][NaturalObject_e]
+			:narrative_name->[AdjectiveNatural_e][BodyPart_e]
+			:narrative_name->[Animal_e]
+			:narrative_name->[Color_e]
+			:narrative_name->[Color_e][Animal_e]
+			:narrative_name->[AdjectiveNatural_e][Animal_e]
+			:narrative_name->[Animal_e][BodyPart_e]
+			:narrative_name->[Color_e] [Animal_e]
+			:narrative_name->[AdjectiveNatural_e] [Animal_e]
+			:narrative_name->[Animal_e] [BodyPart_e]
+
+			:storyname(p=50)->[subject]'s [story_result]
+			:storyname(p=2)->[subject]'s [BodyPart_e]
+			:storyname->[subject]'s [Gore]
+
+			:subject(p=5)->[NamePerson]
+			:subject->[Animal_e]
+			:subject->[WordTribal]
+			:subject->[PlaceOutlander]
+
+			:story_result->folly
+			:story_result->vice
+			:story_result->lunacy
+			:story_result->mistake
+			:story_result->fault
+			:story_result->misstep
+			:story_result->delusion
+			:story_result->joy
+			:story_result->delight
+			:story_result->wonder
+			:story_result->pride
+			:story_result->jewel
+			:story_result->prize
+			:story_result->bounty
+			:story_result->honor
+			:story_result->jackpot
+			:story_result->trophy
+			:story_result->conceit
+			:story_result->arrogance
+			:story_result->stand
+			:story_result->loss
+			:story_result->debt
+			:story_result->collapse
+			:story_result->destruction
+			:story_result->cataclysm
+			:story_result->ruin
+			:story_result->ruination
+			:story_result->undoing
+			:story_result->downfall
+			:story_result->end
+			:story_result->retirement
+			:story_result->achievement
+			:story_result->finale
+			:story_result->bluff
+			:story_result->ruse
+			:story_result->deception
+			:story_result->facade
+			:story_result->fraud
+		}
+	}
+}
+{NamerMountainRange
+	{rulePack
+		{?rulesStrings
+			:standardname(p=0.2)->mount [narrative_name]
+			:terrain_word(p=5)->mountains
+			:terrain_word(p=2)->range
+			:terrain_word->peaks
+			:terrain_word->hills
+			:terrain_word->cliffs
+		}
+	}
+}
+{NamerArchipelago
+	{rulePack
+		{?rulesStrings
+			:standardname(p=0.2)->isle [narrative_name]
+			:terrain_word(p=4)->islands
+			:terrain_word(p=3)->isles
+			:terrain_word(p=3)->archipelago
+			:terrain_word->reef
+			:terrain_word->atoll
+			:terrain_word->rocks
+			:terrain_word->islets
+			:terrain_word->points
+			:terrain_word->chain
+		}
+	}
+}
+{NamerIsland
+	{rulePack
+		{?rulesStrings
+			:standardname(p=0.2)->isle [narrative_name]
+			:terrain_word(p=4)->island
+			:terrain_word(p=2)->isle
+			:terrain_word->reef
+			:terrain_word->atoll
+			:terrain_word->rock
+			:terrain_word->islet
+			:terrain_word->point
+		}
+	}
+}
+{NamerPeninsula
+	{rulePack
+		{?rulesStrings
+			:standardname(p=0.2)->point [narrative_name]
+			:standardname(p=0.2)->cape [narrative_name]
+			:terrain_word(p=5)->peninsula
+			:terrain_word(p=2)->point
+			:terrain_word->cape
+			:terrain_word->headland
+			:terrain_word->horn
+		}
+	}
+}
+{NamerBay
+	{rulePack
+		{?rulesStrings
+			:standardname(p=0.2)->gulf of [narrative_name]
+			:terrain_word(p=6)->bay
+			:terrain_word->bight
+			:terrain_word->gulf
+			:terrain_word->anchorage
+			:terrain_word->cove
+		}
+	}
+}
+{NamerLake
+	{rulePack
+		{?rulesStrings
+			:standardname->lake [narrative_name]
+			:terrain_word(p=6)->lake
+			:terrain_word->sea
+			:terrain_word->pond
+			:terrain_word->basin
+			:terrain_word->reservoir
+			:terrain_word(p=0.3)->puddle
+			:terrain_word(p=0.3)->lagoon
+			:terrain_word(p=0.3)->loch
+		}
+	}
+}
+{NamerSea
+	{rulePack
+		{?rulesStrings
+			:standardname(p=0.1)->lake [narrative_name]
+			:terrain_word(p=6)->sea
+			:terrain_word->ocean
+			:terrain_word->lake
+		}
+	}
+}
+{NamerOcean
+	{rulePack
+		{?rulesStrings
+			:standardname(p=0.4)->[ocean_adjective] [narrative_name]
+			:ocean_adjective->blue
+			:ocean_adjective->white
+			:ocean_adjective->gray
+			:ocean_adjective->clear
+			:ocean_adjective->windy
+			:ocean_adjective->stormy
+			:ocean_adjective->calm
+			:ocean_adjective->broad
+			:ocean_adjective->endless
+			:ocean_adjective->flat
+			:ocean_adjective->still
+			:ocean_adjective->wavy
+			:ocean_adjective->gentle
+			:terrain_word(p=6)->ocean
+			:terrain_word(p=3)->sea
+			:terrain_word->expanse
+		}
+	}
+}
+{NamerDesert
+	{rulePack
+		{?rulesStrings
+			:standardname(p=0.4)->[desert_adjective] [narrative_name]
+			:desert_adjective->flat
+			:desert_adjective->white
+			:desert_adjective->endless
+			:desert_adjective->heartless
+			:desert_adjective->parched
+			:desert_adjective->dry
+			:desert_adjective->long
+			:desert_adjective->sunburned
+			:desert_adjective->sunny
+			:desert_adjective->dazzling
+			:desert_adjective->hot
+			:desert_adjective->sweaty
+			:desert_adjective->sandy
+			:desert_adjective->rocky
+			:terrain_word(p=6)->desert
+			:terrain_word->plateau
+			:terrain_word->flats
+			:terrain_word->basin
+			:terrain_word->wastes
+			:terrain_word->wasteland
+			:terrain_word->barrens
+		}
+	}
+}
+{NamerSwamp
+	{rulePack
+		{?rulesStrings
+			:standardname(p=0.1)->fen [narrative_name]
+			:standardname(p=0.3)->[swamp_adjective] [narrative_name]
+			:swamp_adjective->wet
+			:swamp_adjective->steamy
+			:swamp_adjective->choking
+			:swamp_adjective->rotten
+			:swamp_adjective->rotting
+			:swamp_adjective->overgrown
+			:swamp_adjective->tangled
+			:swamp_adjective->viny
+			:swamp_adjective->thorny
+			:terrain_word(p=6)->swamp
+			:terrain_word->basin
+			:terrain_word->wetlands
+			:terrain_word->bayou
+			:terrain_word->bog
+			:terrain_word->marsh
+			:terrain_word->fen
+		}
+	}
+}
+{NamerTropicalRainforest
+	{rulePack
+		{?rulesStrings
+			:standardname(p=0.3)->[rainforest_adjective] [narrative_name]
+			:rainforest_adjective->wet
+			:rainforest_adjective->steamy
+			:rainforest_adjective->choking
+			:rainforest_adjective->overgrown
+			:rainforest_adjective->tangled
+			:rainforest_adjective->viny
+			:rainforest_adjective->thorny
+			:terrain_word(p=6)->rainforest
+			:terrain_word(p=3)->jungle
+			:terrain_word->forest
+			:terrain_word->grove
+			:terrain_word->woodland
+			:terrain_word->tangle
+		}
+	}
+}
+{NamerForest
+	{rulePack
+		{?rulesStrings
+			:terrain_word(p=6)->forest
+			:terrain_word->grove
+			:terrain_word->woodland
+			:terrain_word->thicket
+		}
+	}
+}
+{NamerBorealForest
+	{rulePack
+		{?rulesStrings
+			:terrain_word(p=6)->forest
+			:terrain_word(p=3)->taiga
+			:terrain_word->grove
+			:terrain_word->woodland
+			:terrain_word->woods
+			:terrain_word->tangle
+			:terrain_word->thicket
+		}
+	}
+}
+{NamerAridShrubland
+	{rulePack
+		{?rulesStrings
+			:terrain_word(p=4)->shrubland
+			:terrain_word(p=4)->scrubland
+			:terrain_word(p=2)->plateau
+			:terrain_word(p=2)->scrub
+			:terrain_word->desert
+			:terrain_word->bush
+			:terrain_word->brush
+			:terrain_word->barrens
+		}
+	}
+}
+{NamerIceSheet
+	{rulePack
+		{?rulesStrings
+			:terrain_word->sheet
+			:terrain_word->expanse
+			:terrain_word(p=0.5)->reach
+			:terrain_word(p=0.3)->field
+			:terrain_word(p=0.3)->span
+			:terrain_word(p=0.3)->field
+			:terrain_word(p=0.3)->stretch
+			:terrain_word(p=0.3)->tract
+		}
+	}
+}
+{NamerTundra
+	{rulePack
+		{?rulesStrings
+			:terrain_word(p=4)->plateau
+			:terrain_word(p=4)->barrens
+			:terrain_word(p=2)->taiga
+			:terrain_word->scrub
+			:terrain_word->shrubland
+			:terrain_word->scrubland
+			:terrain_word->bush
+			:terrain_word->brush
+			:terrain_word->barrens
+			:terrain_word->expanse
+			:terrain_word->prairie
+			:terrain_word->flats
+		}
+	}
+}
+{NamerWorld
+	{rulePack
+		{?rulesStrings
+			:r_name->[celestial_name]
+			:r_name->[celestial_prefix] [celestial_name]
+			:r_name->[celestial_name] [celestial_suffix]
+			:r_name->[world_name_numeric]
+			:r_name->[world_name_numeric] [celestial_suffix]
+			:r_name(p=0.5)->[celestial_name] [RomanNumeral]
+			:r_name(p=0.5)->[celestial_name]-[RomanNumeral]
+			:r_name(p=0.5)->[celestial_name]-[numbers]
+			:r_name->[celestial_name] [celestial_name]
+			:r_name->[NamePerson]'s [planet]
+			:world_name_numeric->[letters]-[numbers]
+			:world_name_numeric->[letters] [numbers]
+			:letters->[Letter]
+			:letters->[Letter][Letter]
+			:letters->[Letter][Letter][Letter]
+			:numbers->[Digit]
+			:numbers->[Digit][Digit]
+			:numbers->[Digit][Digit][Digit]
+			:planet->World
+			:planet->Planet
+		}
+;		{?rulesFiles
+;			:celestial_name->Names/Celestial
+;			:celestial_suffix->Names/CelestialSuffix
+;			:celestial_prefix->Names/CelestialPrefix
+;		}
+	}
+}
+;翻訳とは関係ないが警告がうるさいので
+{SeedGenerator
+	{rulePack
+		{?rulesStrings
+			:r_seed(p=3)->[NamePerson]
+			:r_seed->[Animal_e]
+			:r_seed->[TerrainFeature_e]
+			:r_seed->[PersonJob_e]
+			:r_seed->[Enemy_e]
+			:r_seed->[Gore_e]
+			:r_seed->[Apparel_e]
+			:r_seed->[AdjectiveAny_e]
+			:r_seed->[ConceptAny_e]
+			:r_seed->[Weapon_e]
+			:r_seed->[Color_e]
+			:r_seed->[Vegetable_e]
+			:r_seed->[Game_e]
+			:r_seed->[businessname]
+			:r_seed->[businesstype]
+			:r_seed->[Community_e]
+		}
+;		{?rulesFiles
+;			:businessname->Names/Business
+;			:businesstype->Words/Nouns/BusinessTypes
+;		}
+	}
+}
+{Transition_Include
+	{rulePack
+		{?rulesStrings
+			:duetoa->により
+			:duetoa(p=0.5)->により
+			:duetoa(p=0.5)->の為に
+		}
+	}
+}
+{Transition_Downed
+	{rulePack
+		{?rulesStrings
+			; 病名などはお堅い名詞なので主格にしにくい。シンプルにとどめてほいたほうがいい。
+			; 「Jon が 失血 で倒れた。」
+			; 「失血 が Jon を倒した。」 不自然
+			:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNoun]で[collapsemeta]。
+			:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNounPretty]で[collapsemeta]。
+			:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNoun]で[collapsemeta]。
+			:r_logentry->[SUBJECT_definite]が[CULPRITHEDIFF_labelNounPretty]で[collapsemeta]。
+			:r_logentry->[CULPRITHEDIFF_labelNoun][duetoa][SUBJECT_definite]が[collapsedmeta]。
+			:r_logentry->[CULPRITHEDIFF_labelNounPretty][duetoa][SUBJECT_definite]が[collapsedmeta]。
+			:r_logentry(p=0.1)->[SUBJECT_definite]が[collapsedmeta]。
+
+			:collapse->倒れた
+			:collapse->崩れ落ちた
+			:collapse(SUBJECT_flesh!=Mechanoid)->倒れた
+			:collapse(SUBJECT_flesh==Mechanoid)->壊れた
+			:collapse(SUBJECT_flesh==Mechanoid)->停止した
+			:collapse(SUBJECT_flesh==Mechanoid)->パワーを失った
+
+			:collapsed->倒れた
+			:collapsed->崩れ落ちた
+			:collapsed(SUBJECT_flesh!=Mechanoid)->倒れた
+			:collapsed(SUBJECT_flesh==Mechanoid)->壊れた
+			:collapsed(SUBJECT_flesh==Mechanoid)->停止した
+			:collapsed(SUBJECT_flesh==Mechanoid)->パワーを失った
+
+			:helplessly->為す術なく
+			:helplessly(SUBJECT_flesh!=Mechanoid)->気付かぬうちに
+			:helplessly(SUBJECT_flesh!=Mechanoid)->弱々しく
+			:helplessly(SUBJECT_flesh!=Mechanoid)->力なく
+			:helplessly(SUBJECT_flesh==Mechanoid)->制御不能になりながら
+
+			:collapsemeta->[collapse]
+			:collapsemeta(p=0.5)->[helplessly][collapse]
+
+			:collapsedmeta->[collapsed]
+			:collapsedmeta(p=0.5)->[helplessly][collapsed]
+		}
+	}
+}
+{Transition_DiedInclude
+	{rulePack
+		{?rulesStrings
+			:r_logentry(p=1.5)->[SUBJECT_definite]が[CULPRITHEDIFF_labelNoun]で[die]た。
+			:r_logentry(p=1.5)->[SUBJECT_definite]が[CULPRITHEDIFF_labelNounPretty]で[die]た。
+			:r_logentry->[CULPRITHEDIFF_labelNoun][duetoa][SUBJECT_definite]が[died][flavorsuffix]。
+			:r_logentry->[CULPRITHEDIFF_labelNounPretty][duetoa][SUBJECT_definite]が[died][flavorsuffix]。
+
+			:r_logentry->[SUBJECT_definite]が[died]た。
+			:r_logentry->[SUBJECT_definite]が[died][flavorsuffix]。
+		}
+	}
+}
+{Transition_Died
+	{rulePack
+		{?rulesStrings
+			:die(SUBJECT_flesh!=Mechanoid,p=2)->絶命し
+			:die(SUBJECT_flesh!=Mechanoid)->死亡し
+			:die(SUBJECT_flesh!=Mechanoid)->事切れ
+			:die(SUBJECT_flesh==Mechanoid)->シャットダウンし
+			:die(SUBJECT_flesh==Mechanoid)->機能停止し
+			:die(SUBJECT_flesh==Mechanoid)->パワーが切れ
+
+			:died(SUBJECT_flesh!=Mechanoid,p=2)->絶命し
+			:died(SUBJECT_flesh!=Mechanoid)->死亡し
+			:died(SUBJECT_flesh!=Mechanoid)->事切れ
+			:died(SUBJECT_flesh==Mechanoid)->シャットダウンし
+			:died(SUBJECT_flesh==Mechanoid)->機能停止し
+			:died(SUBJECT_flesh==Mechanoid)->パワーが切れ
+		}
+	}
+}
+{Transition_DiedExplosive
+	{rulePack
+		{?rulesStrings
+			:die(p=3)->[flavor]爆発し
+			:die(p=3)->[flavorsuffix]爆発し
+			:die->[flavor]爆轟し
+			:die->[flavorsuffix]爆轟し
+			:die->[flavor]はじけ
+			:die->[flavorsuffix]はじけ
+
+			:died(p=3)->[flavor]爆発し
+			:died->[flavor]爆轟し
+			:died->[flavor]はじけ
+
+			:flavor(p=0.2)->科学反応による[fireball]に包まれながら
+			:flavor->[Color]色の[fireball]に包まれながら
+			:flavor->[AdjectiveLarge][fireball]に包まれながら
+			:flavor(p=4)->[fireball]に包まれながら
+			:flavor(p=4)->
+
+			:flavorsuffix->て、[everywhere][pieces]をまき散らした
+			:flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->て、[everywhere][Gore]をまき散らした
+			:flavorsuffix(SUBJECT_flesh!=Mechanoid)->て、小さな[Gore]の塊を残した
+			:flavorsuffix->て、小さな穴を残した
+			:flavorsuffix(p=4)->た
+
+			:fireball(p=3)->火球
+			:fireball->火炎球
+			:fireball->衝撃波
+			:fireball->業火
+
+			:pieces->破片
+			:pieces->断片
+
+			:everywhere->辺り一面に
+			:everywhere->遠くまで
+		}
+	}
+}
+;翻訳無しが、警告がうざいので
+{DynamicWrapper
+	{rulePack
+		{?rulesStrings
+			:r_root->[RULE]
+		}
+	}
+}

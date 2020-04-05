@@ -1,0 +1,78 @@
+﻿{SolarFlare
+	label:_[solar flare]_
+	description:_?ソーラー・フレア。?__{solar flare}_がこの星へ吹き付けている。電磁干渉により殆どの電気機器が動かなくなる。
+	endMessage:_{solar flare}_は終わった。
+	letterText:_{solar flare}_が始まった。\n\n強烈な放射線が全ての電気機器を使えなくする。\n\n約一日で過ぎ去るだろう。
+}
+{Eclipse
+	label:_[eclipse]_
+	description:_?エクリプス。?__{eclipse}_が地表に影を落としている。昼間でも暗くなる。
+	endMessage:_{eclipse}_は終わった。
+	letterText:この惑星の月の一つが太陽を遮る軌道に入り、日食が始まった。
+}
+{PsychicDrone
+	label:_[psychic drone]_
+	description:_?サイキック・ドローン。?__{Archotech}_が離れた所から人々を狂気へと駆り立てる精神信号を軌道増幅器から放射している。
+	descriptionFuture:[gameConditionDuration_duration] の間、 [psychicDroneLevel] _[psychic drone]_ が [map_definite] 周辺地域にざわめき、全ての[psychicDroneGender]性を狂気に追いやる
+	endMessage:_{psychic drone}_ は終わった。
+	letterText:全ての{0}の_{colonist}_は不安や怒りの波を感じている！\n\n遠くで憎悪エンジンが活発化している。軌道増幅器からこの場所へ_{psychic drone}_を投射し、{0}にだけ影響するように調整されている。数日の間、一部の人々はとても_{mood}_が悪くなる。\n\nドローンのレベルは {1}。
+}
+{PsychicSoothe
+	label:_[psychic soothe]_
+	description:_?サイキック・スーズ。?__{Archotech}_が離れた所から人々を落ち着かせて安心させる精神信号を軌道増幅器から放射している。
+	letterText:全ての{0}の_{colonist}_が幸福感に微笑んでいる！\n\n遠くで幸福エンジンが活性化している。軌道増幅器からこの場所へ_{psychic drone}_を投射し、{0}にだけ影響するように調整されている。数日の間、一部の人々はとても_{mood}_が良くなる。
+	endMessage:_{psychic soothe}_ は終わった。
+}
+{ToxicFallout
+	label:_[toxic fallout]_
+	description:_?トキシック・フォールアウト。?_遠くない所から噴き上がった有毒な塵が、この地域全体をゆっくりと覆っている。屋根の下にいない生物はゆっくりと毒され、外に放置されているアイテムは腐食する。
+	descriptionFuture:[gameConditionDuration_duration] の間、毒性の下降塵の雲が[map_definite]の周りを覆い尽くし、屋外の植物や動物を殺す
+	endMessage:_{toxic fallout}_の最悪な部分は落ち着いた。
+	letterText:遠方で起こった化学火災から有毒な塵が立ち上り、この星全域を覆った。\n\n屋根の下にいない人や生物は大気中の有毒な塵によりゆっくりと病んでいく。\n\nこれは場所に関わらず数日から一節以上続く。
+}
+{VolcanicWinter
+	label:_[volcanic winter]_
+	description:_?ボルカニック・ウィンター。?_少し離れた所にある火山か火事から吹き出た灰が大気を覆い尽くし、地表へ届く光が著しく減少している。気温はより寒くなり、植物の成長はより遅くなる
+	descriptionFuture:大気層に灰の層が蓄積して、[gameConditionDuration_duration] の間 [map_definite] 辺りの日光が減少する。近くの生態系をかなり害する
+	endMessage:灰の最悪な部分は落ち着いた。
+	letterText:遠方の火山か火事が大量の灰を大気中に放出し始めた。\n\n大気中の灰は太陽を霞ませる。気温が下がり、植物は日光を失う。数週間で終わるか、もしくは何節も続くかもしれない。
+}
+{HeatWave
+	label:_[heat wave]_
+	description:_?ヒート・ウェーブ。?_強烈な熱波がこの地域を焼いている。
+	descriptionFuture:[gameConditionDuration_duration] の間、熱波が [map_definite] 周辺地域を焼いて、作物を害し、涼しい所にいない人や動物を殺すかもしれない
+	endMessage:_{heat wave}_は過ぎ去った。
+	letterText:異常な熱波が始まった。\n\n熱波は命取りな_{heatstroke}_を引き起こす。_[passive cooler]_ か 電動の _[cooler]_ を作るか、自然の岩が涼しい深い地下へ入る。
+}
+{ColdSnap
+	label:_[cold snap]_
+	description:_?コールド・スナップ。?_異常な寒波がこの地域を凍えさせている。
+	descriptionFuture:[gameConditionDuration_duration] の間、寒冷前線が [map_definite] 周辺地域を冷やして、作物や防備不足な人や動物を害する
+	endMessage:_{cold snap}_は過ぎ去った。
+	letterText:異常な寒波が始まった。\n\n寒波では低体温症で簡単に殺される。寒さをしのげる暖かい場所を作り、温かい服を着て、作物が凍死する前にできる限り収穫する。
+}
+{Flashstorm
+	label:_[flashstorm]_
+	description:_?フラッシュストーム。?_落雷を伴う局地的な嵐が狭いエリに吹き荒れている。
+	endMessage:_{flashstorm}_は過ぎ去った。
+	letterText:雷を伴う局所的な嵐がこの辺を襲っている。大規模な火災を引き起こす。
+}
+{ClimateCycle
+	label:_[climate cycle]_
+	description:_?クライメイト・サイクル。?_楕円軌道に起因する複数年気候周期。
+}
+{Planetkiller
+	label:_[planetkiller]_
+	description:_?プラネットキラー。?_対惑星破壊兵器がこの星へ近づいている。ライフル弾が当たった卵のようにこの星を吹き飛ばし、全ての生命を消し去る。
+}
+{Aurora
+	label:_[aurora]_
+	description:_{aurora}_が空を照らしている。息をのむような光景が見ている人の_{mood}_を盛り上げる。
+	endMessage:_{aurora}_は終わった。
+	letterText:美しい_{aurora}_が空を照らしている。\n\n波打つ色が外で見ている人の_{mood}_を盛り上げ、夜空を明るくする。
+}
+{PsychicDroner
+	label:_[psychic droner]_
+	description:{0}性に合わせた _[psychic droner]_ が {0} を狂気に駆り立てている。
+	letterText:_[psychic droner]_ 装置がこの地域に影響し始めた。
+}

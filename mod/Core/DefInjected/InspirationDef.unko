@@ -1,0 +1,50 @@
+﻿@Inspired:閃き
+
+{Frenzy_Work
+	label:_<work frenzy>_
+	beginLetter:_{Mood}_が良かったので、[PAWN_nameIndef] が閃きを感じた！\n\n今後8日間の作業が速くなる。
+	endMessage:{0} の閃きは終わった (_<work frenzy>_)。
+	baseInspectLine:_<Inspired>_: _<Work frenzy>_
+}
+{Frenzy_Go
+	label:_<go frenzy>_
+	beginLetter:_{Mood}_が良かったので、[PAWN_nameIndef] が閃きを感じた！\n\n今後8日間の移動が速くなる。
+	endMessage:{0} の閃きは終わった (_<go frenzy>_)。
+	baseInspectLine:_<Inspired>_: _<Go frenzy>_
+}
+{Frenzy_Shoot
+	label:_<shoot frenzy>_
+	beginLetter:_{Mood}_が良かったので、[PAWN_nameIndef] が閃きを感じた！\n\n今後8日間の射撃がより正確になる。
+	endMessage:{0} の閃きは終わった (_<shoot frenzy>_)。
+	baseInspectLine:_<Inspired>_: _<Shoot frenzy>_
+}
+{Inspired_Trade
+	label:_<inspired trade>_
+	beginLetter:_{Mood}_が良かったので、[PAWN_nameIndef] が閃きを感じた！\n\n次の売買交渉を行うときに大きな価格ボーナスを受け取れる。\n\n8日経過するか、取引を行うと閃きは終わる。
+	endMessage:{0} の閃きは終わった (_<inspired trade>_)。
+	baseInspectLine:_<Inspired>_: _<Inspired trade>_
+}
+{Inspired_Recruitment
+	label:_<inspired recruitment>_
+	beginLetter:_{Mood}_が良かったので、[PAWN_nameIndef] が閃きを感じた！\n\n難易度や_{resistance}_に関係なく_{prisoner}_の勧誘に成功する。\n\n8日経過するか、勧誘を行うと閃きは終わる。
+	endMessage:{0} の閃きは終わった (_<inspired recruitment>_)。
+	baseInspectLine:_<Inspired>_: _<Inspired recruitment>_
+}
+{Inspired_Taming
+	label:_<inspired taming>_
+	beginLetter:_{mood}_が良かったので、 [PAWN_nameIndef]が閃きを感じた！\n\n難易度に関係なく、次の動物の手なずけに成功する。\n\n8日経過するか、動物を手なずけると閃きは終わる。
+	endMessage:{0} の閃きは終わった (_<inspired taming>_)。
+	baseInspectLine:_<Inspired>_: _<Inspired taming>_
+}
+{Inspired_Surgery
+	label:_<inspired surgery>_
+	beginLetter:_{Mood}_が良かったので、[PAWN_nameIndef] が閃きを感じた！\n\n次の手術の成功率が2倍になる。\n\n8日経過するか、手術を行うと閃きは終わる。
+	endMessage:{0} の閃きは終わった (_<inspired surgery>_)。
+	baseInspectLine:_<Inspired>_: _<Inspired surgery>_
+}
+{Inspired_Creativity
+	label:_<inspired creativity>_
+	beginLetter:_{Mood}_が良かったので、[PAWN_nameIndef] が閃きを感じた！\n\n次に作るアイテム、家具、芸術は普段より2レベル高い品質になる。_{legendary}_品質のアイテムも作れる。\n\n8日経過するか、作成を行うと閃きは終わる。
+	endMessage:{0} の閃きは終わった (_<inspired creativity>_)。
+	baseInspectLine:_<Inspired>_: _<Inspired creativity>_
+}

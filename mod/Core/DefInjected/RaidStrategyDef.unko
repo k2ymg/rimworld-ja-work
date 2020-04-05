@@ -1,0 +1,35 @@
+﻿{%ImmediateAttack
+	letterLabelEnemy:<<Raid??襲撃>>
+	arrivalTextEnemy:急いで襲ってきている。
+	letterLabelFriendly:<<Friendlies??援軍>>
+	arrivalTextFriendly:急いで助けに来ている。
+}
+{ImmediateAttackFriendly
+	$:ImmediateAttack
+}
+{ImmediateAttackSmart
+	letterLabelEnemy:<<Raid??襲撃>>
+	arrivalTextEnemy:急いで襲ってきている。\n\n注意 - 動きからするに妙に賢そうに見える。_<Turret>_の射程を避けており、また、いくつかの罠に気付いている。
+	letterLabelFriendly:<<Friendlies??援軍>>
+	arrivalTextFriendly:急いで助けに来ている。
+}
+{StageThenAttack
+	letterLabelEnemy:<<Raid??襲撃>>
+	arrivalTextEnemy:しばらく準備してから攻撃してくる。\n\n防御を整えるか、先に攻撃する。
+	letterLabelFriendly:<<Friendlies??援軍>>
+	arrivalTextFriendly:しばらく準備してから助けにくる。
+}
+{ImmediateAttackSappers
+	letterLabelEnemy:<<Raid??襲撃>>
+	arrivalTextEnemy:守備範囲の外側から工兵を使って穴を掘ろうとしているようだ。
+}
+{Siege
+	letterLabelEnemy:<<Siege??包囲>>
+	arrivalTextEnemy:_{colony}_を囲み、離れたところから迫撃砲を叩き込もうとしているようだ。相手の準備が終わるまで待ってもよいし、こちらか仕掛けてもよい。
+	letterLabelFriendly:<<Friendlies??援軍>>
+	arrivalTextFriendly:助ける為に包囲作戦をとるようだ。
+}
+{SiegeMechanoid
+	letterLabelEnemy:<<Mechanoid Siege??_[Mechanoid]_包囲>>
+	arrivalTextEnemy:_[Mechanoid]_は直接攻撃せずに、_{colony}_の近くに _[mech cluster]_ を設置した。脅威を取り除くにはこれを攻撃しないといけない。\n\nクラスターは最初は休止しているため、時間をかけて攻撃方法を決められる。\n\n邪魔されるまで休止しているかもしれないが、タイマーか近接起動機能があるかもしれない。\n\n_[mech cluster]_ は休止状態でも安全では無い。休止集団は時々_[mechanoid]_攻撃隊を編成したり、いつかは対処しなければならない、広範囲に悪影響を与える機能をいくつか持っている。
+}

@@ -1,0 +1,59 @@
+Earth:地球
+core world:コアワールド
+coreworld:コアワールド
+deadworld:デッドワールド
+glitterworld:グリッターワールド
+indworld:インワールド
+;hive world:ハイブワールド
+;hiveworld:ハイブワールド
+hivemind:ハイブマインド
+midworld:ミッドワールド
+offworld:オフワールド
+rim world:リムワールド
+rimworld:リムワールド
+urban world:アーバンワールド
+urbworld:アーブワールド
+
+escape pod:脱出_{pod}_
+cargo pod:貨物_{pod}_
+ship beam:船体梁
+
+; biome
+temperate forest:温帯森林
+
+; fuction
+ancient:古代民
+;mechanoid hive -> common
+insect:虫
+insectoid:インセクトイド
+outlander:アウトランダー
+tribe:部族
+tribesman:部族民
+chief:族長
+pirate:海賊
+
+; terrain
+sterile tile:抗菌タイル
+carpet:カーペット
+bridge:橋
+shallow water:浅い水
+
+; event
+alphabeavers:_[alphabeaver]_
+ambrosia sprout:_[ambrosia]_ の発芽
+aurora:オーロラ
+climate cycle:クライメイト・サイクル
+eclipse:日食
+flashstorm:嵐
+planetkiller:プラネットキラー
+;psychic drone -> common
+psychic soothe:サイキック・スーズ
+resource pod crash:資源ポッド落下
+self-tame:懐いた
+solar flare:太陽フレア
+;toxic fallout -> common
+volcanic winter:火山の冬
+manhunter pack:人狩りの群れ
+infestation:害虫侵入
+party:パーティ
+short circuit:短絡

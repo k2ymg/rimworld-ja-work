@@ -1,0 +1,283 @@
+﻿{PsychicSilencer
+	label:_[psychic silencer]_
+	labelNoun:<<a psychic silencer??_[psychic silencer]_>>
+	description:埋め込んだ _[psychic silencer]_。
+}
+{PsychicSensitizer
+	label:_[psychic sensitizer]_
+	labelNoun:<<a psychic sensitizer??_[psychic sensitizer]_>>
+	description:埋め込んだ _[psychic sensitizer]_。
+}
+{PsychicHarmonizer
+	label:_[psychic harmonizer]_
+	labelNoun:<<a psychic harmonizer??_[psychic harmonizer]_>>
+	description:埋め込んだ _[psychic harmonizer]_。
+}
+{PsychicReader
+	label:_[psychic reader]_
+	labelNoun:<<a psychic reader??_[psychic reader]_>>
+	description:埋め込んだ _[psychic reader]_。
+}
+{PsychicAmplifier
+	label:_[psychic amplifier]_
+	labelNoun:<<a psychic amplifier??_[psychic amplifier]_>>
+	description:取り付た _[psychic amplifier]_。
+}
+{Neurocalculator
+	label:_[neurocalculator]_
+	labelNoun:<<a neurocalculator??_[neurocalculator]_>>
+	description:取り付けた _[neurocalculator]_。
+}
+{LearningAssistant
+	label:_[learning assistant]_
+	labelNoun:<<a learning assistant??_[learning assistant]_>>
+	description:取り付けた _[learning assistant]_。
+}
+{GastroAnalyzer
+	label:_[gastro-analyzer]_
+	labelNoun:<<a gastro-analyzer??_[gastro-analyzer]_>>
+	description:取り付けた _[gastro-analyzer]_。
+}
+{Immunoenhancer
+	label:_[immunoenhancer]_
+	labelNoun:<<an immunoenhancer??_[immunoenhancer]_>>
+	description:取り付けた _[immunoenhancer]_。
+}
+{Coagulator
+	label:_[coagulator]_
+	labelNoun:<<a coagulator??_[coagulator]_>>
+	description:埋め込んだ _[coagulator]_ インプラント。
+}
+{HealingEnhancer
+	label:_[healing enhancer]_
+	labelNoun:<<a healing enhancer??_[healing enhancer]_>>
+	description:埋め込んだ _[healing enhancer]_。
+}
+{ToughskinGland
+	label:_[toughskin gland]_
+	labelNoun:<<a toughskin gland??_[toughskin gland]_>>
+	description:取り付けた _[toughskin gland]_。
+}
+{ArmorskinGland
+	label:_[armorskin gland]_
+	labelNoun:<<a armorskin gland??_[armorskin gland]_>>
+	description:取り付けた _[armorskin gland]_。
+}
+{StoneskinGland
+	label:_[stoneskin gland]_
+	labelNoun:<<a stoneskin gland??_[stoneskin gland]_>>
+	description:取り付けた _[stoneskin gland]_。
+}
+{AestheticShaper
+	label:_[aesthetic shaper]_
+	labelNoun:<<an aesthetic shaper??_[aesthetic shaper]_>>
+	description:取り付けた _[aesthetic shaper]_。
+}
+{AestheticNose
+	label:_[aesthetic nose]_
+	labelNoun:<<an aesthetic nose??_[aesthetic nose]_>>
+	description:取り付けた _[aesthetic nose]_。
+}
+{LoveEnhancer
+	label:_[love enhancer]_
+	labelNoun:<<a love enhancer??_[love enhancer]_>>
+	description:取り付けた _[love enhancer]_。
+}
+{DetoxifierStomach
+	label:_[detoxifier stomach]_
+	labelNoun:<<a detoxifier stomach??_[detoxifier stomach]_>>
+	description:取り付けた _[detoxifier stomach]_。
+}
+{ReprocessorStomach
+	label:_[reprocessor stomach]_
+	labelNoun:<<a reprocessor stomach??_[reprocessor stomach]_>>
+	description:取り付けた _[reprocessor stomach]_。
+}
+{NuclearStomach
+	label:_[nuclear stomach]_
+	labelNoun:<<a nuclear stomach??_[nuclear stomach]_>>
+	description:取り付けた _[nuclear stomach]_。
+}
+{CircadianAssistant
+	label:_[circadian assistant]_
+	labelNoun:<<a circadian assistant??_[circadian assistant]_>>
+	description:取り付けた _[circadian assistant]_。
+}
+{CircadianHalfCycler
+	label:_[circadian half-cycler]_
+	labelNoun:<<a circadian half-cycler??_[circadian half-cycler]_>>
+	description:取り付けた _[circadian half-cycler]_。
+}
+{Mindscrew
+	label:_[mindscrew]_
+	labelNoun:<<a mindscrew??_[mindscrew]_>>
+	description:取り付けた _[mindscrew]_。
+}
+
+; VerbGiverは、本来は動詞だが、別の都合で名詞にしないといけない。
+{DrillArm
+	label:_[drill arm]_
+	labelNoun:<<a drill arm??_[drill arm]_>>
+	description:取り付けた _[drill arm]_。
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{drill
+					label:<<drill??攻撃>>
+				}
+			}
+		}
+	}
+}
+{FieldHand
+	label:_[field hand]_
+	labelNoun:<<a field hand??_[field hand]_>>
+	description:取り付けた _[field hand]_。
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{knuckle
+					label:<<knuckle??攻撃>>
+				}
+			}
+		}
+	}
+}
+{HandTalon
+	label:_[hand talon]_
+	labelNoun:<<a hand talon??_[hand talon]_>>
+	description:取り付けた _[hand talon]_。
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{talon
+					label:<<talon??攻撃>>
+				}
+			}
+		}
+	}
+}
+{ElbowBlade
+	label:_[elbow blade]_
+	labelNoun:<<an elbow blade??_[elbow blade]_>>
+	description:取り付けた _[elbow blade]_。
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{blade
+					label:<<blade??攻撃>>
+				}
+			}
+		}
+	}
+}
+{KneeSpike
+	label:_[knee spike]_
+	labelNoun:<<a knee spike??_[knee spike]_>>
+	description:取り付けた _[knee spike]_
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{spike
+					label:<<spike??攻撃>>
+				}
+			}
+		}
+	}
+}
+{VenomFangs
+	label:_[venom fangs]_
+	labelNoun:<<a set of venom fangs??_[venom fangs]_>>
+	description:取り付けた _[venom fangs]_。
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{venom_fangs
+					label:_[venom fangs]_
+				}
+			}
+		}
+	}
+}
+{VenomTalon
+	label:_[venom talon]_
+	labelNoun:<<a venom talon??_[venom talon]_>>
+	description:取り付けた _[venom talon]_。
+	{comps
+		{HediffComp_VerbGiver
+			{tools
+				{venom_talon
+					label:_[venom talon]_
+				}
+			}
+		}
+	}
+}
+{PsychicEntropy
+	label:_[psychic entropy]_
+	description:心に溜まった無秩序な精神エネルギー。エントロピーは時間とともに下がる。消えた後は、何日か精神酔いになる。 _{psychic entropy}_ がとても高くなると、精神異常、長期の精神衰弱、 _{psychic amplifier}_ の故障、脳障害も起こる。
+	{stages
+		{safe
+			label:<<safe??安全>>
+		}
+		{overloaded
+			label:<<overloaded??負荷>>
+		}
+		{hyperloaded
+			label:<<hyperloaded??過負荷>>
+		}
+		{brain_charring
+			label:<<brain charring??脳が焦げる>>
+		}
+		{brain_roasting
+			label:<<brain roasting??脳が焼ける>>
+		}
+	}
+}
+{PsychicBreakdown
+	label:_<psychic breakdown>_
+	description:過度な _{psychic entropy}_  により、心が長期的に不安定になっている。エントリピーが消えても、衰弱は何日も続き、様々な精神障害が起こる。
+	{stages
+		{minor
+			label:<<minor??小>>
+		}
+		{major
+			label:<<major??大>>
+		}
+		{total
+			label:<<total??完全>>
+		}
+	}
+}
+{PsychicAnesthesia
+	label:<<psychic anesthesia??精神的無痛>>
+	description:精神的に起こされた無痛状態。
+}
+{PsychicBurden
+	label:<<psychic burden??精神的 _[burden]_>>
+	description:精神的に起こされた運動機能抑制。
+}
+{PsychicBlindness
+	label:<<psychic blindness??精神的 _[blindness]_>>
+	description:精神的に起こされた一時的な盲目。
+}
+{PsychicVertigo
+	label:<<psychic vertigo??精神的 目眩>>
+	description:精神的に起こされた平衡感覚の喪失。生物は嘔吐する。
+}
+{PsychicFocus
+	label:<<psychic focus??精神的 _[focus]_>>
+	description:精神的に起こされた集中状態。視覚、聴覚、運動能力が向上している。
+}
+{PsychicInvisibility
+	label:<<psychic invisibility??精神的 _[invisibility]_>>
+	description:精神的に起こされた不可視状態。実際には周りの他者へ影響しており、目ではなく、脳がこの人物に気付かないようにしている。
+}
+{EntropyLink
+	label:_[entropy link]_
+	description:他者との精神的な繋がり。両者間で等分する事による _{psychic entropy}_ の増減。
+}
+{PsychicSuppression
+	label:_[psychic suppression]_
+	description:_{psychic suppression}_ 場の影響。動作や思考が乱される。
+}

@@ -1,0 +1,68 @@
+﻿{Painblock
+	label:_[painblock]_
+	description:対象の脳の痛みの神経経路を短時間ブロックする。動けなくなるような重症でも行動できるようになる。
+}
+{Stun
+	label:_[stun]_
+	description:対象の脳の運動機能をすぐさま止めて、あらゆる動作を妨げる。
+}
+{Burden
+	label:_[burden]_
+	description:対象の脳の運動機能を抑えて、短時間動きを遅くする。
+}
+{BlindingPulse
+	label:_[blinding pulse]_
+	description:脳の視覚中枢に乱れを起こし、標的近くにいる人の視力をあいまいにする。
+}
+{EntropyLink
+	label:_[entropy link]_
+	description:使用者と対象の間に精神的なつながりを作ることで、両者で共有された _{psychic entropy}_ を増減させる。つながりはしばらく続くが、両者が遠くへ離れると壊れる。
+}
+{Beckon
+	label:_[beckon]_
+	description:対象を精神的に操り、使用者に近づけさせる。
+}
+{VertigoPulse
+	label:_[vertigo pulse]_
+	description:標的近くの人の平衡感覚を邪魔し、バランスを途切れ途切れに失わせる。生物はとても気持ち悪くなる。
+}
+{ChaosSkip
+	label:_[chaos skip]_
+	description:対象をでたらめな位置へテレポートさせる。遠くへは飛ばない。
+}
+{Skip
+	label:_[skip]_
+	description:対象を指定した位置へテレポートさせる。遠くは指定できない。
+}
+{Wallraise
+	label:_[wallraise]_
+	description:地中から土砂を飛ばして一時的な壁を作る。
+}
+{Smokepop
+	label:_[smokepop]_
+	description:地面から埃を飛ばして厚い雲を作る。この中では射撃の命中率が下がり、また、_{turret}_の視認を妨害する。
+}
+{Focus
+	label:_[focus]_
+	description:対象の意思を集中させ、視力、聴力、運動能力を高める。
+}
+{Berserk
+	label:_[berserk]_
+	description:対象の意思に怒りを湧き上がらせ、近くの人を攻撃させる。
+}
+{Invisibility
+	label:_[invisibility]_
+	description:近くの人の視覚中枢を操作し、特定の人を短時間認識できなくする。
+}
+{BerserkPulse
+	label:_[berserk pulse]_
+	description:標的近くの人に無差別な怒りを突発的に起こす。
+}
+{ManhunterPulse
+	label:_[manhunter pulse]_
+	description:精神パルスで近くの動物達を殺人衝動に駆らせる。
+}
+{MassChaosSkip
+	label:_[mass chaos skip]_
+	description:標的近くの人をでたらめな位置へ飛ばす。遠くへは飛ばない。
+}

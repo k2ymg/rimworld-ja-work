@@ -1,0 +1,44 @@
+﻿{MechCluster
+	label:_<mech cluster>_
+	description:戦闘機械の集団。
+	arrivedLetter:このエリアには敵対する_{mechanoid}_と戦闘支援設備が集結している。\n\nここには大砲、_{turret}_、戦闘_{mechanoid}_、その他支援、防衛設備などがあるかもしれない。
+}
+{RaidSource
+	label:<<raid source??襲撃元>>
+	description:定期的に襲撃を送り出す、防衛されている軍事活動地域。
+	approachOrderString:<<Attack {0}??{0} を攻撃>>
+	approachingReportString:<<Attacking {0}??{0} を攻撃中>>
+	arrivedLetter:この地域に敵の拠点がある。
+}
+{SunBlocker
+	label:_<sun blocker>_
+	description:空をくすませる _<sun blocker>_ 装置。
+}
+{SmokeSpewer
+	label:_<smoke spewer>_
+	description:_<smoke spewer>_。
+}
+{ToxicSpewer
+	label:_<toxic spewer>_
+	description:_<toxic spewer>_。
+}
+{WeatherController
+	label:_<weather controller>_
+	description:_<weather controller>_。
+}
+{ClimateAdjuster
+	label:_<climate adjuster>_
+	description:_<climate adjuster>_。
+}
+{PsychicDroner
+	label:_<psychic droner>_
+	description:_<psychic droner>_。
+}
+{PsychicSuppressor
+	label:_<psychic suppressor>_
+	description:_<psychic suppressor>_。
+}
+{EMIDynamo
+	label:_<EMI dynamo>_
+	description:_<EMI dynamo>_。
+}

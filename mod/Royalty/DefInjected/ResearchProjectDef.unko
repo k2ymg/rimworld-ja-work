@@ -1,0 +1,70 @@
+﻿{NobleApparel
+	label:<<noble apparel??貴族の衣服>>
+	description:_<ruffle shirt>_ や _<royal robe>_ のような貴族特有の服を作れるようになる。
+}
+{RoyalApparel
+	label:<<royal apparel??王族の衣服>>
+	description:_<royal robe>_ や _<crown>_ のような最上級の貴族の服を作れるようになる。
+}
+{BrainWiring
+	label:<<brain wiring??脳配線>>
+	description:楽しさや痛みのような感覚を起こしたり防いだりする脳インプラントを作れるようになる。
+}
+{SpecializedLimbs
+	label:<<specialized limbs??特殊義肢>>
+	description:戦闘や労働での、特定用途向けの特殊なバイオニック義肢を作れるようになる。
+}
+{CompactWeaponry
+	label:<<compact weaponry??小型兵器>>
+	description:体の各部位に埋め込める、小さく、隠せるバイオニック兵器を作れるようになる。
+}
+{VenomSynthesis
+	label:<<poison synthesis??毒合成>>
+	description:内部の化学反応器で毒を合成して、毒攻撃に使えるバイオニクスを作れるようになる。
+}
+{ArtificialMetabolism
+	label:<<artificial metabolism??人工代謝>>
+	description:実の胃よりも、食べ物をより安全に、より効率的に処理するバイオニクスを作れるようになる。
+}
+{NeuralComputation
+	label:<<neural computation??神経計算>>
+	;未翻訳
+	description:思考や学習を助ける、脳インプラントを作れるようになる。
+	;Craft brain implants that assist thought and learning by use of a direct, shallow brain-computer interface.
+}
+{SkinHardening
+	label:<<skin hardening??皮膚硬化>>
+	description:実の皮膚を強靱にするバイオニクスインプラントを作れるようになる。鎧のような効果が生まれる。
+}
+{HealingFactors
+	label:<<healing factors??治癒要因>>
+	description:自然治癒の進行を高めるバイオニクスを作れるようになる。
+}
+{FleshShaping
+	label:<<flesh shaping??整形>>
+	description:肉体の整形や変化を促すバイオニクスを作れるようになる。一般的には美容か自己満足のために使われる。
+}
+{MolecularAnalysis
+	label:<<molecular analysis??分子解析>>
+	description:免疫システムを助けたり、食物を解析したりする分子解析器のバイオニクスを作れるようになる。
+}
+{CircadianInfluence
+	label:<<circadian influence??周期操作>>
+	description:化学的に概日リズムを操作する脳インプラントを作れるようになる。睡眠欲求を減らしたり変えたりする。
+}
+{Harp
+	label:_<harp>_
+	description:_<harp>_ を作れるようになる。いくつかの文化の貴族の間に人気がある簡素な据え置きの楽器。
+}
+{Harpsichord
+	label:_<harpsichord>_
+	description:_<harpsichord>_ を作れるようになる。複雑な据え置きの楽器。
+}
+{Piano
+	label:_<piano>_
+	description:_<piano>_ を作れるようになる。高度な据え置きの楽器。
+}
+{CataphractArmor
+	label:_<cataphract armor>_
+	description:_<cataphract armor>_ を作れるようになる。使用者の動きは遅くなるが、どんな攻撃も緩和する重いパワーアーマー。 _[advanced component]_ が必要。
+}

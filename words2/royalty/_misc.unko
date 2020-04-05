@@ -1,0 +1,66 @@
+throne room:_{throneroom}_
+
+; fuction
+shattered empire:落ちた帝国
+imperial:帝国
+
+; trader
+imperial trader:_{imperial}_の交易商
+royal tribute collector:ロイヤル・トリビュート・コレクター
+
+; stat
+authority:権威
+psychic sensitivity:サイキック感度
+
+; pawn
+trooper:トルーパー
+;janissary -> common
+cataphract:カタフラクト
+psycaster:サイキャスター
+
+; ability
+painblock:ペインブロック
+stun:スタン
+burden:バーデン
+blinding pulse:ブラインディング パルス
+entropy link:エントロピー リンク
+beckon:ベコン
+vertigo pulse:ヴァーティゴ パルス
+chaos skip:ケイオス・スキップ
+skip:スキップ
+wallraise:ウォールライズ
+smokepop:スモークポップ
+focus:フォーカス
+berserk:バーサク
+invisibility:インビジビリティ
+berserk pulse:バーサク パルス
+manhunter pulse:マンハンター パルス
+mass chaos skip:マス ケイオス・スキップ
+
+; event
+sun blocked:太陽光妨害
+giant smoke cloud:巨大煙雲
+;toxic spewer -> common
+forced weather:天候強制
+climate adjustment:気候調整
+psychic suppression:サイキック サスプレッション
+EMI field:EMP フィールド
+
+; title
+freeholder:フリーホルダー
+yeoman:従者
+esquire:従騎士
+knight:騎士
+dame:女騎士
+praetor:法務官
+baron:男爵
+baroness:女男爵
+count:伯爵
+countess:女伯爵
+duke:公爵
+duchess:女公爵
+consul:行政官
+stellarch:星系君主
+emperor:皇帝
+empress:女帝
+high stellarch:高位星系君主

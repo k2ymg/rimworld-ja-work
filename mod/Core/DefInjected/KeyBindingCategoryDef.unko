@@ -1,0 +1,32 @@
+﻿{GameMapCamera
+	label:<<camera??カメラ>>
+	description:カメラの操作。
+}
+{Game
+	label:<<in-game global??ゲーム内>>
+	description:ゲーム内で最も頻繁に行う操作。
+}
+{SelectionMisc
+	label:<<misc??その他>>
+	description:多くのアイテムやオブジェクトを何度も使うための汎用的な操作。
+}
+{SelectionSpecial
+	label:<<special??特別>>
+	description:特定のオブジェクトに行える特定の操作に予約されている特別な操作。
+}
+{Architect
+	label:<<architect??_[ui/architect]_>>
+	description:_[ui/Architect]_モードメニュー中に使用する汎用的な操作。
+}
+{MainTabs
+	label:<<main tabs??メインタブ>>
+	description:メインタブの操作。
+}
+{Modifiers
+	label:<<modifiers??変化>>
+	description:他の動作を変化させるために使用する操作。
+}
+{Development
+	label:<<developer tools??開発者用>>
+	description:開発者・Mod制作者用の操作。開発者用モードでのみ使用可能。
+}

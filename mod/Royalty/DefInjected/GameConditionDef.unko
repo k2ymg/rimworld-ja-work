@@ -1,0 +1,41 @@
+﻿{SunBlocker
+	label:_[sun blocked]_
+	description:近くの _[sun blocker]_ 装置が上層大気を不透過にしているため、太陽が隠されている。
+	letterText:_[sun blocker]_ 装置が太陽を隠し始めた。
+}
+{GiantSmokeCloud
+	label:_[giant smoke cloud]_
+	description:近くの _[smoke spewer]_ がこの地域の太陽光を減らしている。
+	letterText:_[smoke spewer]_ 装置が太陽をかすませ始めた。
+}
+{ToxicSpewer
+	label:_[toxic spewer]_
+	description:近くの _[toxic spewer]_ がこの地域全体を毒で覆っている。
+	letterText:_[toxic spewer]_ 装置がこの地域全体を毒で覆い始めた。
+}
+{WeatherController
+	label:_[forced weather]_
+	description:近くの _[weather controller]_ が天候を現在の状態に強制している。
+	descriptionFuture:天候操作システムが [map_definite] 周辺の天候を [gameConditionDuration_duration] の間 [forcedWeather_indefinite] にする
+	endMessage:_[weather controller]_ はもう天候を変えていない。
+	letterText:_[weather controller]_ 装置が天候に影響を与え始めた。
+}
+{ClimateAdjustment
+	label:_[climate adjustment]_
+	description:近くの _[climate adjuster]_ が気温を変えている。
+	letterText:_[climate adjuster]_ 装置が気温を変え始めた。
+}
+{PsychicSuppression
+	label:_[psychic suppression]_
+	description:_[psychic suppression]_ 場が {0} に影響して、意識を下げている。この影響は個人の _<psychic sensitivity>_ で変化する。
+	descriptionFuture:_[psychic suppression]_ 波が、[gameConditionDuration_duration] の間、 [map_definite] 周辺の全ての[psychicSuppressorGender]の意識を下げる
+	endMessage:_[psychic suppressor]_ 場は消えた。
+	letterText:_[psychic suppressor]_ 場が始まり、この地域に渡って [0} の意識を下げている。この影響は個人の _{psychic sensitivity}_ で変化する。
+}
+{EMIField
+	label:_[EMI field]_
+	description:電磁妨害ダイナモがEM妨害場を投射して、電子機器を無効にしている。
+	descriptionFuture:遠くのEMIダイナモがEMI場を [map_definite] に浴びせて、[gameConditionDuration_duration] の間電子機器を停止させる
+	endMessage:EMI場は消えた。
+	letterText:EMI場が発生した。電子機器を無効にしている。
+}

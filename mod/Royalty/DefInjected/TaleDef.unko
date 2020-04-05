@@ -1,0 +1,37 @@
+﻿{AttendedConcert
+	label:<<attended concert??_{concert}_に参加>>
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[ATTENDER_nameDef] が [ORGANIZER_nameDef] の_{concert}_に参加した事
+			:tale_noun->[ATTENDER_nameDef] が [ORGANIZER_nameDef] の演奏を聴いた事
+
+			:image->[circumstance_group]静かに聴いている[ATTENDER_nameFull]
+			:image->[circumstance_group][ORGANIZER_nameFull]の演奏を楽しんでいる[ATTENDER_nameFull]
+			:image->[circumstance_group]音楽に合わせて体を揺らしている[ATTENDER_nameFull]
+			:image->[circumstance_group]音に夢中になっている[ATTENDER_nameFull]
+
+			:circumstance_phrase->拍手をしながら
+
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が一緒に踊っている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が注意深く聴いている。
+		}
+	}
+}
+{HeldConcert
+	label:<<held concert??_{concert}_を開催>>
+	{rulePack
+		{?rulesStrings
+			:tale_noun->[ORGANIZER_nameDef] が_{concert}_をした事
+
+			:image->[circumstance_group]テーマソングを演奏している[ORGANIZER_nameFull]
+			:image->一緒に歌おうと皆を誘っている[ORGANIZER_nameFull]
+			:image->勇ましい歌を演奏している[ORGANIZER_nameFull]
+			:image->[circumstance_group]難曲を演奏している[ORGANIZER_nameFull]
+
+			:circumstance_phrase->情熱的に
+
+			:desc_sentence->[Quantity_adjphrase]の[PersonJob]が近くで聴いている。
+			:desc_sentence->[Quantity_adjphrase]の[Animal]が近くで聴いている。
+		}
+	}
+}

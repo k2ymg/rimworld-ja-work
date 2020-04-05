@@ -1,0 +1,32 @@
+﻿{Clear
+	label:<<clear??晴れ>>
+	description:晴れた日。ペナルティや調整はない。
+}
+{Fog
+	label:<<fog??霧>>
+	description:霧で遠距離武器の命中率が下がる。
+}
+{Rain
+	label:<<rain??雨>>
+	description:雨で遠距離武器の命中率が下がり、火が消え、移動速度が下がる。
+}
+{DryThunderstorm
+	label:<<dry thunderstorm??雷>>
+	description:落雷により火事が起こり、火を消してくれる雨も降らないので危険。
+}
+{RainyThunderstorm
+	label:<<rainy thunderstorm??雷雨>>
+	description:落雷により火事が起こるが、雨で消える。移動速度が下がり、射撃の命中率が下がる。
+}
+{FoggyRain
+	label:<<foggy rain??霧雨>>
+	description:命中率と移動速度が下がる。
+}
+{SnowHard
+	label:<<hard snow??大雪>>
+	description:雪で遠距離武器の命中率が下がり、火が消え、移動速度が下がる。
+}
+{SnowGentle
+	label:<<gentle snow??小雪>>
+	description:雪で遠距離武器の命中率が下がり、火が消え、移動速度が下がる。
+}

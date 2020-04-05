@@ -1,0 +1,42 @@
+﻿{None
+	label:<<none??未定>>
+}
+{Room
+	label:<<room??部屋>>
+}
+{Bedroom
+	label:_<bedroom>_
+}
+{PrisonCell
+	label:<<prison cell??独居房>>
+}
+{DiningRoom
+	label:<<dining room??食堂>>
+}
+{RecRoom
+	label:<<rec room??娯楽室>>
+}
+{Hospital
+	label:<<hospital??病室>>
+}
+{Laboratory
+	label:<<laboratory??研究室>>
+}
+{Workshop
+	label:<<workshop??工作室>>
+}
+{Barracks
+	label:<<barracks??共有寝室>>
+}
+{PrisonBarracks
+	label:<<prison barracks??雑居房>>
+}
+{Kitchen
+	label:<<kitchen??キッチン>>
+}
+{Tomb
+	label:<<tomb??墓所>>
+}
+{Barn
+	label:<<barn??納屋>>
+}
