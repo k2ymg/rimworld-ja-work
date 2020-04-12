@@ -20,7 +20,7 @@
 }
 {TemperateForest
 	label:_<temperate forest>_
-	description:植物や病気で息が詰まりそうな湿った土地。草が生えすぎて動きにくく、建物の掃除に手間取る。地形の大部分は大きな構造物を支えるには柔らかすぎる。
+	description:開けた豊かな土地に落葉樹の森が広がっている。多様な動物が木々の間や平地を動き回っている。
 }
 {TemperateSwamp
 	label:<<temperate swamp??温帯湿地>>

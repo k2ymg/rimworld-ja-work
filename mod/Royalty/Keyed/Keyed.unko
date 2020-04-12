@@ -16,7 +16,7 @@ RoyalNoAcceptableFoodDesc:特定の食べ物要件がある_{royal title}_を持
 RoomRequirementGracePeriodDesc:要件が始まるまであと {0} 日
 
 ThroneroomInvalidConfiguration:<<Throne not usable??_[Throne]_ が使えない>>
-ThroneroomInvalidConfigurationDesc:_[throne]_ は設定方法のため使えない:
+ThroneroomInvalidConfigurationDesc:_[throne]_ は設置状況により使えない:
 
 MonumentMarkerMissingBlueprints:<<Monument missing blueprints??モニュメントの _{blueprint}_ が無い>>
 MonumentMarkerMissingBlueprintsDesc:モニュメントの各位置に _<blueprint>_ が置かれていないので完成しない。\n\nモニュメントのマーカーを選択して "_{blueprint}_ を置く" をクリックするか、自分で _{blueprint}_ を置く。
@@ -79,12 +79,9 @@ MakeHeirConfirm:{0_name} から受け取った {HOLDER_nameIndef} の_{title}_ �
 MakeHeirPreviousHeirWarning:これは{HOLDER_possessive}の現在の継承者である {HEIR_nameFull} を動転させる。
 CommandCallRoyalAid:<<Call royal aid??王の救援を呼ぶ>>
 CommandCallRoyalAidDesc:王の特別許可で援軍を呼ぶ。\n\n各タイプの援軍は一度だけただで使えるが、またただで使うには待たないといけない。もっと頻繁に使えるが、それには_{royal favor}_を使う。
-;Call for military aid using a special royal permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs royal favor to do so.
 CommandCallRoyalAidUnconscious:{0_labelShort} は気付いていない。
 CommandCallRoyalAidLodger:客人は自分の王の援軍を使えない。
-;Guests will not use their royal aid.
 CommandCallRoyalAidFactionHostile:{FACTION_name} とは敵対している。
-;Your relations with {FACTION_name} are hostile.
 CommandCallRoyalAidFreeOption:<<Free??無料>>
 CommandCallRoyalAidFavorOption:<<{0} days left, costs {1} {FACTION_royalFavorLabel}??残り {0} 日, コスト {1} {FACTION_royalFavorLabel}>>
 
@@ -173,7 +170,7 @@ LetterUninspiringSpeech:退屈だった。平凡で、単調で、熱意に欠�
 LetterEncouragingSpeech:自信に満ちあふれ、良く伝わった。
 LetterInspirationalSpeech:とても感動的で、熱意と決意に満ちていた。
 LetterSpeechInterrupted:_{speech}_ は {0} だけで中断したので、効果が無かった。
-LetterSpeechCancelled:{ORGANIZER_bestRoyalTitleDef} の _{speech}_ 50%にとどく前にキャンセルされた。効果は無かった。
+LetterSpeechCancelled:{ORGANIZER_bestRoyalTitleDef} の _{speech}_ が50%にとどく前にキャンセルされた。効果は無かった。
 LetterLabelSpeechCancelled:<<Speech cancelled??_{Speech}_はキャンセルされた>>
 
 WildDecree:<<Wild decree??野蛮な法令>>
@@ -186,7 +183,7 @@ LentColonistDied:{PAWN_nameDef} は {FACTION} へ貸し出された。{PAWN_name
 ShuttleBlocked:シャトルは着陸できない: {0}。
 BlockedBy:{0_label} が塞いでいる
 
-ThroneTitleStature:ふさわしい_{title}_: {0}
+ThroneTitleStature:適している_{title}_: {0}
 ThronePrevTitleStature:前の適合_{title}_: {0}
 ThroneNextTitleStature:次の適合_{title}_: {0}
 ThroneRoomImpressivenessInfo:<<({0} impressiveness)??({0} 印象深さ)>>

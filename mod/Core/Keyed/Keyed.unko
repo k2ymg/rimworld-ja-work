@@ -1293,7 +1293,7 @@ CannotGenericAlreadyAm:<<Already {0} {2_labelShort}??{2_labelShort} はすでに
 CannotGenericAlreadyAmCustom:CannotGenericAlreadyAmCustom:<<Already {0}??既に {0} している>>
 
 CannotPrioritizeWorkTypeDisabled:<<Cannot prioritize: will never do {0}??優先できない: {0} はできない>>
-CannotTradeMissingTitleAbility:<<Cannot trade: lacking necessary title??取引できない: 必要な資格が無い>>
+CannotTradeMissingTitleAbility:<<Cannot trade: lacking necessary title??取引できない: 必要な_{title}_が無い>>
 
 CannotPrioritizeWorkGiverDisabled:<<Cannot prioritize: will never {0}??優先できない: {0} はできない>>
 WillNever:<<will never {0}??{0}は不可能>>
@@ -1626,13 +1626,15 @@ ProsheCap:彼女
 ProitCap:その
 
 ;どうやっても自然にはならないので、「と」でつなげないように。
-ClauseSequence2:{0}。{1}。
-ClauseSequence3:{0}。{1}。{2}。
-ClauseSequence4:{0}。{1}。{2}。{3}。
-ClauseSequence5:{0}。{1}。{2}。{3}。{4}。
-ClauseSequence6:{0}。{1}。{2}。{3}。{4}。{5}。
-ClauseSequence7:{0}。{1}。{2}。{3}。{4}。{5}。{6}。
-ClauseSequence8:{0}。{1}。{2}。{3}。{4}。{5}。{6}。{7}。
+; TODO: 最後のピリオドをハードコードで除去しているため、「。」にすると、残ってしまう。なのでとりあえずピリオドで終わらせておく。
+; QuestのallRewardsDescriptionsに影響する。
+ClauseSequence2:{0}。{1}.
+ClauseSequence3:{0}。{1}。{2}.
+ClauseSequence4:{0}。{1}。{2}。{3}.
+ClauseSequence5:{0}。{1}。{2}。{3}。{4}.
+ClauseSequence6:{0}。{1}。{2}。{3}。{4}。{5}.
+ClauseSequence7:{0}。{1}。{2}。{3}。{4}。{5}。{6}.
+ClauseSequence8:{0}。{1}。{2}。{3}。{4}。{5}。{6}。{7}.
 XorY:{0} か {1}
 
 LetterLabelAnimalInsanitySingle:<<Mad {ANIMAL_labelShort}??{ANIMAL_labelShort} の凶暴化>>
@@ -1733,7 +1735,7 @@ CaravanMeeting_Trade:<<Trade??取引>>
 CaravanMeeting_Attack:<<Attack??攻撃>>
 CaravanMeeting_MoveOn:<<Move on??先へ進む>>
 CaravanMeeting_TradeIncapable:取引できるメンバーがいない
-CaravanMeeting_NoPermit:{1_name} に {0} の資格を持つトレーダーが必要
+CaravanMeeting_NoPermit:{1_name} の _{title}_ {0} を持つトレーダーが必要
 
 LetterLabelCaravanRequest:<<Caravan request??キャラバン派遣要請>>
 LetterCaravanRequest:近くの_{settlement}_ {0} から特別な取引要求を持ちかけられた。\n\n欲しい物:\n\n {1} (価値 {2})\n\n見返り:\n\n {3} (価値 {4})\n\n期限: {5}\n\n取引したいのなら、要求された物資を持たせたキャラバンを送り出す。この旅にかかるおおよその時間は {6}。この提案を再確認する場合はワールドマップで {0} を選択する。
@@ -1804,11 +1806,12 @@ RecruitmentChance:<<Recruitment chance??勧誘成功率>>
 RecruitmentChanceExplanation:<<Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2}??勧誘難易度因数: {0}\n_{Mood}_因数: {1}\n総合基本成功率: {2}>>
 RecruitmentChanceWithLastRecruiterExplanationPart:<<\n----------------\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7}??\n----------------\n直近の勧誘試行\n勧誘者: {3}\n交渉能力因数: {4}\n評価因数: {5} ({6})\n対象への最終成功率 {3}: {7}>>
 RecruitmentLastRecruiterResistanceReduceExplanationPart:<<\nResistance reduction: {0}??\n_{resistance}_削減: {0}>>
-PrisonerReleasePotentialRelationGains:<<Relations gain on release??解放時の関係上昇>>
-PrisonerReleaseRelationGainsDesc:_{prisoner}_を解放したときに向上する_{faction}_関係。これは_{prisoner}_の健康や精神状態の影響を受ける。
+PrisonerReleasePotentialRelationGains:<<Relations gain on release??解放時の関係改善>>
+PrisonerReleaseRelationGainsDesc:_{prisoner}_を解放したときに改善する_{faction}_関係。これは_{prisoner}_の健康や精神状態に影響される。
 PrisonBreakMTBDays:<<Prison break interval??脱獄間隔>>
 PrisonBreakMTBDaysDescription:脱獄を企む平均日数。_{Mood}_、機動性、最後の脱獄からの時間の影響を受ける。\n\nこの値は睡眠時間を含まないので、実際の脱獄間隔は通常長くなる。
 Never:<<Never??無し>>
+NotWhileAsleep:<<Not while asleep??睡眠中は無し>>
 SlavePrice:<<Slave price??奴隷価格>>
 GetsFood:<<Gets food??食べ物を与える>>
 DoctorsCare:<<Doctors care??医者に診せる>>
@@ -2326,12 +2329,15 @@ JumpToTargetCustom:<<Jump to {0}??{0} へ移動>>
 SelectHiveTargets:<<Select hives??巣を選択>>
 QuestChallengeRatingTip:難度評価: クエストの難しさとあなたの現在の強さを比べた概略評価。より難しいクエストはより大きな報酬を与える。\n\n1: 普通\n2: 難しい\n3: かなり難しい\n4: 究極
 
-QuestAcceptanceRequirementsDescription:このクエストを受ける条件:
-QuestBedroomRequirementsUnsatisfied:_{title}_の要件を満たす、空いている_{bedroom}_:
-QuestBedroomRequirementsUnsatisfiedSingle:_{title}_の要件を満たす、空いている_{bedroom}_:
+QuestAcceptanceRequirementsDescription:このクエストを受ける条件
+QuestBedroomRequirementsUnsatisfied:_{title}_の要件を満たす、空いている_{bedroom}_
+QuestBedroomRequirementsUnsatisfiedSingle:_{title}_の要件を満たす、空いている_{bedroom}_
 QuestNoColonistWithTitle:{0} の_{title}_を持つ_{colonist}_。
-AcceptRoyalFavor:<<Accept {FACTION_royalFavorLabel}??{FACTION_royalFavorLabel} を受ける>>
-AcceptRoyalFavorDesc:{FACTION_name} の {FACTION_royalFavorLabel} で報酬を受けたいかどうか。\n\n無効なら {FACTION_name} は別の報酬を申し出る。\n\nこの設定は新しく到着したクエストにのみ影響する。
+ChooseRewards:<<Choose rewards??報酬を選ぶ>>
+AcceptRoyalFavor:<<Accept {FACTION_royalFavorLabel}??{FACTION_royalFavorLabel} を受け取る>>
+AcceptRoyalFavorDesc:{FACTION_name} の {FACTION_royalFavorLabel} で報酬を受け取るかどうか。\n\n無効なら、 {FACTION_name} は別の報酬を申し出る。\n\nこの設定は新しく到着したクエストにのみ影響する。
+AcceptGoodwill:<<Accept goodwill??信用を受け取る>>
+AcceptGoodwillDesc:{FACTION_name} との派閥関係を良くする報酬を受け取るかどうか。\n\n無効なら、 {FACTION_name} は別の報酬を申し出る。\n\nこの設定は新しく作られたクエストにのみ影響する。
 RoyalFavorOn:現在 {FACTION_royalFavorLabel} を受け取る設定になっている。
 RoyalFavorOff:現在 {FACTION_royalFavorLabel} を受け取らない設定になっている。
 
@@ -2613,7 +2619,7 @@ ChangeStoryteller:_<Storyteller settings>_
 AutosaveInterval:<<Autosave interval??自動保存間隔>>
 TemperatureMode:<<Temperature mode??温度単位>>
 ShowRealtimeClock:<<Show realtime clock??実時刻を表示>>
-MaxNumberOfPlayerSettlements:<<Maximum number of colonies: {0}??_<colony>_の最大数: {0}>>
+MaxNumberOfPlayerSettlements:<<Maximum number of colonies: {0}??_{colony}_の最大数: {0}>>
 MapDragSensitivity:<<Map mouse drag sensitivity??マップのマウスドラッグの感度>>
 PlantWindSway:<<Plant wind sway??植物がなびく効果>>
 EnableTestMapSizes:<<Enable test map sizes??テスト用のマップサイズを有効にする>>
@@ -3216,7 +3222,7 @@ WorkPriorityShiftClickTip:Shift + クリック:優先順位を上げる\nShift +
 WorkPriorityShiftClickEnableDisableTip:Shift + クリック: 全て有効\nShift + 右クリック: 全て無効
 AllowedAreaShiftClickTip:Shift + クリック: 全て_{home}_へ\nShift + 右クリック: 全て無制限へ
 CheckboxShiftClickTip:Shift + クリック: 全て選択\nShift + 右クリック: 全て解除
-KnownSiteThreatEnemyCountAppend:{0} {1}
+KnownSiteThreatEnemyCountAppend:<<{0} {1}??{1} x{0}>>
 SkillRequirements:<<Skill Requirements??必要スキル>>
 Products:<<Products??生成物>>
 Relationship:<<{0} of {1}??{1} の {0}>>

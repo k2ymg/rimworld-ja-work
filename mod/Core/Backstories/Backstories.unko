@@ -274,12 +274,10 @@ title:_<arts patron>_
 titleShort:_<patron>_
 desc:[PAWN_nameDef]は家族の芸術への投資を管理していた。\n\n[PAWN_pronoun]は後援する芸術家を選び、[PAWN_possessive]の家族である帝国の教会、そして帝国そのものを最も称える表現を生み出すために、彼らと一緒に働いていた。
 }
-;todo:未翻訳。テキストがおかしいので保留
-{ArtStudent6
+{ArtStudent79
 title:_<Art student>_
 titleShort:_<Artist>_
-desc:(未)After years of practice, Freya was able to enrol into an art university and take her skills further. She sought art industr   work after graduating with good grades. She made some progress with private commissions, managing to make a decent living from  herart.
-;何年も練習したあと、[PAWN_nameDef]は美術大学に入学して技術をさらに上達させた。[PAWN_pronoun]は良い成績で卒業した後、美術業の仕事を探した。[PAWN_pronoun]は個人委託で、まともな生活ができるようにしていた。
+desc:何年も練習したあと、[PAWN_nameDef]は美術大学に入学して技術をさらに上達させた。[PAWN_pronoun]は良い成績で卒業した後、美術業の仕事を探した。[PAWN_pronoun]は個人委託で、まともな生活ができるようにしていた。
 }
 {AsceticPriest84
 title:_<ascetic priest>_
@@ -1983,7 +1981,7 @@ desc:[PAWN_nameDef]は狩りの達人だった。どんなに危険な動物で�
 {Hunter74
 title:_<hunter>_
 titleShort:_<hunter>_
-desc:[PAWN_nameDef]は肉や皮のために、動物を追跡し、罠にはめ、殺していた。\n\n[PAWN_nameDef]は遠距離、近距離両方の武器を使っていた。時には、動物一緒に狩りをしていた。
+desc:[PAWN_nameDef]は肉や皮のために、動物を追跡し、罠にはめ、殺していた。\n\n[PAWN_nameDef]は遠距離、近距離両方の武器を使っていた。時には、動物と一緒に狩りをしていた。
 }
 
 {HunterOfTheKing53
@@ -3608,10 +3606,9 @@ desc:[PAWN_nameDef]の母は病気がちだったので、[PAWN_pronoun]は唯�
 }
 
 {ShunnedGirl30
-title:Shunned girl
-titleShort:Shunned
+title:_<Shunned girl>_
+titleShort:_<Shunned>_
 desc:[PAWN_nameDef]は小さくて貧しい家庭に生まれた。[PAWN_pronoun]は容赦なくいじめられ、殴られ、嫌われた。成長すると、銃に興味を持つようになった。普段は本で勉強していたが、時には実物で練習する機会を作っていた。その後芸術の才能に気付き、自分で絵の練習を始めた。
-;Freya was born into a small, poor family. She was bullied relentlessly, beaten and hated. As she grew up she developed an   interest in guns. She usually studied from books, but occasionally managed to get some practice time with the real thing. Freya later   discovered a talent for art and began to teach herself how to draw and paint.
 }
 
 {SicklyChild55

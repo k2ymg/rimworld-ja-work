@@ -1,6 +1,6 @@
 ﻿{Firefighter
 	labelShort:<<Firefight??消火>>
-	pawnLabel:<<Firefighter??消防士>>
+	pawnLabel:<<Firefighter??消火>>
 	gerundLabel:<<firefighting??消火>>
 	description:_{colony}_での火災を消火する。
 	verb:<<Extinguish??消火>>
@@ -13,23 +13,23 @@
 	verb:<<Become patient??患者>>
 }
 {Doctor
-	labelShort:_<Doctor>_
-	pawnLabel:_<Doctor>_
+	labelShort:<<Doctor??治療>>
+	pawnLabel:<<Doctor??治療>>
 	gerundLabel:<<doctoring??治療>>
 	description:病気を治療し、食事を与え、励まし、指示された手術を行う。_{Doctors}_は_{colonist}_と_{prisoner}_の両方の面倒を見る。
 	verb:<<Care for??治療>>
 }
 {PatientBedRest
-	labelShort:<<Bed rest??病人>>
-	pawnLabel:<<Bed rester??病人>>
+	labelShort:<<Bed rest??安静>>
+	pawnLabel:<<Bed rester??安静>>
 	gerundLabel:<<resting in bed??安静>>
 	description:命に関わらないような症状から回復するためにベッドで休む。
-	verb:<<Become patient??病人になる>>
+	verb:<<Become patient??安静>>
 }
 {BasicWorker
 	labelShort:<<Basic??雑事>>
-	pawnLabel:<<Worker??作業者>>
-	gerundLabel:<<dealing with??作業中>>
+	pawnLabel:<<Worker??雑事>>
+	gerundLabel:<<dealing with??雑事>>
 	description:専門的でない簡単な作業。_{prisoner}_の解放や機械のスイッチの切り替え。
 	verb:<<Deal with??制御>>
 }
@@ -37,50 +37,50 @@
 	labelShort:_<Warden>_
 	pawnLabel:_<Warden>_
 	gerundLabel:<<wardening??看守>>
-	description:_{prisoner}_の管理、配給、雑談、勧誘。
-	verb:<<Handle??見守る>>
+	description:_{prisoner}_の管理、食事、雑談、勧誘。
+	verb:<<Handle??看守>>
 }
 {Handling
 	labelShort:<<Handle??訓練>>
-	pawnLabel:<<Handler??訓練師>>
+	pawnLabel:<<Handler??訓練>>
 	gerundLabel:<<handling??訓練>>
 	description:動物の手懐け、訓練、畜産物の回収、屠殺。
 	verb:<<Handle??訓練>>
 }
 {Cooking
 	labelShort:<<Cook??調理>>
-	pawnLabel:<<Cook??調理師>>
+	pawnLabel:<<Cook??調理>>
 	gerundLabel:<<cooking??調理>>
 	description:食事を作り、肉を解体する。
 	verb:<<Cook??調理>>
 }
 {Hunting
 	labelShort:_<Hunt>_
-	pawnLabel:_<Hunter>_
+	pawnLabel:<<Hunter??狩猟>>
 	gerundLabel:<<hunting??狩猟>>
 	description:指示された動物を狩る。
 	verb:<<Hunt??狩猟>>
 }
 {Construction
 	labelShort:_<Construct>_
-	pawnLabel:<<Constructor??大工>>
+	pawnLabel:<<Constructor??建設>>
 	gerundLabel:<<constructing??建設>>
 	description:指示された物を建てたり、建物を修理したり、取り壊したりする。
 	verb:<<Construct??建設>>
 }
 {Growing
 	labelShort:<<Grow??栽培>>
-	pawnLabel:<<Grower??栽培者>>
+	pawnLabel:<<Grower??栽培>>
 	gerundLabel:<<growing??栽培>>
 	description:植物の種を蒔き、作物を収穫し、野生の植物を_{forage}_する。
 	verb:<<Grow??栽培>>
 }
 {Mining
 	labelShort:_<Mine>_
-	pawnLabel:_<Miner>_
+	pawnLabel:<<Miner??採掘>>
 	gerundLabel:<<mining??採掘>>
 	description:掘削とドリル。
-	verb:<<Mine??掘る>>
+	verb:<<Mine??採掘>>
 }
 {PlantCutting
 	labelShort:<<Plant cut??収穫>>
@@ -91,49 +91,49 @@
 }
 {Smithing
 	labelShort:<<Smith??鍛冶>>
-	pawnLabel:<<Smith??鍛冶屋>>
+	pawnLabel:<<Smith??鍛冶>>
 	gerundLabel:<<smithing??鍛冶>>
 	description:鍛冶や機械を使い原材料から武器や道具を作る。
 	verb:<<Smith at??鍛冶>>
 }
 {Tailoring
 	labelShort:<<Tailor??裁縫>>
-	pawnLabel:<<Tailor??裁縫家>>
+	pawnLabel:<<Tailor??裁縫>>
 	gerundLabel:<<tailoring??裁縫>>
 	description:原材料から衣服を作る。
 	verb:<<Tailor at??裁縫>>
 }
 {Art
 	labelShort:<<Art??芸術>>
-	pawnLabel:<<Artist??芸術家>>
+	pawnLabel:<<Artist??芸術>>
 	gerundLabel:<<art??芸術>>
 	description:原材料から美しい芸術品を作る。
 	verb:<<Do art at??芸術>>
 }
 {Crafting
 	labelShort:<<Craft??工作>>
-	pawnLabel:<<Crafter??工員>>
+	pawnLabel:<<Crafter??工作>>
 	gerundLabel:<<crafting??工作>>
 	description:作業台で単純労働を行う。石の切り出し、製錬など。
 	verb:<<Craft at??工作>>
 }
 {Hauling
 	labelShort:<<Haul??運搬>>
-	pawnLabel:<<Hauler??運送屋>>
+	pawnLabel:<<Hauler??運搬>>
 	gerundLabel:<<hauling??運搬>>
 	description:必要な所へ必要な物を運搬する。
-	verb:<<Haul??運ぶ>>
+	verb:<<Haul??運搬>>
 }
 {Cleaning
 	labelShort:<<Clean??掃除>>
-	pawnLabel:<<Cleaner??清掃人>>
+	pawnLabel:<<Cleaner??掃除>>
 	gerundLabel:<<cleaning??掃除>>
 	description:除雪と床の清掃を行う。
-	verb:<<Clean??掃く>>
+	verb:<<Clean??掃除>>
 }
 {Research
 	labelShort:<<Research??研究>>
-	pawnLabel:<<Researcher??研究者>>
+	pawnLabel:<<Researcher??研究>>
 	gerundLabel:<<researching??研究>>
 	description:研究を行う。
 	verb:<<Research at??研究>>

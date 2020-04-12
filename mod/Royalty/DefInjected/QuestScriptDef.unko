@@ -140,7 +140,7 @@
 					{nodes
 						{Letter
 							label.slateRef:<<Shuttle arrived??_[Shuttle]_ 到着>>
-							text.slateRef:[colonistsToLendCount] を乗せる _<shuttle>_ が到着した。
+							text.slateRef:[colonistsToLendCount] 人の_{colonist}_を乗せる _<shuttle>_ が到着した。
 						}
 					}
 				}
@@ -419,7 +419,7 @@
 			:intro(sameQuestsCount==0)->この星から出られる方法を学んだ！\n\n
 			:intro(sameQuestsCount>=1)->もう一つの昇進のチャンスをもらった。\n\n
 
-			:threatsInfo(allowViolentQuests==true,priority=1)->\n\nOthers will take the opportunity to try to kill the [asker_faction_leaderTitle], and will attack with great intensity. Be prepared to defend.
+			:threatsInfo(allowViolentQuests==true,priority=1)->\n\n他は [asker_faction_leaderTitle] を殺せる機会を逃すまいと、猛烈に攻撃してくる。しっかり防衛すること。
 			:threatsInfo->
 		}
 	}
@@ -858,7 +858,7 @@
 				{parms
 					customLetterLabel.value.slateRef:[lodgersLabelSingOrPlural] <<arrived??到着>>
 					customLetterText.value.slateRef:[lodgersLabelSingOrPluralDef][lodgersHasHave]到着した。シャトルが到着するまでの [shuttleDelayTicks_duration] 守る。[helpersArrivalLetterEnd]
-					;arrivingPawnsLabelDef:[lodgersLabelSingOrPluralDef]
+					;arrivingPawnsLabelDef.value.slateRef:[lodgersLabelSingOrPluralDef]
 				}
 			}
 			{ShuttleDelay
@@ -1362,7 +1362,7 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->[joiner_nameFull] という [joiner_age] 歳の [joiner_title] が助けを呼んでいる。[joiner_pronoun]は [hidingFrom] に隠れている。[joiner_pronoun]は逃げて、 [map_definite] に加わりたい。[joiner_relationInfo]\n\n[condDesc]\n\n[joiner_nameDef] は隠れているのに必死なので、自身につてこれ以上教えられないと言っている。
+			:questDescription->[joiner_nameFull] という [joiner_age] 歳の [joiner_title] が助けを呼んでいる。[joiner_pronoun]は [hidingFrom] から隠れている。[joiner_pronoun]は逃げて、 [map_definite] に加わりたい。[joiner_relationInfo]\n\n[condDesc]\n\n[joiner_nameDef] は隠れるのに必死なので、自身につてこれ以上教えられないと言っている。
 
 			:hidingFrom(gameCondition==ToxicFallout)->飢えたオオカミの群れ
 
@@ -1580,8 +1580,11 @@
 		{?rulesStrings
 			:questName-><<[enemyFaction_pawnsPlural] of Fortune??[enemyFaction_pawnsPlural] の富>>
 			:questName-><<[violence] of Fortune??[violence]の報酬>>
+			:questName-><<[violence] for Hire??代理の[violence]>>
+			:questName-><<[violence] for Profit??有料の[violence]>>
 			:questName-><<Rewarded [violence]??[violence]の報酬>>
 			:questName-><<Paid [violence]??[violence]の報酬>>
+			:questName-><<Compensated [violence]??[violence]の代償>>
 			;todo: 未翻訳
 			:questName(reward==royalFavor)->[enemyFaction_pawnsPlural] for Favor
 			:questName(reward==royalFavor)->[violence] for Favor
@@ -1591,6 +1594,12 @@
 			:violence-><<Combat??戦闘>>
 			:violence-><<War??戦争>>
 			:violence-><<Fighting??戦闘>>
+			:violence-><<Bloodshed??殺害>>
+			:violence-><<Attack??攻撃>>
+			:violence-><<Defense??防衛>>
+			:violence-><<Conflict??衝突>>
+			:violence-><<Hostility??交戦>>
+			:violence-><<Warfare??戦争>>
 		}
 	}
 	{questDescriptionRules
@@ -1644,9 +1653,11 @@
 									{node
 										{node
 											{nodes
-												{Letter
-													label.slateRef:<<[helpersLabelSingOrPlural] leaving??[helpersLabelSingOrPlural] 撤収>>
-													text.slateRef:[asker_nameDef] が送った [helpersLabelSingOrPlural] は長居しすぎたので、去り始めた。
+												{AnyPawnAlive
+													{node
+														label.slateRef:<<[helpersLabelSingOrPlural] leaving??[helpersLabelSingOrPlural] 撤収>>
+														text.slateRef:[asker_nameDef] が送った [helpersLabelSingOrPlural] は長居しすぎたので、去り始めた。
+													}
 												}
 											}
 										}

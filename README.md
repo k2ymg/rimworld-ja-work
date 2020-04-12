@@ -1,7 +1,5 @@
 # rimworld-ja-work
 
-RimWorld 日本語訳
-https://github.com/k2ymg/RimWorld-ja
-の作業用リポジトリです。
+RimWorld の非公式日本語訳です。
 
 詳しい事はWikiを見て下さい。

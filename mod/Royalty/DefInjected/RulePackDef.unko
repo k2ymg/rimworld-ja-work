@@ -1,4 +1,7 @@
-﻿;Namerは全て放置
+﻿;todo: allRewardsDescriptions(Reward_Itemsなど)で、最後に「。」が付く問題があるが、ピリオドをコードで除去している。
+; 当然これは機能しない。RW側の問題。
+
+;Namerは全て放置
 {NamerFactionEmpire
 	{rulePack
 		{?rulesStrings
@@ -176,8 +179,8 @@
 
 			:enemyGroupsParagraph->襲撃はおおよそ [threatsIntervalTicks_duration] ごとにやってくる。襲撃の規模は次と同様:\n\n[threatExample]
 
-			:shuttleWillComeParagraph(lodgersCount==1)->[shuttleDelayTicks_duration] 後、シャトルが [lodgers0_nameDef] を取りに来る。到着したシャトルに[lodgers0_objective]を乗せれば、[allRewardsDescriptions]
-			:shuttleWillComeParagraph(lodgersCount>=2)->[shuttleDelayTicks_duration] 後、シャトルが [lodgersLabelPlural] を取りに来る。到着したシャトルに乗せれば、[allRewardsDescriptions]
+			:shuttleWillComeParagraph(lodgersCount==1)->[shuttleDelayTicks_duration] 後、シャトルが [lodgers0_nameDef] を引き取りに来る。到着したシャトルに[lodgers0_objective]を乗せれば、[allRewardsDescriptions]
+			:shuttleWillComeParagraph(lodgersCount>=2)->[shuttleDelayTicks_duration] 後、シャトルが [lodgersLabelPlural] を引き取りに来る。到着したシャトルに乗せれば、[allRewardsDescriptions]
 
 			:mustKeepOnMapParagraph(lodgersCount==1)->[lodgers0_nameDef] を [map_definite] に留めて、何処も行かせてはならない。
 			:mustKeepOnMapParagraph(lodgersCount>=2)->[lodgers0_nameDef] を [map_definite] に留めて、何処も行かせてはならない。

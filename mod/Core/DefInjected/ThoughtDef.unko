@@ -1924,15 +1924,15 @@
 	{stages
 		{chemical_want
 			label:<<chemical want??薬物欲求>>
-			description:ドラッグに夢中になっている。しばらくそれを感じていない。
+			description:ドラッグに夢中になっている。もっとやりたい。
 		}
 		{chemical_hunger
 			label:<<chemical hunger??薬物渇望>>
-			description:ドラッグに夢中になっている。とても長い間それを感じていない。
+			description:ドラッグに夢中になっている。かなりやりたい。
 		}
 		{chemical_starvation
 			label:<<chemical starvation??薬物枯渇>>
-			description:ドラッグに夢中になっている。全くそれを感じていない。
+			description:ドラッグに夢中になっている。欲しい！猛烈に！
 		}
 	}
 }
@@ -1940,11 +1940,11 @@
 	{stages
 		{chemical_comfort
 			label:<<chemical comfort??薬物充足>>
-			description:ドラッグに夢中になっており、少し前に経験した。
+			description:ドラッグに夢中になっている。欲を満たすのはいいことだ。
 		}
 		{chemical_satisfaction
 			label:<<chemical satisfaction??薬物満足>>
-			description:ドラッグに夢中になっており、ちょうどさっき経験した。
+			description:ドラッグに夢中になっている。ドラッグで大満足した。
 		}
 	}
 }
@@ -1952,15 +1952,15 @@
 	{stages
 		{chemical_want
 			label:<<chemical want??薬物欲求>>
-			description:ドラッグに興味がある。しばらく前に少し試した。
+			description:ドラッグに興味がある。もっと試したい。
 		}
 		{chemical_hunger
 			label:<<chemical hunger??薬物渇望>>
-			description:ドラッグに興味がある。長い間試す機会が無い。
+			description:ドラッグに興味がある。かなりやりたい。
 		}
 		{chemical_starvation
 			label:<<chemical starvation??薬物枯渇>>
-			description:ドラッグに興味がある。とても長い間試していない。
+			description:ドラッグに興味がある。ドラッグをやりたくてたまらない。
 		}
 	}
 }
@@ -1968,11 +1968,11 @@
 	{stages
 		{chemical_comfort
 			label:<<chemical comfort??薬物充足>>
-			description:ドラッグに興味がある。少し前にやったが、良かった。
+			description:ドラッグに興味がある。欲を満たして楽しんだ。
 		}
 		{chemical_satisfaction
 			label:<<chemical satisfaction??薬物満足>>
-			description:ドラッグに興味がある。ちょうどさっきやったが、とても良かった！
+			description:ドラッグに興味がある。最近手に入れたドラッグでかなり満足した。
 		}
 	}
 }
