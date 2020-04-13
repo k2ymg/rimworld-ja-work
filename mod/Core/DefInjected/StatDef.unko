@@ -342,7 +342,7 @@
 }
 {ArrestSuccessChance
 	label:<<Arrest success chance??_{Arrest}_成功率>>
-	description:この人物がどれほど効果的に人を_{Arrest}_できるか。\n\n_{arrest}_の成功率に影響する。
+	description:この人物がどれほど効果的に人を_{Arrest}_できるか。抵抗されずに_{arrest}_できる成功率に影響する。
 }
 {TradePriceImprovement
 	label:<<trade price improvement??取引価格向上率>>

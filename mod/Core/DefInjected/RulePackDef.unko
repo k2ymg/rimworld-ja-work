@@ -1970,16 +1970,18 @@
 	}
 }
 {NamerInitialSettlementColony
+	; 新規コロニーの名前
 	{rulePack
 		{?rulesStrings
-			:r_name->Colony
+			:r_name->_<Colony>_
 		}
 	}
 }
 {NamerInitialSettlementTribe
+	; 新規コロニーの名前
 	{rulePack
 		{?rulesStrings
-			:r_name->Village
+			:r_name->_<Village>_
 		}
 	}
 }
@@ -2060,10 +2062,10 @@
 			:townend->ron
 			:townend->well
 		}
-;		{?rulesFiles
-;			:townname_fixed->Names/OutlanderTown
-;			:concept_positive->Words/Nouns/Concepts_Positive
-;		}
+		{?rulesFiles
+			:townname_fixed->Names/OutlanderTown
+			:concept_positive->English/Words/Nouns/Concepts_Positive
+		}
 	}
 }
 {NamerFactionTribal

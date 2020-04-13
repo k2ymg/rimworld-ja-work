@@ -433,6 +433,7 @@
 				{parms
 					customLetterLabel.value.slateRef:[asker_faction_leaderTitle] <<arrived??到着>>
 					customLetterText.value.slateRef:[asker_faction_name]の[asker_faction_leaderTitle]が到着した。\n\nシャトルが到着するまでの[shuttleDelayTicks_duration]間、彼を守り、高貴な欲求を満たす。\n\n全員、[asker_faction_leaderTitle]に同行してシャトルに乗って、_[Imperial]_艦隊へ移動して、新しい生活を始められる。
+					;arrivingPawnsLabelDef.value.slateRef:[asker_nameDef]
 				}
 			}
 			{ShuttleDelay

@@ -2,7 +2,7 @@
 	{!tips
 		:_{royal title}_によっては、保有者は援軍を呼ぶ事ができる。これは困難な時の助けになる。
 		:より高位な_{royal title}_保有者は _<authority>_ への特別な欲求がある。 _[throne]_ から統治することで欲求を満たせる。
-		:より高いレベルの高貴な_{colonist}_は希望を下回る物は、飢えない限り、食べない。
+		:_[Empire]_の貴族は_{title}_の特権を全て要求する。_{title}_を授かった_{colonist}_は、_<greedy>_や_<jealous>_でない限り、融通が利く。
 		:パワー・アーマー、_[cataphract armor]_、サイフォーカスの衣服は_{royal title}_の衣服要件を満たす。
 		:_{royal title}_保有者が死んだ場合、その_{title}_は選んだ後継者に移る。
 		:_{royal title}_保有者の後継者は _[comms console]_ で変えられる。しかし、それには儀式を執り行う必要がある。

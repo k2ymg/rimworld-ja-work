@@ -13,7 +13,6 @@ lawbreaker
 offender
 thug
 gangster
-thief
 soldier
 assassin
 banger
