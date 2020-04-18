@@ -1,8 +1,8 @@
 ﻿{Empire
 	label:_[shattered empire]_
 	description:封建制に従って組織されている、他の星からきたウルトラテック逃亡共同体。厳格な身分制度、戦士の複雑な倫理規定、文化的停滞を強制する、安定した多惑星_{empire}_に何千年も住んでいた。強力なよそ者に侵略され、逃げ出した。ほとんどの人々を失ったとはいえ、艦隊と技術により力を保っている。\n\n彼らは適切な_{royal title}_を持たない人とは取引しない。
-	pawnSingular:_[imperial]_
-	pawnsPlural:<<imperials??_[imperial]_>>
+	pawnSingular:_[pawn/imperial]_
+	pawnsPlural:<<imperials??_[pawn/imperial]_>>
 	leaderTitle:_[high stellarch]_
 	royalFavorLabel:_[royal favor]_
 	renounceTitleMessage:_[Bladelink]_ と _{psycast}_ の使用は違法になる

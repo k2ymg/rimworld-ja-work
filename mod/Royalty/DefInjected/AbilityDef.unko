@@ -66,3 +66,8 @@
 	label:_[mass chaos skip]_
 	description:標的近くの人をでたらめな位置へ飛ばす。遠くへは飛ばない。
 }
+{%Speech
+	label:<<throne speech??_{throne}_ の _{speech}_>>
+	;keyedにあるテキストとほぼ同じ
+	description:_{throne}_から_{speech}_を始める。全ての_{colonist}_が集まって聞く。上手くいけば、聞き手は感動して話者を尊敬する。下手なら_{speech}_は社交を悪化させる。結果は話者の社交能力に依存する。
+}

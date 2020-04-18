@@ -162,8 +162,7 @@
 		}
 		{royal_expectations
 			label:<<royal expectations??王族の期待>>
-			;todo:未翻訳/保留
-			description:My majesty... I can hardly believe it myself. A moment's discomfort is below me.
+			description:なんてことだ、自分でも信じられない。僅かな不快感でも私にはふさわしくない。
 		}
 	}
 }
@@ -579,7 +578,7 @@
 	{stages
 		{terrible_speech
 			label:<<terrible speech??酷い_{speech}_>>
-			description:下手な_{speech}_だった。我々の可能性がどれ程少ないのか分かった。
+			description:下手な_{speech}_だった。私たちの可能性がどれ程少ないのか分かった。
 		}
 	}
 }
@@ -587,8 +586,7 @@
 	{stages
 		{uninspiring_speech
 			label:<<uninspiring speech??つまらない_{speech}_>>
-			;todo:未翻訳/保留
-			description:That speech was more awkward than inspiring. If that's who we're listening to, I'm worried.
+			description:感動どころか酷い_{speech}_だった。話者もそうなら、心配だ。
 		}
 	}
 }

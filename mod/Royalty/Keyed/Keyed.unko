@@ -1,5 +1,5 @@
 NeedThroneAssigned:<<Need throneroom??_{throneroom}_ が必要>>
-NeedThroneAssignedDesc:_{throneroom}_が必要な_{royal title}_を持っている人がいるが、_{throneroom}_が割り当てられていない。\n\n_[throne]_を部屋に作り、_[throne]_を_{title}_保持者に割り当てる。_{throneroom}_は_{title}_の要件を満たすように大きく、飾られていなければならない。
+NeedThroneAssignedDesc:_{throneroom}_が必要な_{royal title}_を持っている人がいるが、_{throneroom}_が割り当てられていない。\n\n_{title}_所有者を_{throneroom}_の_[throne]_に割り当てる。_{throneroom}_は_{title}_の要件を満たすように大きく、飾られていなければならない。\n\n複数の_[throne]_を一つの_{throneroom}_に置ける。
 
 UndignifiedBedroom:<<Undignified bedroom??威厳が無い_{bedroom}_>>
 UndignifiedBedroomDesc:特定要素を備えた_{bedroom}_が必要な_{royal title}_を持つ人がいる。_{bedroom}_が割り当てられていないか、割り当てられている_{bedroom}_が要件を満たしていない。
@@ -21,7 +21,7 @@ ThroneroomInvalidConfigurationDesc:_[throne]_ は設置状況により使えな�
 MonumentMarkerMissingBlueprints:<<Monument missing blueprints??モニュメントの _{blueprint}_ が無い>>
 MonumentMarkerMissingBlueprintsDesc:モニュメントの各位置に _<blueprint>_ が置かれていないので完成しない。\n\nモニュメントのマーカーを選択して "_{blueprint}_ を置く" をクリックするか、自分で _{blueprint}_ を置く。
 ShipLandingBeaconUnusable:<<Beacon unusable??ビーコンは使えない>>
-ShipLandingBeaconUnusableDesc:船着陸ビーコンは作動しているが使えない。使えるようにするには、最低8タイルの矩形の四隅に配置し、矩形の中には建物、人、動物などの障害物が何も無いようにする。
+ShipLandingBeaconUnusableDesc:船着陸ビーコンは作動しているが使えない。使えるようにするには、最低 9 タイルの矩形の四隅に配置し、矩形の中には建物、人、動物などの障害物が何も無いようにする。
 BlueprintWouldCollideWithMonument:_<blueprint>_ はモニュメントのマーカーに重なる。
 
 RoyalFavorDescription:交渉者がこの取引で受け取る {FACTION_royalFavorLabel} の量。
@@ -62,7 +62,8 @@ PsycastRequiredAmplifierLevel:<<Amplifier level??アンプのレベル>>
 PsycastIsIllegal:これは{PAWN_labelShort}には違法になる。{TITLE}の_{title}_が必要。
 
 Stat_Thing_MinimumRoyalTitle_Name:<<Minimum title??最小の_{title}_>> ({FACTION_name})
-Stat_Thing_MinimumRoyalTitle_Desc:{FACTION_name} にはこのインプラントの使用を特定の_{title}_に制限する法がある。インプラントの所持は検出されないが、使用すると、精神放射を検出される可能性がある。外交問題に続き、違反を繰り返すと対立に繋がる。\n\n_[psychic silencer]_ インプラントはこのような使用を検出されなくする。
+Stat_Thing_MinimumRoyalTitle_Desc:{FACTION_name} にはこのインプラントの使用を特定の_{title}_に制限する法がある。インプラントの取り付けは検出されないが、使用すると、サイキック放射を検出される可能性がある。これは外交問題を引き起こす。\n\n_[psychic silencer]_ インプラントはこのような使用を検出されなくする。
+Stat_Thing_Weapon_MinimumRoyalTitle_Desc:{FACTION_name} にはこの武器の使用を特定の_{title}_に制限する法がある。この武器で攻撃する度に、サイキック放射を検出される可能性がある。これは外交問題を引き起こす。\n\n_[psychic silencer]_ インプラントはこのような使用を検出されなくする。
 Stat_Thing_MinimumRoyalTitle_ImplantWithLevel_Desc:合法的に使うには、このインプラントの各アップグレードレベルは {FACTION_name} の特定_{title}_が必要。
 
 Stat_Thing_Apparel_MaxSatisfiedTitle:<<Max satisfied title??最大充足_{title}_>>
@@ -74,12 +75,12 @@ Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc:これで食物要件が満たさ�
 RequestChangeRoyalHeir:{HOLDER_labelShort} の_{title}_ {TITLE} の継承者を {HEIR_labelShort} から変える
 RequestSetRoyalHeir:{HOLDER_labelShort} の _{title}_ {TITLE} の継承者を指定する
 RequestChangeRoyalHeirAlreadyInProgress:{PAWN_labelShort} は既に進行中
+CommandDisabledUnconscious:{0_labelShort} は気絶している。
 ChooseHeir:{HOLDER_nameIndef} の新しい継承者を選択:
 MakeHeirConfirm:{0_name} から受け取った {HOLDER_nameIndef} の_{title}_ の継承者を変えようとしている。これは、新しい_{title}_継承を祝福するために、期限内にモニュメントを建てないといけない。
 MakeHeirPreviousHeirWarning:これは{HOLDER_possessive}の現在の継承者である {HEIR_nameFull} を動転させる。
 CommandCallRoyalAid:<<Call royal aid??王の救援を呼ぶ>>
 CommandCallRoyalAidDesc:王の特別許可で援軍を呼ぶ。\n\n各タイプの援軍は一度だけただで使えるが、またただで使うには待たないといけない。もっと頻繁に使えるが、それには_{royal favor}_を使う。
-CommandCallRoyalAidUnconscious:{0_labelShort} は気付いていない。
 CommandCallRoyalAidLodger:客人は自分の王の援軍を使えない。
 CommandCallRoyalAidFactionHostile:{FACTION_name} とは敵対している。
 CommandCallRoyalAidFreeOption:<<Free??無料>>
@@ -132,17 +133,19 @@ LetterRewardsForNewTitleDeliveryDirect:報酬は {PAWN_labelShort} の持ち物�
 LetterRoyalTitlePermits:{PAWN_pronoun}は次の権限を持つ:
 LetterRoyalTitleLostPermits:{PAWN_pronoun}は次の権限を失う:
 LetterRoyalTitleDisabledWorkTag:{PAWN_pronoun}は次の作業タイプをやりたくない:\n{1}
-LetterRoyalTitleEnabledJoyKind:{PAWN_pronoun}は次の娯楽を要求:
-LetterRoyalTitleStillEnabledJoyKind:{PAWN_pronoun}は次の娯楽を要求:
-LetterRoyalTitleDisabledJoyKind:{PAWN_pronoun}は次の娯楽を拒否:
-LetterRoyalTitleStillDisabledJoyKind:{PAWN_pronoun}は次の娯楽を拒否:
+LetterRoyalTitleEnabledJoyKind:{PAWN_pronoun}は次の娯楽で遊べるようになった:
+;LetterRoyalTitleStillEnabledJoyKind:{PAWN_pronoun}は次の娯楽を要求:
+LetterRoyalTitleDisabledJoyKind:この_{title}_は次の娯楽は遊べない:
+;LetterRoyalTitleStillDisabledJoyKind:{PAWN_pronoun}は次の娯楽を拒否:
 LetterRoyalTitleAllowedImplants:{PAWN_pronoun}は次のインプラントを使える:{1}
 LetterRoyalTitleImplantsMustBeRemoved:{PAWN_pronoun}は次のインプラントを使えない:{1}
 LetterRoyalTitleImplantGracePeriod:外交問題を避けるため、このインプラントは猶予期間５日の間に取り除かないといけない。
-LetterRoyalTitleAuthorityNeed:{PAWN_pronoun}は新しい_{authority}_欲求が現れた。これを満足させるには、{PAWN_pronoun}が普段座って統治してにふさわしい _[throneroom]_ を作ることを意味する。
-LetterRoyalTitleThroneroomRequirements:{PAWN_pronoun}は次の要件にかなう_{throneroom}_を要求している:{1}
-LetterRoyalTitleBedroomRequirements:{PAWN_pronoun}は次の要件にかなう_{bedroom}_を要求している:{1}
-LetterRoyalTitleFoodRequirements:{PAWN_pronoun}は次の食べ物しか食べない:{1}
+LetterRoyalTitleAuthorityNeed:{PAWN_pronoun}は_{authority}_を要求するようになった。これを満足させるには、_[throne]_に座って統治することを意味する。{PAWN_pronoun}が普段座って統治するにふさわしい_{throneroom}_を作ることを意味する。_{throneroom}_は共有できるが、貴族は個人の_{throne}_を欲しがる。
+;また同じようなテキスト -> AbilitySpeechTooltip
+LetterRoyalTitleSpeechAbilityGained:{PAWN_pronoun}は_{throne}_から_{speech}_できるようになった。上手くいけば、聞き手は感動する。下手なら_{speech}_は社交を悪化させる。結果は {PAWN_labelShort} の社交能力に依存する。
+LetterRoyalTitleThroneroomRequirements:この_{title}_には次の要件を満たす_{throneroom}_が必要:{1}
+LetterRoyalTitleBedroomRequirements:この_{title}_には次の要件を満たす_{bedroom}_が必要:{1}
+LetterRoyalTitleFoodRequirements:{PAWN_pronoun}は次の物だけ食べるべきと、この_{title}_が示している:{1}
 LetterRoyalTitleRewardGranted:{PAWN_pronoun}は次のアイテムを _[transport pod]_ で受け取る:{1}
 PeaceTalksRoyalFavorGain:{PAWN_labelShort}は {FACTION_name} から {FACTION_royalFavorLabel} を {1} 得た。
 LetterRoyalTitleHeir:{PAWN_pronoun}が死ぬと、この_{title}_は {HEIR_nameFull} に継承される。
@@ -188,7 +191,7 @@ ThronePrevTitleStature:前の適合_{title}_: {0}
 ThroneNextTitleStature:次の適合_{title}_: {0}
 ThroneRoomImpressivenessInfo:<<({0} impressiveness)??({0} 印象深さ)>>
 ThroneMustBePlacedInside:_[Throne]_ は室内に置かないといけない。
-ThroneRoomHasMoreThan1Throne:_{Throneroom}_ に _[Throne]_ が二つ以上あるが、これは結婚したカップルにのみ許されている。
+;ThroneRoomHasMoreThan1Throne:_{Throneroom}_ に _[Throne]_ が二つ以上あるが、これは結婚したカップルにのみ許されている。
 
 MinimumRoyalTitleInspectString:<<Minimum title ({FACTION_name}): {TITLE}??最小_{title}_ ({FACTION_name}): {TITLE}>>
 RequiresTradePermission:<<Trading here requires title: {0}??ここで取引できる必要_{title}_: {0}>>
@@ -212,3 +215,18 @@ NotUsable:<<Not usable??使えない>>
 Unpowered:<<unpowered??電源切れ>>
 BlockedByRoof:<<blocked by roof??ルーフが邪魔している>>
 TooCloseToOtherBeacon:<<Too close to other beacon??他のビーコンに近すぎる>>
+
+AbilityDisabledUndrafted:_{draft}_していない。
+AbilityOnCooldown:能力はクールダウン中。使えるようになるまで {0}。
+AbilityAlreadyQueued:能力は既に追加済み。
+AbilityReadyLabel:能力使用可: {0}
+AbilityReadyText:{0_nameDef} は {1} が使える。
+;このテキストは AbilityDef,GatheringDefにほぼ同じ物がある
+AbilitySpeechTooltip:_{throne}_から_{speech}_を始める。 {ORGANIZER_labelShort} は自分の_{throne}_へ行き、そこで_{speech}_を聞かせるために全ての_{colonist}_を集める。全て上手くいけば、聞き手は感動して {ORGANIZER_labelShort} を尊敬する。下手なら_{speech}_は社交を悪化させる。結果は {ORGANIZER_labelShort} の社交能力に依存する。
+AbilitySpeechDisabledNoThroneAssigned:_{throne}_が割り当てられていない。
+AbilitySpeechDisabledNoThroneIsNotAccessible:_{throne}_にたどり着けない。
+AbilitySpeechDisabledNoThroneUndignified:_{throne}_に威厳がないので使えない。
+AbilitySpeechDisabledAlreadyGivingSpeech:既に_{speech}_している。
+AbilitySpeechCooldown:次の_{speech}_ができるまであと
+AbilitySpeechPossibleOutcomes:成功率
+AbilitySpeechStatInfo:{ORGANIZER_labelShort} の {1} 状態

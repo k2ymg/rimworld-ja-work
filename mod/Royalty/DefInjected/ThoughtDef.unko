@@ -10,7 +10,7 @@
 	{stages
 		{Recieved_title
 			label:<<Recieved {TITLE} title??_{title}_ {TITLE} を受け取った>>
-			description:{TITLE} を与えられた。私の身分が認められるのは良いことだ。
+			description:{TITLE} の_{title}_を授かった。認められて嬉しい！
 		}
 	}
 }
@@ -65,8 +65,8 @@
 {TitleNoPersonalBedroom
 	{stages
 		{no_personal_bedroom
-			label:<<no personal bedroom??個人用_{bedroom}_がない>>
-			description:{TITLE} は庶民と空間を共有するべきじゃない。
+			label:<<no personal bedroom??個人の_{bedroom}_がない>>
+			description:{TITLE} は個人の_{bedroom}_を持つべきだ。
 		}
 	}
 }

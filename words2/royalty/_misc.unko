@@ -3,6 +3,7 @@ throne room:_{throneroom}_
 ; fuction
 shattered empire:落ちた帝国
 imperial:帝国
+pawn/imperial:インペリアル
 
 ; trader
 imperial trader:_{imperial}_の交易商
@@ -26,7 +27,7 @@ blinding pulse:ブラインディング パルス
 entropy link:エントロピー リンク
 beckon:ベコン
 vertigo pulse:ヴァーティゴ パルス
-chaos skip:ケイオス・スキップ
+chaos skip:ケイオス スキップ
 skip:スキップ
 wallraise:ウォールライズ
 smokepop:スモークポップ
@@ -35,7 +36,7 @@ berserk:バーサク
 invisibility:インビジビリティ
 berserk pulse:バーサク パルス
 manhunter pulse:マンハンター パルス
-mass chaos skip:マス ケイオス・スキップ
+mass chaos skip:マス ケイオス スキップ
 
 ; event
 sun blocked:太陽光妨害

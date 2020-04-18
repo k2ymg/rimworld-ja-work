@@ -129,7 +129,7 @@
 			:buildReason->[asker_possessive]の[PersonFamily]の[PersonalCharacteristic]を記念する
 			:buildReason->[asker_possessive]の[PersonalCharacteristic]を記念する
 			:buildReason->[asker_possessive]のライバルの[PersonalCharacteristic]を屈辱する
-			:buildReason->民衆の中にある[ConceptAngsty]な感情を減らす
+			:buildReason->民衆が感じている[ConceptAngsty]を減らす
 			:buildReason->[asker_pronoun]がいかに[AdjectiveBadass]かを示す
 			:buildReason->[asker_possessive]の[asker_faction_pawnsPlural]の戦死者を記念する
 			:buildReason->[asker_possessive]の[PersonFamily]を称える
@@ -177,7 +177,15 @@
 
 			:commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]
 
-			:enemyGroupsParagraph->襲撃はおおよそ [threatsIntervalTicks_duration] ごとにやってくる。襲撃の規模は次と同様:\n\n[threatExample]
+			:enemyGroupsParagraph->[threatDescriptionParagraph]
+
+			:threatDescriptionParagraph(allowedThreats==Raids,threatCount==1)->おおよそ次の規模の襲撃が [threatCount] 回行われる:\n\n[threatExample]
+			:threatDescriptionParagraph(allowedThreats==Raids,threatCount>1)->おおよそ次の規模の襲撃が [threatCount] 回行われる:\n\n[threatExample]
+			:threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==1)->_[mech cluster]_ が近くに落ちてくる。
+			:threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==2)->2倍の強さの _[mech cluster]_ が近くに落ちてくる。
+			:threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->3倍の強さの _[mech cluster]_ が近くに落ちてくる。
+			:threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->2倍の強さの _[mech cluster]_ が二つ近くに落ちてくる。
+			:threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->_[mech cluster]_ が二つ近くに落ちてくる。
 
 			:shuttleWillComeParagraph(lodgersCount==1)->[shuttleDelayTicks_duration] 後、シャトルが [lodgers0_nameDef] を引き取りに来る。到着したシャトルに[lodgers0_objective]を乗せれば、[allRewardsDescriptions]
 			:shuttleWillComeParagraph(lodgersCount>=2)->[shuttleDelayTicks_duration] 後、シャトルが [lodgersLabelPlural] を引き取りに来る。到着したシャトルに乗せれば、[allRewardsDescriptions]
@@ -185,10 +193,10 @@
 			:mustKeepOnMapParagraph(lodgersCount==1)->[lodgers0_nameDef] を [map_definite] に留めて、何処も行かせてはならない。
 			:mustKeepOnMapParagraph(lodgersCount>=2)->[lodgers0_nameDef] を [map_definite] に留めて、何処も行かせてはならない。
 
-			:threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] が最近、 [mechViolation]、軌道上の_[mechanoid]_の群れに標的にされてしまった。[lodgers0_nameDef] が居る限り、[map_definite] に _[mechanoid]_ の戦闘クラスターが落ちてくる。
-			:threatsInfoMechClustersMultiPrisoners->_{prisoner}_が最近、 [mechViolation]、軌道上の_[mechanoid]_の群れに標的にされてしまった。_{prisoner}_が居る限り、[map_definite] に _[mechanoid]_ の戦闘クラスターが落ちてくる。
-			:threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] が最近、 [mechViolation]、 _[mechanoid hive]_ に標的にされてしまった。[lodgers0_nameDef] が居る限り、 _[mechanoid]_ の襲撃を送り出してくる。
-			:threatsInfoMechRaidsMultiHuman->彼らは最近、 [mechViolation]、 _[mechanoid hive]_ に標的にされてしまった。彼らがいる限り、 _[mechanoid]_ の襲撃を送り出してくる。
+			:threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] が最近、 [mechViolation]、軌道上の_[mechanoid]_の群れに標的にされてしまった。
+			:threatsInfoMechClustersMultiPrisoners->_{prisoner}_が最近、 [mechViolation]、軌道上の_[mechanoid]_の群れに標的にされてしまった。
+			:threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] が最近、 [mechViolation]、 _[mechanoid hive]_ に標的にされてしまった。
+			:threatsInfoMechRaidsMultiHuman->彼らは最近、 [mechViolation]、 _[mechanoid hive]_ に標的にされてしまった。
 
 			:mechViolation->なぜか機械人格を怒らせてしまい
 			:mechViolation->古代のスーパーコンピュータのターミナルへ侵入してしまい

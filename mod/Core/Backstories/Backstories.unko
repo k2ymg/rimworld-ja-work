@@ -394,7 +394,6 @@ desc:[PAWN_nameDef]はある初期星系に居た技術好きの傭兵だった�
 title:_<beastmaster>_
 titleShort:_<beastmaster>_
 desc:[PAWN_nameDef]の一家には、継承できるまともな肩書きよりも多くの子供が居た。[PAWN_pronoun]は出生順位が低かったので、_<beastmaster>_という名ばかりの肩書き与えられた。\n\n[PAWN_pronoun]は一家の広大な動物園を管理していた。実際の仕事はしていなかったが、獣に関わってはいた。Few others appreciated [PAWN_objective] the way they did.
-;最後が意味不明
 }
 
 {BeastSlayer67
@@ -2473,6 +2472,12 @@ titleShortFemale:_<lady>_
 desc:[PAWN_nameDef]は中世の世界で旅芸人をしていた。\n\n[PAWN_pronoun]は物語や歌をいつでも見つけ、旅の危険から自分を守る事が出来た。しかし、重労働の後はいつも一際ぼんやりしていた。
 }
 
+{MedievalNomad12
+title:_<Medieval nomad>_
+titleShort:_<Nomad>_
+desc:封建社会の遊牧民の家族に産まれた[PAWN_nameDef]は、話術、手品、乗馬の教育を受けた。\n\n        [PAWN_pronoun]は家系を助けるために、いつもキャンプの周りを走り回って変わった仕事をしていた。
+}
+
 {MedievalPlower14
 title:_<medieval plower>_
 titleShort:_<plower>_
@@ -3883,7 +3888,6 @@ desc:[PAWN_nameDef]は遠縁の叔父の武器取引ビジネスの相続人で�
 title:_<Spaceyacht pilot>_
 titleShort:_<Pilot>_
 desc:[PAWN_nameDef]は母星で裕福なビジネスマンや政治家の送迎をしていた。\n\n        Witnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood.
-;後半部分が意味不明。
 }
 
 {SpecialForces53
@@ -4060,11 +4064,10 @@ titleShort:_<street kid>_
 desc:_{Rimworld}_の路上で育った[PAWN_nameDef]の友達は犬の Rest だけだった。最低限の食べ物をかき集め、二人でなんとかやっていた。13歳になった頃、犯罪グループが[PAWN_pronoun]を拉致していった。
 }
 
-; todo: 未翻訳
 {StreetPeddler66
 title:_<street peddler>_
 titleShort:_<peddler>_
-desc:強盗が珍しくない工業時代の_[Midworld]_で育った[PAWN_nameDef]は小さな装身具などを通行人に売って家族を助けていた。\n\n[PAWN_pronoun] learned early on that it wasn't always what [PAWN_pronoun] knew, but who [PAWN_pronoun] knew that would get [PAWN_objective] far in life.
+desc:強盗が珍しくない工業時代の_[Midworld]_で育った[PAWN_nameDef]は小さな装身具などを通行人に売って家族を助けていた。\n\n[PAWN_pronoun]は、何を知っているかではなく、誰を知っているかで人生が大きく変わる事があると、早くから知っていた。
 }
 
 {StreetRat81
@@ -4528,6 +4531,12 @@ desc:家を持たない危険な漂流者である[PAWN_nameDef]と父は何百�
 title:_<vengeful hunter>_
 titleShort:_<vengeful>_
 desc:親しい友達が動物の襲撃で殺された後、[PAWN_nameDef]はその獣を追った。近くの村まで辿ったところ、毛皮を着た村人の一人を見つけ出した。
+}
+
+{VengefulNomad67
+title:_<Vengeful nomad>_
+titleShort:_<Nomad>_
+desc:暴君の横暴な要求を拒否した後、[PAWN_nameDef]の遊牧民達は無法者と見なされ、組織的に追われるようになった。\n\n        [PAWN_nameDef]の家族は結局捕まえられた。殺されなかった人は奴隷にされた。工場の所有者に売られた[PAWN_nameDef]は、いつか復讐すると誓った。
 }
 
 {VersatileWorker13

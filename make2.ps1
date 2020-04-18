@@ -13,7 +13,8 @@ param(
 [switch]$readable,
 [switch]$clean,
 [switch]$test,
-[switch]$unused
+[switch]$unused,
+[switch]$hankaku
 )
 
 try{
@@ -219,7 +220,7 @@ function replace([string]$str)
 		return $null
 	}
 
-	# 本当は、頭から人文字ずつつ調べないといけないが、保留。
+	# 本当は、頭から1文字ずつつ調べないといけないが、保留。
 	while($true){
 		$count++
 		if($count -gt 20){
@@ -436,7 +437,12 @@ if($error_stop){
 
 function replace_value($str)
 {
-	$str#$str.replace('<', '&lt;').replace('>', '&gt;')
+	#$str#$str.replace('<', '&lt;').replace('>', '&gt;')
+	if($hankaku){
+		$str.replace('。', '｡').replace('、', '､').replace('「', '｢').replace('」', '｣')
+	}else{
+		$str
+	}
 }
 
 function merge_block($block, $block_parent)

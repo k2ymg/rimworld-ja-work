@@ -599,9 +599,9 @@
 		{?rulesStrings
 			;「アーマー～」
 			:scraped_present->をかすめ
-			:scraped_present->から跳ね
+			:scraped_present->に跳ね
 			:scraped_present->をこすっ
-			:scraped_present->から跳ね返っ
+			:scraped_present->に跳ね返っ
 			:scraped_present->にそらされ
 			:scraped_present->を滑っ
 

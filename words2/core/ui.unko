@@ -87,7 +87,7 @@ forbid:禁止
 ;unforbid:許可
 allow:許可
 forbidden:禁止
-Draft:徴兵
+;Draft:徴兵 -> common
 Undraft:徴兵終了
 Rescue:救助
 Capture:捕縛

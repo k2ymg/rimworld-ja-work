@@ -60,11 +60,11 @@ NeedFoodHopperDesc:_[nutrient paste dispenser]_ があるが、隣に _[hopper]_
 NeedMealSource:<<Need meal source??調理手段が必要>>
 NeedMealSourceDesc:生の食材からちゃんとした食事を作る手段がない。\n\nストーブ、_[Campfire]_、_[nutrient paste dispenser]_ などを作ろう。\n\n(_{colonist}_が使えなくなるので、これらを_{prison cell}_に置かないこと。)
 
-NeedJoySource:<<Need recreation variety??娯楽の種類>>
+NeedJoySource:<<Need recreation variety??娯楽に多様性が必要>>
 NeedJoySourceDesc:{1}には{0}種類の異なる娯楽しかないが、現在の期待度({2})では、_{colonist}_が満足し続けるには{3}種類の異なる娯楽が必要。新しく、異なる娯楽の種類を与えるために、異なる娯楽を提供する。\n\n{4}\n\n{5}\n\n補足: アイテムのステータス画面('i'のボタン)で種類を調べられる。
 
 AvailableRecreationTypes:利用可能な娯楽の種類
-MissingRecreationTypes:与えられていない娯楽の種類
+MissingRecreationTypes:与えられていない 娯楽の種類
 CurrentExpectationsAndRecreation:現在の期待({0})では、毎日 {1} 鈍化する。{2} 種類用意するのを推奨。
 bored:<<bored??退屈した>>
 
@@ -307,7 +307,7 @@ CreateNewZone:新しく {0} を作る。
 TransmitsPower:送電
 ConstructionNeeded:必要建設スキル
 NoColonistWithSkillTip:このスキルを持っている{0}がいない。
-SkillNeededForConstructing:{0} が必要
+SkillNeededForConstructing:必要な {0}
 
 NoColonistWithAllSkillsForConstructing:必要なスキルを全て持っている{0}がいない
 AllColonistsWithSkillHaveDisabledConstructingTip:このスキルを持っている{0}が{1}に割り当てられていない。
@@ -526,8 +526,8 @@ SurgeryDeathOnFailChance:<<Death chance on fail??失敗時死亡率>>
 WorkSpeedStat:<<Work speed governed by??作業速度に影響する能力>>
 EfficiencyStat:<<Output quantity governed by??産出数に影響する能力>>
 
-SkillRequiredToBuild:<<{0} skill required??{0} スキルが必要>>
-SkillRequiredToBuildExplanation:建設に必要な {0} のレベル
+SkillRequiredToBuild:<<{0} skill required??必要な {0} スキル>>
+SkillRequiredToBuildExplanation:作るにはこのレベルの {0} が必要。
 
 NuzzleInterval:<<Nuzzle interval??すり寄りの間隔>>
 NuzzleIntervalExplanation:動物が_{colonist}_にすり寄る平均的な間隔。\n\nすり寄りは、鼻や鼻面を親しい者に押しつけることで愛情を示す、様々な動物が共通に持っている行動。\n大抵の人はコレの可愛さに気付き、しばらく良い_{mood}_になる。
@@ -835,7 +835,7 @@ StatsReport_Inspiration:{0}
 StatsReport_AddedBodyPartsMass:<<Added body parts??追加身体パーツ>>
 StatsReport_StuffEffectMultiplier:<<Material effect multiplier??素材効果乗数>>
 StatsReport_Resting:<<Resting??休憩>>
-StatsReport_JoyKind:<<recreation type??娯楽種別>>
+StatsReport_JoyKind:<<recreation type??娯楽の種類>>
 StatsReport_WorkToUninstall:<<work to uninstall??撤去工数>>
 StatsReport_PlantGrowth:<<Multiplier for growth {0}??成長度による乗数 {0}>>
 StatsReport_PlantGrowth_Wild:<<scaled because wild??野生種による調整済み>>
@@ -843,6 +843,9 @@ StatsReport_NotFlesh:<<Not flesh??肉はでない>>
 StatsReport_NotFresh:<<Not fresh??新鮮ではない>>
 StatsReport_WildMan:<<Wild man??野生人>>
 StatsReport_NonToolAttack:<<Attack??攻撃>>
+;todo:似たような文 -> NeedJoySource,Boredom
+Stat_RecreationType_Desc:娯楽設備ごとに満足する娯楽の種類は異なる。_{colonist}_は同じ娯楽を繰り返すと退屈するので、異なる娯楽を揃えるのが重要になる。
+Stat_JoyKind_AllTypes:<<All recreation types??全ての娯楽の種類>>
 
 Stat_MineableThing_Name:<<Mined item??採掘アイテム>>
 Stat_MineableThing_Desc:採掘で得られるアイテム。
@@ -855,7 +858,7 @@ Stat_Weapon_Desc:この_{turret}_で使われる武器。
 Stat_HitPoints_Desc:壊れるまでに受けられるダメージ量。
 Stat_Thing_WorkToUninstall_Desc:撤去にかかる工数。
 Stat_Thing_CreatedAt_Desc:これを作れる設備。
-Stat_Thing_Damage_Desc:武器が与えるダメージ。\n\n目標の_{armor}_により避けられたり減ったりする。
+Stat_Thing_Damage_Desc:武器が与えるダメージ。\n\n標的の_{armor}_により避けられたり減ったりする。
 Stat_Thing_Drug_MedicineXpGainFactor_Desc:これで患者の看護をしたときに得られる_{doctor}_の経験への乗数。
 Stat_Thing_Plant_Attributes_Desc:この植物の属性。
 Stat_Thing_Apparel_Covers_Desc:これがカバーする部分。\n\n_{armor}_はカバーされていない部分は守らない。
@@ -1151,8 +1154,8 @@ UnderAllowedSkill:許可スキル {0} より低い
 AboveAllowedSkill:許可スキル {0} より高い
 MissingRequiredSkillLevel:必要なスキルレベルが無い
 AnimalInteractedTooRecently:動物への訓練間隔が短い
-NoUsableFood:エサがない
-NoFood:エサがない
+NoUsableFood:食べ物がない
+NoFood:食べ物がない
 FoodBelowTitleRequirements:{0} の要件を下回っている
 AnimalsSkillTooLow:動物スキルが低すぎる - {0} 必要
 CantInteractAnimalDowned:動物は倒れている
@@ -2155,7 +2158,7 @@ LetterTraitDisease:{PAWN_label} が {1} にかかった。\n\n医療用ベッド
 LetterQuestBecameAvailable:新しいクエストが開始可能になった。'{0}' と呼ばれる。
 LetterQuestRequiresAcceptance:{0} 以内に受けないと期限切れになる。
 LetterQuestBecameActive:新しいクエストが進行中になった。'{0}' と呼ばれる。
-LetterQuestAutomaticallyAcceptedTitle:<<Quest active: {0}??クエスト有効: {0}>>
+LetterQuestAutomaticallyAcceptedTitle:<<Quest active: {0}??クエスト進行中: {0}>>
 LetterQuestActiveNowTime:期限切れまで {0}。
 
 LetterLabelQuestDropPodsArrived:<<Pods arrived??_{Pod}_到着>>
@@ -2549,10 +2552,10 @@ NoneLower:<<none??なし>>
 Adulthood:<<Adulthood??成年期>>
 Childhood:<<Childhood??幼年期>>
 Current:<<Current??現在>>
-Male:[[male??男性]]
-Female:[[female??女性]]
-MaleAnimal:[[male??オス]]
-FemaleAnimal:[[female??メス]]
+Male:<<male??男性>>
+Female:<<female??女性>>
+MaleAnimal:<<male??オス>>
+FemaleAnimal:<<female??メス>>
 Pain:<<Pain??痛み>>
 Health:<<Health??健康>>
 Relations:<<Relations??縁故関係>>
@@ -3269,7 +3272,7 @@ Required:<<Required??必要>>
 GiveGiftViaTransportPodsTradeRequestWarning:警告: _[transport pod]_ で取引要求は完了できない。\nモノを送ると、対象の_{settlement}_はそれを贈り物として受け取るが、報酬は貰えない。\n\n取引するなら、キャラバンで行きましょう！\n\n積み荷を贈り物としてこの_{faction}_へ送りますか？
 PrisonerLower:_<prisoner>_
 PrisonersLower:<<prisoners??_{prisoner}_>>
-Complete:<<Complete??完了>>
+;Complete:<<Complete??完了>>
 ClickToViewInQuestsTab:このクエストを_[quests]_タブでみる
 Mood:_{Mood}_
 Quest:_[Quest]_
@@ -3416,8 +3419,8 @@ MentalBreakThresholdMinor:<<Minor break threshold??_{mental break}_(小)閾値>>
 PawnMainDescGendered:{PAWN_gender} {1}
 PawnMainDescFactionedWrap:<<{0} of {1}??{1} の {0}>>
 PawnTitleDescWrap:<<{0} in {1}??{1} の {0}>>
-PawnMainDescUnderFactionedWrap:<<{0} under {1}??{1} 下の {0}>>
-PawnMainDescTempFactionedWrap:<<{0} under {1}\nHome faction: {2}??{1} 下の {0}\nホーム_{faction}_: {2}>>
+PawnMainDescUnderFactionedWrap:<<{0} under {1}??{1} 従属の {0}>>
+PawnMainDescTempFactionedWrap:<<{0} under {1}\nHome faction: {2}??{1} 従属の {0}\n元の_{faction}_: {2}>>
 PawnMainDescLifestageWrap:{2_lifeStageAdjective} {0}
 Faction:_<Faction>_
 FactionDesc:{PAWN_labelShort} が現在所属している_{faction}_。
@@ -3492,7 +3495,7 @@ NoGrowingPeriod:<<Never??なし>>
 GrowYearRound:<<Year-round??一年中>>
 GrowSeasonHereNow:<<Growing season here now.??栽培時期になった。>>
 CannotGrowBadSeasonTemperature:<<Cannot grow (bad seasonal temperature).??成長不可能 (季節の温度が不適合)。>>
-Blighted:[[Blighted??_{blight}_]]
+Blighted:<<Blighted??_{blight}_>>
 DyingBecauseExposedToLight:<<Dying because exposed to light??光に晒されているため、死につつある>>
 
 Zone:<<Zone??ゾーン>>
@@ -3692,14 +3695,14 @@ Reward_Pawn_WalkIn:{0_nameDef} という {0_age} 歳の {0_title} が到着し�
 Reward_Pawn_Caravan:{0_nameDef} という {0_age} 歳の {0_title} が加わる {0_relationInfoInParentheses}
 Reward_Items:次の物資が_[transport pod]_で届く (総額 {1}):\n\n{0}
 Reward_Items_Caravan:次を受け取る (総額 {1}):\n\n{0}
-Reward_Goodwill:{0_name} との_{faction}_関係が {1} 向上する
+Reward_Goodwill:{0_name} との_{faction}_関係が {1} 良くなる
 
 
 BondedWith:<<Bonded to: {0}??絆: {0}>>
 NotBonded:まだ結ばれていない
 BladelinkBondedToSomeoneElse:<<bonded to someone else??他と結ばれている>>
 
-Biocoded:<<biocoded {0}??生体認証 {0}>>
+Biocoded:[[biocoded {0}??生体認証 {0}]]
 CodedFor:<<Biocoding: {0}??生体認証: {0}>>
 BiocodedCodedForSomeoneElse:<<biocoded??生体認証>>
 

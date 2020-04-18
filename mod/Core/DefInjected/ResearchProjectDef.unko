@@ -210,7 +210,7 @@
 	description:簡単な手動操作の銃を作れるようになる。_[Revolver]_、_[Pump shotgun]_、_[Bolt-action rifle]_、_[incendiary launcher]_など。
 }
 {FlakArmor
-	label:<<flak armor??フラック・アーマー>>
+	label:[[flak armor??フラック・アーマー]]
 	description:銃弾や爆発を防ぐように金属_{armor}_を縫い付けた服を作れるようになる。重いので動きか少し遅くなる。
 }
 {Mortars
