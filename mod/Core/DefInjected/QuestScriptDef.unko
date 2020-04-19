@@ -369,6 +369,7 @@
 		{?rulesStrings
 			:questDescription->[faction_leader_nameFull]、 [faction_name] の [faction_leaderTitle]、 がメッセージを送ってきた。[faction_leader_pronoun]は近くで話したがっている。\n\nこの_{faction}_との関係を良くして贈り物を受け取る絶好の機会だが、下手な交渉人は関係を良くするどころか逆に怒らせる事もある。[favorRewardDetails]
 			:favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\n平和交渉を成功させた交渉者は [faction_name] の 個人 [faction_royalFavorLabel] を少し得られる。
+			:favorRewardDetails->
 		}
 	}
 	{root
