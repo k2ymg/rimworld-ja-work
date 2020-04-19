@@ -7,7 +7,7 @@ abrasive:やっかい者
 too smart:破天荒
 brawler:格闘家
 masochist:マゾヒスト
-night owl:夜型人間
+night owl:夜型
 greedy:欲張り
 jealous:嫉妬
 ascetic:禁欲
@@ -30,8 +30,9 @@ quick sleeper:短眠者
 slowpoke:鈍足
 fast walker:せかせか歩き
 jogger:小走り
-chemical fascination:ドラッグ中毒者
-chemical interest:ドラッグ常用者
+;長いとポリシーに入らないので短くする
+chemical fascination:薬物夢中
+chemical interest:薬物関心
 teetotaler:禁酒家
 sanguine:陽気
 optimist:楽天主義者

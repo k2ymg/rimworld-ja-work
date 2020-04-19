@@ -702,10 +702,13 @@ NewDrugPolicy:<<New policy??ポリシーを作る>>
 DeleteDrugPolicy:<<Delete policy...??ポリシーを削除...>>
 DrugPolicyInUse:<<Drugs policy is in use by {0}.??ドラッグのポリシーは {0} が使用している。>>
 FoodRestrictionInUse:<<Food restriction is in use by {0}.??_<food restriction>_は {0} が使用している。>>
-SocialDrugs:<<Social drugs??たしなみ程度>>
-NoDrugs:<<No drugs??ドラッグ不使用>>
+
+; ポリシーに長くて入らないので短くする。といってもこれは初期値なので後で変えられるが。
+SocialDrugs:<<Social drugs??たしなみ>>
+NoDrugs:<<No drugs??不使用>>
 OneDrinkPerDay:<<One drink per day??一日一回>>
 Unrestricted:<<Unrestricted??無制限>>
+
 NoDrugPolicySelected:<<No drug policy selected??ポリシー未選択>>
 AddDrug:<<Add drug...??ドラッグを追加...>>
 DrugColumnLabel:<<Drug??ドラッグ>>
@@ -2270,7 +2273,7 @@ Last300Days:<<Last 300 days??直近の300日>>
 
 AllDays:<<All??すべて>>
 Value:<<Value??値>>
-;todo:未使用？
+;おそらく未使用
 External:External
 
 ShowLetters:<<Show letters??通知を表示>>
@@ -3033,7 +3036,7 @@ MeatInsectDesc:さばいた生肉。必要なら、調理するか、生で食�
 MeatHumanDesc:さばいた生肉。調理するか、生で食べられるが、大抵の人間はこれを良いことだとは思わない。
 
 TechprintLabel:_[techprint]_ ({PROJECT_label})
-TechprintDesc:これは研究プロジェクト '{PROJECT_label}' の _[techprint]_ です。\n_[techprint]_ の物理的な形は図形が描かれた紙くずから、高度な自己完結型教育機械まで様々だが、形状にかかわらず役目は同じだ。研究者にアイデアは実現可能だという自信を与え、より確立された社会で使われるデザインの大まかなアイデアを与える。\n研究者は与えられた技術を何処から開始するべきか知るために_[techprint]_で示される基礎知識を必要としている。_[techprint]_が十分に適用されて初めて、研究者は状況に応じた技術の利用方法を詳しく理解出来るようになる。\n条件を満たしたプロジェクトに_[techprint]_を適用すると、研究進捗を半分まで満たせる。また、たとえ完了した技術でも、_[techprint]_を適用したときに研究者は_{intellectual}_スキルを上げられる。
+TechprintDesc:研究プロジェクト '{PROJECT_label}' の_[techprint]_。\n_[Techprint]_の物理的な形は図形が描かれた紙切れから、高度な自己完結型教育機械まで様々だが、形状にかかわらず役目は同じだ。研究者にアイデアは実現可能だという自信を与え、より確立された社会で使われるデザインの大まかなアイデアを与える。\n研究者は与えられた技術を何処から開始するべきか知るために_[techprint]_で示される基礎知識を必要としている。_[techprint]_が十分に適用されて初めて、研究者は状況に応じた技術の利用方法を詳しく理解出来るようになる。\n条件を満たしたプロジェクトに_[techprint]_を適用すると、研究進捗を半分まで満たせる。また、たとえ完了した技術でも、_[techprint]_を適用したときに研究者は_{intellectual}_スキルを上げられる。
 Unlocks:<<Unlocks??解放>>
 
 CorpseLabel:<<{0} corpse??{0} の死骸>>
@@ -3118,7 +3121,8 @@ Rename:<<Rename??改名>>
 RenameAnimal:<<Rename animal??動物の改名>>
 RenameColonist:<<Rename colonist??_{colonist}_の改名>>
 RenounceTitle:<<Renounce title??_{title}_を放棄>>
-TitleOfFaction:{0} of {1}
+;Renounceで使用。{TITLE}にはまる
+TitleOfFaction:{1} の {0}
 RenounceTitleDescription:これは {PAWN_nameDef} の_{title}_ {TITLE} を失う。_{title}_を放棄しても代わりになるものは何も得られない。\n\nこれは次の影響がある:\n\n{EFFECTS}
 RenounceTitleWillLoosePermits:<<{PAWN_possessive} will lose these permissions??{PAWN_possessive}は次の権限を失う>>
 UnknownLower:<<unknown??不明>>
@@ -3294,7 +3298,7 @@ DormantCompInactive:<<Dormant??休止>>
 DormantCompSealed:<<Sealed??密閉>>
 DormantCompBeacon:<<Ready to drop mechanoids??_{Mechanoid}_降下準備完了>>
 DormantCompExpired:<<Expired??中止>>
-InitiatesIn:<<Initiates in??開始>>
+InitiatesIn:<<Initiates in??開始まであと>>
 SendSignalOnCountdownCompTime:<<Activates in {0}??作動まであと {0}>>
 PsychicEntropy:_<Psychic entropy>_
 PsychicEntropyPainFocus:<<{0} pain focus??痛による集中 {0}>>
