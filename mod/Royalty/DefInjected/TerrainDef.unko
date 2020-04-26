@@ -1,37 +1,35 @@
-﻿@fine_adj:上品な
-
-{CarpetFineBurgundy
-	label:[[fine burgundy carpet??_{fine_adj}_ブルゴーニュ・カーペット]]
+﻿{CarpetFineBurgundy
+	label:[[fine burgundy carpet??_{terrain/fine}_なブルゴーニュ・カーペット]]
 	description:格調高い見た目のための、格調あるブルゴーニュ・カーペット。
 }
 {CarpetFineIndigo
-	label:[[fine indigo carpet??_{fine_adj}_インディゴ・カーペット]]
+	label:[[fine indigo carpet??_{terrain/fine}_なインディゴ・カーペット]]
 	description:贅を見せつけるための、柔らかく滑らかなインディゴ・カーペット。
 }
 {CarpetFineWhite
-	label:[[fine white carpet??_{fine_adj}_ホワイト・カーペット]]
+	label:[[fine white carpet??_{terrain/fine}_なホワイト・カーペット]]
 	description:繊細な模様がきらめく、荘厳なホワイト・カーペット。
 }
 {$FineTileStoneBase
 	description:経済的地位を表すための、妥協の無い、凝った石のタイル。作るのは遅い。
 }
 {FineTileSandstone
-	label:<<fine sandstone tile??_{fine_adj}__{sandstone tile}_>>
+	label:[[fine sandstone tile??_{terrain/fine}_な_{sandstone tile}_]]
 	$:FineTileStoneBase
 }
 {FineTileGranite
-	label:<<fine granite tile??_{fine_adj}__{granite tile}_>>
+	label:[[fine granite tile??_{terrain/fine}_な_{granite tile}_]]
 	$:FineTileStoneBase
 }
 {FineTileLimestone
-	label:<<fine limestone tile??_{fine_adj}__{limestone tile}_>>
+	label:[[fine limestone tile??_{terrain/fine}_な_{limestone tile}_]]
 	$:FineTileStoneBase
 }
 {FineTileSlate
-	label:<<fine slate tile??_{fine_adj}__{slate tile}_>>
+	label:[[fine slate tile??_{terrain/fine}_な_{slate tile}_]]
 	$:FineTileStoneBase
 }
 {FineTileMarble
-	label:<<fine marble tile??_{fine_adj}__{marble tile}_>>
+	label:[[fine marble tile??_{terrain/fine}_な_{marble tile}_]]
 	$:FineTileStoneBase
 }

@@ -37,7 +37,7 @@ RoomRequirementArea:<<room area: {0} tiles??部屋: {0} タイル>>
 RoomRequirementImpressiveness:<<room impressiveness??部屋の印象深さ>>
 RoomRequirementAllFloored:<<all floored??全て床>>
 RoomRequirementAllBraziersMustBeLit:<<all braziers must be lit??全ての _[brazier]_ に点火>>
-RoomRequirementAllFineFloored:<<all fine floored??全て'[[fineな??上品な]]'床>>
+RoomRequirementAllFineFloored:<<all fine floored??全て'_[terrain/fine]_'な床>>
 
 RoyalTitleRequiredApparelStatDescription:この_{title}_の保持者は次の衣服の組み合わせが必要
 

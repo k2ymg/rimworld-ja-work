@@ -176,7 +176,7 @@ DateReadout:<<{0} of {1}, {2}??{2} 年 {1} 節 {0} 日>>
 SeasonFullDate:<<{0} of {1}??{1} 節 {0} 日>>
 WholeYear:<<Whole year??一年中>>
 
-DesignatorCancel:<<Cancel??キャンセル>>
+DesignatorCancel:_<Cancel>_
 DesignatorCancelDesc:建設、採掘、運搬、収穫などの指示を取り消す。
 
 DesignatorCutPlants:<<Cut plants??刈り取り>>
@@ -919,7 +919,7 @@ Stat_Hediff_PreventsInfection_Desc:これが感染を防ぐかどうか。
 Stat_Thing_Terrain_Supports_Desc:この地形がサポートするもの。
 Stat_Thing_TerrainRequirement_Desc:これらの地形にのみ置ける。
 Stat_Thing_Terrain_Fine_Name:<<Considered??配慮>>
-Stat_Thing_Terrain_Fine_Value:<<Fine??上品>>
+Stat_Thing_Terrain_Fine_Value:_[terrain/fine]_
 Stat_Thing_Terrain_Fine_Desc:この床は素晴らしい配慮で、王族に適している。
 Stat_Thing_PowerConsumption_Desc:この建物が電力網から使用する電力量。
 Stat_Thing_BodyPartEfficiency_Desc:この身体部位の全体的な効率。
@@ -1355,7 +1355,7 @@ CommandDesignateTogglePowerDesc:これの電源スイッチを操作するよう
 CommandTryReconnectLabel:<<Reconnect??配線替え>>
 CommandTryReconnectDesc:接続範囲内にある別の電力網に切り替える。これは、停電している電力網に接続されているときに、近くに通電している電力網がある場合に便利。
 
-CommandGatherSpotToggleLabel:<<Gather spot??集合ポイント>>
+CommandGatherSpotToggleLabel:<<Gather spot??集合地点>>
 CommandGatherSpotToggleDescActive:有効 - _{colonist}_はこの周りに集まる。
 CommandGatherSpotToggleDescInactive:無効 - _{colonist}_はこの周りに集まらない。
 
@@ -2131,7 +2131,7 @@ LetterCraftedMasterworkMessage:{WORKER_labelShort} が {CRAFTED_labelShort} を�
 LetterCraftedMasterworkMessageArt:{WORKER_labelShort} が {CRAFTED_labelShort} を作った。\n\n{0}
 
 LetterLabelPawnsLostBecauseMapClosed_Caravan:<<Caravan lost??キャラバン消滅>>
-LetterPawnsLostBecauseMapClosed_Caravan:キャラバンが消えた。次の人々や動物たちも一緒にいなくなった
+LetterPawnsLostBecauseMapClosed_Caravan:キャラバンが消えた。次の人や動物も一緒にいなくなった
 LetterLabelPawnsLostBecauseMapClosed_Home:<<Inhabitants abandoned??見捨てられた住民>>
 LetterPawnsLostBecauseMapClosed_Home:次の人や動物は見捨てられた
 
@@ -2154,6 +2154,7 @@ LetterRescueQuestFinished:助けたので {PAWN_nameDef} が仲間に加わっ�
 LetterLabelPredatorHuntingColonist:<<{PREDATOR_labelShort} hunting {PREY_definite}??{PREDATOR_labelShort} が {PREY_definite} を襲っている>>
 LetterPredatorHuntingColonist:{PREDATOR} が {PREY_definite} を捕食しようとしている！
 
+; {2}にリスト形式がくる。本体の問題
 LetterDisease_Blocked:{0} が {1} を防いだ: {2}。
 LetterLabelTraitDisease:_<Disease>_: {0}
 LetterTraitDisease:{PAWN_label} が {1} にかかった。\n\n医療用ベッドと医者が用意されているか確認する。{PAWN_pronoun}に適切な治療を受けさせ、できる限りベッドで過ごさせる。
@@ -2298,7 +2299,7 @@ Researched:<<Researched??研究済み>>
 Unresearched:<<Unresearched??未研究>>
 Finished:<<Finished??完了>>
 InProgress:<<In Progress??途中>>
-Locked:<<Locked??未解放>>
+Locked:<<Locked??未解除>>
 ResearchPrerequisites:<<Research prerequisites??前提研究>>
 ResearchTechprintRequirement:<<Techprints required {0} / {1}??必要_[techprint]_ {0} / {1}>>
 InsufficientTechprintsApplied:<<Insufficient techprints applied ({0} / {1})??適用済み部分_[techprint]_ ({0} / {1})>>
@@ -3037,7 +3038,7 @@ MeatHumanDesc:さばいた生肉。調理するか、生で食べられるが、
 
 TechprintLabel:_[techprint]_ ({PROJECT_label})
 TechprintDesc:研究プロジェクト '{PROJECT_label}' の_[techprint]_。\n_[Techprint]_の物理的な形は図形が描かれた紙切れから、高度な自己完結型教育機械まで様々だが、形状にかかわらず役目は同じだ。研究者にアイデアは実現可能だという自信を与え、より確立された社会で使われるデザインの大まかなアイデアを与える。\n研究者は与えられた技術を何処から開始するべきか知るために_[techprint]_で示される基礎知識を必要としている。_[techprint]_が十分に適用されて初めて、研究者は状況に応じた技術の利用方法を詳しく理解出来るようになる。\n条件を満たしたプロジェクトに_[techprint]_を適用すると、研究進捗を半分まで満たせる。また、たとえ完了した技術でも、_[techprint]_を適用したときに研究者は_{intellectual}_スキルを上げられる。
-Unlocks:<<Unlocks??解放>>
+Unlocks:<<Unlocks??解除>>
 
 CorpseLabel:<<{0} corpse??{0} の死骸>>
 CorpseDesc:{0} の死骸。

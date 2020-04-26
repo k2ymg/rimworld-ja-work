@@ -3,15 +3,13 @@ function zip_command($src_path, $dst_path)
 {
 	# compress-archive will generate broken archive. do not use.
 	#compress-archive -path $src_path -destinationPath $dst_path
-	pushd $src_path
-	$ret = start-process $zip -argumentlist "a", """$dst_path""", "*" -passthru -wait -nonewwindow
+	$ret = start-process $zip -argumentList "a", """$dst_path""", "*" -passThru -wait -noNewWindow -workingDirectory $src_path
 	if($ret.exitcode -ne 0){
 		write-host "Failed zip: $($ret.exitcode)"
 		write-host "src: $($src_path)"
 		write-host "dst: $($dst_path)"
 		exit
 	}
-	popd
 }
 
 rmdir tmp -recurse -force -errorAction ignore | out-null

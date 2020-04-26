@@ -15,11 +15,11 @@
 }
 {MetalTile
 	label:[[steel tile??鋼鉄製タイル]]
-	description:_?スチール・タイル。?_宇宙船を思わせる鉄のタイル。素晴らしく、滑らかな表面により_<cleanliness>_にボーナスが付く。
+	description:_?スチール・タイル。?_宇宙船を思わせる素敵な鉄のタイル。滑らかな表面により_<cleanliness>_が良くなる。
 }
 {SilverTile
 	label:[[silver tile??銀製タイル]]
-	description:_?シルバー・タイル。?_未来的だが高貴な見た目で、豪華な部屋に最適。_<cleanliness>_にボーナスが付く。
+	description:_?シルバー・タイル。?_未来的だが高貴な見た目で、豪華な部屋に最適。_<cleanliness>_が良くなる。
 }
 {GoldTile
 	label:[[gold tile??金製タイル]]

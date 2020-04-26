@@ -11,19 +11,19 @@
 	label:_[janissary]_
 }
 {Empire_Fighter_Champion
-	label:<<champion??チャンピオン>>
+	label:[[champion??チャンピオン]]
 }
 {Empire_Fighter_Cataphract
 	label:_[cataphract]_
 }
 {Empire_Fighter_StellicGuardRanged
-	label:<<stellic defender??ステリック・ディフェンダー>>
+	label:[[stellic defender??ステリック・ディフェンダー]]
 }
 {Empire_Fighter_StellicGuardMelee
-	label:<<stellic warden??ステリック・ワーデン>>
+	label:[[stellic warden??ステリック・ワーデン]]
 }
 {Empire_Royal_NobleWimp
-	label:<<noble??貴族>>
+	label:[[noble??貴族]]
 }
 {Empire_Royal_Yeoman
 	label:_[yeoman]_

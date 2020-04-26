@@ -741,7 +741,7 @@
 								{nodes
 									{Letter
 										label.slateRef:<<Guest unhappy??_{guest}_ 不幸>>: {SUBJECT_definite}
-										text.slateRef:保護と幸せ請け負った[SUBJECT_definite]の_{mood}_が長い間最小値[lodgersMoodThreshold_percent]を下回った。\n\n[remainingWillNowLeave]
+										text.slateRef:保護と幸せ請け負った{SUBJECT_definite}の_{mood}_が長い間最小値[lodgersMoodThreshold_percent]を下回った。\n\n[remainingWillNowLeave]
 									}
 								}
 							}
@@ -1257,7 +1257,7 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription(askerIsNull==true)->商人が近くから呼びかけている。 [threat] が彼を追っている！彼らに信号を送って [map_definite] に引き寄せれば逃げられると頼んでいる。信号を送ると、 [askerEnemies] は近くにサイトを作って襲撃してくるようになる。[site/allSitePartsDescriptions]このサイトは破壊するまで消えない。\n\n感謝として、商人は次のグッズを _[transport pod]_ で送ってくる (総額 [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]
+			:questDescription(askerIsNull==true)->商人が近くから呼びかけている。 [threat] が彼を追っている！彼らに信号を送って [map_definite] に引き寄せれば逃げられると頼んでいる。信号を送ると、 [askerEnemies] は近くにサイトを作って襲撃してくるようになる。[site/allSitePartsDescriptions]このサイトは破壊するまで消えない。\n\n感謝として、商人は次の物を _[transport pod]_ で送ってくる (総額 [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]
 
 			:questDescription(asker_factionLeader==True)->[asker_nameFull] 、 [asker_faction_name] の [asker_faction_leaderTitle] が助けを頼んでいる。 [askerEnemies] が[asker_possessive]の_[settlement]_を襲撃している。[asker_pronoun]は信号で彼らを [map_definite] に引き寄せて、[asker_possessive]の人々から引き離して欲しがっている。\n\n[asker_pronoun]がやれば、  [askerEnemies] は近くにサイトを作って、ここを襲うようになる。[site/allSitePartsDescriptions]このサイトは破壊するまで消えない。\n\n報酬として、次を含むポッドを受け取る (総額 [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]
 
@@ -1266,14 +1266,14 @@
 			:threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name] の [site/enemyFaction_pawnsPlural]
 			:threat(priority=1,site/MechCluster_exists==True)->_[mechanoid]_
 			:threat(priority=1,site/SleepingMechanoids_exists==True)->_[mechanoid]_
-			:threat->[asker_possessive]の敵
-			:threat(priority=-1)->彼の敵
+			:threat->敵
+			:threat(priority=-1)->敵
 
 			:askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]
 			:askerEnemies(priority=1,site/MechCluster_exists==True)->_[mechanoid]_
 			:askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->_[mechanoid]_
-			:askerEnemies->[asker_possessive]の敵
-			:askerEnemies(priority=-1)->彼の敵
+			:askerEnemies->敵
+			:askerEnemies(priority=-1)->敵
 		}
 	}
 	{root
