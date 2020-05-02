@@ -1462,7 +1462,7 @@
 {CheatedOnMeMood
 	{stages
 		{cheated_on_by
-			label:{<<cheated on by {0}??0} に浮気された>>
+			label:<<cheated on by {0}??0} に浮気された>>
 			description:やってくれたのは誰だ！
 		}
 	}

@@ -191,7 +191,7 @@
 			:style_clause->この作品には[artstyle_adj]様式と[composition]構成がある
 			:style_clause->全体的な構成は[composition]構造になっている
 			:style_clause->[artstyle_adj]様式に[artstyle_adj]要素がある
-			:style_clause->このイメージには何らかの方法で[ConceptAny]とConceptAnyconcept]の両方が表現されている
+			:style_clause->このイメージには何らかの方法で[ConceptAny]と[ConceptAny]の両方が表現されている
 			;これも語順の問題・・・faq
 			:style_clause->イメージは[ConceptAny]と[ConceptAny]を対照させている
 			:style_clause->イメージの[composition]構成は[artstyle_adj]様式と殆どぶつかり合っている
@@ -478,7 +478,7 @@
 	{rulePack
 		{?rulesStrings
 			:result(p=1)->。[targetlist]を[damaged_present]いる
-			:result(p=0.2)->。[targetlist]を[flavortext_consequence][damaged_present]いる
+			:result(p=0.2)->。[targetlist]を[damaged_present]、[flavortext_consequence]
 			:result(p=0.1)->。[strikeAdv][targetlist]を[damaged_present]いる
 
 			:strikeAdv->痛々しく
@@ -2702,14 +2702,14 @@
 			:collapse(SUBJECT_flesh!=Mechanoid)->倒れた
 			:collapse(SUBJECT_flesh==Mechanoid)->壊れた
 			:collapse(SUBJECT_flesh==Mechanoid)->停止した
-			:collapse(SUBJECT_flesh==Mechanoid)->パワーを失った
+			:collapse(SUBJECT_flesh==Mechanoid)->メインパワーを失った
 
 			:collapsed->倒れた
 			:collapsed->崩れ落ちた
 			:collapsed(SUBJECT_flesh!=Mechanoid)->倒れた
 			:collapsed(SUBJECT_flesh==Mechanoid)->壊れた
 			:collapsed(SUBJECT_flesh==Mechanoid)->停止した
-			:collapsed(SUBJECT_flesh==Mechanoid)->パワーを失った
+			:collapsed(SUBJECT_flesh==Mechanoid)->メインパワーを失った
 
 			:helplessly->為す術なく
 			:helplessly(SUBJECT_flesh!=Mechanoid)->気付かぬうちに
@@ -2746,14 +2746,14 @@
 			:die(SUBJECT_flesh!=Mechanoid)->事切れ
 			:die(SUBJECT_flesh==Mechanoid)->シャットダウンし
 			:die(SUBJECT_flesh==Mechanoid)->機能停止し
-			:die(SUBJECT_flesh==Mechanoid)->パワーが切れ
+			:die(SUBJECT_flesh==Mechanoid)->パワーを失っ
 
 			:died(SUBJECT_flesh!=Mechanoid,p=2)->絶命し
 			:died(SUBJECT_flesh!=Mechanoid)->死亡し
 			:died(SUBJECT_flesh!=Mechanoid)->事切れ
 			:died(SUBJECT_flesh==Mechanoid)->シャットダウンし
 			:died(SUBJECT_flesh==Mechanoid)->機能停止し
-			:died(SUBJECT_flesh==Mechanoid)->パワーが切れ
+			:died(SUBJECT_flesh==Mechanoid)->パワーを失っ
 		}
 	}
 }

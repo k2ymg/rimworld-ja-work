@@ -95,10 +95,10 @@
 	label:<<beauty??美しさ>>
 	{scoreStages
 		{hideous
-			label:<<hideous??ひどく醜い>>
+			label:<<hideous??ひどく見苦しい>>
 		}
 		{ugly
-			label:<<ugly??醜い>>
+			label:<<ugly??見苦しい>>
 		}
 		{neutral
 			label:<<neutral??普通>>

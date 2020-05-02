@@ -286,8 +286,8 @@
 	description:_?ハープシコード。?__[smithy]_で作れる、複雑な据え置き型の楽器。奏者は楽器の前に並んだキーを使う。それぞれのキーは内部構造に繋がっている、木製の枠に張られた弦をかき鳴らす。_[harp]_ より複雑に演奏できるが、木製の構造とかき鳴らす仕組みは音量と表現力を押さえている。
 }
 {UnfinishedPiano
-	label:[[unfinished piano??未完の_{piano}_]]
-	description:未完の _[piano]_ 。
+	label:[[unfinished piano??未完成の_{piano}_]]
+	description:未完成の _[piano]_ 。
 }
 {Piano
 	label:_[piano]_

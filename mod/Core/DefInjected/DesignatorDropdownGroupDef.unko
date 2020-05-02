@@ -1,0 +1,21 @@
+﻿{Floor_Carpet
+	label:_[carpet]_
+}
+{Floor_Carpet_Fine
+	label:[[fine carpet??_{terrain/fine}_な_{carpet}_]]
+}
+{Floor_Tile
+	label:[[tile??タイル]]
+}
+{Floor_Tile_Fine
+	label:[[fine tile??_{terrain/fine}_なタイル]]
+}
+{Floor_Tile_Metal
+	label:[[metal tile??金属タイル]]
+}
+{Floor_Flagstone
+	label:_[flagstone]_
+}
+{StandingLampColored
+	label:_[standing lamp]_
+}

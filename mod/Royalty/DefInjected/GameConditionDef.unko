@@ -30,7 +30,7 @@
 	description:_[psychic suppression]_ 場が {0} に影響して、意識を下げている。この影響は個人の _<psychic sensitivity>_ で変化する。
 	descriptionFuture:_[psychic suppression]_ 波が、[gameConditionDuration_duration] の間、 [map_definite] 周辺の全ての[psychicSuppressorGender]の意識を下げる
 	endMessage:_[psychic suppressor]_ 場は消えた。
-	letterText:_[psychic suppressor]_ 場が始まり、この地域に渡って [0} の意識を下げている。この影響は個人の _{psychic sensitivity}_ で変化する。
+	letterText:_[psychic suppressor]_ 場が始まり、この地域に渡って {0} の意識を下げている。この影響は個人の _{psychic sensitivity}_ で変化する。
 }
 {EMIField
 	label:_[EMI field]_

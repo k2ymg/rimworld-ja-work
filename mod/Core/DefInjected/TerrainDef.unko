@@ -31,23 +31,23 @@
 }
 {CarpetRed
 	label:[[red carpet??赤い_{carpet}_]]
-	description:_?レッド・カーペット。?_素敵なバラ色のフラシ天カーペット。
+	description:_?レッド・カーペット。?_素敵なバラ色のフラシ天の_{carpet}_。
 }
 {CarpetGreen
 	label:[[green carpet??緑色の_{carpet}_]]
-	description:_?グリーン・カーペット。?_自然を思わせる、緑色のカーペット。地球っぽいだろ。
+	description:_?グリーン・カーペット。?_自然を思わせる、緑色の_{carpet}_。地球っぽいだろ。
 }
 {CarpetBlue
 	label:[[blue carpet??青い_{carpet}_]]
-	description:_?ブルー・カーペット。?_柔らかで涼しげな青色のフラシ天カーペット。
+	description:_?ブルー・カーペット。?_柔らかで涼しげな青色のフラシ天の_{carpet}_。
 }
 {CarpetCream
 	label:[[cream carpet??クリーム色の_{carpet}_]]
-	description:_?クリーム・カーペット。?_魅惑的なクリーム色のカーペット。
+	description:_?クリーム・カーペット。?_魅惑的なクリーム色の_{carpet}_。
 }
 {CarpetDark
 	label:[[dark carpet??灰色の_{carpet}_]]
-	description:_?ダーク・カーペット。?_落ち着いた、暗い灰色のカーペット。
+	description:_?ダーク・カーペット。?_落ち着いた、暗い灰色の_{carpet}_。
 }
 {BurnedWoodPlankFloor
 	label:[[burned wood floor??燃えた_{wood floor}_]]
@@ -81,26 +81,26 @@
 	$:TileStoneBase
 }
 {$FlagstoneBase
-	description:大雑把に切り出した石のタイル。美しくはないが、屋外の路面に適している。敷石を解体しても何も残らない。
+	description:大雑把に切り出した石のタイル。美しくはないが、屋外の路面に適している。_{flagstone}_を解体しても何も残らない。
 }
 {FlagstoneSandstone
-	label:[[sandstone flagstone??_{sandstone}_の敷石]]
+	label:[[sandstone flagstone??_{sandstone}_の_{flagstone}_]]
 	$:FlagstoneBase
 }
 {FlagstoneGranite
-	label:[[granite flagstone??_{granite}_の敷石]]
+	label:[[granite flagstone??_{granite}_の_{flagstone}_]]
 	$:FlagstoneBase
 }
 {FlagstoneLimestone
-	label:[[limestone flagstone??_{limestone}_敷石]]
+	label:[[limestone flagstone??_{limestone}_の_{flagstone}_]]
 	$:FlagstoneBase
 }
 {FlagstoneSlate
-	label:[[slate flagstone??_{slate}_敷石]]
+	label:[[slate flagstone??_{slate}_の_{flagstone}_]]
 	$:FlagstoneBase
 }
 {FlagstoneMarble
-	label:[[marble flagstone??_{marble}_敷石]]
+	label:[[marble flagstone??_{marble}_の_{flagstone}_]]
 	$:FlagstoneBase
 }
 {Soil

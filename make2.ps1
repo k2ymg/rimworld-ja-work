@@ -435,6 +435,51 @@ if($error_stop){
 }
 
 
+function check_bracket($str)
+{
+	[int]$i = $str.indexOfAny('{}[]')
+	while($i -ge 0){
+		$b0 = $str[$i]
+
+		if($b0 -in '}', ']'){
+			'open-bracket {0}: {1}' -f $b0, $str | write-host
+			return
+		}
+
+		if($b0 -eq '{'){
+			if(($i + 1 -lt $str.length) -and ($str[$i + 1] -eq '{')){
+				$b0 = '{{'
+				$i++
+			}
+		}
+
+		$i = $str.indexOfAny('{}[]', $i + 1)
+		if($i -lt 0){
+			'unclosed bracket {0}: {1}' -f $b0, $str | write-host
+			return
+		}
+
+		$b1 = $str[$i]
+		if($b1 -eq '}'){
+			if(($i + 1 -lt $str.length) -and ($str[$i + 1] -eq '}')){
+				$b1 = '}}'
+				$i++
+			}
+		}
+
+		if(
+			($b0 -eq '{') -and ($b1 -ne '}') -or
+			($b0 -eq '[') -and ($b1 -ne ']') -or
+			($b0 -eq '{{') -and ($b1 -ne '}}')
+		){
+			'unmatched bracket {0} {1}: {2}' -f $b0, $b1, $str | write-host
+			return
+		}
+
+		$i = $str.indexOfAny('{}[]', $i + 1)
+	}
+}
+
 function replace_value($str)
 {
 	#$str#$str.replace('<', '&lt;').replace('>', '&gt;')
@@ -443,6 +488,8 @@ function replace_value($str)
 	}else{
 		$str
 	}
+
+	check_bracket $str
 }
 
 function merge_block($block, $block_parent)

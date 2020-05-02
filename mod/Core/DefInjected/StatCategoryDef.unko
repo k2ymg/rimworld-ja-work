@@ -47,8 +47,8 @@
 	label:<<Surgery??手術>>
 }
 {CapacityEffects
-	;todo:確認
-	label:<<capacity effects??容量効果>>
+	;PawnCapacityDefのこと。ラベルは未使用と思われる。
+	label:<<capacity effects??能力への影響>>
 }
 {PawnCombat
 	label:<<Combat??戦闘>>

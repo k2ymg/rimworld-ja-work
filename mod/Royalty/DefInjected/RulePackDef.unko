@@ -171,21 +171,19 @@
 			:specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural] は優れた戦士だ。
 			:specialSkillsInfo->
 
-			:minMoodInfo(priority=1,lodgersCount==1)->[lodgers0_possessive]の_{mood}_を [lodgersMoodThreshold_percent] 以上に保たねばならない。
-			:minMoodInfo(priority=1,lodgersCount>=2)->[lodgersLabelPlural]の_{mood}_を [lodgersMoodThreshold_percent] 以上に保たねばならない。
+			:minMoodInfo(priority=1)->[asker_nameDef] の_{mood}_を [lodgersMoodThreshold_percent] 以上に保たねばならない。
 			:minMoodInfo->
 
 			:commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]
 
 			:enemyGroupsParagraph->[threatDescriptionParagraph]
 
-			:threatDescriptionParagraph(allowedThreats==Raids,threatCount==1)->おおよそ次の規模の襲撃が [threatCount] 回行われる:\n\n[threatExample]
-			:threatDescriptionParagraph(allowedThreats==Raids,threatCount>1)->おおよそ次の規模の襲撃が [threatCount] 回行われる:\n\n[threatExample]
-			:threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==1)->_[mech cluster]_ が近くに落ちてくる。
-			:threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==2)->2倍の強さの _[mech cluster]_ が近くに落ちてくる。
-			:threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==1,threatFactor==3)->3倍の強さの _[mech cluster]_ が近くに落ちてくる。
-			:threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==2)->2倍の強さの _[mech cluster]_ が二つ近くに落ちてくる。
-			:threatDescriptionParagraph(allowedThreats==MechClusters,threatCount==2,threatFactor==1)->_[mech cluster]_ が二つ近くに落ちてくる。
+			:threatDescriptionParagraph(threatType==Raids,threatCount==1)->おおよそ次の規模の襲撃が [threatCount] 回行われる:\n\n[threatExample]
+			:threatDescriptionParagraph(threatType==Raids,threatCount>1)->おおよそ次の規模の襲撃が [threatCount] 回行われる:\n\n[threatExample]
+			:threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->_[mech cluster]_ が近くに落ちてくる。
+			:threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->_[mech cluster]_ が近くに二つ落ちてくる。
+			:threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->規模が [threatSize] 倍の _[mech cluster]_ が近くに落ちてくる。
+			:threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->規模が [threatSize] 倍の _[mech cluster]_ が近くに二つ落ちてくる。
 
 			:shuttleWillComeParagraph(lodgersCount==1)->[shuttleDelayTicks_duration] 後、シャトルが [lodgers0_nameDef] を引き取りに来る。到着したシャトルに[lodgers0_objective]を乗せれば、[allRewardsDescriptions]
 			:shuttleWillComeParagraph(lodgersCount>=2)->[shuttleDelayTicks_duration] 後、シャトルが [lodgersLabelPlural] を引き取りに来る。到着したシャトルに乗せれば、[allRewardsDescriptions]

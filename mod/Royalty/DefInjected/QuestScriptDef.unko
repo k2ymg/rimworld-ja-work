@@ -6,7 +6,7 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->\n[titleHolder_nameFull] の_{title}_を継承者する [titleHeir_nameFull] を祝福するには、モニュメントを建てないといけない。\n\nモニュメントの大きさは [monumentSize] で、次の材料が必要 (総額[monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n20 日以内にモニュメントを完成させないと儀式を冒涜したと見なされる。 [asker_factionName] との関係は 25 下がり、継承者は変わらない。\n\nモニュメントが完成した後、[keepMonumentTicks_duration]日以内に壊されると、[asker_factionName]との関係は[goodwillChangeIfMonumentDestroyed]下がる。
+			:questDescription->\n[titleHolder_nameFull] の_{title}_を継承する[titleHeir_nameFull]を祝福するには、モニュメントを建てないといけない。\n\nモニュメントの大きさは [monumentSize] で、次の材料が必要 (総額 [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n20 日以内にモニュメントを完成させないと儀式を冒涜したと見なされる。 [asker_factionName] との関係は 25 下がり、継承者は変わらない。\n\nモニュメントが完成した後、[keepMonumentTicks_duration]以内に壊されると、[asker_factionName]との関係は[goodwillChangeIfMonumentDestroyed]下がる。
 		}
 	}
 	{root
@@ -37,7 +37,7 @@
 					{nodes
 						{Letter
 							label.slateRef:<<Designated heir died: {SUBJECT_definite}??継承予定者死亡: {SUBJECT_definite}>>
-							text.slateRef:{SUBJECT_definite] 、_{title}_を継承するはずだった者、は死んだ。
+							text.slateRef:{SUBJECT_definite} 、_{title}_を継承するはずだった者、は死んだ。
 						}
 					}
 				}
@@ -171,17 +171,17 @@
 {BuildMonument_Basic
 	{questDescriptionRules
 		{?rulesStrings
-			:commonEnding->モニュメントの大きさは [monumentSize] で、次の材料が必要 (総額 [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n建設は仕事を受けてから [constructionTimeoutTicks_duration] 日以内に完了させないといけない。完了すると、[allRewardsDescriptions][dontDestroyMonument]
+			:commonEnding->モニュメントの大きさは [monumentSize] で、次の材料が必要 (総額 [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n建設は仕事を受けてから [constructionTimeoutTicks_duration] 以内に完了させないといけない。完了すると、[allRewardsDescriptions][dontDestroyMonument]
 
 			:dontDestroyMonument(priority=-10)->
-			:dontDestroyMonument->\n\nモニュメントの建設後、[keepMonumentTicks_duration]日以内に壊されると、[asker_factionName]との関係は[goodwillChangeIfMonumentDestroyed]下がる。
+			:dontDestroyMonument->\n\nモニュメントの建設後、[keepMonumentTicks_duration]以内に壊されると、[asker_factionName]との関係は[goodwillChangeIfMonumentDestroyed]下がる。
 		}
 	}
 }
 {BuildMonument_TimeProtect
 	{questDescriptionRules
 		{?rulesStrings
-			:commonEnding->モニュメントの大きさは [monumentSize] で、次の材料が必要 (総額 [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n建設は仕事を受けてから [constructionTimeoutTicks_duration] 日以内に完了させないといけない。\n\n完了した後、モニュメントを [haveToProtectForTicks_duration] 間守らないといけない。何か一つでも壊されると、 [asker2] の粛正システムが作動して、[threatDescription]\n\n建設が終わると、[allRewardsDescriptions]
+			:commonEnding->モニュメントの大きさは [monumentSize] で、次の材料が必要 (総額 [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n建設は仕事を受けてから [constructionTimeoutTicks_duration] 以内に完了させないといけない。\n\n完了した後、モニュメントを [haveToProtectForTicks_duration] 間守らないといけない。何か一つでも壊されると、 [asker2] の粛正システムが作動して、[threatDescription]\n\n建設が終わると、[allRewardsDescriptions]
 		}
 	}
 	{root
@@ -568,9 +568,9 @@
 
 			:questDescription(askerIsNull==true,lodgersCount==1)->ある動物保護団体が [lodgers0_nameDef] という [lodgersLabel] を [map_definite] で [shuttleDelayTicks_duration] の間、引き取って欲しがっている。[healthInfo][threatsInfo1]\n\n[commonDescEnding]
 
-			:threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n動物保護活動家が [lodgers0_nameDef] を [enemyFaction_name] が行っていた生け贄の儀式から奪ってきた。そして [enemyFaction_pawnsPlural] が復讐に来ている。 [lodgers0_nameDef] を受け入れると、[enemyGroupsParagraph]
-			:threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]
-			:threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]
+			:threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n動物保護活動家が [lodgers0_nameDef] を [enemyFaction_name] が行っていた生け贄の儀式から奪ってきた。そして [enemyFaction_pawnsPlural] が復讐に来ている。 [lodgers0_nameDef] を受け入れると、[enemyGroupsParagraph]
+			:threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]
+			:threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]
 			:threatsInfo1(generateThreats==false)->
 
 			:questDescription(askerIsNull==true,lodgersCount>=2)->ある動物保護団体が [lodgersCount] 匹の [lodgersLabelPlural] を [map_definite] で [shuttleDelayTicks_duration] の間、引き取って欲しがっている。[healthInfo][threatsInfo2]\n\n[commonDescEnding]
@@ -579,39 +579,39 @@
 			:victim->女
 			:victim->男
 			:victim->[PersonJob]
-			:victim(generateThreats==true,allowedThreats==Raids)->[enemyFaction_name] の [enemyFaction_leaderTitle] の友
+			:victim(generateThreats==true,threatType==Raids)->[enemyFaction_name] の [enemyFaction_leaderTitle] の友
 
-			:threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n残念だが、 [lodgersLabelPlural] は最近ある [victim] の死に関わっていた。そして、 [enemyFaction_name] の [enemyFaction_pawnsPlural] が復讐の儀式のために追いかけている。 [lodgersLabelPlural] を受け入れると、[enemyGroupsParagraph]
-			:threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]
-			:threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]
+			:threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n残念だが、 [lodgersLabelPlural] は最近ある [victim] の死に関わっていた。そして、 [enemyFaction_name] の [enemyFaction_pawnsPlural] が復讐の儀式のために追いかけている。 [lodgersLabelPlural] を受け入れると、[enemyGroupsParagraph]
+			:threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]
+			:threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]
 			:threatsInfo2(generateThreats==false)->
 
 			:questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull] 、 [asker_faction_name] の [asker_faction_leaderTitle] が ペットの [lodgersLabel] [lodgers0_nameDef] を [shuttleDelayTicks_duration] 間、引き取ってくれる安全な_{settlement}_を探している。[healthInfo][threatsInfo3]\n\n[commonDescEnding]
 
-			:threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_name] の [enemyFaction_pawnsPlural] が [asker_nameDef] に近づくために、可哀想な [lodgers0_nameDef] を殺そうとしている。 [lodgers0_nameDef] を受け入れると、[enemyGroupsParagraph]
-			:threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]
-			:threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]
+			:threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_name] の [enemyFaction_pawnsPlural] が [asker_nameDef] に近づくために、可哀想な [lodgers0_nameDef] を殺そうとしている。 [lodgers0_nameDef] を受け入れると、[enemyGroupsParagraph]
+			:threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]
+			:threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]
 			:threatsInfo3(generateThreats==false)->
 
 			:questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull] 、 [asker_faction_name] の [asker_faction_leaderTitle] が依頼してきた。[asker_pronoun]は [lodgersCount] 匹の [lodgersLabelPlural] を [map_definite] で [shuttleDelayTicks_duration] 間、引き取って欲しがっている。[healthInfo][threatsInfo4]\n\n[commonDescEnding]
 
-			:threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgersLabelPlural] は [asker_nameDef] が重要な取引約束を果たすために必要だった。争いを起こすために、 [enemyFaction_name] が [enemyFaction_pawnsPlural] を彼らへ送った。 [lodgersLabelPlural] を受け入れると、[enemyGroupsParagraph]
-			:threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]
-			:threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]
+			:threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgersLabelPlural] は [asker_nameDef] が重要な取引約束を果たすために必要だった。争いを起こすために、 [enemyFaction_name] が [enemyFaction_pawnsPlural] を彼らへ送った。 [lodgersLabelPlural] を受け入れると、[enemyGroupsParagraph]
+			:threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]
+			:threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]
 			:threatsInfo4(generateThreats==false)->
 
 			:questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull] 、 [asker_faction_name] の [asker_royalTitleInCurrentFaction] が依頼してきた。[asker_pronoun]はお気に入りのペット 、 [lodgersLabel] の [lodgers0_nameDef] 、を [map_definite] で [shuttleDelayTicks_duration] 間引き取って欲しがっている。[healthInfo][threatsInfo5]\n\n[commonDescEnding]
 
-			:threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] は [asker_nameDef] の子供の結婚式の贈り物にする約束だった。結婚を邪魔するため、 [enemyFaction_name] が [enemyFaction_pawnsPlural] を彼らへ送り出した。 [lodgers0_nameDef] を受け入れると、[enemyGroupsParagraph]
-			:threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]
-			:threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]
+			:threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] は [asker_nameDef] の子供の結婚式の贈り物にする約束だった。結婚を邪魔するため、 [enemyFaction_name] が [enemyFaction_pawnsPlural] を彼らへ送り出した。 [lodgers0_nameDef] を受け入れると、[enemyGroupsParagraph]
+			:threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]
+			:threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]
 			:threatsInfo5(generateThreats==false)->
 
 			:questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull] 、 [asker_faction_name] の [asker_royalTitleInCurrentFaction] が依頼してきた。[asker_pronoun]は [lodgersCount] 匹の [lodgersLabelPlural] を [map_definite] で [shuttleDelayTicks_duration] 間引き取って欲しがっている。 [lodgersLabelPlural] は [asker_nameDef] のお気に入りのペットで、宮廷の外の世界を見せてあげたがっている。[healthInfo][threatsInfo6]\n\n[commonDescEnding]
 
-			:threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n残念だが、[enemyFaction_name] は [asker_nameDef] を個人的に痛めつけるために [lodgersLabelPlural] を追っている。 [lodgersLabelPlural] を受け入れると、[enemyGroupsParagraph]
-			:threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]
-			:threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]
+			:threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n残念だが、[enemyFaction_name] は [asker_nameDef] を個人的に痛めつけるために [lodgersLabelPlural] を追っている。 [lodgersLabelPlural] を受け入れると、[enemyGroupsParagraph]
+			:threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]
+			:threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]
 			:threatsInfo6(generateThreats==false)->
 
 			:letterSubject(priority=1)->{SUBJECT_definite} [lodgersLabel]
@@ -670,9 +670,9 @@
 
 			:questDescription(askerIsNull==true,lodgersCount==1)->[lodgers0_nameFull]という[lodgers0_title]が[map_definite]で[shuttleDelayTicks_duration]間、守って欲しがっている。
 
-			:threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef]は最近[wrongAct]捕まった。[lodgers0_pronoun]がここに居る限り、復讐のため、[enemyFaction_pawnsPlural]がやってくる。[enemyGroupsParagraph]
-			:threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]
-			:threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]
+			:threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef]は最近[wrongAct]捕まった。[lodgers0_pronoun]がここに居る限り、復讐のため、[enemyFaction_pawnsPlural]がやってくる。[enemyGroupsParagraph]
+			:threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]
+			:threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]
 			:threatsInfo1(generateThreats==false)->
 
 			:wrongAct->[enemyFaction_leader_nameDef]、[enemyFaction_name]の[enemyFaction_leaderTitle]、の[PersonalCharacteristic]を屈辱して
@@ -683,29 +683,29 @@
 
 			:questDescription(askerIsNull==true,lodgersCount>=2)->[lodgersCount]人の旅人が[map_definite]に[shuttleDelayTicks_duration]間、世話になりたがっている。[allLodgerInfo][threatsInfo2]\n\n[commonDescEnding] [joinerEnding]
 
-			:threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n旅人達は最近[enemyFaction_name]の重要な儀式に招かれていたが、酔っ払って登場して儀式を冒涜した。
-			:threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiHuman] [enemyGroupsParagraph]
-			:threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n旅人達は最近[mechViolation]、軌道_[mechanoid]_群に狙われるようになった。 [enemyGroupsParagraph]
+			:threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n旅人達は最近[enemyFaction_name]の重要な儀式に招かれていたが、酔っ払って登場して儀式を冒涜した。
+			:threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiHuman] [enemyGroupsParagraph]
+			:threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n旅人達は最近[mechViolation]、軌道_[mechanoid]_群に狙われるようになった。 [enemyGroupsParagraph]
 			:threatsInfo2(generateThreats==false)->
 
 			:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が頼み事をしている。[asker_possessive]の友達[lodgers0_nameFull]が他の文化を学びたいと思っている。[asker_nameDef]は[map_definite]で[shuttleDelayTicks_duration]間、[lodgers0_nameDef]を世話して欲しがっている。[allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]
 
-			:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が[enemyFaction_leader_nameFull]の[PersonalCharacteristic]について汚い悪口を書いていたので捕まった。[asker_nameDef]が[enemyFaction_name]との関係を丸く収めるまで、[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\n[enemyFaction_leader_nameDef]は[enemyFaction_name]の[enemyFaction_leaderTitle]なので、[enemyFaction_leader_pronoun]は無礼な[lodgers0_nameDef]へ[enemyFaction_pawnsPlural]の一団を送り出した。[enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]
+			:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が[enemyFaction_leader_nameFull]の[PersonalCharacteristic]について汚い悪口を書いていたので捕まった。[asker_nameDef]が[enemyFaction_name]との関係を丸く収めるまで、[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\n[enemyFaction_leader_nameDef]は[enemyFaction_name]の[enemyFaction_leaderTitle]なので、[enemyFaction_leader_pronoun]は無礼な[lodgers0_nameDef]へ[enemyFaction_pawnsPlural]の一団を送り出した。[enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]
 
 			; sooth?
-:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が最近[mechViolation]。[asker_nameDef]が_[mechanoid hive]_を(x)するまで、[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\n_[Mechanoid]_が[lodgers0_nameDef]を追いかけてくる。 [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]
+:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が最近[mechViolation]。[asker_nameDef]が_[mechanoid hive]_を(x)するまで、[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\n_[Mechanoid]_が[lodgers0_nameDef]を追いかけてくる。 [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]
 			;[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is requesting a favor. [asker_possessive] friend, a [lodgers0_age]-year-old [lodgers0_title] named [lodgers0_nameDef], recently [mechViolation]. [asker_nameDef] is asking for you to guard [lodgers0_nameDef] for [shuttleDelayTicks_duration], until [asker_pronoun] can sooth the mechanoid hive. [allLodgerInfo]\n\nMechanoids will come to hunt the violator [lodgers0_nameDef]. [enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]
 
-			:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,allowedThreats==MechClusters)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が最近[mechViolation]。[asker_nameDef]は[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。[lodgers0_nameDef]が居る限り、_[Mechanoid]_クラスターがやってくる。[allLodgerInfo][threatsInfo1] [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]
+			:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==MechClusters)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が最近[mechViolation]。[asker_nameDef]は[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。[lodgers0_nameDef]が居る限り、_[Mechanoid]_クラスターがやってくる。[allLodgerInfo][threatsInfo1] [allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]
 
 			:questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が最近[lodgersCount]人の[asker_faction_pawnsPlural]を敵の監獄から救い出した。[asker_nameDef]が彼らを乗せるシャトルを送るまで、[map_definite]で[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\n[commonDescEnding] [joinerEnding]
 
-			:questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が最近[lodgersCount]人の[asker_faction_pawnsPlural]を[enemyFaction_name]の牢屋から救い出した。[asker_nameDef]が彼らを乗せるシャトルを送るまで、[map_definite]で[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\n[asker_faction_pawnsPlural]は[enemyFaction_name]の[secretInfo]についての秘密を知っているので、彼らが追ってくる。[enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]
+			:questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が最近[lodgersCount]人の[asker_faction_pawnsPlural]を[enemyFaction_name]の牢屋から救い出した。[asker_nameDef]が彼らを乗せるシャトルを送るまで、[map_definite]で[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\n[asker_faction_pawnsPlural]は[enemyFaction_name]の[secretInfo]についての秘密を知っているので、彼らが追ってくる。[enemyGroupsParagraph]\n\n[commonDescEnding] [joinerEnding]
 
-			:questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が最近[lodgersCount]人の[asker_faction_pawnsPlural]を_[cryptosleep]_墓所から救い出した。[asker_nameDef]が彼らを乗せるシャトルを送るまで、[map_definite]で[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\n[asker_faction_pawnsPlural]は_[mechanoid]_に追われるようになる。
+			:questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が最近[lodgersCount]人の[asker_faction_pawnsPlural]を_[cryptosleep]_墓所から救い出した。[asker_nameDef]が彼らを乗せるシャトルを送るまで、[map_definite]で[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\n[asker_faction_pawnsPlural]は_[mechanoid]_に追われるようになる。
 
 			; holding pen = 囲い
-			:questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,allowedThreats==MechClusters)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が最近[lodgersCount]人の[asker_faction_pawnsPlural]を_[mechanoid hive]_の檻から助け出した。[asker_nameDef]が彼らを乗せるシャトルを送るまで、[map_definite]で[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\nメカは元_{prisoner}_を追跡している。\n\n[commonDescEnding] [joinerEnding]
+			:questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==MechClusters)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が最近[lodgersCount]人の[asker_faction_pawnsPlural]を_[mechanoid hive]_の檻から助け出した。[asker_nameDef]が彼らを乗せるシャトルを送るまで、[map_definite]で[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo]\n\nメカは元_{prisoner}_を追跡している。\n\n[commonDescEnding] [joinerEnding]
 
 			:secretInfo->軍事能力
 			:secretInfo->道徳上の罪
@@ -715,16 +715,16 @@
 
 			:questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull]、[asker_faction_name]の[asker_royalTitleInCurrentFaction]が面倒な政治的な状況から逃れて、[map_definite]に[shuttleDelayTicks_duration]間、隠れたがっている。[allLodgerInfo][threatsInfo5]\n\n[commonDescEnding] [joinerEnding]
 
-			:threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef]の敵が[asker_objective]を追うために[enemyFaction_name]を雇った。[asker_nameDef]が居る限り攻撃してくる。[enemyGroupsParagraph]
-			:threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]の敵が扇動した_[mechanoid]_に[asker_objective]を追わせた。[asker_nameDef]が居る限り攻撃してくる。[enemyGroupsParagraph]
-			:threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[asker_nameDef]の敵がどうやったのか扇動した_[mechanoid]_に[asker_objective]を追わせた。 [enemyGroupsParagraph]
+			:threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef]の敵が[asker_objective]を追うために[enemyFaction_name]を雇った。[asker_nameDef]が居る限り攻撃してくる。[enemyGroupsParagraph]
+			:threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]の敵が扇動した_[mechanoid]_に[asker_objective]を追わせた。[asker_nameDef]が居る限り攻撃してくる。[enemyGroupsParagraph]
+			:threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef]の敵がどうやったのか扇動した_[mechanoid]_に[asker_objective]を追わせた。 [enemyGroupsParagraph]
 			:threatsInfo5(generateThreats==false)->
 
 			:questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull]、[asker_faction_name]の[asker_royalTitleInCurrentFaction]が[lodgersCountMinusOne]人の宮廷[allyAllies]と[map_definite]に[shuttleDelayTicks_duration]間、留まりたがっている。[allLodgerInfo][threatsInfo6]\n\n[commonDescEnding] [joinerEnding]
 
-			:threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef]と[asker_possessive]の[allyAllies]は死の標的にされており、宮廷を清めるまで、安全な場所を必要としている。しかし、[asker_nameDef]の敵が[asker_objective]を追うために[enemyFaction_name]を雇った。[enemyGroupsParagraph]
-			:threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]と[asker_possessive]の[allyAllies]は死の標的にされており、宮廷を清めるまで、安全な場所を必要としている。しかし、[asker_nameDef]の敵が[asker_objective]を追うために[enemyFaction_name]を扇動した。[enemyGroupsParagraph]
-			:threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[asker_nameDef]と[asker_possessive]の[allyAllies]は死の標的にされており、宮廷を清めるまで、安全な場所を必要としている。しかし、[asker_nameDef]の敵が[asker_objective]を追うためにどうやってか_[mechanoid]_を扇動した。 [enemyGroupsParagraph]
+			:threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef]と[asker_possessive]の[allyAllies]は死の標的にされており、宮廷を清めるまで、安全な場所を必要としている。しかし、[asker_nameDef]の敵が[asker_objective]を追うために[enemyFaction_name]を雇った。[enemyGroupsParagraph]
+			:threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]と[asker_possessive]の[allyAllies]は死の標的にされており、宮廷を清めるまで、安全な場所を必要としている。しかし、[asker_nameDef]の敵が[asker_objective]を追うために[enemyFaction_name]を扇動した。[enemyGroupsParagraph]
+			:threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[asker_nameDef]と[asker_possessive]の[allyAllies]は死の標的にされており、宮廷を清めるまで、安全な場所を必要としている。しかし、[asker_nameDef]の敵が[asker_objective]を追うためにどうやってか_[mechanoid]_を扇動した。 [enemyGroupsParagraph]
 			:threatsInfo6(generateThreats==false)->
 
 			:allyAllies(lodgersCountMinusOne==1)->仲間
@@ -782,46 +782,46 @@
 		{?rulesStrings
 			:questDescription(askerIsNull==true,lodgersCount==1)->ある軌道船の船長が[lodgers0_nameFull]という_{prisoner}_を[map_definite]で[shuttleDelayTicks_duration]間護衛して欲しがっている。[allLodgerInfo][threatsInfo1]\n\n[commonDescEnding]
 
-			:threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef]は最近、[enemyFaction_leader_nameFull]、[enemyFaction_name]の[enemyFaction_leaderTitle]、が最も愛する子供に唾を吐いた。[enemyFaction_leader_nameDef]は[lodgers0_objective]を保護する人に復讐するため[enemyFaction_pawnsPlural]を送り出した。
-			:threatsInfo1(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]
-			:threatsInfo1(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]
+			:threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef]は最近、[enemyFaction_leader_nameFull]、[enemyFaction_name]の[enemyFaction_leaderTitle]、が最も愛する子供に唾を吐いた。[enemyFaction_leader_nameDef]は[lodgers0_objective]を保護する人に復讐するため[enemyFaction_pawnsPlural]を送り出した。
+			:threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]
+			:threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]
 			:threatsInfo1(generateThreats==false)->
 
 			:questDescription(askerIsNull==true,lodgersCount>=2)->ある軌道船の船長が[lodgersCount]人の_{prisoner}_を[map_definite]で[shuttleDelayTicks_duration]間保護して欲しがっている。[allLodgerInfo][threatsInfo2]\n\n[commonDescEnding]
 
-			:threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n_{prisoner}_達は[enemyFaction_name]の[enemyFaction_pawnsPlural]に対する一連の殺人に関わっており、犠牲者の家族が復讐するため襲撃者を送り出す。[enemyGroupsParagraph]
-			:threatsInfo2(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n_{prisoner}_達は最近[mechViolation]、_[mechanoid hive]_に狙われるようになった。[enemyGroupsParagraph]
-			:threatsInfo2(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]
+			:threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n_{prisoner}_達は[enemyFaction_name]の[enemyFaction_pawnsPlural]に対する一連の殺人に関わっており、犠牲者の家族が復讐するため襲撃者を送り出す。[enemyGroupsParagraph]
+			:threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n_{prisoner}_達は最近[mechViolation]、_[mechanoid hive]_に狙われるようになった。[enemyGroupsParagraph]
+			:threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]
 			:threatsInfo2(generateThreats==false)->
 
 			:questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が特別な_{prisoner}_をかくまって欲しがっている。この_{prisoner}_は、[lodgers0_nameFull]という[lodgers0_age]歳の[lodgers0_title]で、[asker_nameDef]の[PersonalCharacteristic]に関する気まずい情報を知っており、[asker_nameDef]は[lodgers0_objective]を自由にさせたくない。不祥事が過ぎ去るまでの[shuttleDelayTicks_duration]間だけ_{prisoner}_を留めれば良い。[allLodgerInfo][threatsInfo3]\n\n[commonDescEnding]
 
-			:threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n不運なことに、[enemyFaction_name]が恥ずかしい話を広めたがっており、[lodgers0_nameDef]を解放するために襲撃者を送ってきた。[enemyGroupsParagraph]
-			:threatsInfo3(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]
-			:threatsInfo3(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]
+			:threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n不運なことに、[enemyFaction_name]が恥ずかしい話を広めたがっており、[lodgers0_nameDef]を解放するために襲撃者を送ってきた。[enemyGroupsParagraph]
+			:threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]
+			:threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]
 			:threatsInfo3(generateThreats==false)->
 
 			:questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull]、[asker_faction_name]の[asker_faction_leaderTitle]が[lodgersCount]人の_{prisoner}_を敵_{faction}_から捕まえた。置き場所がないので、[asker_nameDef]の牢獄が準備できるまで、[shuttleDelayTicks_duration]間監視して欲しがっている。[allLodgerInfo][threatsInfo4]\n\n[commonDescEnding]
 
-			:threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n_{prisoner}_達は[enemyFaction_name]と救出契約を結んでいたので、[enemyFaction_pawnsPlural]を送り出す。[enemyGroupsParagraph]
-			:threatsInfo4(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]の敵は_{prisoner}_達を追うために扇動した_[mechanoid hive]_を持っていたので、_[mechanoid]_の攻撃グループを送り出す。
-			:threatsInfo4(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]
+			:threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n_{prisoner}_達は[enemyFaction_name]と救出契約を結んでいたので、[enemyFaction_pawnsPlural]を送り出す。[enemyGroupsParagraph]
+			:threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef]の敵は_{prisoner}_達を追うために扇動した_[mechanoid hive]_を持っていたので、_[mechanoid]_の攻撃グループを送り出す。
+			:threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]
 			:threatsInfo4(generateThreats==false)->
 
 			:questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull]、[asker_faction_name]の[asker_royalTitleInCurrentFaction]が良くない人物と一緒にベッドで捕まった。[asker_pronoun]は不適切な恋人を拒絶して投獄した。[asker_pronoun]は不祥事が消え去るまでの[shuttleDelayTicks_duration]間、_{prisoner}_ [lodgers0_nameFull]を閉じ込めて欲しがっている。[allLodgerInfo][threatsInfo5]\n\n[commonDescEnding]
 
-			:threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n不運なことに、[asker_nameDef]の宮廷のライバル達は[enemyFaction_name]に恋人の脱獄を依頼して、話をばらそうとしている。
-			:threatsInfo5(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n不運なことに、[asker_nameDef]の宮廷のライバル達は[enemyFaction_name]の扇動された_[mechanoid]_攻撃隊で恋人を脱獄させて、話をばらまこうとしている。
-			:threatsInfo5(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]
+			:threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n不運なことに、[asker_nameDef]の宮廷のライバル達は[enemyFaction_name]に恋人の脱獄を依頼して、話をばらそうとしている。
+			:threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n不運なことに、[asker_nameDef]の宮廷のライバル達は[enemyFaction_name]の扇動された_[mechanoid]_攻撃隊で恋人を脱獄させて、話をばらまこうとしている。
+			:threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]
 			:threatsInfo5(generateThreats==false)->
 
 			; royal archaeologists
 			:questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull]、[asker_faction_name]の[asker_royalTitleInCurrentFaction]が助けを求めている。[asker_nameDef]の考古学者が最近[lodgersCount]人の_{prisoner}_を古代の_[cryptosleep]_墓所から出して、尋問しようとしている。_{prisoner}_の秘密を宮廷のライバル達から守るため、[asker_nameDef]は[shuttleDelayTicks_duration]間、彼らを確保して欲しがっている。
 			;[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], seeks your help. [asker_nameDef]'s royal archaeologists recently extracted [lodgersCount] prisoners from an ancient cryptosleep vault, and intend to question them. To keep the prisoners secret from court rivals, [asker_nameDef] wants you to hold them for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6]\n\n[commonDescEnding]
 
-			:threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction!=Mechanoid)->\n\n不運なことに、_{prisoner}_が出された墓所は[enemyFaction_name]の[enemyFaction_pawnsPlural]が崇めていた。彼らは_{prisoner}_を確保している人に復讐するために襲撃者を送り出す。[enemyGroupsParagraph]
-			:threatsInfo6(generateThreats==true,allowedThreats==Raids,enemyFaction==Mechanoid)->\n\n不運なことに、_{prisoner}_が出された墓所は[enemyFaction_name]の[enemyFaction_pawnsPlural]が守っていた。彼らは奪われた睡眠者を追うために_[mechanoid]_を送り出す。
-			:threatsInfo6(generateThreats==true,allowedThreats==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]
+			:threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n不運なことに、_{prisoner}_が出された墓所は[enemyFaction_name]の[enemyFaction_pawnsPlural]が崇めていた。彼らは_{prisoner}_を確保している人に復讐するために襲撃者を送り出す。[enemyGroupsParagraph]
+			:threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n不運なことに、_{prisoner}_が出された墓所は[enemyFaction_name]の[enemyFaction_pawnsPlural]が守っていた。彼らは奪われた睡眠者を追うために_[mechanoid]_を送り出す。
+			:threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]
 			:threatsInfo6(generateThreats==false)->
 		}
 	}
@@ -1204,9 +1204,9 @@
 
 			:infestationArrivalLetterText(asker_factionLeader==True)->元は近くにある [asker_faction_name] の [asker_nameFull] のサイトにあった巣。
 
-			:questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull] 、[asker_faction_name] の [asker_royalTitleInCurrentFaction] が余興目的で虫との戦いを見たがっている。[asker_pronoun]は [map_definite] にフェロモンを落として [hivesCount] 個の巣の侵入を引き起こす許可を求めている。[asker_pronoun]は高高度のドローンから見る。\n\n返礼として、次を含む資源ポッドを送ると提案している (総額 [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph][allRewardsDescriptionsExceptItems]
+			:questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull] 、[asker_faction_name] の [asker_royalTitleInCurrentFaction] が余興目的で虫との戦いを見たがっている。[asker_pronoun]は [map_definite] にフェロモンを落として [hivesCount] 個の巣の侵入を引き起こす許可を求めている。[asker_pronoun]は高高度のドローンから観察する。\n\n返礼として、次を含む資源ポッドを送ると提案している (総額 [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph][allRewardsDescriptionsExceptItems]
 
-			:infestationArrivalLetterText(asker_royalInCurrentFaction==True)->侵入は [asker_nameFull] 、 [asker_faction_name] の [asker_royalTitleInCurrentFaction] が余興のために引き起こした、 
+			:infestationArrivalLetterText(asker_royalInCurrentFaction==True)->侵入は [asker_nameFull] 、 [asker_faction_name] の [asker_royalTitleInCurrentFaction] が余興のために引き起こした。
 		}
 	}
 	;{root

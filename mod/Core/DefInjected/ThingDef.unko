@@ -1026,8 +1026,8 @@
 	{comps
 		{CompRefuelable
 			fuelLabel:<<Shots until rearm??砲身交換までの発射数>>
-			fuelGizmoLabel:<<Barrel durability??砲身耐久度>>
-			outOfFuelMessage:発射不能: 新しい砲身が必要
+			fuelGizmoLabel:<<Uranium slugs??_{uranium slug}_>>
+			outOfFuelMessage:発射不能: スラッグ無し
 		}
 	}
 }
@@ -1627,12 +1627,12 @@
 	$:UnfinishedBase
 }
 {UnfinishedHealthItemProsthetic
-	label:<<unfinished prosthetic??未完成の補綴>>
+	label:[[unfinished prosthetic??未完成の補綴]]
     description:未完成の補綴。
 	$:UnfinishedBase
 }
 {UnfinishedHealthItemBionic
-	label:<<unfinished bionic??未完成のバイオニック>>
+	label:[[unfinished bionic??未完成のバイオニック]]
 	description:未完成のバイオニック。
 	$:UnfinishedBase
 }

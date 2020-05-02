@@ -1,176 +1,176 @@
 ﻿{Make_Wort
-	label:_[wort]_ を作る
+	label:<<make wort??_[wort]_ を作る>>
 	description:_[Hop]_ から _[Wort]_ を作る。
 	jobString:<<Making wort.??_[Wort]_ を作っている。>>
 }
 {ExciseCarcinoma
-	label:<<excise carcinoma??腫瘍切除>>
+	label:<<excise carcinoma??腫瘍を切除>>
 	description:腫瘍を切除する。
 	jobString:<<Excising carcinoma.??腫瘍を切除している。>>
 	successfullyRemovedHediffMessage:{0} は {1} の腫瘍の切除に成功した。
 }
 {InstallArchotechEye
-	label:<<install archotech eye??_[archotech eye]_ 移植>>
-	description:_[Archotech eye]_ を移植する。
-	jobString:<<Installing archotech eye.??_[Archotech eye]_ を移植している。>>
+	label:<<install archotech eye??_[archotech eye]_ を付ける>>
+	description:_[Archotech eye]_ を付ける。
+	jobString:<<Installing archotech eye.??_[Archotech eye]_ を付けるている。>>
 }
 {InstallArchotechArm
-	label:<<install archotech arm??_[archotech arm]_ 移植>>
-	description:_[Archotech arm]_ を移植する。
-	jobString:<<Installing archotech arm.??_[Archotech arm]_ を移植している。>>
+	label:<<install archotech arm??_[archotech arm]_ を付ける>>
+	description:_[Archotech arm]_ を付ける。
+	jobString:<<Installing archotech arm.??_[Archotech arm]_ を付けるている。>>
 }
 {InstallArchotechLeg
-	label:<<install archotech leg??_[archotech leg]_ 移植>>
-	description:_[Archotech leg]_ を移植する。
-	jobString:<<Installing archotech leg.??_[Archotech leg]_ を移植している。>>
+	label:<<install archotech leg??_[archotech leg]_ を付ける>>
+	description:_[Archotech leg]_ を付ける。
+	jobString:<<Installing archotech leg.??_[Archotech leg]_ を付けるている。>>
 }
 {InstallBionicEye
-	label:<<install bionic eye??_[bionic eye]_ 移植>>
-	description:_[Bionic eye]_ を移植する。
-	jobString:<<Installing bionic eye.??_[Bionic eye]_ を移植している。>>
+	label:<<install bionic eye??_[bionic eye]_ を付ける>>
+	description:_[Bionic eye]_ を付ける。
+	jobString:<<Installing bionic eye.??_[Bionic eye]_ を付けるている。>>
 }
 {InstallBionicArm
-	label:<<install bionic arm??_[bionic arm]_ 移植>>
-	description:_[Bionic arm]_ を移植する。
-	jobString:<<Installing bionic arm.??_[Bionic arm]_ を移植している。>>
+	label:<<install bionic arm??_[bionic arm]_ を付ける>>
+	description:_[Bionic arm]_ を付ける。
+	jobString:<<Installing bionic arm.??_[Bionic arm]_ を付けるている。>>
 }
 {InstallBionicLeg
-	label:<<install bionic leg??_[bionic leg]_ 移植>>
-	description:_[Bionic leg]_ を移植する。
-	jobString:<<Installing bionic leg.??_[Bionic leg]_ を移植している。>>
+	label:<<install bionic leg??_[bionic leg]_ を付ける>>
+	description:_[Bionic leg]_ を付ける。
+	jobString:<<Installing bionic leg.??_[Bionic leg]_ を付けるている。>>
 }
 {InstallBionicSpine
-	label:<<install bionic spine??_[bionic spine]_ 移植>>
-	description:_[Bionic spine]_ を移植する。
-	jobString:<<Installing bionic spine.??_[Bionic spine]_ を移植している。>>
+	label:<<install bionic spine??_[bionic spine]_ を付ける>>
+	description:_[Bionic spine]_ を付ける。
+	jobString:<<Installing bionic spine.??_[Bionic spine]_ を付けるている。>>
 }
 {InstallBionicHeart
-	label:<<install bionic heart??_[bionic heart]_ 移植>>
-	description:_[Bionic heart]_ を移植する。
-	jobString:<<Installing bionic heart.??_[Bionic heart]_ を移植している。>>
+	label:<<install bionic heart??_[bionic heart]_ を付ける>>
+	description:_[Bionic heart]_ を付ける。
+	jobString:<<Installing bionic heart.??_[Bionic heart]_ を付けるている。>>
 }
 {InstallBionicStomach
-	label:<<install bionic stomach??_[bionic stomach]_ 移植>>
-	description:_[Bionic stomach]_ を移植する。
-	jobString:<<Installing bionic stomach.??_[Bionic stomach]_ を移植している。>>
+	label:<<install bionic stomach??_[bionic stomach]_ を付ける>>
+	description:_[Bionic stomach]_ を付ける。
+	jobString:<<Installing bionic stomach.??_[Bionic stomach]_ を付けるている。>>
 }
 {InstallDeathAcidifier
 	label:<<install death acidifier??_[death acidifier]_ を付ける>>
 	description:_[death acidifier]_を付ける。
-	jobString:<<Installing death acidifier.??_[death acidifier]_ を付けている。>>
+	jobString:<<Installing death acidifier.??_[death acidifier]_ を付けるている。>>
 }
 {InstallBionicEar
-	label:<<install bionic ear??_[bionic ear]_ 移植>>
-	description:_[Bionic ear]_ を移植する。
-	jobString:<<Installing bionic ear.??_[Bionic ear]_ を移植している。>>
+	label:<<install bionic ear??_[bionic ear]_ を付ける>>
+	description:_[Bionic ear]_ を付ける。
+	jobString:<<Installing bionic ear.??_[Bionic ear]_ を付けるている。>>
 }
 {InstallPegLeg
-	label:<<install peg leg??_[peg leg]_ 移植>>
-	description:_[Peg leg]_ を移植する。
-	jobString:<<Installing peg leg.??_[Peg leg]_ を移植している。>>
+	label:<<install peg leg??_[peg leg]_ を付ける>>
+	description:_[Peg leg]_ を付ける。
+	jobString:<<Installing peg leg.??_[Peg leg]_ を付けるている。>>
 }
 {InstallWoodenHand
-	label:<<install wooden hand??_[wooden hand]_ 移植>>
-	description:_[wooden hand]_ を移植する。
-	jobString:<<Installing wooden hand.??_[wooden hand]_ を移植している。>>
+	label:<<install wooden hand??_[wooden hand]_ を付ける>>
+	description:_[wooden hand]_ を付ける。
+	jobString:<<Installing wooden hand.??_[wooden hand]_ を付けるている。>>
 }
 {InstallWoodenFoot
-	label:<<install wooden foot??_[wooden foot]_ 移植>>
-	description:_[Wooden foot]_ を移植する。
-	jobString:<<Installing wooden foot.??_[Wooden foot]_ を移植している。>>
+	label:<<install wooden foot??_[wooden foot]_ を付ける>>
+	description:_[Wooden foot]_ を付ける。
+	jobString:<<Installing wooden foot.??_[Wooden foot]_ を付けるている。>>
 }
 {InstallDenture
-	label:<<install denture??_[denture]_ 移植>>
-	description:_[Denture]_ を移植する。
-	jobString:<<Installing denture.??_[Denture]_ を移植している。>>
+	label:<<install denture??_[denture]_ を付ける>>
+	description:_[Denture]_ を付ける。
+	jobString:<<Installing denture.??_[Denture]_ を付けるている。>>
 }
 {InstallNaturalHeart
-	label:<<install heart??_[heart]_ 移植>>
-	description:非人工物の _[Heart]_ を移植する。
-	jobString:<<Installing heart.??_[Heart]_ を移植している。>>
+	label:<<install heart??_[heart]_ を付ける>>
+	description:非人工物の _[Heart]_ を付ける。
+	jobString:<<Installing heart.??_[Heart]_ を付けるている。>>
 }
 {InstallNaturalLung
-	label:<<install lung??_[lung]_ 移植>>
-	description:_[Lung]_ を移植する。
-	jobString:<<Installing lung.??_[Lung]_ を移植している。>>
+	label:<<install lung??_[lung]_ を付ける>>
+	description:_[Lung]_ を付ける。
+	jobString:<<Installing lung.??_[Lung]_ を付けるている。>>
 }
 {InstallNaturalKidney
-	label:<<install kidney??_[kidney]_ 移植>>
-	description:非人工物の _[Kidney]_ を移植する。
-	jobString:<<Installing kidney.??_[Kidney]_ を移植している。>>
+	label:<<install kidney??_[kidney]_ を付ける>>
+	description:非人工物の _[Kidney]_ を付ける。
+	jobString:<<Installing kidney.??_[Kidney]_ を付けるている。>>
 }
 {InstallNaturalLiver
-	label:<<install liver??_[liver]_ 移植>>
-	description:非人工物の _[Liver]_ を移植する。
-	jobString:<<Installing liver.??_[Liver]_ を移植している。>>
+	label:<<install liver??_[liver]_ を付ける>>
+	description:非人工物の _[Liver]_ を付ける。
+	jobString:<<Installing liver.??_[Liver]_ を付けるている。>>
 }
 {InstallSimpleProstheticLeg
-	label:<<install prosthetic leg??_[prosthetic leg]_ 移植>>
-	description:_[Prosthetic leg]_ を移植する。
-	jobString:<<Installing prosthetic leg.??_[Prosthetic leg]_ を移植している。>>
+	label:<<install prosthetic leg??_[prosthetic leg]_ を付ける>>
+	description:_[Prosthetic leg]_ を付ける。
+	jobString:<<Installing prosthetic leg.??_[Prosthetic leg]_ を付けるている。>>
 }
 {InstallSimpleProstheticArm
-	label:<<install prosthetic arm??_[prosthetic arm]_ 移植>>
-	description:_[Prosthetic arm]_ を移植する。
-	jobString:<<Installing prosthetic arm.??_[Prosthetic arm]_ を移植している。>>
+	label:<<install prosthetic arm??_[prosthetic arm]_ を付ける>>
+	description:_[Prosthetic arm]_ を付ける。
+	jobString:<<Installing prosthetic arm.??_[Prosthetic arm]_ を付けるている。>>
 }
 {InstallSimpleProstheticHeart
-	label:<<install prosthetic heart??_[prosthetic heart]_ 移植>>
-	description:_[Prosthetic heart]_ を移植する。
-	jobString:<<Installing prosthetic heart.??_[Prosthetic heart]_ を移植している。>>
+	label:<<install prosthetic heart??_[prosthetic heart]_ を付ける>>
+	description:_[Prosthetic heart]_ を付ける。
+	jobString:<<Installing prosthetic heart.??_[Prosthetic heart]_ を付けるている。>>
 }
 {InstallCochlearImplant
-	label:<<install cochlear implant??_[cochlear implant]_ 移植>>
-	description:_[Cochlear implant]_ を移植する。
-	jobString:<<Installing cochlear implant.??_[Cochlear implant]_ を移植している。>>
+	label:<<install cochlear implant??_[cochlear implant]_ を付ける>>
+	description:_[Cochlear implant]_ を付ける。
+	jobString:<<Installing cochlear implant.??_[Cochlear implant]_ を付けるている。>>
 }
 {InstallPowerClaw
-	label:<<install power claw??_[power claw]_ 移植>>
-	description:_[Power claw]_ を移植する。
-	jobString:<<Installing power claw.??_[Power claw]_ を移植している。>>
+	label:<<install power claw??_[power claw]_ を付ける>>
+	description:_[Power claw]_ を付ける。
+	jobString:<<Installing power claw.??_[Power claw]_ を付けるている。>>
 }
 {InstallJoywire
-	label:<<install joywire??_[joywire]_ 移植>>
-	description:_[Joywire]_ を移植する。
-	jobString:<<Installing joywire.??_[Joywire]_ を移植している。>>
+	label:<<install joywire??_[joywire]_ を付ける>>
+	description:_[Joywire]_ を付ける。
+	jobString:<<Installing joywire.??_[Joywire]_ を付けるている。>>
 }
 {InstallPainstopper
-	label:<<install painstopper??_[painstopper]_ 取り付け>>
-	description:_[Painstopper]_ を取り付ける。
-	jobString:<<Installing painstopper.??_[Painstopper]_ を取り付けている。>>
+	label:<<install painstopper??_[painstopper]_ を付ける>>
+	description:_[Painstopper]_ を付ける。
+	jobString:<<Installing painstopper.??_[Painstopper]_ を付けるている。>>
 }
 {RemovePainstopper
-	label:<<remove painstopper??_[painstopper]_ 取り外し>>
-	description:_[painstopper]_ を取り外す。
-	jobString:<<Removing painstopper.??_[painstopper]_ を取り外している。>>
+	label:<<remove painstopper??_[painstopper]_ を外す>>
+	description:_[painstopper]_ を外す。
+	jobString:<<Removing painstopper.??_[painstopper]_ を外している。>>
 }
 {ButcherCorpseFlesh
-	label:<<butcher creature??生物を解体する>>
+	label:<<butcher creature??生物を解体>>
 	description:生物を解体して肉、皮、その他の部位を得る。
 	jobString:<<Butchering.??解体している。>>
 }
 {ButcherCorpseMechanoid
-	label:<<disassemble mechanoid??_[mechanoid]_ を分解する>>
+	label:<<disassemble mechanoid??_[mechanoid]_ を分解>>
 	description:死んだ _[Mechanoid]_ をバラバラに分解する。
 	jobString:<<Disassembling mechanoid.??_[Mechanoid]_ を分解している。>>
 }
 {CremateCorpse
-	label:<<cremate corpse??死体を火葬する>>
+	label:<<cremate corpse??死体を火葬>>
 	description:死体を火葬して完全に処分する。
 	jobString:<<Cremating.??火葬している。>>
 }
 {BurnApparel
-	label:<<burn apparel??衣服を燃やす>>
+	label:<<burn apparel??衣服を焼却>>
 	description:いらない衣服を燃やして完全に処分する。
 	jobString:<<Burning apparel.??衣服を燃やしている。>>
 }
 {BurnWeapon
-	label:<<burn weapon??武器を燃やす>>
+	label:<<burn weapon??武器を焼却>>
 	description:いらない武器を燃やして完全に処分する。
 	jobString:<<Burning weapon.??武器を燃やしている。>>
 }
 {BurnDrugs
-	label:<<burn drugs??ドラッグを燃やす>>
+	label:<<burn drugs??ドラッグを焼却>>
 	description:いらないドラッグを燃やして完全に処分する。
 	jobString:<<Burning drugs.??ドラッグを燃やしている。>>
 }
@@ -238,27 +238,27 @@
 	$:MakeStoneBlocksBase
 }
 {ExtractMetalFromSlag
-	label:<<smelt metal from slag??_[slag]_ を製錬する>>
+	label:<<smelt metal from slag??_[slag]_ を製錬>>
 	description:熱と強力な電磁石を使い、鉄くずの塊から金属を取り出す。
 	jobString:<<Smelting metal from slag.??_[Slag]_ を製錬している。>>
 }
 {SmeltWeapon
-	label:<<smelt weapon??武器を製錬する>>
+	label:<<smelt weapon??武器を製錬>>
 	description:熱と強力な電磁石を使い、武器を資源へと分解する。
 	jobString:<<Smelting weapon.??武器を製錬している。>>
 }
 {SmeltApparel
-	label:<<smelt apparel??衣服を製錬する>>
+	label:<<smelt apparel??衣服を製錬>>
 	description:熱と強力な電磁石を使い、鎧のような金属の衣服を資源へと分解する。
 	jobString:<<Smelting apparel.??衣服を製錬している。>>
 }
 {DestroyWeapon
-	label:<<destroy weapon??武器を処分する>>
+	label:<<destroy weapon??武器を処分>>
 	description:要らない武器を熱で処分する。この作業は製錬より速く、製錬できないアイテムも処分できるが、資源は何も残らない。
 	jobString:<<Destroying weapon.??武器を処分している。>>
 }
 {DestroyApparel
-	label:<<destroy apparel??衣服を処分する>>
+	label:<<destroy apparel??衣服を処分>>
 	description:要らない衣服を熱で処分する。この作業は製錬より速く、製錬できないアイテムも処分できるが、資源は何も残らない。
 	jobString:<<Destroying apparel.??衣服を処分している。>>
 }
@@ -303,7 +303,7 @@
 	jobString:<<Removing body part.??体の部位を外している。>>
 }
 {AdministerMechSerumHealer
-	label:<<administer healer mech serum??_[healer mech serum]_ 投与>>
+	label:<<administer healer mech serum??_[healer mech serum]_ を投与>>
 	description:_[healer mech serum]_ を投与する。
 	jobString:<<Administering healer mech serum.??_[healer mech serum]_ を投与している。>>
 }

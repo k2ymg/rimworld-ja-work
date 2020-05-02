@@ -156,6 +156,8 @@ LetterRoyalTitleChangingHeir:新しい継承者は _[comms console]_ で {FACTIO
 LetterTitleHeirLostLabel:<<Heir lost??継承者 喪失>>
 LetterTitleHeirLost:{HEIR_nameFull} が死んだので、{FACTION_name} から受け取った_{title}_の継承者がいない {HOLDER_labelShort} が残った。{FACTION_name} に _<comms console>_ で連絡して、新しい継承者を指名できる。
 
+LetterRoyalTitleCantBeInherited:{TITLE} の_{title}_は継承できない。
+
 LetterTitleInheritance:<<Title inheritance>??_{title}_ 継承>>
 LetterTitleInheritance_Base:{PAWN_nameFull} が死んだので、_{title}_を与えた_{faction}_の法に従い、{PAWN_possessive}の_{title}_は継承者へ移された。
 LetterTitleInheritance_AsReplacement:{PAWN_possessive}の_{title}_ {TITLE} は {FACTION_name} の継承法に従い、 {HEIR_nameFull} から継承された。これにより、{HEIR_possessive}の_{title}_ {REPLACEDTITLE} を置き換えた。

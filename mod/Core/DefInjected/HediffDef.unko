@@ -240,7 +240,7 @@
 	description:頭と心が精神的に乱れている状態。精神攻撃や危険レベルの_{psychic entropy}_で起こり、原因が消えるまで衰弱させる。
 }
 {PsychicHangover
-	label:_{psychic hangover}_
+	label:_<psychic hangover>_
 	labelNoun:<<a psychic hangover??_{psychic hangover}_>>
 	description:_{psychic entropy}_の後遺症。_{psychic hangover}_は面倒だが、危険ではない。
 	{stages
@@ -253,7 +253,7 @@
 	}
 }
 {BrainShock
-	label:_{brain shock}_
+	label:_<brain shock>_
 	labelNoun:<<a brain shock??_{brain shock}_>>
 	description:脳への電気ショックの後遺症。これは普通、EMPパルスが当たった脳のインプラントからのフィードバックで起こる。
 }

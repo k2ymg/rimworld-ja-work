@@ -169,7 +169,7 @@ ThanksForPlaying:Thanks for playing!
 ClockTime:<<Time??時刻>>
 ClockDate:<<Date??日付>>
 ClockYear:<<Year??星歴>>
-DateReadoutTip:到着後からの経過日数: {0}\n現在の節: {4}\n季節: {2}\n\n一年は各 {3} 日の四節に分けられる。\n節はどこでも同じだが、季節は場所によって異なる。\n\n各節における季節:\n{5}
+DateReadoutTip:<<Days passed since your arrival: {0}\nCurrent quadrum: {4}\nLocal season: {2}\n\n一年は各{3}日のquadrumに分けられる。quadrumはどこでも同じだが、季節は場所によって異なる。\n\nLocal seasons for each quadrum:\n{5}??到着後からの経過日数: {0}\n現在の節: {4}\n季節: {2}\n\n一年は各{3}日の四節に分けられる。節はどこでも同じだが、季節は場所によって異なる。\n\n各節における季節:\n{5}>>
 FullDate:<<{0} of {1}, {2}??{2} 年 {1} 節 {0} 日>>
 ShortDate:<<{0} {1} {2}??{2}/{1}/{0}>>
 DateReadout:<<{0} of {1}, {2}??{2} 年 {1} 節 {0} 日>>
@@ -299,7 +299,11 @@ TerrainMustBeRemovable:剥がせる床を指定する。
 MustBeOnMovingWater:水車は流れる水の上に置く。
 InteractionSpotWillOverlap:作用場所が {1_labelShort} のそれと重なる。
 InteractionSpotOverlaps:作用場所が {1_labelShort} のそれと重なっている。
-MonumentAdjacentToBuilding:モニュメントのマーカーは建物の隣に置けない。
+
+MonumentOverlapsBuilding:モニュメントは他の建物に重ねて置けない。
+MonumentAdjacentToBuilding:モニュメントは建物の隣に置けない。
+MonumentBadTerrain:モニュメントは不適合な地形に置けない。
+MonumentBlockedPermanently:モニュメントは固定の障害物に重ねて置けない。
 
 ExpandOrCreateZone:{0} を拡張するか\n新しく {1} を作る。
 CreateNewZone:新しく {0} を作る。
@@ -635,7 +639,7 @@ MassCapacity:<<Mass capacity??最大重量>>
 Mass:<<Mass??重量>>
 CaravanMass:<<Caravan mass??キャラバンの重量>>
 EquipmentAndApparelMass:<<Equipment and apparel mass??衣服や装備品の重量>>
-InventoryMass:<<Inventory mass??荷物の重さ>>
+InventoryMass:<<Inventory mass??_{Inventory}_の重さ>>
 CaravanFormationProcessStarted:今から_{colonist}_がアイテムを集めて、ここから離れる。
 ReformCaravan:_<Reform caravan>_
 ColonistsSection:<<Colonists??_{colonist}_>>
@@ -828,7 +832,7 @@ StatsReport_MeleeHitChance:<<Melee hit chance??近接ヒット率>>
 StatsReport_CooldownFormat:<<{0} s??{0} 秒>>
 StatsReport_LifeExpectancy:<<Life expectancy??平均寿命>>
 StatsReport_MissingBodyParts:<<Multiplier for missing body parts??部位欠損による乗数>>
-StatsReport_GearAndInventoryMass:<<Gear and inventory??装備と所持品>>
+StatsReport_GearAndInventoryMass:<<Gear and inventory??装備と_{Inventory}_>>
 StatsReport_WornByCorpse:<<Multiplier for worn by corpse??遺服による乗数>>
 AverageOfAllAttacks:<<average of all attacks??全攻撃の平均値>>
 StatsReport_ScenarioFactor:<<Scenario??シナリオ>>
@@ -846,7 +850,7 @@ StatsReport_NotFlesh:<<Not flesh??肉はでない>>
 StatsReport_NotFresh:<<Not fresh??新鮮ではない>>
 StatsReport_WildMan:<<Wild man??野生人>>
 StatsReport_NonToolAttack:<<Attack??攻撃>>
-;todo:似たような文 -> NeedJoySource,Boredom
+;似たような文 -> NeedJoySource,Boredom
 Stat_RecreationType_Desc:娯楽設備ごとに満足する娯楽の種類は異なる。_{colonist}_は同じ娯楽を繰り返すと退屈するので、異なる娯楽を揃えるのが重要になる。
 Stat_JoyKind_AllTypes:<<All recreation types??全ての娯楽の種類>>
 
@@ -1147,7 +1151,7 @@ Burying:埋める
 ForbiddenLower:_<forbidden>_
 ForbiddenOutsideAllowedAreaLower:_<Allowed area>_外
 NotInHomeArea:_<Home area>_に無い
-BurningLower:炎上中
+BurningLower:_<burning>_
 NoEmptyPlaceLower:これを保管できる、近くて、空いている場所が無い
 NoMergeTarget:合わせられるスタックが無い
 AlreadyFilledLower:すでに満杯になっている
@@ -1186,7 +1190,7 @@ InstallImplantAlreadyInstalled:インストール済み
 InstallImplantAlreadyMaxLevel:レベル上限
 UpgradeImplant:{0} をレベル {1} へアップグレード
 
-ConsumeThing:<<Consume {1_labelShort}??{1_labelShort} を食べる>>
+ConsumeThing:{1_labelShort} を食べる
 
 CannotGoNoPath:ここには行けない: パスがない
 GoHere:<<Go here??ここに移動する>>
@@ -1850,10 +1854,12 @@ HealthOverview:<<Overview??概要>>
 MedicalOperationsShort:_<Operations>_ ({0})
 MedicalOperationsMechanoidsShort:_<Modifications>_ ({0})
 MedicalOperations:_<Medical operations>_
-Amputate:<<amputate??切断手術>>
-; todo:この二つが同時に出るのだろうか？だとすると区別がつかない
+
+; この三つはパーツの種類で切り替わる。amputateは悪性、内部または取り付けはremove,それ以外はharvest
+Amputate:<<amputate??切断>>
 HarvestOrgan:<<harvest??摘出>>
-RemoveOrgan:<<remove??摘出>>
+RemoveOrgan:<<remove??外す>>
+
 MemoryLower:<<memory??記憶>>
 SocialInteractionsLower:<<social interactions??社会的相互関係>>
 HungerRate:_<Hunger rate>_
@@ -1918,8 +1924,8 @@ FormingCaravanStatus_GatheringSlaves_Pause:<<Gathering slaves (waiting)??奴隷�
 FormingCaravanStatus_GatheringDownedPawns:<<Gathering downed people??倒れている人を集めている>>
 FormingCaravanStatus_GatheringDownedPawns_Pause:<<Gathering downed people (waiting)??倒れている人を集めている (待機)>>
 
-FormingCaravanStatus_Leaving:<<Leaving??離れている>>
-FormingCaravanStatus_Leaving_Pause:<<Leaving (waiting)??離れている (待機)>>
+FormingCaravanStatus_Leaving:<<Leaving??去っている>>
+FormingCaravanStatus_Leaving_Pause:<<Leaving (waiting)??去っている (待機)>>
 FormingCaravanStatus_Waiting:<<Waiting??待機中>>
 
 CaravanMembers:<<Members??人員>>
@@ -1938,7 +1944,7 @@ UnDismissQuest:クエストを開く。\n\nクエストを可能か有効のタ�
 QuestDismissed:閉じたクエストはここにある。\n\n期限までなら開ける。
 DeleteQuest:クエストを消して一覧から永久に削除する。
 
-JumpToLocation:<<Jump to location??その場所を見る>>
+JumpToLocation:その場所を見る
 PostponeLetter:<<Postpone??後回し>>
 RejectLetter:_<Reject>_
 ReadMore:<<Read more??もっと読む>>
@@ -2191,7 +2197,7 @@ LetterPawnsKidnapped:{PAWN_nameDef} が {FACTION_name} にさらわれた！\n�
 
 LetterTechprintAppliedLabel:<<Techprint applied: {PROJECT_label}??_[Techprint]_適用: {PROJECT_label}>>
 LetterTechprintAppliedPartIntro:研究プロジェクトに_[techprint]_が適用された: {PROJECT_label}。
-LetterTechprintAppliedPartJustUnlocked:プロジェクトの_[techprint]_要求が全て完了した！研究者は技術の実際の使い方を _[research bench]_ で研究を始められる。
+LetterTechprintAppliedPartJustUnlocked:プロジェクトの_[techprint]_要求が全て完了した！研究者は技術の実際の使い方について _[research bench]_ で研究を始められる。
 LetterTechprintAppliedPartNotUnlockedYet:このプロジェクトの_[techprint]_要求を満たしていない。{0} の_[techprint]_が適用済み。プロジェクトは全部で {1} 必要。
 LetterTechprintAppliedPartAlreadyUnlocked:このプロジェクトの_[techprint]_要求は満たされている。追加の _[techprint]_が {PROJECT_label} の研究努力を進めた。研究の残り半分、{0} ポイント、は完了した。
 LetterTechprintAppliedPartAlreadyResearched:このプロジェクトは既に十分研究したので、_[techprint]_はこれ以上知識を深めない。
@@ -2214,7 +2220,7 @@ ManualPriorities:_<Manual priorities>_
 HigherPriority:<<higher priority??優先度 高>>
 LowerPriority:<<lower priority??優先度 低>>
 RelevantSkills:<<Relevant skills: {0}\nAverage of relevant skills: {1} / {2}??該当スキル: {0}\n該当スキルの平均値: {1} / {2}>>
-ClickToJumpTo:<<Click to jump to:??クリックで移動:>>
+ClickToJumpTo:クリックで移動:
 CannotDoThisWork:{1_labelShort} はこの作業ができない。
 NoneBrackets:<<(none)??(なし)>>
 IncapableOfWorkTypeBecauseOfCapacities:この_{colonist}_は健康上の理由によりこのタイプの作業を行えない。
@@ -2237,8 +2243,8 @@ AssignTabEdit:<<Edit...??編集...>>
 ManageDrugPolicies:_<Manage drug policies>_
 ManageFoodRestrictions:<<Manage food restrictions??_<food restriction>_を編集>>
 
-Copy:<<Copy??コピー>>
-Paste:<<Paste??ペースト>>
+Copy:コピー
+Paste:ペースト
 AllowedArea:_<Allowed area>_
 
 Master:<<Master??主人>>
@@ -2308,7 +2314,7 @@ RequiredResearchBench:<<Required research bench??_[research bench]_ が必要>>
 RequiredResearchBenchFacilities:<<Required research bench facilities??_[research bench]_ の設備が必要>>
 ResearchCostComparison:あなたの技術レベルにより、プロジェクトの基本コストは {0} から {1} になった。
 ResearchTechprintsFromFactions:_[Techprint]_ はこれらの_{faction}_との取引やクエストで得られる:
-TechLevelTooLow:あなたの_{faction}_の技術レベルは {0} だが、このプロジェクトのレベルは {1} です。研究速度は {2} 倍になる。
+TechLevelTooLow:あなたの_{faction}_の技術レベルは {0} だが、このプロジェクトのレベルは {1} です。研究速度は {2} になる。
 
 AvailableQuests:<<Available??開始可>>
 ActiveQuests:<<Active??進行中>>
@@ -2332,7 +2338,7 @@ AcceptWith:<<Accept with {0_labelShort}??{0_labelShort} で受ける>>
 QuestOutcomeInfo_OfferExpired:申し出の期限は切れた。
 QuestOutcomeInfo_UnknownOrSuccess:このクエストは完了した。
 QuestOutcomeInfo_Failed:このクエストは失敗した。
-JumpToTargetCustom:<<Jump to {0}??{0} へ移動>>
+JumpToTargetCustom:{0} へ移動
 SelectHiveTargets:<<Select hives??巣を選択>>
 QuestChallengeRatingTip:難度評価: クエストの難しさとあなたの現在の強さを比べた概略評価。より難しいクエストはより大きな報酬を与える。\n\n1: 普通\n2: 難しい\n3: かなり難しい\n4: 究極
 
@@ -2340,9 +2346,10 @@ QuestAcceptanceRequirementsDescription:このクエストを受ける条件
 QuestBedroomRequirementsUnsatisfied:_{title}_の要件を満たす、空いている_{bedroom}_
 QuestBedroomRequirementsUnsatisfiedSingle:_{title}_の要件を満たす、空いている_{bedroom}_
 QuestNoColonistWithTitle:{0} の_{title}_を持つ_{colonist}_。
-ChooseRewards:<<Choose rewards??報酬を選ぶ>>
+ChooseRewards:<<Reward preferences??報酬の選択>>
+ChooseRewardsDesc:今後のクエストで欲しい報酬の種類を他の_{faction}_に伝える。これは既に出されたクエストには影響しない。
 AcceptRoyalFavor:<<Accept {FACTION_royalFavorLabel}??{FACTION_royalFavorLabel} を受け取る>>
-AcceptRoyalFavorDesc:{FACTION_name} の {FACTION_royalFavorLabel} で報酬を受け取るかどうか。\n\n無効なら、 {FACTION_name} は別の報酬を申し出る。\n\nこの設定は新しく到着したクエストにのみ影響する。
+AcceptRoyalFavorDesc:{FACTION_name} の {FACTION_royalFavorLabel} で報酬を受け取るかどうか。\n\n無効なら、 {FACTION_name} は別の報酬を申し出る。\n\nこの設定は新しく届いたクエストにのみ影響する。
 AcceptGoodwill:<<Accept goodwill??信用を受け取る>>
 AcceptGoodwillDesc:{FACTION_name} との派閥関係を良くする報酬を受け取るかどうか。\n\n無効なら、 {FACTION_name} は別の報酬を申し出る。\n\nこの設定は新しく作られたクエストにのみ影響する。
 RoyalFavorOn:現在 {FACTION_royalFavorLabel} を受け取る設定になっている。
@@ -2539,16 +2546,16 @@ ShortIdentifierDesc:キャラクターの略称。\n\nこれは常に表示さ�
 LastNameDesc:キャラクターの姓。\n\nこれは特定のメニューだけで表示される。
 Randomize:_<Randomize>_
 AgeIndicator:<<age {0}??{0} 歳>>
-PawnSummary:{PAWN_race}, {PAWN_ageFull} 歳
-PawnSummaryWithGender:{PAWN_race} の {PAWN_gender}, {PAWN_ageFull} 歳
+PawnSummary:<<{PAWN_race}, age {PAWN_ageFull}??{PAWN_race}, {PAWN_ageFull} 歳>>
+PawnSummaryWithGender:<<{PAWN_gender} {PAWN_race}, age {PAWN_ageFull}??{PAWN_race} の {PAWN_gender}, {PAWN_ageFull} 歳>>
 Backstory:<<Backstory??生い立ち>>
 IncapableOf:<<Incapable of??できない事>>
 Abilities:<<Abilities??能力>>
-IncapableOfTooltipBackstory:生い立ちにより: {0}
-IncapableOfTooltipTitle:肩書きにより: {0}
-IncapableOfTooltipTrait:特徴により: {0}
-IncapableOfTooltipHediff:次により: {0}
-IncapableOfTooltipWorkTypes:無効な作業タイプ:
+IncapableOfTooltipBackstory:<<Caused by backstory: {0}??生い立ちにより: {0}>>
+IncapableOfTooltipTitle:<<Caused by title: {0}??肩書きにより: {0}>>
+IncapableOfTooltipTrait:<<Caused by trait: {0}??特徴により: {0}>>
+IncapableOfTooltipHediff:<<Caused by: {0}??次により: {0}>>
+IncapableOfTooltipWorkTypes:<<Disabled work types:??無効な作業タイプ:>>
 Traits:<<Traits??特徴>>
 PermanentMoodEffect:<<Permanent mood effect??永続的な_{mood}_影響>>
 Skills:<<Skills??スキル>>
@@ -2650,16 +2657,16 @@ MessageRaidersDetectedEarlyAssault:{1} の {0} はこちらを発見したので
 MessageRaidersKidnapping:{1} の {0} は誰かを誘拐して離れることにした。
 MessageRaidersStealing:{1} の {0} は何かを略奪して離れることにした。
 
-MessageRaidersLeaving:{1} の {0} は離れている。
-MessageRaidersGivenUpLeaving:{1} の {0} は諦めて離れようとしている。
-MessageRaidersSatisfiedLeaving:{1} の {0} は成果に満足して離れている。
+MessageRaidersLeaving:{1} の {0} は去っている。
+MessageRaidersGivenUpLeaving:{1} の {0} は諦めて去っている。
+MessageRaidersSatisfiedLeaving:{1} の {0} は成果に満足して去っている。
 
 MessageFightersFleeing:{1} の {0} は逃げている。
-MessageFriendlyFightersLeaving:味方の {1} の {0} は離れている。
+MessageFriendlyFightersLeaving:味方の {1} の {0} は去っている。
 
 MessageVisitorsTakingWounded:{1} の {0} は怪我をした_{guest}_を運ぼうとしている。
 MessageVisitorsTrappedLeaving:{1} の {0} は閉じ込められ脱出しようとしている。
-MessageVisitorsDangerousTemperature:{1} の {0} は危険な気温のため離れている。
+MessageVisitorsDangerousTemperature:{1} の {0} は危険な気温のため去っている。
 
 MessageWornApparelDeterioratedAway:{1_nameFull} が身に着けていた {0} は朽ち果てた。
 MessageDeterioratedAway:{0} が倉庫で朽ち果てた。
@@ -2750,7 +2757,7 @@ MessageAttackedByPredator:{PREY_labelShort} が {PREDATOR} に襲われている
 
 MessageHiveReproduced:虫の巣が自己増殖した。
 
-MessageTraderCaravanLeaving:{0} からの交易キャラバンは離れている。
+MessageTraderCaravanLeaving:{0} からの交易キャラバンは去っている。
 
 MessageCantSelectDeadPawn:{1_labelShort} は死んでいる。
 MessageCantSelectOffMapPawn:{1_labelShort} はマップの外にいる。
@@ -2811,7 +2818,7 @@ MessageAccidentalOverdose:{INGESTER} が {DRUG_labelShort} を誤って過剰摂
 
 MessageCaravanArrivedAtDestination:{0} は目的地に到達した。
 
-MessagePawnLeftMapAndCreatedCaravan:{1_labelShort} はこのエリアを離れてキャラバンを編成した。
+MessagePawnLeftMapAndCreatedCaravan:{1_labelShort} はこのエリアから離れてキャラバンを編成した。
 MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin:動物が加わろうとしている。
 
 MessageSettledInExistingMap:新しいエリアに入植できた。
@@ -2953,8 +2960,8 @@ MessageAnimalLostSkill:継続的な訓練を怠ったので、{ANIMAL_labelShort
 MessageTranslationReportSaved:翻訳リポートを出力しました: {0}
 
 MessageCaravanArrivalActionNoLongerValid:{0} は目的地へたどり着けない。
-MessageEnterCooldownBlocksEntering:{0} 日間は再入場できない。
-MessagePermitCooldownFinished:{0_labelShort} が "{1}" を自由に使えるようになった。
+MessageEnterCooldownBlocksEntering:{0} 日経つまで再入場できない。
+MessagePermitCooldownFinished:{0_labelShort} が "{1}" を無料で使えるようになった。
 MessagePredatorHuntingPlayerAnimal:{PREDATOR} が {PREY_definite} を捕食しようとしている！
 
 MessagePrisonerResistanceBroken:_{prisoner}_ {PRISONER_labelShort} の_{resistance}_は {WARDEN_labelShort} により砕かれた。
@@ -3115,12 +3122,12 @@ Equipment:<<Equipment??装備>>
 Apparel:<<Apparel??衣服>>
 Inventory:_<Inventory>_
 ThingInfo:<<Information??情報>>
-DropThing:<<Drop??落とす>>
+DropThing:落とす
 DropThingLodger:一時的な_{faction}_メンバーはアイテムを落とさない。
 DropThingLocked:この人物はこれを落とすのを拒否した。
 Rename:<<Rename??改名>>
-RenameAnimal:<<Rename animal??動物の改名>>
-RenameColonist:<<Rename colonist??_{colonist}_の改名>>
+RenameAnimal:動物の改名
+RenameColonist:_{colonist}_の改名
 RenounceTitle:<<Renounce title??_{title}_を放棄>>
 ;Renounceで使用。{TITLE}にはまる
 TitleOfFaction:{1} の {0}
@@ -3258,7 +3265,7 @@ yourCaravan:<<your caravan??あなたのキャラバン>>
 CreatureWildness:<<{0} wildness??{0} 野生>>
 CreatureTrainability:{0} _<trainability>_
 ProximitySingleGoodwillChange:<<{0} with {1}??{0} {1}>>
-EnterCooldown:{0} 日までは再入場できない。
+EnterCooldown:{0} 日経つまで再入場できない。
 Caravan:<<Caravan??キャラバン>>
 HiddenOrNoSitePartDescription:恐らく何らかの危険がある。
 PreciousLumpLabel:<<lump of {0}??{0} の塊>>
@@ -3413,10 +3420,11 @@ RecipeAdministerJobString:<<Administering {0}.??{0} を投与している。>>
 TeetotalerUnhappy:<<teetotaler will be unhappy??_<teetotaler>_ は不機嫌になる>>
 ProsthophobeUnhappy:<<body purist will be unhappy??_<body purist>_ は不機嫌になる>>
 
-ThoughtExpiresIn:<<Expires in: {0}??残り日数: {0}>>
+ThoughtExpiresIn:<<Expires in: {0}??消えるまで: {0}>>
 ThoughtNullifiedBy:<<thought disabled by??思いは無効>>
-ThoughtStartsExpiringIn:<<Starts expiring in: {0}??残り日数: {0}>>
-ThoughtFinishesExpiringIn:<<Finishes expiring in: {0}??有効日数: {0}>>
+ThoughtStartsExpiringIn:<<Starts expiring in: {0}??最初が消えるまで: {0}>>
+ThoughtFinishesExpiringIn:<<Finishes expiring in: {0}??最後が消えるまで: {0}>>
+
 MentalBreakThresholdExtreme:<<Extreme break threshold??_{mental break}_(大)閾値>>
 MentalBreakThresholdMajor:<<Major break threshold??_{mental break}_(中)閾値>>
 MentalBreakThresholdMinor:<<Minor break threshold??_{mental break}_(小)閾値>>
@@ -3535,14 +3543,14 @@ ShowExpandingIconsToggleButton:離れているオブジェクトを拡大アイ�
 ShowWorldFeaturesToggleButton:地形の名前を表示する。
 
 FireOn:<<fire on {1_label}??{1_label} が 燃えている>>
-Burning:<<Burning??炎上中>>
+Burning:_<Burning>_
 FireSizeLower:<<fire size {0}??炎上サイズ {0}>>
 
 GameConditionsTip:この地域に今すぐ影響を及ぼす特殊な条件。
 TimeLeft:<<time left??残り時間>>
 ImpactDate:<<impact date??衝突日>>
-SourceUnknown:<<Source unknown.??発生元不明。>>
-ClickToJumpToSource:<<Click to jump to the source.??クリックで発生元へ移動>>
+SourceUnknown:発生元不明。
+ClickToJumpToSource:クリックで発生元へ移動。
 CausedByQuest:<<Caused by quest: {0}??クエストによって起こされた: {0}>>
 
 NoStuffsToBuildWith:これを作るのに必要な素材が無い。
@@ -3634,10 +3642,10 @@ NotEnjoyableOutsideTemperature:<<uncomfortable temperature??不快な温度>>
 
 ActivityIconMedicalRest:<<Medical rest??治療中>>
 ActivityIconSleeping:<<Sleeping??睡眠中>>
-ActivityIconFleeing:<<Fleeing??逃亡中>>
+ActivityIconFleeing:<<Fleeing??逃走中>>
 ActivityIconAttacking:<<Fighting??戦闘中>>
 ActivityIconIdle:<<Idle??暇>>
-ActivityIconBurning:<<Burning??火だるま>>
+ActivityIconBurning:_<Burning>_
 ActivityIconFormingCaravan:<<Forming a caravan??キャラバン編成中>>
 
 ;CompProperties_Maintainable
@@ -3704,7 +3712,7 @@ Reward_Goodwill:{0_name} との_{faction}_関係が {1} 良くなる
 
 
 BondedWith:<<Bonded to: {0}??絆: {0}>>
-NotBonded:まだ結ばれていない
+NotBonded:<<Not yet bonded??まだ結ばれていない>>
 BladelinkBondedToSomeoneElse:<<bonded to someone else??他と結ばれている>>
 
 Biocoded:[[biocoded {0}??生体認証 {0}]]
@@ -3826,8 +3834,8 @@ TabCaravanGear:<<Gear??装備>>
 TabCaravanItems:_<Items>_
 AbandonSliderText:<<Abandon {{0}}x {0}??破棄 {{0}}x {0}>>
 ConfirmAbandonItemDialog:本当に {0} を破棄しますか？\n\n破棄されたアイテムは消滅して回収できません。
-AbandonTip:<<Abandon??破棄>>
-BanishTip:<<Banish??追放>>
+AbandonTip:破棄
+BanishTip:追放
 AbandonSpecificCountTip:<<Abandon specific count??指定個数を破棄>>
 AbandonAllTip:<<Abandon (all)??破棄 (全て)>>
 AbandonItemTipExtraText:破棄されたアイテムは消滅して回収できません。
@@ -3840,7 +3848,7 @@ CaravanPrisoners:<<Prisoners??_{prisoner}_>>
 CaravanWeaponsAndApparel:<<Equippable items??装備可能アイテム>>
 NoneCapable:<<None capable??能力なし>>
 GainingJoyBecauseCaravanNotMoving:<<Caravan not moving??キャラバンは動いていない>>
-DragToRearrange:再調整するにはドラッグ。
+DragToRearrange:<<Drag to rearrange.??ドラッグで交換。>>
 AssignDrugPolicies:<<Assign drug policies??ドラッグ・ポリシーの割り当て>>
 BeCarriedIfSickTip:人か動物かに関わらず、病気になったときに他のメンバーが運ぶかどうか。\n\n運ばれているメンバーはキャラバンが動いていても休めるが、移動速度は遅くなる。
 PlanetSeed:<<Seed??シード値>>

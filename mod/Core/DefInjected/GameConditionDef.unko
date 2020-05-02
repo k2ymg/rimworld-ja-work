@@ -13,7 +13,7 @@
 {PsychicDrone
 	label:_[psychic drone]_
 	description:_?サイキック・ドローン。?__{Archotech}_が離れた所から人々を狂気へと駆り立てる精神信号を軌道増幅器から放射している。
-	descriptionFuture:[gameConditionDuration_duration] の間、 [psychicDroneLevel] _[psychic drone]_ が [map_definite] 周辺地域にざわめき、全ての[psychicDroneGender]性を狂気に追いやる
+	descriptionFuture:[gameConditionDuration_duration] の間、 [psychicDroneLevel] _[psychic drone]_ が [map_definite] 周辺地域にざわめき、全ての[psychicDroneGender]を狂気に追いやる
 	endMessage:_{psychic drone}_ は終わった。
 	letterText:全ての{0}の_{colonist}_は不安や怒りの波を感じている！\n\n遠くで憎悪エンジンが活発化している。軌道増幅器からこの場所へ_{psychic drone}_を投射し、{0}にだけ影響するように調整されている。数日の間、一部の人々はとても_{mood}_が悪くなる。\n\nドローンのレベルは {1}。
 }
