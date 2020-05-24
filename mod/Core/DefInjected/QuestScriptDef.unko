@@ -1,4 +1,6 @@
-﻿{ThreatReward_Raid_Joiner
+﻿@Quest failed:クエスト失敗
+
+{ThreatReward_Raid_Joiner
 	{questNameRules
 		{?rulesStrings
 			:questName-><<Saving [runnerIndef]??[runnerIndef] 救助>>
@@ -10,6 +12,7 @@
 			:questName-><<[runnerIndef] Seeks a Home??[runnerIndef] の新天地>>
 			:questName-><<[runnerIndef] Chased by [enemyFaction_pawnsPlural]??[enemyFaction_pawnsPlural] に追われる [runnerIndef]>>
 			:questName-><<[runnerIndef] and [enemyFaction_pawnsPlural]??[runnerIndef] と [enemyFaction_pawnsPlural]>>
+
 			:runnerIndef->[joiner_titleIndef]
 			:runnerIndef->[joiner_nameIndef]
 			:runnerIndef-><<a Refugee??亡命者>>
@@ -17,27 +20,17 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->[joiner_nameDef] という [joiner_age] 歳の [joiner_title] が近くから呼びかけている。[joiner_pronoun]は [enemyFaction_name] の [enemyFaction_pawnsPlural] から追われている！\n\n[joiner_pronoun]は安全を懇願し、 [map_definite] への加入を申し出ている。[joiner_relationInfo]\n\n受け入れると、追いかけてきている [enemyFaction_pawnsPluralDef] と戦うことになる。 [enemyFaction_pawnsPlural] のグループの構成:\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] は死に物狂いなので、これ以上の情報は伝えられない。
+			:questDescription->[joiner_nameDef]という[joiner_age]歳の[joiner_title]が近くから呼びかけている。[joiner_pronoun]は[enemyFaction_name]の[enemyFaction_pawnsPlural]に追われている！\n\n[joiner_pronoun]は安全を懇願し、[map_definite]への加入を申し出ている。[joiner_relationInfo]\n\n受け入れると、追いかけてきている[enemyFaction_pawnsPluralDef]と戦うことになる。[enemyFaction_pawnsPlural]のグループの構成:\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef]は死に物狂いなので、これ以上の情報は伝えられない。
 		}
 	}
-	{root
-		{nodes
-			{Delay-0
-				{node
-					{parms
-						customLetterLabel.value.slateRef:{BASELABEL} が [../joiner_nameDef] を追っている。
-						;このスペースはなんだ
-						customLetterText.value.slateRef:{BASETEXT}\n\n              [enemyFaction_pawnsPlural] が [../joiner_nameDef] に迫っている。
-					}
-				}
-			}
-		}
-	}
+	LetterLabelCashing.value.slateRef:{BASELABEL}が[../joiner_nameDef]を追っている。
+	LetterTextCashing.value.slateRef:{BASETEXT}\n\n              [enemyFaction_pawnsPlural]が[../joiner_nameDef]に迫っている。
 }
+
 {Util_JoinerWalkIn
 	{questDescriptionRules
 		{?rulesStrings
-			:rewardDescription->[joiner_nameDef] という [joiner_age] 歳の [joiner_title] がやってきて加わる。 
+			:rewardDescription->[joiner_nameDef]という[joiner_age]歳の[joiner_title]がやってきて加わる。 
 		}
 	}
 	;{root
@@ -49,11 +42,13 @@
 	;	}
 	;}
 }
+
 {Util_JoinerDropIn
 	{questDescriptionRules
 		{?rulesStrings
-			:rewardDescription->[joiner_nameDef] という [joiner_age] 歳の [joiner_title] が _[transport pod]_ で到着する。[joinerFactionInfo][joiner_relationInfo]
-			:joinerFactionInfo(priority=1)-> [joiner_pronoun]は [joiner_factionName] のメンバーだ。
+			:rewardDescription->[joiner_nameDef]という[joiner_age]歳の[joiner_title]が_[transport pod]_で到着する。[joinerFactionInfo][joiner_relationInfo]
+
+			:joinerFactionInfo(priority=1)->[joiner_pronoun]は[joiner_factionName]に属している。
 			:joinerFactionInfo->
 		}
 	}
@@ -66,6 +61,7 @@
 	;	}
 	;}
 }
+
 {Util_SendItemPods
 	{questDescriptionRules
 		{?rulesStrings
@@ -81,10 +77,11 @@
 	;	}
 	;}
 }
+
 {Util_Raid
 	{questDescriptionRules
 		{?rulesStrings
-			:threatDescription->[enemyFaction_name] の [enemyFaction_pawnsPlural] が攻撃してくる。集団は以下で構成されている:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]
+			:threatDescription->[enemyFaction_name]の[enemyFaction_pawnsPlural]が攻撃してくる。集団は以下で構成されている:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]
 		}
 	}
 	;{root
@@ -96,20 +93,23 @@
 	;	}
 	;}
 }
+
 {Util_MechCluster
 	{questDescriptionRules
 		{?rulesStrings
-			:threatDescription->_[mech cluster]_ が [map_definite] に着陸する。以下を含んでいる:\n\n[allThreats]
+			:threatDescription->_[mech cluster]_が[map_definite] に着陸する。以下を含んでいる:\n\n[allThreats]
 		}
 	}
 }
+
 {Util_RaidDelayRepeatable
 	{questDescriptionRules
 		{?rulesStrings
-			:pawnKindsParagraph(raidCount==1)->[enemyFaction_pawnsPlural] のグループの構成: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]
-			:pawnKindsParagraph(raidCount==2)->[enemyFaction_pawnsPlural] の最初のグループの構成: \n\n[raid0/raidPawnKinds]\n\nすぐ後に同様なグループが 1 回続く。
-			:pawnKindsParagraph(raidCount==3)->[enemyFaction_pawnsPlural] の最初のグループの構成: \n\n[raid0/raidPawnKinds]\n\nすぐ後に同様なグループが 2 回続く。
-			:pawnKindsParagraph(raidCount>=4)->[enemyFaction_pawnsPlural] の最初のグループの構成: \n\n[raid0/raidPawnKinds]\n\nすぐ後に同様なグループが [raidCountMinusOne] 回続く。
+			:pawnKindsParagraph(raidCount==1)->[enemyFaction_pawnsPlural]のグループの構成: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]
+			:pawnKindsParagraph(raidCount==2)->[enemyFaction_pawnsPlural]の最初のグループの構成: \n\n[raid0/raidPawnKinds]\n\nすぐ後に同様なグループが1回続く。
+			:pawnKindsParagraph(raidCount==3)->[enemyFaction_pawnsPlural]の最初のグループの構成: \n\n[raid0/raidPawnKinds]\n\nすぐ後に同様なグループが2回続く。
+			:pawnKindsParagraph(raidCount>=4)->[enemyFaction_pawnsPlural]の最初のグループの構成: \n\n[raid0/raidPawnKinds]\n\nすぐ後に同様なグループが[raidCountMinusOne]回続く。
+
 			:numGroupsOf(raidCount==1)->
 			:numGroupsOf(raidCount==2)->2
 			:numGroupsOf(raidCount==3)->3
@@ -139,93 +139,54 @@
 	;	}
 	;}
 }
-;todo:なんかエラーが出るので、一時的に
+
 {Util_GenerateSite
 	{root
-		singleSitePartRules.slateRef:<rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)->_[climate adjuster]_ 装置があり、地域の気温を [temperatureOffset] 変動させている</li><li>root(priority=1,sitePart==PsychicDroner)->_[psychic droner]_ 装置があり、[affectedGender]へ合わせている</li><li>root(priority=1,sitePart==PsychicSuppressor)->_[psychic suppressor]_ 装置があり、[affectedGender]へ合わせている</li><li>root(priority=1,sitePart==WeatherController)->_[weather controller]_ 装置があり、全域の天候を [weather_label] にしている</li><li>root(priority=1,sitePart==SmokeSpewer)->there's a _[smoke spewer]_ 装置があり、 全域へ煙を噴き出している</li><li>root(priority=1,sitePart==SunBlocker)->_[sun blocker]_ 装置があり、全域に影を落としている</li><li>root(priority=1,sitePart==EMIDynamo)->_[EMI dynamo]_ 装置があり、全域の電子機器を無効にできる</li><li>root(priority=1,sitePart==ToxicSpewer)->_[toxic spewer]_ 装置があり、全域を毒で覆っている</li><li>root(priority=1,sitePart==RaidSource)->[enemiesCount] 体の敵に守れた軍の集結地がある。 [mtbDays] ごとに襲撃隊を出す</li><li>root(priority=1,sitePart==Outpost)->[enemiesCount] 体の敵に守られた敵の前哨基地がそこにある</li><li>root(priority=1,sitePart==BanditCamp)->[enemiesCount] 体の敵に守られた賊のキャンプがそこにある</li><li>root(priority=1,sitePart==Manhunters,count==1)->殺人 [kindLabel] が近くをさまよっている</li><li>root(priority=1,sitePart==Manhunters,count>1)->[count] 匹の 殺人 [kindLabel] が近くをさまよっている</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->_[mechanoid]_ が近くで眠っている</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->[count] 体の _[mechanoid]_ が近くで眠っている</li><li>root(priority=1,sitePart==Turrets)->[threatsInfo] がその場所を守っている</li><li>root(priority=1,sitePart==AmbushEdge)->敵勢力が近くへ来た人を待ち伏せていいる</li><li>root(priority=1,sitePart==AmbushHidden)->敵勢力が近くへ来た人を待ち伏せていいる</li><li>root(priority=1,sitePart==MechCluster)->敵対する _[mechanoid]_ の設備が集まっている</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->未知の脅威があるかもしれない</li><li>root->[label] がある</li></rulesStrings>
+		singleSitePartRules.slateRef:<rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)->_[climate adjuster]_装置があり、地域の気温を [temperatureOffset]変動させている</li><li>root(priority=1,sitePart==PsychicDroner)->_[psychic droner]_装置があり、[affectedGender]へ合わせている</li><li>root(priority=1,sitePart==PsychicSuppressor)->_[psychic suppressor]_装置があり、[affectedGender]へ合わせている</li><li>root(priority=1,sitePart==WeatherController)->_[weather controller]_装置があり、全域の天候を[weather_label]にしている</li><li>root(priority=1,sitePart==SmokeSpewer)->_[smoke spewer]_装置があり、全域へ煙を噴き出している</li><li>root(priority=1,sitePart==SunBlocker)->_[sun blocker]_装置があり、全域に影を落としている</li><li>root(priority=1,sitePart==EMIDynamo)->_[EMI dynamo]_装置があり、全域の電子機器を無効にできる</li><li>root(priority=1,sitePart==ToxicSpewer)->_[toxic spewer]_装置があり、全域を毒で覆っている</li><li>root(priority=1,sitePart==RaidSource)->[enemiesCount]体の敵に守れた軍の集結地がある。[mtbDays]ごとに襲撃隊を出す</li><li>root(priority=1,sitePart==Outpost)->[enemiesCount]体の敵に守られた敵の前哨基地がある</li><li>root(priority=1,sitePart==BanditCamp)->[enemiesCount]体の敵に守られた賊のキャンプがある</li><li>root(priority=1,sitePart==Manhunters,count==1)->殺人 [kindLabel] が近くをさまよっている</li><li>root(priority=1,sitePart==Manhunters,count>1)->[count]匹の殺人[kindLabel]が近くをさまよっている</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->_[mechanoid]_が近くで眠っている</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->[count]体の_[mechanoid]_が近くで眠っている</li><li>root(priority=1,sitePart==Turrets)->[threatsInfo]がそこを守っている</li><li>root(priority=1,sitePart==AmbushEdge)->敵勢力が近くへ来た人を待ち伏せていいる</li><li>root(priority=1,sitePart==AmbushHidden)->敵勢力が近くへ来た人を待ち伏せていいる</li><li>root(priority=1,sitePart==MechCluster)->敵対する_[mechanoid]_の設備が集まっている</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->未知の脅威があるかもしれない</li><li>root->[label]がある</li></rulesStrings>
 	}
 }
-;{Util_GenerateSite
-;	{root
-;		{singleSitePartRules
-;			{?rulesStrings
-;				:root(priority=1,sitePart==ClimateAdjuster)->_[climate adjuster]_ 装置があり、地域の気温を [temperatureOffset] 変動させている
-;				:root(priority=1,sitePart==PsychicDroner)->_[psychic droner]_ 装置があり、[affectedGender]へ合わせている
-;				:root(priority=1,sitePart==PsychicSuppressor)->_[psychic suppressor]_ 装置があり、[affectedGender]へ合わせている
-;				:root(priority=1,sitePart==WeatherController)->_[weather controller]_ 装置があり、全域の天候を [weather_label] にしている
-;				:root(priority=1,sitePart==SmokeSpewer)->there's a _[smoke spewer]_ 装置があり、 全域へ煙を噴き出している
-;				:root(priority=1,sitePart==SunBlocker)->_[sun blocker]_ 装置があり、全域に影を落としている
-;				:root(priority=1,sitePart==EMIDynamo)->_[EMI dynamo]_ 装置があり、全域の電子機器を無効にできる
-;				:root(priority=1,sitePart==ToxicSpewer)->_[toxic spewer]_ 装置があり、全域を毒で覆っている
-;				:root(priority=1,sitePart==RaidSource)->[enemiesCount] 人の敵に守れた軍の集結地がある。 [mtbDays] ごとに襲撃隊を出す
-;				:root(priority=1,sitePart==Outpost)->[enemiesCount] 人の敵に守られた敵の前哨基地がその場所にある
-;				:root(priority=1,sitePart==BanditCamp)->[enemiesCount] 人の敵に守られた賊のキャンプがその場所にある
-;				;マンハンターはどうせ動物だろうから、匹を使っても良いかも知れない
-;				:root(priority=1,sitePart==Manhunters,count==1)->殺人 [kindLabel] が近くをさまよっている
-;				:root(priority=1,sitePart==Manhunters,count>1)->[count] 匹の 殺人 [kindLabel] が近くをさまよっている
-;				:root(priority=1,sitePart==SleepingMechanoids,count==1)->_[mechanoid]_ が近くで眠っている
-;				:root(priority=1,sitePart==SleepingMechanoids,count>1)->[count] 体の _[mechanoid]_ が近くで眠っている
-;				:root(priority=1,sitePart==Turrets)->[threatsInfo] がその場所を守っている
-;				:root(priority=1,sitePart==AmbushEdge)->敵勢力が近くへ来た人を待ち伏せていいる
-;				:root(priority=1,sitePart==AmbushHidden)->敵勢力が近くへ来た人を待ち伏せていいる
-;				:root(priority=1,sitePart==MechCluster)->敵対する _[mechanoid]_ の設備が集まっている
-;				:root(priority=1,sitePart==PossibleUnknownThreatMarker)->未知の脅威があるかもしれない
-;				:root->[label] がある
-;			}
-;		}
-;	}
-;}
+
 {OpportunitySite_BanditCamp
 	{questNameRules
 		{?rulesStrings
-			:questName-><<[asker_nameDef]'s Camp Bounty??[asker_nameDef] のキャンプ賞金>>
-			:questName-><<Camp of [enemyFaction_pawnsPlural]??[enemyFaction_pawnsPlural] のキャンプ>>
-			:questName-><<The Bandit Camp??_{Bandit}_のキャンプ>>
-			:questName-><<The Raider Camp??_{Raider}_のキャンプ>>
-			:questName-><<Destroy the Camp??キャンプ破壊>>
-			:questName-><<Helping [asker_nameDef]??[asker_nameDef] の手助け>>
+			:questName-><<The [bandit] [camp]??[bandit]の[camp]>>
+			:questName-><<[bandit] [camp]??[bandit]の[camp]>>
+			:questName-><<[asker_nameDef] and the [camp]??[asker_nameDef]と[camp]>>
+
+			:camp-><<Camp??キャンプ>>
+			:camp-><<Outpost??前哨基地>>
+			:camp-><<Lair??隠れ家>>
+			:camp-><<Encampment??野営地>>
+
+			:bandit->_{Bandit}_
+			:bandit-><<Raider??略奪者>>
+			:bandit-><<Outlaw??無法者>>
+			:bandit-><<Desperado??無法者>>
+			:bandit-><<Fugitive??逃亡犯>>
+			:bandit-><<Marauder??略奪者>>
+			:bandit-><<Robber??泥棒>>
+			:bandit-><<Brigand??追い剥ぎ>>
 		}
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->[asker_nameFull]、 [asker_faction_name] の [asker_faction_leaderTitle]、 がメッセージを送ってきた。近くのキャンプに陣取っている [siteFaction_pawnsPlural] が彼らのキャラバンを襲っているらしい。キャンプは [siteFaction_name] が管理している。\n\n[asker_nameDef] はキャンプの破壊、すなわち、全ての敵と_{turret}_の排除を求めている。 [asker_label] によれば、[sitePart0_description]。\n\n成功すると、[allRewardsDescriptions]
+			:questDescription->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameFull]がメッセージを送ってきた。近くのキャンプに陣取っている[siteFaction_pawnsPlural]が彼らのキャラバンを襲っているらしい。キャンプは[siteFaction_name]が管理している。\n\n[asker_nameDef]はキャンプの破壊、すなわち、全ての敵と_{turret}_の排除を求めている。[asker_label]によれば、[sitePart0_description]。
 		}
 	}
-	{root
-		{nodes
-			{WorldObjectTimeout
-				{node
-					{nodes
-						{Letter
-							label.slateRef:_<Quest expired>_: [resolvedQuestName]
-							text.slateRef:_{bandit}_のキャンプは撤収した。クエスト [resolvedQuestName] は終わった。
-						}
-					}
-				}
-			}
-			{siteDestroyed
-				{node
-					{nodes
-						{Letter
-							label.slateRef:<<Quest failed??クエスト失敗>>: [resolvedQuestName]
-							text.slateRef:_{bandit}_のキャンプは撤収した。
-						}
-					}
-				}
-			}
-			{siteAllEnemiesDefeated
-				{node
-					customLetterLabel.slateRef:<<Payment arrived??報酬到着>>
-					customLetterText.slateRef:_{bandit}_のキャンプを倒した。 [asker_faction_name] からの報酬が届いた。
-					{nodeIfChosenPawnSignalUsed
-						label.slateRef:[asker_faction_royalFavorLabel]
-						text.slateRef:これらの_{colonist}_はクエスト [resolvedQuestName] の勝利に参加していた。 [asker_definite] はこの尽力に対する [royalFavorReward_amount] の [asker_faction_royalFavorLabel] 支持を誰が受け取るか知りたがっている。
-					}
-				}
-			}
-		}
-	}
+	LetterLabelQuestExpired.slateRef:_<Quest expired>_: [resolvedQuestName]
+	LetterTextQuestExpired.slateRef:_{bandit}_のキャンプは撤収した。クエスト'[resolvedQuestName]'は終わった。
+
+	LetterLabelQuestFailed.slateRef:_<Quest failed>_: [resolvedQuestName]
+	LetterTextQuestFailed.slateRef:発見された後に_{bandit}_のキャンプは消えた。クエスト'[resolvedQuestName]'は終わった。
+
+	LetterLabelPaymentArrived.slateRef:<<Payment arrived??報酬到着>>
+	LetterTextPaymentArrived.slateRef:_{bandit}_のキャンプを倒した！\n\n[asker_faction_name]からの報酬が届いた。
+
+	;警告対策
+	LetterLabelFavorReceiver.slateRef:[asker_faction_royalFavorLabel]
+	LetterTextFavorReceiver.slateRef:これらの_{colonist}_はクエスト'[resolvedQuestName]'の勝利に参加していた。[asker_definite]はこの尽力に対する[royalFavorReward_amount]の[asker_faction_royalFavorLabel]を誰が受け取るか知りたがっている。
 }
+
 {OpportunitySite_DownedRefugee
 	{questNameRules
 		{?rulesStrings
@@ -237,27 +198,17 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription(askerIsNull==true)->[refugee_nameDef]が助けを求めて接触してきた。[refugee_pronoun]は怪我で動けない。\n\n[refugee_nameDef] は [refugee_age] 歳の [refugee_title]。[refugee_pronoun]は助けてくれれば仲間に加わると約束した。\n\n[refugee_nameDef] によれば、[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]
-			:questDescription(asker_factionLeader==True)->[asker_nameDef]、 [asker_faction_name] の [asker_faction_leaderTitle]、が[asker_possessive]の仲間が旅の途中で怪我をしたと言ってきた。犠牲者は [refugee_nameIndef]、 [refugee_age] 歳の [refugee_title]。\n\n[asker_nameDef] には [refugee_nameDef] を助ける人的余裕がないので、あなたが [refugee_nameDef] まで到達して救出すれば、 [refugee_pronoun] は仲間に加わると言っている。\n\n[asker_nameDef] によれば、[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]
+			:questDescription(askerIsNull==true)->[refugee_nameDef]が助けを求めて接触してきた。[refugee_pronoun]は怪我で動けない。\n\n[refugee_nameDef]は[refugee_age]歳の[refugee_title]。[refugee_pronoun]は助けてくれれば仲間に加わると約束した。\n\n[refugee_nameDef]によれば、[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]
+			:questDescription(asker_factionLeader==True)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameDef]が[asker_possessive]の仲間が旅の途中で怪我をしたと言ってきた。犠牲者は[refugee_nameIndef]、[refugee_age]歳の[refugee_title]。\n\n[asker_nameDef]には[refugee_nameDef]を助ける人的余裕がないので、あなたが[refugee_nameDef]まで到達して救出すれば、[refugee_pronoun]は仲間に加わると言っている。\n\n[asker_nameDef]によれば、[allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]
+
 			:pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]
-	        :pawnInvolvedInQuestInfo->
+			:pawnInvolvedInQuestInfo->
 		}
 	}
-	{root
-		{nodes
-			{WorldObjectTimeout
-				{node
-					{nodes
-						{Letter
-							label.slateRef:_<Quest expired>_: [resolvedQuestName]
-							text.slateRef:[refugee_nameDef] の信号が途絶えたので救出できなくなった。クエスト [resolvedQuestName] は終わった。
-						}
-					}
-				}
-			}
-		}
-	}
+	LetterLabelQuestExpired.slateRef:_<Quest expired>_: [resolvedQuestName]
+	LetterTextQuestExpired.slateRef:[refugee_nameDef]の信号が途絶えたので救出できなくなった。クエスト'[resolvedQuestName]'は終わった。
 }
+
 {EndGame_ShipEscape
 	{questNameRules
 		{?rulesStrings
@@ -266,20 +217,23 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->遙か昔に <Name>Charlon Whitestone</Name> と名付けられた、友好的なAIがメッセージを送ってきた！\n\n彼はこの星に宇宙船を隠していることを明かし、その座標を伝えてきた。\n\n現在、この宇宙船は深い休止状態になっている。到着したら起動させ、起動シーケンスが完了するまで、これを奪おうとする襲撃者達から守る必要がある。\n\nもしこの船を飛ばすことができれば、<Name>Charlon</Name>はあなたをこの_[Rimworld]_から連れだし、星々へと向かうだろう。
+			:questDescription->遙か昔に(*Name)Charlon Whitestone(/Name)と名付けられた、友好的なAIがメッセージを送ってきた！\n\n彼はこの星に宇宙船を隠していることを明かし、その座標を伝えてきた。\n\n現在、この宇宙船は深い休止状態になっている。到着したら起動させ、起動シーケンスが完了するまで、これを奪おうとする襲撃者達から守る必要がある。\n\nもしこの船を飛ばすことができれば、(*Name)Charlon(/Name)はあなたをこの_[rimworld]_から連れだし、星々へと向かうだろう。
 		}
 	}
 }
+
 {OpportunitySite_ItemStash
 	{questNameRules
 		{?rulesStrings
 			:questName(priority=1)-><<[asker_nameDef]'s [stash] of [treasure]??[asker_nameDef]の[stash][treasure]>>
 			:questName-><<[stash] of [treasure]??[stash][treasure]>>
+
 			:stash-><<Stash??隠された>>
 			:stash-><<Cache??蓄えられた>>
 			:stash-><<Collection??集められた>>
 			;Shackは小屋のことだが、うまく合わないので適当
 			:stash-><<Shack??集められた>>
+
 			:treasure-><<Treasure??宝物>>
 			:treasure-><<Valuables??貴重品>>
 			:treasure-><<Fortune??財貨>>
@@ -290,25 +244,14 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription(askerIsNull==true)->[map_definite] から遠くない所に [itemStashContentsValue] の貴重なアイテムが集められているという情報を傍受した。以下のアイテムがある:\n\n[itemStashContents]\n\nこれはおそらく、 [allSitePartsDescriptionsExceptFirst]
-			:questDescription(asker_factionLeader==True)->[asker_label]、[asker_faction_name] の [asker_faction_leaderTitle]、がここから遠くない所に [itemStashContentsValue] の貴重なアイテムが集められていると教えてくれた。以下のアイテムがある:\n\n[itemStashContents]\n\n[asker_label] によれば、 [allSitePartsDescriptionsExceptFirst]
+			:questDescription(askerIsNull==true)->[map_definite]から遠くない所に[itemStashContentsValue]の貴重なアイテムが集められているという情報を傍受した。以下のアイテムがある:\n\n[itemStashContents]\n\nおそらく、[allSitePartsDescriptionsExceptFirst]
+			:questDescription(asker_factionLeader==True)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_label]がここから遠くない所に[itemStashContentsValue]の貴重なアイテムが集められていると教えてくれた。以下のアイテムがある:\n\n[itemStashContents]\n\n[asker_label]によれば、[allSitePartsDescriptionsExceptFirst]
 		}
 	}
-	{root
-		{nodes
-			{WorldObjectTimeout
-				{node
-					{nodes
-						{Letter
-							label.slateRef:_<Quest expired>_: [resolvedQuestName]
-							text.slateRef:傍受した通信によれば、隠されたアイテムは他の誰かに取られた。クエスト [resolvedQuestName] は終わった。
-						}
-					}
-				}
-			}
-		}
-	}
+	LetterLabelQuestExpired.slateRef:_<Quest expired>_: [resolvedQuestName]
+	LetterTextQuestExpired.slateRef:傍受した通信によれば、隠されたアイテムは他の誰かに取られた。クエスト'[resolvedQuestName]'は終わった。
 }
+
 {LongRangeMineralScannerLump
 	{questNameRules
 		{?rulesStrings
@@ -335,24 +278,14 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->_[long-range mineral scanner]_ 使用により、 [worker_definite] が [targetMineable_label] の塊を近くに見つけた。\n\n残念ながら、これはいつか無くなる。 [timeoutTicks_duration] で他の誰かが先に採掘する。\n\n[allSitePartsDescriptionsExceptFirst]
+			:questDescription->[worker_definite]が_[long-range mineral scanner]_で[targetMineable_label]の塊を近くに見つけた。\n\n残念ながら、これはいつか無くなる。[timeoutTicks_duration]で他の誰かが先に採掘する。\n\n[allSitePartsDescriptionsExceptFirst]
 		}
 	}
-	{root
-		{nodes
-			{WorldObjectTimeout
-				{node
-					{nodes
-						{Letter
-							label.slateRef:_<Quest expired>_: [resolvedQuestName]
-							text.slateRef:他の誰かが [targetMineable_label] の塊を採掘した。クエスト [resolvedQuestName] は終わった。
-						}
-					}
-				}
-			}
-		}
-	}
+
+	LetterLabelQuestExpired.slateRef:_<Quest expired>_: [resolvedQuestName]
+	LetterTextQuestExpired.slateRef:他の誰かが[targetMineable_label]の塊を採掘した。クエスト'[resolvedQuestName]'は終わった。
 }
+
 {OpportunitySite_PeaceTalks
 	{questNameRules
 		{?rulesStrings
@@ -360,6 +293,7 @@
 			:questName-><<[peaceTalks] with [faction_leader_nameDef]??[faction_leader_nameDef] との[peaceTalks]>>
 			:questName-><<The [peaceTalks]??[peaceTalks]>>
 			:questName->[peaceTalks]
+
 			:peaceTalks-><<Peace Talks??平和交渉>>
 			:peaceTalks-><<Diplomacy??外交>>
 			:peaceTalks-><<Meeting??会議>>
@@ -367,26 +301,16 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->[faction_leader_nameFull]、 [faction_name] の [faction_leaderTitle]、 がメッセージを送ってきた。[faction_leader_pronoun]は近くで話したがっている。\n\nこの_{faction}_との関係を良くして贈り物を受け取る絶好の機会だが、下手な交渉人は関係を良くするどころか逆に怒らせる事もある。[favorRewardDetails]
-			:favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\n平和交渉を成功させた交渉者は [faction_name] の 個人 [faction_royalFavorLabel] を少し得られる。
+			:questDescription->[faction_name]の[faction_leaderTitle]、[faction_leader_nameFull]がメッセージを送ってきた。[faction_leader_pronoun]は近くで話したがっている。\n\nこの_{faction}_との関係を良くして贈り物を受け取る絶好の機会だが、下手な交渉人は関係を良くするどころか逆に怒らせる事もある。[favorRewardDetails]
+
+			:favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\n平和交渉を成功させた交渉者は[faction_name]の[faction_royalFavorLabel]を少し得られる。
 			:favorRewardDetails->
 		}
 	}
-	{root
-		{nodes
-			{PeaceTalksTimeout
-				{node
-					{nodes
-						{Letter
-							label.slateRef:_<Quest expired>_: [resolvedQuestName]
-							text.slateRef:[faction_name] との平和交渉は期限切れになった。クエスト [resolvedQuestName] は失敗した。
-						}
-					}
-				}
-			}
-		}
-	}
+	LetterLabelQuestExpired.slateRef:_<Quest expired>_: [resolvedQuestName]
+	LetterTextQuestExpired.slateRef:[faction_name]との平和交渉は期限切れになった。クエスト'[resolvedQuestName]'は終わった。
 }
+
 {OpportunitySite_PrisonerWillingToJoin
 	{questNameRules
 		{?rulesStrings
@@ -400,14 +324,17 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->[siteFaction_name] に捕まっている_{prisoner}_が無線を盗んで連絡してきた！\n\n[prisoner_nameDef] は近くにある[underArmedGuard][map_definite]キャンプに捕まっている。[prisoner_objective]を救出すると仲間に加わる。[prisoner_pronoun]は [prisoner_age] 歳の[prisoner_title]だ。[prisoner_pronoun]によれば、[allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nこの機会を逃すと [prisoner_nameDef] の声を聞くことは二度と無いかもしれない。
+			:questDescription->[siteFaction_name]に捕まっている_{prisoner}_が無線を盗んで連絡してきた！\n\n[prisoner_nameDef]は近くにある[underArmedGuard][map_definite]キャンプに捕まっている。[prisoner_objective]を救出すると仲間に加わる。[prisoner_pronoun]は[prisoner_age]歳の[prisoner_title]だ。[prisoner_pronoun]によれば、[allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nこの機会を逃すと[prisoner_nameDef]の声を聞くことは二度と無いかもしれない。
+
 			:formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]
 			:formerColonistInfo->
+
 			:underArmedGuard(allowViolentQuests==true,priority=1)->武装された
 			:underArmedGuard->
 		}
 	}
 }
+
 {TradeRequest
 	{questNameRules
 		{?rulesStrings
@@ -416,9 +343,11 @@
 			:questName-><<Selling to [settlement_label]??[settlement_label]への販売>>
 			:questName-><<Supplies for [settlement_label]??[settlement_label]への物資>>
 			:questName-><<A [special] [trade]??[special][trade]>>
+
 			:special-><<Special??特別な>>
 			:special-><<Unique??変わった>>
 			:special-><<Non-traditional??非伝統的な>>
+
 			:trade-><<Trade??取引>>
 			:trade-><<Exchange??交換>>
 			:trade-><<Deal??売買>>
@@ -427,23 +356,16 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->近くの_{settlement}_ [settlement_label] から特別な取引を持ちかけられた。買いたいもの:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](総額 [requestedThingMarketValue_money])\n\n見返りは、 [allRewardsDescriptions]\n\n取引したいなら、要求されたアイテムを持たせたキャラバンを送り出す。この旅にかかるおおよその時間は [estimatedTravelTime_duration]。
+			:questDescription->近くの_{settlement}_、[settlement_label]から特別な取引を持ちかけられた。買いたいもの:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](総額 [requestedThingMarketValue_money])\n\n取引したいなら、要求されたアイテムを持たせたキャラバンを送り出す。この旅にかかるおおよその時間は[estimatedTravelTime_duration]。
+
 			:qualityInfo(requestedThingHasQuality==True,priority=1)->品質は_<normal>_以上 
 			:qualityInfo->
 		}
 	}
-	{root
-		{nodes
-			{Letter
-				label.slateRef:<<Quest failed??クエスト 失敗>>: [resolvedQuestName]
-				text.slateRef:[faction_name] は敵になった。
-			}
-			{GiveRewards
-				{nodeIfChosenPawnSignalUsed
-					label.slateRef:[asker_faction_royalFavorLabel]
-					text.slateRef:この取引要求の履行に対する報償 [asker_faction_royalFavorLabel] を受け取るのは誰か？
-				}
-			}
-		}
-	}
+	LetterLabelQuestFailed.slateRef:_<Quest failed>_: [resolvedQuestName]
+	LetterTextQuestFailed.slateRef:[faction_name]は敵になった。
+
+	;警告対策
+	LetterLabelFavorReceiver.slateRef:[asker_faction_royalFavorLabel]
+	LetterTextFavorReceiver.slateRef:この取引要求の履行に対する報償[asker_faction_royalFavorLabel]を誰が受け取りますか？
 }

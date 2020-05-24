@@ -549,7 +549,7 @@
 	}
 }
 {Marriage
-	label:marriage
+	label:<<marriage??結婚>>
 	{rulePack
 		{?rulesStrings
 			:tale_noun->[SPOUSE1_nameDef]と[SPOUSE2_nameDef]の結婚
@@ -2045,10 +2045,10 @@
 			:tale_noun->[PAWN_nameDef]が[SKILL_label]を極めた事
 
 			:image->[circumstance_group][SKILL_label]スキルの練習をしている[PAWN_nameFull]
-			:image->[circumstanse_group][SKILL_label]方法の大きな本を読んでいる[PAWN_nameFull]
-			:image->[circumstanse_group][SKILL_label]スキルの訓練を受けている[PAWN_nameFull]
-			:image->[circumstanse_group]無我夢中に作業をしている[PAWN_nameFull]
-			:image->[circumstanse_group]作業を終えている[PAWN_nameFull]
+			:image->[circumstance_group][SKILL_label]方法の大きな本を読んでいる[PAWN_nameFull]
+			:image->[circumstance_group][SKILL_label]スキルの訓練を受けている[PAWN_nameFull]
+			:image->[circumstance_group]無我夢中に作業をしている[PAWN_nameFull]
+			:image->[circumstance_group]作業を終えている[PAWN_nameFull]
 
 			:circumstance_phrase->[AdjectiveFriendly]表情で
 			:circumstance_phrase->楽しげな表情で
@@ -2072,11 +2072,11 @@
 		{?rulesStrings
 			:tale_noun->[PAWN_nameDef]が[SKILL_label]を極めた事
 
-			:image->[PAWN_nameFull]が[circumstanse_group][SKILL_label]スキルの練習をしている様子
-			:image->[PAWN_nameFull]が[circumstanse_group][SKILL_label]方法の大きな本を読んでいる様子
-			:image->[PAWN_nameFull]が[circumstanse_group][SKILL_label]スキルの訓練を受けている様子
-			:image->[PAWN_nameFull]が[circumstanse_group]無我夢中に作業をしている様子
-			:image->[PAWN_nameFull]が[circumstanse_group]作業を終えている様子
+			:image->[PAWN_nameFull]が[circumstance_group][SKILL_label]スキルの練習をしている様子
+			:image->[PAWN_nameFull]が[circumstance_group][SKILL_label]方法の大きな本を読んでいる様子
+			:image->[PAWN_nameFull]が[circumstance_group][SKILL_label]スキルの訓練を受けている様子
+			:image->[PAWN_nameFull]が[circumstance_group]無我夢中に作業をしている様子
+			:image->[PAWN_nameFull]が[circumstance_group]作業を終えている様子
 
 			:circumstance_phrase->汗にまみれながら
 			:circumstance_phrase->見るからに疲労しつつ
@@ -2100,10 +2100,10 @@
 			:tale_noun->[HUMAN_nameDef]が[AnimalGroup]に追い回された事
 			:tale_noun->[HUMAN_nameDef]が[ANIMAL_nameDef]を手懐けた事
 
-			:image->[HUMAN_nameFull]が[circumstanse_group][ANIMAL_nameFull]を手懐けている様子
-			:image->[HUMAN_nameFull]が[circumstanse_group][ANIMAL_nameFull]に一口分の食べ物で釣ろうとしている様子
-			:image->[HUMAN_nameFull]が[circumstanse_group]臆病な[ANIMAL_nameFull]に囁くように声をかけている様子
-			:image->[HUMAN_nameFull]が[circumstanse_group]野生の[ANIMAL_nameFull]をなだめている様子
+			:image->[HUMAN_nameFull]が[circumstance_group][ANIMAL_nameFull]を手懐けている様子
+			:image->[HUMAN_nameFull]が[circumstance_group][ANIMAL_nameFull]に一口分の食べ物で釣ろうとしている様子
+			:image->[HUMAN_nameFull]が[circumstance_group]臆病な[ANIMAL_nameFull]に囁くように声をかけている様子
+			:image->[HUMAN_nameFull]が[circumstance_group]野生の[ANIMAL_nameFull]をなだめている様子
 
 			:circumstance_phrase->たくさんの注意と配慮をもって
 			:circumstance_phrase->笑顔で

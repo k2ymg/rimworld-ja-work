@@ -2,5 +2,8 @@
 	reportString:<<playing TargetA.??TargetA を演奏している。>>
 }
 {Reign
-	reportString:<<reigning.??統治している。>>
+	reportString:<<meditating royally at??王らしく瞑想している >>
+}
+{LinkPsylinkable
+	reportString:<<linking at TargetA??TargetA に繋がっている>>
 }

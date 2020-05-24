@@ -29,7 +29,7 @@
 {Manhunters
 	label:_<manhunter pack>_
 	description:人を狩っている動物の群れ。
-	arrivedLetter:ここには人狩り動物がいる。
+	arrivedLetter:ここには_<scaria>_に感染した人狩り動物がいる。
 }
 {PossibleUnknownThreatMarker
 	label:<<possible unknown threat??未知の脅威の可能性>>

@@ -6,5 +6,5 @@
 	leaderTitle:_[high stellarch]_
 	royalFavorLabel:_[royal favor]_
 	;句点がないのが不自然だが、英語版も付いていない。
-	renounceTitleMessage:_[Bladelink]_ と _{psycast}_ の使用は違法になる
+	;renounceTitleMessage:_[Bladelink]_ と _{psycast}_ の使用は違法になる
 }

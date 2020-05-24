@@ -31,6 +31,9 @@
 {Ability
 	label:<<Ability??能力>>
 }
+{Drug
+	label:<<Drug??ドラッグ>>
+}
 {EquippedStatOffsets
 	label:<<Offsets when equipped??装備時のオフセット>>
 }
@@ -61,4 +64,7 @@
 }
 {PawnWork
 	label:<<Work??作業>>
+}
+{Meditation
+	label:<<Meditation??瞑想>>
 }

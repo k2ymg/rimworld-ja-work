@@ -2,39 +2,39 @@
 	{stages
 		{psychic_harmony
 			label:<<psychic harmony??精神的同調>>: {HARMONIZER_labelShort}
-			description:_[psychic harmonizer]_ インプラントを使っている人が近くに居れば、その人の感情をいくらか感じられる。
+			description:_[psychic harmonizer]_インプラントを使っている人が近くに居ると、その人の感情を少し感じられる。
 		}
 	}
 }
 {GainedTitle
 	{stages
 		{Recieved_title
-			label:<<Recieved {TITLE} title??_{title}_ {TITLE} を受け取った>>
-			description:{TITLE} の_{title}_を授かった。認められて嬉しい！
+			label:<<Recieved {TITLE} title??{TITLE}の_{title}_を授かった>>
+			description:{TITLE}の_{title}_を授かった。認められて嬉しい！
 		}
 	}
 }
 {LostTitle
 	{stages
 		{Lost_title
-			label:<<Lost {TITLE} title??_{title}_ {TITLE} を失った>>
-			description:_{title}_ {TITLE} を失った。
+			label:<<Lost {TITLE} title??{TITLE}の_{title}_を失った>>
+			description:{TITLE}を_{title}_を失った。
 		}
 	}
 }
 {TitleApparelRequirementNotMet
 	{stages
 		{want_specific_apparel
-			label:<<want {TITLE}-specific apparel??{TITLE} 特有の衣服が欲しい>>
-			description:私のような {TITLE} は、その身分にふさわしい衣服に包まれているべきだ:\n\n{0}
+			label:<<want {TITLE}-specific apparel??{TITLE}に合う衣服が欲しい>>
+			description:私のような{TITLE}は、その身分にふさわしい衣服に包まれているべきだ:\n\n{0}
 		}
 	}
 }
 {TitleApparelMinQualityNotMet
 	{stages
 		{want_quality_apparel
-			label:<<want {TITLE}-quality apparel??{TITLE} 品質の衣服が欲しい>>
-			description:私のような {TITLE} は、 {QUALITY} 以上の品質の衣服を着るべきだ。
+			label:<<want {TITLE}-quality apparel??{TITLE}品質の衣服が欲しい>>
+			description:私のような{TITLE}は、{QUALITY}以上の品質の衣服を着るべきだ。
 		}
 	}
 }
@@ -42,7 +42,7 @@
 	{stages
 		{undignified_throneroom
 			label:<<undignified throneroom??威厳が無い_{throneroom}_>>
-			description:私は {TITLE} なのだから、私の_{throneroom}_には次のアイテムがあるべきだ:\n\n{0}
+			description:私は{TITLE}なのだから、_{throneroom}_は次の要件を満たすべきだ:\n\n{0}
 		}
 	}
 }
@@ -50,14 +50,14 @@
 	{stages
 		{undignified_bedroom
 			label:<<undignified bedroom??威厳が無い_{bedroom}_>>
-			description:私のような {TITLE} には次の要件を満たす_{bedroom}_がふさわしい:\n\n{0}
+			description:私のような{TITLE}には次の要件を満たす_{bedroom}_がふさわしい:\n\n{0}
 		}
 	}
 }
 {TitleNoThroneRoom
 	{stages
 		{no_throne_room
-			label:<<no throne room??_{throne room}_ がない>>
+			label:<<no throne room??_{throne room}_がない>>
 			description:_{throneroom}_が無い貴族ってなんだ？
 		}
 	}
@@ -66,7 +66,7 @@
 	{stages
 		{no_personal_bedroom
 			label:<<no personal bedroom??個人の_{bedroom}_がない>>
-			description:{TITLE} は個人の_{bedroom}_を持つべきだ。
+			description:{TITLE}は個人の_{bedroom}_を持つべきだ。
 		}
 	}
 }
@@ -138,56 +138,56 @@
 {ListeningToHarp
 	{stages
 		{listening_to_harp
-			label:<<listening to harp??_[harp]_ を聴いている>>
-			description:_[harp]_ はとても穏やかだ。
+			label:<<listening to harp??_[harp]_を聴いている>>
+			description:_[harp]_はとても穏やかだ。
 		}
 	}
 }
 {ListeningToHarpsichord
 	{stages
 		{listening_to_harpsichord
-			label:<<listening to harpsichord??_[harpsichord]_ を聴いている>>
-			description:_[harpsichord]_ の複雑さが心を満たしている。
+			label:<<listening to harpsichord??_[harpsichord]_を聴いている>>
+			description:_[harpsichord]_の複雑さが心を満たしている。
 		}
 	}
 }
 {ListeningToPiano
 	{stages
 		{listening_to_piano
-			label:<<listening to piano??_[piano]_ を聴いている>>
+			label:<<listening to piano??_[piano]_を聴いている>>
 			description:_[piano]_の音域は悲しさ、興奮、愉快さを同時に感じる。なんて音だ。
 		}
 	}
 }
-{NeedAuthority
-	{stages
-		{total_authority
-			label:<<total authority??完全な_{authority}_>>
-			description:ここの下々と何か共通点があるなんて誰も考えられないだろう。全員私の身分を認めている。充実している。
-		}
-		{strong_authority
-			label:<<strong authority??強い_{authority}_>>
-			description:庶民と良く離されている。このように徹底的に統治するのは良いことだ。
-		}
-		{uncertain_authority
-			label:<<uncertain authority??不確かな_{authority}_>>
-			description:私の立場が正しく理解されていないようだ。統治して、下々に私の身分を確立しなければならない。
-		}
-		{weak_authority
-			label:<<weak authority??弱い_{authority}_>>
-			description:最近統治する機会がほとんど無かった。皆は私が平民で無い事さえ知らない。ゆゆしき問題だ。
-		}
-		{no_authority
-			label:<<no authority??_{authority}_無し>>
-			description:私の身分が完全に無視されている！明けても暮れても平民のように振る舞わされている。これは屈辱だ！
-		}
-	}
-}
+;{NeedAuthority
+;	{stages
+;		{total_authority
+;			label:<<total authority??完全な_{authority}_>>
+;			description:ここの下々と何か共通点があるなんて誰も考えられないだろう。全員私の身分を認めている。充実している。
+;		}
+;		{strong_authority
+;			label:<<strong authority??強い_{authority}_>>
+;			description:庶民と良く離されている。このように徹底的に統治するのは良いことだ。
+;		}
+;		{uncertain_authority
+;			label:<<uncertain authority??不確かな_{authority}_>>
+;			description:私の立場が正しく理解されていないようだ。統治して、下々に私の身分を確立しなければならない。
+;		}
+;		{weak_authority
+;			label:<<weak authority??弱い_{authority}_>>
+;			description:最近統治する機会がほとんど無かった。皆は私が平民で無い事さえ知らない。ゆゆしき問題だ。
+;		}
+;		{no_authority
+;			label:<<no authority??_{authority}_無し>>
+;			description:私の身分が完全に無視されている！明けても暮れても平民のように振る舞わされている。これは屈辱だ！
+;		}
+;	}
+;}
 {DecreeUnmet
 	{stages
 		{decree_ignored
 			label:<<decree ignored??命令無視>>
-			description:{0} もの長い間、私の命令が無視されている。
+			description:{0}もの長い間、私の命令が無視されている。
 		}
 	}
 }
@@ -199,11 +199,19 @@
 		}
 		{major_psychic_breakdown
 			label:<<major psychic breakdown??サイキック障害 中>>
-			description:心がかき混ぜられた。目眩、混乱、考えられない、常に痛い。
+			description:心がかき乱される。目眩、混乱、考えられない、常に痛い。
 		}
 		{total_psychic_breakdown
 			label:<<total psychic breakdown??サイキック障害 完全>>
 			description:回っている、痛い、目眩が、考え、考えられない、考えられない...
+		}
+	}
+}
+{AnimaScream
+	{stages
+		{anima_scream
+			label:<<anima scream??アニマの叫び>>
+			description:木が死んだときから頭痛を感じる。ずっと鳴り響いている...
 		}
 	}
 }

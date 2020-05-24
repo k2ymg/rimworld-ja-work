@@ -268,7 +268,11 @@ title:_<artistic weirdo>_
 titleShort:_<weirdo>_
 desc:[PAWN_nameDef]は繁栄している_[Midworld]_の首都近くの家で育った。\n\n[PAWN_pronoun]は芸術と創造的な作業に才能があったが、奇抜な行動のために友達は少なかった。
 }
-
+{ArtSlave57
+title:_<art slave>_
+titleShort:_<artist>_
+desc:[PAWN_nameDef]は同期自転している_[urbworld]_の裏側で生まれた。ある口論の後、[PAWN_possessive]の父は[PAWN_objective]を地方の君主に奴隷芸術家として売った。\n\n芸術品を無理矢理作らされるか罰せられるかのどちらかだったので、引きこもり、他者と関係を持てなかった。
+}
 {ArtsPatron54
 title:_<arts patron>_
 titleShort:_<patron>_
@@ -2544,10 +2548,10 @@ titleShort:_<merc>_
 desc:Vasは十代を傭兵として過ごし、他の奴らを殺すために雇われていた。[PAWN_pronoun]は背が高く、威圧的で、恐ろしげだった。[PAWN_pronoun]の前を横切った者は誰でも恐怖を植え付けられ、[PAWN_pronoun]が望むなら殺された。
 }
 
-{MercenaryChef31
+{MercenaryChef44
 title:_<mercenary chef>_
 titleShort:_<mercenary>_
-desc:家族代々の慣例に倣い、[PAWN_nameDef]も傭兵になった。\n\n[PAWN_pronoun]には射撃の才能がある。しかし、[PAWN_pronoun]が本当にやりたい事は新しい料理を極めたり、珍しい機械を分解することだ。
+desc:家族代々の慣例に倣い、[PAWN_nameDef]も傭兵になった。\n\n[PAWN_pronoun]には射撃の才能があった。しかし、[PAWN_pronoun]が本当にやりたい事は新しい料理を極めたり、珍しい機械を分解することだ。
 }
 
 {MercenaryLeader28
@@ -2728,6 +2732,12 @@ desc:[PAWN_nameDef]は人生を礼拝に捧げることにした。[PAWN_pronoun
 title:_<mob henchman>_
 titleShort:_<henchman>_
 desc:奴隷商船によって故郷から「救出」された[PAWN_nameDef]は_[Urbworld]_の犯罪王に売られ、そこで子分として使われた。[PAWN_pronoun]は原始的な殴り合いと恫喝を専門にしていた。
+}
+
+{ModDesigner85
+title:_<mod designer>_
+titleShort:_<modder>_
+desc:[PAWN_nameDef]は前線の兵士達に戦闘MODを作っていた。\n\nある日、[PAWN_nameDef]は自分の仕事が誰も彼をも殺しているという悪夢を見た。[PAWN_pronoun]は_[rimworld]_へ行き、そこで自分の技能を良いことに使うことにした。
 }
 
 {Model99
@@ -4140,7 +4150,7 @@ desc:[PAWN_nameDef]は父と同じシステム技師だった。[PAWN_pronoun]�
 {Tamer79
 title:_<tamer>_
 titleShort:_<tamer>_
-desc:[PAWN_nameDef]の_{tribe}_における役割は、周りの自然、特に動物の世界、と繋がることだった。精神的な役割に加え、野生動物を手なずて、_{tribe}_に仕えるように世話をした。
+desc:[PAWN_nameDef]の_{tribe}_における役割は、周りの自然、特に動物の世界と繋がることだった。精神的な役割に加え、野生動物を手懐けて、_{tribe}_に仕えるように世話をした。
 }
 
 {Taster16

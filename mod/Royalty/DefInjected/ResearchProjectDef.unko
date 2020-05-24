@@ -6,6 +6,10 @@
 	label:[[royal apparel??王族の衣服]]
 	description:_<royal robe>_ や _<crown>_ のような最上級の貴族の服を作れるようになる。
 }
+{CataphractArmor
+	label:_[cataphract armor]_
+	description:_[cataphract armor]_ を作れるようになる。使用者の動きは遅くなるが、どんな攻撃も緩和する重いパワーアーマー。 _[advanced component]_ が必要。
+}
 {BrainWiring
 	label:[[brain wiring??脳配線]]
 	description:楽しさや痛みのような感覚を起こしたり防いだりする脳インプラントを作れるようになる。
@@ -28,9 +32,7 @@
 }
 {NeuralComputation
 	label:[[neural computation??神経計算]]
-	;todo:未翻訳
-	description:脳コンピュータインターフェースを使った、思考や学習を助ける脳インプラントを作れるようになる。
-	;Craft brain implants that assist thought and learning by use of a direct, shallow brain-computer interface.
+	description:直接的な脳コンピュータインターフェースを使った、思考や学習を助ける脳インプラントを作れるようになる。
 }
 {SkinHardening
 	label:[[skin hardening??皮膚硬化]]
@@ -63,8 +65,4 @@
 {Piano
 	label:_[piano]_
 	description:_[piano]_ を作れるようになる。高度な据え置きの楽器。
-}
-{CataphractArmor
-	label:_[cataphract armor]_
-	description:_[cataphract armor]_ を作れるようになる。使用者の動きは遅くなるが、どんな攻撃も緩和する重いパワーアーマー。 _[advanced component]_ が必要。
 }

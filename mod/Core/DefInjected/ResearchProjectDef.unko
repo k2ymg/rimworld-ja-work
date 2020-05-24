@@ -195,7 +195,7 @@
 }
 {Machining
 	label:_[machining]_
-	description:_[Machining table]_ を作れるようになる。銃、グレネード、フラック・アーマーを作ったり、死んだ _[Mechanoid]_ を資源へ分解できる。
+	description:_[Machining table]_ を作れるようになる。銃、グレネード、フラック・アーマーを作ったり、死んだ _[Mechanoid]_ を資源へ解体できる。
 }
 {SmokepopBelt
 	label:[[smokepop belts??_{smokepop belt}_]]
@@ -245,6 +245,14 @@
 	label:_[hospital bed]_
 	description:_[Hospital bed]_ を作れるようになる。治療効果を高める。
 }
+{DeepDrilling
+	label:_[deep drilling]_
+	description:_[Deep drill]_ を作れるようになる。地下から資源を採掘できる。資源を見つけるには _[Ground-penetrating scanner]_ が必要。
+}
+{GroundPenetratingScanner
+	label:_[ground-penetrating scanner]_
+	description:_[Ground-penetrating scanner]_ を作れるようになる。地下にある採掘可能な資源を見つける。作るには _[Advanced component]_ が必要。
+}
 {TransportPod
 	label:_[transport pod]_
 	description:打ち上げ式の _[Transport pod]_ を作れるようになる。人や物資を遠くまで送れる。襲撃、旅行、贈り物などに使える。
@@ -277,14 +285,6 @@
 	label:_[multi-analyzer]_
 	description:_[Multi-analyzer]_ を作れるようになる。研究速度を高め、より高度な研究を可能にする。
 }
-{GroundPenetratingScanner
-	label:_[ground-penetrating scanner]_
-	description:_[Ground-penetrating scanner]_ を作れるようになる。地下にある採掘可能な資源を見つける。作るには _[Advanced component]_ が必要。
-}
-{DeepDrilling
-	label:_[deep drilling]_
-	description:_[Deep drill]_ を作れるようになる。地下から資源を採掘できる。資源を見つけるには _[Ground-penetrating scanner]_ が必要。
-}
 {VitalsMonitor
 	label:_[vitals monitor]_
 	description:_[Vitals monitor]_ を作れるようになる。_[Hospital bed]_ の横に置くと治療効果を高める。
@@ -293,7 +293,7 @@
 	label:_[fabrication]_
 	description:_[Fabrication bench]_ を作れるようになる。_[Component]_ 組み立てから _[Power armor]_ 作成まで、ハイテクな事を行える。
 	discoveredLetterTitle:<<About: Getting advanced components??補足: _{advanced component}_ の入手>>
-	discoveredLetterText:_<fabrication bench>_ を作れる技術は手に入ったが、始める前に _<advanced component>_ もいくつか必要になる。 _<advanced component>_ の入手方法はいくつかある:\n\n  -全ての _<outlander>_ 居住地は _<advanced component>_ を売っている。キャラバンを送ってそれらを買う。\n  -いくつかの商人は _<advanced component>_ を売っている。彼らを呼び寄せるか、来るまで待つ。\n  -いくつかのクエストは _<advanced component>_ を報酬にしている。\n  -いくつかの特別な脅威に勝利したときに落とす。
+	discoveredLetterText:_<fabrication bench>_ を作れる技術は手に入ったが、始める前に _<advanced component>_ もいくつか必要になる。 _<advanced component>_ の入手方法はいくつかある:\n\n  -全ての _<outlander>_ 居住地は _<advanced component>_ を売っている。キャラバンを送ってそれらを買う。\n  -いくつかの商人は _<advanced component>_ を売っている。彼らを呼び寄せるか、来るまで待つ。\n  -いくつかのクエストは _<advanced component>_ を報酬にしている。
 
 }
 {AdvancedFabrication

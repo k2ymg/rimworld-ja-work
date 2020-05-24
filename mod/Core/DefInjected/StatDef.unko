@@ -1,6 +1,6 @@
-﻿{Ability_RequiredAmplifier
-	label:<<psychic amplifier level??_[psychic amplifier]_ レベル>>
-	description:この_{psycast}_の実行に必要な _[psychic amplifier]_ インプラントの最低レベル。
+﻿{Ability_RequiredPsylink
+	label:<<psylink level??_[psylink]_ レベル>>
+	description:この_{psycast}_を実行できる最低限の _[psylink]_ レベル。
 }
 {Ability_CastingTime
 	label:<<casting time??投射時間>>
@@ -8,8 +8,12 @@
 	formatString:<<{0} s??{0} 秒>>
 }
 {Ability_EntropyGain
-	label:<<entropy gain??エントロピー増加>>
-	description:この能力を使用した結果、 _{psychic entropy}_ が増える量。
+	label:<<neural heat gain??_{neural heat}_増加>>
+	description:この能力を使用した結果、 _{neural heat}_ が増える量。
+}
+{Ability_PsyfocusCost
+	label:_<psyfocus cost>_
+	description:この能力の実行に必要な _[psyfocus]_ 量。
 }
 {Ability_Range
 	label:<<range??範囲>>
@@ -30,7 +34,8 @@
 }
 {Ability_DetectChancePerEntropy
 	label:<<detection chance??検出確率>>
-	description:この_{psycast}_を使ったときに検出される可能性。\n\nある_{faction}_は_{psycast}_を持てる_{title}_を制限する法を守らせている。_{psycast}_を使うと、離れたところから精神的特徴を検出される可能性があり、外交問題に至る。\n\n検出確率は _[psychic silencer]_ インプラントでなくせる。
+	description:この_{psycast}_を使ったときに検出される可能性。\n\nある_{faction}_は_{psycast}_を持てる_{title}_を制限する法を守らせている。_{psycast}_を使うと、離れたところから精神的特徴を検出される可能性があり、外交問題に至る。
+	;\n\n検出確率は _[psychic silencer]_ インプラントでなくせる。
 }
 {StuffEffectMultiplierArmor
 	label:_<Armor>_ - _<Material effect multiplier>_
@@ -97,7 +102,7 @@
 {MarketValue
 	label:<<market value??市場価格>>
 	description:市場価格。\n\n実際の値段は交渉スキル、親密度、その他の状態依存の因子で調整される。
-	formatString:${0}
+	;formatString:${0}
 }
 {SellPriceFactor
 	label:<<sell price multiplier??売却価格乗数>>
@@ -158,6 +163,10 @@
 	label:_<construction speed>_
 	labelForFullStatList:_<construction speed>_ (_<material factor>_)
 	description:これから作られている物の建造速度への乗数。\n\n石などの素材から作ると遅く、木材などは速い。
+}
+{MeditationFocusStrength
+	label:<<meditation focus strength??瞑想集中力>>
+	description:瞑想でこれに集中したときに追加で得られる_<psyfocus>_の量。周りにある物や瞑想する人によってこの量が変わるものもある。
 }
 {WorkToBuild
 	label:<<work to build??建造工数>>
@@ -260,21 +269,8 @@
 	description:_{mood}_がこの値を下回っていると、_{mental break}_になる危険性がある。\n\n_{mental break}_の酷さは、この値をどれほど下回ったかによる。
 }
 {PsychicSensitivity
-	label:<<psychic sensitivity??精神感度>>
-	description:感度が高い人は、悪い事はより悪く、良い事はより良く影響を受ける。精神感度が高いと _<psychic entropy limit>_ も高くなる。
-}
-{PsychicEntropyMax
-	label:_<psychic entropy limit>_
-	description:安全に耐えられる一回の _<psychic entropy>_ の最大量。
-}
-{PsychicEntropyRecoveryRate
-	label:<<psychic entropy recovery rate??_{psychic entropy}_回復速度>>
-	description:この人物の _<psychic entropy>_ が減る速さ。
-	formatString:<<{0}/30s??{0}/30秒>>
-}
-{PsychicEntropyGain
-	label:<<psychic entropy gain??_{psychic entropy}_増加>>
-	description:あらゆる _<psychic entropy>_ 増加量への乗数。
+	label:_<psychic sensitivity>_
+	description:感度が高い人は、悪い事はより悪く、良い事はより良く影響を受ける。 _<psychic sensitivity>_ が高いと _<neural heat limit>_ も高くなる。
 }
 {ToxicSensitivity
 	label:<<toxic sensitivity??毒感度>>
@@ -366,7 +362,11 @@
 }
 {MiningSpeed
 	label:<<mining speed??採掘速度>>
-	description:採掘と地下資源ドリルの速度。
+	description:壁を崩す速度。
+}
+{DeepDrillingSpeed
+	label:<<deep drilling speed??_[deep drill]_ 速度>>
+	description:_[deep drill]_ で地下資源を取り出す速度。
 }
 {MiningYield
 	label:<<mining yield??採掘収率>>
@@ -458,16 +458,16 @@
 	description:生物を解体する速度。
 }
 {ButcheryMechanoidSpeed
-	label:<<mechanoid disassembly speed??_[Mechanoid]_分解速度>>
-	description:_[Mechanoid]_を分解する速度。
+	label:<<mechanoid shredding speed??_[Mechanoid]_解体速度>>
+	description:_[Mechanoid]_を資源へ解体する速度。
 }
 {ButcheryFleshEfficiency
 	label:<<butchery efficiency??解体効率>>
 	description:生物を解体したときに得られる肉の量。\n\n実際の量は生物の体格に依存する。
 }
 {ButcheryMechanoidEfficiency
-	label:<<mechanoid disassembly efficiency??_[Mechanoid]_分解効率>>
-	description:_[Mechanoid]_を分解したと時に得られる素材の量。\n\n実際の量は_[Mechanoid]_の体格に依存する。
+	label:<<mechanoid shredding efficiency??_[Mechanoid]_分解効率>>
+	description:_[Mechanoid]_を資源へ解体したと時に得られる素材の量。\n\n実際の量は_[Mechanoid]_の体格に依存する。
 }
 {StuffPower_Armor_Sharp
 	label:_<Armor - Sharp>_
@@ -520,7 +520,8 @@
 }
 {Bladelink_DetectionChance
 	label:<<detection chance??検出確率>>
-	description:戦闘で _[bladelink]_ を攻撃に使うたびに、それを検出される可能性。\n\nある_{faction}_は _[bladelink]_ を使える_{title}_を制限する法を守らせている。 _[bladelink]_ を使うと離れたところから検出される精神的特徴を放射する。不正に使って検出されると、外交問題になる。\n\n精神的特徴は  _[psychic silencer]_ インプラントで消せる。
+	description:戦闘で _[bladelink]_ を攻撃に使うたびに、それを検出される可能性。\n\nある_{faction}_は _[bladelink]_ を使える_{title}_を制限する法を守らせている。 _[bladelink]_ を使うと離れたところから検出される精神的特徴を放射する。不正に使って検出されると、外交問題になる。
+	;\n\n精神的特徴は  _[psychic silencer]_ インプラントで消せる。
 }
 {AccuracyTouch
 	label:<<Accuracy (touch)??精度 (近接)>>

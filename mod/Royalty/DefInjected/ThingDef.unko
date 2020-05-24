@@ -1,10 +1,6 @@
-﻿{PsychicSilencer
-	label:_[psychic silencer]_
-	description:不用心なサイキック放射を隠す_<archotech>_の装置で、それらを検出できなくする。副作用として、慢性的な痛みを引き起こす。\n\nこの手のインプラントは犯罪者の_{psycaster}_、ワイルドキャスター、_{bladelink}_利用者が当局の検知をかわすために使っている。
-}
-{PsychicSensitizer
+﻿{PsychicSensitizer
 	label:_[psychic sensitizer]_
-	description:この脳インプラントは、精神的相互作用に関係する脳の領域の成長を促進させることで、 _{psychic sensitivity}_ を高める。
+	description:この脳インプラントは、精神的相互作用に関係する脳の領域の成長を促進させることで、_<psychic sensitivity>_を高める。
 }
 {PsychicHarmonizer
 	label:_[psychic harmonizer]_
@@ -12,16 +8,7 @@
 }
 {PsychicReader
 	label:_[psychic reader]_
-	description:限定的な読心術を与え、交渉や社交の場で有利になるための能力を改善する。効果は使用者の _{psychic sensitivity}_ に比例する。
-}
-{PsychicAmplifier
-	label:_[psychic amplifier]_
-	description:脳をより大きな精神場へつなぐ_<archotech>_装置。特定の能力を訓練することで、様々な効果の_{psycast}_を投げられるようになる。\n\nこのインプラントは数段階アップグレードできる。より高いレベルはより強いサイキャストを使える。\n\n_[psychic amplifier]_ は自分一人で、失敗せずに取り付けられる。ユニットを頭蓋骨に押しつけると、神経蔓が挿入され、骨に固定される。取り除くには手術が必要。\n\n_{Imperial}_の法では _[psychic amplifier]_ の使用を特定の_{royal title}_に制限している。違法な使用は精神特徴を検出されて、外交問題が起こる恐れがある。
-	{comps
-		{CompUsableImplant
-			useLabel:_[psychic amplifier]_ を取り付ける
-		}
-	}
+	description:限定的な読心術を与え、交渉や社交の場で有利になるための能力を改善する。効果は使用者の_<psychic sensitivity>_に比例する。
 }
 {Neurocalculator
 	label:_[neurocalculator]_
@@ -33,9 +20,7 @@
 }
 {GastroAnalyzer
 	label:_[gastro-analyzer]_
-	;todo: 正確さってなんだよ、と。
-	description:食物に関連する匂いに注目した、嗅覚を強化するバイオニック鼻インプラント。多層超微細吸着メッシュが空気中の化合物を検出する。マイクロプロセッサが検出結果を嗅覚神経信号へ変換して、神経結合インターフェースから脳へ送る。その結果、強化されていない人には未知の深み、豊かさ、正確さを食物から嗅ぎ取れ、効率よく調理できる。ユニットは鼻に収まるほど小さいため、使用者の外見に影響を与えない。
-	;This bionic nose implant enhances the sense of smell, with a focus towards food-related smells. A multi-layered ultrafine absorption mesh detects compounds in the air. A microprocessor formats the readings into an olfactory nerve signal to send to the brain through a nerve-link interface. The result is that the user can smell foods with a depth, richness, and precision unknown among unenhanced humans, allowing them to cook more effectively. The whole unit is small enough to be installed in the nose without affecting the user's appearance.
+	description:食物に関連する匂いに注目した、嗅覚を強化するバイオニック鼻インプラント。多層超微細吸着メッシュが空気中の化合物を検出する。マイクロプロセッサが検出結果を嗅覚神経信号へ変換して、神経結合インターフェースから脳へ送る。その結果、強化されていない人には未知の深み、豊かさ、緻密さで食物の匂いを嗅ぎ取れ、効率よく調理できる。ユニットは鼻に収まるほど小さいため、使用者の外見に影響を与えない。
 }
 {Immunoenhancer
 	label:_[immunoenhancer]_
@@ -67,7 +52,7 @@
 }
 {AestheticNose
 	label:_[aesthetic nose]_
-	description:好みの鼻に整形され、流行の美しさ標準に合わせて、見た目を良くする。
+	description:鼻の形を使用者の好みに整形することで、美しさの流行に合わせ、見た目を良くする。
 }
 {LoveEnhancer
 	label:[[love enhancer??ラブ・エンハンサー]]
@@ -125,6 +110,15 @@
 	label:_[venom talon]_
 	description:収納可能な指の爪、前腕の毒ポンプに繋がっている。傷に毒を噴射しながら敵をひっかける。爪は中指に付けるように作られている。素早いが、_{armor}_は貫きにくい。
 }
+{PsychicAmplifier
+	label:_[psylink neuroformer]_
+	description:使用者の意識に_[psylink]_を形成したり強化したりする_[archotech]_製の消耗品。\n\nデバイスを目に押しつけると、そこから脳へ直接繋がり、自身の一部を再構築する。その後、デバイスはただの灰へ自壊する。
+	{comps
+		{CompUsableImplant
+			useLabel:<<Use neuroformer to form psylink??_[neuroformer]_で_[psylink]_を形成する>>
+		}
+	}
+}
 {SunBlocker
 	label:_[sun blocker]_
 	description:高高度に奇妙なフィールドを作るウルトラテック機械。空を不透過にして太陽を遮る。
@@ -147,11 +141,11 @@
 }
 {PsychicDroner
 	label:_[psychic droner]_
-	description:狂った超知能の考えを送る_[archotech]_装置。一つの性別に合わせた巨大な _{psychic drone}_ を作り、星の全域に影響する。その性別の人たちはその影響で動揺させられ、_{mood}_が下がり、狂うかもしれない。影響は個人の _{psychic sensitivity}_ で変化する。
+	description:狂った超知能の考えを送る_[archotech]_装置。一つの性別に合わせた巨大な _{psychic drone}_ を作り、星の全域に影響する。その性別の人たちはその影響で動揺させられ、_{mood}_が下がり、狂うかもしれない。影響は個人の _<psychic sensitivity>_ で変化する。
 }
 {PsychicSuppressor
 	label:_[psychic suppressor]_
-	description:特定の性別へ合わせた巨大なサイキック制圧場を作る_[archotech]_装置。その性別の人たちはサイキック活動を抑制される、意識が低下する。影響は個人の _{psychic sensitivity}_ で変化する。
+	description:特定の性別へ合わせた巨大なサイキック制圧場を作る_[archotech]_装置。その性別の人たちはサイキック活動を抑制される、意識が低下する。影響は個人の _<psychic sensitivity>_ で変化する。
 }
 {EMIDynamo
 	label:_[EMI dynamo]_
@@ -169,13 +163,14 @@
 	label:_[brazier]_
 	description:火を入れる鉢型の調度品。周りを照らして暖かくする。
 }
+@throne_desc:貴族が座って統治するための豪華な椅子。_[throne]_での統治は_[psyfocus]_を蓄える瞑想形態の一つ。
 {Throne
 	label:_[throne]_
-	description:貴族が座って統治するための、大きく、飾り立てられた椅子。_[Throne]_ が置かれた部屋は_{throneroom}_になり、座っている貴族の_{authority}_欲求を満たす。
+	description:大きな、_{throne_desc}_
 }
 {GrandThrone
 	label:_[grand throne]_
-	description:貴族が座って統治するための、巨大で、飾り立てられた椅子。_[Throne]_ が置かれた部屋は_{throneroom}_になり、座っている貴族の_{authority}_欲求を満たす。
+	description:巨大な、_{throne_desc}_
 }
 {UnstablePowerCell
 	label:_[unstable power cell]_
@@ -273,6 +268,25 @@
 	label:[[ship landing beacon??船着陸ビーコン]]
 	description:着陸場所の隅を示す。開けた場所 (最低 9x9) の四隅に配置して着陸場所を作る。通常、宇宙船はこの場所に、可能なら、着陸する。
 }
+@shrine_desc:_{tribe}_の_[psycaster]_は瞑想で_[psyfocus]_増加を高めるために、この聖地で集中できる。自然の聖地の力は近くにある人工物で失われるので、常に自然の中に作られる。
+@shrine_ignore:注意力が無い部外者には天然の物に見えるので、通常は略奪者達はこれを無視する。
+
+{MeditationSpot
+	label:_[meditation spot]_
+	description:瞑想する場所を指定する。_[Psycaster]_はここで瞑想して_[psyfocus]_を増やせる。彫刻のようなフォーカスオブジェクトが近くにあれば、_[psycaster]_はそれに集中して_[psyfocus]_増加を増やせる。しかし、何がフォーカスオブジェクトに使えるかは人によって異なる。
+}
+{NatureShrine_Small
+	label:[[small nature shrine??小さな_{nature shrine}_]]
+	description:霊的存在を称える小さな聖地。_{shrine_desc}__{shrine_ignore}_
+}
+{NatureShrine_Large
+	label:[[large nature shrine??大きな_{nature shrine}_]]
+	description:霊的存在を称える大きな聖地。_{shrine_desc}__{shrine_ignore}_
+}
+{AnimusStone
+	label:[[animus stone??アニマの岩]]
+	description:_{tribe}_の紋様が刻まれた古代の翡翠の岩。_{tribe}_の_[psycaster]_は一般的な自然の聖地よりも瞑想で_[psyfocus]_を増やすためにこの岩で集中できる。\n\n_{tribe}_の文化ごとに異なる話が伝わっているが、古代の霊が作ったというのは共通している。_{shrine_ignore}_
+}
 {UnfinishedMusicalInstrument
 	label:_[unfinished musical instrument]_
 	description:未完成の楽器。
@@ -294,20 +308,21 @@
 	description:進んだ据え置き型の楽器。鍵盤を押さえて演奏する、鋼の枠に張られた弦をハンマーが叩く。ハンマー機構と高い張りの弦は、とても柔らかく、大きな音で演奏できるので、ピアノをとても表現力が高い楽器にしている。\n\n_[smithy]_で作られる。
 }
 {Apparel_PsyfocusHelmet
-	label:_[psyfocus helmet]_
-	description:サイキック集中のために作られた軽いヘルメット。精神的防御を少し与え、特別な素材が _{psychic sensitivity}_ を強化して、_{psychic entropy}_ を発散させる。
+	label:_[eltex helmet]_
+	description:サイキック集中のために作られた軽いヘルメット。精神的防御を少し与え、特別な素材が _<psychic sensitivity>_ を強化して、_<neural heat>_を発散させる。
 }
+@eltex_e_desc:_<psychic sensitivity>_を強化して、_<neural heat>_ の発散を助ける。
 {Apparel_PsyfocusShirt
-	label:_[psyfocus shirt]_
-	description:特別なサイキック集中素材が埋め込まれたシャツ。_{psychic sensitivity}_を強化して、_{psychic entropy}_ の発散を助ける。
+	label:_[eltex shirt]_
+	description:特別なサイキック集中素材が埋め込まれたシャツ。_{eltex_e_desc}_
 }
 {Apparel_PsyfocusVest
-	label:_[psyfocus vest]_
-	description:特別なサイキック集中素材が埋め込まれた薄手のベスト。_{psychic sensitivity}_ を強化して、_{psychic entropy}_ の発散を助ける。
+	label:_[eltex vest]_
+	description:特別なサイキック集中素材が埋め込まれた薄手のベスト。_{eltex_e_desc}_
 }
 {Apparel_PsyfocusRobe
-	description:サイキック集中素材が埋め込まれた長いローブ。_{psychic sensitivity}_ を強化して、_{psychic entropy}_ の発散を助ける。
-	label:_[psyfocus robe]_
+	description:サイキック集中素材が埋め込まれた長いローブ。_{eltex_e_desc}_
+	label:_[eltex robe]_
 }
 {Apparel_ShirtRuffle
 	label:_[ruffle shirt]_
@@ -341,15 +356,48 @@
 	label:_[crown]_
 	description:精巧なデザインの、金属製の豪華な冠。上流階級の貴族が身につけている。
 }
-@cataphract_desc:このような防具は_{imperial}_の _[cataphract]_ が強固に要塞化した陣地を、他に手が無ければ、正面突破するために使っている。
+@royal_common_desc:このような高価で美しい鎧は、普通は貴族のために作られている。埋め込まれた_[eltex]_糸が着用者の_<psychic sensitivity>_を強化する。
+{Apparel_ArmorReconRoyal
+	;'Lightweight'が無いだけで普通のrecon armorと同じ
+	label:_[royal recon armor]_
+	description:迅速な移動を可能にする、_軽量な準強化アーマーのスーツ。_<plasteel>_積層装甲が機動性を損なわずに攻撃を受け止め、また、下半身のニューロ・メメティック補助装置により、鎧を付けても簡単に動けるようになっている。\n\n_{royal_common_desc}_
+}
+{Apparel_ArmorHelmetReconRoyal
+	;途中までrecon helmetと同じ
+	label:_[royal recon helmet]_
+	description:ステータス・コンピュータを内蔵し、_<plasteel>_積層装甲で作られているハイテクな装甲ヘルメット。\n\n_{royal_common_desc}_
+}
+{Apparel_ArmorMarineRoyal
+	;途中までmarine armorと同じ
+	label:_[royal marine armor]_
+	description:_{power armor}_のスーツ。弱い関節部分を除けば、_<plasteel>_積層装甲が攻撃をとても効果的に防いでいる。ニューロ・メメティック補助装置により、重い鎧を着ても簡単に動けるようになっている。\n\n_{royal_common_desc}_
+}
+{Apparel_ArmorMarineHelmetRoyal
+	;途中までmarine helmetと同じ
+	label:_[royal marine helmet]_
+	description:_ステータス・コンピューターを内蔵し、_<plasteel>_積層装甲で作られている_[marine armor]_のヘルメット。\n\n_{royal_common_desc}_
+}
+@cataphract_armor_desc:重いパワーアーマーのスーツ。最高の防御のために機動性を犠牲にして作られている。密にアブレーションコーティングされた重い _<plasteel>_ 積層装甲が正確な、または強力な攻撃をほとんど防ぐ。スーツの重みで着用者が完全に行動不能になるのをニューロ・メメティック補助装置が防いでいるが、それでもまだとても扱いにくい。
+@cataphract_common_desc:このような防具は_{imperial}_の _[cataphract]_ が強固に要塞化した陣地を、他に手が無ければ、正面突破するために使っている。
+@cataphract_helmet_desc:強固な装甲を施したハイテクヘルメット。密な _<plasteel>_ 積層シェル、死角用の間接映像システムを備える。強力な、または幸運な攻撃をほとんど防ぐ。
 {Apparel_ArmorCataphract
 	;文はマーリンアーマーと似ている。
 	label:_[cataphract armor]_
-	description:重いパワーアーマーのスーツ。最高の防御のために機動性を犠牲にして作られている。密にアブレーションコーティングされた重い _<plasteel>_ 積層装甲が正確な、または強力な攻撃をほとんど防ぐ。スーツの重みで着用者が完全に行動不能になるのをニューロ・メメティック補助装置が防いでいるが、それでもまだとても扱いにくい。\n\n_{cataphract_desc}_
+	description:_{cataphract_armor_desc}_\n\n_{cataphract_common_desc}_
 }
 {Apparel_ArmorHelmetCataphract
 	label:_[cataphract helmet]_
-	description:強固な装甲を施したハイテクヘルメット。密な _<plasteel>_ 積層シェル、死角用の間接映像システムを備える。強力な、または幸運な攻撃をほとんど防ぐ\n\n_{cataphract_desc}_
+	description:_{cataphract_helmet_desc}_\n\n_{cataphract_common_desc}_
+}
+{Apparel_ArmorCataphractRoyal
+	;途中までcataphract armorと同じ
+	label:_[royal cataphract armor]_
+	description:_{cataphract_armor_desc}_\n\n_{royal_common_desc}_
+}
+{Apparel_ArmorHelmetCataphractRoyal
+	;途中までcataphract helmetと同じ
+	label:_[royal cataphract helmet]_
+	description:_{cataphract_helmet_desc}_\n\n_{royal_common_desc}_
 }
 {ShuttleIncoming
 	label:_[shuttle]_ (<<incoming??入>>)
@@ -361,6 +409,12 @@
 	label:_[monument marker]_
 	description:モニュメント建設予定地の印。一度置くと取り除けない。
 }
+{BulletShieldPsychic
+	label:_<bullet shield>_
+}
+{Flashstorm
+	label:_<flashstorm>_
+}
 
 @link_desc:この武器には一個人とだけ繋がる人格が内蔵されている。使用者と高性能武器は反射神経を同調して、恐ろしいほどの速さ、正確さ、創造性で攻撃できるようになる。使用者と一度繋がると、この武器の人格はそれ以外の人の利用を拒否するようになる。
 
@@ -369,7 +423,7 @@
 @plasmasword_desc:金属製の芯に刃が付いた剣。芯を取り囲むプラズマは、エネルギー場によってその場へ固定されている。標的は金属芯で切られ、さらにプラズマの鞘で燃えたり発火したりする。
 
 {MeleeWeapon_MonoSwordBladelink
-	label:_[link monosword]_
+	label:_[persona monosword]_
 	; 途中まではノーマルと*ほぼ*同じ
 	description:結晶金属の長剣で、単分子の刃を持続する_[mechanite]_が含まれている。厚い鎧でも楽に切り裂き、その軽さと内臓人格が高速な攻撃を可能にする。\n\n_{link_desc}_
 	{tools
@@ -385,7 +439,7 @@
 	}
 }
 {MeleeWeapon_ZeusHammerBladelink
-	label:_[link zeushammer]_
+	label:_[persona zeushammer]_
 	description:_{zeushammer_desc}_\n\n_{link_desc}_
 	{tools
 		{handle
@@ -397,7 +451,7 @@
 	}
 }
 {MeleeWeapon_PlasmaSwordBladelink
-	label:_[link plasmasword]_
+	label:_[persona plasmasword]_
 	description:_{plasmasword_desc}_\n\n_{link_desc}_
 	{tools
 		{handle
@@ -482,11 +536,27 @@
 	description:古代の軍の照準器。軌道プラットホームから標的位置に _[mechanoid]_ の戦闘クラスターを落とす信号を送る。クラスターには _[mechanoid]_  や防衛設備が含まれている。\n\nこれを作った古代の軍に従っていたとはいえ、落ちてきたメカは今では目に入る人間を、呼び出した人物を含め、無差別に攻撃する。\n\n使い切りのコードが含まれているので、一度しか使えない。
 }
 {MeleeWeapon_PsyfocusStaff
-	label:_[psyfocus staff]_
-	description:サイキック集中素材を巻き付けた、ウルトラテックの軽い杖。武器としてはあまり役に立たないが、これを振るう_{psycaster}_は _{psychic sensitivity}_ が大きくなり、 _{psychic entropy}_ の発散が速くなる。
+	label:_[eltex staff]_
+	description:サイキック集中素材を巻き付けたウルトラテックの杖。堅い打撃武器だが、使用者の__<psychic sensitivity>_と_<neural heat>_発散を強化するので、より良い_[psycast]_ができるようになる。
 	{tools
 		{head
 			label:_<head>_
 		}
 	}
+}
+{%Plant_TreeAnimaNormal
+	label:_[anima tree]_
+	description:暖かく、滑らかな樹皮と長い虹色の葉を持つ珍しい木。発光する微生物が含まれている木は、周りの生物と珍しい精神的協調を作り出しており、様々な環境で育つことができる。\n\n_[psycaster]_かどうかに関わらず、誰かが近くで瞑想すると、周りに_[anima grass]_が育つ。草が十分に育つと、木と精神的に繋がる儀式を行えるようになり、サイキックパワーをアップグレードできる。_{tribe}_民だけが儀式の秘密を知っている。_{tribe}_の_[psycaster]_は木で瞑想すると、木から_[psyfocus]_を引き出せる。\n\nこの木のサイキック特性は人工構造物が近くにあると弱まる。閉じ込めたり、研究したりはできず、自然の一部に留め置かないといけない。\n\n殆どの_{tribe}_はこの木を単なる木ではなく、ワールドスピリットの物理的な末端だと思っている。
+	{comps
+		{CompGiveThoughtToAllMapPawnsOnDestroy
+			message:_[anima tree]_が死んで、不穏な精神的悲鳴を上げた。
+		}
+	}
+}
+{Plant_TreeAnimaHardy
+	$:Plant_TreeAnimaNormal
+}
+{Plant_GrassAnima
+	label:_[anima grass]_
+	description:発光する微生物が含まれている草。_{tribe}_民は_[anima tree]_で瞑想するとこの草が周りに育つことを発見した。木の精神的力の何らかの強さを反映しているように見える。\n\n_[offworld]_の科学者達はこの現象を調査しようとしたが、間近で観察しようとすると普通の草に退化してしまった。\n\n動物たちはこの草を食べようとしない。_{tribe}_の言い伝えでは、これは敬意と恐怖のためだと言われている。
 }

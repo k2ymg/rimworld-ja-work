@@ -1919,6 +1919,7 @@
 			:r_art_name->[art_name_numeric]
 			:r_art_name->[Artwork] [art_name_numeric]
 			:r_art_name->[ConceptAny_e] No. [art_name_numeric]
+			;ANYPAWN_nameIndef はdefの名前が直接入るので、aタイプでは日本語が入る可能性がある。
 			:r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]
 			:r_art_name(p=6)->[ANYPAWN_nameIndef]'s [Artwork]
 			:r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color_e]
@@ -2786,7 +2787,7 @@
 			:fireball(p=3)->火球
 			:fireball->火炎球
 			:fireball->衝撃波
-			:fireball->業火
+			:fireball->猛火
 
 			:pieces->破片
 			:pieces->断片

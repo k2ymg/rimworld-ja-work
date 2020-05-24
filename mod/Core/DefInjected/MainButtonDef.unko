@@ -10,8 +10,8 @@
 	description:どの_{colonist}_が、どのような作業を、どのような優先度で行うか決める。
 }
 {Restrict
-	label:_[restrict]_
-	description:_{colonist}_の一日の時間割を決めたり、活動範囲を制限する。
+	label:_[schedule]_
+	description:_{colonist}_の一日の行動を決めたり、活動範囲を設定したりする。
 }
 {Assign
 	label:_[assign]_

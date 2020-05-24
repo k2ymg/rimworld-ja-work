@@ -8,7 +8,7 @@ indworld:インワールド
 ;hiveworld:ハイブワールド
 hivemind:ハイブマインド
 midworld:ミッドワールド
-offworld:オフワールド
+;offworld:オフワールド->common
 rim world:リムワールド
 rimworld:リムワールド
 urban world:アーバンワールド
@@ -27,7 +27,7 @@ ancient:古代民
 ;insect:虫 -> common
 insectoid:インセクトイド
 outlander:アウトランダー
-tribe:部族
+;tribe:部族 -> common
 tribesman:部族民
 chief:族長
 pirate:海賊
@@ -45,7 +45,7 @@ ambrosia sprout:_[ambrosia]_ の発芽
 aurora:オーロラ
 climate cycle:クライメイト・サイクル
 eclipse:日食
-flashstorm:嵐
+;flashstorm:嵐 -> common
 planetkiller:プラネットキラー
 ;psychic drone -> common
 psychic soothe:サイキック・スーズ
@@ -55,6 +55,6 @@ solar flare:太陽フレア
 ;toxic fallout -> common
 volcanic winter:火山の冬
 manhunter pack:人狩りの群れ
-infestation:害虫侵入
+;infestation:害虫侵入
 party:パーティ
 short circuit:短絡

@@ -44,10 +44,7 @@
 }
 {$DrugToleranceBase
 	{stages
-		{small-0
-			label:<<small??小>>
-		}
-		{small-1
+		{small
 			label:<<small??小>>
 		}
 		{large
@@ -93,12 +90,7 @@
 {GoJuiceHigh
 	label:<<high on go-juice??_[go-juice]_ で高揚している>>
 	labelNoun:<<a go-juice high??_[go-juice]_ ハイ>>
-	description:血中の_[go-Juice]_。戦闘能力を過度に高める。
-}
-{GoJuiceTolerance
-	label:<<go-juice tolerance??_[go-juice]_ 鈍化>>
-	description:_[go-juice]_鈍化の進行。悪化するほど、同じ効果を得るにはさらに_[go-juice]_が必要になる。
-	$:DrugToleranceBase
+	description:血中の_[go-juice]_。戦闘能力を過度に高める。また、最初の注入で_[psyfocus]_が直ぐさま増える。
 }
 {GoJuiceAddiction
 	label:_<go-juice addiction>_
@@ -108,6 +100,11 @@
 			label:_<withdrawal>_
 		}
 	}
+}
+{GoJuiceTolerance
+	label:<<go-juice tolerance??_[go-juice]_ 鈍化>>
+	description:_[go-juice]_鈍化の進行。悪化するほど、同じ効果を得るにはさらに_[go-juice]_が必要になる。
+	$:DrugToleranceBase
 }
 {LuciferiumHigh
 	label:_[luciferium]_
@@ -177,12 +174,7 @@
 {WakeUpHigh
 	label:<<high on wake-up??_[wake-up]_ で高揚している>>
 	labelNoun:<<a wake-up high??_[wake-up]_ ハイ>>
-	description:血中の_[Wake-up]_。脳を刺激して睡眠欲求を満たす。
-}
-{WakeUpTolerance
-	label:<<wake-up tolerance??_[wake-up]_ 鈍化>>
-	description:_[wake-up]_鈍化の進行。悪化するほど、同じ効果を得るにはさらに_[wake-up]_が必要になる。
-	$:DrugToleranceBase
+	description:血中の_[wake-up]_。脳を活発にして催眠欲求を満たし、集中力を高め、仕事を速くこなせる。また、瞑想による_[psyfocus]_増加を高める。
 }
 {WakeUpAddiction
 	label:_<wake-up addiction>_
@@ -192,6 +184,11 @@
 			label:_<withdrawal>_
 		}
 	}
+}
+{WakeUpTolerance
+	label:<<wake-up tolerance??_[wake-up]_ 鈍化>>
+	description:_[wake-up]_鈍化の進行。悪化するほど、同じ効果を得るにはさらに_[wake-up]_が必要になる。
+	$:DrugToleranceBase
 }
 {BloodLoss
 	label:<<blood loss??失血>>
@@ -235,14 +232,14 @@
 	description:何も出来なくなる精神ショック状態。倒れて、ほぼ気絶状態になる。
 }
 {PsychicShock
-	label:<<psychic shock??サイキック・ショック>>
-	labelNoun:<<a psychic shock??サイキック・ショック>>
-	description:頭と心が精神的に乱れている状態。精神攻撃や危険レベルの_{psychic entropy}_で起こり、原因が消えるまで衰弱させる。
+	label:_<psychic shock>_
+	labelNoun:<<a psychic shock??_{psychic shock}_>>
+	description:頭と心が精神的に乱れている状態。精神攻撃や危険レベルの_{neural heat}_で起こり、原因が消えるまで衰弱させる。
 }
 {PsychicHangover
 	label:_<psychic hangover>_
 	labelNoun:<<a psychic hangover??_{psychic hangover}_>>
-	description:_{psychic entropy}_の後遺症。_{psychic hangover}_は面倒だが、危険ではない。
+	description:_{neural heat}_の後遺症。_{psychic hangover}_は面倒だが、危険ではない。
 	{stages
 		{forming
 			label:<<forming??幻覚>>
@@ -255,7 +252,7 @@
 {BrainShock
 	label:_<brain shock>_
 	labelNoun:<<a brain shock??_{brain shock}_>>
-	description:脳への電気ショックの後遺症。これは普通、EMPパルスが当たった脳のインプラントからのフィードバックで起こる。
+	description:脳への電気ショックによる後遺症。これは普通、EMPパルスが当たった脳のインプラントからのフィードバックで起こる。
 }
 {CryptosleepSickness
 	label:<<cryptosleep sickness??_[cryptosleep]_ 症>>
@@ -850,6 +847,12 @@
 	}
 	$:InjuryBase
 }
+{ExecutionCut
+	label:<<cut??切り傷>>
+	labelNoun:<<a cut??切り傷>>
+	description:処刑による切り傷。
+	$:InjuryBase
+}
 {Scratch
 	label:<<scratch??ひっかき傷>>
 	labelNoun:<<a scratch??ひっかき傷>>
@@ -1028,6 +1031,29 @@
 			label:_<catatonic>_
 		}
 	}
+}
+{Scaria
+	label:_<scaria>_
+	description:動物を凶暴にする疫病。_<scaria>_にかかった動物は特別医療で治せるが、その前に倒さないといけない。手当てしなければ、感染から約五日後に宿主を殺す。この病気は肉を毒して皮膚を腐らせるので、感染している動物は死んだときに腐る可能性があり、解体しても肉や皮は得られない。
+}
+{BloodRot
+	label:_<blood rot>_
+	description:ゆっくりと成長する細菌による疫病。この細菌は成長途中ではあまり影響はないが、成長限界に達すると即死性の毒を放出する。体の免疫系がこれを取り除くには長い時間がかかるので、それまでは普通の薬で症状を押さえ込むのが標準的な手当になっている。_[Glitterworld]_の医者は大量の_[mechanite]_投与でこの感染症を直ぐさま治すが、それには大きな費用がかかる。
+	{stages
+		{minor
+			label:<<minor??小>>
+		}
+		{major
+			label:<<major??中>>
+		}
+		{extreme
+			label:<<extreme??大>>
+		}
+	}
+}
+{Abasia
+	label:<<paralytic abasia??麻痺性歩行不能症>>
+	description:運動野に影響し、歩行不能になる状態。
 }
 {SandInEyes
 	label:_<sand>_

@@ -14,9 +14,9 @@
 	label:_[blinding pulse]_
 	description:脳の視覚中枢に乱れを起こし、標的近くにいる人の視力をあいまいにする。
 }
-{EntropyLink
-	label:_[entropy link]_
-	description:使用者と対象の間に精神的なつながりを作ることで、両者で共有された _{psychic entropy}_ を増減させる。つながりはしばらく続くが、両者が遠くへ離れると壊れる。
+{EntropyDump
+	label:[[neural heat dump??_{neural heat}_ ダンプ]]
+	description:全ての_{neural heat}_を他者へ瞬時に捨てる。副作用として、対象者は約一日、無害だが弱々しい昏睡状態になる。対象者はサイキック侵入を能動的に受け入れないといけないので、意識がある味方にしか対象にできない。
 }
 {Beckon
 	label:_[beckon]_
@@ -66,8 +66,20 @@
 	label:_[mass chaos skip]_
 	description:標的近くの人をでたらめな位置へ飛ばす。遠くへは飛ばない。
 }
+{Waterskip
+	label:[[waterskip??ウォーター スキップ]]
+	description:対象領域に水をかけて、火を消す。水は遠くの水域や地下の帯水層から_{archotech}_の技術で飛ばしてくる。
+}
+{Flashstorm
+	label:_[flashstorm]_
+	description:圧力差があるスキップゲートを大気中で使い、局所的な_{flashstorm}_を作り出す。嵐は消えるまでの間、その地域に時々雷を落とす。
+}
+{BulletShield
+	label:_[bullet shield]_
+	description:出入りする全ての低空の飛翔体を別の場所へ飛ばす円形のスキップゲートを作り出す。人や物には影響しない。
+}
 {%Speech
-	label:<<throne speech??_{throne}_ の _{speech}_>>
+	label:<<throne speech??_{throne}_で_{speech}_>>
 	;keyedにあるテキストとほぼ同じ
-	description:_{throne}_から_{speech}_を始める。全ての_{colonist}_が集まって聞く。上手くいけば、聞き手は感動して話者を尊敬する。下手なら_{speech}_は社交を悪化させる。結果は話者の社交能力に依存する。
+	description:_{throne}_で_{speech}_を始める。全ての_{colonist}_が集まって聞く。上手くいけば、聞き手は感動して話者を尊敬する。下手なら_{speech}_は社交を悪化させる。結果は話者の社交能力に依存する。
 }

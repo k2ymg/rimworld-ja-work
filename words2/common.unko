@@ -5,13 +5,20 @@ prisoner:囚人
 guest:客人
 faction:派閥
 village:村
+offworld:オフワールド
+
+goodwill:友好度
 
 archotech:アーコテック
 mechanoid:メカノイド
 mechanoid hive:_{mechanoid}_・ハイブ
 mechanite:メカナイト
 insect:虫
+hive:巣
+infestation:害虫侵入
+tribe:部族
 
+Quest expired:クエスト期限切れ
 blueprint:設計
 frame:施工
 
@@ -25,6 +32,7 @@ heat wave:熱波
 cold snap:寒波
 psychic drone:サイキック・ドローン
 toxic fallout:毒性の降灰
+flashstorm:嵐
 
 ; ThingCategory
 psytrainer:サイトレイナー
@@ -35,13 +43,25 @@ title:称号
 royal title:爵位
 throneroom:王座の間
 psychic entropy:サイキック・エントロピー
+neural heat:神経熱
 psychic entropy limit:_{psychic entropy}_ 上限
+neural heat limit:_{neural heat}_ 上限
+psychic sensitivity:サイキック感度
+psyfocus cost:_[psyfocus]_ コスト
+eltex:エルテックス
+
 ;おんし？もっと良い名前は？
 royal favor:恩賜
-speech:スピーチ
-concert:コンサート
+speech:演説
+concert:演奏会
+psyfocus:サイフォーカス
 psycast:サイキャスト
+psycaster:サイキャスター
+psylink:サイリンク
+neuroformer:ニューロフォーマー
+psylink neuroformer:_{psylink}_ ニューロフォーマー
 bladelink:ブレードリンク
+persona:ペルソナ
 
 tribute collector:トリビュート・コレクター
 

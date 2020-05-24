@@ -1,0 +1,17 @@
+﻿{PsychicEntropyMax
+	label:_<neural heat limit>_
+	description:安全に耐えられる_<neural heat>_の最大量。
+}
+{PsychicEntropyRecoveryRate
+	label:<<neural heat recovery rate??_{neural heat}_回復速度>>
+	description:_<neural heat>_が減る速さ。
+	formatString:<<{0}/s??{0}/秒>>
+}
+{PsychicEntropyGain
+	label:<<neural heat gain??_{neural heat}_増加>>
+	description:あらゆる_<neural heat>_増加量への乗数。
+}
+{MeditationFocusGain
+	label:<<meditation focus gain??瞑想集中増加>>
+	description:瞑想中に増える_[psyfocus]_への乗数。
+}

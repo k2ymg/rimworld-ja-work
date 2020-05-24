@@ -36,7 +36,7 @@
 }
 {GoJuice
 	label:_[go-juice]_
-	description:_?ゴージュース。?_惑星間戦争の初期に宇宙軍向けに開発された人工的な身体強化ドラッグ。_[Go-juice]_は痛みを抑え、動きも速くなり、近・遠距離攻撃能力を高める。\n\nこれを作った軍の化学者達は中毒症状を取り除くことができなかった。一部はこれを欠点と捉えたが、大多数は違った。
+	description:_?ゴージュース。?_惑星間戦争の初期に宇宙軍向けに開発された人工的な身体強化ドラッグ。_[go-juice]_は痛みを抑え、動きが速くなり、近・遠距離攻撃能力を高める。\n\nこれを作った軍の化学者達は中毒症状を取り除くことができなかった。一部はこれを欠点と捉えたが、大多数は違った。
 	{ingestible
 		ingestCommandString:{0} を注射する
 		ingestReportString:{0} を注射している。
@@ -87,296 +87,297 @@
 }
 {WakeUp
 	label:_[wake-up]_
-	description:_?ウェイクアップ。?_合成興奮剤。_[Wake-up]_は眠気を覚まし、疲れることなく長時間働けるようになる。しかし、何度も使うと精神が不安定になる中毒になり、そして精神的な障害を引き起こす事もある。\n\n世界各地の競争が激しい大学や企業では、頑張り過ぎな成功者達が_[Wake-up]_中毒により時より精神異常を起こす事が知られている。
+	description:合成興奮剤。_[Wake-up]_は睡眠欲求を満たし、疲れずに長時間働けるようになる。しかし、_[wake-up]_の摂取は中毒を引き起こす。\n\n世界各地の競争が激しい大学や企業では、有能な人たちはこのドラッグとの関わりから「ウェイクアップ達」と呼ばれることがある。
 	$:MakeableDrugPillBase
 }
-{$MoteBase
-	;TODO:後で消す
-	;訳す必要は全く無いと思うが、警告がうるさいので
-	label:<<Mote??モート>>
-}
-{Mote_SparkThrown
-	$:MoteBase
-}
-{Mote_SparkThrownFast
-	$:MoteBase
-}
-{Mote_SparkThrownFastBlue
-	$:MoteBase
-}
-{Mote_LongSparkThrown
-	$:MoteBase
-}
-{Mote_Splash
-	$:MoteBase
-}
-{Mote_SmokeJoint
-	$:MoteBase
-}
-{Mote_SmokeFlake
-	$:MoteBase
-}
-{Mote_ExtinguisherPuff
-	$:MoteBase
-}
-{$MoteFeedbackBase
-	$:MoteBase
-}
-{Mote_FeedbackGoto
-	$:MoteFeedbackBase
-}
-{Mote_FeedbackShoot
-	$:MoteFeedbackBase
-}
-{Mote_FeedbackMelee
-	$:MoteFeedbackBase
-}
-{Mote_FeedbackEquip
-	$:MoteFeedbackBase
-}
-{Mote_FeedbackExtinguish
-	$:MoteFeedbackBase
-}
-{Mote_Clean
-	$:MoteBase
-}
-{Mote_Sow
-	$:MoteBase
-}
-{Mote_Harvest
-	$:MoteBase
-}
-{Mote_ClearSnow
-	$:MoteBase
-}
-{Mote_Cards
-	$:MoteBase
-}
-{Mote_HealingCross
-	$:MoteBase
-}
-{Mote_SleepZ
-	$:MoteBase
-}
-{Mote_Heart
-	$:MoteBase
-}
-{Mote_IncapIcon
-	$:MoteBase
-}
-{Mote_Stun
-	$:MoteBase
-}
-{Mote_ColonistFleeing
-	$:MoteBase
-}
-{Mote_ColonistAttacking
-	$:MoteBase
-}
-{Mote_DrunkBubble
-	$:MoteBase
-}
-{Mote_BerserkBit
-	$:MoteBase
-}
-{$InteractionMoteBase
-	$:MoteBase
-}
-{Mote_Speech
-	$:InteractionMoteBase
-}
-{Mote_Thought
-	$:InteractionMoteBase
-}
-{$MoodMoteBase
-	$:MoteBase
-}
-{Mote_ThoughtGood
-	$:MoodMoteBase
-}
-{Mote_ThoughtBad
-	$:MoodMoteBase
-}
-{Mote_Text
-	$:MoteBase
-}
-{Mote_ProgressBar
-	$:MoteBase
-}
-{Mote_Footprint
-	$:MoteBase
-}
-{Mote_Horseshoe
-	$:MoteBase
-}
-{Mote_Stone
-	$:MoteBase
-}
-{Mote_TempRoof
-	$:MoteBase
-}
-{Mote_Danger
-	$:MoteBase
-}
-{Mote_ShotFlash
-	$:MoteBase
-}
-{Mote_SparkFlash
-	$:MoteBase
-}
-{Mote_YellowSparkFlash
-	$:MoteBase
-}
-{Mote_ExplosionFlash
-	$:MoteBase
-}
-{Mote_BloodSplash
-	$:MoteBase
-}
-{Mote_BodyImpact
-	$:MoteBase
-}
-{Mote_GrowingFlash
-	$:MoteBase
-}
-{Mote_PlainFlash
-	$:MoteBase
-}
-{Mote_ActivatorCountdownFlash
-	$:MoteBase
-}
-{Mote_ActivatorCountdownGlow
-	$:MoteBase
-}
-{Mote_ActivatorProximityGlow
-	$:MoteBase
-}
-{Mote_ShotHit_Spark
-	$:MoteBase
-}
-{Mote_ShotHit_Dirt
-	$:MoteBase
-}
-{Mote_Leaf
-	$:MoteBase
-}
-{Mote_SandInEyes
-	$:MoteBase
-}
-{Mote_BlastDry
-	$:MoteBase
-}
-{Mote_BlastEMP
-	$:MoteBase
-}
-{Mote_LineEMP
-	$:MoteBase
-}
-{Mote_BlastFlame
-	$:MoteBase
-}
-{Mote_ElectricalSpark
-	$:MoteBase
-}
-{Mote_BlastExtinguisher
-	$:MoteBase
-}
-{Mote_FireGlow
-	$:MoteBase
-}
-{%Mote_MicroSparks
-	$:MoteBase
-}
-{Mote_MicroSparksFast
-	$:Mote_MicroSparks
-}
-{Mote_HeatGlow
-	$:MoteBase
-}
-{Mote_LightningGlow
-	$:MoteBase
-}
-{$FoodBitBase
-	$:MoteBase
-}
-{Mote_FoodBitVegetarian
-	$:FoodBitBase
-}
-{Mote_FoodBitMeat
-	$:FoodBitBase
-}
-{Mote_StoneBit
-	$:FoodBitBase
-}
-{Mote_CookBit
-	$:FoodBitBase
-}
-{Mote_VomitBit
-	$:FoodBitBase
-}
-{Mote_AirPuff
-	$:MoteBase
-}
-{Mote_DustPuff
-	$:MoteBase
-}
-{Mote_DustPuffThick
-	$:MoteBase
-}
-{Mote_MetaPuff
-	$:MoteBase
-}
-{Mote_TornadoDustPuff
-	$:MoteBase
-}
-{Mote_Smoke
-	$:MoteBase
-}
-{Mote_DustSlow
-	$:MoteBase
-}
-{Mote_Bombardment
-	$:MoteBase
-}
-{Mote_PowerBeam
-	$:MoteBase
-}
-{Mote_GiantExplosion
-	$:MoteBase
-}
-{Mote_GiantExplosionInner
-	$:MoteBase
-}
-{%Mote_PsychicConditionCauserEffect
-	$:MoteBase
-}
-{Mote_PsychicEmanatorEffect
-	$:Mote_PsychicConditionCauserEffect
-}
-{%Mote_ForceJob
-	$:MoteBase
-}
-{Mote_ForceJobMaintained
-	$:Mote_ForceJob
-}
-{$MoteGlowDistortBackground
-	$:MoteBase
-}
-{Mote_PsycastPsychicEffect
-	$:MoteGlowDistortBackground
-}
-{Mote_PsycastPsychicLine
-	$:MoteGlowDistortBackground
-}
-{Mote_PsycastAreaEffect
-	$:MoteGlowDistortBackground
-}
-{$MoteWaterBase
-	$:MoteBase
-}
-{Mote_WaterSplash
-	$:MoteWaterBase
-}
+;{$MoteBase
+;	label:<<Mote??モート>>
+;}
+;{Mote_SparkThrown
+;	$:MoteBase
+;}
+;{Mote_SparkThrownFast
+;	$:MoteBase
+;}
+;{Mote_SparkThrownFastBlue
+;	$:MoteBase
+;}
+;{Mote_LongSparkThrown
+;	$:MoteBase
+;}
+;{Mote_Splash
+;	$:MoteBase
+;}
+;{Mote_SmokeJoint
+;	$:MoteBase
+;}
+;{Mote_SmokeFlake
+;	$:MoteBase
+;}
+;{Mote_ExtinguisherPuff
+;	$:MoteBase
+;}
+;{$MoteFeedbackBase
+;	$:MoteBase
+;}
+;{Mote_FeedbackGoto
+;	$:MoteFeedbackBase
+;}
+;{Mote_FeedbackShoot
+;	$:MoteFeedbackBase
+;}
+;{Mote_FeedbackMelee
+;	$:MoteFeedbackBase
+;}
+;{Mote_FeedbackEquip
+;	$:MoteFeedbackBase
+;}
+;{Mote_FeedbackExtinguish
+;	$:MoteFeedbackBase
+;}
+;{Mote_Clean
+;	$:MoteBase
+;}
+;{Mote_Sow
+;	$:MoteBase
+;}
+;{Mote_Harvest
+;	$:MoteBase
+;}
+;{Mote_ClearSnow
+;	$:MoteBase
+;}
+;{Mote_Cards
+;	$:MoteBase
+;}
+;{Mote_HealingCross
+;	$:MoteBase
+;}
+;{Mote_SleepZ
+;	$:MoteBase
+;}
+;{Mote_Heart
+;	$:MoteBase
+;}
+;{Mote_IncapIcon
+;	$:MoteBase
+;}
+;{Mote_Stun
+;	$:MoteBase
+;}
+;{Mote_ColonistFleeing
+;	$:MoteBase
+;}
+;{Mote_ColonistAttacking
+;	$:MoteBase
+;}
+;{Mote_Meditating
+;	$:MoteBase
+;}
+;{Mote_DrunkBubble
+;	$:MoteBase
+;}
+;{Mote_BerserkBit
+;	$:MoteBase
+;}
+;{$InteractionMoteBase
+;	$:MoteBase
+;}
+;{Mote_Speech
+;	$:InteractionMoteBase
+;}
+;{Mote_Thought
+;	$:InteractionMoteBase
+;}
+;{$MoodMoteBase
+;	$:MoteBase
+;}
+;{Mote_ThoughtGood
+;	$:MoodMoteBase
+;}
+;{Mote_ThoughtBad
+;	$:MoodMoteBase
+;}
+;{Mote_Text
+;	$:MoteBase
+;}
+;{Mote_ProgressBar
+;	$:MoteBase
+;}
+;{Mote_Footprint
+;	$:MoteBase
+;}
+;{Mote_Horseshoe
+;	$:MoteBase
+;}
+;{Mote_Stone
+;	$:MoteBase
+;}
+;{Mote_TempRoof
+;	$:MoteBase
+;}
+;{Mote_Danger
+;	$:MoteBase
+;}
+;{Mote_ShotFlash
+;	$:MoteBase
+;}
+;{Mote_SparkFlash
+;	$:MoteBase
+;}
+;{Mote_YellowSparkFlash
+;	$:MoteBase
+;}
+;{Mote_ExplosionFlash
+;	$:MoteBase
+;}
+;{Mote_BloodSplash
+;	$:MoteBase
+;}
+;{Mote_BodyImpact
+;	$:MoteBase
+;}
+;{Mote_GrowingFlash
+;	$:MoteBase
+;}
+;{Mote_PlainFlash
+;	$:MoteBase
+;}
+;{Mote_ActivatorCountdownFlash
+;	$:MoteBase
+;}
+;{Mote_ActivatorCountdownGlow
+;	$:MoteBase
+;}
+;{Mote_ActivatorProximityGlow
+;	$:MoteBase
+;}
+;{Mote_ShotHit_Spark
+;	$:MoteBase
+;}
+;{Mote_ShotHit_Dirt
+;	$:MoteBase
+;}
+;{Mote_Leaf
+;	$:MoteBase
+;}
+;{Mote_SandInEyes
+;	$:MoteBase
+;}
+;{Mote_BlastDry
+;	$:MoteBase
+;}
+;{Mote_BlastEMP
+;	$:MoteBase
+;}
+;{Mote_LineEMP
+;	$:MoteBase
+;}
+;{Mote_BlastFlame
+;	$:MoteBase
+;}
+;{Mote_ElectricalSpark
+;	$:MoteBase
+;}
+;{Mote_BlastExtinguisher
+;	$:MoteBase
+;}
+;{Mote_FireGlow
+;	$:MoteBase
+;}
+;{%Mote_MicroSparks
+;	$:MoteBase
+;}
+;{Mote_MicroSparksFast
+;	$:Mote_MicroSparks
+;}
+;{Mote_HeatGlow
+;	$:MoteBase
+;}
+;{Mote_LightningGlow
+;	$:MoteBase
+;}
+;{$FoodBitBase
+;	$:MoteBase
+;}
+;{Mote_FoodBitVegetarian
+;	$:FoodBitBase
+;}
+;{Mote_FoodBitMeat
+;	$:FoodBitBase
+;}
+;{Mote_StoneBit
+;	$:FoodBitBase
+;}
+;{Mote_CookBit
+;	$:FoodBitBase
+;}
+;{Mote_VomitBit
+;	$:FoodBitBase
+;}
+;{Mote_AirPuff
+;	$:MoteBase
+;}
+;{Mote_DustPuff
+;	$:MoteBase
+;}
+;{Mote_DustPuffThick
+;	$:MoteBase
+;}
+;{Mote_MetaPuff
+;	$:MoteBase
+;}
+;{Mote_TornadoDustPuff
+;	$:MoteBase
+;}
+;{Mote_Smoke
+;	$:MoteBase
+;}
+;{Mote_DustSlow
+;	$:MoteBase
+;}
+;{Mote_Bombardment
+;	$:MoteBase
+;}
+;{Mote_PowerBeam
+;	$:MoteBase
+;}
+;{Mote_GiantExplosion
+;	$:MoteBase
+;}
+;{Mote_GiantExplosionInner
+;	$:MoteBase
+;}
+;{%Mote_PsychicConditionCauserEffect
+;	$:MoteBase
+;}
+;{Mote_PsychicEmanatorEffect
+;	$:Mote_PsychicConditionCauserEffect
+;}
+;{%Mote_ForceJob
+;	$:MoteBase
+;}
+;{Mote_ForceJobMaintained
+;	$:Mote_ForceJob
+;}
+;{$MoteGlowDistortBackground
+;	$:MoteBase
+;}
+;{Mote_PsycastPsychicEffect
+;	$:MoteGlowDistortBackground
+;}
+;{Mote_PsycastPsychicLine
+;	$:MoteGlowDistortBackground
+;}
+;{Mote_PsycastAreaEffect
+;	$:MoteGlowDistortBackground
+;}
+;{$MoteWaterBase
+;	$:MoteBase
+;}
+;{Mote_WaterSplash
+;	$:MoteWaterBase
+;}
 {ArchotechEye
 	label:_[archotech eye]_
 	description:_[Archotech]_により作られた義眼。電波、赤外線、可視光、エックス線、ガンマ線など、あらゆる電磁波を知覚できる。視力は20メートル離れた所から手書きの文字を十分に読み取れる程に正確。懐中電灯のように様々な波長を放射し、内部の下位人格AIが便利な視覚情報を強調してくれる。自分の意志で色を変えられる以外は、外観は人間本来の眼と変わらない。その内部構造は人類には理解不能である。
@@ -391,7 +392,7 @@
 }
 {BionicEye
 	label:_[bionic eye]_
-	description:_?バイオニック・アイ。?_高度な義眼。バイオゲル神経接続、内部信号前処理、広帯域センサーにより、あらゆる面において生体の目よりも優れている。Lattice-dust修復システムによりダメージを回復できる。
+	description:_?バイオニック・アイ。?_高度な義眼。バイオゲル神経接続、内部信号前処理、広帯域センサーにより、あらゆる面において生体の目より優れている。Lattice-dust修復システムによりダメージを回復できる。
 }
 {BionicArm
 	label:_[bionic arm]_
@@ -399,7 +400,7 @@
 }
 {BionicLeg
 	label:_[bionic leg]_
-	description:_?バイオニック・レッグ。?_高度な義足。バイオゲル神経接続、強力な小型サーボ、Lattice-dust修復システムにより、あらゆる面において生体の脚よりも優れている。
+	description:_?バイオニック・レッグ。?_高度な義足。バイオゲル神経接続、強力な小型サーボ、Lattice-dust修復システムにより、あらゆる面において生体の脚より優れている。
 }
 {BionicSpine
 	label:_[bionic spine]_
@@ -407,19 +408,19 @@
 }
 {BionicHeart
 	label:_[bionic heart]_
-	description:_?バイオニック・ハート。?_高度な人工心臓。本物の鼓動を模倣するための人工筋繊維を備え、高負荷時に急速循環させる大流量ポンプも備えている。あらゆる面において生体の心臓よりも優れている。
+	description:_?バイオニック・ハート。?_高度な人工心臓。本物の鼓動を模倣するための人工筋繊維を備え、高負荷時に急速循環させる大流量ポンプも備えている。あらゆる面において生体の心臓より優れている。
 }
 {BionicStomach
 	label:_[bionic stomach]_
-	description:_?バイオニック・ストマック。?_高度な人工胃。センサーと化学合成器がエネルギーを生み出す食物ならなんでも効率的に殆ど消化する。統合されたLattice-dust修復システムが強酸により受けたダメージを自動的に修復する。あらゆる面において生体の胃よりも優れている。
+	description:_?バイオニック・ストマック。?_高度な人工胃。センサーと化学合成器がエネルギーを生み出す食物ならなんでも効率的に殆ど消化する。統合されたLattice-dust修復システムが強酸により受けたダメージを自動的に修復する。あらゆる面において生体の胃より優れている。
 }
 {DeathAcidifier
 	label:_[death acidifier]_
 	description:_?デス・アシディフィアー。?_敵に取られた装備を使われないようにするための胴のインプラント。使用者が死ぬと、強力な薬品が放たれ、体に触れている装備を溶かす。他にはダメージを与えない。
 }
-{Mote_AcidCloud
-	$:MoteBase
-}
+;{Mote_AcidCloud
+;	$:MoteBase
+;}
 {BionicEar
 	label:_[bionic ear]_
 	description:_?バイオニック・イアー。?_高度な人工内耳。皮下に隠されたマイクロホン群が音声を集め、聴覚神経に直結しているバイオゲル神経インターフェースに送信する。ネコが忍び寄る音が聞こえるほどに敏感だが、大きな雑音でも壊れず、五月蠅い環境から意味のある音を拾えるように自動的に調整される。
@@ -955,29 +956,36 @@
 	label:_[barricade]_
 	description:銃撃から身を守るための、腰高の障壁。_{barricade}_は見苦しいが、他の低い物よりは身を隠しやすい。
 }
+
+@trap_common_desc:周りの地形に隠すので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+
 {TrapSpike
 	label:_[spike trap]_
-	description:_?スパイク・トラップ。?_接触式トリガーに接続し、張力を掛けた五本の棘。犠牲者がトリガーに触れると棘が飛び出して突き刺さる。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+	description:_?スパイク・トラップ。?_接触式トリガーに接続し、張力を掛けた五本の棘。犠牲者がトリガーに触れると棘が飛び出して突き刺さる。_{trap_common_desc}_
 }
 {TrapIED_HighExplosive
 	label:_[IED trap]_
-	description:_?IED トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[High-explosive shell]_ 。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+	description:_?IED トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[High-explosive shell]_ 。_{trap_common_desc}_
 }
 {TrapIED_Incendiary
 	label:_[IED incendiary trap]_
-	description:_?IED インセンディアリ・トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[Incendiary shell]_ 。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+	description:_?IED インセンディアリ・トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[Incendiary shell]_ 。_{trap_common_desc}_
 }
 {TrapIED_EMP
 	label:_[IED EMP trap]_
-	description:_?IED EMP トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[EMP shell]_ 。爆発すると_<Mechanoid>_を数秒間停止させる。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+	description:_?IED EMP トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[EMP shell]_ 。爆発すると_<Mechanoid>_を数秒間停止させる。_{trap_common_desc}_
+}
+{TrapIED_Smoke
+	label:_[IED Smoke trap]_
+	description:_?IED スモーク・トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[smoke shell]_ 。_{trap_common_desc}_
 }
 {TrapIED_Firefoam
 	label:_[IED firefoam trap]_
-	description:_?IED ファイアフォーム・トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[Firefoam shell]_ 。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+	description:_?IED ファイアフォーム・トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した二つの _[Firefoam shell]_ 。_{trap_common_desc}_
 }
 {TrapIED_AntigrainWarhead
 	label:_[IED antigrain warhead trap]_
-	description:_?IED アンチグレイン・ウォーヘッド・トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した _[Antigrain warhead]_ 。周囲の地形に隠されるので、他のトラップの隣には置けない。動物は落ち着いているときにはトラップに気付く。
+	description:_?IED アンチグレイン・ウォーヘッド・トラップ。?_接触や弾の衝撃で起爆するトリガーに接続した _[Antigrain warhead]_ 。_{trap_common_desc}_
 }
 {Turret_MiniTurret
 	label:_[mini-turret]_
@@ -1097,7 +1105,7 @@
 }
 {Column
 	label:_[column]_
-	description:_?カラム。?_屋根を支えられる柱。司会や移動を遮らず、見た目もとても良い。
+	description:_?カラム。?_屋根を支えられる柱。視界や移動を遮らず、見た目も良い。
 }
 {Campfire
 	label:_[campfire]_
@@ -1122,7 +1130,7 @@
 {$ArtifactBase
 	{comps
 		{CompUsable
-			useLabel:起動する
+			useLabel:<<Activate??起動する>>
 		}
 	}
 }
@@ -1361,9 +1369,12 @@
 	label:_[smokeleaf leaves]_
 	description:_?スモークリーフ・リーフス。?__[Smokeleaf plant]_から切り取った生の葉。  _[Crafting spot]_ で_[Joint]_にできる。
 }
+
+@shell_common_desc:_[Mortar]_で発射するか、罠として使える。壊れると爆発する。
+
 {Shell_HighExplosive
 	label:_[high-explosive shell]_
-	description:_?ハイ・エクスプローシブ・シェル。?_高性能爆薬を詰めた弾殻。_[Mortar]_で発射するか、罠として使える。壊れると爆発する。
+	description:_?ハイ・エクスプローシブ・シェル。?_高性能爆薬を詰めた砲弾。_{shell_common_desc}_
 }
 {Bullet_Shell_HighExplosive
 	label:_[high-explosive shell]_
@@ -1371,7 +1382,7 @@
 }
 {Shell_Incendiary
 	label:_[incendiary shell]_
-	description:_?インセンディアリ・シェル。?_可燃性ゲルと少量の炸薬を詰めた弾殻。破裂すると燃え始める。_[Mortar]_で発射するか、罠として使える。壊れると爆発する。
+	description:_?インセンディアリ・シェル。?_可燃性ゲルと少量の炸薬を詰めた砲弾。_{shell_common_desc}_
 }
 {Bullet_Shell_Incendiary
 	label:_[incendiary shell]_
@@ -1379,15 +1390,23 @@
 }
 {Shell_EMP
 	label:_[EMP shell]_
-	description:_?EMPシェル。?_バッテリーとアンテナを詰めた弾殻で、破裂すると電磁パルスを発する。電磁パルスが電子機器や_<Mechanoid>_を一時的に停止させる。_<Mortar>_で発射するか、罠として使える。壊れると爆発する。
+	description:_?EMPシェル。?_バッテリーとアンテナを詰めた砲弾で、破裂すると電磁パルスを発する。電磁パルスが電子機器や_<Mechanoid>_を一時的に停止させる。_{shell_common_desc}_
 }
 {Bullet_Shell_EMP
 	label:_[EMP shell]_
 	$:BaseBullet
 }
+{Shell_Smoke
+	label:_[Smoke shell]_
+	description:_?スモーク・シェル。?_起爆すると煙を出す砲弾で、入ってくる射撃をかすませ、_{turret}_の照準を妨害する。_{shell_common_desc}_
+}
+{Bullet_Shell_Smoke
+	label:_[Smoke shell]_
+	$:BaseBullet
+}
 {Shell_Firefoam
 	label:_[firefoam shell]_
-	description:_?ファイアフォーム・シェル。?_難燃性の泡を高圧充填した弾殻。_<Mortar>_で発射するか、罠として使える。壊れると爆発する。
+	description:_?ファイアフォーム・シェル。?_難燃性の泡を高圧充填した砲弾。_{shell_common_desc}_
 }
 {Bullet_Shell_Firefoam
 	label:_[firefoam shell]_
@@ -1395,12 +1414,13 @@
 }
 {Shell_AntigrainWarhead
 	label:_[antigrain warhead]_
-	description:_?アンチグレイン・ウォーヘッド。?_反物質の一粒を使った超ハイテクな弾頭。主に宇宙艦艇や_[Glitterworld]_の戦争兵器で使われており、大爆発を起こし、周りに火を放つ。_[Mortar]_で発射するか、罠として使える。壊れると爆発する。
+	description:_?アンチグレイン・ウォーヘッド。?_反物質の一粒を使った超ハイテクな弾頭。主に宇宙艦艇や_[Glitterworld]_の戦争兵器で使われており、大爆発を起こし、周りに火を放つ。_{shell_common_desc}_
 }
 {Bullet_Shell_AntigrainWarhead
 	label:_[antigrain warhead]_
 	$:BaseBullet
 }
+
 {Silver
 	label:_[silver]_
 	description:_?シルバー。?_この金属は主に資源国通貨として使われる。装飾品を作るためにも使える。
@@ -1681,12 +1701,14 @@
 	description:_?フラック・ヘルメット。?_軽量な戦闘用ヘルメット。複雑な作りで、_<Plasteel>_で強化されている。鈍器に対しては効果がない。
 }
 {Apparel_PowerArmorHelmet
+	;royaltyにも同じ文があるので注意
 	label:_[marine helmet]_
-	description:_?マーリン・ヘルメット。?_ステータス・コンピューターを内蔵し、_<Plasteel>_積層装甲で作られている _[Marine armor]_ のヘルメット。\n\nこのような防具は帝国兵や強襲宇宙海兵隊が使っている。
+	description:_?マーリン・ヘルメット。?_ステータス・コンピューターを内蔵し、_[plasteel]_積層装甲で作られている _[marine armor]_ のヘルメット。\n\nこのような防具は帝国兵や強襲宇宙海兵隊が使っている。
 }
 {Apparel_ArmorHelmetRecon
+	;royaltyにも同じ文があるので注意
 	label:_[recon helmet]_
-	description:_?レコン・アーマー。?_ステータス・コンピュータを内蔵し、_<Plasteel>_積層装甲で作られているハイテクな装甲ヘルメット。\n\nこのような防具は帝国偵察兵や_[glitterworld]_の警察部隊で使われている。
+	description:_?レコン・アーマー。?_ステータス・コンピュータを内蔵し、_[plasteel]_積層装甲で作られているハイテクな装甲ヘルメット。\n\nこのような防具は帝国偵察兵や_[glitterworld]_の警察部隊で使われている。
 }
 {Apparel_PsychicFoilHelmet
 	label:_[psychic foil helmet]_
@@ -1737,10 +1759,12 @@
 	description:_?フラック・ジャケット。?_装甲板を縫い付けた頑丈な生地のジャケット。硬いアーマー程ではないが、あらゆる攻撃を効果的に防ぎ、着心地もまだ十分に保たれている。
 }
 {Apparel_PowerArmor
+	;royaltyにも同じ文があるので注意
 	label:_[marine armor]_
-	description:_?マーリン・アーマー。?__{power armor}_のスーツ。弱い関節部分を除けば、_<Plasteel>_積層装甲が攻撃をとても効果的に防いでいる。ニューロ・メメティック補助装置により、重い鎧を着ても簡単に動けるようになっている。\n\nこのような防具は帝国の_{janissary}_や強襲宇宙海兵隊が使っている。
+	description:_?マーリン・アーマー。?__{power armor}_のスーツ。弱い関節部分を除けば、_<plasteel>_積層装甲が攻撃をとても効果的に防いでいる。ニューロ・メメティック補助装置により、重い鎧を着ても簡単に動けるようになっている。\n\nこのような防具は帝国の_{janissary}_や強襲宇宙海兵隊が使っている。
 }
 {Apparel_ArmorRecon
+	;royaltyにも同じ文があるので注意
 	label:_[recon armor]_
 	description:_?レコン・アーマー。?_迅速な移動を可能にする、_軽量な準強化アーマーのスーツ。軽量な_<plasteel>_積層装甲が機動性を損なわずに攻撃を受け止め、また、下半身のニューロ・メメティック補助装置により、鎧を付けても簡単に動けるようになっている。\n\nこのような防具は帝国の偵察兵や _[glitterworld]_ の警官隊が使っている。
 }
@@ -1847,6 +1871,9 @@
 }
 {Filth_Ash
 	label:_[ash]_
+}
+{Filth_Water
+	label:<<water puddle??水たまり>>
 }
 {$BaseGas
 	label:gas
@@ -2928,7 +2955,7 @@
 		}
 	}
 	{race
-		meatLabel:_<beef>_
+		meatLabel:_[beef]_
 	}
 }
 {Alpaca

@@ -97,3 +97,5 @@ expiryInfoPart
 expiryInfoPartTip
 renounceTitleMessage
 arrivingPawnsLabelDef
+mentalBreakInspirationGainReasonText
+message

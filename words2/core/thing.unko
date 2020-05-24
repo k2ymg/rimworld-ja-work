@@ -13,7 +13,7 @@ research bench:研究台
 ;neurotrainer mech serum:_{neurotrainer}_・メック・シーラム
 hop:ホップ
 sculpture:彫像
-power armor:パワー・アーマー
+;power armor:パワー・アーマー -> common
 
 beer:ビール
 wort:麦汁
@@ -134,7 +134,7 @@ compacted plasteel:潰れた_{plasteel}_
 jade:ヒスイ
 compacted machinery:潰れた機械
 steam geyser:蒸気間欠泉
-hive:巣
+;hive -> common
 glow pod:グロウ・ポッド
 raised rocks:持ち上がった岩
 power conduit:電線管
@@ -180,6 +180,7 @@ spike trap:スパイク・トラップ
 IED trap:IEDトラップ
 IED incendiary trap:IED焼夷トラップ
 IED EMP trap:IED EMPトラップ
+IED Smoke trap:IEDスモークトラップ
 IED firefoam trap:IED消化トラップ
 IED antigrain warhead trap:IED反物質弾頭トラップ
 mini-turret:小型ターレット
@@ -263,6 +264,7 @@ smokeleaf leaves:_{smokeleaf}_の葉
 high-explosive shell:ハイ・エクスプローシブ・シェル
 incendiary shell:インセンディアリ・シェル
 EMP shell:EMPシェル
+smoke shell:スモーク・シェル
 firefoam shell:ファイアフォーム・シェル
 antigrain warhead:アンチグレイン・ウォーヘッド
 silver:銀
@@ -332,7 +334,7 @@ plate armor:プレート・アーマー
 flak vest:フラック・ベスト
 flak pants:フラック・パンツ
 flak jacket:フラック・ジャケット
-marine armor:マーリン・アーマー
+;marine armor:マーリン・アーマー -> common
 recon armor:レコン・アーマー
 bombardment:爆撃
 power beam:パワー・ビーム
@@ -390,7 +392,6 @@ machine pistol bullet:銃弾
 incendiary launcher:焼夷弾投射器
 incendiary bolt:焼夷弾
 smoke launcher:スモーク・ランチャー
-smoke shell:スモーク・シェル
 smoke launcher shell:スモーク・ランチャー・シェル
 EMP launcher:EMP・ランチャー
 EMP launcher shell:EMP・ランチャー・シェル

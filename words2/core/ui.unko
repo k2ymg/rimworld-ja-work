@@ -22,6 +22,7 @@ Generate:生成
 ui/architect:設計
 work:作業
 restrict:制限
+schedule:時間割り
 assign:割り当て
 animal:動物
 animals:_{animal}_
@@ -36,7 +37,7 @@ menu:メニュー
 Options:オプション
 
 Historical:過去
-Quest expired:クエスト期限切れ
+;Quest expired:クエスト期限切れ
 
 orders:指示
 zone:ゾーン
@@ -120,12 +121,12 @@ Crashlanded:墜落
 Lost Tribe:失われた部族
 The Rich Explorer:金持ちな冒険者
 Naked Brutality:野獣
-peaceful:平和
-difficulty/builder:建設
-difficulty/medium:普通
-rough:荒々しい
-savage:獰猛
-merciless:無慈悲
+;peaceful:平和
+;difficulty/builder:建設
+;difficulty/medium:普通
+;rough:荒々しい
+;savage:獰猛
+;merciless:無慈悲
 Commitment mode:制限モード
 Reload anytime mode:非制限モード
 Merciless mode:無慈悲モード

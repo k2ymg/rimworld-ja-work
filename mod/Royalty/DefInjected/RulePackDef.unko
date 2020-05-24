@@ -1,8 +1,8 @@
 ﻿;todo: allRewardsDescriptions(Reward_Itemsなど)で、最後に「。」が付く問題があるが、ピリオドをコードで除去している。
 ; 当然これは機能しない。RW側の問題。
 
-;Namerは全て放置
 {NamerFactionEmpire
+	;名前なので触らない
 	{rulePack
 		{?rulesStrings
 			:r_name(p=2)->[empire] of [ofThing]
@@ -29,7 +29,9 @@
 		}
 	}
 }
+
 {NamerSettlementEmpire
+	;名前なので触らない
 	{rulePack
 		{?rulesStrings
 			:r_name->[townname_wordgen]
@@ -62,7 +64,9 @@
 		;}
 	}
 }
+
 {NamerPersonEmpire
+	;名前なので触らない
 	{rulePack
 		{?rulesStrings
 			:r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]
@@ -71,7 +75,9 @@
 		}
 	}
 }
+
 {NamerPersonEmpireFemale
+	;名前なので触らない
 	{rulePack
 		{?rulesStrings
 			:r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]
@@ -80,6 +86,7 @@
 		}
 	}
 }
+
 {QuestConstructionNameCommon
 	{rulePack
 		{?rulesStrings
@@ -115,16 +122,17 @@
 		}
 	}
 }
+
 {QuestConstructionDescriptionCommon
 	{rulePack
 		{?rulesStrings
 			:questDescription(askerIsNull==true)->不思議なメッセージが届いた。名乗らない機械人格から送られてきたようだ。メッセージは特別なモニュメントを作るように頼んでいる。\n\n[commonEnding]
-			:questDescription(asker_factionLeader==True)->[asker_faction_name] の [asker_faction_leaderTitle] [asker_nameFull] が[buildReason]モニュメントを作るように要求している。\n\n[commonEnding]
-			:questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] の [asker_royalTitleInCurrentFaction] [asker_nameFull] が[buildReason]モニュメントを作るように要求している。\n\n[commonEnding]
+			:questDescription(asker_factionLeader==True)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameFull]が[buildReason]モニュメントを作るように要求している。\n\n[commonEnding]
+			:questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]の[asker_royalTitleInCurrentFaction]、[asker_nameFull]が[buildReason]モニュメントを作るように要求している。\n\n[commonEnding]
 
-			:asker2(askerIsNull==true)->the archotech
+			:asker2(askerIsNull==true)->_[archotech]_
 			:asker2(asker_factionLeader==True)->[asker_nameDef]
-			:asker2(asker_royalInCurrentFaction==True)->the [asker_royalTitleInCurrentFaction]
+			:asker2(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction]
 
 			:buildReason->[asker_possessive]の[PersonFamily]の[PersonalCharacteristic]を記念する
 			:buildReason->[asker_possessive]の[PersonalCharacteristic]を記念する
@@ -146,55 +154,53 @@
 			:glory->一族
 
 			; 下に全く同じ文がある
-			:failLetterEndingCommon(askerIsNull==true,priority=1)->クエスト '[resolvedQuestName]' に失敗した。
-			:failLetterEndingCommon->クエスト '[resolvedQuestName]' に失敗した。\n\n[asker_faction_name] との関係は [goodwillPenalty] 下がった。
+			:failLetterEndingCommon(askerIsNull==true,priority=1)->クエスト'[resolvedQuestName]'に失敗した。
+			:failLetterEndingCommon->クエスト'[resolvedQuestName]'に失敗した。\n\n[asker_faction_name]との関係は[goodwillPenalty]下がった。
 		}
 	}
 }
+
 {QuestHospitalityCommon
 	{rulePack
 		{?rulesStrings
-			:allLodgerInfo->[healthInfo] [specialSkillsInfo] [minMoodInfo]
+			:allLodgerInfo->[healthInfo][minMoodInfo][workInfo]
 
 			:lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]
 			:lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]
 			:lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]
 			:lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]
 
-			:healthInfo(lodgersAreDowned==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] は傷ついて歩けないかもしれない。
-			:healthInfo(lodgersAreDowned==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] は傷ついて歩けないかもしれない。
-			:healthInfo(lodgersAreSick==true,lodgersCount==1,priority=1)->[lodgers0_nameDef] は [lodgersDisease_label] にかかっている。
-			:healthInfo(lodgersAreSick==true,lodgersCount>=2,priority=1)->[lodgersLabelPlural] は [lodgersDisease_label] にかかっている。
 			:healthInfo->
+			:healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]
+			:healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]
+			:healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]
+			:paralyzedInfo->[lodgersLabelSingOrPluralDef]は_[paralytic abasia]_にかかっており、ベッドに留めないといけない。
+			:bloodRotInfo->[lodgersLabelSingOrPluralDef]は_[blood rot]_にかかっており、毎日の手当が必要。この_{disease}_は高品質の手当と薬で遅く出来るが、普通は簡単には治らない。悪化すると[lodgersLabelSingOrPluralDef]は死ぬので、必要な医療品を持っているか確認する。
 
-			:specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount==1,priority=1)->[lodgers0_nameDef] は優れた戦士だ。
-			:specialSkillsInfo(lodgersSpecialRequest==ExpertFighter,lodgersCount>=2,priority=1)->[lodgersLabelPlural] は優れた戦士だ。
-			:specialSkillsInfo->
-
-			:minMoodInfo(priority=1)->[asker_nameDef] の_{mood}_を [lodgersMoodThreshold_percent] 以上に保たねばならない。
 			:minMoodInfo->
+			:minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n[lodgersLabelSingOrPluralDef]の_{mood}_を[lodgersMoodThreshold_percent]より高く保たねばならない。
 
-			:commonDescEnding->[helpersParagraph][shuttleWillComeParagraph]\n\n[mustKeepOnMapParagraph]
+			:workInfo->
+			:workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef]はあらゆる仕事をしない。
+
+			:commonDescEnding->[helpersParagraph]
 
 			:enemyGroupsParagraph->[threatDescriptionParagraph]
 
-			:threatDescriptionParagraph(threatType==Raids,threatCount==1)->おおよそ次の規模の襲撃が [threatCount] 回行われる:\n\n[threatExample]
-			:threatDescriptionParagraph(threatType==Raids,threatCount>1)->おおよそ次の規模の襲撃が [threatCount] 回行われる:\n\n[threatExample]
-			:threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->_[mech cluster]_ が近くに落ちてくる。
-			:threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->_[mech cluster]_ が近くに二つ落ちてくる。
-			:threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->規模が [threatSize] 倍の _[mech cluster]_ が近くに落ちてくる。
-			:threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->規模が [threatSize] 倍の _[mech cluster]_ が近くに二つ落ちてくる。
+			:threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->おおよそ次の規模の襲撃が起こる:\n\n[threatExample]
+			:threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->[threatSize]倍の強さの襲撃が、おおよそ次の規模で起こる:\n\n[threatExample]
+			:threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->おおよそ次の規模の襲撃が、[threatCount]回起こる:\n\n[threatExample]
+			:threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->[threatSize]倍の強さの襲撃が、おおよそ次の規模で、[threatCount]回起こる:\n\n[threatExample]
 
-			:shuttleWillComeParagraph(lodgersCount==1)->[shuttleDelayTicks_duration] 後、シャトルが [lodgers0_nameDef] を引き取りに来る。到着したシャトルに[lodgers0_objective]を乗せれば、[allRewardsDescriptions]
-			:shuttleWillComeParagraph(lodgersCount>=2)->[shuttleDelayTicks_duration] 後、シャトルが [lodgersLabelPlural] を引き取りに来る。到着したシャトルに乗せれば、[allRewardsDescriptions]
+			:threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->_[mech cluster]_が近くに落ちてくる。
+			:threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->_[mech cluster]_が近くに二つ落ちてくる。
+			:threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->規模が[threatSize]倍の_[mech cluster]_が近くに落ちてくる。
+			:threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->規模が[threatSize]倍の_[mech cluster]_が近くに二つ落ちてくる。
 
-			:mustKeepOnMapParagraph(lodgersCount==1)->[lodgers0_nameDef] を [map_definite] に留めて、何処も行かせてはならない。
-			:mustKeepOnMapParagraph(lodgersCount>=2)->[lodgers0_nameDef] を [map_definite] に留めて、何処も行かせてはならない。
-
-			:threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] が最近、 [mechViolation]、軌道上の_[mechanoid]_の群れに標的にされてしまった。
-			:threatsInfoMechClustersMultiPrisoners->_{prisoner}_が最近、 [mechViolation]、軌道上の_[mechanoid]_の群れに標的にされてしまった。
-			:threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] が最近、 [mechViolation]、 _[mechanoid hive]_ に標的にされてしまった。
-			:threatsInfoMechRaidsMultiHuman->彼らは最近、 [mechViolation]、 _[mechanoid hive]_ に標的にされてしまった。
+			:threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]は最近、[mechViolation]、軌道上の_[mechanoid]_の群れに狙われるようになった。
+			:threatsInfoMechClustersMultiPrisoners->_{prisoner}_は最近、[mechViolation]、軌道上の_[mechanoid]_の群れに狙われるようになった。
+			:threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]は最近、[mechViolation]、_[mechanoid hive]_に狙われるようになった。
+			:threatsInfoMechRaidsMultiHuman->彼らは最近、[mechViolation]、_[mechanoid hive]_に狙われるようになった。
 
 			:mechViolation->なぜか機械人格を怒らせてしまい
 			:mechViolation->古代のスーパーコンピュータのターミナルへ侵入してしまい
@@ -203,9 +209,18 @@
 			:mechViolation->古代の貯蔵地区で盗みを働こうとして
 
 			:letterSubject->{SUBJECT_definite}
+
 			;使わない
 			:lodgersHasHave(lodgersCount==1)->has
 			:lodgersHasHave(lodgersCount>=2)->have
+
+			;使わない
+			:lodgersObjective(lodgersCount==1)->[lodgers0_objective]
+			:lodgersObjective(lodgersCount>=2)->them
+
+			;使わない
+			:areIs(lodgersCount==1)->is
+			:areIs(lodgersCount>=2)->are
 
 			:remainingWillNowLeave(lodgersCount==1)->
 			:remainingWillNowLeave(lodgersCount>=2)->残り全ての [lodgersLabelPlural] は去り始めた。
@@ -215,6 +230,7 @@
 		}
 	}
 }
+
 {Gathering_Concert
 	{rulePack
 		{?rulesStrings
@@ -225,7 +241,9 @@
 		}
 	}
 }
+
 {NamerWeaponBladelink
+	;名前なので放置
 	{rulePack
 		{?rulesStrings
 			:r_weapon_name(p=3)->[noun][verber]

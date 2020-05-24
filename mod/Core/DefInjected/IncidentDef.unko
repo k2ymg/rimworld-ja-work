@@ -5,7 +5,7 @@
 }
 {ManhunterAmbush
 	label:<<manhunter ambush??人狩り待ち伏せ>>
-	letterText:{0} が人狩り {1} に待ち伏せされた！
+	letterText:{0} が_<scaria>_に感染した人狩り {1} に待ち伏せされた！
 	letterLabel:キャラバン 待ち伏せ (人狩り)
 }
 {CaravanMeeting

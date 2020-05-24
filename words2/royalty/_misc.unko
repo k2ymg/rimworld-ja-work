@@ -11,13 +11,13 @@ royal tribute collector:ロイヤル・トリビュート・コレクター
 
 ; stat
 authority:権威
-psychic sensitivity:サイキック感度
+;psychic sensitivity:サイキック感度 ->common
 
 ; pawn
 trooper:トルーパー
 ;janissary -> common
 cataphract:カタフラクト
-psycaster:サイキャスター
+;psycaster:サイキャスター ->common
 
 ; ability
 painblock:ペインブロック
@@ -65,3 +65,5 @@ stellarch:星系君主
 emperor:皇帝
 empress:女帝
 high stellarch:高位星系君主
+
+;eltex:エルテックス -> common

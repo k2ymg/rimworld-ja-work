@@ -1,13 +1,13 @@
-﻿{InstallPsychicSilencer
-	label:<<install psychic silencer??_[psychic silencer]_ を付ける>>
-	description:_[psychic silencer]_ を付ける。
-	jobString:<<Installing psychic silencer.??_[psychic silencer]_ を付けている。>>
-}
-{RemovePsychicSilencer
-	label:<<remove psychic silencer??_[psychic silencer]_ を外す>>
-	description:_[psychic silencer]_ を外す。
-	jobString:<<Removing psychic silencer.??_[psychic silencer]_ を外している。>>
-}
+﻿;{InstallPsychicSilencer
+;	label:<<install psychic silencer??_[psychic silencer]_ を付ける>>
+;	description:_[psychic silencer]_ を付ける。
+;	jobString:<<Installing psychic silencer.??_[psychic silencer]_ を付けている。>>
+;}
+;{RemovePsychicSilencer
+;	label:<<remove psychic silencer??_[psychic silencer]_ を外す>>
+;	description:_[psychic silencer]_ を外す。
+;	jobString:<<Removing psychic silencer.??_[psychic silencer]_ を外している。>>
+;}
 {InstallPsychicSensitizer
 	label:<<install psychic sensitizer??_[psychic sensitizer]_ を付ける>>
 	description:_[psychic sensitizer]_ を付ける。
@@ -38,11 +38,11 @@
 	description:_[psychic reader]_ を外す。
 	jobString:<<Removing psychic reader.??_[psychic reader]_ を外している。>>
 }
-{DowngradePsychicAmplifier
-	label:<<extract psychic amplifier??_[psychic amplifier]_ を取り出す>>
-	description:脳から _[psychic amplifier]_ モジュールを一つ取り出す。\n\nこの繊細な脳外科手術は高確率で失敗する。必要で無い限り、また、高品質な設備がなければ試すべきではない。\n\nもし _[psychic amplifier]_ のレベルが1なら、完全に取り除かれる。それ以外の場合、1つダウングレードされる。取り出された _[psychic amplifier]_ は後でまた取り付けられる。
-	jobString:<<Extracting a psychic amplifier.??_[psychic amplifier]_ を取り出している。>>
-}
+;{DowngradePsychicAmplifier
+;	label:<<extract psychic amplifier??_[psychic amplifier]_ を取り出す>>
+;	description:脳から _[psychic amplifier]_ モジュールを一つ取り出す。\n\nこの繊細な脳外科手術は高確率で失敗する。必要で無い限り、また、高品質な設備がなければ試すべきではない。\n\nもし _[psychic amplifier]_ のレベルが1なら、完全に取り除かれる。それ以外の場合、1つダウングレードされる。取り出された _[psychic amplifier]_ は後でまた取り付けられる。
+;	jobString:<<Extracting a psychic amplifier.??_[psychic amplifier]_ を取り出している。>>
+;}
 {InstallNeurocalculator
 	label:<<install neurocalculator??_[neurocalculator]_ を付ける>>
 	description:_[neurocalculator]_ を付ける。

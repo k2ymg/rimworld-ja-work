@@ -8,7 +8,7 @@
 {ThroneSpeech
 	;もしかしたら、labelは訳さなくても良いのかもしれない。
 	label:ThroneSpeech
-	letterTitle:<<Speech from the throne??_{throne}_からの_{speech}_>>
+	letterTitle:<<Speech from the throne??_{throne}_で_{speech}_>>
 	;同じ内容がKeyed, AbilityDefにある
 	letterText:{ORGANIZER_labelShort} が_{throne}_から_{speech}_を始めた。\n\n全て上手くいけば、聞き手は感動して {ORGANIZER_labelShort} を尊敬する。下手なら_{speech}_は社交を悪化させる。結果は {ORGANIZER_labelShort} の社交能力に依存する。
 }

@@ -1037,6 +1037,14 @@
 		}
 	}
 }
+{DefeatedMechCluster
+	{stages
+		{defeated_mech_cluster
+			label:<<defeated mech cluster??_[mech cluster]_ を打ち負かした>>
+			description:生身をなめるな、クソ機械が！
+		}
+	}
+}
 {ColonistBanished
 	{stages
 		{colonist_banished
@@ -1090,7 +1098,16 @@
 	{stages
 		{rescued
 			label:<<rescued??救出された>>
-			description:助けられた！もうダメかと思っていた。とても感謝している。
+			description:助かった！もうダメかと思っていた。とても感謝している。
+		}
+	}
+}
+{OnDuty
+	{stages
+		{on_duty
+			;todo:未翻訳/保留
+			label:on duty
+			description:I have a job to do.
 		}
 	}
 }
@@ -1462,7 +1479,7 @@
 {CheatedOnMeMood
 	{stages
 		{cheated_on_by
-			label:<<cheated on by {0}??0} に浮気された>>
+			label:<<cheated on by {0}??{0} に浮気された>>
 			description:やってくれたのは誰だ！
 		}
 	}
@@ -2418,14 +2435,14 @@
 		}
 	}
 }
-{PsychicEntropyHangover
-	{stages
-		{psychic_hangover
-			label:_<psychic hangover>_
-			description:体と目がうずくが、脳からくると分かっている。
-		}
-	}
-}
+;{PsychicEntropyHangover
+;	{stages
+;		{psychic_hangover
+;			label:_<psychic hangover>_
+;			description:体と目がうずくが、脳からくると分かっている。
+;		}
+;	}
+;}
 {MasochistPain
 	{stages
 		{masochist_in_minor_pain

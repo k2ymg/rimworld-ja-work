@@ -27,6 +27,7 @@ elbow blade:エルボー・ブレード
 knee spike:ニー・スパイク
 venom fangs:ベノム・ファングス
 venom talon:ベノム・タロン
+;psylink neuroformer:_{psylink}_ ニューロフォーマー -> common
 ;shuttle -> common
 drape:ドレープ
 brazier:ブレージャ
@@ -47,14 +48,15 @@ mini-slug:ミニ・スラグ
 auto charge turret:オート・チャージ・ターレット
 auto inferno turret:オート・インフェルノ・ターレット
 auto mortar:オート・モーター
+meditation spot:瞑想場所
 unfinished musical instrument:未完成の楽器
 harp:ハープ
 harpsichord:ハープシコード
 piano:ピアノ
-psyfocus helmet:サイフォーカス・ヘルメット
-psyfocus shirt:サイフォーカス・シャツ
-psyfocus vest:サイフォーカス・ベスト
-psyfocus robe:サイフォーカス・ローブ
+eltex helmet:eltexヘルメット
+eltex shirt:eltexシャツ
+eltex vest:eltexベスト
+eltex robe:eltexローブ
 ruffle shirt:ラッフル・シャツ
 corset:コルセット
 royal vest:ロイヤル・ベスト
@@ -63,16 +65,25 @@ ladies hat:レディ・ハット
 ;top hat -> common
 coronet:コロネット
 crown:クラウン
+royal recon armor:ロイヤル レコン アーマー
+royal recon helmet:ロイヤル レコン ヘルメット
+royal marine armor:ロイヤル マーリン アーマー
+royal marine helmet:ロイヤル マーリン ヘルメット
 cataphract armor:カタフラクト・アーマー
-cataphract helmet:カタクラフト・ヘルメット
+cataphract helmet:カタフラクト・ヘルメット
+royal cataphract armor:ロイヤル カタフラクト アーマー
+royal cataphract helmet:ロイヤル カタフラクト アーマー
 monument marker:モニュメント・マーカー
-link monosword:リンク・モノソード
-link zeushammer:リンク・ゼウスハンマー
-link plasmasword:リンク・プラズマソード
+persona monosword:ペルソナ モノソード
+persona zeushammer:ペルソナ ゼウスハンマー
+persona plasmasword:ペルソナ プラズマソード
 axe:アックス
 warhammer:ウォーハンマー
 monosword:モノソード
 zeushammer:ゼウスハンマー
 plasmasword:プラズマソード
 orbital mech cluster targeter:オービタル・メック・クラスター・ターゲッター
-psyfocus staff:サイフォーカス・スタッフ
+eltex staff:サイフォーカス・スタッフ
+nature shrine:自然の聖地
+anima tree:アニマの木
+anima grass:アニマの草

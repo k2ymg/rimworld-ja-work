@@ -9,6 +9,24 @@
 	jobString:<<Excising carcinoma.??腫瘍を切除している。>>
 	successfullyRemovedHediffMessage:{0} は {1} の腫瘍の切除に成功した。
 }
+{CureScaria
+	label:<<cure scaria??_{scaria}_を治す>>
+	description:_<scaria>_ を治す特別医療。
+	jobString:<<Curing scaria.??_{scaria}_を治している。>>
+	successfullyRemovedHediffMessage:{0} は {1} の _<scaria>_ を治した。
+}
+{CureBloodRot
+	label:<<cure blood rot??_{blood rot}_を治す>>
+	description:細菌破壊_[mechanite]_を大量注入して_<blood rot>_ を治す特別医療。
+	jobString:<<Curing blood rot.??_{blood rot}_を治している。>>
+	successfullyRemovedHediffMessage:{0} は {1} の _<blood rot>_ を治した。
+}
+{CureAbasia
+	label:<<anti-abasia mechanite infusion??_<paralytic abasia>_治療_[mechanite]_注入>>
+	description:この特別な医療処置は脳を大量の_[mechanite]_で満たして、脳にダメージを与えずに神経活動の協調的な再構築を実行する。これは麻痺による歩行不能症を完全に治せるが、_[glitterworld medicine]_を大量に消費する。
+	jobString:<<Infusing anti-abasia mechanites.??_<paralytic abasia>_治療_[mechanite]_を注入している。>>
+	successfullyRemovedHediffMessage:{0}は{1}の_<paralytic abasia>_を治した。
+}
 {InstallArchotechEye
 	label:<<install archotech eye??_[archotech eye]_ を付ける>>
 	description:_[Archotech eye]_ を付ける。
@@ -150,9 +168,9 @@
 	jobString:<<Butchering.??解体している。>>
 }
 {ButcherCorpseMechanoid
-	label:<<disassemble mechanoid??_[mechanoid]_ を分解>>
-	description:死んだ _[Mechanoid]_ をバラバラに分解する。
-	jobString:<<Disassembling mechanoid.??_[Mechanoid]_ を分解している。>>
+	label:<<shred mechanoid??_[mechanoid]_ を解体>>
+	description:死んだ _[Mechanoid]_ を解体して使える素材を回収する。
+	jobString:<<Shredding mechanoid.??_[Mechanoid]_ を解体している。>>
 }
 {CremateCorpse
 	label:<<cremate corpse??死体を火葬>>

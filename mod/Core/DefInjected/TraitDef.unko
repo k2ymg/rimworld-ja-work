@@ -243,6 +243,7 @@
 		{tortured_artist
 			label:_<tortured artist>_
 			description:{PAWN_nameDef} は他の人間から避けられ、誤解されていると感じている。_{mood}_が一定下がるが、_{mental break}_の後に_{creativity inspiration}_ を(50%の確率で)得られる。
+			mentalBreakInspirationGainReasonText:苦しんだ_{tortured artist}_として、 [PAWN_nameIndef] は閃きを感じた。
 		}
 	}
 }

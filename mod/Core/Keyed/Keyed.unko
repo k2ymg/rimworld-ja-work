@@ -122,8 +122,8 @@ ImmobileCaravanDesc:荷物が多すぎて動けないキャラバンがいる。
 BuildingCantBeUsedRoofed:<<Building unusable due to roof??屋根のため建物使用不可>>
 BuildingCantBeUsedRoofedDesc:屋根があると使えない建物が一つ以上ある。屋根を取り払うまでそれらは使えない。
 
-AlertHeatstroke:_{Heatstroke}_
-AlertHeatstrokeDesc:次の人は_[heatstroke]_で苦しんでいる:\n\n{0}\n涼しい場所を与えよう。_[passive cooler]_ や電動 _[cooler]_ で部屋を涼しくできる。ドアで隔てられていれば、深い地下は自然と涼しい。
+AlertHeatstroke:_<Heatstroke>_
+AlertHeatstrokeDesc:次の人は_<heatstroke>_で苦しんでいる:\n\n{0}\n涼しい場所を与えよう。_[passive cooler]_ や電動 _[cooler]_ で部屋を涼しくできる。ドアで隔てられていれば、深い地下は自然と涼しい。
 
 QuestPartMoodBelowThreshold:<<Guest unhappy??不満なゲスト>>
 QuestPartMoodBelowThresholdDesc:クエスト {0} はこの人物の_{mood}_を良くしておかないといけないが、悪くなっている。何か気分を良くする行動を起こそう。:\n\n{1}
@@ -311,13 +311,14 @@ CreateNewZone:新しく {0} を作る。
 TransmitsPower:送電
 ConstructionNeeded:必要建設スキル
 NoColonistWithSkillTip:このスキルを持っている{0}がいない。
-SkillNeededForConstructing:必要な {0}
+SkillNeededForConstructing:<<{0} needed??必要な {0}>>
 
 NoColonistWithAllSkillsForConstructing:必要なスキルを全て持っている{0}がいない
 AllColonistsWithSkillHaveDisabledConstructingTip:このスキルを持っている{0}が{1}に割り当てられていない。
 
 Confirm:<<Confirm??はい>>
 GoBack:<<Go back??戻る>>
+WantToContinue:続けますか？
 OK:OK
 Close:_<Close>_
 
@@ -449,8 +450,8 @@ ThisIsSmallVolume:これは貴重な材料です。つまり、1単位が普通�
 UsableIngredients:<<ingredients??材料>>
 BillRepeatTargetCountShort:<<To {0}??{0} 回>>
 
-PauseWhenSatisfied:<<Pause when satisfied??満足したら一時停止>>
-UnpauseWhenYouHave:<<Unpause at??一時停止解除>>
+PauseWhenSatisfied:<<Pause when satisfied??上限に達したら一時停止>>
+UnpauseWhenYouHave:<<Unpause at??次を下回ると一時停止解除>>
 Paused:<<Paused??一時停止>>
 Unpause:<<Unpause??停止解除>>
 
@@ -520,7 +521,28 @@ AnimalFilthRate:<<Animal filth rate??床を汚す度合い>>
 AnimalFilthRateExplanation:動物が歩いた床は汚れる。\n\nこの値は、この動物が {0} セル歩くごとに床を汚す平均量を表している。\n\n大きな動物やペット向きではない動物はより汚す。
 TimeRecordsCategory:<<Time??時間>>
 MiscRecordsCategory:<<Misc??その他>>
-Addictiveness:<<Addictiveness??中毒>>
+
+Chemical:<<Chemical??化学物質>>
+HighGain:<<High gain per dose??摂取毎増加高揚>>
+HighFallRate:<<High fall rate??高揚低下速度>>
+HighDuration:<<High duration per dose??摂取毎高揚持続>>
+ToleranceGain:<<Tolerance gain per dose??摂取毎増加鈍化>>
+ToleranceFallRate:<<Tolerance fall rate??鈍化低下速度>>
+MinimumToleranceForAddiction:<<New addiction min tolerance??中毒最小鈍化>>
+SafeDoseInterval:<<Safe dose interval??安全摂取間隔>>
+Addictiveness:<<New addiction chance??中毒確率>>
+AddictionSeverityInitial:<<Addiction initial severity??中毒初期深刻度>>
+AddictionSeverityPerDose:<<Addiction severity per dose??摂取毎中毒深刻度>>
+AddictionNeedOffset:<<Addiction need fill per dose??摂取毎に満たす中毒欲求満>>
+AddictionNeedFallRate:<<Addiction need fall rate??中毒欲求低下速度>>
+AddictionNeedDoseInterval:<<Addiction need dose interval??中毒欲求摂取間隔>>
+AddictionRecoveryTime:<<Addiction recovery time??中毒回復時間>>
+AddictionCost:<<Addiction cost??中毒コスト>>
+RandomODChance:<<Random overdose chance??ランダム過剰摂取確率>>
+AlwaysSafe:<<Always safe??安全>>
+NeverSafe:<<Never safe??危険>>
+
+PerDay:<<{0} / day??{0} / 日>>
 PackAnimal:_<Pack animal>_
 PackAnimalExplanation:この動物が長旅をするキャラバンでアイテムを運ぶのに適しているかどうか。
 
@@ -548,19 +570,35 @@ ShotsBeforeRearm:<<Shots before rearm??発射残数>>
 ShotsBeforeRearmExplanation:再装填するまでに発射できる回数。
 PowerConsumption:<<Power consumption??消費電力量>>
 Target:<<Target??対象>>
-TargetHuman:_{Human}_
-TargetAnimal:_{Animal}_
-TargetSelf:<<Self??自分>>
-TargetGround:<<Ground??地面>>
+AbilityTargetDesc:この能力を使える対象。
+TargetHuman:_{human}_
+TargetAnimal:_{animal}_
+TargetSelf:<<self??自分>>
+TargetGround:<<ground??地面>>
 ClickToLearnMore:詳細はクリック。
 ClickToViewFactions:_{factions}_を見るにはクリック。
 
-PositiveBuysNegativeSells:<<Positive numbers buy.\nNegative numbers sell.??正の数は"買い"\n負の数は"売り">>
+;todo:クソ後で修正
+MeditationFocuses:<<meditation focus types??瞑想対象の種類>>
+MeditationFocusesUnlocked:<<Unlocks meditation focus types??解放した瞑想対象の種類>>
+MeditationFocusesPawnDesc:この人物が使える瞑想対象の種類。瞑想するとき、物に集中する事で_[psyfocus]_の増加を増幅できるが、その物が使えるフォーカスタイプを与える場合のみ。各個人の瞑想の種類は生い立ち、特徴、社会的地位などで決まる。
+;The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on.
+MeditationFocusesDesc:これが提供する瞑想対象の種類。瞑想している人はこれに集中すると_[psyfocus]_の増加を増やせる。しかし、瞑想対象のどれかを使える場合に限る。各個人の瞑想の種類は生い立ち、特徴、社会的地位などで決まる。
+;The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on.
+MeditationFocusCanUse:<<Can use {0} focus type because??以下により {0} の対象を使える>>
+MeditationFocusEnabledByTitle:<<holds title: {TITLE} ({FACTION_name}).??_{title}_所持: {TITLE} ({FACTION_name}).>>
+MeditationFocusEnabledByChildhood:<<has childhood??幼年期>>
+MeditationFocusEnabledByAdulthood:<<has adulthood??成人期>>
+MeditationFocusEnabledByTrait:<<has trait??特徴>>
+MeditationFocusDisabledByTrait:<<does not have trait??特徴を持っていない>>
+EnablesMeditationFocusType:<<Enables meditation focus types??有効な瞑想対象の種類>>
+
+PositiveBuysNegativeSells:<<Positive numbers buy.\nNegative numbers sell.??正の数は"買い"。\n負の数は"売り"。>>
 BuyPriceDesc:購入価格。
 SellPriceDesc:売却価格。
 PriceTypeDesc:これの価格は {0}。
-ColonyCount:_{colony}_が取引できるアイテム数\n\n_<Orbital trade beacon>_ の近くにあるアイテムだけ軌道交易商に売ることができる。
-TraderCount:交易商が持っている取引可能なアイテム数
+ColonyCount:_{colony}_が取引できるアイテム数。\n\n_<Orbital trade beacon>_ の近くにあるアイテムだけ軌道交易商に売れる。
+TraderCount:交易商が持っている取引可能なアイテム数。
 AcceptButton:_<Accept>_
 ResetButton:_<Reset>_
 CancelButton:_<Cancel>_
@@ -633,7 +671,9 @@ DaysUntilRotTip:この地域の平均気温を元にした、このアイテム�
 ItemNutritionTip:この食べ物に含まれる栄養量。\n\n例えば: 大人は一日あたり {0} の栄養が必要。
 AnimalCanGrazeTip:この動物は持っている食料の代わりに草を食べられる。植食はいくつかのバイオームと気温範囲でのみ可能。
 NutritionForagedPerDayTip:一日ごとに_{foraged}_される栄養。実際の_{foraged}_量はバイオームの_{forageability}_にも影響される。\n\n{0}
-NutritionEatenPerDayTip:一日ごとに消費する栄養。参考として、 _[Simple meal]_ は {0} の栄養がある。\n\n食べられる物: {2}\n\n略字の意味:\n{1}
+NutritionEatenPerDayTip:一日ごとに消費する栄養。参考として、 _[Simple meal]_ は {0} の栄養がある。
+CanEat:<<Can eat??食べられる物>>
+Legend:<<Legend??略字の意味>>
 MassCarriedSimple:<<Mass carried??持ち物の重量>>
 MassCapacity:<<Mass capacity??最大重量>>
 Mass:<<Mass??重量>>
@@ -783,13 +823,16 @@ TransportersCaravanWillBeImmobile:_[Pod]_を空のタイルに送るとキャラ
 ConfirmCancelMonumentMarker:モニュメントのマーカーを本当に消しますか？
 
 AbilityRequiresLOS:<<Line of sight required??視認が必要>>
-AbilityEntropyGain:<<Entropy gain??増加エントロピー>>
+AbilityEntropyGain:<<Neural heat gain??増加_{Neural heat}_>>
+AbilityPsyfocusCost:_<Psyfocus cost>_
 AbilityDuration:<<Effect duration??効果持続時間>>
 AbilityEffectRadius:<<Effect radius??効果範囲>>
 AbilityCastingTime:<<Casting time??キャスト時間>>
 AbilityCannotHitTarget:目標を視認できない。
 AbilityOccupiedCells:{0} は開いた場所を狙わないといけない。
 AbilityUnwalkable:{0} は移動可能な場所を狙わないといけない。
+AbilityRoofed:{0} は屋根が無い場所を狙わないといけない。
+AbilityCantApplyToMentallyBroken:{0} は精神異常になっている。
 
 Tool:<<Tool??部位>>
 DamageLower:<<damage??ダメージ>>
@@ -825,6 +868,7 @@ StatsReport_InBed:<<In bed??ベッド使用>>
 ;ベッドエンドやキャビネットのこと
 StatsReport_Facilities:<<Facilities??設備>>
 StatsReport_BodySize:<<Multiplier for body size {0}??体格による乗数 {0}>>
+StatsReport_HasHediffExplanation:<<Carefully slaughtered without wounds??傷無しで丁寧にト殺>>
 StatsReport_MeleeDPSExplanation:<<DPS = Melee damage * Melee hit chance / Cooldown in seconds??DPS = 近接ダメージ * 近接ヒット率 / クールダウン秒>>
 StatsReport_MeleeDamage:<<Melee damage??近接ダメージ>>
 StatsReport_Cooldown:<<Cooldown??クールダウン秒>>
@@ -850,6 +894,16 @@ StatsReport_NotFlesh:<<Not flesh??肉はでない>>
 StatsReport_NotFresh:<<Not fresh??新鮮ではない>>
 StatsReport_WildMan:<<Wild man??野生人>>
 StatsReport_NonToolAttack:<<Attack??攻撃>>
+StatReport_PossibleOffsets:<<Possible offsets??可能なオフセット>>
+StatsReport_RoomImpressiveness:<<Room impressiveness??部屋の印象>>
+StatsReport_Lit:<<Lit??明かり>>
+StatsReport_GraveFull:<<Contains {0}??{0} が入っている>>
+StatsReport_GraveFullAbstract:<<Contains a human corpse??ヒトの遺体が入っている>>
+StatsReport_GraveCorpseRelatedAbstract:<<Meditator is related to the corpse inside??瞑想者は中の遺体の縁故者>>
+StatsReport_FromQuality:<<From quality??品質>>
+StatsReport_NearbyArtificialStructures:<<Nearby artificial structures??近くの人工構造物>>
+StatsReport_SatisfiesTitle:<<Satisfies user's title requirements??使用者の_{title}_要件を満たす>>
+
 ;似たような文 -> NeedJoySource,Boredom
 Stat_RecreationType_Desc:娯楽設備ごとに満足する娯楽の種類は異なる。_{colonist}_は同じ娯楽を繰り返すと退屈するので、異なる娯楽を揃えるのが重要になる。
 Stat_JoyKind_AllTypes:<<All recreation types??全ての娯楽の種類>>
@@ -902,14 +956,13 @@ Stat_Thing_Surgery_SuccessChanceFactor_Desc:この手術の成功率への乗数
 Stat_Thing_Surgery_SuccessChanceFactor_CantFail:<<Can't fail??失敗しない>>
 Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc:この手術を患者に行っても安全。
 Stat_Thing_Surgery_DeathOnFailChance_Desc:この手術の失敗で患者が死ぬ確率。
-Stat_Thing_Drug_Addictiveness_Desc:このドラッグの中毒性。
 Stat_Hediff_TotalBleedFactor_Name:<<Total bleed factor??総出血因数>>
 Stat_Hediff_TotalBleedFactor_Desc:全ての出血速度への乗数。
 Stat_Hediff_NaturalHealingFactor_Name:<<Natural healing factor??自然治癒因数>>
 Stat_Hediff_NaturalHealingFactor_Desc:全ての自然治癒速度への乗数。
 Stat_Hediff_FoodPoisoningChanceFactor_Name:食中毒発生率の因数
 Stat_Hediff_FoodPoisoningChanceFactor_Desc:食中毒になる確率への乗数。
-Stat_Hediff_BleedingRate_Desc:この状態の出血速度。
+Stat_Hediff_BleedingRate_Desc:この状態が引き起こす出血の速度。
 Stat_Hediff_Pain_Desc:この状態の痛みの量。
 Stat_Hediff_PartEfficiency_Desc:これの影響を受ける身体部位の効率へのオフセット。
 Stat_Hediff_Affects_Desc:これの影響を受ける精神能力。
@@ -929,6 +982,24 @@ Stat_Thing_PowerConsumption_Desc:この建物が電力網から使用する電�
 Stat_Thing_BodyPartEfficiency_Desc:この身体部位の全体的な効率。
 Stat_Thing_Biocoded_Name:<<Biocoding??生体認証>>
 Stat_Thing_Biocoded_Desc:このアイテムは特定の個人の生体識別だけ受け付けるように設定されている。
+
+Stat_Thing_Drug_Chemical_Desc:これに含まれる化学物質。\n\n同じ化学物質が別のドラッグに含まれている事もある。これらの異なるドラッグはそれぞれの方法で同じ中毒を満足させる。
+Stat_Thing_Drug_HighGainPerDose_Desc:このドラッグの摂取で増える高揚感の強さ。
+Stat_Thing_Drug_HighFallPerDay_Desc:このドラッグの高揚感が一日ごとにどれほど下がるか。
+Stat_Thing_Drug_HighDurationPerDose_Desc:このドラッグの高揚感が摂取毎にどれほど長く続くか。\n\nこれは摂取毎の高揚感の増加と減少速度から計算される。
+Stat_Thing_Drug_ToleranceGainPerDose_Desc:このドラッグの摂取毎に使用者の鈍化がどれほど増えるか。\n\nこれは化学物質が同じでも形態ごとに変わるかもしれない。
+Stat_Thing_Drug_ToleranceFallPerDay_Desc:使用者の鈍化が一日ごとにどれほど下がるか。
+Stat_Thing_Drug_MinToleranceForAddiction_Desc:このドラッグの中毒になる最小の鈍化。\n\nこの鈍化レベルを下回っている使用者は、摂取により中毒にはならない。
+Stat_Thing_Drug_SafeDoseInterval_Desc:これより少ない頻度での摂取は中毒にならない。\n\nこれはドラッグの中毒になる最小鈍化、摂取毎の鈍化増加、鈍化現象速度から計算される。\n\n安全な間隔が無いドラッグもある。そのようなドラッグは最初の摂取でも中毒になる。
+Stat_Thing_Drug_RandomODChance_Desc:このドラッグを摂った時にランダムで過剰摂取する確率。ランダム過剰摂取は初心者の一回目だろうが、中毒者の100回目だろうが関係なく起こる。
+Stat_Thing_Drug_Addictiveness_Desc:このドラッグの摂取毎に中毒になる確率。\n\nドラッグに中毒の最小鈍化があれば、それを超えている場合だけ適用される。なければ常に中毒になる可能性がある。
+Stat_Thing_Drug_AddictionSeverityInitial_Desc:このドラッグの中毒はこの深刻度から始まる。\n\nドラッグをより多く摂れば深刻度は上がり、時間経過で下がる。
+Stat_Thing_Drug_AddictionRecoveryTime_Desc:最初の中毒から回復するまでの時間。\n\nこれは初期深刻度を回復速度で割って計算される。悪化した中毒はもっと時間がかかる。
+Stat_Thing_Drug_AddictionSeverityPerDose_Desc:このドラッグを摂取するごとに既存の中毒に増える深刻度。\n\n中毒の深刻度は100%を超えない。
+Stat_Thing_Drug_AddictionNeedDoseInterval_Desc:中毒者が中毒を満たして_{withdrawal}_を避けるためにどれほどの間隔でこのドラッグを摂取するか。\n\nこれは中毒欲求低下速度と摂取毎の満たすから計算される。
+Stat_Thing_Drug_AddictionNeedOffset_Desc:このドラッグの摂取毎に中毒者の化学物質への欲求をどれほど満たすか。
+Stat_Thing_Drug_AddictionNeedFallRate_Desc:中毒者の化学物質への欲求がどれほど速く下がるか。
+Stat_Thing_Drug_AddictionCost_Desc:_{withdrawal}_しないように中毒状態を維持するために一日あたりに消費するドラッグの市場価格。\n\nこれは摂取毎の化学物質欲求、欲求減少速度、このドラッグの市場価格から計算される。\n\n同じ化学物質を異なるコストで調達できるかもしれない。
 
 FactionGreetingHostile:{0} はマイクに向かって罵声を飛ばし、切断した。
 FactionGreetingHostileAppreciative:{0} は{0_possessive}の_{settlement}_の一つに貢ぎ物を贈ったり、{0_possessive}の_{faction}_の_{prisoner}_を無傷で解放するなどの友好的な態度を要求してきた。それまでは{0_pronoun}は話をしたくない。\n\n{0_pronoun}は罵りながら切断した。
@@ -955,12 +1026,12 @@ RequestAICoreInformation:{0} がある場所を尋ねる (代価: {1} _[Silver]_
 RequestAICoreInformationResult:{0} は尋ねられた情報について答え、幸運を祈った。
 NoKnownAICore:これ以上の場所は知らない
 
-RequestMilitaryAid:今すぐ援軍を要請する。(代価: {0} 友好度)
+RequestMilitaryAid:今すぐ援軍を要請する。 (代価: {0} 友好度)
 MilitaryAidConfirmMutualEnemy:{0} は敵対していない_{faction}_との戦いを助けることはない。これには、現在の脅威である {1} も含まれている。それでも援軍を要請しますか？
 CallConfirm:はい、とにかく呼んでくれ。
 CallCancel:いや、気にしないでくれ。
 MilitaryAidSent:{0} はあなたを助けるために戦士達を送ると合意した。
-CantSendMilitaryAidInTime:{0}は時間内に到着できないとすまなそうに答えた。\n\n(この_{faction}_の技術レベルは _<transport pod>_ を使えるほど高くない)
+CantSendMilitaryAidInTime:{0}は時間内に到着できないと、すまなそうに答えた。\n\n(この_{faction}_の技術レベルは_[transport pod]_を使えるほど高くない)
 HostileVisitorsPresent:敵対している訪問者達がいる
 
 Dark:<<Dark??暗い>>
@@ -1211,6 +1282,7 @@ CarryToShuttle:<<Carry {0_label} to shuttle??{0_label} を _[shuttle]_ へ運ぶ
 
 NoCryptosleepCasket:<<No available cryptosleep casket.??使える _[cryptosleep casket]_ がない。>>
 CryptosleepCasketGuestsNotAllowed:<<Temporary faction members not allowed.??一時_{faction}_メンバーは不可。>>
+CryptosleepCasketGuestPrisonersNotAllowed:<<Hosted prisoners not allowed.??預かっている_{prisoner}_は不可。>>
 NoPrisonerBed:到達でき、使われておらず、閉じられた空間にあり、適温な環境にある_{prisoner}_用のベッドがない。
 NoNonPrisonerBed:到達でき、使われておらず、適温な環境にある非_{prisoner}_用のベッドがない。
 NoAnimalBed:到達でき、使われておらず、適温な環境にある動物用ベッドがない。
@@ -1285,8 +1357,8 @@ VisitSettlement:<<Visit {0}??{0} に訪れる>>
 VisitPeaceTalks:<<Visit {0}??{0} に訪れる>>
 VisitEscapeShip:<<Visit {0}??{0} に訪れる>>
 AttackSettlement:<<Attack {0}??{0} を攻撃する>>
-ApproachSite:<<Approach {0}??{0} に近づく>>
-ApproachingSite:<<Approaching {0}??{0} に近づいている>>
+ApproachSite:<<Approach {0}??{0} に向かう>>
+ApproachingSite:<<Approaching {0}??{0} に向かっている>>
 OfferGifts:<<Offer gifts??贈り物を申し出る>>
 TradeWithSettlement:<<Trade with {0}??{0} と交換>>
 
@@ -1692,17 +1764,17 @@ LetterLabelGroupVisitorsArrive:<<Visitors??訪問者達>>
 GroupVisitorsArrive:{0} の一団が_{colony}_を訪問している。{1}{2}
 GroupVisitorsArriveTraderInfo:彼らは持っているアイテムをいくつかトレードしたがっている。
 GroupVisitorsArriveLeaderInfo:訪問者達のうち、{1_labelShort} は_{faction}_のリーダーだ。
-VisitorsLeaving:{0} の訪問者は去ろうとしている。
+VisitorsLeaving:{0}の訪問者は去り始めた。
 
 LetterLabelManhunterPackArrived:_<Manhunter pack>_
-ManhunterPackArrived:{0} の_{manhunter pack}_がやって来た。この地域をうろつき、人間狩りを行う。\n\n誰かがドアを通るのを見ない限り、ドアを攻撃することはない。中に隠れていれば安全だ。また、動いていない_<Turret>_も攻撃しないので、_<Turret>_を守りたいならオフにする。\n\n{0}は一日か二日でここから出て行く。出て行くまで隠れても良いし、戦っても良い。
+ManhunterPackArrived:{0} の_{manhunter pack}_がやって来た！_<scaria>_として知られる疫病でおかしくなった動物たちが、この地域をうろつき、人間狩りを行う。\n\n誰かがドアを通るのを見ない限り、ドアを攻撃することはない。中に隠れていれば安全だ。また、電源を切った_<Turret>_も攻撃しないので、_<Turret>_を守りたいならオフにする。\n\n{0}は一日か二日でここから出て行く。出て行くまで隠れても良いし、戦っても良い。
 
 MessageAnimalInsanityPulse:{SOURCE_label} が近くの動物達を狂気へと駆り立てる精神パルスを放射した。
 LetterShipPartDroveColonistInsane:墜落した船の一部が_{colonist}_ {0} に対して狂気へと駆り立てる精神パルスを放射した。
 AwokeDaysAgo:目覚めてから {0} 日経過
 ActivatedDaysAgo:起動してから {0} 日経過
 OpenedDaysAgo:開けてから {0} 日経過
-PsychicDroneLevel:<<Psychic drone level: {0}??サイキック・ドローンのレベル: {0}>>
+PsychicDroneLevel:<<Psychic drone level: {0}??_{Psychic drone}_ 強度: {0}>>
 LetterLabelPsychicDroneLevelIncreased:<<Drone intensifies??唸り増加>>
 LetterPsychicDroneLevelIncreased:墜落した船の一部がより強力なサイキック・ドローンの一種を放射している。この地域の全人間はより不安、恐怖、疑念を感じている。
 LetterLabelAgentRevealed:<<Agent??スパイ>>
@@ -1732,12 +1804,7 @@ RansomDemand:{1} が無線で呼びかけてきている。彼らは元_{colonis
 RansomDemand_Accept:_<Accept>_
 RansomDemand_Reject:_<Reject>_
 
-EscapeShipFoundLabel:<<Ship found??船の発見>>
-EscapeShipFound:<Name>Charlon Whitestone</Name> から送られてきた座標に到着し、隠されていた船を発見した。\n\n船の反応炉はまだ深い休止状態にあるため、飛ぶことはまだ出来ない。コンピュータコアと対話することで起動させられる。\n\n<Name>Charlon Whitestone</Name> の忠告によると、起動処理はおよそ15日かかり、エネルギー特性は遠くからでも検知される。この種のエネルギー特性は星間飛行能力があることを示しており、略奪者集団や凶悪な_[Mechanoid]_群れを引き寄せることになる。防御をしっかりと整えること。
-EscapeShipFoundPeaceful:<Name>Charlon Whitestone</Name> から送られてきた座標に到着し、隠されていた船を発見した。\n\n船の反応炉はまだ深い休止状態にあるため、飛ぶことはまだ出来ない。コンピュータコアと対話することで起動させられる。\n\n<Name>Charlon Whitestone</Name> の忠告によると、起動処理はおよそ15日かかる。
 
-EscapeShipLostLabel:<<Ship destroyed??船は破壊された>>
-EscapeShipLost:<Name>Charlon Whitestone</Name> がメッセージを送ってきた。\n\n着陸した船の制御を失っていることを確認した。これが悪者の手に渡らないように、自爆装置を強制作動した。船は今やクレーターとなった。\n\nこの星から出るための別の方法を探す必要がある。
 
 CaravanMeetingTitle:<<Caravan meeting by {0}??{0} のキャラバン会合>>
 CaravanMeeting:{0} は {1} からのキャラバンと平和的に出会った。このキャラバンの構成:\n\n{2}
@@ -1957,7 +2024,7 @@ LetterRelationsChange_NeutralFromHostile:{0} との関係は好転した。こ�
 LetterRelationsChange_NeutralFromAlly:{0} との関係は冷めた。この_{faction}_はあなたを同盟ではなく中立と見なすようになった。\n\nお互いに平和な関係であることには変わらないが、あなたが攻撃されても援軍を送らなくなった。\n\nこの変化は友好度({1})が {2} を下回ったために起こった。もし友好度が {3} を下回ると {0} は敵対するようになる。もし友好度が {4} を上回ればまた同盟になる。
 LetterRelationsChange_Ally:{0} との関係はとても親しいものになった。この_{faction}_はこれから同盟になる。\n\n同盟は時々、あなたが攻撃されている時に援軍を送ってくれる。また、友好度を消費して、いつでも助けを呼ぶことができる。\n\n友好度({1})が {2} を上回ったために同盟になった。もし友好度が {3} を下回ると中立の関係に戻る。
 
-goodwill:<<goodwill??友好度>>
+goodwill:_<goodwill>_
 Neutral:<<Neutral??中立>>
 Death:<<Death??死亡>>
 
@@ -2026,7 +2093,7 @@ LastFactionRelationsEvent:最後のイベントは
 ViewRelatedQuest:<<View related quest??関連クエストを見る>>
 ViewQuest:<<View quest??クエストを見る>>
 LastEventsInLife:<<The last events in {PAWN_definite}'s life??{PAWN_definite} の人生最後の出来事>>
-
+LetterInspirationBeginThanksToHighMoodPart:_{mood}_が良かったので、 [PAWN_nameIndef] が閃きを感じた！
 LetterLabelNoticedRelatedPawns:<<Relationship??縁故関係>>
 LetterRelatedPawnsRaidEnemy:到着した {1} の一団に{0}か_{prisoner}_と縁故関係がある人々がいる。\n\n_{faction}_関係が悪いので、たとえ関係があるとしても、お互いに攻撃し合うことには変わらない。\n\nそれらの人々:
 LetterRelatedPawnsRaidFriendly:到着した友好的な {1} の一団に{0}か_{prisoner}_と縁故関係がある人々がいる:
@@ -2079,14 +2146,14 @@ LetterDrugBinge:{2_label} が {1} を乱用するようになった。
 LetterLabelAllCaravanColonistsDied:<<Caravan destroyed??キャラバン 全滅>>
 LetterAllCaravanColonistsDied:{0} が全員死んだ。
 
-LetterLabelCaravanEnteredMap:<<Caravan arrived at {0_label}??キャラバンが {0_label} に到着>>
-LetterCaravanEnteredMap:{0} は {1_definite} に到着した。
+LetterLabelCaravanEnteredMap:<<Caravan arrived at {0_label}??キャラバンが{0_label}に到着>>
+LetterCaravanEnteredMap:{0}は{1_definite}に着いた。
 
 LetterLabelCaravanEnteredEnemyBase:<<Attack begun??戦闘開始>>
-LetterCaravanEnteredEnemyBase:{0} は {1} に到着し、攻撃準備が整った。
+LetterCaravanEnteredEnemyBase:{0}は{1}に到着し、攻撃準備が整った。
 
 LetterLabelTransportPodsLandedInEnemyBase:<<Attack begun??戦闘開始>>
-LetterTransportPodsLandedInEnemyBase:_[Transport pod]_ が {0} に到着した。
+LetterTransportPodsLandedInEnemyBase:_[Transport pod]_が{0}着いた。
 
 LetterLabelFactionBaseDefeated:<<Base destroyed??本拠地 破壊>>
 LetterFactionBaseDefeated:敵の本拠地 {0} を破壊した。\n\nあと {1} でキャラバンは再編成される。ワールド画面でこの破壊した基地を選択して'_<Reform caravan>_'を選べば今すぐキャラバンを再編成できる。
@@ -2141,9 +2208,7 @@ LetterPawnsLostBecauseMapClosed_Caravan:キャラバンが消えた。次の人�
 LetterLabelPawnsLostBecauseMapClosed_Home:<<Inhabitants abandoned??見捨てられた住民>>
 LetterPawnsLostBecauseMapClosed_Home:次の人や動物は見捨てられた
 
-LetterLabelHibernateComplete:<<Reactor ready??反応炉準備完了>>
-LetterHibernateComplete:<Name>Charlon Whitestone</Name> が反応炉の復帰処理を完了させ、離陸するパワーを出せるようになった。
-LetterHibernateCompleteStandalone:反応炉の復帰処理が完了し、離陸するパワーを出せるようになった。
+
 
 LetterLabelVisitorsGaveGift:<<Gift from {0}??{0} からの贈り物>>
 LetterVisitorsGaveGift:{PAWN_factionName} の {0} が 贈り物を置いていった:\n\n{1}
@@ -2210,7 +2275,7 @@ LetterQuestCompletedSuccess:クエスト '{0}' を達成した！
 LetterQuestCompletedFail:クエスト '{0}' は失敗した。
 LetterQuestCompletedConcluded:クエスト '{0}' を終わらせた。
 
-LetterBladelinkWeaponBondedLabel:<<Bladelink bond: {PAWN_labelShort}??_[Bladelink]_ 繋がり: {PAWN_labelShort}>>
+LetterBladelinkWeaponBondedLabel:<<Persona bond: {PAWN_labelShort}??_{Persona}_ 結合: {PAWN_labelShort}>>
 LetterBladelinkWeaponBonded:{PAWN_labelShort} は {WEAPON_labelShort} の人格と堅く結ばれた。\n\nこれ以降、{WEAPON_labelShort} は {PAWN_labelShort} しか振るえない。
 
 LetterLabelMechClusterArrived:<<Mechanoids arrived??_[mechanoid]_ 到着>>
@@ -2263,7 +2328,9 @@ CurrentGoodwillTip_PermanentEnemy:この_{faction}_とは常に敵対してお�
 CurrentGoodwillTip_Ally:この_{faction}_とは同盟になっており、援軍を送ることもある。もし友好度が {0} を下回ると中立に変わる。
 CurrentGoodwillTip_Neutral:この_{faction}_とは中立なので、交易や話を自由にできる。もし友好度が {0} を下回ると敵対する。もし友好度が {1} を上回ると同盟になり、積極的に助けてくれるようになる。
 CurrentGoodwillTip_Hostile:この_{faction}_とは敵対しており、あなたの_{settlement}_とキャラバンを襲撃する。もし友好度が {0} を上回ると中立になる。
-CurrentGoodwillTip_NaturalGoodwill:この_{faction}_の友好度は {0} から {1} の間に収まろうとする。もし友好度が {1} を上回ると、日ごとに {3} 下がる。もし友好度が {0} を下回ると、日ごとに {2} 上がる。
+CurrentGoodwillTip_NaturalGoodwill:この_{faction}_の友好度は {0} から {1} の間に収まろうとする。
+CurrentGoodwillTip_NaturalGoodwillRise:もし友好度が {0} を下回ると、一年毎に {1} 上がる。
+CurrentGoodwillTip_NaturalGoodwillFall:もし友好度が {0} を上回ると、一年毎に {1} 下がる。
 
 Friend:_<Friend>_
 Rival:_<Rival>_
@@ -2328,6 +2395,8 @@ AcceptedAgoBy:<<Accepted {0} ago by {1}??{0} 前に {1} が受けた>>
 AcceptedOnBy:<<Accepted on {0} by {1}??{0} に {1} が受けた>>
 QuestExpiresIn:<<Expires in {0}??期限切れまで {0}>>
 QuestExpiresOn:<<Expires on {0}??{0} に期限切れ>>
+QuestAveragePawnMood:<<Average guest mood (previous {0}): {1}??_{guest}_の平均_{mood}_ (前 {0}): {1}>>
+QuestAveragePawnMoodTargets:<<The average mood of {0} over the previous {1}??前の{1}を超える{0}の平均_{mood}_>>
 ShuttleArrivesIn:<<Shuttle arrives in {0}??_[Shuttle]_ 到着まで {0}>>
 ShuttleArrivesOn:<<Shuttle arrives on {0}??{0} に _[Shuttle]_ 到着>>
 ShuttleDepartsIn:<<Shuttle departs in {0}??_[Shuttle]_ 出発まで {0}>>
@@ -2335,9 +2404,12 @@ ShuttleDepartsOn:<<Shuttle departs on {0}??{0} に _[Shuttle]_ 出発>>
 QuestFinishedAgo:<<Finished {0} ago??{0} 前に完了>>
 AcceptQuest:<<Accept quest??クエストを受ける>>
 AcceptWith:<<Accept with {0_labelShort}??{0_labelShort} で受ける>>
+AcceptQuestFor:<<Accept for??これで受ける>>
+AcceptQuestForTip:クリックすると、この報酬でこのクエストを受ける。
 QuestOutcomeInfo_OfferExpired:申し出の期限は切れた。
 QuestOutcomeInfo_UnknownOrSuccess:このクエストは完了した。
 QuestOutcomeInfo_Failed:このクエストは失敗した。
+QuestOutcomeInfo_Invalid:このクエストは受けた後に無効になった。
 JumpToTargetCustom:{0} へ移動
 SelectHiveTargets:<<Select hives??巣を選択>>
 QuestChallengeRatingTip:難度評価: クエストの難しさとあなたの現在の強さを比べた概略評価。より難しいクエストはより大きな報酬を与える。\n\n1: 普通\n2: 難しい\n3: かなり難しい\n4: 究極
@@ -2350,10 +2422,15 @@ ChooseRewards:<<Reward preferences??報酬の選択>>
 ChooseRewardsDesc:今後のクエストで欲しい報酬の種類を他の_{faction}_に伝える。これは既に出されたクエストには影響しない。
 AcceptRoyalFavor:<<Accept {FACTION_royalFavorLabel}??{FACTION_royalFavorLabel} を受け取る>>
 AcceptRoyalFavorDesc:{FACTION_name} の {FACTION_royalFavorLabel} で報酬を受け取るかどうか。\n\n無効なら、 {FACTION_name} は別の報酬を申し出る。\n\nこの設定は新しく届いたクエストにのみ影響する。
-AcceptGoodwill:<<Accept goodwill??信用を受け取る>>
+AcceptGoodwill:<<Accept goodwill??_<goodwill>_を受け取る>>
 AcceptGoodwillDesc:{FACTION_name} との派閥関係を良くする報酬を受け取るかどうか。\n\n無効なら、 {FACTION_name} は別の報酬を申し出る。\n\nこの設定は新しく作られたクエストにのみ影響する。
 RoyalFavorOn:現在 {FACTION_royalFavorLabel} を受け取る設定になっている。
 RoyalFavorOff:現在 {FACTION_royalFavorLabel} を受け取らない設定になっている。
+
+GoodwillTip:{0_name}との_<goodwill>_が{1}良くなる\n\n現在の_<goodwill>_: {4} ({5})。\n\n_<Goodwill>_は_{faction}_間の全体的な関係具合を示している。{2}を下回った_{faction}_は敵になり、あなたの_{settlement}_やキャラバンを襲うようになる。{3}を上回れば同盟になり、可能な場合は戦士を送って助けてくれる。それ以外では中立を保ち、自由に交易や会話できる。
+PawnQuestReward:<<{0_labelShort} joins??{0_labelShort} 加入>>
+
+CreatesNeed:<<Creates need??欲求を生み出す>>
 
 Tutorial:<<Tutorial??チュートリアル>>
 NewColony:<<New colony??新しくはじめる>>
@@ -2367,6 +2444,7 @@ Mods:<<Mods??MOD>>
 SaveTranslationReport:<<Save translation report??翻訳リポートを保存>>
 GeneratingTranslationReport:<<Generating translation report??翻訳リポートを生成しています>>
 CleanupTranslationFiles:<<Cleanup translation files??翻訳ファイルの整理>>
+TranslationFilesTKeyUpdate:<<Update translations files (TKey's)??翻訳ファイルの更新 (TKey's)>>
 CleaningTranslationFiles:<<Cleaning translation files??翻訳ファイルを整理しています>>
 Credits:<<Credits??クレジット>>
 QuitToMainMenu:<<Quit to main menu??タイトルに戻る>>
@@ -2556,6 +2634,8 @@ IncapableOfTooltipTitle:<<Caused by title: {0}??肩書きにより: {0}>>
 IncapableOfTooltipTrait:<<Caused by trait: {0}??特徴により: {0}>>
 IncapableOfTooltipHediff:<<Caused by: {0}??次により: {0}>>
 IncapableOfTooltipWorkTypes:<<Disabled work types:??無効な作業タイプ:>>
+IncapableOfTooltipQuest:<<Caused by quest status: {0}??クエスト状態により: {0}>>
+
 Traits:<<Traits??特徴>>
 PermanentMoodEffect:<<Permanent mood effect??永続的な_{mood}_影響>>
 Skills:<<Skills??スキル>>
@@ -2592,6 +2672,7 @@ GeneratingMap:<<Generating map??マップを生成しています>>
 GeneratingMapForNewEncounter:<<Generating map for new encounter??新しい交戦のためにマップを生成しています>>
 
 ClickForMoreInfo:詳細はクリック
+NoMoreInfoAvailable:<<No more information is available.??これ以上の情報は無い。>>
 
 SaveButton:<<Save??セーブ>>
 ClearBinding:<<Clear??クリア>>
@@ -2620,6 +2701,7 @@ AdaptiveTutorIsReset:リセットされました。全てのレッスンを最�
 RunInBackground:<<Run in background??バックグラウンド実行>>
 DevelopmentMode:<<Development mode??開発モード>>
 ResetModsConfigOnCrash:<<Auto-reset mods config on crash??クラッシュ時にMODをリセットする>>
+SimulateNotOwningRoyalty:<<Simulate not owning Royalty??Royalty非保持の模倣>>
 LogVerbose:<<Verbose logging??詳細なログを記録>>
 OpenSaveGameDataFolder:<<Open save data folder??セーブデータのフォルダを開く>>
 ShowSaveGameDataLocation:<<Show save data location??セーブデータの位置を表示>>
@@ -2657,16 +2739,16 @@ MessageRaidersDetectedEarlyAssault:{1} の {0} はこちらを発見したので
 MessageRaidersKidnapping:{1} の {0} は誰かを誘拐して離れることにした。
 MessageRaidersStealing:{1} の {0} は何かを略奪して離れることにした。
 
-MessageRaidersLeaving:{1} の {0} は去っている。
-MessageRaidersGivenUpLeaving:{1} の {0} は諦めて去っている。
-MessageRaidersSatisfiedLeaving:{1} の {0} は成果に満足して去っている。
+MessageRaidersLeaving:{1}の{0}は去り始めた。
+MessageRaidersGivenUpLeaving:{1}の{0}は諦めて去り始めた。
+MessageRaidersSatisfiedLeaving:{1}の{0} は成果に満足して去り始めた。
 
-MessageFightersFleeing:{1} の {0} は逃げている。
-MessageFriendlyFightersLeaving:味方の {1} の {0} は去っている。
+MessageFightersFleeing:{1}の{0}は逃げている。
+MessageFriendlyFightersLeaving:味方の{1}の{0}は去り始めた。
 
-MessageVisitorsTakingWounded:{1} の {0} は怪我をした_{guest}_を運ぼうとしている。
-MessageVisitorsTrappedLeaving:{1} の {0} は閉じ込められ脱出しようとしている。
-MessageVisitorsDangerousTemperature:{1} の {0} は危険な気温のため去っている。
+MessageVisitorsTakingWounded:{1}の{0}は怪我をした_{guest}_を運ぼうとしている。
+MessageVisitorsTrappedLeaving:{1}の{0}は閉じ込められ、脱出しようとしている。
+MessageVisitorsDangerousTemperature:{1}の{0}は危険な気温のため去り始めた。
 
 MessageWornApparelDeterioratedAway:{1_nameFull} が身に着けていた {0} は朽ち果てた。
 MessageDeterioratedAway:{0} が倉庫で朽ち果てた。
@@ -2676,6 +2758,7 @@ MessageSeasonBegun:{0} が始まる。
 MessageShipHasLeftCommsRange:{0} は通信範囲から離れた。
 
 MessageNeedBeaconToTradeWithShip:船と取引するには通電している _[orbital trade beacon]_ が必要。
+MessageNeedRoyalTitleToCallWithShip:呼び出す人は {0_label} 以上の_{title}_が必要。
 
 MessageConditionCauserDespawned:{0} は破壊された。
 
@@ -2742,11 +2825,12 @@ MessageMiscarriedStarvation:{0} が飢えにより流産した。
 MessageMiscarriedPoorHealth:{0} が体調不良により流産した。
 MessageGaveBirth:{0} が出産した。
 
-MessagePsychicAmplifierNoSensitivity:{PAWN_labelShort} は精神感応が無いので _[psychic amplifier]_ を使えなかった。
+MessagePsylinkNoSensitivity:{PAWN_labelShort} は _<psychic sensitivity>_ が無いので _<psylink>_ を使えなかった。
+
 MessageLostImplantLevelFromHediff:{PAWN_labelShort} は {2} によりインプラントのレベルが {1} 下がった。
 
 MessageReceivedBrainDamageFromHediff:{PAWN_labelShort} は {2} により {1} ポイントの脳ダメージで苦しんでいる。
-MessageWentOverPsychicEntropyLimit:{PAWN_labelShort} は精神エントロピーの安全限界をを超えた。
+MessageWentOverPsychicEntropyLimit:{PAWN_labelShort}は_{neural heat}_の通常限界を超えた。
 
 MessageNuzzledPawnGaveNameTo:{1} が懐いたので {NAMER_nameFull} が {NAMEE_nameFull} と名付けた。
 
@@ -2757,7 +2841,7 @@ MessageAttackedByPredator:{PREY_labelShort} が {PREDATOR} に襲われている
 
 MessageHiveReproduced:虫の巣が自己増殖した。
 
-MessageTraderCaravanLeaving:{0} からの交易キャラバンは去っている。
+MessageTraderCaravanLeaving:{0}の交易キャラバンは去り始めた。
 
 MessageCantSelectDeadPawn:{1_labelShort} は死んでいる。
 MessageCantSelectOffMapPawn:{1_labelShort} はマップの外にいる。
@@ -2838,7 +2922,7 @@ MessageTransporterSingleLoadingProcessStarted:指定されたアイテムや人�
 MessageTransportPodsArrived:_[Transport pod]_ が到着した。
 MessageTransportPodsArrivedAndLost:_[Transport pod]_ が到着したが、_{colonist}_が一人も乗っていなかったので荷物が失われた。
 MessageTransportPodsArrivedAndAddedToCaravan:_[Transport pod]_ が到着した。中身は {0} に加えられた。
-MessageFinishedLoadingTransporters:_[Transport pod]_ の荷積みは完了した。た。準備できたら発射する。
+MessageFinishedLoadingTransporters:_[Transport pod]_ の荷積みは完了した。準備できたら発射する。
 MessageFinishedLoadingTransporterSingle:_[Shuttle]_ は必要な貨物を積み終え、準備ができたら発射できる。
 MessageCantLoadMoreIntoTransporters:{1} は _[Transport pod]_ への積み込みを終えられない。アイテムか人が得られなくなったため。 ({2_labelShort})。
 MessageTransportPodsDestinationIsInvalid:選択された目的地が不正。
@@ -2868,7 +2952,8 @@ MessageScreenResTooSmallForUIScale:この解像度とUIスケールではゲー�
 MessageYouHaveToReformCaravanNow:今すぐキャラバンを編成しなければならない。後に残された人は全て見捨てられる。
 
 MessageDefendersAttacking:{1} の {0} が {2} を攻撃している。
-MessageMechanoidsAssembled:_[mechanoid]_集まってきて、攻撃を始めた。
+MessageMechanoidsAssembled:_[mechanoid]_が組み立てられて、クラスターを守り始めた。
+MessageMechanoidsLeftToAssemble:組み立てられる残りの_[mechanoid]_
 MessageMechanoidsReinforcementsDrop:近くの _[drop pod]_ から _[Mech drop beacon]_ が増援を呼んだ。
 
 MessageSelfTendUnsatisfied:自己治療をするには、{1_labelShort} に医者の仕事も割り当てる必要がある。
@@ -2925,6 +3010,7 @@ GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart:{0} を無闇に移植し
 GoodwillChangedReason_CapturedPawn:{1_labelShort} を捕まえた
 GoodwillChangedReason_PawnCrushed:{1_labelShort} が潰れた
 GoodwillChangedReason_PawnDied:{1_labelShort} が死んだ
+GoodwillChangedReason_PawnStripped:{0_labelShort} が脱がされた
 GoodwillChangedReason_Traded:交易した
 GoodwillChangedReason_AttackedCaravan:キャラバンを襲った
 GoodwillChangedReason_NaturallyOverTime:時間経過で {0} になる性質
@@ -2975,8 +3061,9 @@ MessageTranslationFilesCleanupDone:完了。処理したフォルダ: {0}
 
 MessageCantCleanupTranslationFilesBeucaseOfXmlError:翻訳ファイル({0})が読み込めませんでした。先にXMLのパースエラーを直して下さい。
 
-MessageCapturingWillAngerFaction:警告: {PAWN_nameDef} を捕まえると_{faction}_ {PAWN_factionName} が怒る。
-MessageCantShootInMelee:近接戦闘状態では撃てない。
+MessageCapturingWillAngerFaction:警告: {PAWN_nameDef} を捕まえると_{faction}_ {PAWN_factionName} を怒らせる。
+MessageStrippingWillAngerFaction:警告: {PAWN_nameDef} を脱がすと {PAWN_factionName} を怒らせる。
+MessageCantShootInMelee:近接戦闘中は撃てない。
 
 MessageNoColonistCanAcceptQuest:今このクエストを受けられる {0} がいない。
 MessageCannotAcceptQuest:このクエストは受けられない。
@@ -3036,6 +3123,7 @@ day:<<day??日>>
 Default:<<Default??既定>>
 Average:<<Average??平均>>
 Cause:<<Cause??原因>>
+Etc:<<etc??他>>
 MoneyFormat:${0}
 
 MeatLabel:_[{0} meat]_
@@ -3264,6 +3352,8 @@ capturedBy:<<captured by {0}??{0} により確保>>
 yourCaravan:<<your caravan??あなたのキャラバン>>
 CreatureWildness:<<{0} wildness??{0} 野生>>
 CreatureTrainability:{0} _<trainability>_
+CreatureFollowDrafted:<<Follow master while drafted??_{draft}_中に主人に追従>>
+CreatureFollowFieldwork:<<Follow master while doing field work??屋外作業中に主人に追従>>
 ProximitySingleGoodwillChange:<<{0} with {1}??{0} {1}>>
 EnterCooldown:{0} 日経つまで再入場できない。
 Caravan:<<Caravan??キャラバン>>
@@ -3284,7 +3374,6 @@ Required:<<Required??必要>>
 GiveGiftViaTransportPodsTradeRequestWarning:警告: _[transport pod]_ で取引要求は完了できない。\nモノを送ると、対象の_{settlement}_はそれを贈り物として受け取るが、報酬は貰えない。\n\n取引するなら、キャラバンで行きましょう！\n\n積み荷を贈り物としてこの_{faction}_へ送りますか？
 PrisonerLower:_<prisoner>_
 PrisonersLower:<<prisoners??_{prisoner}_>>
-;Complete:<<Complete??完了>>
 ClickToViewInQuestsTab:このクエストを_[quests]_タブでみる
 Mood:_{Mood}_
 Quest:_[Quest]_
@@ -3297,7 +3386,9 @@ DetonationCountdown:<<Detonates in {0} days??爆破まで {0} 日>>
 ExplosionOnDamageWarning:<<Large explosion if damaged??ダメージで大爆発>>
 MechCluster:_[Mech cluster]_
 SpawningNextPawnIn:<<Spawning in {0}??生まれるまで {0}>>
-MechAssemblyCompleteIn:<<{0} assembly completes in {1}??{0} 組み立て完了まで {1}>>
+MechAssemblyCompleteIn:<<{0} assembly completes in {1}.??{0} 組み立て完了まで {1}。>>
+MechAssemblyNextType:<<Will assemble??次の組み立て>>
+
 ThingsProduced:<<produced??生産>>
 PlantsHarvested:<<harvested??収穫??>>
 PawnsKilled:<<{0} killed??{0} 殺害>>
@@ -3308,15 +3399,22 @@ DormantCompBeacon:<<Ready to drop mechanoids??_{Mechanoid}_降下準備完了>>
 DormantCompExpired:<<Expired??中止>>
 InitiatesIn:<<Initiates in??開始まであと>>
 SendSignalOnCountdownCompTime:<<Activates in {0}??作動まであと {0}>>
-PsychicEntropy:_<Psychic entropy>_
-PsychicEntropyPainFocus:<<{0} pain focus??痛による集中 {0}>>
+;これは下のバーに表示されるが、狭くて表示しきれないので気をつける
+PsychicEntropy:_<Neural heat>_
+PsychicEntropyShort:<<Heat??熱>>
+PsychicEntropyPainFocus:<<{0} pain boost??痛みによる増幅 {0}>>
 ConditionCauserRadius:<<radius {0}??範囲 {0}>>
+LowPsyfocus:<<low psyfocus??低_{psyfocus}_>>
 DurationLeft:<<{0} left??残り {0}>>
 AnyOf:<<Any of??いずれか>>
+Goodwill:<<Goodwill??信頼>>
+JobReport_ReduceResistance:<<reducing resistance of {0_nameIndef}??{0_nameIndef} の_{resistance}_を減らしている。>>
 
 UserScanAbility:<<User scanning speed??探査速度>>
 ScanAverageInterval:<<Random find interval??ランダム発見間隔>>
 ScanningProgressToGuaranteedFind:<<Progress to guaranteed find??確実に発見するまでの進捗>>
+
+MeditatingAt:<<meditating at??瞑想>>
 
 ContainsWort:<<Contains {0} / {1} wort.??内容物 {0} / {1} _[wort]_。>>
 ContainsBeer:<<Contains {0} / {1} beer.??内容物 {0} / {1} _[beer]_。>>
@@ -3551,6 +3649,7 @@ TimeLeft:<<time left??残り時間>>
 ImpactDate:<<impact date??衝突日>>
 SourceUnknown:発生元不明。
 ClickToJumpToSource:クリックで発生元へ移動。
+ClickToJumpToFlashstorm:クリックで _[flashstorm]_ へ移動。
 CausedByQuest:<<Caused by quest: {0}??クエストによって起こされた: {0}>>
 
 NoStuffsToBuildWith:これを作るのに必要な素材が無い。
@@ -3582,10 +3681,8 @@ ShipReportMissingPartRequires:必要物
 ShipReportNoFullPods:_[Cryptosleep casket]_ に空きがある
 ShipReportHibernating:休止コンポーネント
 ShipReportNotReady:コンポーネント準備不足
-HibernateWarning:<Name>Charlon Whitestone</Name> は反応炉の休止状態復帰処理を行える準備ができた。彼の忠告によると、起動処理はおよそ15日かかり、エネルギー特性は遠くからでも検知される。\n\nこの種のエネルギー特性は星間飛行能力があることを示しており、略奪者集団や凶悪な_[Mechanoid]_の群れを引き寄せることになる。\n\nかつてない程の強さで襲われる。まずは防御をしっかり整えよう。
-HibernateWarningStandalone:反応炉を動かす準備が出来た。\n\n起動処理はおよそ15日かかり、エネルギー特性は遠くからでも検知される。この種のエネルギー特性は星間飛行能力があることを示しており、略奪者集団や凶悪な_[Mechanoid]_の群れを引き寄せることになる。\n\nかつてない程の強さで襲われる。まずは防御をしっかり整えよう。
-HibernateWarningPacifist:<Name>Charlon Whitestone</Name> は反応炉の休止状態復帰処理を行える準備ができた。彼はこの処理はおよそ15日掛かると忠告した。
-HibernateWarningStandalonePacifist:反応炉を動かす準備が出来た。この処理にはおおよそ15日かかる。
+
+
 
 SkillNeurotrainerLabel:_[neurotrainer]_ ({0})
 SkillNeurotrainerUseLabel:<<Use skill neurotrainer to learn {0}??スキル _[neurotrainer]_ で {0} を身につける>>
@@ -3696,10 +3793,13 @@ PawnTooltipWithDescAndPrimaryEquip:{0} ({1})\n{2}\n{3}
 PawnTooltipWithDescNoPrimaryEquip:{0} ({1})\n{2}
 PawnTooltipWithPrimaryEquipNoDesc:{0}\n{1}\n{2}
 PawnTooltipNoDescNoPrimaryEquip:{0}\n{1}
-PawnTooltipPsychicEntropy:_{Psychic entropy}_: {0}/{1}\n減少速度: {2}/{3}秒(ゼロまで {4}秒)\n\n_{Psychic entropy}_は_{psycast}_実行後に増える。\n安全限界を超えると長期的な健康被害に繋がる可能性がある。\nエントロピーがゼロになるたびに、サイキック酔いが残る。
-PawnTooltipPsychicEntropyPainFocus:痛みが心を集中させ、 _[psychic entropy]_ からより早く回復させる。\n\n痛みレベル: {0}\n_[psychic entropy]_ 回復へのボーナス: {1}
-PawnTooltipPsychicEntropyLimit:_{Psychic entropy}_ のリミッターの切替。\n\n_{Psychic entropy}_の限界を超えると、長期の_{psychic breakdown}_などの重大な健康被害や、加齢に影響する脳損傷さえも起こす。
 
+PawnTooltipPsychicEntropyStats:_<Neural heat>_: {0} / {1}\n<<Fall rate: {2} / s ({3}s until zero)??現象速度: {2} / 秒 (ゼロまで {3}秒)>>
+PawnTooltipPsychicEntropyDesc:_<Neural heat>_は_[psycast]_実行後に増える。通常限界を超えると長期的な_<psychic breakdown>_を引き起こす。\n\n_<Neural heat>_は時間経過で自然に消える。この過程は_<eltex>_衣服や痛みで速められる。
+PawnTooltipPsychicEntropyPainFocus:痛み増幅\n\n痛みは心を集中させて_<neural heat>_の発散を速める。\n\n痛み強度: {0}\n回復ボーナス: {1}
+PawnTooltipPsychicEntropyLimit:_<neural heat>_リミッターの切り替え。熱の限界を超えると長期的な_<psychic breakdown>_を起こすかもしれない。恒久的なダメージは引き起こさない。
+
+PawnTooltipPsyfocus:_[Psyfocus]_: {0}
 PawnTooltipGenderAndKindLabel:{0} {1}
 
 ; これはandで繋がるので名詞にする。
@@ -3709,7 +3809,11 @@ Reward_Pawn_Caravan:{0_nameDef} という {0_age} 歳の {0_title} が加わる 
 Reward_Items:次の物資が_[transport pod]_で届く (総額 {1}):\n\n{0}
 Reward_Items_Caravan:次を受け取る (総額 {1}):\n\n{0}
 Reward_Goodwill:{0_name} との_{faction}_関係が {1} 良くなる
-
+Reward_PassageOffworld:星々へ連れて行ってもらえる
+Reward_CampLoot:<<you can loot everything from the camp??キャンプから全て奪える>>
+Reward_CampLoot_Label:<<Camp loot??キャンプ略奪>>
+Reward_PassageOffworld_Label:<<Passage offworld??宇宙への道>>
+TotalValue:<<value {0}??価値 {0}>>
 
 BondedWith:<<Bonded to: {0}??絆: {0}>>
 NotBonded:<<Not yet bonded??まだ結ばれていない>>
@@ -3725,6 +3829,7 @@ InterceptsProjectiles_GroundProjectiles:<<ground projectiles??地面飛翔体>>
 InterceptsProjectiles_AerialProjectiles:<<aerial projectiles??空中飛翔体>>
 
 AffectedGender:<<Affected gender??影響する性別>>
+CausedByHediff:<<Caused by: {0}??次により: {0}>>
 
 Wiki:Wiki
 WikiTip:Webブラウザを開いて RimWorld の Wiki を見て、遊び方を調べる。
@@ -3872,3 +3977,23 @@ WorkTagPlantWork:<<plant work??栽培>>
 WorkTagMining:_<mining>_
 WorkTagHunting:<<hunting??狩り>>
 WorkTagCommoner:<<commoner work??一般作業>>
+WorkTagAllWork:<<all work??全ての作業>>
+
+
+;殆ど同じ文なので気をつける
+EscapeShipFoundLabel:<<Ship found??船の発見>>
+EscapeShipFound:(*Name)Charlon Whitestone(/Name)から送られてきた座標に到着し、隠されていた船を発見した。\n\n船の反応炉はまだ深い休止状態にあるため、飛ぶことはまだ出来ない。コンピュータコアと対話することで起動させられる。\n\n(*Name)Charlon Whitestone(/Name)の忠告によると、起動処理はおよそ15日かかり、エネルギー特性は遠くからでも検知される。この種のエネルギー特性は星間飛行能力があることを示しており、略奪者集団や凶悪な_[Mechanoid]_群れを引き寄せることになる。\n\nかつてない程の強さで襲われる。まずは防衛をしっかり整える。
+
+EscapeShipFoundPeaceful:(*Name)Charlon Whitestone(/Name)から送られてきた座標に到着し、隠されていた船を発見した。\n\n船の反応炉はまだ深い休止状態にあるため、飛ぶことはまだ出来ない。コンピュータコアと対話することで起動させられる。\n\n(*Name)Charlon Whitestone(/Name)の忠告によると、起動処理はおよそ15日かかる。
+
+EscapeShipLostLabel:<<Ship destroyed??船は破壊された>>
+EscapeShipLost:(*Name)Charlon Whitestone(/Name)がメッセージを送ってきた。\n\n着陸した船の制御を失っていることを確認した。これが悪者の手に渡らないように、自爆装置を強制起動した。船は今やクレーターとなった。\n\nこの星から出るための別の方法を探す必要がある。
+
+HibernateWarning:(*Name)Charlon Whitestone(/Name)は反応炉の休止状態復帰処理を行える準備ができた。彼の忠告によると、起動処理はおよそ15日かかり、エネルギー特性は遠くからでも検知される。\n\nこの種のエネルギー特性は星間飛行能力があることを示しており、略奪者集団や凶悪な_[Mechanoid]_の群れを引き寄せることになる。\n\nかつてない程の強さで襲われる。まずは防衛をしっかり整える。
+HibernateWarningStandalone:反応炉を動かす準備が出来た。\n\n起動処理はおよそ15日かかり、エネルギー特性は遠くからでも検知される。この種のエネルギー特性は星間飛行能力があることを示しており、略奪者集団や凶悪な_[Mechanoid]_の群れを引き寄せることになる。\n\nかつてない程の強さで襲われる。まずは防衛をしっかり整える。
+HibernateWarningPacifist:(*Name)Charlon Whitestone(/Name)は反応炉の休止状態復帰処理を行える準備ができた。彼の忠告によると、起動処理はおよそ15日かかかる。
+HibernateWarningStandalonePacifist:反応炉を動かす準備が出来た。この処理にはおおよそ15日かかる。
+
+LetterLabelHibernateComplete:<<Reactor ready??反応炉準備完了>>
+LetterHibernateComplete:(*Name)Charlon Whitestone(/Name)が反応炉の復帰処理を完了させ、離陸するパワーを出せるようになった。
+LetterHibernateCompleteStandalone:反応炉の復帰処理が完了し、離陸するパワーを出せるようになった。

@@ -1,9 +1,4 @@
-﻿{PsychicSilencer
-	label:_[psychic silencer]_
-	labelNoun:<<a psychic silencer??_[psychic silencer]_>>
-	description:埋め込んだ _[psychic silencer]_。
-}
-{PsychicSensitizer
+﻿{PsychicSensitizer
 	label:_[psychic sensitizer]_
 	labelNoun:<<a psychic sensitizer??_[psychic sensitizer]_>>
 	description:埋め込んだ _[psychic sensitizer]_。
@@ -17,11 +12,6 @@
 	label:_[psychic reader]_
 	labelNoun:<<a psychic reader??_[psychic reader]_>>
 	description:埋め込んだ _[psychic reader]_。
-}
-{PsychicAmplifier
-	label:_[psychic amplifier]_
-	labelNoun:<<a psychic amplifier??_[psychic amplifier]_>>
-	description:取り付た _[psychic amplifier]_。
 }
 {Neurocalculator
 	label:_[neurocalculator]_
@@ -212,10 +202,14 @@
 			}
 		}
 	}
+}}
+{PsychicAmplifier
+	label:_[psylink]_
+	description:より大きな精神領域への有機的な繋がり。これにより、身に付けた特定の_[psycast]_を使って、不可能と思われる方法で現実に影響を与えられる。\n\nより高い_[psylink]_は、より強力な_[psycast]_使える。_[psylink]_の強さに関わらず、身に付けた_[psycast]_だけ使える。\n\n_[Psylink]_は様々なソースから得られる。使い捨ての_[psylink neuroformer]_装置は_[psylink]_を作れる。_{tribe}_民は精神的に繋がった生命への接続儀式を通じて身に付ける方法を知っている。\n\n脳内での精神的現象である_[psylink]_は、間近で観察すると積極的に隠れようとするので、研究者達にあまり理解されていない。有力な説では、人々がどうやってか_[archotech]_に繋がり、おそらく何らかの交渉や同調手段を用いて、その力を利用していると考えられている。
 }
 {PsychicEntropy
-	label:_[psychic entropy]_
-	description:心に溜まった無秩序な精神エネルギー。エントロピーは時間とともに下がる。消えた後は、何日か精神酔いになる。 _{psychic entropy}_ がとても高くなると、精神異常、長期の精神衰弱、 _{psychic amplifier}_ の故障、脳障害も起こる。
+	label:_[neural heat]_
+	description:_[neural heat]_は「熱」と呼ばれるが、温度の事ではない。思考にある混沌としたサイキックエネルギーの一種を指しており、_[psycast]_の使用で溜まり、数分数秒の経過で発散する。\n\n_[neural heat]_が通常限界を超えると、一時的な_{psychic breakdown}_や_[psylink]_の低下を起こし、最後は_{psychic shock}_で気絶する。いずれの状態も脳に恒久的な障害は起こさないが、数日は気絶する。
 	{stages
 		{safe
 			label:<<safe??安全>>
@@ -223,20 +217,20 @@
 		{overloaded
 			label:<<overloaded??負荷>>
 		}
-		{hyperloaded
-			label:<<hyperloaded??過負荷>>
+		{very_overloaded
+			label:<<very overloaded??過負荷>>
 		}
-		{brain_charring
-			label:<<brain charring??脳が焦げる>>
+		{extreme
+			label:<<extreme??極度>>
 		}
-		{brain_roasting
-			label:<<brain roasting??脳が焼ける>>
+		{overwhelming
+			label:<<overwhelming??絶大>>
 		}
 	}
 }
 {PsychicBreakdown
 	label:_<psychic breakdown>_
-	description:過度な _{psychic entropy}_  により、心が長期的に不安定になっている。エントリピーが消えても、衰弱は何日も続き、様々な精神障害が起こる。
+	description:思考の酷い精神的不安定状態。_[psychic breakdown]_は数日続き、様々な精神障害を起こす。時間経過で回復する。
 	{stages
 		{minor
 			label:<<minor??小>>
@@ -275,7 +269,7 @@
 }
 {EntropyLink
 	label:_[entropy link]_
-	description:他者との精神的な繋がり。両者間で等分する事による _{psychic entropy}_ の増減。
+	description:他者との精神的な繋がり。両者間で等分する事による _{neural heat}_ の増減。
 }
 {PsychicSuppression
 	label:_[psychic suppression]_
