@@ -586,6 +586,7 @@ MeditationFocusesPawnDesc:この人物が使える瞑想対象の種類。瞑想
 MeditationFocusesDesc:これが提供する瞑想対象の種類。瞑想している人はこれに集中すると_[psyfocus]_の増加を増やせる。しかし、瞑想対象のどれかを使える場合に限る。各個人の瞑想の種類は生い立ち、特徴、社会的地位などで決まる。
 ;The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on.
 MeditationFocusCanUse:<<Can use {0} focus type because??以下により {0} の対象を使える>>
+MeditationFocusObjects:<<{0} focus objects??{0} 集中 オブジェクト>>
 MeditationFocusEnabledByTitle:<<holds title: {TITLE} ({FACTION_name}).??_{title}_所持: {TITLE} ({FACTION_name}).>>
 MeditationFocusEnabledByChildhood:<<has childhood??幼年期>>
 MeditationFocusEnabledByAdulthood:<<has adulthood??成人期>>
@@ -1011,22 +1012,22 @@ Disconnect:<<Disconnect??切断>>
 
 OfferGift:<<Offer gift??贈り物>>
 MustBeAlly:同盟でなければならない
-NeedGoodwill:友好度が {0} 必要
-NeedSilverLaunchable:_[orbital trade beacon]_ のそばに {0} _[Silver]_が必要。
-NotEnoughSilver:_[Silver]_が足りない。
-SilverForGoodwill:{0} _[Silver]_で友好度が {1} 上がる
-SilverGiftSent:{0} ありがとう。\n\n(友好度が {1} 上がった)
+NeedGoodwill:{0} _<goodwill>_が必要
+NeedSilverLaunchable:_[orbital trade beacon]_のそばに {0} _[silver]_が必要。
+NotEnoughSilver:_[silver]_が足りない。
+SilverForGoodwill:{0} _[silver]_で_<goodwill>_が{1}上がる
+SilverGiftSent:{0}は感謝している。\n\n(_<goodwill>_が{1}上がった)
 
-RequestTrader:交易キャラバンの派遣を要請する。(代価: {0} 友好度)
-ChooseTraderKind:{0} は交易キャラバンの種別を尋ねている。
-TraderSent:{0} は交易キャラバンを送ることに合意した。数日以内に到着する。
-WaitTime:到着まで {0}
+RequestTrader:交易キャラバンの派遣を要請する。(代価: {0} _<goodwill>_)
+ChooseTraderKind:{0}は交易キャラバンの種類を尋ねている。
+TraderSent:{0}は交易キャラバンを送ることに合意した。数日以内に到着する。
+WaitTime:到着まで{0}
 
 RequestAICoreInformation:{0} がある場所を尋ねる (代価: {1} _[Silver]_)
 RequestAICoreInformationResult:{0} は尋ねられた情報について答え、幸運を祈った。
 NoKnownAICore:これ以上の場所は知らない
 
-RequestMilitaryAid:今すぐ援軍を要請する。 (代価: {0} 友好度)
+RequestMilitaryAid:今すぐ援軍を要請する。 (代価: {0} _<goodwill>_)
 MilitaryAidConfirmMutualEnemy:{0} は敵対していない_{faction}_との戦いを助けることはない。これには、現在の脅威である {1} も含まれている。それでも援軍を要請しますか？
 CallConfirm:はい、とにかく呼んでくれ。
 CallCancel:いや、気にしないでくれ。
@@ -1719,19 +1720,19 @@ ClauseSequence7:{0}。{1}。{2}。{3}。{4}。{5}。{6}.
 ClauseSequence8:{0}。{1}。{2}。{3}。{4}。{5}。{6}。{7}.
 XorY:{0} か {1}
 
-LetterLabelAnimalInsanitySingle:<<Mad {ANIMAL_labelShort}??{ANIMAL_labelShort} の凶暴化>>
-AnimalInsanitySingle:一匹の {ANIMAL_label} が狂った。目に入る者は全て攻撃する。
+LetterLabelAnimalInsanitySingle:<<Mad {ANIMAL_labelShort}??{ANIMAL_labelShort}の凶暴化>>
+AnimalInsanitySingle:一匹の{ANIMAL_label}が狂った。目に入る者は全て攻撃する。
 LetterLabelAnimalInsanityMultiple:<<Mad {0}??{0} の凶暴化>>
-AnimalInsanityMultiple:ある種の精神波がこの地に吹き荒れた。_{colonist}_は大丈夫だが、しかし・・・\n\nここの {0} 達は狂気に駆り立てられたようだ。
+AnimalInsanityMultiple:ある種の精神波がこの地に吹き荒れた。_{colonist}_は大丈夫だが、しかし・・・\n\nここの{0}達は狂気に駆り立てられたようだ。
 
 LetterLabelCropBlight:_<Blight>_: {PLANTDEF_labelPlural}
 LetterCropBlight:{PLANTDEF_labelPlural}で_{blight}_が見つかった！\n\n蔓延する前に、侵された作物を刈り取るか焼却するべきだ。
 
 LetterLabelMiracleHeal:<<Miracle??奇跡>>
-MiracleHeal:{0} は奇跡的に回復した！
+MiracleHeal:{0}は奇跡的に回復した！
 
-EnemyRaidLeaderPresent:{LEADER_labelShort} は_{faction}_ {LEADER_factionPawnsPlural} のリーダーだ。
-FriendlyRaidLeaderPresent:{LEADER_labelShort} は_{faction}_ {LEADER_factionPawnsPlural} のリーダーだ。
+EnemyRaidLeaderPresent:{LEADER_labelShort}は_{faction}_ {LEADER_factionPawnsPlural}のリーダーだ。
+FriendlyRaidLeaderPresent:{LEADER_labelShort}は_{faction}_ {LEADER_factionPawnsPlural}のリーダーだ。
 
 LetterLabelRefugeePodCrash:<<Transport pod crash??_[Transport pod]_ 墜落>>
 RefugeePodCrash:{PAWN_nameDef} という {PAWN_titleIndef} が _[Transport pod]_ で墜落してきた。この衝撃でも生き残っているのなら、かなり重傷だろう。
@@ -2019,10 +2020,10 @@ ReadMore:<<Read more??もっと読む>>
 LetterLabelFirstSummerWarning:<<Summer??夏>>
 FirstSummerWarning:夏が来た！そして冬も迫ってきている。\n\n作物は冬の寒さでは育たないので、生きるのに必要な量の食料をしっかりと保存する。\n\n食料が腐らないように、冷蔵倉庫を作れる。また、_[Parka]_を買うか、盗むか、作るかしないと、外に出ると凍死する。
 
-LetterRelationsChange_Hostile:{0} との関係が完全に終わり、これから敵対するようになった。\n\nこの_{faction}_はあなたの_{colony}_やキャラバンを定期的に襲うようになり、交易を拒否する。関係を改善したいのなら、キャラバンや _[Transport pod]_ を使って贈り物を申し出ることが出来る。\n\nこの変化は友好度({1})が {2} を下回ったために起こった。中立関係に戻すには、友好度を {3} まで上げなければならない。
-LetterRelationsChange_NeutralFromHostile:{0} との関係は好転した。この_{faction}_はあなたを中立と見なして、これ以上の攻撃を止めた。\n\nこの変化は友好度({1})が {2} を上回ったために起こった。もし友好度が {3} を下回ると、{0} はまた敵対するようになる。もし友好度が {4} を超えると同盟になり、共に戦うようになる。
-LetterRelationsChange_NeutralFromAlly:{0} との関係は冷めた。この_{faction}_はあなたを同盟ではなく中立と見なすようになった。\n\nお互いに平和な関係であることには変わらないが、あなたが攻撃されても援軍を送らなくなった。\n\nこの変化は友好度({1})が {2} を下回ったために起こった。もし友好度が {3} を下回ると {0} は敵対するようになる。もし友好度が {4} を上回ればまた同盟になる。
-LetterRelationsChange_Ally:{0} との関係はとても親しいものになった。この_{faction}_はこれから同盟になる。\n\n同盟は時々、あなたが攻撃されている時に援軍を送ってくれる。また、友好度を消費して、いつでも助けを呼ぶことができる。\n\n友好度({1})が {2} を上回ったために同盟になった。もし友好度が {3} を下回ると中立の関係に戻る。
+LetterRelationsChange_Hostile:{0}との関係が完全に終わり、これから敵対するようになった。\n\nこの_{faction}_はあなたの_{colony}_やキャラバンを定期的に襲うようになり、交易を拒否する。関係を改善したいのなら、キャラバンや_[transport pod]_を使って贈り物を申し出ることが出来る。\n\nこの変化は_<goodwill>_({1})が{2}を下回ったために起こった。中立関係に戻すには、_<goodwill>_を{3}まで上げなければならない。
+LetterRelationsChange_NeutralFromHostile:{0}との関係は好転した。この_{faction}_はあなたを中立と見なして、これ以上の攻撃を止めた。\n\nこの変化は_<goodwill>_({1})が{2}を上回ったために起こった。もし_<goodwill>_が{3}を下回ると、{0}はまた敵対するようになる。もし_<goodwill>_が{4}を超えると同盟になり、共に戦うようになる。
+LetterRelationsChange_NeutralFromAlly:{0}との関係は冷めた。この_{faction}_はあなたを同盟ではなく中立と見なすようになった。\n\nお互いに平和な関係であることには変わらないが、あなたが攻撃されても援軍を送らなくなった。\n\nこの変化は_<goodwill>_({1})が{2}を下回ったために起こった。もし_<goodwill>_が{3}を下回ると{0}は敵対するようになる。もし_<goodwill>_が{4}を上回ればまた同盟になる。
+LetterRelationsChange_Ally:{0}との関係はとても親しいものになった。この_{faction}_はこれから同盟になる。\n\n同盟は時々、あなたが攻撃されている時に援軍を送ってくれる。また、_<goodwill>_を消費して、いつでも助けを呼ぶことができる。\n\n_<goodwill>_({1})が{2}を上回ったために同盟になった。もし_<goodwill>_が{3}を下回ると中立の関係に戻る。
 
 goodwill:_<goodwill>_
 Neutral:<<Neutral??中立>>
@@ -2214,7 +2215,7 @@ LetterLabelVisitorsGaveGift:<<Gift from {0}??{0} からの贈り物>>
 LetterVisitorsGaveGift:{PAWN_factionName} の {0} が 贈り物を置いていった:\n\n{1}
 
 LetterLabelFactionBaseProximity:<<Faction base proximity??_{faction}_の本拠地に接近>>
-LetterFactionBaseProximity:他の_{faction}_の拠点に近すぎるため、これらの_{faction}_は縄張りを荒らされていると感じている。\n\n以前の節と比べて、_{faction}_との友好度は次のように減少した:
+LetterFactionBaseProximity:他の_{faction}_の拠点に近すぎるため、これらの_{faction}_は縄張りを荒らされていると感じている。\n\n以前の節と比べて、_{faction}_との関係は次のように減少した:
 
 LetterLabelCaravansBattlefieldVictory:<<Caravan battle won??キャラバン 勝利>>
 LetterCaravansBattlefieldVictory:キャラバンは戦闘に勝った。\n\nワールド画面でこの戦場を選択して'_<Reform caravan>_'を選べば今すぐキャラバンを再編成できる。\n\nアイテムはキャラバンの編成で簡単に集められるので、手動で集める必要はない。\n\nあと {0} でキャラバンは自動的に再編成される。
@@ -2323,14 +2324,14 @@ Ally:<<Ally??同盟>>
 DefeatedLower:<<defeated??滅亡>>
 HostileTo:<<Enemy of {0}??{0} と 敵対>>
 EnemyOf:<<Enemy of: ??敵対: >>
-CurrentGoodwillTip:この_{faction}_との現在の友好度と関係。
+CurrentGoodwillTip:この_{faction}_との現在の_<goodwill>_と関係。
 CurrentGoodwillTip_PermanentEnemy:この_{faction}_とは常に敵対しており、あなたの_{settlement}_とキャラバンを襲撃する。_{faction}_関係はいかなる理由でも良くならない。
-CurrentGoodwillTip_Ally:この_{faction}_とは同盟になっており、援軍を送ることもある。もし友好度が {0} を下回ると中立に変わる。
-CurrentGoodwillTip_Neutral:この_{faction}_とは中立なので、交易や話を自由にできる。もし友好度が {0} を下回ると敵対する。もし友好度が {1} を上回ると同盟になり、積極的に助けてくれるようになる。
-CurrentGoodwillTip_Hostile:この_{faction}_とは敵対しており、あなたの_{settlement}_とキャラバンを襲撃する。もし友好度が {0} を上回ると中立になる。
-CurrentGoodwillTip_NaturalGoodwill:この_{faction}_の友好度は {0} から {1} の間に収まろうとする。
-CurrentGoodwillTip_NaturalGoodwillRise:もし友好度が {0} を下回ると、一年毎に {1} 上がる。
-CurrentGoodwillTip_NaturalGoodwillFall:もし友好度が {0} を上回ると、一年毎に {1} 下がる。
+CurrentGoodwillTip_Ally:この_{faction}_とは同盟になっており、援軍を送ることもある。もし関係が{0}を下回ると中立に変わる。
+CurrentGoodwillTip_Neutral:この_{faction}_とは中立なので、交易や話を自由にできる。もし関係が{0}を下回ると敵対する。もし関係が{1}を上回ると同盟になり、積極的に助けてくれるようになる。
+CurrentGoodwillTip_Hostile:この_{faction}_とは敵対しており、あなたの_{settlement}_とキャラバンを襲撃する。もし関係が{0}を上回ると中立になる。
+CurrentGoodwillTip_NaturalGoodwill:この_{faction}_の_<goodwill>_は{0}から{1}の間に収まろうとする。
+CurrentGoodwillTip_NaturalGoodwillRise:もし_<goodwill>_が{0}を下回ると、一年毎に{1}上がる。
+CurrentGoodwillTip_NaturalGoodwillFall:もし_<goodwill>_が{0}を上回ると、一年毎に{1}下がる。
 
 Friend:_<Friend>_
 Rival:_<Rival>_
@@ -3407,7 +3408,7 @@ ConditionCauserRadius:<<radius {0}??範囲 {0}>>
 LowPsyfocus:<<low psyfocus??低_{psyfocus}_>>
 DurationLeft:<<{0} left??残り {0}>>
 AnyOf:<<Any of??いずれか>>
-Goodwill:<<Goodwill??信頼>>
+Goodwill:_<Goodwill>_
 JobReport_ReduceResistance:<<reducing resistance of {0_nameIndef}??{0_nameIndef} の_{resistance}_を減らしている。>>
 
 UserScanAbility:<<User scanning speed??探査速度>>
@@ -3588,7 +3589,7 @@ LessThanADay:<<less than a day??一日未満>>
 
 ShotBy:<<Shot by {1_labelShort}??{1_labelShort} の射撃>>
 CannotHit:<<Cannot hit target.??命中しない。>>
-ManhunterPerHit:<<Manhunter chance per hit??命中ごとの殺人鬼になる確率>>
+ManhunterPerHit:<<Manhunter chance per hit??命中ごとの人狩りになる確率>>
 
 Ingredients:<<Ingredients??材料>>
 

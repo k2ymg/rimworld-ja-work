@@ -675,7 +675,7 @@
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->[asker_titleIndef]の[asker_nameFull]が近くから呼びかけている。[asker_pronoun]は[asker_factionName]の軍から脱走して、近衛隊に追われている。[asker_pronoun]は[map_definite]に加入したがっている。\n\n[asker_nameDef]はサイキックパワーを得るために必要なものがある重要な前哨基地を知っている:\n\n[sitePart1_itemStashContents]\n\n注意 - [asker_nameDef]を受け入れると、[asker_factionName]と敵対関係になる！追ってくる近衛隊はすぐに攻撃してくる。構成は: \n\n[raid/raidPawnKinds]\n\n[asker_factionName]と敵対して、_{royal title}_を得ずに秘密の_[psycaster]_を使いたい場合だけ受けること。前哨基地は一年で消える。
+			:questDescription->[asker_titleIndef]の[asker_nameFull]が近くから呼びかけている。[asker_pronoun]は[asker_factionName]の軍から脱走して、近衛隊に追われている。[asker_pronoun]は[map_definite]に加入したがっている。\n\n[asker_nameDef]はサイキックパワーを得るために必要なものがある重要な前哨基地を知っている:\n\n[sitePart1_itemStashContents]\n\n注意 - [asker_nameDef]を受け入れると、[asker_factionName]と敵対関係になる！追ってくる近衛隊はすぐに攻撃してくる。構成は: \n\n[raid/raidPawnKinds]\n\n[asker_factionName]と敵対して、自分自身で_[psycaster]_を育てたい場合だけ受けること。前哨基地は一年で消える。
 		}
 	}
 
@@ -693,31 +693,22 @@
 		{?rulesStrings
 			:questName-><<the [adjAny] [asker_royalTitleInCurrentFaction]??[adjAny][asker_royalTitleInCurrentFaction]>>
 
-			:adjAny-><<wimpy??弱虫な>>
-			:adjAny-><<cowardly??臆病な>>
-			:adjAny-><<fearful??心配性な>>
-			:adjAny-><<anxious??心配性な>>
-			:adjAny-><<cowering??気弱な>>
-			:adjAny-><<craven??臆病な>>
-			:adjAny-><<fainthearted??気弱な>>
-			:adjAny-><<frightened??怖がりな>>
-			:adjAny-><<gutless??根性無しの>>
-			:adjAny-><<jittery??びびりの>>
-			:adjAny-><<soft??軟弱な>>
-			:adjAny-><<spineless??軟弱な>>
-			:adjAny-><<timid??気弱な>>
+			:adjAny-><<hunted??追われる>>
+			:adjAny-><<fleeing??逃げる>>
+			:adjAny-><<solitary??孤立した>>
+			:adjAny-><<ambushed??狙われた>>
 		}
 	}
 	{questDescriptionRules
 		{?rulesStrings
-			:questDescription->[asker_faction_name]の[asker_royalTitleInCurrentFaction]、[asker_nameFull]が近くから呼びかけている。[asker_pronoun]は怒っている[animalKindDef_label]に追われている！[asker_pronoun]は散歩で景色を見たかっただけで、このような恐ろしい事になるとは思ってもみなかった。\n\n[asker_nameDef]はシャトルの迎えが来るまでの数時間、[map_definite]で保護して欲しがっている。[asker_pronoun]はあなたの体臭や無作法に怒ったりしないと約束している。\n\n[asker_pronoun]はこのクエストを受けた人に[asker_faction_royalFavorLabel]を[royalFavorReward]与える。これは_{royal title}_'_[Yeoman]_'の授与と、_[psylink neuroformer]_などの付随する利益に十分値する。
+			:questDescription->[asker_faction_name]の[asker_royalTitleInCurrentFaction]、[asker_nameFull]が近くから呼びかけている。[asker_possessive]の護衛が待ち伏せで殺された。[asker_pronoun]は逃れたが、人狩り[animalKindDef_label]に追われている。\n\n[asker_nameDef]はシャトルの迎えが来るまでの数時間、[map_definite]で保護して欲しがっている。[asker_pronoun]はあなたの体臭や無作法に怒ったりしないと約束している。\n\n[asker_pronoun]はこのクエストを受けた人に[asker_faction_royalFavorLabel]を[royalFavorReward]与える。これは_{royal title}_'_[Yeoman]_'の授与と、サイキックパワーの最初のレベルなどの付随する利益に十分値する。
 		}
 	}
-	LetterLabelAngryAnimal.slateRef:<<Angry [animalKindDef_label]??怒っている[animalKindDef_label]>>
-	LetterTextAngryAnimal.slateRef:怒っている[animalKindDef_label]が[asker_nameFull]に追いついた。\n\n弱いが、やる気は高そうだ。
+	LetterLabelAngryAnimal.slateRef:<<Manhunting [animalKindDef_label]??人狩り[animalKindDef_label]>>
+	LetterTextAngryAnimal.slateRef:[asker_nameFull]を追っていた[animalKindDef_label]がここへ着いた。
 
 	LetterLabelAnimalArrived.slateRef:<<[animalKindDef_label] arrived??[animalKindDef_label] 到着>>
-	LetterTextAnimalArrived.slateRef:[asker_nameDef]が逃げ出した"恐ろしい"[animalKindDef_label]が来た。\n\nそれはとてもおだやかで、攻撃的ではない事がわかった。
+	LetterTextAnimalArrived.slateRef:[asker_nameDef]が逃げ出した[animalKindDef_label]が来た。\n\nそれはとてもおだやかで、攻撃的ではない事がわかった。
 
 	InspectStringDepartShuttle.slateRef:_{Should depart on shuttle}_
 

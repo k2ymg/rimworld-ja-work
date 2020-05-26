@@ -1,45 +1,56 @@
 ﻿{Wealth_Total
 	label:<<wealth (total)??資産 (合計)>>
-	graphLabelY:<<Amount??量>>
+	;graphLabelY:<<Amount??量>>
+	valueFormat:${0}
 }
 {Wealth_Items
 	label:<<wealth (items)??資産 (アイテム)>>
-	graphLabelY:<<Amount??量>>
+	;graphLabelY:<<Amount??量>>
+	valueFormat:{0}
 }
 {Wealth_Buildings
 	label:<<wealth (buildings)??資産 (建物)>>
-	graphLabelY:<<Amount??量>>
+	;graphLabelY:<<Amount??量>>
+	valueFormat:{0}
 }
 {Wealth_Pawns
 	label:<<wealth (creatures)??資産 (生物)>>
-	graphLabelY:<<Amount??量>>
+	;graphLabelY:<<Amount??量>>
+	valueFormat:{0}
 }
 {FreeColonists
 	label:<<free colonists??_{colonist}_>>
-	graphLabelY:<<Colonists??_{colonist}_>>
+	;graphLabelY:<<Colonists??_{colonist}_>>
+	valueFormat:{0}
 }
 {Prisoners
 	label:<<prisoners??囚人>>
-	graphLabelY:<<Prisoners??囚人数>>
+	;graphLabelY:<<Prisoners??囚人数>>
+	valueFormat:{0}
 }
 {ColonistMood
 	label:_<mood>_
-	graphLabelY:<<Percent??パーセント>>
+	;graphLabelY:<<Percent??パーセント>>
+	valueFormat:{0}%
 }
 ;デバッグ用なので不要
 {Adaptation
 	label:recovery
-	graphLabelY:Days
+	;graphLabelY:Days
+	valueFormat:{0} days
 }
 {ThreatPoints
 	label:fun points /10
-	graphLabelY:Points
+	;graphLabelY:Points
+	valueFormat:{0} points
 }
 {PopAdaptation
 	label:pop recovery
-	graphLabelY:Days
+	;graphLabelY:Days
+	valueFormat:{0} days
 }
 {PopIntent
 	label:pop intent x10
-	graphLabelY:Days
+	;graphLabelY:Days
+	valueFormat:{0} days
 }

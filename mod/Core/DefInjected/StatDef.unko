@@ -167,6 +167,7 @@
 {MeditationFocusStrength
 	label:<<meditation focus strength??瞑想集中力>>
 	description:瞑想でこれに集中したときに追加で得られる_<psyfocus>_の量。周りにある物や瞑想する人によってこの量が変わるものもある。
+	formatString:<<{0}/d??{0}/日>>
 }
 {WorkToBuild
 	label:<<work to build??建造工数>>

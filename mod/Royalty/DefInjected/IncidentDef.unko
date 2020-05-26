@@ -4,7 +4,7 @@
 {AnimaTreeSpawn
 	label:_[anima tree]_
 	letterLabel:_[anima tree]_
-	letterText:_[anima tree]_ が近くに発芽した。\n\n部族民はこれを強力な瞑想の中心にできるが、人工構造物は近くに置けない。
+	letterText:_[anima tree]_ が近くに発芽した。\n\n近くに人工構造物が無ければ、_{tribe}_民はこれを強力な瞑想の集中にできる。
 }
 {GiveQuest_EndGame_RoyalAscent
 	label:<<royal ascent??貴族の上昇>>

@@ -28,11 +28,11 @@
 }
 {BuildOrbitalTradeBeacon
 	label:<<Build orbital trade beacon??_[Orbital trade beacon]_を作る>>
-	helpText:衛星軌道上の交易商へアイテムやシルバーを送るには、_[Orbital trade beacon]_ を作り、近くにアイテムの_<stockpile>_ゾーンを配置する。
+	helpText:衛星軌道上の交易商へアイテムやシルバーを送るには、_[Orbital trade beacon]_を作り、近くにアイテムの_<stockpile>_ゾーンを配置する。
 }
 {AnimalsDontAttackDoors
-	label:<<Animals don't attack doors??動物はドアを攻撃する>>
-	helpText:人狩り動物は人が通ったドアを攻撃する。また、動いていない_<Turret>_も攻撃する。
+	label:<<Animals will attack doors??動物はドアを攻撃する>>
+	helpText:人狩り動物は人がドア通るのを見るとドアを攻撃する。また、動いていない_[turret]_も攻撃する。
 }
 {BillsTab
 	label:<<Bills tab??_{bills}_タブ>>
@@ -40,7 +40,7 @@
 }
 {OpeningComms
 	label:<<Using the comms console??_[comms console]_を使う>>
-	helpText:通信するには、_{colonist}_を選択して _[comms console]_ を右クリックする。
+	helpText:通信するには、_{colonist}_を選択して_[comms console]_を右クリックする。
 }
 {DrugAddiction
 	label:<<Drug addiction??ドラッグ中毒>>
@@ -48,7 +48,7 @@
 }
 {DrugPolicies
 	label:<<Drug policies??ドラッグのポリシー>>
-	helpText:_{colonist}_に特定のドラッグを特定のスケジュールで摂らせる事ができる。例えば、感染症予防薬を定期的に摂らせたり、ビールを一日一本飲ませたりできる。\n\n_[Assign]_タブを開き、'_<Manage drug policies>_'ボタンを押す。新しいポリシーを作り、_{colonist}_に割り当てる。\n\n_{colonist}_はこの方針以外のドラッグを依然として使える。何をすべきか伝える事はできるが、彼らは自分の欲望にも従うのだ！
+	helpText:_{colonist}_に特定のドラッグを特定のスケジュールで摂らせる事ができる。例えば、感染症予防薬を定期的に摂らせたり、_[beer]_を一日一本飲ませたりできる。\n\n_[Assign]_タブを開き、'_<Manage drug policies>_'ボタンを押す。新しいポリシーを作り、_{colonist}_に割り当てる。\n\n_{colonist}_はこの方針以外のドラッグを依然として使える。何をすべきか伝える事はできるが、彼らは自分の欲望にも従うのだ！
 }
 {TVForSickPeople
 	label:<<TV for sick people??病人用のテレビ>>
@@ -180,7 +180,7 @@
 }
 {GettingMoreTraders
 	label:<<Getting more traders??交易商を増やす>>
-	helpText:友好的な_{faction}_が増えれば、交易キャラバンが多く訪れる。\n\n友好的な_{faction}_がいないとキャラバンは訪れません！\n\n_[comms console]_ から_{faction}_を呼び出し、対価を払って交易キャラバンを送ってもらうことも出来る。
+	helpText:友好的な_{faction}_が増えれば、交易キャラバンが多く訪れる。\n\n友好的な_{faction}_がいないとキャラバンは訪れません！\n\n_[comms console]_から_{faction}_を呼び出し、対価を払って交易キャラバンを送ってもらうことも出来る。
 }
 ; 実際にはボタンのTipが表示されるだけなので、明確なボタン名はない。
 {InspectRoomStats
@@ -213,7 +213,7 @@
 }
 {TradeGoodsMustBeNearBeacon
 	label:<<Trade goods and trade beacons??売買とトレード・ビーコン>>
-	helpText:アイテムやシルバーを軌道交易商へ送るには、'_[Orbital trade beacon]_'を建てて、その近くにアイテムの_<stockpile>_を作る。
+	helpText:アイテムや_[silver]_を軌道交易商へ送るには、'_[Orbital trade beacon]_'を建てて、その近くにアイテムの_<stockpile>_を作る。
 }
 {ArrestingCreatesEnemies
 	label:<<Arresting worsens faction relations??逮捕による_{faction}_関係の悪化>>
@@ -229,5 +229,5 @@
 }
 {TradingRequiresPermit
 	label:<<Trading permit requirements??取引の条件>>
-	helpText:取引には {0} の肩書きが必要です。\n\n取引キャラバンには {0} 以上の肩書きを持つ人を含めます。
+	helpText:取引には{0}の肩書きが必要です。\n\n交易キャラバンには{0}以上の肩書きを持つ人を含める。
 }

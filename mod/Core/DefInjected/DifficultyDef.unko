@@ -1,31 +1,24 @@
-﻿; todo: 未翻訳。全く安定しないので、しばらく保留
-{Peaceful
+﻿{Peaceful
 	label:<<peaceful??平和>>
-	description:Build a community in a sandbox environment. Major direct threats are disabled, but challenges like disease, mental breaks, and mad animals can still occur.\n\nRecommended for:\n\n- Players who want to learn the game mechanics with minimal pressure.\n- Players who just want to build.\n- Players who just want to relax.
-	;安全な環境で村を作る。RimWorldでの村づくりに集中したい人にお勧め。\n\nこの難易度では大きな脅威は起きないが、_{disease}_、_{mental break}_、動物の凶暴化などは依然として起きる。
+	description:安全な環境で村を作る。大きな脅威は起こらないが、_{disease}_、_{mental break}_、動物の凶暴化は依然として起こる。\n\n対象:\n\n- 落ち着いてこのゲームの仕組みを学びたい人。\n- 単に何か作りたい人。\n- 単に楽しみたい人。
 }
 {Easy
 	label:<<community builder??村建設>>
-	description:Build a community with a taste of danger. Threats appear, but they're weakened.\n\nRecommended for:\n\n- Players who are new to this kind of game.\n- Players who want to build a perfect colony.\n- Players who want to relax.
-	;少し緊張感を持ちながら_{colony}_を作る。\n\nこのようなゲームに初めて接する人や、完璧な_{colony}_を作りたい人にお勧め。\n\n大きな脅威は起こるが、他のモードより弱められている。いくつかの大惨事は起きない。
+	description:少し緊張感を持ちながら村を作る。脅威は起こるが、弱められている。\n\n対象:\n\n- このようなゲームは初めての人。\n- 完璧な村を作りたい人。\n- 楽しみたい人。
 }
 {Medium
 	label:<<adventure story??冒険物語>>
-	description:There's room to grow and thrive, but it's still a dangerous planet.\n\nRecommended for:\n\n- Experienced strategy gamers on their first game of RimWorld.\n- Experienced RimWorld players who want some breathing room to pursue funny or weird goals.
-	;数々の困難に立ち向かいながら村を作る。RimWorldは初めてだがストラテジーゲームに慣れている人や、RimWorldに慣れているが息抜きに色々試してみたい人にお勧め。発展し、栄える余地はあるが、そでも危険な惑星であることに変わりはない。
+	description:成長して栄える余裕はあるが、危険な星であることには変わらない。\n\n対象:\n\n- RimWorldを初めて遊ぶ戦略ゲーム経験者。\n- 息抜きや、色々と試したいRimWorld経験者。
 }
 {Rough
-	label:<<strive to survive??うんこ>>
-	description:Strive to survive on a rough, tough planet. There will be triumph and tragedy.\n\nRecommended for:\n\n- Experienced players who want a rough story requiring skill to survive.
-	;荒々しく、困難な惑星で生き抜くために戦う。\n\nRimWorldの経験を積み、生き抜くために相当な技能を求められる荒々しい物語を求める人向け。\n\n上手くい時もあれば、そうでない時もある。勝利もあれば悲劇もある。それらは全てドラマのためなのです。
+	label:<<strive to survive??生存への戦い>>
+	description:荒々しく、困難な惑星で生き抜く。勝利もあれば悲劇もある。\n\n対象:\n\n- 生存への技能が必要な荒々しい物語を求める経験豊かな人。
 }
 {Hard
-	label:<<the price of survival is blood??うんこ>>
-	description:Face brutal survival challenges. Even if you play well, people will die. You will need to anticipate threats before they arrive, and seek out every advantage.\n\nRecommended for:\n\n- Experienced players who want to struggle to survive.
-	;厳しい試練に立ち向かう。生き抜く代償は血だ。\n\n大試練と犠牲を求める経験を積んだ人向け。\n\nこの難度で成功するには様々な戦略のあらゆる面に精通し、事前準備、運が必要になる。脅威は急激に上昇し、意地悪く組み合わされる。例え上手くやっていても、いくつかの挑戦は損失無しには乗り越えられない。
+	label:<<the price of survival is blood??生存の代償は血>>
+	description:厳しい試練に立ち向かう。例え上手くやっても、人々は死ぬ。事前に脅威に備え、あらゆる利点を活用しなければならない。\n\n対象:\n\n- 生き残るために悪戦苦闘したい経験豊かな人。
 }
 {Extreme
-	label:<<losing is fun??うんこ>>
-	description:This setting is designed to be unfair. Huge threats will crash upon you without mercy until your colony dies. Only choose this setting if you are happy with the drama of struggling and dying.\n\nRecommended for:\n\n- Experienced players who want to face a brutal, unfair challenge where even great skill may not prevent death.\n- Lovers of tragedy.\n- Digital masochists.
-	;RimWorldのあらゆる技能を使いこなし、無慈悲で不公平な世界で生き抜くための僅かな可能性を求める。\n\n優れた技能を持ってしても死を避けられないような非情で不公平な挑戦に対峙したい経験を積んだ人向け。\n\nこの難度では主に損失との駆け引きになる。なぜらならそれらを回避するのは不可能だからだ。多くの時間は厳しい戦闘と回復に費やされ、愛すべき人や物を犠牲にしなければならない。不公平な挑戦と、気まぐれな死がいつでも襲いかかってくる。
+	label:<<losing is fun??敗北こそ娯楽>>
+	description:この設定は不公平になっています。あなたの村が潰れるまで巨大な脅威が容赦なく襲いかかってきます。悪戦苦闘や死をドラマとして楽しめる人だけ選んでください。\n\n-対象:\n\n卓越したスキルを持ってしても死を避けられないような、冷酷で不公平な挑戦に立ち向かいたい経験豊かな人。
 }

@@ -99,3 +99,4 @@ renounceTitleMessage
 arrivingPawnsLabelDef
 mentalBreakInspirationGainReasonText
 message
+valueFormat

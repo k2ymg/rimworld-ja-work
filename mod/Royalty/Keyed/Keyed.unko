@@ -48,7 +48,7 @@ RoomRequirementNoBeds:<<no beds??ベッド不可>>
 
 RoyalTitleRequiredApparelStatDescription:この_{title}_の保持者は次の衣服の組み合わせが必要
 
-ApparelRequirementAnyRoyalPowerArmor:<<Any royal armor??いずれかの王族の鎧>>
+ApparelRequirementAnyPrestigeArmor:<<Any prestige armor??いずれかの上等な鎧>>
 ApparelRequirementAnyPsycasterApparel:<<Any psycaster apparel??いずれかのサイキャスターの衣服>>
 
 DisabledWorkTypes:<<Disallowed work types??禁止作業タイプ>>
@@ -100,7 +100,7 @@ CommandPsycastHigherLevelPsylinkRequired:<<level {0} psylink is required.??レ�
 CommandPsycastZeroPsychicSensitivity:<<Zero psychic sensitivity.??_<psychic sensitivity>_がゼロ。>>
 CommandPsycastPawnIsUnconscious:能力使用者は気絶している。
 CommandPsycastLowPsyfocus:<<Need at least {0} psyfocus to cast this.??これを使うには最低 {0} の _[psyfocus]_ が必要。>>
-NeuralHeatLetter:N
+NeuralHeatLetter:H
 PsyfocusLetter:P
 
 CommandSelectMonumentMarker:<<Select monument??モニュメント選択>>
@@ -239,7 +239,7 @@ PsyfocusLevelInfoPsycasts:<<Up to level {0} psycasts.??最大 {0} レベルの _
 PsyfocusLevelInfoFallRate:<<Psyfocus falls at {0} per day.??_[Psyfocus]_ は一日当たり {0} 下がる。>>
 UserMeditationFocusStrength:<<Meditation focus strength for {LASTUSER_labelShort}??{LASTUSER_labelShort}の瞑想集中力>>
 MeditationFocusImpacted:<<Focus effect impacted by??集中が妨害されている>>
-PsyfocusPerDayOfMeditation:<<Psyfocus gain per day of meditation: {0}??瞑想で一日当たりに増える_[psyfocus]_: {0}>>
+PsyfocusPerDayOfMeditation:<<Psyfocus gain rate: {0}/d??_[psyfocus]_増加速度: {0}/日>>
 
 AbilityDisabledUndrafted:_{draft}_していない。
 AbilityOnCooldown:能力はクールダウン中。使えるようになるまで {0}。

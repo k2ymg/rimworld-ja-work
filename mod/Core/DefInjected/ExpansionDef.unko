@@ -1,6 +1,6 @@
 ﻿{Core
 	label:Core
-	description:RimWorld 本体。
+	description:RimWorld本体。
 }
 {Royalty
 	;labelはMOD名なので訳さない

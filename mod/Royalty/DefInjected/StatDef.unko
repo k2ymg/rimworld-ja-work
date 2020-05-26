@@ -13,5 +13,6 @@
 }
 {MeditationFocusGain
 	label:<<meditation focus gain??瞑想集中増加>>
-	description:瞑想中に増える_[psyfocus]_への乗数。
+	description:瞑想で一日あたりに増える_[psyfocus]_量。フォーカスオブジェクトからのボーナスは含まない。
+	formatString:<<{0}/d??{0}/日>>
 }

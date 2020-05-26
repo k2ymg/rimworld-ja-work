@@ -60,7 +60,7 @@
 }
 {ManhunterPulse
 	label:_[manhunter pulse]_
-	description:精神パルスで近くの動物達を殺人衝動に駆らせる。
+	description:精神パルスで近くの動物達を人狩り衝動に駆らせる。
 }
 {MassChaosSkip
 	label:_[mass chaos skip]_

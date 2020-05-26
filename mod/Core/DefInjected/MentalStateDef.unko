@@ -127,10 +127,11 @@
 	baseInspectLine:<<Mental state: Fleeing in panic??精神状態: パニックにより逃走>>
 }
 {%Manhunter
-	label:<<manhunter??殺人鬼>>
-	beginLetter:{0} が殺人鬼になった！
-	recoveryMessage:{0} の殺人衝動は終わりを迎えた。
-	baseInspectLine:<<Maddened: Manhunter??発狂: 殺人鬼>>
+	;これは動物も同じ
+	label:<<manhunter??人狩り>>
+	beginLetter:{0}が人狩りになった！
+	recoveryMessage:{0}の人狩り衝動は終わりを迎えた。
+	baseInspectLine:<<Maddened: Manhunter??発狂: 人狩り>>
 }
 {ManhunterPermanent
 	$:Manhunter

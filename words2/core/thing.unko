@@ -141,7 +141,7 @@ power conduit:電線管
 waterproof conduit:防水管
 power switch:電源スイッチ
 wood-fired generator:木材火力発電機
-chemfuel powered generator:科学燃料発電機
+chemfuel powered generator:化学燃料発電機
 wind generator:風力発電機
 wind turbine:風力発電機
 battery:蓄電池
@@ -250,7 +250,7 @@ glitterworld medicine:_{glitterworld}_・_{medicine}_
 component:コンポーネント
 ;advanced component -> common
 neutroamine:ニュートロアミン
-chemfuel:科学燃料
+chemfuel:化学燃料
 potatoes:ジャガイモ
 raw fungus:ロウ・フングス
 rice:コメ
@@ -268,7 +268,7 @@ smoke shell:スモーク・シェル
 firefoam shell:ファイアフォーム・シェル
 antigrain warhead:アンチグレイン・ウォーヘッド
 silver:銀
-gold:金
+;gold:金->common
 steel:鋼鉄
 wood:木材
 uranium:ウラン

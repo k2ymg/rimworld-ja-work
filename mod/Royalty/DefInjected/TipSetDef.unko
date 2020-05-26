@@ -4,20 +4,20 @@
 		:_[Empire]_の貴族は_{title}_の特権を全て要求する。_{title}_を授かった_{colonist}_は、_<greedy>_や_<jealous>_でない限り、融通が利く。
 		:ロイヤル・パワー・アーマーや_[eltex]_の衣服は_{royal title}_の衣服要件を満たす。
 		:_{royal title}_保有者が死んだ場合、その_{title}_は選んだ後継者に移る。
-		:_{royal title}_保有者の後継者は _[comms console]_ で変えられる。しかし、それには儀式を執り行う必要がある。
-		:_[psylink neuroformer]_ が必要な_{title}_を得た者には、_{Empire}_からそれを与えられる。
+		:_{royal title}_保有者の後継者は_[comms console]_で変えられる。しかし、それには儀式を執り行う必要がある。
+		:_[psylink neuroformer]_が必要な_{title}_を得た者には、_{Empire}_からそれを与えられる。
 		:_{Empire}_は特定のインプラントの使用は決められた_{royal title}_に制限している。不正に使うと_{Empire}_と外交問題になるかもしれない。
 		:_[psylink]_の新しいレベルを得ると_[psycast]_を一つ覚える。
 		:_{psycast}_は戦闘でとても有利になる。
 		:悪影響がある_{psycast}_を仲間の_{faction}_にかけると関係が悪くなる。
-		:_[invisibility]_ _{psycast}_の効果は攻撃しても消えない。
-		:_<neural heat limit>_ を超えると深刻な状況は回避できるが、_{psychic breakdown}_は長くなる。
-		:より高い _<psychic sensitivity>_ を持つ生物は_{psycast}_により影響される。
-		:_[eltex]_装備を身に付けた_{psycaster}_は _<neural heat limit>_ が増えて、発散速度が上がる。
-		:_[mech cluster]_ と戦うときはパワーセルを狙ってみる。それが爆発すると、周囲の物に大ダメージを与える。
-		:邪魔されるまで休止している _[mech cluster]_ もある。その間に攻撃準備をする。
-		:_{Imperial}_の _[royal tribute collector]_ は年二回訪れ、_{prisoner}_や金を _<royal favor>_ へ交換してくれる。
-		:休止している _[mech cluster]_ は、攻撃したり、 _[proximity activator]_ を起動させない限り、安全に通り過ぎる事ができる。
-		:_[skip]_の_[psycast]_は自分、味方、敵、アイテムにも使える。戦い方は色々です。
+		:_[invisibility]_の_[psycast]_の効果は攻撃しても消えない。
+		:_<neural heat limit>_ 超えると深刻な状況は回避できるが、_<psychic breakdown>_は長くなる。
+		:より高い_<psychic sensitivity>_を持つ生物は_[psycast]_により影響される。
+		:_[eltex]_装備を身に付けた_[psycaster]_は_<neural heat limit>_が増えて、発散速度が上がる。
+		:_[mech cluster]_と戦うときはパワーセルを狙ってみる。それが爆発すると、周囲の物に大ダメージを与える。
+		:邪魔されるまで休止している_[mech cluster]_もある。その間に攻撃準備をする。
+		:_{Imperial}_の_[royal tribute collector]_は年二回訪れ、_{prisoner}_や_[gold]_を_<royal favor>_へ交換してくれる。
+		:休止している_[mech cluster]_は、攻撃したり、_[proximity activator]_を起動させない限り、安全に通り過ぎる事ができる。
+		:_[skip]_の_[psycast]_は自分、味方、敵、アイテムにも使える。戦い方は色々あります。
 	}
 }
