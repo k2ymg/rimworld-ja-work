@@ -165,8 +165,8 @@
 	description:これから作られている物の建造速度への乗数。\n\n石などの素材から作ると遅く、木材などは速い。
 }
 {MeditationFocusStrength
-	label:<<meditation focus strength??瞑想集中力>>
-	description:瞑想でこれに集中したときに追加で得られる_<psyfocus>_の量。周りにある物や瞑想する人によってこの量が変わるものもある。
+	label:_<meditation focus strength>_
+	description:瞑想でこれに集中したときに追加で得られる_[psyfocus]_の量。周りにある物や瞑想する人によってこの量が変わるものもある。
 	formatString:<<{0}/d??{0}/日>>
 }
 {WorkToBuild

@@ -578,13 +578,10 @@ TargetGround:<<ground??地面>>
 ClickToLearnMore:詳細はクリック。
 ClickToViewFactions:_{factions}_を見るにはクリック。
 
-;todo:クソ後で修正
-MeditationFocuses:<<meditation focus types??瞑想対象の種類>>
-MeditationFocusesUnlocked:<<Unlocks meditation focus types??解放した瞑想対象の種類>>
-MeditationFocusesPawnDesc:この人物が使える瞑想対象の種類。瞑想するとき、物に集中する事で_[psyfocus]_の増加を増幅できるが、その物が使えるフォーカスタイプを与える場合のみ。各個人の瞑想の種類は生い立ち、特徴、社会的地位などで決まる。
-;The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on.
-MeditationFocusesDesc:これが提供する瞑想対象の種類。瞑想している人はこれに集中すると_[psyfocus]_の増加を増やせる。しかし、瞑想対象のどれかを使える場合に限る。各個人の瞑想の種類は生い立ち、特徴、社会的地位などで決まる。
-;The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on.
+MeditationFocuses:<<meditation focus types??瞑想焦点の種類>>
+MeditationFocusesUnlocked:<<Unlocks meditation focus types??解放した瞑想焦点の種類>>
+MeditationFocusesPawnDesc:この人物が使える瞑想焦点の種類。瞑想するときに物に集中すると_<psyfocus gain>_を増やせるが、その人物が使える焦点の種類を与える場合に限られる。各個人の瞑想の種類は生い立ち、特徴、社会的地位などで決まる。
+MeditationFocusesDesc:これが与える瞑想焦点の種類。瞑想している人はこれに集中すると_<psyfocus gain>_を増やせるが、その人物が瞑想焦点のどれかを使える場合に限られる。各個人の瞑想の種類は生い立ち、特徴、社会的地位などに依存する。
 MeditationFocusCanUse:<<Can use {0} focus type because??以下により {0} の対象を使える>>
 MeditationFocusObjects:<<{0} focus objects??{0} 集中 オブジェクト>>
 MeditationFocusEnabledByTitle:<<holds title: {TITLE} ({FACTION_name}).??_{title}_所持: {TITLE} ({FACTION_name}).>>
@@ -592,7 +589,7 @@ MeditationFocusEnabledByChildhood:<<has childhood??幼年期>>
 MeditationFocusEnabledByAdulthood:<<has adulthood??成人期>>
 MeditationFocusEnabledByTrait:<<has trait??特徴>>
 MeditationFocusDisabledByTrait:<<does not have trait??特徴を持っていない>>
-EnablesMeditationFocusType:<<Enables meditation focus types??有効な瞑想対象の種類>>
+EnablesMeditationFocusType:<<Enables meditation focus types??有効な瞑想焦点の種類>>
 
 PositiveBuysNegativeSells:<<Positive numbers buy.\nNegative numbers sell.??正の数は"買い"。\n負の数は"売り"。>>
 BuyPriceDesc:購入価格。
@@ -997,7 +994,7 @@ Stat_Thing_Drug_Addictiveness_Desc:このドラッグの摂取毎に中毒にな
 Stat_Thing_Drug_AddictionSeverityInitial_Desc:このドラッグの中毒はこの深刻度から始まる。\n\nドラッグをより多く摂れば深刻度は上がり、時間経過で下がる。
 Stat_Thing_Drug_AddictionRecoveryTime_Desc:最初の中毒から回復するまでの時間。\n\nこれは初期深刻度を回復速度で割って計算される。悪化した中毒はもっと時間がかかる。
 Stat_Thing_Drug_AddictionSeverityPerDose_Desc:このドラッグを摂取するごとに既存の中毒に増える深刻度。\n\n中毒の深刻度は100%を超えない。
-Stat_Thing_Drug_AddictionNeedDoseInterval_Desc:中毒者が中毒を満たして_{withdrawal}_を避けるためにどれほどの間隔でこのドラッグを摂取するか。\n\nこれは中毒欲求低下速度と摂取毎の満たすから計算される。
+Stat_Thing_Drug_AddictionNeedDoseInterval_Desc:中毒者が中毒を満たして_<withdrawal>_を避けるためにどれほどの間隔でこのドラッグを摂取するか。\n\nこれは中毒欲求低下速度と摂取毎の満たすから計算される。
 Stat_Thing_Drug_AddictionNeedOffset_Desc:このドラッグの摂取毎に中毒者の化学物質への欲求をどれほど満たすか。
 Stat_Thing_Drug_AddictionNeedFallRate_Desc:中毒者の化学物質への欲求がどれほど速く下がるか。
 Stat_Thing_Drug_AddictionCost_Desc:_{withdrawal}_しないように中毒状態を維持するために一日あたりに消費するドラッグの市場価格。\n\nこれは摂取毎の化学物質欲求、欲求減少速度、このドラッグの市場価格から計算される。\n\n同じ化学物質を異なるコストで調達できるかもしれない。
@@ -1226,7 +1223,7 @@ NotInHomeArea:_<Home area>_に無い
 BurningLower:_<burning>_
 NoEmptyPlaceLower:これを保管できる、近くて、空いている場所が無い
 NoMergeTarget:合わせられるスタックが無い
-AlreadyFilledLower:すでに満杯になっている
+AlreadyFilledLower:既に満杯になっている
 MissingMaterials:材料がない
 UnderRequiredSkill:必要スキル {0} より低い
 UnderAllowedSkill:許可スキル {0} より低い
@@ -1372,8 +1369,8 @@ CannotGenericWorkCustom:<<Cannot {0}??{0} できない>>
 
 CannotMissingHealthActivities:<<Cannot prioritize: incapable of {0}??優先できない: {0} 能力が無い>>
 
-CannotGenericAlreadyAm:<<Already {0} {2_labelShort}??{2_labelShort} はすでに {0} している>>
-CannotGenericAlreadyAmCustom:CannotGenericAlreadyAmCustom:<<Already {0}??既に {0} している>>
+CannotGenericAlreadyAm:<<Already {0} {2_labelShort}??{2_labelShort} は既に {0} している>>
+CannotGenericAlreadyAmCustom:<<Already {0}??既に {0} している>>
 
 CannotPrioritizeWorkTypeDisabled:<<Cannot prioritize: will never do {0}??優先できない: {0} はできない>>
 CannotTradeMissingTitleAbility:<<Cannot trade: lacking necessary title??取引できない: 必要な_{title}_が無い>>
@@ -1779,7 +1776,7 @@ PsychicDroneLevel:<<Psychic drone level: {0}??_{Psychic drone}_ 強度: {0}>>
 LetterLabelPsychicDroneLevelIncreased:<<Drone intensifies??唸り増加>>
 LetterPsychicDroneLevelIncreased:墜落した船の一部がより強力なサイキック・ドローンの一種を放射している。この地域の全人間はより不安、恐怖、疑念を感じている。
 LetterLabelAgentRevealed:<<Agent??スパイ>>
-LetterAgentRevealed:{0} は敵対する {1} のスパイだったと白状した。\n\nすでに逃げだそうとしている。
+LetterAgentRevealed:{0} は敵対する {1} のスパイだったと白状した。\n\n既に逃げだそうとしている。
 
 LetterLabelBeaversArrived:<<Beavers!??ビーバー！>>
 BeaversArrived:腹を空かせたアルファービーバーの群れが現れた。この地域の木材源を全部食い荒らされる前に駆除しよう。
@@ -2264,10 +2261,10 @@ LetterPawnsKidnapped:{PAWN_nameDef} が {FACTION_name} にさらわれた！\n�
 LetterTechprintAppliedLabel:<<Techprint applied: {PROJECT_label}??_[Techprint]_適用: {PROJECT_label}>>
 LetterTechprintAppliedPartIntro:研究プロジェクトに_[techprint]_が適用された: {PROJECT_label}。
 LetterTechprintAppliedPartJustUnlocked:プロジェクトの_[techprint]_要求が全て完了した！研究者は技術の実際の使い方について _[research bench]_ で研究を始められる。
-LetterTechprintAppliedPartNotUnlockedYet:このプロジェクトの_[techprint]_要求を満たしていない。{0} の_[techprint]_が適用済み。プロジェクトは全部で {1} 必要。
+LetterTechprintAppliedPartNotUnlockedYet:このプロジェクトの_[techprint]_要求を満たしていない。{0} 個の_[techprint]_が適用済み。プロジェクトは全部で {1} 個必要。
 LetterTechprintAppliedPartAlreadyUnlocked:このプロジェクトの_[techprint]_要求は満たされている。追加の _[techprint]_が {PROJECT_label} の研究努力を進めた。研究の残り半分、{0} ポイント、は完了した。
 LetterTechprintAppliedPartAlreadyResearched:このプロジェクトは既に十分研究したので、_[techprint]_はこれ以上知識を深めない。
-LetterTechprintAppliedPartExpAwarded:_[techprint]_を適用して、 {PAWN_labelShort} は {1} スキルの経験を {0} 得た。
+LetterTechprintAppliedPartExpAwarded:_[techprint]_を適用して、{PAWN_labelShort} は {1} スキルの経験を {0} 得た。
 
 LetterQuestCompletedLabel:<<Quest completed??クエスト 完了>>
 LetterQuestFailedLabel:<<Quest failed??クエスト 失敗>>
@@ -2589,8 +2586,8 @@ MustSelectStartingSite::開始地点を選んで下さい。
 CannotLandBiome:このバイオームでは開始できない: {0}
 BiomeNotImplemented:このバイオームは未実装
 CannotLandImpassableMountains:通り抜けられない山には降りられない。
-BaseAlreadyThere:すでに {0} の本拠地になっている。
-YourBaseAlreadyThere:すでに本拠地です。
+BaseAlreadyThere:既に {0} の本拠地になっている。
+YourBaseAlreadyThere:既に本拠地です。
 TileOccupied:このタイルは占領されている。
 FactionBaseAdjacent:_{Settlement}_はお互いに接することはできない。
 Biome:<<Biome??バイオーム>>
@@ -2740,16 +2737,16 @@ MessageRaidersDetectedEarlyAssault:{1} の {0} はこちらを発見したので
 MessageRaidersKidnapping:{1} の {0} は誰かを誘拐して離れることにした。
 MessageRaidersStealing:{1} の {0} は何かを略奪して離れることにした。
 
-MessageRaidersLeaving:{1}の{0}は去り始めた。
-MessageRaidersGivenUpLeaving:{1}の{0}は諦めて去り始めた。
-MessageRaidersSatisfiedLeaving:{1}の{0} は成果に満足して去り始めた。
+MessageRaidersLeaving:{1} の {0} は去り始めた。
+MessageRaidersGivenUpLeaving:{1} の {0} は諦めて去り始めた。
+MessageRaidersSatisfiedLeaving:{1} の {0} は成果に満足して去り始めた。
 
-MessageFightersFleeing:{1}の{0}は逃げている。
-MessageFriendlyFightersLeaving:味方の{1}の{0}は去り始めた。
+MessageFightersFleeing:{1} の {0} は逃げている。
+MessageFriendlyFightersLeaving:味方の {1} の {0} は去り始めた。
 
-MessageVisitorsTakingWounded:{1}の{0}は怪我をした_{guest}_を運ぼうとしている。
-MessageVisitorsTrappedLeaving:{1}の{0}は閉じ込められ、脱出しようとしている。
-MessageVisitorsDangerousTemperature:{1}の{0}は危険な気温のため去り始めた。
+MessageVisitorsTakingWounded:{1} の {0} は怪我をした_{guest}_を運ぼうとしている。
+MessageVisitorsTrappedLeaving:{1} の {0} は閉じ込められ、脱出しようとしている。
+MessageVisitorsDangerousTemperature:{1} の {0} は危険な気温のため去り始めた。
 
 MessageWornApparelDeterioratedAway:{1_nameFull} が身に着けていた {0} は朽ち果てた。
 MessageDeterioratedAway:{0} が倉庫で朽ち果てた。
@@ -2826,7 +2823,7 @@ MessageMiscarriedStarvation:{0} が飢えにより流産した。
 MessageMiscarriedPoorHealth:{0} が体調不良により流産した。
 MessageGaveBirth:{0} が出産した。
 
-MessagePsylinkNoSensitivity:{PAWN_labelShort} は _<psychic sensitivity>_ が無いので _<psylink>_ を使えなかった。
+MessagePsylinkNoSensitivity:{PAWN_labelShort} は _<psychic sensitivity>_ が無いので _[psylink]_ を使えなかった。
 
 MessageLostImplantLevelFromHediff:{PAWN_labelShort} は {2} によりインプラントのレベルが {1} 下がった。
 
@@ -2842,7 +2839,7 @@ MessageAttackedByPredator:{PREY_labelShort} が {PREDATOR} に襲われている
 
 MessageHiveReproduced:虫の巣が自己増殖した。
 
-MessageTraderCaravanLeaving:{0}の交易キャラバンは去り始めた。
+MessageTraderCaravanLeaving:{0} の交易キャラバンは去り始めた。
 
 MessageCantSelectDeadPawn:{1_labelShort} は死んでいる。
 MessageCantSelectOffMapPawn:{1_labelShort} はマップの外にいる。
@@ -3319,7 +3316,7 @@ QuestTargetDestroyInspectString:<<{0} wants this destroyed.\n    Reward: {1} ({2
 QuestTargetDestroyInspectStringShort:<<{0} wants this destroyed.??{0} がこれの破壊を求めている。>>
 ShuttleDelayInspectString:<<Departing on shuttle in {0}??_[Shuttle]_ 出発まであと {0}>>
 ShuttleLeaveDelayInspectString:<<Departing in {0}??出発まであと {0}>>
-ShouldDepartOnShuttleInspectString:<<Should depart on shuttle??_[Shuttle]_で出発するべき>>
+ShouldDepartOnShuttleInspectString:<<Should depart on shuttle??_[shuttle]_で出発しよう>>
 WorldObjectTimeout:<<Time left: {0}??残り時間: {0}>>
 ClickToSortByThisColumn:クリックするとこの列でソート。
 WorkPriorityShiftClickTip:Shift + クリック:優先順位を上げる\nShift + 右クリック: 優先順位を下げる
@@ -3342,7 +3339,7 @@ MultiplierForCarriedMass:<<Multiplier for carried mass: {0}??運搬重量によ�
 FinalCaravanPawnsMovementSpeed:<<Caravan members speed??キャラバンメンバーの速度>>
 FinalCaravanMovementSpeed:<<Final speed??最終速度>>
 Winter:<<Winter??冬>>
-MovementDifficultyOffsetInWinter:<<{0} in winter??{0} は冬>>
+MovementDifficultyOffsetInWinter:<<{0} in winter??冬は {0}>>
 RangeTo:<<to??から>>
 NoDietCategoryLetter:<<No letter??表記無し>>
 ExpiresIn:<<Expires in??期限切れまで残り>>
@@ -3864,9 +3861,9 @@ Level:<<Level??レベル>>
 ProgressToNextLevel:<<Progress to next level??次のレベルまで>>
 Experience:<<Experience??経験値>>
 Passion:<<Passion??熱意>>
-PassionNone:<<None\n   -Learns {0}??なし\n   -習得率 {0}>>
-PassionMinor:<<Interested\n   -Learns {0}??関心\n   -習得率 {0}>>
-PassionMajor:<<Burning\n   -Learns {0}??熱心\n   -習得率 {0}>>
+PassionNone:<<None\n   -Learns {0}??なし\n   -習得速度 {0}>>
+PassionMinor:<<Interested\n   -Learns {0}??関心\n   -習得速度 {0}>>
+PassionMajor:<<Burning\n   -Learns {0}??熱心\n   -習得速度 {0}>>
 LearnedMaxToday:<<Learned max today ({0}/{1}, further learning multiplied by {2})??今日は最大限学んだ ({0} / {1}、 以降の習得は {2} になる)>>
 EffectsAtLevel:<<Effects at level {0}??レベル {0} の効果>>
 SkillMax:<<MAX??最大>>

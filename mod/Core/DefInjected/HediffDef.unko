@@ -174,7 +174,7 @@
 {WakeUpHigh
 	label:<<high on wake-up??_[wake-up]_ で高揚している>>
 	labelNoun:<<a wake-up high??_[wake-up]_ ハイ>>
-	description:血中の_[wake-up]_。脳を活発にして催眠欲求を満たし、集中力を高め、仕事を速くこなせる。また、瞑想による_[psyfocus]_増加を高める。
+	description:血中の_[wake-up]_。脳を活発にして催眠欲求を満たし、集中力を高め、仕事を速くこなせる。また、瞑想による_<psyfocus gain>_を増やす。
 }
 {WakeUpAddiction
 	label:_<wake-up addiction>_

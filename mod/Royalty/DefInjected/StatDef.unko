@@ -12,7 +12,7 @@
 	description:あらゆる_<neural heat>_増加量への乗数。
 }
 {MeditationFocusGain
-	label:<<meditation focus gain??瞑想集中増加>>
-	description:瞑想で一日あたりに増える_[psyfocus]_量。フォーカスオブジェクトからのボーナスは含まない。
+	label:<<meditation focus gain??瞑想焦点増加>>
+	description:瞑想で一日あたりに増える_[psyfocus]_量。焦点を与える物からのボーナスは含まない。
 	formatString:<<{0}/d??{0}/日>>
 }

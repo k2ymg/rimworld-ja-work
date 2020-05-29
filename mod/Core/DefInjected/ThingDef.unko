@@ -1940,7 +1940,7 @@
 	label:_[granite blocks]_
 	description:_?グラナイト・ブロック。?__[Granite]_のブロック。非常に硬い。
 	{stuffProps
-		stuffAdjective:granite
+		stuffAdjective:_[granite]_
 	}
 	$:StoneBlocksBase
 }

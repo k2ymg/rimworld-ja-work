@@ -26,8 +26,8 @@ ShipLandingBeaconUnusableDesc:船着陸ビーコンは作動しているが使�
 NeedMeditationSpotAlert:<<Need meditation spot??_[meditation spot]_ が必要>>
 NeedMeditationSpotAlertDesc:_[Psyfocus]_欲求がある_{colonist}_がいるが、使える_[meditation spot]_が無い。\n\n{0}\n\n_[meditation spot]_を置いて、到達可能かつ、使えるようにする。_{colonist}_は最良の集中オブジェクトに近い_[meditation spot]_を選んで使う。
 
-UnusableMeditationFocusAlert:<<Unusable meditation focus??使えない瞑想集中>>
-UnusableMeditationFocusAlertDesc:次の_{colonist}_は使えない集中オブジェクトの近くで瞑想している。\n\n{0}\n\n人それぞれ異なるオブジェクトへ瞑想できるが、瞑想集中タイプに依存する。個人の集中タイプは生い立ち、特徴、肩書きに依存する。個人の瞑想集中タイプを見るには、彼らを選んで'i'ボタンを押して、詳細ウィンドウで見られる。
+UnusableMeditationFocusAlert:<<Unusable meditation focus??使えない瞑想焦点>>
+UnusableMeditationFocusAlertDesc:次の_{colonist}_は使えない焦点の近くで瞑想している。\n\n{0}\n\nそれぞれ異なる物で瞑想できるが、瞑想焦点の種類に依存する。個人の焦点の種類は生い立ち、特徴、肩書きに依存する。個人の瞑想焦点の種類を見るには、人物を選んで'i'ボタンを押して、詳細ウィンドウで見られる。
 
 BlueprintWouldCollideWithMonument:_<blueprint>_ はモニュメントのマーカーに重なる。
 
@@ -194,7 +194,7 @@ LetterDecree_Quest:命令は "{0}" と呼ばれる。
 LentColonistDied:{PAWN_nameDef} は {FACTION} へ貸し出された。{PAWN_nameDef} はすぐに返される。
 
 LetterLabelPsylinkLevelGained:<<Psylink gained??_[Psylink]_獲得>>
-LetterPsylinkLevelGained_First:{USER_labelShort}は_[psylink]_の最初のレベルを獲得した！{USER_pronoun}は_[psycaster]_になった。\n\n_[psycast]_を使うには、{USER_labelShort}は瞑想で_[psyfocus]_を増やさないといけない。瞑想中に特定のオブジェクトに集中できれば、瞑想の効率が上がる。\n\n何に集中できるかは人それぞれ異なる。これは個人の生い立ち、特徴、肩書きに依存する。例えば:\n\n- _{royal title}_を持つ_[psycaster]_は自身の_[throne]_で瞑想。\n- _{tribe}_の幼い_[psycaster]_は_[anima tree]_や_[nature shrine]_で瞑想。\n-_<Ascetic>_の_[psycaster]_は空室で瞑想。\n-精神病の_[psycaster]_は、理想としては愛する人が眠る、墓で瞑想。\n\n'i'ボタンで情報カードを見て、個人の瞑想集中タイプを見られる。
+LetterPsylinkLevelGained_First:{USER_labelShort}は_[psylink]_の最初のレベルを獲得した！{USER_pronoun}は_[psycaster]_になった。\n\n_[psycast]_を使うには、{USER_labelShort}は瞑想で_[psyfocus]_を増やさないといけない。瞑想中に特定の物に集中できれば、瞑想の効率が上がる。\n\n何に集中できるかは人それぞれ異なる。これは個人の生い立ち、特徴、肩書きに依存する。例えば:\n\n- _{royal title}_を持つ_[psycaster]_は自身の_[throne]_で瞑想。\n- _{tribe}_の幼い_[psycaster]_は_[anima tree]_や_[nature shrine]_で瞑想。\n-_<Ascetic>_の_[psycaster]_は空室で瞑想。\n-精神病の_[psycaster]_は、理想としては愛する人が眠る、墓で瞑想。\n\n'i'ボタンで情報カードを見て、個人の瞑想集中タイプを見られる。
 LetterPsylinkLevelGained_NotFirst:{USER_labelShort}は新しいレベルの_[psylink]_を獲得した！より高いレベルの_[psycast]_を使えるようになったが、まずはそれらを身に付けないといけない。
 LetterPsylinkLevelGained_PsycastLearned:新しい_[psylink]_のレベルを獲得したので、{USER_labelShort}は自動で_[psycast]_を身に付けた: {2}。
 
@@ -237,7 +237,7 @@ PsyfocusDesc:_[Psyfocus]_は_[psycast]_の実行に必要な精神的構造の�
 PsyfocusLevelInfoRange:{0}-{1}%
 PsyfocusLevelInfoPsycasts:<<Up to level {0} psycasts.??最大 {0} レベルの _[psycast]_。>>
 PsyfocusLevelInfoFallRate:<<Psyfocus falls at {0} per day.??_[Psyfocus]_ は一日当たり {0} 下がる。>>
-UserMeditationFocusStrength:<<Meditation focus strength for {LASTUSER_labelShort}??{LASTUSER_labelShort}の瞑想集中力>>
+UserMeditationFocusStrength:<<Meditation focus strength for {LASTUSER_labelShort}??{LASTUSER_labelShort}への_{meditation focus strength}_>>
 MeditationFocusImpacted:<<Focus effect impacted by??集中が妨害されている>>
 PsyfocusPerDayOfMeditation:<<Psyfocus gain rate: {0}/d??_[psyfocus]_増加速度: {0}/日>>
 

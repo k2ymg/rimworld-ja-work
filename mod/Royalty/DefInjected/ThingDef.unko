@@ -163,7 +163,7 @@
 	label:_[brazier]_
 	description:火を入れる鉢型の調度品。周りを照らして暖かくする。
 }
-@throne_desc:威厳に集中する_[psycaster]_が座って瞑想するための豪華な椅子。_[throne]_での統治は_[psyfocus]_を蓄える瞑想形態の一つ。威厳の_[psycaster]_にとって、より印象的な瞑想_[throne]_と_[throneroom]_は_[psyfocus]_増加を増やす。
+@throne_desc:_<dignified>_に集中する_[psycaster]_が座って瞑想するための豪華な椅子。_[throne]_での統治は_[psyfocus]_を蓄える瞑想形態の一つ。_<dignified>_の_[psycaster]_にとって、より印象的な瞑想_[throne]_と_[throneroom]_は_<psyfocus gain>_を増やす。
 {Throne
 	label:<<meditation throne??瞑想_[throne]_>>
 	description:大きな、_{throne_desc}_
@@ -544,7 +544,7 @@
 		}
 	}
 }
-{%Plant_TreeAnimaNormal
+{%Plant_TreeAnima
 	label:_[anima tree]_
 	description:暖かく、滑らかな樹皮と長い虹色の葉を持つ珍しい木。発光する微生物が含まれている木は、周りの生物と珍しい精神的協調を作り出しており、様々な環境で育つことができる。\n\n_[psycaster]_かどうかに関わらず、誰かが近くで瞑想すると、周りに_[anima grass]_が育つ。草が十分に育つと、木と精神的に繋がる儀式を行えるようになり、サイキックパワーをアップグレードできる。_{tribe}_民だけが儀式の秘密を知っている。_{tribe}_の_[psycaster]_は木で瞑想すると、木から_[psyfocus]_を引き出せる。\n\nこの木のサイキック特性は人工構造物が近くにあると弱まる。閉じ込めたり、研究したりはできず、自然の一部に留め置かないといけない。\n\n殆どの_{tribe}_はこの木を単なる木ではなく、ワールドスピリットの物理的な末端だと思っている。
 	{comps
@@ -552,9 +552,6 @@
 			message:_[anima tree]_が死んで、不穏な精神的悲鳴を上げた。
 		}
 	}
-}
-{Plant_TreeAnimaHardy
-	$:Plant_TreeAnimaNormal
 }
 {Plant_GrassAnima
 	label:_[anima grass]_
