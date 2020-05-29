@@ -1169,7 +1169,7 @@
 	LetterTextHelpersArrived.value.slateRef:クエスト'[resolvedQuestName]'であたなを助けるために[asker_nameDef]が送った[helpersLabelSingOrPlural]が到着した。
 	ArrivingPawnsLabelDefinite.value.slateRef:<<the [helpersLabelSingOrPlural]??[helpersLabelSingOrPlural]>>
 
-	LetterLabelHelpersLeaving.slateRef:<<[helpersLabelSingOrPlural] <<leaving??撤収>>
+	LetterLabelHelpersLeaving.slateRef:[helpersLabelSingOrPlural] <<leaving??撤収>>
 	LetterTextHelpersLeaving.slateRef:[asker_nameDef]が送った[helpersLabelSingOrPlural]は長居しすぎたので、去り始めた。
 }
 
