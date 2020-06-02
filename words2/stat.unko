@@ -43,5 +43,6 @@ paralytic abasia:麻痺性歩行不能症
 psychic shock:サイキック ショック
 
 psyfocus gain:獲得_[psyfocus]_
-meditation focus strength:瞑想焦点力
+meditation psyfocus bonus:瞑想_[psyfocus]_ボーナス
+meditation focus strength:瞑想_[psyfocus]_ボーナス
 dignified:威厳

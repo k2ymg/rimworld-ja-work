@@ -958,7 +958,7 @@ if(($mod -eq 'Core') -and (($target -eq 'all') -or ($target -eq 'strings'))){
 # other
 if($mod -eq 'Core'){
 	if(!$test -and ($target -eq 'all')){
-		copy-item 'core\misc\*' $dst_root -force -recurse
+		copy-item 'mod\Core\misc\*' $dst_root -force -recurse
 	}
 }
 

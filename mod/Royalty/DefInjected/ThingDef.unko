@@ -548,6 +548,10 @@
 	label:_[anima tree]_
 	description:暖かく、滑らかな樹皮と長い虹色の葉を持つ珍しい木。発光する微生物が含まれている木は、周りの生物と珍しい精神的協調を作り出しており、様々な環境で育つことができる。\n\n_[psycaster]_かどうかに関わらず、誰かが近くで瞑想すると、周りに_[anima grass]_が育つ。草が十分に育つと、木と精神的に繋がる儀式を行えるようになり、サイキックパワーをアップグレードできる。_{tribe}_民だけが儀式の秘密を知っている。_{tribe}_の_[psycaster]_は木で瞑想すると、木から_[psyfocus]_を引き出せる。\n\nこの木のサイキック特性は人工構造物が近くにあると弱まる。閉じ込めたり、研究したりはできず、自然の一部に留め置かないといけない。\n\n殆どの_{tribe}_はこの木を単なる木ではなく、ワールドスピリットの物理的な末端だと思っている。
 	{comps
+		{CompPsylinkable
+			enoughPlantsLetterLabel:<<About: Anima tree linking??補足: _[Anima tree]_ の接続について>>
+			enoughPlantsLetterText:_[anima tree]_の周りに_[anima grass]_が{0}ある。_{tribe}_民が最初の接続を始めるのに十分な数です！\n\n接続儀式は_[psylink]_のレベルを獲得してサイキックパワーを使える能力を得る。より高いレベルにはより多くの草がそれぞれのレベルで必要になる。\n\n_[psycaster]_のアップグレードに必要な_[anima grass]_は:\n\n{1}\n\n注意: 自然の焦点の種類を持つ人だけが_[anima tree]_で瞑想したり接続したりできる。個人の焦点の種類は'i'ボタンを押して情報カードで見られる。
+		}
 		{CompGiveThoughtToAllMapPawnsOnDestroy
 			message:_[anima tree]_が死んで、不穏な精神的悲鳴を上げた。
 		}

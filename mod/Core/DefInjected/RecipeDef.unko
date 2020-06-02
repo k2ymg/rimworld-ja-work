@@ -15,18 +15,6 @@
 	jobString:<<Curing scaria.??_{scaria}_を治している。>>
 	successfullyRemovedHediffMessage:{0} は {1} の _<scaria>_ を治した。
 }
-{CureBloodRot
-	label:<<cure blood rot??_{blood rot}_を治す>>
-	description:細菌破壊_[mechanite]_を大量注入して_<blood rot>_ を治す特別医療。
-	jobString:<<Curing blood rot.??_{blood rot}_を治している。>>
-	successfullyRemovedHediffMessage:{0} は {1} の _<blood rot>_ を治した。
-}
-{CureAbasia
-	label:<<anti-abasia mechanite infusion??_<paralytic abasia>_治療_[mechanite]_注入>>
-	description:この特別な医療処置は脳を大量の_[mechanite]_で満たして、脳にダメージを与えずに神経活動の協調的な再構築を実行する。これは麻痺による歩行不能症を完全に治せるが、_[glitterworld medicine]_を大量に消費する。
-	jobString:<<Infusing anti-abasia mechanites.??_<paralytic abasia>_治療_[mechanite]_を注入している。>>
-	successfullyRemovedHediffMessage:{0}は{1}の_<paralytic abasia>_を治した。
-}
 {InstallArchotechEye
 	label:<<install archotech eye??_[archotech eye]_ を付ける>>
 	description:_[Archotech eye]_ を付ける。

@@ -43,8 +43,8 @@ RoomRequirementImpressiveness:<<room impressiveness??部屋の印象深さ>>
 RoomRequirementAllFloored:<<all floored??全て床>>
 RoomRequirementAllBraziersMustBeLit:<<all braziers must be lit??全ての _[brazier]_ に点火>>
 RoomRequirementAllFineFloored:<<all fine floored??全て'_[terrain/fine]_'な床>>
-RoomRequirementNoProductionFacilities:<<no production facilities??生産設備不可>>
-RoomRequirementNoBeds:<<no beds??ベッド不可>>
+RoomRequirementNoProductionFacilities:<<no work facilities allowed??作業設備不可>>
+RoomRequirementNoBeds:<<no beds allowed??ベッド不可>>
 
 RoyalTitleRequiredApparelStatDescription:この_{title}_の保持者は次の衣服の組み合わせが必要
 
@@ -68,6 +68,10 @@ PsycastIsIllegal:これは{PAWN_labelShort}には違法になる。{TITLE}の_{t
 QuestGivesRoyalFavor:このクエストは{FACTION_royalFavorLabel}とそれに伴う_{royal title}_を{PAWN_labelShort}に与える。
 RoyalIncapableOfSocial:{PAWN_labelShort}は社交的な事ができない。_{royal title}_を持つ人には社交スキルがかなり求められるので、{PAWN_labelShort}が_{title}_を得ると、とても苦労する。他の_{colonist}_はもっと社交性があるかもしれない。
 RoyalWithConceitedTrait:{PAWN_labelShort}は{2}なので、_{title}_の特権を全て満たすように要求する。{PAWN_labelShort} は特定の仕事や粗末な食べ物を拒否したり、布告を出したりする。他の_{colonist}_はもっと柔軟になれるかもしれない。
+RoyalWithTraitAffectingPsylinkNegatively:{PAWN_labelShort} は {2} なので、_[psylink]_は無益かもしれない。
+
+;todo:未翻訳
+PsylinkTooLowForGainAbility:{PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain the psycast anyways?
 
 Stat_Thing_MinimumRoyalTitle_Name:<<Minimum title??最小の_{title}_>> ({FACTION_name})
 Stat_Thing_MinimumRoyalTitle_Desc:{FACTION_name} にはこのインプラントの使用を特定の_{title}_に制限する法がある。インプラントの取り付けは検出されないが、使用すると、サイキック放射を検出される可能性がある。これは外交問題を引き起こす。
@@ -105,6 +109,9 @@ PsyfocusLetter:P
 
 CommandSelectMonumentMarker:<<Select monument??モニュメント選択>>
 CommandSelectMonumentMarkerDesc:これに属するモニュメントマーカーを選択。
+
+CommandWarnInBuildingRadius:<<Build radius warning??建設範囲警告>>
+CommandWarnInBuildingRadiusDesc:有効にすると、_[ui/architect]_メニューから建設しようとしている物がこれに近すぎて瞑想を邪魔する場合に、それへ赤い線を引く。\n\nこれを瞑想に使うつもりがないのならオフにできる。
 
 LetterLabelTributeCollectorArrival:_[Royal tribute collector]_
 LetterTributeCollectorArrival:{FACTION_name} の _[royal tribute collector]_ が来ている。\n\n彼らは貢ぎ物として_{prisoner}_や金を喜んで受け取る。貢ぎ物を捧げた者は、伝統を果たし、上院をサポートした見返りとして {FACTION_royalFavorLabel} を受け取る。\n\n{FACTION_name} が敵で無い限り、_[tribute collector]_ はおおよそ年二回やってくる。
@@ -182,19 +189,19 @@ LetterTerribleSpeech:本当に酷かった。途切れ途切れで、下手な�
 LetterUninspiringSpeech:退屈だった。平凡で、単調で、熱意に欠けていた。
 LetterEncouragingSpeech:自信に満ちあふれ、良く伝わった。
 LetterInspirationalSpeech:とても感動的で、熱意と決意に満ちていた。
-LetterSpeechInterrupted:_{speech}_ は {0} だけで中断したので、効果が無かった。
-LetterSpeechCancelled:{ORGANIZER_bestRoyalTitleDef} の _{speech}_ が50%にとどく前にキャンセルされた。効果は無かった。
+LetterSpeechInterrupted:_{speech}_は {0} だけで中断したので、効果が無かった。
+LetterSpeechCancelled:{ORGANIZER_bestRoyalTitleDef} の_{speech}_が50%にとどく前にキャンセルされた。効果は無かった。
 LetterLabelSpeechCancelled:<<Speech cancelled??_{Speech}_はキャンセルされた>>
 
 WildDecree:<<Wild decree??野蛮な法令>>
 LetterLabelRandomDecree:<<{0_nameIndef} issues decree??{0_nameIndef} が発令した>>
-LetterDecreeMentalBreak:{0_nameIndef} は、ストレス発散のために、野蛮な王令を発令して、それを実行を要求している。\n\n早めに実行しないと、 {0_nameIndef} はとても不機嫌になる。
+LetterDecreeMentalBreak:{0_nameIndef} はストレス発散のために野蛮な王令を発令して、それの実行を要求している。\n\n早めに実行しないと、{0_nameIndef} はとても不機嫌になる。
 LetterRandomDecree:{0_nameIndef} は、{0_possessive}の_{title}_ {0_bestRoyalTitleIndef} をはっきりさせるため、発令して、それの実行を要求している。\n\n早めに実行しないと、 {0_nameIndef} はとても不機嫌になる。
 LetterDecree_Quest:命令は "{0}" と呼ばれる。
 LentColonistDied:{PAWN_nameDef} は {FACTION} へ貸し出された。{PAWN_nameDef} はすぐに返される。
 
 LetterLabelPsylinkLevelGained:<<Psylink gained??_[Psylink]_獲得>>
-LetterPsylinkLevelGained_First:{USER_labelShort}は_[psylink]_の最初のレベルを獲得した！{USER_pronoun}は_[psycaster]_になった。\n\n_[psycast]_を使うには、{USER_labelShort}は瞑想で_[psyfocus]_を増やさないといけない。瞑想中に特定の物に集中できれば、瞑想の効率が上がる。\n\n何に集中できるかは人それぞれ異なる。これは個人の生い立ち、特徴、肩書きに依存する。例えば:\n\n- _{royal title}_を持つ_[psycaster]_は自身の_[throne]_で瞑想。\n- _{tribe}_の幼い_[psycaster]_は_[anima tree]_や_[nature shrine]_で瞑想。\n-_<Ascetic>_の_[psycaster]_は空室で瞑想。\n-精神病の_[psycaster]_は、理想としては愛する人が眠る、墓で瞑想。\n\n'i'ボタンで情報カードを見て、個人の瞑想集中タイプを見られる。
+LetterPsylinkLevelGained_First:{USER_labelShort}は_[psylink]_の最初のレベルを獲得した！{USER_pronoun}は_[psycaster]_になった。\n\n_[psycast]_を使うには、{USER_labelShort}は瞑想で_[psyfocus]_を増やさないといけない。瞑想中に特定の物に集中できれば、瞑想の効率が上がる。\n\n何に集中できるかは人それぞれ異なる。これは個人の生い立ち、特徴、肩書きに依存する。例えば:\n\n- _{royal title}_を持つ_[psycaster]_は自身の_[throne]_で瞑想。\n- 幼年期が_{tribe}_の_[psycaster]_は_[anima tree]_や_[nature shrine]_で瞑想。\n- _<Ascetic>_の_[psycaster]_は空室で瞑想。\n- 精神病の_[psycaster]_は、理想としては愛する人が眠る、墓で瞑想。\n\n'i'ボタンで情報カードを見て、個人の瞑想集中タイプを見られる。
 LetterPsylinkLevelGained_NotFirst:{USER_labelShort}は新しいレベルの_[psylink]_を獲得した！より高いレベルの_[psycast]_を使えるようになったが、まずはそれらを身に付けないといけない。
 LetterPsylinkLevelGained_PsycastLearned:新しい_[psylink]_のレベルを獲得したので、{USER_labelShort}は自動で_[psycast]_を身に付けた: {2}。
 
@@ -202,6 +209,8 @@ RoyalFavorTip:{0}の誰に{3_name}からの{1}{2}を受け取るか選べる。\
 
 ShuttleBlocked:シャトルは着陸できない: {0}。
 BlockedBy:{0_label} が塞いでいる
+
+MessageWarningCutAnimaTree:警告: _[Anima tree]_ を伐採しようとしている。
 
 ThroneTitleStature:適している_{title}_: {0}
 ThronePrevTitleStature:前の適合_{title}_: {0}
@@ -217,7 +226,7 @@ PsycastNeurotrainerLabel:_[psytrainer]_  ({0})
 PsycastNeurotrainerUseLabel:_[neurotrainer]_ で _{psycast}_ {0} を身につける
 PsycastNeurotrainerDescription:特定の_{psycast}_を訓練する使い捨ての_{mechanite}_薬。\n\n薬は眼窩から投与される。一度脳に放たれると、_[mechanite]_が特定の_{psycast}_能力の知識を形成し、必要な神経組織に変化する。
 
-AbilityNeurotrainerUsed:{USER_labelShort} は _[psycast]_ {1} を身に付けるため _[neurotrainer]_ を使った。
+AbilityNeurotrainerUsed:{USER_labelShort} は {1} の_[psycast]_を身に付けるため _[neurotrainer]_ を使った。
 
 PsycastNeurotrainerNoPsylink:<<Requires psylink??_[psylink]_ が必要>>
 PsycastNeurotrainerAbilityAlreadyLearned:{USER_labelShort} は {1} を既に知っている。
@@ -240,6 +249,8 @@ PsyfocusLevelInfoFallRate:<<Psyfocus falls at {0} per day.??_[Psyfocus]_ は一�
 UserMeditationFocusStrength:<<Meditation focus strength for {LASTUSER_labelShort}??{LASTUSER_labelShort}への_{meditation focus strength}_>>
 MeditationFocusImpacted:<<Focus effect impacted by??集中が妨害されている>>
 PsyfocusPerDayOfMeditation:<<Psyfocus gain rate: {0}/d??_[psyfocus]_増加速度: {0}/日>>
+DesiredPsyfocus:<<Desired psyfocus??望む_[psyfocus]_>>
+DesiredPsyfocusDesc:望む_[psyfocus]_をクリックして設定する。
 
 AbilityDisabledUndrafted:_{draft}_していない。
 AbilityOnCooldown:能力はクールダウン中。使えるようになるまで {0}。

@@ -1103,11 +1103,11 @@
 	}
 }
 {OnDuty
+	;クエストの助っ人
 	{stages
 		{on_duty
-			;todo:未翻訳/保留
-			label:on duty
-			description:I have a job to do.
+			label:<<on duty??任務中>>
+			description:やるべき仕事がある。
 		}
 	}
 }

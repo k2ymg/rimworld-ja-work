@@ -245,7 +245,7 @@
 	{questDescriptionRules
 		{?rulesStrings
 			:questDescription(askerIsNull==true)->[map_definite]から遠くない所に[itemStashContentsValue]の貴重なアイテムが集められているという情報を傍受した。以下のアイテムがある:\n\n[itemStashContents]\n\nおそらく、[allSitePartsDescriptionsExceptFirst]
-			:questDescription(asker_factionLeader==True)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_label]がここから遠くない所に[itemStashContentsValue]の貴重なアイテムが集められていると教えてくれた。以下のアイテムがある:\n\n[itemStashContents]\n\n[asker_label]によれば、[allSitePartsDescriptionsExceptFirst]
+			:questDescription(asker_factionLeader==True)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameDef]がここから遠くない所に[itemStashContentsValue]の貴重なアイテムが集められていると教えてくれた。以下のアイテムがある:\n\n[itemStashContents]\n\n[asker_label]によれば、[allSitePartsDescriptionsExceptFirst]
 		}
 	}
 	LetterLabelQuestExpired.slateRef:_<Quest expired>_: [resolvedQuestName]

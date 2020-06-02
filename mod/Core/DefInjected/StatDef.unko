@@ -164,10 +164,15 @@
 	labelForFullStatList:_<construction speed>_ (_<material factor>_)
 	description:これから作られている物の建造速度への乗数。\n\n石などの素材から作ると遅く、木材などは速い。
 }
+{$MeditationFocusBase
+	; Royaltyでも使われているので注意
+	formatString:<<{0} / day??{0} / 日>>
+	formatStringUnfinalized:<<{0} / day??{0} / 日>>
+}
 {MeditationFocusStrength
-	label:_<meditation focus strength>_
-	description:瞑想でこれに集中したときに追加で得られる_[psyfocus]_の量。周りにある物や瞑想する人によってこの量が変わるものもある。
-	formatString:<<{0}/d??{0}/日>>
+	label:_<meditation psyfocus bonus>_
+	description:瞑想でこれに集中したときに追加で得られる_[psyfocus]_の量。瞑想者の_[psyfocus]_増加速度に加算される。周りにある物や瞑想する人によってこの量が変わるものもある。
+	$:MeditationFocusBase
 }
 {WorkToBuild
 	label:<<work to build??建造工数>>

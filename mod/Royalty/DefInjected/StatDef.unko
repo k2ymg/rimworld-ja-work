@@ -11,8 +11,13 @@
 	label:<<neural heat gain??_{neural heat}_増加>>
 	description:あらゆる_<neural heat>_増加量への乗数。
 }
+{$MeditationFocusBase
+	;元はCoreから
+	formatString:<<{0} / day??{0} / 日>>
+	formatStringUnfinalized:<<{0} / day??{0} / 日>>
+}
 {MeditationFocusGain
-	label:<<meditation focus gain??瞑想焦点増加>>
-	description:瞑想で一日あたりに増える_[psyfocus]_量。焦点を与える物からのボーナスは含まない。
-	formatString:<<{0}/d??{0}/日>>
+	label:<<meditation psyfocus gain??瞑想_[psyfocus]_増加>>
+	description:瞑想で一日あたりに増える_[psyfocus]_量。焦点を与える物からのボーナスは含んでいない。
+	$:MeditationFocusBase
 }

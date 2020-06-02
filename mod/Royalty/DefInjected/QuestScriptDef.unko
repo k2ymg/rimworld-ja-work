@@ -472,6 +472,10 @@
 			;使わない
 			:theirHisHer(lodgersCount==1)->[lodgers0_possessive]
 			:theirHisHer(lodgersCount>=2)->their
+			:lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]
+			:lodgersPronoun(lodgersCount>=2)->they
+			:lodgersWasWere(lodgersCount==1)->was
+			:lodgersWasWere(lodgersCount>=2)->were
 			:appreciateAppreciates(lodgersCount==1)->appreciates
 			:appreciateAppreciates(lodgersCount>=2)->appreciate
 
@@ -493,16 +497,16 @@
 			:questDescription(askerIsNull==true,lodgersCount>=2)->[lodgersCount]人の旅人が[map_definite]に[shuttleDelayTicks_duration]間、世話になりたがっている。[allLodgerInfo][threatsInfo2][commonDescEnding]\n\n[joinerEnding]
 			:threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n旅人達は最近[enemyFaction_name]の重要な儀式に招かれていたが、酔っ払って登場して儀式を冒涜した。
 			:threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiHuman][enemyGroupsParagraph]
-			:threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n旅人達は最近[mechViolation]、軌道_[mechanoid]_群に狙われるようになった。[enemyGroupsParagraph]
+			:threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n旅人達は最近、[mechViolation]。そのため、軌道_[mechanoid]_群に狙われるようになった。[enemyGroupsParagraph]
 			:threatsInfo2(generateThreats==false)->
 
 			:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false,priority=1)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameFull]が頼み事をしている。[asker_possessive]の友達の[lodgers0_nameFull]が他の文化を学びたいと思っており、[asker_pronoun]は[map_definite]で[shuttleDelayTicks_duration]間、[lodgers0_objective]を世話して欲しがっている。[allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]
 
 			:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameFull]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が[enemyFaction_leader_nameFull]の[PersonalCharacteristic]について汚い悪口を書いていたので捕まった。[asker_nameDef]が[enemyFaction_name]との関係を丸く収めるまで、[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。\n\n[enemyFaction_leader_nameDef]は[enemyFaction_name]の[enemyFaction_leaderTitle]なので、[enemyFaction_leader_pronoun]は無礼な[lodgers0_nameDef]へ[enemyFaction_pawnsPlural]の一団を送り出した。\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]
 
-:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameFull]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が最近[mechViolation]。[asker_nameDef]が_[mechanoid hive]_をなだめるまで、[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]
+:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameFull]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が最近、[mechViolation]。[asker_nameDef]が_[mechanoid hive]_をなだめるまで、[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]
 
-			:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==MechClusters,priority=1)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameFull]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が最近[mechViolation]。[asker_nameDef]は[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]
+			:questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==MechClusters,priority=1)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameFull]が頼み事をしている。[asker_possessive]の友達、[lodgers0_nameDef]という[lodgers0_age]歳の[lodgers0_title]が最近、[mechViolation]。[asker_nameDef]は[lodgers0_nameDef]を[shuttleDelayTicks_duration]間、守って欲しいと言っている。\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]
 
 			:questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false,priority=1)->[asker_faction_name]の[asker_faction_leaderTitle]、[asker_nameFull]が最近[lodgersCount]人の[asker_faction_pawnsPlural]を敵の監獄から救い出した。[asker_pronoun]が彼らを乗せるシャトルを送るまで、[map_definite]で[shuttleDelayTicks_duration]間、守って欲しいと言っている。[allLodgerInfo][goodwillForMood][commonDescEnding] [joinerEnding]
 
@@ -658,10 +662,10 @@
 	LetterTextShuttleDestroyed.slateRef:[lodgersLabelSingOrPluralDef]を乗せるために来たシャトルが破壊された。[lodgersLabelSingOrPluralDef]は歩いて去ることになった。[failLetterEndingCommon]
 
 	LetterLabelGoodwillSuccessQuestCompleted.slateRef:_<Quest completed>_
-	LetterTextGoodwillSuccessQuestCompleted.slateRef:クエスト'[resolvedQuestName]'を成功させた！\n\n[asker_nameDef]は高級宿泊施設に報酬を与えようと述べた。滞在中の[lodgersLabelSingOrPluralDef]の平均_{mood}_は{AVERAGEMOOD}だったので、[asker_faction_name]との_<goodwill>_は{GOODWILL}良くなった。
+	LetterTextGoodwillSuccessQuestCompleted.slateRef:クエスト'[resolvedQuestName]'を成功させた！\n\n[lodgersLabelSingOrPluralDef]は高級宿泊施設に報酬を与えようと述べた。滞在中の平均_{mood}_は{AVERAGEMOOD}だったので、[asker_faction_name]との_<goodwill>_は{GOODWILL}良くなった。
 
 	LetterLabelGoodwillFailedQuestCompleted.slateRef:_<Quest completed>_
-	LetterTextGoodwillFailedQuestCompleted.slateRef:クエスト'[resolvedQuestName]'を成功させた！\n\n[asker_nameDef]は高級宿泊施設に報酬を与えようと述べたが、滞在中の[lodgersLabelSingOrPluralDef]の平均_{mood}_は{AVERAGEMOOD}だった。_{faction}_の_<goodwill>_は得られなかった。
+	LetterTextGoodwillFailedQuestCompleted.slateRef:クエスト'[resolvedQuestName]'を成功させた！\n\n[lodgersLabelSingOrPluralDef]は高級宿泊施設に報酬を与えようと述べたが、滞在中の平均_{mood}_は{AVERAGEMOOD}だった。_{faction}_の_<goodwill>_は得られなかった。
 
 	LetterLabelQuestFailed.slateRef:_<Quest failed>_: [resolvedQuestName]
 	LetterTextQuestFailed.slateRef:[lodgersLabelSingOrPluralDef]を乗せるために来たシャトルが出発した。[lodgersLabelSingOrPluralDef]は歩いて去ることになった。[failLetterEndingCommon]

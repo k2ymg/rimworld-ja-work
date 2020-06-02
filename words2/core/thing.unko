@@ -245,8 +245,8 @@ duck egg (fert.):_{duck}_の卵 (_{fert}_)
 goose egg (unfert.):_{goose}_の卵 (_{unfert}_)
 goose egg (fert.):_{goose}_の卵 (_{fert}_)
 herbal medicine:薬草
-medicine:メディシン
-glitterworld medicine:_{glitterworld}_・_{medicine}_
+;medicine:メディシン -> common
+;glitterworld medicine:_{glitterworld}_・_{medicine}_ -> common
 component:コンポーネント
 ;advanced component -> common
 neutroamine:ニュートロアミン

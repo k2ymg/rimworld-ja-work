@@ -100,3 +100,6 @@ arrivingPawnsLabelDef
 mentalBreakInspirationGainReasonText
 message
 valueFormat
+formatStringUnfinalized
+enoughPlantsLetterLabel
+enoughPlantsLetterText

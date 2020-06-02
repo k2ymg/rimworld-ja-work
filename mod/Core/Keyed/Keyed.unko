@@ -932,7 +932,7 @@ Stat_Thing_Plant_MaxGrowthTemperature_Desc:この植物が生きられる最高�
 Stat_Thing_Plant_MinGrowingSkillToSow_Desc:この植物の栽培に必要な最小スキル。
 Stat_Race_Diet_Desc:この動物が食べられる食物の種類。\n\n食べられる: {0}
 Stat_Race_LeatherType_Desc:この動物を解体したときに得られる皮の種類。
-Stat_Race_Animal_TameFailedRevengeChance_Desc:この動物への手なずけが失敗したときに攻撃される確率。
+Stat_Race_Animal_TameFailedRevengeChance_Desc:この動物への手懐けが失敗したときに攻撃される確率。
 Stat_Race_Trainability_Desc:訓練に対するこの動物の全般的な賢さ。賢さと注意力の組み合わせ。何を訓練できるかはこれで決まる。
 Stat_Race_LifeExpectancy_Desc:この動物の平均寿命。
 Stat_Thing_Ingestible_Joy_Desc:これから得られる娯楽の値。大きければ娯楽欲求をより満たせる。
@@ -3074,7 +3074,7 @@ MessageMonumentDestroyedBecauseOfDisallowedBuilding:内部に不許可の建物�
 MessageNoResearchBenchForTechprint:適用できない: 未使用かつ到達可能な _[research bench]_ が無い。 
 NoValidDestinationFound:{0} の適切な目的地が見つからなかった。
 MessageResearchMenuWithoutBench:警告: _[research bench]_ を作るまで研究は行われない。
-MessageActivatorProximityTriggered:{0_indefinite} が近接アクティベーターを作動させた。
+MessageActivatorProximityTriggered:{0_indefinite} が _[proximity activator]_ を作動させた。
 MessageCannotSelectInvisibleStat:{0_label} は現在隠れている。
 
 Autosaving:<<Autosaving??自動保存中>>

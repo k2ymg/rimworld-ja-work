@@ -74,5 +74,7 @@
 		:_{storyteller}_と難易度はオプションメニューからいつでも変えられる。
 		:より多くの_{faction}_と同盟になれば、より多くの交易商や援軍が訪れる。
 		:_<drug policy>_で戦士に_{go-juice}_のような戦闘ドラッグを持たせられる。戦闘の始めに素早く摂取すれば戦いに勝てる。
+		;todo:未翻訳
+		:Set schedules with long stretches of one activity to minimize travel time.
 	}
 }

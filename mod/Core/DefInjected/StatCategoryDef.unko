@@ -34,6 +34,9 @@
 {Drug
 	label:<<Drug??ドラッグ>>
 }
+{DrugAddiction
+	label:<<drug addiction??ドラッグ中毒>>
+}
 {EquippedStatOffsets
 	label:<<Offsets when equipped??装備時のオフセット>>
 }
@@ -50,8 +53,7 @@
 	label:<<Surgery??手術>>
 }
 {CapacityEffects
-	;PawnCapacityDefのこと。ラベルは未使用と思われる。
-	label:<<capacity effects??能力への影響>>
+	label:<<effects??影響>>
 }
 {PawnCombat
 	label:<<Combat??戦闘>>

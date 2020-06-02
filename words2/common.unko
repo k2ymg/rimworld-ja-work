@@ -6,6 +6,7 @@ guest:客人
 faction:派閥
 village:村
 offworld:オフワールド
+glitterworld:グリッターワールド
 
 goodwill:友好度
 
@@ -23,6 +24,10 @@ blueprint:設計
 frame:施工
 
 Draft:徴兵
+
+ui/architect:設計
+schedule:時間割り
+anything:なんでも
 
 ; room role
 bedroom:寝室

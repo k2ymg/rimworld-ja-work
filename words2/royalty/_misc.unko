@@ -50,7 +50,8 @@ EMI field:EMP フィールド
 ; title
 freeholder:フリーホルダー
 yeoman:従者
-esquire:従騎士
+;esquire:従騎士
+acolyte:侍者
 knight:騎士
 dame:女騎士
 praetor:法務官

@@ -1036,25 +1036,6 @@
 	label:_<scaria>_
 	description:動物を凶暴にする疫病。_<scaria>_にかかった動物は特別医療で治せるが、その前に倒さないといけない。手当てしなければ、感染から約五日後に宿主を殺す。この病気は肉を毒して皮膚を腐らせるので、感染している動物は死んだときに腐る可能性があり、解体しても肉や皮は得られない。
 }
-{BloodRot
-	label:_<blood rot>_
-	description:ゆっくりと成長する細菌による疫病。この細菌は成長途中ではあまり影響はないが、成長限界に達すると即死性の毒を放出する。体の免疫系がこれを取り除くには長い時間がかかるので、それまでは普通の薬で症状を押さえ込むのが標準的な手当になっている。_[Glitterworld]_の医者は大量の_[mechanite]_投与でこの感染症を直ぐさま治すが、それには大きな費用がかかる。
-	{stages
-		{minor
-			label:<<minor??小>>
-		}
-		{major
-			label:<<major??中>>
-		}
-		{extreme
-			label:<<extreme??大>>
-		}
-	}
-}
-{Abasia
-	label:<<paralytic abasia??麻痺性歩行不能症>>
-	description:運動野に影響し、歩行不能になる状態。
-}
 {SandInEyes
 	label:_<sand>_
 	labelNoun:_<sand>_

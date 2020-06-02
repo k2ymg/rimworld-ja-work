@@ -6,3 +6,11 @@
 ;	label:<<Royal with conceited trait??うぬぼれの特徴を持つ貴族>>
 ;	helpText:このクエストは {FACTION_royalFavorLabel} を与えるので、 {PAWN_labelShort} は_{royal title}_を得る。しかし、 {PAWN_labelShort} は {2} なので、_{title}_の特権を全て満たすように要求する。 {PAWN_labelShort} は特定の仕事や粗末な食べ物を拒否したり、布告を出したりする。
 ;}
+{MeditationSchedule
+	label:<<Meditation schedule??瞑想の時間割>>
+	helpText:_{colonist}_に瞑想する時間を割り当てられる。\n\n_[SCHEDULE]_タブを開き、'瞑想'の割り当てを選んで、瞑想させたい時間をクリック/ドラッグする。
+}
+{MeditationDesiredPsyfocus
+	label:<<Meditation desired psyfocus??瞑想で望む_[psyfocus]_>>
+	helpText:_{colonist}_毎に望む_[psyfocus]_を設定できる。_[psylink]_を持つ_{colonist}_を選び、_[psyfocus]_バーをクリックする。\n\n_{colonist}_の_[psyfocus]_が望むレベルを下回ると、'_<Anything>_'が割り当てられた時間に自動で瞑想する。
+}

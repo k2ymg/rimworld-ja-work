@@ -197,16 +197,17 @@
 			:threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->規模が[threatSize]倍の_[mech cluster]_が近くに落ちてくる。
 			:threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->規模が[threatSize]倍の_[mech cluster]_が近くに二つ落ちてくる。
 
-			:threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]は最近、[mechViolation]、軌道上の_[mechanoid]_の群れに狙われるようになった。
-			:threatsInfoMechClustersMultiPrisoners->_{prisoner}_は最近、[mechViolation]、軌道上の_[mechanoid]_の群れに狙われるようになった。
-			:threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]は最近、[mechViolation]、_[mechanoid hive]_に狙われるようになった。
-			:threatsInfoMechRaidsMultiHuman->彼らは最近、[mechViolation]、_[mechanoid hive]_に狙われるようになった。
+			:threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]は最近、[mechViolation]。そのため、軌道上の_[mechanoid]_の群れに狙われるようになった。
+			:threatsInfoMechClustersMultiPrisoners->_{prisoner}_は最近、[mechViolation]。そのため、軌道上の_[mechanoid]_の群れに狙われるようになった。
+			:threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]は最近、[mechViolation]。そのため、_[mechanoid hive]_に狙われるようになった。
+			:threatsInfoMechRaidsMultiHuman->彼らは最近、[mechViolation]。そのため、_[mechanoid hive]_に狙われるようになった。
 
-			:mechViolation->なぜか機械人格を怒らせてしまい
-			:mechViolation->古代のスーパーコンピュータのターミナルへ侵入してしまい
-			:mechViolation->_[archotech]_ が気に入っている子供を殺してしまい
-			:mechViolation->_[mechanoid]_ の制御ノードをハックしようとして
-			:mechViolation->古代の貯蔵地区で盗みを働こうとして
+			;これはQuestScriptDefでも使われているので注意。
+			:mechViolation->なぜか機械人格を怒らせた
+			:mechViolation->古代のスーパーコンピュータのターミナルへ侵入した
+			:mechViolation->_[archotech]_が気に入っている子供を殺した
+			:mechViolation->_[mechanoid]_の制御ノードをハックしようとした
+			:mechViolation->古代の貯蔵地区で盗みを働こうとした
 
 			:letterSubject->{SUBJECT_definite}
 

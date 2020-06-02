@@ -19,10 +19,10 @@ Start:開始
 Generate:生成
 
 ; main button
-ui/architect:設計
+;ui/architect:設計 -> common
 work:作業
 restrict:制限
-schedule:時間割り
+;schedule:時間割り-> common
 assign:割り当て
 animal:動物
 animals:_{animal}_

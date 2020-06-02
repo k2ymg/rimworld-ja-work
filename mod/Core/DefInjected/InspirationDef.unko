@@ -32,7 +32,7 @@
 }
 {Inspired_Taming
 	label:_<inspired taming>_
-	beginLetter:難易度に関係なく、次回の動物の手なずけに成功する。\n\n8日経過するか、動物を手なずけると閃きは終わる。
+	beginLetter:難易度に関係なく、次回の動物の手懐けに成功する。\n\n8日経過するか、動物を手懐けると閃きは終わる。
 	endMessage:{0} の閃きは終わった (_<inspired taming>_)。
 	baseInspectLine:_<Inspired>_: _<Inspired taming>_
 }

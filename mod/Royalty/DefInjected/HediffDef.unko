@@ -202,7 +202,26 @@
 			}
 		}
 	}
-}}
+}
+{BloodRot
+	label:_<blood rot>_
+	description:ゆっくりと成長する細菌による疫病。この細菌は成長途中ではあまり影響はないが、成長限界に達すると即死性の毒を放出する。いつかは体の免疫系がこれを取り除くので、それまで普通の薬で症状を押さえ込むのが標準的な手当になっている。_[Glitterworld]_の医者は大量の_[mechanite]_投与でこの感染症を直ぐさま治すが、それには大きな費用がかかる。
+	{stages
+		{minor
+			label:<<minor??小>>
+		}
+		{major
+			label:<<major??中>>
+		}
+		{extreme
+			label:<<extreme??大>>
+		}
+	}
+}
+{Abasia
+	label:<<paralytic abasia??麻痺性歩行不能症>>
+	description:運動野に影響し、歩行不能になる状態。
+}
 {PsychicAmplifier
 	label:_[psylink]_
 	description:より大きな精神領域への有機的な繋がり。これにより、身に付けた特定の_[psycast]_を使って、不可能と思われる方法で現実に影響を与えられる。\n\nより高い_[psylink]_は、より強力な_[psycast]_使える。_[psylink]_の強さに関わらず、身に付けた_[psycast]_だけ使える。\n\n_[Psylink]_は様々なソースから得られる。使い捨ての_[psylink neuroformer]_装置は_[psylink]_を作れる。_{tribe}_民は精神的に繋がった生命への接続儀式を通じて身に付ける方法を知っている。\n\n脳内での精神的現象である_[psylink]_は、間近で観察すると積極的に隠れようとするので、研究者達にあまり理解されていない。有力な説では、人々がどうやってか_[archotech]_に繋がり、おそらく何らかの交渉や同調手段を用いて、その力を利用していると考えられている。

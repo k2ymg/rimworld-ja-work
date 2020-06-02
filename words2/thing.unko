@@ -18,6 +18,9 @@ mortar:迫撃砲
 heavy charge blaster:ヘビー・チャージ・ブラスター
 inferno cannon:インフェルノ・キャノン
 
+medicine:メディシン
+glitterworld medicine:_{glitterworld}_・_{medicine}_
+
 crafting spot:工作場
 smithy:鍛冶台
 comms console:通信コンソール
@@ -38,8 +41,8 @@ marine armor:マーリン・アーマー
 shuttle:シャトル
 throne:王座
 mech drop beacon:メック・ドロップ・ビーコン
-psychic silencer:サイキック・サイレンサー
-psychic amplifier:サイキック・アンプリファイア
+;psychic silencer:サイキック・サイレンサー
+;psychic amplifier:サイキック・アンプリファイア
 sun blocker:サン・ブロッカー
 smoke spewer:スモーク・スペワー
 toxic spewer:トキシック・スペワー
@@ -48,3 +51,4 @@ climate adjuster:クライメイト・アジャスター
 psychic droner:サイキック・ドロナー
 psychic suppressor:サイキック・サプレッサー
 EMI dynamo:EMIダイナモ
+proximity activator:プロキシミティ・アクティベータ
