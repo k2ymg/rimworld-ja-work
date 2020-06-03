@@ -70,8 +70,7 @@ RoyalIncapableOfSocial:{PAWN_labelShort}は社交的な事ができない。_{ro
 RoyalWithConceitedTrait:{PAWN_labelShort}は{2}なので、_{title}_の特権を全て満たすように要求する。{PAWN_labelShort} は特定の仕事や粗末な食べ物を拒否したり、布告を出したりする。他の_{colonist}_はもっと柔軟になれるかもしれない。
 RoyalWithTraitAffectingPsylinkNegatively:{PAWN_labelShort} は {2} なので、_[psylink]_は無益かもしれない。
 
-;todo:未翻訳
-PsylinkTooLowForGainAbility:{PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain the psycast anyways?
+PsylinkTooLowForGainAbility:{PAWN_labelShort} の_[psylink]_は {ABILITY} を使えるレベルに達していない。\n\nそれでもこの_[psycast]_を取得しますか？
 
 Stat_Thing_MinimumRoyalTitle_Name:<<Minimum title??最小の_{title}_>> ({FACTION_name})
 Stat_Thing_MinimumRoyalTitle_Desc:{FACTION_name} にはこのインプラントの使用を特定の_{title}_に制限する法がある。インプラントの取り付けは検出されないが、使用すると、サイキック放射を検出される可能性がある。これは外交問題を引き起こす。
